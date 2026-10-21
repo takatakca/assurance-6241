@@ -18,6 +18,12 @@ def main():
     publisher.git('pull','--ff-only','origin','main')
     live_url=live['base_url'];commit=publication['commit']
     rule=manifest['rules']
+    fieldy_pdf='HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf'
+    fieldy_note='L’export Fieldy de 79 pages est identifié par un courriel de partage, mais son PDF n’a pas été acquis ni analysé intégralement dans cette publication.'
+    if fieldy_pdf in manifest['output_hashes']:
+        acquisition=json.loads((ROOT/'dist-site/HARMONY MOVERS/11_Fieldy/acquisition-pdf.json').read_text(encoding='utf-8'))
+        if acquisition['sha256']!=manifest['output_hashes'][fieldy_pdf]:raise RuntimeError('Fieldy acquisition hash differs from the published PDF')
+        fieldy_note=f"Le PDF Fieldy est acquis et publié : {acquisition['pages']} pages, dont {acquisition['nonempty_pages']} avec du texte natif extrait. L’original, l’extraction paginée et les analyses attribuées sont accessibles dans `HARMONY MOVERS/11_Fieldy/`. Le texte n’a pas été corrigé; l’audio et l’attribution des locuteurs ne sont pas confirmés par cette extraction."
     readme=f'''# Dossiers de travail pour l’avocat
 
 [Ouvrir le site public]({live_url}) · [État de publication](documentation/ETAT-PUBLICATION-GITHUB.md)
@@ -28,7 +34,7 @@ Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **H
 
 {rule}
 
-[Règles communes](docs/documentation/REGLES-COMMUNES.md). Les limites d’acquisition et les vérifications ouvertes figurent dans les synthèses de chaque dossier. Les positions des intervenants, les déclarations et les réponses ChatGPT ne sont pas automatiquement des faits établis. L’export Fieldy de 79 pages est identifié par un courriel de partage, mais son PDF n’a pas été acquis ni analysé intégralement dans cette publication.
+[Règles communes](docs/documentation/REGLES-COMMUNES.md). Les limites d’acquisition et les vérifications ouvertes figurent dans les synthèses de chaque dossier. Les positions des intervenants, les déclarations et les réponses ChatGPT ne sont pas automatiquement des faits établis. {fieldy_note}
 
 ## Travailler à distance
 
@@ -77,7 +83,7 @@ Le site permet consultation, recherche et téléchargement. Les modifications pa
 
 {rule}
 
-L’export Fieldy de 79 pages reste à acquérir et à contrôler intégralement. Les limites de couverture sont conservées dans les synthèses; la publication n’implique pas que tous les échanges et toutes les pièces possibles ont été obtenus.
+{fieldy_note} Les limites de couverture sont conservées dans les synthèses; la publication n’implique pas que tous les échanges et toutes les pièces possibles ont été obtenus.
 '''
     (ROOT/'README.md').write_text(readme,encoding='utf-8')
     (ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md').write_text(status,encoding='utf-8')

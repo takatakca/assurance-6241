@@ -8,7 +8,7 @@ Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **H
 
 Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.
 
-[Règles communes](docs/documentation/REGLES-COMMUNES.md). Les limites d’acquisition et les vérifications ouvertes figurent dans les synthèses de chaque dossier. Les positions des intervenants, les déclarations et les réponses ChatGPT ne sont pas automatiquement des faits établis. L’export Fieldy de 79 pages est identifié par un courriel de partage, mais son PDF n’a pas été acquis ni analysé intégralement dans cette publication.
+[Règles communes](docs/documentation/REGLES-COMMUNES.md). Les limites d’acquisition et les vérifications ouvertes figurent dans les synthèses de chaque dossier. Les positions des intervenants, les déclarations et les réponses ChatGPT ne sont pas automatiquement des faits établis. Le PDF Fieldy est acquis et publié : 79 pages, dont 79 avec du texte natif extrait. L’original, l’extraction paginée et les analyses attribuées sont accessibles dans `HARMONY MOVERS/11_Fieldy/`. Le texte n’a pas été corrigé; l’audio et l’attribution des locuteurs ne sont pas confirmés par cette extraction.
 
 ## Travailler à distance
 
@@ -34,6 +34,6 @@ Le paquet `dist-site/` est contrôlé avant publication. [Les outils de publicat
 
 ## Publication vérifiée
 
-Le paquet publié contient 1,761 fichiers, dont 1,539 sources sélectionnées et 115 lecteurs Markdown, pour environ 514.35 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
+Le paquet publié contient 1,773 fichiers, dont 1,548 sources sélectionnées et 118 lecteurs Markdown, pour environ 515.30 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
 
-[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/9aff96e5b7e741149062fb86dc239aab3ada247d). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-21T19:46:17.401857+00:00. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.
+[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/0c34a6cc836f2e36718339ec267f8278e7282796). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-21T20:17:48.283167+00:00. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.

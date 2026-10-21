@@ -1,7 +1,8 @@
 """Publish the prepared static tree to docs/ in the authorized existing clone.
 
 Uses normal Git/GCM authentication with interaction disabled; no force push,
-no credential inspection, no edits outside docs/, and no source deletion.
+no credential inspection, edits limited to docs/ and its .gitattributes rule,
+and no source deletion.
 """
 from pathlib import Path, PurePosixPath
 import hashlib, json, os, shutil, subprocess
@@ -17,10 +18,14 @@ def git(*args,allowed=(0,)):
         raise RuntimeError('Git operation failed: '+args[0]+'; exit='+str(result.returncode))
     return result
 def text(*args):return git(*args).stdout.decode('utf-8').strip()
-def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def sha(path):return hashlib.sha256(Path(native(path)).read_bytes()).hexdigest()
 def native(path):
     value=str(path.resolve())
-    return '\\\\?\\'+value if os.name=='nt' else value
+    return '\\\\?\\'+value if os.name=='nt' and not value.startswith('\\\\?\\') else value
+
+def file_tree(base):
+    tree=Path(native(base))
+    return {p.relative_to(tree).as_posix() for p in tree.rglob('*') if p.is_file()}
 def main():
     if REPO.is_symlink() or REPO.resolve()!=ROOT.resolve()/'.publish-repo':raise RuntimeError('Unexpected clone location')
     if DOCS.is_symlink() or not DOCS.resolve().is_relative_to(REPO.resolve()):raise RuntimeError('Unexpected docs location')
@@ -32,11 +37,12 @@ def main():
     if manifest.get('mode')!='build' or manifest.get('source_changes_during_build'):
         raise RuntimeError('Build is incomplete or its sources changed during generation')
     expected=set(manifest['output_files'])|{'.site-build.json'}
-    actual={p.relative_to(SOURCE).as_posix() for p in SOURCE.rglob('*') if p.is_file()}
+    actual=file_tree(SOURCE)
     if actual!=expected:raise RuntimeError('Unexpected files or missing files in build output')
     for rel,value in manifest['output_hashes'].items():
         if sha(SOURCE/rel)!=value:raise RuntimeError('Build file changed after validation: '+rel)
     if any((SOURCE/r).stat().st_size>=100_000_000 for r in expected):raise RuntimeError('Individual file exceeds regular GitHub file limit')
+    partial_copy=False
     if git('status','--porcelain').stdout:
         # Resume an interrupted first copy only if Git has no tracked docs and
         # every untracked file is an exact member of this validated snapshot.
@@ -49,28 +55,42 @@ def main():
             rel=p[len('docs/'):]
             if rel not in expected or sha(REPO/p)!=sha(SOURCE/rel):
                 raise RuntimeError('Partial copy differs from the validated snapshot: '+p)
+        partial_copy=True
     print('Validated static output; synchronizing the existing main branch.',flush=True)
     git('pull','--ff-only','origin','main')
     git('config','core.longpaths','true')
     git('config','core.autocrlf','false')
+    existing_hashes={}
     if DOCS.exists():
-        existing={p.relative_to(DOCS).as_posix() for p in DOCS.rglob('*') if p.is_file()}
+        existing=file_tree(DOCS)
         old=DOCS/'.site-build.json'
         if existing and not old.is_file():raise RuntimeError('Existing docs have no generation manifest; no overwrite performed')
         old_manifest=json.loads(old.read_text(encoding='utf-8')) if old.exists() else {}
         previous=set(old_manifest.get('output_files',[]))|({'.site-build.json'} if old.exists() else set())
         if existing-previous:raise RuntimeError('Existing docs contain unmanaged files')
-        changed=[r for r,value in old_manifest.get('output_hashes',{}).items() if (DOCS/r).is_file() and sha(DOCS/r)!=value]
+        existing_hashes={r:sha(DOCS/r) for r in existing}
+        changed=[r for r,value in old_manifest.get('output_hashes',{}).items()
+                 if (r not in existing_hashes and not partial_copy) or (r in existing_hashes and existing_hashes[r]!=value)]
         if changed:raise RuntimeError('Published documents have been edited since the last build; reconcile before overwriting: '+', '.join(changed[:5]))
         for rel in previous-expected:
             target=DOCS/rel
             if '..' in PurePosixPath(rel).parts or not target.resolve().is_relative_to(DOCS.resolve()):raise RuntimeError('Unexpected prior output path')
-            if target.is_file():target.unlink()
+            native_target=Path(native(target))
+            if native_target.is_file():native_target.unlink()
     DOCS.mkdir(exist_ok=True)
+    expected_hashes=dict(manifest['output_hashes']);expected_hashes['.site-build.json']=sha(marker)
+    incremental={'copied_files':0,'unchanged_files':0,'copied_bytes':0,'unchanged_bytes':0}
     for rel in sorted(expected):
-        target=DOCS/rel;Path(native(target.parent)).mkdir(parents=True,exist_ok=True)
+        target=DOCS/rel
+        if existing_hashes.get(rel)==expected_hashes[rel]:
+            incremental['unchanged_files']+=1;incremental['unchanged_bytes']+=(SOURCE/rel).stat().st_size;continue
+        Path(native(target.parent)).mkdir(parents=True,exist_ok=True)
         try:shutil.copy2(native(SOURCE/rel),native(target))
         except OSError as exc:raise RuntimeError('Copy failed: '+rel+'; '+type(exc).__name__)
+        incremental['copied_files']+=1;incremental['copied_bytes']+=(SOURCE/rel).stat().st_size
+    for rel,value in expected_hashes.items():
+        if sha(DOCS/rel)!=value:raise RuntimeError('Copied publication file differs from the validated snapshot: '+rel)
+    print(json.dumps({'incremental_copy':incremental}),flush=True)
     attrs=REPO/'.gitattributes'
     rule='docs/** -text'
     previous=attrs.read_text(encoding='utf-8') if attrs.exists() else ''
@@ -92,7 +112,7 @@ def main():
     if remote!=commit:raise RuntimeError('Remote main does not match the published commit')
     result={'ok':True,'commit':commit,'commit_url':'https://github.com/takatakca/assurance-6241/commit/'+commit,
         'repository':'https://github.com/takatakca/assurance-6241','docs_files':len(expected),
-        'bytes':sum((SOURCE/r).stat().st_size for r in expected),'branch':'main','path':'/docs'}
+        'bytes':sum((SOURCE/r).stat().st_size for r in expected),'branch':'main','path':'/docs','incremental':incremental}
     dest=ROOT/'scripts/.build-livrables/publication-result.json';dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result))
 if __name__=='__main__':

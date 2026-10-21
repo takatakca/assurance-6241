@@ -12,12 +12,17 @@ BASE='https://takatakca.github.io/assurance-6241/'
 manifest=json.loads((OUT/'.site-build.json').read_text(encoding='utf-8'))
 paths=['index.html','6241 Léger/00_Lire_en_premier/index.html',
        '6280 Somerled NDG/index.html','HARMONY MOVERS/index.html']
-pdf=min((p for p in manifest['output_files'] if p.lower().endswith('.pdf')),
-        key=lambda p:(OUT/p).stat().st_size)
+fieldy='HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf'
+pdf=fieldy if fieldy in manifest['output_files'] else min(
+    (p for p in manifest['output_files'] if p.lower().endswith('.pdf')),key=lambda p:(OUT/p).stat().st_size)
 paths.append(pdf)
 eml=min((p for p in manifest['output_files'] if p.lower().endswith('.eml')),
         key=lambda p:(OUT/p).stat().st_size)
 paths.append(eml)
+for path in ['HARMONY MOVERS/11_Fieldy/README.md.html',
+             'HARMONY MOVERS/11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md.html',
+             'HARMONY MOVERS/11_Fieldy/texte-natif-pages.json']:
+    if path in manifest['output_files']:paths.append(path)
 checks=[]
 for path in paths:
     url=BASE+quote(path,safe='/')
@@ -26,7 +31,7 @@ for path in paths:
             data=response.read()
             matches=hashlib.sha256(data).hexdigest()==manifest['output_hashes'][path]
             mime=response.headers.get_content_type()
-            expected='application/pdf' if path.endswith('.pdf') else ('message/rfc822' if path.endswith('.eml') else 'text/html')
+            expected='application/pdf' if path.endswith('.pdf') else ('message/rfc822' if path.endswith('.eml') else ('application/json' if path.endswith('.json') else 'text/html'))
             checks.append({'path':path,'url':url,'status':response.status,'mime':mime,
                            'sha256_matches':matches,'ok':response.status==200 and matches and (mime==expected or path.endswith('.eml'))})
     except HTTPError as exc:checks.append({'path':path,'url':url,'status':exc.code,'ok':False})

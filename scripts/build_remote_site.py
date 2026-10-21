@@ -313,14 +313,24 @@ def write_site(report):
         if '..' in PurePosixPath(rel).parts or not p.resolve().is_relative_to(expected):raise RuntimeError('Ancien chemin non autorisé')
         if p.is_file():p.unlink()
     OUT.mkdir(exist_ok=True)
+    incremental={'copied_source_files':0,'written_generated_files':0,'unchanged_files':0,'written_bytes':0,'unchanged_bytes':0}
     for rel,source in files.items():
         if rel in generated:continue
-        target=OUT/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
+        target=OUT/rel
+        if target.is_file() and digest(target.read_bytes())==hashes[rel]:
+            incremental['unchanged_files']+=1;incremental['unchanged_bytes']+=target.stat().st_size;continue
+        target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
+        incremental['copied_source_files']+=1;incremental['written_bytes']+=target.stat().st_size
     for rel,value in generated.items():
-        target=OUT/rel;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(value)
+        target=OUT/rel
+        if target.is_file() and digest(target.read_bytes())==digest(value):
+            incremental['unchanged_files']+=1;incremental['unchanged_bytes']+=len(value);continue
+        target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(value)
+        incremental['written_generated_files']+=1;incremental['written_bytes']+=len(value)
     # Detect concurrent source changes before calling this a complete build.
     changed=[r for r,p in files.items() if digest(p.read_bytes())!=hashes[r]]
     report['source_changes_during_build']=changed
+    report['incremental']=incremental
     report['mode']='build';report['output_files']=sorted(desired)
     report['output_hashes']={r:digest((OUT/r).read_bytes()) for r in desired}
     marker.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')

@@ -129,11 +129,11 @@ Nature : capture jointe contrôlée visuellement. Engagements : gestion du dossi
 
 - RD-13-01 [19c2cdfe60f34539__1000084543.jpg](<../../06_Procedures_et_avocats/Collecte_Gmail_2026-10-21/19c2cdfe60f34539__1000084543.jpg>).
 
-## RD-14 — Captures de location de conteneur
+## RD-14 — Captures de courriel procédural (classement corrigé le 21 octobre 2026)
 
-Nature : captures locales. Engagements : 10, 11, 16.
+Nature : captures locales. Aucun rattachement comme contrat aux engagements 10, 11 ou 16.
 
-Ne remplacent pas le bail intégral signé ni le contrat du gardien actuel.
+Lecture visuelle : courriel de Mario Taoutel du 12 février 2026 concernant une demande de rejet. Ces captures ne constituent pas une preuve du contrat de conteneur. Leur emplacement historique est conservé.
 
 - RD-14-01 [IMG-H01-Screenshot_2026-02-12_075317.jpg](<../../02_Contrats/Archive_2026-10-05/IMG-H01-Screenshot_2026-02-12_075317.jpg>).
 - RD-14-02 [IMG-H02-Screenshot_2026-02-12_075320.jpg](<../../02_Contrats/Archive_2026-10-05/IMG-H02-Screenshot_2026-02-12_075320.jpg>).
@@ -142,7 +142,7 @@ Ne remplacent pas le bail intégral signé ni le contrat du gardien actuel.
 
 Nature : image locale. Engagements : 19.
 
-Numéro et lien avec l’intervention à vérifier sur l’original; autorisation signée d’accès non repérée.
+Contrôle visuel du 21 octobre 2026 : MTLEV2500487177, Bouchard Stéphane, matricule 4388, PDQ 16. La carte est disponible; le rapport et l’autorisation signée demeurent distincts.
 
 - RD-15-01 [image006.jpg](<../../06_Procedures_et_avocats/Archive_2026-10-05/sources/image006.jpg>).
 

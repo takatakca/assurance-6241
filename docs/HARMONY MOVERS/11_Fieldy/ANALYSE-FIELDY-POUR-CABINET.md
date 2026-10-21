@@ -120,7 +120,7 @@ La demande d'entretien antérieur p. 30 reste distincte d'une nouvelle demande d
 
 1. Audio original, transcription sténographique et liste officielle des engagements, y compris corrections; export de la séance de 13 h s'il existe.
 2. SMS originaux et photos adressés à Lev; enregistrement de l'appel sur les suppléments, journal PandaDoc et en-têtes complets de chaque message pertinent.
-3. Photos/vidéos de l'huissier, de la production, du client et de la partie adverse; métadonnées et correspondance au PV, sans confondre 17 photos d'inventaire et 42 photos mentionnées après la séance.
+3. Photos/vidéos de l'huissier, de la production, du client et de la partie adverse; métadonnées et correspondance au PV. Le récit évoque 17 photos d'équipements et la transcription évoque 42 photos après la séance; ces lots restent à identifier. Les images A24–A40 du répertoire « Inventaire 8697230 Canada Inc » et les PNG « photos-assurance-2024 » contrôlés sont des documents d'inventaire ou des factures alimentaires; ils ne constituent pas ces lots de photos d'équipements.
 4. Rapport Tesanet, pièces d'acquisition et séries, rapports d'entretien exécuté et expertise fonctionnelle; documents du gardien, du transporteur associé au U-Haul et de Remorquage Élite.
 5. États financiers, déclarations TPS/TVQ, caisse/plateformes, baux et paiements, police pertinente, dossier assureur et décisions; preuve d'envoi et de réception des pièces déjà annoncées.
 

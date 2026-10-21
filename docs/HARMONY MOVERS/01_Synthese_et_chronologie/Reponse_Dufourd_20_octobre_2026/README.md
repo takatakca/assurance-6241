@@ -1,5 +1,7 @@
 # Dossier documentaire pour le cabinet
 
+**État préparatoire remplacé :** consulter le [dossier de remise du 21 octobre 2026](../../12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md), avec 25 réponses individualisées et annexes réunies. Les documents ci-dessous conservent la première organisation. Correction de classement : les images H01/H02 de RD-14 montrent un courriel de Mario Taoutel du 12 février 2026, et non un contrat de conteneur. La lettre SNB du 4 août 2026 est désormais récupérée et jointe à la nouvelle remise.
+
 Réponse préparatoire aux demandes de Me Christian Dufourd des 5 et 20 octobre 2026. État au **21 octobre 2026**. **Préparé, non envoyé.** Ce dossier organise les pièces et le travail restant; il ne constitue pas un acte de procédure ni une déclaration que le dossier est prêt pour l'audience.
 
 Commencer par le [projet de réponse](PROJET-REPONSE-NON-ENVOYE.md), puis le [bordereau des pièces disponibles](BORDEREAU-PIECES.md), les [25 engagements et éléments manquants](ELEMENTS-MANQUANTS.md) et le [plan de travail](PLAN-DE-TRAVAIL.md). Les sources originales restent à leurs emplacements, avec liens et SHA256 dans le [bordereau CSV](bordereau-pieces.csv) et le [bordereau JSON](bordereau-pieces.json).

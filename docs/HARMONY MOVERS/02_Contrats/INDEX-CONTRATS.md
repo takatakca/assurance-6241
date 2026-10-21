@@ -6,7 +6,7 @@
 | CT 2500078, transport prévu 12 juin 2025 | [Opposition pièce D-4, pages PDF 37–44 et 45–52](../06_Procedures_et_avocats/Archive_2026-10-05/OPPOSITION-ORIGINAL.pdf#page=37) | Deux reproductions du contrat complet; statut de signature à rapprocher des rappels PandaDoc |
 | Courriel d'envoi CT, 10 juin 2025 | [Texte](../03_Courriels/takatak.ca@gmail.com/Textes/19e6a23b1207901a.txt) | Demande de signature, pas certificat de signature |
 | Rappel d'expiration CT, 19 juin 2025 | [Texte](../03_Courriels/takatak.ca@gmail.com/Textes/19e6a2424af8a3b9.txt) | Disponible à signer jusqu'au 20 juin selon message |
-| Captures de location de conteneur | Archive_2026-10-05/IMG-H01-Screenshot_2026-02-12_075317.jpg et IMG-H02-Screenshot_2026-02-12_075320.jpg | Captures historiques; contrat complet, signataires, dates et paiements à rapprocher |
+| Captures de courriel procédural — classement corrigé le 21 octobre 2026 | Archive_2026-10-05/IMG-H01-Screenshot_2026-02-12_075317.jpg et IMG-H02-Screenshot_2026-02-12_075320.jpg | Lecture visuelle : courriel de Mario Taoutel du 12 février 2026 concernant une demande de rejet. Ces images ne constituent pas un contrat de location de conteneur. Fichiers conservés à leur emplacement historique. |
 | U-Haul / société ayant loué le camion | Matrice engagements 6 et 7 | Contrat et preuves de paiement non repérés dans cette extraction |
 | Bail 5837 Jean-Talon Est | Matrice engagement 12 | À récupérer |
 | Contrat du gardien et chariot élévateur | Matrice engagements 11 et 16 | PV historique présent; contrats et conditions actuels à récupérer |

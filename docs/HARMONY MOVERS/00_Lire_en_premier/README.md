@@ -1,11 +1,13 @@
 # HARMONY MOVERS — dossier de travail
 
+**Remise du 21 octobre 2026 :** [réponses individualisées aux 25 demandes, annexes et documents manquants](../12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md). Ce dossier remplace l'état préparatoire des engagements ci-dessous. Préparé, non envoyé.
+
 Commencer par le [portrait documentaire à jour](../01_Synthese_et_chronologie/PORTRAIT-HARMONY-MOVERS.md), puis la [chronologie](../01_Synthese_et_chronologie/CHRONOLOGIE.md), la [matrice des 25 engagements de Me Dufourd](../01_Synthese_et_chronologie/ENGAGEMENTS-DUFOURD.md) et le [rapprochement des six factures du cabinet](../04_Factures_et_comptabilite/Controle_Dufourd_2026-10-20/README.md).
 
 | Dossier | Utilité |
 |---|---|
 | [01 Synthèse et chronologie](../01_Synthese_et_chronologie/) | Portrait, points litigieux, préparation des pièces |
-| [02 Contrats](../02_Contrats/INDEX-CONTRATS.md) | QT1076 et captures d'entreposage; CT2500078 autonome et dans opposition D-4 |
+| [02 Contrats](../02_Contrats/INDEX-CONTRATS.md) | QT1076 et CT2500078; les captures H01/H02 sont des courriels procéduraux, selon le contrôle visuel du 21 octobre |
 | [03 Courriels](../03_Courriels/) | Sources Gmail, textes, originaux EML récents et factures jointes |
 | [04 Factures et comptabilité](../04_Factures_et_comptabilite/) | Versions des factures et exports; ne pas cumuler versions |
 | [05 Photos et expertises](../05_Photos_et_expertises/) | Photos classées; état, date et causalité à documenter |

@@ -1,0 +1,24 @@
+{
+  "date_collecte": "2026-10-21",
+  "fichier": "2026-08-04-Lettre-reserve-droits-SNB.pdf",
+  "nom_piece_jointe": "QC - Lettre - Assuré - Réserve de droits.pdf",
+  "sha256": "540db2b92c77e02219eac6b2f1ce33b7435388cbae49d774b56ddb88db23625d",
+  "octets": 124896,
+  "pages": 2,
+  "nature": "Pièce jointe PDF originale téléchargée depuis le courriel visible dans Gmail",
+  "boite_source": "ooeuf.ca@gmail.com",
+  "auteur_courriel": "Lorraine Lamarche <lorraine.lamarche@indemnipro.ca>",
+  "date_courriel_affichee": "4 août 2026 à 14:41",
+  "objet": "Concernant la réclamation 53640-196353 - 8697230 Canada Inc. et Quadro Holding Ltée (23910-9447)",
+  "gmail_message_ui": "msg-f:1872619243443499780",
+  "gmail_url": "https://mail.google.com/mail/u/2/#search/%2253640-196353%22/FMfcgzQhVhgHJbDKlhbhLNvqnxRgmvrL",
+  "methode": "Ouverture de la pièce jointe du premier courriel de la chaîne, puis téléchargement via le bouton du lecteur Gmail. Copie binaire conservée sans modification. Extraction de la couche texte PDF avec pypdf.",
+  "eml_source_acquis": false,
+  "controle_visuel": "Deux pages rendues en PNG puis lues visuellement le 21 octobre 2026. Date, référence, police, réserve de couverture et signature concordent avec l’extraction native.",
+  "points_a_rapprocher": [
+    "Date de perte inscrite : 9 juin 2025. Ne pas corriger cette date pour la faire coïncider avec les autres récits du déménagement.",
+    "Contrat Lloyd’s 33140824 sur la page 1, mais 3340824 dans les copies conformes de la page 2.",
+    "Police 10043375 citée, mais texte complet de la police non joint à cette lettre.",
+    "Cette réserve de droits ne confirme ni couverture, ni refus définitif de la réclamation."
+  ]
+}

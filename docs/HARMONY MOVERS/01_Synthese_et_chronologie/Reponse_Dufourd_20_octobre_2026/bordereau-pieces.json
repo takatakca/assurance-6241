@@ -402,15 +402,11 @@
   },
   {
     "id": "RD-14",
-    "title": "Captures de location de conteneur",
-    "engagements": [
-      10,
-      11,
-      16
-    ],
+    "title": "Captures de courriel procédural — classement corrigé",
+    "engagements": [],
     "nature": "captures locales",
     "status": "disponible localement; transmission de ce dossier non effectuée",
-    "limits": "Ne remplacent pas le bail intégral signé ni le contrat du gardien actuel.",
+    "limits": "Lecture visuelle du 21 octobre 2026 : courriel de Mario Taoutel du 12 février 2026 concernant une demande de rejet; aucun contrat de conteneur dans ces deux captures.",
     "files": [
       {
         "path": "02_Contrats/Archive_2026-10-05/IMG-H01-Screenshot_2026-02-12_075317.jpg",
@@ -432,7 +428,7 @@
     ],
     "nature": "image locale",
     "status": "disponible localement; transmission de ce dossier non effectuée",
-    "limits": "Numéro et lien avec l’intervention à vérifier sur l’original; autorisation signée d’accès non repérée.",
+    "limits": "Carte contrôlée visuellement : MTLEV2500487177, Bouchard Stéphane, matricule 4388, PDQ 16. Autorisation signée et rapport distincts.",
     "files": [
       {
         "path": "06_Procedures_et_avocats/Archive_2026-10-05/sources/image006.jpg",

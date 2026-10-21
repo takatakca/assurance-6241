@@ -1,0 +1,36 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+7
+ Index de commandes - base Harmony
+Version 5 octobre 2026. Dire une commande ou un code. Réponse attendue : chiffre avec période, pièce, statut et limite.
+Les originaux priment. Une question ambiguë « revenu total » appelle FIN-01 et précise le périmètre.
+ASS-05 - chèque HSB, HSB cheque
+31 085,30 $ annoncés le 29 octobre 2025 pour l’ancien sinistre; réception rapportée par le client le 6 novembre.
+Encaissement bancaire et ventilation non confirmés. Ce n’est pas une offre Harmony actuelle.
+Pièces : ASSURANCE-HSB-OCTOBRE2025-CONTROLE.md; email-text/19c3887029c39b3e.txt
+Statut : Annonce et réception rapportée
+ASS-04 - CEC WMM, inspection objections
+Joey rapporte inspection CEC, anomalies et travaux contestés; WMM mandaté pour la perte d’exploitation. Rapports et
+justificatifs intégraux à obtenir; allégations non établies par expertise contradictoire dans la base.
+Pièces : ASSURANCE-HSB-OCTOBRE2025-CONTROLE.md
+Statut : Ancien sinistre; positions rapportées
+FIN-06 - réparations comptabilisées, booked repairs
+57 842,60 $ de débits au compte 5765 sur 64 écritures. Ce total ne confirme ni exécution, ni paiement, ni dommages
+Harmony et ne doit pas être ajouté aux factures déjà comptées.
+Pièces : GRAND-LIVRE-ORIGINAL-COMPLEMENT.md; GRAND-LIVRE-CONTROLE-COMPTES.csv
+Statut : Rapprochement requis
+FIN-01 - revenus total, revenue total
+77 995,44 $ : ventes visibles du grand livre juillet 2024-avril 2025. Ce total ne couvre pas toute année, ne démontre pas le
+profit et ne se cumule pas aux synthèses plateformes.
+Pièces : GRAND-LIVRE-ORIGINAL-COMPLEMENT.md; GRAND-LIVRE-ORIGINAL-feuille-1.csv lignes 6-16
+Statut : Original complet; ventes de dix mois
+FIN-02 - uber total
+55 609,85 $ : synthèse de ventes Uber mars-décembre 2024, hors calcul de bénéfice perdu.
+Pièces : COMPTABILITE-VENTES2024-COMPLEMENT.md
+Statut : Synthèse vérifiée
+FIN-03 - doordash total
+22 774,34 $ : synthèse DoorDash avril-décembre 2024.
+Pièces : COMPTABILITE-VENTES2024-COMPLEMENT.md
+Statut : Synthèse vérifiée
+FIN-04 - plateformes total
+78 384,19 $ : somme des deux synthèses ayant des périodes différentes; pas un revenu annuel complet ni une perte de
+profit.

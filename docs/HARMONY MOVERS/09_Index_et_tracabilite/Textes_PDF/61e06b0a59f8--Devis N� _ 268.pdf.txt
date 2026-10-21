@@ -1,0 +1,26 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\Devis N� _ 268.pdf
+SHA256: 61e06b0a59f82c494e256bed0a713ad2318bbbb8b0315344334be3b6fa649f3e
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Devis N° : 268
+Date : 2024-07-12
+Devis
+À : Quadro Holding Ltee
+Réf. Désignation Qté P .U HT Montant
+Chambre froide 1 0,00 $ 0,00 $ 
+Compresseur crd1 0200 1 1 700,00 $ 1 700,00 $ 
+Freon,filtre,soudure,vaccum 1 0,00 $ 0,00 $ 
+Sous-total 1 700,00 $
+851005553 TPS 5 % 85,00 $
+1213285927 TVQ 9,975 % 169,58 $
+T otal T.T.C 1 954,58 $
+T otal T.T.C 1 954,58 $
+Commentaires
+Remplacer compresseur sur chambre froide 
+ 
+Equipement Frigo-Spec Cp277 Succ. Jean-T alon est
+Montreal, Quebec
+H1S 2Z2
+(514) 999-6793
+1 / 1

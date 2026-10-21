@@ -1,0 +1,49 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\ASSURANCE-AVENANT-QUADRO.pdf
+SHA256: 66ac2a15030db7804853c0c54ee3a38502b126e461f3616c2e26119fa06a28e8
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Nom de l’Assuré: Quadro Holding Ltée. 
+Adresse de l’Assuré: 6241 boul. Léger, Montréal, QC,  H1G 6K8 
+Durée de la police : Du: 7 mai 2024 au: 24 août 2025 
+Lieu Assuré: 6241 boul. Léger, Montréal, QC, H1G 6K8
+Genre d'affaires: Restaurant avec friture (comptoir pour emporter et livraison) 
+Prime : - $          Avenant- Changement nom de l'assuré 
+Créancier: Aucun 
+Section I:  Garantie Bris des équipements Convention 
+d’Assurance 
+Montant d’Assurance Franchise 
+Dommages matériels 1a Illimité 1,000$ 
+Pertes d'exploitation / dépenses supplémentaires 1c Illimité Incluse 
+Avarie de biens périssables 1b Illimité Incluse 
+Interruption de services 2b Illimité Incluse 
+Produits dangereux 2d 100 000,00 $ Incluse 
+Erreur et omission 2h 100 000,00 $ Incluse 
+Restauration des données 2i 25 000,00$ Incluse 
+Lieu d'ancrage 2j Illimité Incluse 
+Protection de l'environnement 2k 25 000,00 $ Incluse  
+Équipement garanti transportable hors des lieux 2l 10  000,00$ Incluse 
+Relations publiques 2m 25 000,00$ Incluse 
+Marques et étiquettes 2n 100 000,00$ Incluse 
+Carence des fournisseurs ou des clients 2o 25 000,00$ Incluse 
+Prévention des pertes futures 2p 10 000,00$ Incluse 
+Section II:  Garantie Compromission des données Conven tion 
+d’Assurance 
+Montant d’Assurance Franchise 
+Acceptation des dépenses 2a 50,000  $             Limite globale annuelle 1 000,00$ 
+Évaluation juridique 2a 5,000  $               Incluse
+Évaluation judiciaire des technologies de l'informa tion 2a 5,000  $               Incluse 
+Services de relations publiques 2a 5,000  $               Incluse 
+Logiciels malveillants nommés 2a 50,000  $             Incluse 
+Section III:  Garantie Recouvrement d’identité Conven tion 
+d’Assurance 
+Montant d’Assurance Franchise 
+Remboursement des dépenses 2b 15,000 $ Limite globale annuelle 250,00$ 
+Perte de salaire et dépenses de supervision 2b 5,000  $               Incluse 
+Frais divers non mentionnés 2b 1,000  $               I ncluse 
+Assistance Recouvrement d’identité: IDRclaims@biico.com 
+            CERTIFICAT D’ASSURANCE NO : RACIBM1126 
+      faisant partie de la Police Bureautique Plus Avantage No. 10266520 
+émise à: 
+     Racine & Chamberland Inc. 
+Programme d’Assurance Bris des équipements 

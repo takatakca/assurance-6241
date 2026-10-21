@@ -1,0 +1,36 @@
+Message Gmail: 19a28858d43b45d2
+Date en-tête: Mon, 27 Oct 2025 21:53:51 -0400
+De: takatak ca <takatak.ca@gmail.com>
+À: yan romanowski <romanowskiyan@gmail.com>
+Objet: Estimation montant réclamer 
+Source brute: ../lectures-002.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+Poste de réclamation Détail / Justification Montant ($)
+
+Perte d’exploitation 18 000 $/mois × 4 mois 72 000,00 $
+Frais juridiques – Avocat (Me Romanowski) Honoraires professionnels 3
+500,00 $
+Frais d’injonction provisoire Dépôt et rédaction pour injonction 499,00 $
+Frais de signification – Huissier (Gaétan Guénette) Procès-verbal de
+signification officielle du 5 septembre 2025 105,00 $
+Frais de saisie estimés – Huissier Déplacement, constats, ouverture de
+dossier 1 700,00 $
+Frais de documentation légale Rédaction, dépôt et préparation du dossier
+374,00 $
+Atteinte à la réputation commerciale Préjudice moral et image corporative 5
+000,00 $
+Service de transport additionnel (intervenant tiers) Récupération partielle
+d’équipement – service de déménagement 1 077,90 $
+Récupération des biens de déménagement Intervention, manutention et
+transport des biens à récupérer Montant à déterminer
+Location de conteneur temporaire 229,95 $ × 2 mois 459,90 $
+Entreposage d’urgence Sécurisation du matériel en urgence 350,00 $
+
+
+
+---
+
+Total provisoire des dommages réclamés :
+
+💰 85 065,80 $ CAD + montant à déterminer (récupération des biens)

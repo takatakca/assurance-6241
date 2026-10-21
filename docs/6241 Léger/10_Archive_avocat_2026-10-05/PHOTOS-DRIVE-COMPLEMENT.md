@@ -1,0 +1,20 @@
+# Photographies Drive — lot à rattacher au dossier
+
+Six fichiers examinés individuellement dans Google Drive, compte takatak.ca@gmail.com. Ajoutés le 6 septembre 2026. Le client a demandé de les inclure tous. Cette instruction ne confirme pas leur lien avec le déménagement du 12 juin 2025. L'auteur, la date de prise de vue, le lieu, le numéro de série et l'appartenance à l'inventaire saisi restent à confirmer.
+
+Les six vues paraissent montrer la même vitrine cylindrique à tablettes métalliques. Elles ne représentent pas six appareils distincts. Une photographie extérieure ne permet pas de conclure à une panne de compresseur ou à une perte totale.
+
+| Identifiant | Fichier Drive | Description de la vue |
+|---|---|---|
+| I01 | 1000135225.jpg | Gros plan de la partie inférieure d'une vitrine cylindrique. Tablettes métalliques, paroi de verre présentant des ruptures et fragments transparents au sol. Une pièce noire détachée se trouve près de la base. |
+| I02 | 1000135224.jpg | Vue verticale plus étendue de la même apparence de vitrine. Lignes de fracture et manque de verre visibles sur la paroi à droite et devant les tablettes. Aucun numéro de série lisible. |
+| I03 | 1000135216.jpg | Vue d'ensemble depuis le dessus. Mousse blanche et film d'emballage reposent sur la partie supérieure. Fragments de verre et pièces noires au sol. |
+| I04 | 1000135219.jpg | Vue rapprochée en oblique de la paroi, du bord supérieur orange et des tablettes. Verre fracturé et irrégulier; grand carton visible à droite. |
+| I05 | 1000135222.jpg | Vue d'ensemble : vitrine, matériaux d'emballage, carton VEVOR ouvert avec calages blancs. Des fragments transparents et pièces noires se trouvent sur le carrelage. |
+| I06 | 1000135220.jpg | Autre vue d'ensemble du même agencement, avec une personne partiellement visible à droite. Vitrine et carton VEVOR ouvert; aucun autre appareil endommagé n'est identifié avec certitude. |
+
+## Conservation et limites
+
+Les fichiers locaux I01 à I06 dans photos-drive/ sont des copies d'affichage WEBP de Google Drive. Ils ne sont pas les JPEG originaux complets. Les téléchargements directs des originaux n'ont pas abouti. Les liens, identifiants, dates d'ajout et tailles déclarées des JPEG sont conservés dans PHOTOS-DRIVE-PROVENANCE.json. La date d'ajout au Drive n'est pas une date certifiée de dommage. Aucune de ces vues n'est identifiée comme une photo prise par le huissier.
+
+Avant de les invoquer contre Harmony, confirmer avec le client : quel bien, quelle facture d'achat ou de réparation, quel événement, quelle date, quel lieu, qui a pris les photos et si le carton visible correspond à une livraison distincte. Le lot reste joint pour examen; aucun montant supplémentaire n'est ajouté au chiffrage sur cette seule base.

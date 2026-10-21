@@ -1,0 +1,9 @@
+Source: 06_Procedures_et_avocats\Archive_2026-10-05\sources\DOC091225-09122025113745.pdf
+SHA256: 9881b27793bf9cd01fe61baec0bd5d9d37feddb280de0643fca9982ad4ee9101
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+
+=== PAGE 2 ===
+
+=== PAGE 3 ===

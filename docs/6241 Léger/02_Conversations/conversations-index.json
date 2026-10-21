@@ -1,0 +1,1775 @@
+{
+  "scope": "Dossier 6241 boulevard Léger, Montréal; corpus ChatGPT et captures associées",
+  "as_of": "2026-10-21",
+  "total_archived": 19,
+  "included": 16,
+  "excluded": 3,
+  "additional_referenced_unread": 7,
+  "new_project_unread": 10,
+  "visible_project_total": 29,
+  "total_turns_included": 40,
+  "global_completeness": "Projet visible : 29 chats selon observation navigateur de l’agent principal. 19 exports disponibles, dont 3 exclus. Dix autres liens du projet et sept repères d’archive non lus. Pièces jointes et branches historiques non garanties.",
+  "conversations": [
+    {
+      "thread_id": "6a6efd71-7454-83ea-b81c-165702f9ca27",
+      "title": "Analyse stratégique",
+      "url": "https://chatgpt.com/c/6a6efd71-7454-83ea-b81c-165702f9ca27",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    },
+    {
+      "thread_id": "686558be-24d8-8009-90c1-8621b4a87bf6",
+      "title": "Comptabilisation et modification factures",
+      "url": "https://chatgpt.com/c/686558be-24d8-8009-90c1-8621b4a87bf6",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68f2433e-8e28-8329-abfd-b6b6c71ddb35",
+      "title": "Create chronology report",
+      "url": "https://chatgpt.com/c/68f2433e-8e28-8329-abfd-b6b6c71ddb35",
+      "source_archive_original": "private/sources/68f2433e-8e28-8329-abfd-b6b6c71ddb35-page1.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "ce587ee08aa65b385cdf039e45998a9acbc69e16d1a3196cadaa2fe5657ab276",
+      "turn_count": 5,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": false,
+      "exclusion_reason": "Dossier jeunesse/familial, hors périmètre 6241.",
+      "reference_precedente": null,
+      "turns": [
+        {
+          "id": "bbb212f2-1765-4cc6-b480-fb11d4f99b57",
+          "date_utc": "2025-10-17T13:23:11.182280+00:00",
+          "date_locale": "2025-10-17T09:23:11.182280-04:00",
+          "items": [
+            {
+              "id": "bbb212f2-1765-4cc6-b480-fb11d4f99b57",
+              "type": "userMessage",
+              "character_count": 58,
+              "truncated": false
+            },
+            {
+              "id": "fc6c529e-0cb6-4e52-ad44-f4c3156e4c2c",
+              "type": "agentMessage",
+              "character_count": 667,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "c00ec682-b242-4c5f-9910-1fe9b50d3b37",
+          "date_utc": "2025-10-16T15:42:03.048998+00:00",
+          "date_locale": "2025-10-16T11:42:03.048998-04:00",
+          "items": [
+            {
+              "id": "c00ec682-b242-4c5f-9910-1fe9b50d3b37",
+              "type": "userMessage",
+              "character_count": 8,
+              "truncated": false
+            },
+            {
+              "id": "2e42b0cd-2402-445c-bffd-791b1a2b728e",
+              "type": "agentMessage",
+              "character_count": 9587,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "cf9fbfa6-2797-4f0d-a204-0b507cff7746",
+          "date_utc": "2025-10-16T15:38:19.620369+00:00",
+          "date_locale": "2025-10-16T11:38:19.620369-04:00",
+          "items": [
+            {
+              "id": "cf9fbfa6-2797-4f0d-a204-0b507cff7746",
+              "type": "userMessage",
+              "character_count": 717,
+              "truncated": false
+            },
+            {
+              "id": "4df1653c-2a3a-4617-ae9d-dc822eba8c1e",
+              "type": "agentMessage",
+              "character_count": 13391,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "fed0ec18-f788-4743-b367-1b8f90f54094",
+          "date_utc": "2025-10-16T15:28:48.932858+00:00",
+          "date_locale": "2025-10-16T11:28:48.932858-04:00",
+          "items": [
+            {
+              "id": "fed0ec18-f788-4743-b367-1b8f90f54094",
+              "type": "userMessage",
+              "character_count": 526,
+              "truncated": false
+            },
+            {
+              "id": "8cb2f436-acbf-4aba-914c-bbecac4e9001",
+              "type": "agentMessage",
+              "character_count": 7196,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "e7b6a451-bc73-4d84-8023-a2b8cc7a0619",
+          "date_utc": "2025-10-16T13:53:36.836000+00:00",
+          "date_locale": "2025-10-16T09:53:36.836000-04:00",
+          "items": [
+            {
+              "id": "e7b6a451-bc73-4d84-8023-a2b8cc7a0619",
+              "type": "userMessage",
+              "character_count": 19971,
+              "truncated": false
+            },
+            {
+              "id": "6132250b-e6eb-406d-aa1d-1c1aafcb322d",
+              "type": "agentMessage",
+              "character_count": 5395,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "fed0ec18-f788-4743-b367-1b8f90f54094",
+          "image_count": 5
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": []
+    },
+    {
+      "thread_id": "6a29ba9d-ec58-83ea-8929-30e017adad19",
+      "title": "Demande de rectification dossier",
+      "url": "https://chatgpt.com/c/6a29ba9d-ec58-83ea-8929-30e017adad19",
+      "source_archive_original": "private/sources/6a29ba9d-ec58-83ea-8929-30e017adad19-page1.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "051177ca06060b0faa5375f6699ce557902071fc09b9c8820bad9ce34f36b80a",
+      "turn_count": 1,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": null,
+      "turns": [
+        {
+          "id": "bbb21057-a747-46b9-8df9-e2e9bff7a5e5",
+          "date_utc": "2026-06-10T19:28:18.808029+00:00",
+          "date_locale": "2026-06-10T15:28:18.808029-04:00",
+          "items": [
+            {
+              "id": "bbb21057-a747-46b9-8df9-e2e9bff7a5e5",
+              "type": "userMessage",
+              "character_count": 7476,
+              "truncated": false
+            },
+            {
+              "id": "68fa6beb-9197-4758-a2a4-fe8f9db63088",
+              "type": "agentMessage",
+              "character_count": 10066,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21057-a747-46b9-8df9-e2e9bff7a5e5",
+          "image_count": 3
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [
+        {
+          "name": "1000114479.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-oyBPtK\\1000114479.jpg"
+        },
+        {
+          "name": "1000114478.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-97qBVF\\1000114478.jpg"
+        },
+        {
+          "name": "1000114477.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-Zt6EWw\\1000114477.jpg"
+        }
+      ],
+      "local_export": "02_Conversations/Exports_JSON/6a29ba9d-ec58-83ea-8929-30e017adad19-page1.json",
+      "readable_export": "02_Conversations/Textes_lisibles/6a29ba9d-ec58-83ea-8929-30e017adad19.md"
+    },
+    {
+      "thread_id": "68c1e683-1f18-8322-9a27-c419dc02df80",
+      "title": "Demande de suivi assurance",
+      "url": "https://chatgpt.com/c/68c1e683-1f18-8322-9a27-c419dc02df80",
+      "source_archive_original": "private/sources/chat-68c1e683-1f18-8322-9a27-c419dc02df80.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "f1bc6b85791dcd1378971280ca3230d78466dbac9ec2fc6fdfea362f28a1f521",
+      "turn_count": 2,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-04",
+      "turns": [
+        {
+          "id": "bbb21eb9-1af1-48a0-a84c-418691f685ae",
+          "date_utc": "2025-09-10T20:59:44.362368+00:00",
+          "date_locale": "2025-09-10T16:59:44.362368-04:00",
+          "items": [
+            {
+              "id": "bbb21eb9-1af1-48a0-a84c-418691f685ae",
+              "type": "userMessage",
+              "character_count": 8,
+              "truncated": false
+            },
+            {
+              "id": "3e56db33-3b6a-4129-8148-48bca7c9ec65",
+              "type": "agentMessage",
+              "character_count": 877,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21bad-3a51-4dd8-bc22-16aa154469d3",
+          "date_utc": "2025-09-10T20:58:43.776628+00:00",
+          "date_locale": "2025-09-10T16:58:43.776628-04:00",
+          "items": [
+            {
+              "id": "bbb21bad-3a51-4dd8-bc22-16aa154469d3",
+              "type": "userMessage",
+              "character_count": 38,
+              "truncated": false
+            },
+            {
+              "id": "b25f5adf-52e6-4a19-b72f-736e34f8032f",
+              "type": "agentMessage",
+              "character_count": 686,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-68c1e683-1f18-8322-9a27-c419dc02df80.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68c1e683-1f18-8322-9a27-c419dc02df80.md"
+    },
+    {
+      "thread_id": "68612820-cb30-8009-83bf-706143f720ee",
+      "title": "Demande sur LA VIENNOISE",
+      "url": "https://chatgpt.com/c/68612820-cb30-8009-83bf-706143f720ee",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68efd5a0-4c28-8333-9b89-2096fffcb5c8",
+      "title": "Description problèmes Harmony Movers",
+      "url": "https://chatgpt.com/c/68efd5a0-4c28-8333-9b89-2096fffcb5c8",
+      "source_archive_original": "private/sources/chat-68efd5a0-4c28-8333-9b89-2096fffcb5c8.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "9411718e6a475a5bc76fe4e7d84e2f481fe84ee48a49fc42d0355fa53d458542",
+      "turn_count": 2,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-06",
+      "turns": [
+        {
+          "id": "bbb21248-0be0-421d-81e7-9f60c3dc2903",
+          "date_utc": "2025-10-15T17:11:17.198611+00:00",
+          "date_locale": "2025-10-15T13:11:17.198611-04:00",
+          "items": [
+            {
+              "id": "bbb21248-0be0-421d-81e7-9f60c3dc2903",
+              "type": "userMessage",
+              "character_count": 29,
+              "truncated": false
+            },
+            {
+              "id": "5fa7d0e7-1729-495f-a74a-1db119070601",
+              "type": "agentMessage",
+              "character_count": 2222,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb211d1-b6e8-42df-9d2a-456c76e81bc1",
+          "date_utc": "2025-10-15T17:10:57.645499+00:00",
+          "date_locale": "2025-10-15T13:10:57.645499-04:00",
+          "items": [
+            {
+              "id": "bbb211d1-b6e8-42df-9d2a-456c76e81bc1",
+              "type": "userMessage",
+              "character_count": 57,
+              "truncated": false
+            },
+            {
+              "id": "3ed247a2-9173-4b3c-8e9e-fe0bf4a14076",
+              "type": "agentMessage",
+              "character_count": 755,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-68efd5a0-4c28-8333-9b89-2096fffcb5c8.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68efd5a0-4c28-8333-9b89-2096fffcb5c8.md"
+    },
+    {
+      "thread_id": "6abc0c85-20d4-83ea-93f4-c2ddba77fb7c",
+      "title": "Dossier chronologique",
+      "url": "https://chatgpt.com/c/6abc0c85-20d4-83ea-93f4-c2ddba77fb7c",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    },
+    {
+      "thread_id": "69002b66-b284-8327-8b75-918b3244134c",
+      "title": "Email formal de mise en demeure",
+      "url": "https://chatgpt.com/c/69002b66-b284-8327-8b75-918b3244134c",
+      "source_archive_original": "private/sources/chat-69002b66-b284-8327-8b75-918b3244134c.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "2465209611173d040302a1ef7d3715629cac12d952ce84437a7efc14431260f0",
+      "turn_count": 3,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-08",
+      "turns": [
+        {
+          "id": "bbb21af9-d353-4859-b7f8-4a9a0bd706d7",
+          "date_utc": "2025-10-28T02:38:09.359216+00:00",
+          "date_locale": "2025-10-27T22:38:09.359216-04:00",
+          "items": [
+            {
+              "id": "bbb21af9-d353-4859-b7f8-4a9a0bd706d7",
+              "type": "userMessage",
+              "character_count": 579,
+              "truncated": false
+            },
+            {
+              "id": "cb206f4c-53d7-4f2c-abd4-4abfd491caca",
+              "type": "agentMessage",
+              "character_count": 2654,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb212ce-9b19-45af-9a72-834fbd73df23",
+          "date_utc": "2025-10-28T02:36:00.706685+00:00",
+          "date_locale": "2025-10-27T22:36:00.706685-04:00",
+          "items": [
+            {
+              "id": "bbb212ce-9b19-45af-9a72-834fbd73df23",
+              "type": "userMessage",
+              "character_count": 1144,
+              "truncated": false
+            },
+            {
+              "id": "86c1fd14-40ea-4ad3-be8b-8fd5b649f2e1",
+              "type": "agentMessage",
+              "character_count": 2393,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21e58-a20f-467e-b4a5-d13f04bbbbaf",
+          "date_utc": "2025-10-28T02:33:12.917950+00:00",
+          "date_locale": "2025-10-27T22:33:12.917950-04:00",
+          "items": [
+            {
+              "id": "bbb21e58-a20f-467e-b4a5-d13f04bbbbaf",
+              "type": "userMessage",
+              "character_count": 1347,
+              "truncated": false
+            },
+            {
+              "id": "4d29a4ca-58f9-49e3-930e-85b1aa8d5b50",
+              "type": "agentMessage",
+              "character_count": 2421,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21e58-a20f-467e-b4a5-d13f04bbbbaf",
+          "image_count": 2
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-69002b66-b284-8327-8b75-918b3244134c.json",
+      "readable_export": "02_Conversations/Textes_lisibles/69002b66-b284-8327-8b75-918b3244134c.md"
+    },
+    {
+      "thread_id": "6a1a6b53-c33c-83ea-a7e0-292d996dfdef",
+      "title": "Expertise technique et saisie",
+      "url": "https://chatgpt.com/c/6a1a6b53-c33c-83ea-a7e0-292d996dfdef",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68e8e36c-8974-8329-8a46-b6b30cc1ea6b",
+      "title": "Insurance claim delay",
+      "url": "https://chatgpt.com/c/68e8e36c-8974-8329-8a46-b6b30cc1ea6b",
+      "source_archive_original": "private/sources/chat-68e8e36c-8974-8329-8a46-b6b30cc1ea6b.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "c830c7d677414c018af39cab9d54a626c3df715a0c52cc5cceef54a0ce73568f",
+      "turn_count": 6,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-05",
+      "turns": [
+        {
+          "id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c",
+          "date_utc": "2025-10-10T18:52:43.879000+00:00",
+          "date_locale": "2025-10-10T14:52:43.879000-04:00",
+          "items": [
+            {
+              "id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c",
+              "type": "userMessage",
+              "character_count": 143,
+              "truncated": false
+            },
+            {
+              "id": "388f35d2-c297-48c8-84b0-323d4fc849e5",
+              "type": "agentMessage",
+              "character_count": 8082,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "4444cafa-784c-4817-af2c-f9fd2ec54b74",
+          "date_utc": "2025-10-10T18:50:39.485000+00:00",
+          "date_locale": "2025-10-10T14:50:39.485000-04:00",
+          "items": [
+            {
+              "id": "4444cafa-784c-4817-af2c-f9fd2ec54b74",
+              "type": "userMessage",
+              "character_count": 159,
+              "truncated": false
+            },
+            {
+              "id": "4fd0d49d-f259-4e24-aabf-b361cbd2b4d2",
+              "type": "agentMessage",
+              "character_count": 7070,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "a4ef976f-e7d9-46cf-8596-8dd663b68e6b",
+          "date_utc": "2025-10-10T18:38:42.382000+00:00",
+          "date_locale": "2025-10-10T14:38:42.382000-04:00",
+          "items": [
+            {
+              "id": "a4ef976f-e7d9-46cf-8596-8dd663b68e6b",
+              "type": "userMessage",
+              "character_count": 8,
+              "truncated": false
+            },
+            {
+              "id": "32316849-c35f-45a6-8db1-5a57d9b5574b",
+              "type": "agentMessage",
+              "character_count": 7552,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "0a5371c9-1ef1-4aa8-ba78-48de0c940143",
+          "date_utc": "2025-10-10T18:38:33.910000+00:00",
+          "date_locale": "2025-10-10T14:38:33.910000-04:00",
+          "items": [
+            {
+              "id": "0a5371c9-1ef1-4aa8-ba78-48de0c940143",
+              "type": "userMessage",
+              "character_count": 513,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "33774d7b-b0a5-45f8-9e51-9f8e9f7471b8",
+          "date_utc": "2025-10-10T18:33:10.979000+00:00",
+          "date_locale": "2025-10-10T14:33:10.979000-04:00",
+          "items": [
+            {
+              "id": "33774d7b-b0a5-45f8-9e51-9f8e9f7471b8",
+              "type": "userMessage",
+              "character_count": 159,
+              "truncated": false
+            },
+            {
+              "id": "96b03ba2-d49d-4ab5-bf2f-2ebf478ea3c6",
+              "type": "agentMessage",
+              "character_count": 8084,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "9ad30dc5-643c-4dfc-918b-482e72d983e4",
+          "date_utc": "2025-10-10T18:31:35.152970+00:00",
+          "date_locale": "2025-10-10T14:31:35.152970-04:00",
+          "items": [
+            {
+              "id": "9ad30dc5-643c-4dfc-918b-482e72d983e4",
+              "type": "agentMessage",
+              "character_count": 5573,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "4444cafa-784c-4817-af2c-f9fd2ec54b74",
+          "image_count": 3
+        },
+        {
+          "turn_id": "33774d7b-b0a5-45f8-9e51-9f8e9f7471b8",
+          "image_count": 7
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [
+        {
+          "name": "Screenshot_2025-10-10_144332.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-bhWQA5\\Screenshot_2025-10-10_144332.jpg"
+        },
+        {
+          "name": "Screenshot_2025-10-10_144456.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-tzwNsP\\Screenshot_2025-10-10_144456.jpg"
+        },
+        {
+          "name": "Screenshot_2025-10-10_145008.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-R3QAr2\\Screenshot_2025-10-10_145008.jpg"
+        },
+        {
+          "name": "1000041916.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-BhGN61\\1000041916.jpg"
+        },
+        {
+          "name": "1000041915.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-0lfHdJ\\1000041915.jpg"
+        },
+        {
+          "name": "1000036523.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-1nBOHn\\1000036523.jpg"
+        },
+        {
+          "name": "1000036525.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-wj9Gt4\\1000036525.jpg"
+        },
+        {
+          "name": "1000033337.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-uKn1hl\\1000033337.jpg"
+        },
+        {
+          "name": "1000036526.jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-Lsiya4\\1000036526.jpg"
+        },
+        {
+          "name": "1000069201 (1).jpg",
+          "path": "C:\\Users\\fansh\\AppData\\Local\\Temp\\codex-file-preview-7MaFrN\\1000069201 (1).jpg"
+        }
+      ],
+      "local_export": "02_Conversations/Exports_JSON/chat-68e8e36c-8974-8329-8a46-b6b30cc1ea6b.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68e8e36c-8974-8329-8a46-b6b30cc1ea6b.md"
+    },
+    {
+      "thread_id": "685d6192-7948-8009-a43e-8b407e6610c2",
+      "title": "Intervention pompiers et électricité",
+      "url": "https://chatgpt.com/c/685d6192-7948-8009-a43e-8b407e6610c2",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "695225bc-09e0-832e-9dc3-70880bbccd7a",
+      "title": "Legal Question Clarification",
+      "url": "https://chatgpt.com/c/695225bc-09e0-832e-9dc3-70880bbccd7a",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+      "title": "Letter draft polishing",
+      "url": "https://chatgpt.com/c/68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+      "source_archive_original": "private/sources/chat-68c2e94f-1e7c-832a-8885-713f3e4a74b9.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "ce0d48bc05430c65043a883b134f1f99fdc91ec6047b754e52d35d61cfc68437",
+      "turn_count": 4,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-03",
+      "turns": [
+        {
+          "id": "bbb21ace-2c8b-4cbf-bfcc-e1e4c8d0acb9",
+          "date_utc": "2025-09-11T16:07:59.768065+00:00",
+          "date_locale": "2025-09-11T12:07:59.768065-04:00",
+          "items": [
+            {
+              "id": "bbb21ace-2c8b-4cbf-bfcc-e1e4c8d0acb9",
+              "type": "userMessage",
+              "character_count": 1720,
+              "truncated": false
+            },
+            {
+              "id": "cb33ee40-0aed-4452-ad88-c4c429357c47",
+              "type": "agentMessage",
+              "character_count": 2045,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21c20-4ed6-4765-a42c-3c53938139cc",
+          "date_utc": "2025-09-11T15:38:01.550069+00:00",
+          "date_locale": "2025-09-11T11:38:01.550069-04:00",
+          "items": [
+            {
+              "id": "bbb21c20-4ed6-4765-a42c-3c53938139cc",
+              "type": "userMessage",
+              "character_count": 2216,
+              "truncated": false
+            },
+            {
+              "id": "c2d32d32-6f7f-4c81-9e32-088598540864",
+              "type": "agentMessage",
+              "character_count": 3451,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21a10-52d8-4b0f-81f8-7e1c34d385a9",
+          "date_utc": "2025-09-11T15:23:05.546966+00:00",
+          "date_locale": "2025-09-11T11:23:05.546966-04:00",
+          "items": [
+            {
+              "id": "bbb21a10-52d8-4b0f-81f8-7e1c34d385a9",
+              "type": "userMessage",
+              "character_count": 8,
+              "truncated": false
+            },
+            {
+              "id": "6e2c2747-d291-4dde-8ddc-58325250b773",
+              "type": "agentMessage",
+              "character_count": 2484,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21cb3-8240-48d8-96cf-c1c0eabc9543",
+          "date_utc": "2025-09-11T15:22:55.410353+00:00",
+          "date_locale": "2025-09-11T11:22:55.410353-04:00",
+          "items": [
+            {
+              "id": "bbb21cb3-8240-48d8-96cf-c1c0eabc9543",
+              "type": "userMessage",
+              "character_count": 1851,
+              "truncated": false
+            },
+            {
+              "id": "c90b1dae-8f4f-4c5c-888f-c7c9c98497cd",
+              "type": "agentMessage",
+              "character_count": 117,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-68c2e94f-1e7c-832a-8885-713f3e4a74b9.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+    },
+    {
+      "thread_id": "67fd362b-4908-8009-951c-0023c0aac27a",
+      "title": "Lettre assurance équipement",
+      "url": "https://chatgpt.com/c/67fd362b-4908-8009-951c-0023c0aac27a",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "6a29f57f-0268-83ea-a98f-7da6124b1603",
+      "title": "Lettre avocat rec",
+      "url": "https://chatgpt.com/c/6a29f57f-0268-83ea-a98f-7da6124b1603",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68c40a34-e368-8329-8bfa-d378aa28bed4",
+      "title": "Lettre professionnelle mise à jour",
+      "url": "https://chatgpt.com/c/68c40a34-e368-8329-8bfa-d378aa28bed4",
+      "source_archive_original": "private/sources/chat-68c40a34-e368-8329-8bfa-d378aa28bed4.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "d844c7704d79a0a6bfa6a55ce89458e09dca6470077f9493844ac813de0baac0",
+      "turn_count": 2,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-02",
+      "turns": [
+        {
+          "id": "bbb2131a-8b42-4541-865d-333cc2557d4e",
+          "date_utc": "2025-09-12T11:57:56.358787+00:00",
+          "date_locale": "2025-09-12T07:57:56.358787-04:00",
+          "items": [
+            {
+              "id": "bbb2131a-8b42-4541-865d-333cc2557d4e",
+              "type": "userMessage",
+              "character_count": 581,
+              "truncated": false
+            },
+            {
+              "id": "1d278f25-5741-4a45-8231-e5f7d63f42e4",
+              "type": "agentMessage",
+              "character_count": 3117,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21129-90df-47b6-af3c-555e182b1ce3",
+          "date_utc": "2025-09-12T11:56:54.851579+00:00",
+          "date_locale": "2025-09-12T07:56:54.851579-04:00",
+          "items": [
+            {
+              "id": "bbb21129-90df-47b6-af3c-555e182b1ce3",
+              "type": "userMessage",
+              "character_count": 3119,
+              "truncated": false
+            },
+            {
+              "id": "cdd2bd6a-5a14-45d2-8b5a-b9dc8e52a634",
+              "type": "agentMessage",
+              "character_count": 119,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-68c40a34-e368-8329-8bfa-d378aa28bed4.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68c40a34-e368-8329-8bfa-d378aa28bed4.md"
+    },
+    {
+      "thread_id": "68f8fcf4-7568-832e-a578-2574cd31a1d6",
+      "title": "Lettre à avocate",
+      "url": "https://chatgpt.com/c/68f8fcf4-7568-832e-a578-2574cd31a1d6",
+      "source_archive_original": "private/sources/chat-68f8fcf4-7568-832e-a578-2574cd31a1d6.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "4c239eda28bf3a1af0d0f4e351802dff899050f70de9d4b3448dadf1a532fa58",
+      "turn_count": 4,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": false,
+      "exclusion_reason": "Dossier jeunesse/familial, lien assurance non établi.",
+      "reference_precedente": "CORR-10",
+      "turns": [
+        {
+          "id": "bbb218dc-9550-4f9a-9d62-92a58971a53e",
+          "date_utc": "2025-10-22T16:01:21.744039+00:00",
+          "date_locale": "2025-10-22T12:01:21.744039-04:00",
+          "items": [
+            {
+              "id": "bbb218dc-9550-4f9a-9d62-92a58971a53e",
+              "type": "userMessage",
+              "character_count": 155,
+              "truncated": false
+            },
+            {
+              "id": "96017d9f-1be4-40d6-b621-cfa5def8e3f7",
+              "type": "agentMessage",
+              "character_count": 2200,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21ae2-a787-4fde-88f6-84ae706da38e",
+          "date_utc": "2025-10-22T16:00:31.886518+00:00",
+          "date_locale": "2025-10-22T12:00:31.886518-04:00",
+          "items": [
+            {
+              "id": "bbb21ae2-a787-4fde-88f6-84ae706da38e",
+              "type": "userMessage",
+              "character_count": 138,
+              "truncated": false
+            },
+            {
+              "id": "3990c0d9-468c-422d-b4d1-c02cfffcebd5",
+              "type": "agentMessage",
+              "character_count": 1547,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21101-479a-436b-b067-b4af4780dc2a",
+          "date_utc": "2025-10-22T15:59:45.419421+00:00",
+          "date_locale": "2025-10-22T11:59:45.419421-04:00",
+          "items": [
+            {
+              "id": "bbb21101-479a-436b-b067-b4af4780dc2a",
+              "type": "userMessage",
+              "character_count": 248,
+              "truncated": false
+            },
+            {
+              "id": "6713cf22-287c-40d0-bae3-cb07f47fb79d",
+              "type": "agentMessage",
+              "character_count": 1315,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb215d1-3b60-4a94-a51c-d1a272a476be",
+          "date_utc": "2025-10-22T15:49:09.547984+00:00",
+          "date_locale": "2025-10-22T11:49:09.547984-04:00",
+          "items": [
+            {
+              "id": "bbb215d1-3b60-4a94-a51c-d1a272a476be",
+              "type": "userMessage",
+              "character_count": 1307,
+              "truncated": false
+            },
+            {
+              "id": "83525b7a-e4ed-4533-82b2-e74e6db17107",
+              "type": "agentMessage",
+              "character_count": 1784,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21101-479a-436b-b067-b4af4780dc2a",
+          "image_count": 2
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": []
+    },
+    {
+      "thread_id": "68e050c5-0788-8328-822f-837195fd2070",
+      "title": "Message à l'assureur",
+      "url": "https://chatgpt.com/c/68e050c5-0788-8328-822f-837195fd2070",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "69ff7213-698c-83ea-a564-81c78200263f",
+      "title": "Mise en demeure Quadro Holding",
+      "url": "https://chatgpt.com/c/69ff7213-698c-83ea-a564-81c78200263f",
+      "source_archive_original": "private/sources/chat-69ff7213-698c-83ea-a564-81c78200263f.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "155afc3792d6d05ce2dfa528aa919f0ef4a848646e85f97a56f1861eb75eb824",
+      "turn_count": 3,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-13",
+      "turns": [
+        {
+          "id": "bbb2134d-09dc-4b75-ba6c-6e8f14e2fd29",
+          "date_utc": "2026-05-09T17:47:11.080027+00:00",
+          "date_locale": "2026-05-09T13:47:11.080027-04:00",
+          "items": [
+            {
+              "id": "bbb2134d-09dc-4b75-ba6c-6e8f14e2fd29",
+              "type": "userMessage",
+              "character_count": 314,
+              "truncated": false
+            },
+            {
+              "id": "8aa4a505-65ea-41ba-bfa3-acc04a6d2bac",
+              "type": "agentMessage",
+              "character_count": 2825,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb218c5-8454-4c36-b767-f8b3e87bc57e",
+          "date_utc": "2026-05-09T17:44:46.495029+00:00",
+          "date_locale": "2026-05-09T13:44:46.495029-04:00",
+          "items": [
+            {
+              "id": "bbb218c5-8454-4c36-b767-f8b3e87bc57e",
+              "type": "userMessage",
+              "character_count": 45,
+              "truncated": false
+            },
+            {
+              "id": "a6908b45-fe49-4705-882d-2f00c3e77329",
+              "type": "agentMessage",
+              "character_count": 312,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21739-3075-4a93-8392-cb397f38ff08",
+          "date_utc": "2026-05-09T17:42:46.185953+00:00",
+          "date_locale": "2026-05-09T13:42:46.185953-04:00",
+          "items": [
+            {
+              "id": "bbb21739-3075-4a93-8392-cb397f38ff08",
+              "type": "userMessage",
+              "character_count": 709,
+              "truncated": false
+            },
+            {
+              "id": "5deb1485-01ab-454b-94a1-e35740b2e747",
+              "type": "agentMessage",
+              "character_count": 2468,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-69ff7213-698c-83ea-a564-81c78200263f.json",
+      "readable_export": "02_Conversations/Textes_lisibles/69ff7213-698c-83ea-a564-81c78200263f.md"
+    },
+    {
+      "thread_id": "6a170cfe-93b0-83ea-9bd4-dcd10ce6ebd6",
+      "title": "Narratif et documents assurance",
+      "url": "https://chatgpt.com/c/6a170cfe-93b0-83ea-9bd4-dcd10ce6ebd6",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    },
+    {
+      "thread_id": "6a170cb7-2618-83ea-a72e-f9a36ea7bce0",
+      "title": "Narratif et documents nécessaires",
+      "url": "https://chatgpt.com/c/6a170cb7-2618-83ea-a72e-f9a36ea7bce0",
+      "source_archive_original": "private/sources/6a170cb7-2618-83ea-a72e-f9a36ea7bce0-page1.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "a3a7909ff75c908ade22c02d56b7423ef3f918e7e7414a477a085c939433e191",
+      "turn_count": 1,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": null,
+      "turns": [
+        {
+          "id": "bbb21e22-8dab-45ac-a550-976556d898f5",
+          "date_utc": "2026-05-27T15:24:50.962467+00:00",
+          "date_locale": "2026-05-27T11:24:50.962467-04:00",
+          "items": [
+            {
+              "id": "bbb21e22-8dab-45ac-a550-976556d898f5",
+              "type": "userMessage",
+              "character_count": 716,
+              "truncated": false
+            },
+            {
+              "id": "b59dfbd7-05b8-414b-a324-a8b60758c5b3",
+              "type": "agentMessage",
+              "character_count": 3585,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/6a170cb7-2618-83ea-a72e-f9a36ea7bce0-page1.json",
+      "readable_export": "02_Conversations/Textes_lisibles/6a170cb7-2618-83ea-a72e-f9a36ea7bce0.md"
+    },
+    {
+      "thread_id": "6904be87-9f08-8332-ac0f-fcee83fa1f8d",
+      "title": "Porter plainte avocat",
+      "url": "https://chatgpt.com/c/6904be87-9f08-8332-ac0f-fcee83fa1f8d",
+      "source_archive_original": "private/sources/chat-6904be87-9f08-8332-ac0f-fcee83fa1f8d.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "d2e641678f3f2cb3783964041535a536bbdfa188a407aeada3eaeb669aac67ba",
+      "turn_count": 3,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": false,
+      "exclusion_reason": "Litige avocat/terrain distinct; lien assurance non établi.",
+      "reference_precedente": "CORR-09",
+      "turns": [
+        {
+          "id": "bbb2110a-3953-49a7-a842-370054c457b9",
+          "date_utc": "2025-10-31T13:53:21.021509+00:00",
+          "date_locale": "2025-10-31T09:53:21.021509-04:00",
+          "items": [
+            {
+              "id": "bbb2110a-3953-49a7-a842-370054c457b9",
+              "type": "userMessage",
+              "character_count": 211,
+              "truncated": false
+            },
+            {
+              "id": "459aedd6-3155-406e-9c16-85a42c737fc7",
+              "type": "agentMessage",
+              "character_count": 4980,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb213da-35ca-4c4e-8fa6-d1ab70a09abd",
+          "date_utc": "2025-10-31T13:51:46.749908+00:00",
+          "date_locale": "2025-10-31T09:51:46.749908-04:00",
+          "items": [
+            {
+              "id": "bbb213da-35ca-4c4e-8fa6-d1ab70a09abd",
+              "type": "userMessage",
+              "character_count": 3,
+              "truncated": false
+            },
+            {
+              "id": "486039e9-2d38-4e82-80a4-3b526b79e2fc",
+              "type": "agentMessage",
+              "character_count": 1348,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21bf0-fedf-4516-9614-43b71cb1b889",
+          "date_utc": "2025-10-31T13:50:38.862736+00:00",
+          "date_locale": "2025-10-31T09:50:38.862736-04:00",
+          "items": [
+            {
+              "id": "bbb21bf0-fedf-4516-9614-43b71cb1b889",
+              "type": "userMessage",
+              "character_count": 154,
+              "truncated": false
+            },
+            {
+              "id": "090d76df-88ea-4bee-8265-6610c14fb66c",
+              "type": "agentMessage",
+              "character_count": 2636,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21bf0-fedf-4516-9614-43b71cb1b889",
+          "image_count": 3
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": []
+    },
+    {
+      "thread_id": "686139bd-8a4c-8009-bd54-c4e392b541fd",
+      "title": "Quadro Holding Logo",
+      "url": "https://chatgpt.com/c/686139bd-8a4c-8009-bd54-c4e392b541fd",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68e65151-eed4-8328-875c-2319b3ac9f95",
+      "title": "Recover lawyer's fees Québec",
+      "url": "https://chatgpt.com/c/68e65151-eed4-8328-875c-2319b3ac9f95",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68e5339e-f6b0-8325-aeb2-44bd3f5ba8e5",
+      "title": "Reformulation de message",
+      "url": "https://chatgpt.com/c/68e5339e-f6b0-8325-aeb2-44bd3f5ba8e5",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68f5060d-ffcc-8325-a5df-01a504840cee",
+      "title": "Reformulation lettre professionnelle",
+      "url": "https://chatgpt.com/c/68f5060d-ffcc-8325-a5df-01a504840cee",
+      "source_archive_original": "private/sources/chat-68f5060d-ffcc-8325-a5df-01a504840cee.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "273e7ab0fe107657ca32df9238844ab61614144e39d777746e9b754ab97c6d33",
+      "turn_count": 2,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-11",
+      "turns": [
+        {
+          "id": "bbb21c1e-f799-4605-94ce-ee56967cb4d1",
+          "date_utc": "2025-10-19T15:39:55.172429+00:00",
+          "date_locale": "2025-10-19T11:39:55.172429-04:00",
+          "items": [
+            {
+              "id": "bbb21c1e-f799-4605-94ce-ee56967cb4d1",
+              "type": "userMessage",
+              "character_count": 211,
+              "truncated": false
+            },
+            {
+              "id": "bea656dd-038d-47c0-be60-f4a3914c14e1",
+              "type": "agentMessage",
+              "character_count": 1335,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21882-d8dc-4755-a1ba-cdb86d6508f8",
+          "date_utc": "2025-10-19T15:39:15.425026+00:00",
+          "date_locale": "2025-10-19T11:39:15.425026-04:00",
+          "items": [
+            {
+              "id": "bbb21882-d8dc-4755-a1ba-cdb86d6508f8",
+              "type": "userMessage",
+              "character_count": 183,
+              "truncated": false
+            },
+            {
+              "id": "b04fb4e1-1ec1-44ce-8a7e-00e3904d1330",
+              "type": "agentMessage",
+              "character_count": 815,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21c1e-f799-4605-94ce-ee56967cb4d1",
+          "image_count": 1
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-68f5060d-ffcc-8325-a5df-01a504840cee.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68f5060d-ffcc-8325-a5df-01a504840cee.md"
+    },
+    {
+      "thread_id": "690cd1f5-6304-8327-957d-b5af7cb99d5b",
+      "title": "Reformulation message professionnel",
+      "url": "https://chatgpt.com/c/690cd1f5-6304-8327-957d-b5af7cb99d5b",
+      "source_archive_original": "private/sources/chat-690cd1f5-6304-8327-957d-b5af7cb99d5b.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "a0dbd7681d6c59f160e6635c96a9d391abaebd093cff4f4c76805fda729dac6b",
+      "turn_count": 5,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-12",
+      "turns": [
+        {
+          "id": "bbb21d12-996e-4be4-87ef-ca5ab92ed4cc",
+          "date_utc": "2025-11-07T03:36:51.279995+00:00",
+          "date_locale": "2025-11-06T22:36:51.279995-05:00",
+          "items": [
+            {
+              "id": "bbb21d12-996e-4be4-87ef-ca5ab92ed4cc",
+              "type": "userMessage",
+              "character_count": 61,
+              "truncated": false
+            },
+            {
+              "id": "805b5e1c-2d09-4453-a7ae-5913176169d3",
+              "type": "agentMessage",
+              "character_count": 166,
+              "truncated": false
+            },
+            {
+              "id": "ad0e5d96-7f51-4744-9954-0f8dbb65e923",
+              "type": "agentMessage",
+              "character_count": 4621,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb2113b-e593-431a-b125-771845ff1219",
+          "date_utc": "2025-11-07T03:36:19.376274+00:00",
+          "date_locale": "2025-11-06T22:36:19.376274-05:00",
+          "items": [
+            {
+              "id": "bbb2113b-e593-431a-b125-771845ff1219",
+              "type": "userMessage",
+              "character_count": 10524,
+              "truncated": false
+            },
+            {
+              "id": "62b84e0f-6c33-478b-b0de-bbe8b02c27e3",
+              "type": "agentMessage",
+              "character_count": 611,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21448-e43b-4299-90c4-695fa322fea9",
+          "date_utc": "2025-11-07T03:32:44.411576+00:00",
+          "date_locale": "2025-11-06T22:32:44.411576-05:00",
+          "items": [
+            {
+              "id": "bbb21448-e43b-4299-90c4-695fa322fea9",
+              "type": "userMessage",
+              "character_count": 4104,
+              "truncated": false
+            },
+            {
+              "id": "1043aaa5-1a54-46cf-9763-0730e775a62d",
+              "type": "agentMessage",
+              "character_count": 5573,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb2151f-820f-4a67-ad7b-fff83dedc78c",
+          "date_utc": "2025-11-07T03:26:44.766263+00:00",
+          "date_locale": "2025-11-06T22:26:44.766263-05:00",
+          "items": [
+            {
+              "id": "bbb2151f-820f-4a67-ad7b-fff83dedc78c",
+              "type": "userMessage",
+              "character_count": 989,
+              "truncated": false
+            },
+            {
+              "id": "69d86d63-6db8-470f-bccb-321e842b4482",
+              "type": "agentMessage",
+              "character_count": 5546,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21ce2-6448-4941-9a06-1c53f1524a78",
+          "date_utc": "2025-11-06T17:19:25.937588+00:00",
+          "date_locale": "2025-11-06T12:19:25.937588-05:00",
+          "items": [
+            {
+              "id": "bbb21ce2-6448-4941-9a06-1c53f1524a78",
+              "type": "userMessage",
+              "character_count": 323,
+              "truncated": false
+            },
+            {
+              "id": "c0cd3a5a-b805-4155-a8fc-0cd02157be22",
+              "type": "agentMessage",
+              "character_count": 517,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb2151f-820f-4a67-ad7b-fff83dedc78c",
+          "image_count": 3
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-690cd1f5-6304-8327-957d-b5af7cb99d5b.json",
+      "readable_export": "02_Conversations/Textes_lisibles/690cd1f5-6304-8327-957d-b5af7cb99d5b.md"
+    },
+    {
+      "thread_id": "686433e7-ed3c-8009-9c36-18a83d719b8e",
+      "title": "Relocalisation opérations assurance",
+      "url": "https://chatgpt.com/c/686433e7-ed3c-8009-9c36-18a83d719b8e",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "6900ef44-cc10-832f-a872-35e919e1d27f",
+      "title": "Retranscription OCR VERSION AVOCATS",
+      "url": "https://chatgpt.com/c/6900ef44-cc10-832f-a872-35e919e1d27f",
+      "source_archive_original": "private/sources/6900ef44-cc10-832f-a872-35e919e1d27f-page1.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "e8edb62734e452de9f6946e1d9f2e3ec388c22892ff63e8eaab8577f69aea4ed",
+      "turn_count": 5,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": null,
+      "turns": [
+        {
+          "id": "bbb21e00-2c29-42a4-b832-d7729f4b3b31",
+          "date_utc": "2025-10-28T17:21:49.662313+00:00",
+          "date_locale": "2025-10-28T13:21:49.662313-04:00",
+          "items": [
+            {
+              "id": "bbb21e00-2c29-42a4-b832-d7729f4b3b31",
+              "type": "userMessage",
+              "character_count": 87,
+              "truncated": false
+            },
+            {
+              "id": "5fd74674-acf3-4e8c-bcfa-6f2a7ae653b1",
+              "type": "agentMessage",
+              "character_count": 542,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb2191d-ba73-4253-baa7-223ff456bdab",
+          "date_utc": "2025-10-28T17:17:56.383143+00:00",
+          "date_locale": "2025-10-28T13:17:56.383143-04:00",
+          "items": [
+            {
+              "id": "bbb2191d-ba73-4253-baa7-223ff456bdab",
+              "type": "userMessage",
+              "character_count": 90,
+              "truncated": false
+            },
+            {
+              "id": "6e8aad48-98bd-4acd-8f79-ac8e0faa6cfe",
+              "type": "agentMessage",
+              "character_count": 716,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21760-e3c7-40f0-a650-9965c1e1bf85",
+          "date_utc": "2025-10-28T17:13:22.623695+00:00",
+          "date_locale": "2025-10-28T13:13:22.623695-04:00",
+          "items": [
+            {
+              "id": "bbb21760-e3c7-40f0-a650-9965c1e1bf85",
+              "type": "userMessage",
+              "character_count": 100,
+              "truncated": false
+            },
+            {
+              "id": "2e564b5f-7f8f-4c15-ae72-e5ff78a0b24b",
+              "type": "agentMessage",
+              "character_count": 563,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21770-5810-4c58-b4b2-93440c0a4f32",
+          "date_utc": "2025-10-28T17:00:56.181411+00:00",
+          "date_locale": "2025-10-28T13:00:56.181411-04:00",
+          "items": [
+            {
+              "id": "bbb21770-5810-4c58-b4b2-93440c0a4f32",
+              "type": "userMessage",
+              "character_count": 89,
+              "truncated": false
+            },
+            {
+              "id": "efc08525-79f1-4fc8-888c-61dfa94391ac",
+              "type": "agentMessage",
+              "character_count": 1182,
+              "truncated": false
+            }
+          ]
+        },
+        {
+          "id": "bbb21a7d-ddf9-4150-801d-cdeed85f8d3f",
+          "date_utc": "2025-10-28T16:50:16.912780+00:00",
+          "date_locale": "2025-10-28T12:50:16.912780-04:00",
+          "items": [
+            {
+              "id": "bbb21a7d-ddf9-4150-801d-cdeed85f8d3f",
+              "type": "userMessage",
+              "character_count": 106,
+              "truncated": false
+            },
+            {
+              "id": "54131448-9ecc-4cf3-b8ac-ed73de9d8b1c",
+              "type": "agentMessage",
+              "character_count": 1037,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21e00-2c29-42a4-b832-d7729f4b3b31",
+          "image_count": 1
+        },
+        {
+          "turn_id": "bbb2191d-ba73-4253-baa7-223ff456bdab",
+          "image_count": 1
+        },
+        {
+          "turn_id": "bbb21760-e3c7-40f0-a650-9965c1e1bf85",
+          "image_count": 1
+        },
+        {
+          "turn_id": "bbb21770-5810-4c58-b4b2-93440c0a4f32",
+          "image_count": 1
+        },
+        {
+          "turn_id": "bbb21a7d-ddf9-4150-801d-cdeed85f8d3f",
+          "image_count": 1
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/6900ef44-cc10-832f-a872-35e919e1d27f-page1.json",
+      "readable_export": "02_Conversations/Textes_lisibles/6900ef44-cc10-832f-a872-35e919e1d27f.md"
+    },
+    {
+      "thread_id": "696fbeb7-91a8-8326-b6f1-7eaed7e2d911",
+      "title": "Résumé saisie et enlèvement",
+      "url": "https://chatgpt.com/c/696fbeb7-91a8-8326-b6f1-7eaed7e2d911",
+      "source_archive_original": "private/sources/696fbeb7-91a8-8326-b6f1-7eaed7e2d911-page1.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "4ad9201dc87ccd026c67a330637b1feb188489c17e9189235a7a0a0951bb620c",
+      "turn_count": 1,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": null,
+      "turns": [
+        {
+          "id": "bbb21cdd-e6be-45bf-bcdf-2abff05e12bf",
+          "date_utc": "2026-01-20T17:43:32.797818+00:00",
+          "date_locale": "2026-01-20T12:43:32.797818-05:00",
+          "items": [
+            {
+              "id": "bbb21cdd-e6be-45bf-bcdf-2abff05e12bf",
+              "type": "userMessage",
+              "character_count": 228,
+              "truncated": false
+            },
+            {
+              "id": "b7374afe-b5ae-4ee9-b594-fd2e2bd5902e",
+              "type": "agentMessage",
+              "character_count": 1647,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [
+        {
+          "turn_id": "bbb21cdd-e6be-45bf-bcdf-2abff05e12bf",
+          "image_count": 2
+        }
+      ],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/696fbeb7-91a8-8326-b6f1-7eaed7e2d911-page1.json",
+      "readable_export": "02_Conversations/Textes_lisibles/696fbeb7-91a8-8326-b6f1-7eaed7e2d911.md"
+    },
+    {
+      "thread_id": "688089f4-f420-8324-b915-f169b37a05e5",
+      "title": "Résumé transactions Clover POS",
+      "url": "https://chatgpt.com/c/688089f4-f420-8324-b915-f169b37a05e5",
+      "in_scope": "à qualifier après lecture",
+      "status": "Lien visible dans projet ASSURANCE 6241; texte non récupéré",
+      "reference": "Observation DOM de l’agent principal, compte Takatak Plus, 21 octobre 2026",
+      "turn_count": null
+    },
+    {
+      "thread_id": "68de664f-d7f8-8326-902b-9bb75045e23d",
+      "title": "Réécriture professionnelle en français",
+      "url": "https://chatgpt.com/c/68de664f-d7f8-8326-902b-9bb75045e23d",
+      "source_archive_original": "private/sources/chat-68de664f-d7f8-8326-902b-9bb75045e23d.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "6437e5d0369aea824059a328461e6a1c09f7f683b508d725672eed7632b9b86c",
+      "turn_count": 1,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-01",
+      "turns": [
+        {
+          "id": "bbb219da-ec51-488a-b26e-359829a83232",
+          "date_utc": "2025-10-02T11:47:28.466031+00:00",
+          "date_locale": "2025-10-02T07:47:28.466031-04:00",
+          "items": [
+            {
+              "id": "bbb219da-ec51-488a-b26e-359829a83232",
+              "type": "userMessage",
+              "character_count": 1697,
+              "truncated": false
+            },
+            {
+              "id": "933e9dad-d32c-4c06-ba05-ae2c34b48f16",
+              "type": "agentMessage",
+              "character_count": 2395,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-68de664f-d7f8-8326-902b-9bb75045e23d.json",
+      "readable_export": "02_Conversations/Textes_lisibles/68de664f-d7f8-8326-902b-9bb75045e23d.md"
+    },
+    {
+      "thread_id": "69002afb-cfc0-8332-bbaf-7a9347b2ee7b",
+      "title": "Signature document clarification",
+      "url": "https://chatgpt.com/c/69002afb-cfc0-8332-bbaf-7a9347b2ee7b",
+      "source_archive_original": "private/sources/chat-69002afb-cfc0-8332-bbaf-7a9347b2ee7b.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "394bd3aa966a3fd53ecc471739a6299d875846ebfad69e8dc00ae3f35b617d56",
+      "turn_count": 1,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": "CORR-07",
+      "turns": [
+        {
+          "id": "bbb219a5-ce5c-4217-b793-346ad4fcfebd",
+          "date_utc": "2025-10-28T02:31:24.216250+00:00",
+          "date_locale": "2025-10-27T22:31:24.216250-04:00",
+          "items": [
+            {
+              "id": "bbb219a5-ce5c-4217-b793-346ad4fcfebd",
+              "type": "userMessage",
+              "character_count": 18,
+              "truncated": false
+            },
+            {
+              "id": "104167d8-37ec-495f-b09f-4bb99123ef00",
+              "type": "agentMessage",
+              "character_count": 491,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/chat-69002afb-cfc0-8332-bbaf-7a9347b2ee7b.json",
+      "readable_export": "02_Conversations/Textes_lisibles/69002afb-cfc0-8332-bbaf-7a9347b2ee7b.md"
+    },
+    {
+      "thread_id": "69ff7385-27e4-83ea-87ba-01f85e0bfbe1",
+      "title": "Suivi dossier 6241",
+      "url": "https://chatgpt.com/c/69ff7385-27e4-83ea-87ba-01f85e0bfbe1",
+      "source_archive_original": "private/sources/69ff7385-27e4-83ea-87ba-01f85e0bfbe1-page1.json",
+      "source_capture_date": "2026-10-20",
+      "review_date": "2026-10-21",
+      "sha256": "ba5af59195a985b4cfaa01c76a28e76f8698b114e7b12ba48d15b7d24c5cfa5b",
+      "turn_count": 1,
+      "page": {
+        "order": "newest_first",
+        "limit": 10,
+        "nextCursor": null,
+        "hasMore": false
+      },
+      "in_scope": true,
+      "exclusion_reason": null,
+      "reference_precedente": null,
+      "turns": [
+        {
+          "id": "bbb219bb-774f-4b9f-952e-372720bd2ad8",
+          "date_utc": "2026-05-09T17:49:42.930088+00:00",
+          "date_locale": "2026-05-09T13:49:42.930088-04:00",
+          "items": [
+            {
+              "id": "bbb219bb-774f-4b9f-952e-372720bd2ad8",
+              "type": "userMessage",
+              "character_count": 721,
+              "truncated": false
+            },
+            {
+              "id": "fd85fbff-f0e2-48c9-bcce-06ab304ff7d0",
+              "type": "agentMessage",
+              "character_count": 15161,
+              "truncated": false
+            }
+          ]
+        }
+      ],
+      "missing_attachment_markers": [],
+      "truncated_items": [],
+      "attachments_reported_by_archive": [],
+      "local_export": "02_Conversations/Exports_JSON/69ff7385-27e4-83ea-87ba-01f85e0bfbe1-page1.json",
+      "readable_export": "02_Conversations/Textes_lisibles/69ff7385-27e4-83ea-87ba-01f85e0bfbe1.md"
+    },
+    {
+      "thread_id": "6908d0f8-b9d8-8326-87e6-849b80c89f44",
+      "title": "Évaluation équipements Quadro",
+      "url": "https://chatgpt.com/c/6908d0f8-b9d8-8326-87e6-849b80c89f44",
+      "in_scope": "à confirmer par contenu",
+      "status": "Repérée dans archive locale; contenu non récupéré pendant cette extraction",
+      "reference": "10_Archive_avocat_2026-10-05/CHATGPT-REPERES.md",
+      "retrieval_attempt_date": "2026-10-21",
+      "access_error": "ChatGPT conversation history was rate limited",
+      "turn_count": null
+    }
+  ]
+}

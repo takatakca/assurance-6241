@@ -1,0 +1,127 @@
+{
+  "historical_failures": [
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069243.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069245.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069248.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069247.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069249.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069250.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069251.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069256.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069257.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069258.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069259.jpg",
+      "error": {
+        "type": "google_api_error",
+        "code": "RATE_LIMIT_EXCEEDED",
+        "message": "Failed to read attachment",
+        "status": "PERMISSION_DENIED",
+        "reason": "RATE_LIMIT_EXCEEDED"
+      }
+    }
+  ],
+  "current_status": "Tous les 11 échecs temporaires résolus par reprise individuelle, voir pieces-reprise-lot3.json.",
+  "unresolved": 0
+}

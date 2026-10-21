@@ -1,0 +1,8 @@
+Message Gmail: 1a10d11a5159b3ff
+Date en-tête: Mon, 5 Oct 2026 17:17:02 +0000
+De: takatak.ca@gmail.com
+À: cdufourd@dufourdion.com
+Objet: QUADRO / Harmony — 6/7 — Assurance, indemnités et distinction des sinistres
+Source brute: ../lectures-003.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+

@@ -1,0 +1,96 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+42
+ Seize justificatifs photographiés - vérification des
+ réparations antérieures
+Originaux JPEG récupérés dans photos-reparations-janvier2025/, provenant du courriel Oeuf Déjeuner du 1er juillet
+2025, conversation 197c6af4f0b3ebb1. Le transfert reprend un envoi du 2 janvier 2025 à Joey Dubois, copie SCM Attach.
+Les dates des justificatifs sont antérieures au déménagement du 12 juin 2025. Copies orientées pour lecture dans
+lectures-factures2024/; originaux conservés inchangés. Examen individuel des seize images, toutes photographies de
+documents, sans constat du huissier.
+ID
+Fichier
+Pièce et date imprimée
+Contenu et montant
+K01
+1000069199.jpg
+Frigo-Spec A320, 3 octobre
+2024
+Compresseur 4440 115 V, fréon/filtre/vacuum/soudure et 5
+heures de travail; « Frigo sous-sol », installation des
+pièces. 1 705,00 $ avant taxes; 1 960,32 $ total. Aucune
+mention de paiement.
+K02
+1000069200.jpg
+A315, 22 septembre 2024
+Four à pizza : 3 soudures, 2 blowers, 2 pilotes, forfait de 7
+900,00 $; total 9 083,03 $. « Mise en route et ajustements
+». Autre photographie de la même facture que F04; ne pas
+compter deux fois.
+K03
+1000069201.jpg
+A281, 17 juillet 2024
+BUNN CDS2 control board, agitateur côté gauche, travail;
+total 2 690,42 $. Remplacement sur machine à slush, mise
+en route et ajustements.
+K04
+1000069202.jpg
+A294, 29 juillet 2024
+Machine à cocktail TAYLOR : compresseur 2212 gk1,
+drive motor, 5 heures. 3 850,00 $ avant taxes; 4 426,54 $
+total. La date imprimée est le 29; certaines références
+antérieures mentionnent le 22. Faire confirmer plutôt que
+fusionner ces dates.
+K05
+1000069203.jpg
+A267, 13 juillet 2024
+Compresseur crd1 0200 cab, thermostat et travail;
+installation sur chambre froide, mise en route et
+ajustements. Total 3 403,26 $. En-tête A290 d'une autre
+feuille visible derrière; ne pas confondre les deux factures.
+K06
+1000069204.jpg
+A290, 22 juillet 2024
+Contrôle électronique HOM, gear motor gauche, travail,
+machine à slush BUNN. Total 2 690,42 $, mise en route et
+ajustements. Même total que A281 et appareil voisin : faire
+préciser s'il s'agit d'une seconde intervention ou d'une
+version rectifiée; ne pas additionner automatiquement.
+K07
+1000069205.jpg
+A245, 25 juin 2024
+Support aluminium, ancrages, déplacement, huit heures;
+installation de la climatisation fournie par le client et mise
+en route. Total 1 316,46 $.
+K08
+1000069206.jpg
+A280, 15 juillet 2024
+Compresseur CS20 230 V, R404a, filtre, vacuum, filage et
+travail. Remplacement côté gauche sur machine à crème
+glacée, mise en route et ajustements. Total 6 887,00 $.
+K09
+1000069207.jpg
+A266, 10 juillet 2024
+Unité frigorifique 2 hp 230 V, installation sur chambre
+congélateur et mise en route. Total 9 565,92 $. Même
+facture que F03, photographie différente.
+K10
+1000069208.jpg
+Devis 260, 7 juillet 2024
+Machine à café Curtis : module de remplissage, valve
+solénoïde et main-d'œuvre. Total proposé 1 707,38 $. Un
+devis ne prouve pas l'exécution.
+K11
+1000069209.jpg
+Devis 259, 7 juillet 2024
+Frigo pâtisserie IFI-DDSG-6; remplacement recommandé
+parce que R22 discontinué. Proposition d'un frigo vitré six
+pieds, 13 222,13 $ taxes incluses. Ni facture de travaux ni
+preuve de livraison.
+K12
+1000069210.jpg
+Senville, commande
+120714, 19 juin 2024
+Thermopompe SENDC-48HF, installation 16 pieds et
+chauffage 15 kW; Quadro, 6241 Léger. Payment 5 474,85
+$, grand total affiché 5 099,99 $; vérifier le décompte réel.
+Même commande que F01.

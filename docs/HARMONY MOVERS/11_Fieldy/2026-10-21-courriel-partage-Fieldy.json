@@ -1,0 +1,28 @@
+{
+  "emails": [
+    {
+      "id": "1a15fd5a4ddf7dfb",
+      "thread_id": "1a15fd5a4b09e8e8",
+      "from_": "takatak ca takatak.ca@gmail.com",
+      "to": [
+        "takatak ca takatak.ca@gmail.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "takatak ca has shared a file with you",
+      "snippet": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:c4dc68eb-22e2-4295-bcb2-ca96aa69398f",
+      "labels": [
+        "IMPORTANT",
+        "SENT",
+        "INBOX"
+      ],
+      "has_attachment": false,
+      "attachments": [],
+      "inline_images": [],
+      "email_ts": "2026-10-21T14:59:58-04:00",
+      "display_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a15fd5a4ddf7dfb",
+      "display_title": "takatak ca has shared a file with you"
+    }
+  ],
+  "next_page_token": null
+}

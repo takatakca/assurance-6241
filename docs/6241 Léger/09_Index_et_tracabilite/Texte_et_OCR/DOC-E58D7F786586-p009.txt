@@ -1,0 +1,36 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+9
+27 rubriques d’inventaire, avec lots et unités multiples. Nombre définitif de biens endommagés ou de pertes totales non
+établi.
+Pièces : REGISTRE-EQUIPEMENTS.csv; MATRICE-PREUVES-PAR-RUBRIQUE.csv
+Statut : Pas de diagnostic global
+EQ-04 - réparations avant, prior repairs
+Factures et mises en route de 2024 disponibles. Essais finaux et interventions de 2025 avant le retrait à obtenir; ne pas
+affirmer que tous les appareils fonctionnaient.
+Pièces : FACTURES-REPARATIONS-COMPLEMENT.md; QUESTIONS-ET-PIECES-A-OBTENIR.pdf
+Statut : Historique documenté
+EQ-05 - absents, missing
+PV comporte des découvertes ultérieures, notamment rubriques 12,14,17 et parties de 27. Pointer les objets encore
+manquants aujourd’hui.
+Pièces : OPPOSITION-ORIGINAL.pdf p.14-17; POINTS-A-CLARIFIER.md
+Statut : Présence actuelle à vérifier
+PROC-01 - garde, custody
+PV D-1 : saisie du 17 décembre 2025, garde Kostas Kronis, 5505 Irwin LaSalle à cette date. Instruction actuelle à obtenir.
+Pièces : OPPOSITION-ORIGINAL.pdf p.12
+Statut : PV daté
+PROC-02 - autorisation tester, test permission
+Proposer protocole d’accès/manipulations/tests à l’huissier et à l’avocat; article 733 prévoit déplacement avec accord de
+l’huissier. Vérifier ordonnance actuelle; pas une autorisation générale de tester.
+Pièces : DROIT-ET-APPLICATION.md; MASTER-PLAN-ASSUREUR.md
+Statut : Décision à obtenir
+PROC-03 - injonction active, injunction
+Projets retrouvés et saisie attestée; état actuel de l’injonction ou de la levée non établi par un projet ou une demande.
+Pièces : FEUILLE-AVOCAT-RENCONTRE.md; DII-JANVIER-12P-ORIGINAL.pdf
+Statut : Actes actuels requis
+CHR-01 - date déménagement, moving date
+12 juin 2025 dans la demande et D-9; courriel 10 juin annonce retrait le jour même. Distinguer annonce, démontage et
+retrait effectif.
+Pièces : POINTS-A-CLARIFIER.md; OPPOSITION-ORIGINAL.pdf p.66-68
+Statut : Écart à expliquer
+CHR-02 - conteneur, container
+Client indique 43 pieds; note du huissier 53 pieds. Vérifier conteneur, lieu et dates.

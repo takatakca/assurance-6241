@@ -1,0 +1,8 @@
+Message Gmail: 1a10d11afbf7805b
+Date en-tête: Mon, 5 Oct 2026 17:17:05 +0000
+De: takatak.ca@gmail.com
+À: cdufourd@dufourdion.com
+Objet: QUADRO / Harmony — 7/7 — Comptabilité, revenus et vérifications à finaliser
+Source brute: ../lectures-003.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+

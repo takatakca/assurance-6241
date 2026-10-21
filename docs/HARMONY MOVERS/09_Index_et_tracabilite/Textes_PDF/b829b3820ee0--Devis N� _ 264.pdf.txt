@@ -1,0 +1,33 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\Devis N� _ 264.pdf
+SHA256: b829b3820ee0b93d4b2a1723ec16ded701f0589cc4bc618501a9cfb75e8aa951
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Devis N° : 264
+Date : 2024-07-07
+Devis
+À : Quadro Holding Ltee
+Réf. Désignation Qté P .U HT Montant
+***Electro-freeze 88tf*** 1 0,00 $ 0,00 $ 
+Compresseur côté gauche
+Copeland CS20,
+1 5 100,00 $ 5 100,00 $ 
+Freon 4 50,00 $ 200,00 $ 
+Filtre 1 70,00 $ 70,00 $ 
+Vaccum 1 25,00 $ 25,00 $ 
+Filage électrique 1 20,00 $ 20,00 $ 
+0001 MAIN-D’OEUVRE 5 115,00 $ 575,00 $ 
+Sous-total 5 990,00 $
+851005553 TPS 5 % 299,50 $
+1213285927 TVQ 9,975 % 597,50 $
+T otal T.T.C 6 887,00 $
+T otal T.T.C 6 887,00 $
+Commentaires
+Remplacer compresseur,mose en route,,
+Réparer court-circuit côté gauche
+ 
+Equipement Frigo-Spec Cp277 Succ. Jean-T alon est
+Montreal, Quebec
+H1S 2Z2
+(514) 999-6793
+1 / 1

@@ -1,0 +1,17 @@
+Source: 06_Procedures_et_avocats\Archive_2026-10-05\DII-NOVEMBRE-ORIGINAL.pdf
+SHA256: 1abfa4b5bd725aeb8194875e0659edb7bccbfcfd031dbd509bafa655f74e2659
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+
+=== PAGE 2 ===
+
+=== PAGE 3 ===
+
+=== PAGE 4 ===
+
+=== PAGE 5 ===
+
+=== PAGE 6 ===
+
+=== PAGE 7 ===

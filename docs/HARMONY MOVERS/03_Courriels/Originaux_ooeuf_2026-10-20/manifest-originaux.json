@@ -1,0 +1,122 @@
+[
+  {
+    "file": "2026-10-20_1401_Alexandra_Lavoie_6_factures.eml",
+    "sha256": "73e99bd82d39f53275a1d40bcef57acad24dfbe62c98a80cd0e988fcf0476c6e",
+    "headers": {
+      "Subject": "4518-1 / QUADRO HOLDINGS LTÉE",
+      "From": "Alexandra Lavoie <alexandra@dufourdion.com>",
+      "To": "ooeuf.ca@gmail.com",
+      "Cc": "cdufourd@dufourdion.com, catherine.remillard@dufourdion.com",
+      "Date": "Tue, 20 Oct 2026 14:00:31 -0400",
+      "Message-ID": "<014d01dd60bc$e66e9d70$b34bd850$@dufourdion.com>"
+    },
+    "attachments": [
+      {
+        "original_filename": "Facture No 27604 au 21-04-2026.pdf",
+        "file": "Pieces_jointes/Facture No 27604 au 21-04-2026.pdf",
+        "bytes": 12422,
+        "sha256": "e00716d770e5d19f58f58d64e92206735a1144d318e3ddac57260c35f60eb067"
+      },
+      {
+        "original_filename": "Facture No 27686 au 09-06-2026.pdf",
+        "file": "Pieces_jointes/Facture No 27686 au 09-06-2026.pdf",
+        "bytes": 12966,
+        "sha256": "f95ea3910df87530b98af20b5ea9fb2e3e421018ce7f5a2b80259c26b78365bf"
+      },
+      {
+        "original_filename": "Facture No 27738 au 15-07-2026.pdf",
+        "file": "Pieces_jointes/Facture No 27738 au 15-07-2026.pdf",
+        "bytes": 14111,
+        "sha256": "00204e80e010504ae4fb7b12b019539496e831621d933bd11258976d9cc7d254"
+      },
+      {
+        "original_filename": "Facture No 27816 au 26-08-2026.pdf",
+        "file": "Pieces_jointes/Facture No 27816 au 26-08-2026.pdf",
+        "bytes": 12874,
+        "sha256": "59bdca753576a693971d55e81199e3b2dab5e7fef8721ee4ec6f1cf020f9a4f1"
+      },
+      {
+        "original_filename": "Facture No 27852 au 06-10-2026.pdf",
+        "file": "Pieces_jointes/Facture No 27852 au 06-10-2026.pdf",
+        "bytes": 12231,
+        "sha256": "662c50b867e30f59ea2013d889f69e28db9fe58a659d8afcca6f83a97e513ceb"
+      },
+      {
+        "original_filename": "Facture No 27905 au 20-10-2026.pdf",
+        "file": "Pieces_jointes/Facture No 27905 au 20-10-2026.pdf",
+        "bytes": 12212,
+        "sha256": "0ab32dcd055fa98578d5e95a24573c9eb7ad470b73c66fc56bc6a9b29866abb0"
+      }
+    ],
+    "body_file": "2026-10-20_1401_Alexandra_Lavoie_6_factures.txt"
+  },
+  {
+    "file": "2026-10-20_1420_Christian_Dufourd_honoraires.eml",
+    "sha256": "18b61a2c40f291ac56a0263e496e1c3db8f35c2c47cd95dd56813f50650df4df",
+    "headers": {
+      "Subject": "Votre dossier",
+      "From": "cdufourd@dufourdion.com",
+      "To": "ooeuf.ca@gmail.com",
+      "Cc": "Alexandra Lavoie <alexandra@dufourdion.com>",
+      "Date": "Tue, 20 Oct 2026 14:20:00 -0400",
+      "Message-ID": "<01df01dd60bf$9f3ba850$ddb2f8f0$@dufourdion.com>"
+    },
+    "attachments": [
+      {
+        "original_filename": "image001.png",
+        "file": "Pieces_jointes/image001.png",
+        "bytes": 17887,
+        "sha256": "55742fdb4277a250879e69059eb4d16beb64fd6dcda96b650ae22b02cfd05b5e"
+      }
+    ],
+    "body_file": "2026-10-20_1420_Christian_Dufourd_honoraires.txt"
+  },
+  {
+    "file": "2026-10-20_1425_Quadro_reponse.eml",
+    "sha256": "503522b8bed0855e2fc65491d66fc7d4fd06a405964ed3b3fda47bd21d2b38e5",
+    "headers": {
+      "Subject": "Re: Votre dossier",
+      "From": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+      "To": "Maitre Christian Dufourd <cdufourd@dufourdion.com>",
+      "Cc": "Alexandra Lavoie <alexandra@dufourdion.com>",
+      "Date": "Tue, 20 Oct 2026 14:25:31 -0400",
+      "Message-ID": "<CALsRj=Tp4qR8V6h5CQJZC5MP3vdZ0NtvYZsGiiF5B_KKYqL4OQ@mail.gmail.com>"
+    },
+    "attachments": [
+      {
+        "original_filename": "image001.png",
+        "file": "Pieces_jointes/image001.png",
+        "bytes": 17887,
+        "sha256": "55742fdb4277a250879e69059eb4d16beb64fd6dcda96b650ae22b02cfd05b5e"
+      },
+      {
+        "original_filename": "image001.png",
+        "file": "Pieces_jointes/image001.png",
+        "bytes": 17887,
+        "sha256": "55742fdb4277a250879e69059eb4d16beb64fd6dcda96b650ae22b02cfd05b5e"
+      }
+    ],
+    "body_file": "2026-10-20_1425_Quadro_reponse.txt"
+  },
+  {
+    "file": "2026-10-20_1629_Christian_Dufourd.eml",
+    "sha256": "f6ce754392048ffce957282807c329c4046859a5c718d9c92596bb85cebea288",
+    "headers": {
+      "Subject": "votre dossier",
+      "From": "cdufourd@dufourdion.com",
+      "To": "ooeuf.ca@gmail.com",
+      "Cc": "catherine.remillard@dufourdion.com",
+      "Date": "Tue, 20 Oct 2026 16:29:08 -0400",
+      "Message-ID": "<007c01dd60d1$a973e8c0$fc5bba40$@dufourdion.com>"
+    },
+    "attachments": [
+      {
+        "original_filename": "image001.png",
+        "file": "Pieces_jointes/image001.png",
+        "bytes": 17887,
+        "sha256": "55742fdb4277a250879e69059eb4d16beb64fd6dcda96b650ae22b02cfd05b5e"
+      }
+    ],
+    "body_file": "2026-10-20_1629_Christian_Dufourd.txt"
+  }
+]

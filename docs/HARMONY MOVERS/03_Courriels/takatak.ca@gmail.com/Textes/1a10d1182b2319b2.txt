@@ -1,0 +1,8 @@
+Message Gmail: 1a10d1182b2319b2
+Date en-tête: Mon, 5 Oct 2026 19:16:54 +0200
+De: takatak.ca@gmail.com
+À: cdufourd@dufourdion.com
+Objet: QUADRO / Harmony — 3/7 — Photos, descriptions et comparaison avant / saisie / après
+Source brute: ../lectures-003.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+

@@ -1,0 +1,91 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+22
+Devis
+Date réelle de la pièce
+Travail proposé
+Avant taxes / avec taxes
+263
+7 juillet 2024
+Four Tim Hortons, deux
+sondes et deux plaques de
+contrôle
+4 635 / 5 329,09
+264
+7 juillet 2024
+Electro-Freeze 88TF,
+compresseur gauche
+Copeland CS20, filage et
+court-circuit
+5 990 / 6 887
+265
+11 juillet 2024
+Reconditionnement des
+deux fours : blowers,
+pilotes, sondes de sécurité
+7 900 / 9 083,03
+266
+12 juillet 2024
+Cocktail Taylor, moteur
+agitateur et compresseur
+3 390 / 3 897,65
+267
+12 juillet 2024
+Slush Bunn CDS2, contrôle
+et agitateur gauche
+2 340 / 2 690,42
+268
+12 juillet 2024
+Chambre froide,
+compresseur
+1 700 / 1 954,58
+Les numéros de devis et de facture ne désignent pas nécessairement la même machine : devis 266 = cocktail;
+facture A266 = chambre de congélation. Devis 267 = slush; facture A267 = chambre froide. Cette distinction évite une
+fausse correspondance.
+Trois dossiers numérisés antérieurs ont aussi été retrouvés dans « Documents demandés », envoyé le 1er mai 2025 :
+Estimes et Devis.pdf (5 pages), Entretien et reparation equipement.pdf (5 pages), Entretien et reparation
+equipement 2.pdf (2 pages). L’extraction automatique n’a pas lu leurs images. Ils peuvent contenir les factures
+complémentaires recherchées et restent prioritaires.
+5. Tableau Joey Dubois / IndemniPro
+Trois versions extraites : Hadmo.xlsx; version du 15 janvier 2025; version nommée Copi
+Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx. Extraction textuelle d’un onglet, sans
+indication de troncature, pour ces trois pièces. Ce sont les tableaux de l’ancien sinistre 24110-4833 / 2024002464,
+identifié avec Hadmo et avec 8697230 Canada Inc. / Quadro dans les échanges. Ils ne sont pas le calcul des nouveaux
+dommages Harmony.
+Item Joey
+Désignation au tableau d’avril
+Historique utile / réserve
+1
+Frigo pâtisserie IFI-DDSG-6
+Réparation compresseur 2 615; remplacement 11 500 en
+réserve; facture et justification demandées
+2A
+Café Curtis
+1 200 retenu au tableau; module et valve; ne pas
+confondre avec devis initial 1 485
+2B
+Keurig, écrit « Kurig »
+2 690,42; réserve 2 700; facture attendue
+3
+Chambre de congélation
+Lignes 2 960 et 8 320; unité complète et compresseur;
+résoudre A290/A267
+4
+Four Tim Hortons
+4 635 inscrit; autre demande 30 118,46 et réserve 30
+000; expertise de perte totale absente selon note
+5
+Frigo une porte
+A320, 1 705
+6
+Cocktail Taylor
+A294, 3 850
+7
+Electro-Freeze
+5 990; compresseur; clarifier avec item 10
+8
+Slush, nommé Taylor au tableau
+A281, 2 340; facture retrouvée nomme Bunn CDS2
+9
+Four à pizza no 1 / PS360WB
+CKS 6 700,68, N82145; haut fonctionnel; travail indiqué,
+facture demandée

@@ -1,0 +1,25 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\Devis N� _ 266.pdf
+SHA256: f35769319067f7e9f805743d474d7b1fde63c9cf697d48e56cb272deea88bb47
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Devis N° : 266
+Date : 2024-07-12
+Devis
+À : Quadro Holding Ltee
+Réf. Désignation Qté P .U HT Montant
+Machine cocktail glacée T aylor 1 0,00 $ 0,00 $ 
+Moteur agitateur 1 1 450,00 $ 1 450,00 $ 
+Compresseur 1 1 825,00 $ 1 825,00 $ 
+0001 MAIN-D’OEUVRE 1 115,00 $ 115,00 $ 
+Sous-total 3 390,00 $
+851005553 TPS 5 % 169,50 $
+1213285927 TVQ 9,975 % 338,15 $
+T otal T.T.C 3 897,65 $
+T otal T.T.C 3 897,65 $
+ 
+Equipement Frigo-Spec Cp277 Succ. Jean-T alon est
+Montreal, Quebec
+H1S 2Z2
+(514) 999-6793
+1 / 1

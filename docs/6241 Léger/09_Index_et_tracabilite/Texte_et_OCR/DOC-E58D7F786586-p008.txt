@@ -1,0 +1,36 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+8
+Pièces : COMPTABILITE-VENTES2024-COMPLEMENT.md
+Statut : Périmètres différents
+FIN-05 - écarts ventes, sales differences
+Les exports et la synthèse ne retiennent pas uniformément les mêmes statuts et dates. Contrôle mensuel disponible;
+explication du comptable nécessaire.
+Pièces : COMPTABILITE-RAPPROCHEMENT-COMPLEMENT.md;
+COMPTABILITE-RAPPROCHEMENT-EXPORTS.csv
+Statut : Rapprochement ouvert
+VAL-01 - réclamation total, claim total
+287 958,75 $ demandés, à parfaire; 246 231,00 $ de matériel estimé plus 41 727,75 $ autres postes. Pas une indemnité
+accordée.
+Pièces : DII-JANVIER-12P-ORIGINAL.pdf p.5-6
+Statut : Demande judiciaire
+VAL-02 - paiement confirmé, paid
+Aucun total bancaire final confirmé dans cette base. Allocation, réserve, facture payée au fournisseur et indemnité reçue
+doivent être distinguées.
+Pièces : JOEY-RAPPORT7-COMPLEMENT.md; MASTER-PLAN-ASSUREUR.md
+Statut : À documenter
+VAL-03 - joey allocation
+Rapport 7 XLSX : 80 918,31 $ alloués avant franchise; 79 918,31 $ après 1 000 $. Photo annotée différente : 104 699,41
+$. Ancien sinistre; ne pas fusionner ni présenter comme versement reçu.
+Pièces : JOEY-RAPPORT7-COMPLEMENT.md; JOEY-RAPPORT7-AVRIL2025-EXTRACTION.json
+Statut : Versions différentes
+EQ-01 - fours, ovens
+Deux PS360WB, items Joey 9 et 11; annexe Harmony décrit un four double. Identités et séries à rapprocher. A315
+mentionne mise en route en septembre 2024; CKS novembre 2024 décrit encore un four défectueux.
+Pièces : FACTURES-REPARATIONS-COMPLEMENT.md K02 K13-K16; POINTS-A-CLARIFIER.md
+Statut : État antérieur variable
+EQ-02 - compresseurs, compressors
+Factures A267 chambre froide, A280 crème glacée, A266 congélateur, A294 Taylor, A320 frigo. Correspondance
+série-appareil-dégât nouveau nécessaire; coûts historiques non automatiquement remboursables une seconde fois.
+Pièces : FACTURES-REPARATIONS-COMPLEMENT.md; MATRICE-PREUVES-PAR-RUBRIQUE.csv
+Statut : Identités à confirmer
+EQ-03 - combien brisés, damaged count

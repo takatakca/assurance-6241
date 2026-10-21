@@ -1,0 +1,9 @@
+Message Gmail: 19a288499395f8c8
+Date en-tête: Mon, 27 Oct 2025 21:52:49 -0400
+De: takatak ca <takatak.ca@gmail.com>
+À: yan romanowski <romanowskiyan@gmail.com>
+Objet: Version Finale Facture
+Source brute: ../lectures-002.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+

@@ -1,0 +1,5 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\fac 265.pdf
+SHA256: bc68073bdfda346ee433880f50c55e56a4227d4f0d124b8d181137b73c77ef0e
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===

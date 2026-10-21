@@ -1,0 +1,62 @@
+[
+  {
+    "case": "6280 Somerled NDG",
+    "message_id": "1a0d034bcb239873",
+    "filename": "1000144788.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/1a0d034bcb239873__1000144788.jpg",
+    "bytes": 426410,
+    "expected_bytes": 426410,
+    "sha256": "cb38bf67e1fbc4f72b176e618a137142f6bd94f50ecb71e6c34db496da31f244",
+    "retrieved_at": "2026-10-21"
+  },
+  {
+    "case": "6241 Léger",
+    "message_id": "19789799f5f09a5c",
+    "filename": "Exhibit 11 - Claim Summary.pdf",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf",
+    "bytes": 91284,
+    "expected_bytes": 91284,
+    "sha256": "4f62c985c60ca566548d0c30dcf0dc764024f4295ca204875a46b8ade60abe7e",
+    "retrieved_at": "2026-10-21"
+  },
+  {
+    "case": "6241 Léger",
+    "message_id": "197c6af4f0b3ebb1",
+    "filename": "1000069198.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6af4f0b3ebb1__1000069198.jpg",
+    "bytes": 1574204,
+    "expected_bytes": 1574204,
+    "sha256": "369036a02a3b4de9cdc42029d4b913cdf6c963cc8346a022f52c46e0fb989faa",
+    "retrieved_at": "2026-10-21"
+  },
+  {
+    "case": "6241 Léger",
+    "message_id": "197c6b0c18422055",
+    "filename": "Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+    "bytes": 86571,
+    "expected_bytes": 86571,
+    "sha256": "1eada45c543663ede8f4082223760a79b1c3ef7a3b8a86d1ba5655bd2d56492a",
+    "retrieved_at": "2026-10-21"
+  },
+  {
+    "case": "6241 Léger",
+    "message_id": "197c6b0c18422055",
+    "filename": "Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+    "bytes": 90371,
+    "expected_bytes": 90371,
+    "sha256": "2e226b2f2953b0c1e1f2e2c32659a6dff48bf0933017031ceaae115ecfe325d5",
+    "retrieved_at": "2026-10-21"
+  },
+  {
+    "case": "6241 Léger",
+    "message_id": "1978961b3ba85bb2",
+    "filename": "Re: 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord.eml",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/1978961b3ba85bb2__Re_ 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord.eml",
+    "bytes": 106043,
+    "expected_bytes": 106043,
+    "sha256": "89ef9d9578515711d88ef7d76c6fe0a6079b574cde660042c054750e0ad21b19",
+    "retrieved_at": "2026-10-21"
+  }
+]

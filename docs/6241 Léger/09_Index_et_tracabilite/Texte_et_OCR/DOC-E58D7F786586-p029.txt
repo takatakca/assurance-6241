@@ -1,0 +1,51 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+29
+photos des dommages.
+Le fichier fac_265.pdf récupéré dans ce même lot porte visuellement le titre Devis, numéro 265, date 11 juillet 2024,
+reconditionnement des deux fours, 7 900,00 avant taxes et 9 083,03 total. Son nom de fichier ne suffit pas à établir une
+facture, une intervention terminée ou un paiement.
+IMG_9898 montre un brouillon manuscrit d’affidavit sans signature. À l’inverse, la page 68 du PDF original d’opposition
+contient une déclaration signée de Pierre Lévesque, avec attestation manuscrite devant Yan Romanowski le 10
+novembre 2025. Elle concerne notamment la propriété, l’enlèvement et la revendication des biens; elle ne certifie pas
+leurs diagnostics techniques. La carte SPVM image006.jpg reste un repère d’événement et d’agent.
+Les 72 pages de l’opposition ont été examinées en planches : aucune photo matérielle des équipements n’y apparaît.
+Les photos du huissier évoquées le 24 décembre restent à récupérer. Les scans du procès-verbal et de l’inventaire ne les
+remplacent pas. Voir FEUILLE-AVOCAT-RENCONTRE.md pour les questions prioritaires, les pages précises et les
+opérations d’expertise à cadrer.
+Quatre photos de justificatifs envoyées à Joey le 22 août 2025 sont maintenant récupérées et décrites IMG-F01 à F04.
+A315 porte explicitement « Mise en route et ajustements » : cette information complète l’historique du four, sans
+résoudre la différence entre étages ni les défauts mentionnés ensuite en décembre 2024. A292 documente un
+remplacement de compresseur de frigo True noir et de thermostat de frigo à pizza. La commande Senville no 120714 du
+19 juin 2024 identifie une thermopompe SENDC-48HF destinée à Quadro au 6241 Léger; ses champs total/paiement
+photographiés doivent être rapprochés de la facture finale. A266 est une copie photographique de la facture déjà
+comptée, pas un coût supplémentaire.
+Le certificat HSB BI&I RACIBM1126 / police 10266520 a été retrouvé en capture IMG-G01. Il identifie Quadro au 6241
+Léger, une période du 7 mai 2024 au 24 août 2025 et une ligne d’équipement transportable hors lieux à 10 000,00. Cela
+ne suffit pas à conclure à la couverture de l’événement Harmony : obtenir les conditions complètes et la position écrite de
+l’assureur sur le transport et l’entreposage.
+Deux captures Conteneurs Québec L-1027-A (4 août 2025) et L-1027-B (18 août) présentent chacune un conteneur de
+20 pieds, 229,95 avec taxes et marqué payé. L’original L-1027-A confirme payé 229,95/dû 0,00. Rapprocher les
+périodes, le lieu et l’objet de location avant d’affecter ces coûts au recours. Ne pas les confondre avec le conteneur de 53
+pieds du PV.
+Le rapport 46810-1-1-1, Gaétan Guénette, prouve une signification à Harmony le 18 septembre 2025 à 8 h 30 d’une lettre
+du 12 septembre, au 1600 55e avenue, remise à Yasmine. Il indique 105,00 d’honoraires/débours; le reçu Ricci Teasdale
+du 20 octobre 2025 indique une transaction approuvée de 105,00. Il s’agit d’une pièce distincte du rapport
+18757/CINTEC et du PV de saisie de décembre. Le rapport de signification ne permet pas à lui seul d’identifier laquelle
+des versions de la lettre de septembre était jointe : retrouver la copie effectivement signifiée.
+16. Versions de la demande et inspection visuelle
+DII-AMENDEE-ORIGINAL.pdf, récupéré depuis l’envoi « DOSSIER COMPLET 2/3 » du 29 septembre 2026, est la copie
+jointe sous le nom « 2026-01-26 DII Amendée Quadro.pdf ». Ses sept pages ont été examinées visuellement. Le texte
+porte la date du 3 novembre 2025 et des corrections manuscrites. Page 2 : valeur estimée des biens 250 000; perte
+d’exploitation corrigée à 8 000/mois et 24 000; honoraires 5 000; enlèvement 3 500; loyer 3 200/mois; troubles 5 000;
+total corrigé 40 700. Cette somme correspond arithmétiquement à 24 000 + 5 000 + 3 500 + 3 200 + 5 000, mais ne
+justifie pas les postes. Page 3 : conclusion de condamnation corrigée à 40 700, remise des biens par le gardien et
+validation de la saisie demandées. Ce sont des demandes, pas des ordonnances obtenues.
+Le nom de fichier de janvier ne prouve donc pas que cette copie est l’acte amendé effectivement déposé. Dans le
+transfert du 27 mai 2026 (message 19e6a1902900bb3f, texte attribué à Romanowski), il est écrit que la poursuite a été
+majorée le 26 janvier pour les dommages aux biens et remplace celle de novembre. Vérifier l’acte complet, son endos, la
+preuve de dépôt et le plumitif avec Me Dufourd. Ne pas présenter 250 000 comme dommage accordé, ni 40 700 comme
+montant actuel certain.
+Version distincte désormais récupérée : DII-JANVIER-12P-ORIGINAL.pdf, pièce « Dii Amende du 26 janvier
+2026.pdf » du transfert du 27 mai. Les douze pages ont été examinées en planche, puis les pages 5-6 en grand format.
+Pages 1-3 : bordereau de notification à Me Mario Taoutel et courriel du 28 janvier indiquant une première notification le
+27 janvier à 14 h 22. Pages 4-6 : demande amendée datée et signée le 26 janvier, dossier 500-17-136442-251. Pages

@@ -1,0 +1,34 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+10
+Pièces : OPPOSITION-ORIGINAL.pdf p.16; POINTS-A-CLARIFIER.md
+Statut : Écart ouvert
+PHOTO-01 - photos, photographs
+59 images documentaires plus une petite ressource de signature décrites. Six vues Drive montrent un même bien et son
+lien causal reste non confirmé. Lot original de dommages du huissier encore nécessaire.
+Pièces : CATALOGUE-IMAGES.md; PHOTOS-ORIGINAUX-METADONNEES.json
+Statut : Couverture incomplète
+ASS-01 - assureur paie quoi, insurer payment
+Obtenir tableau par objet : décision, formule de valeur, coût réparation/remplacement, installation, taxes, déductions,
+acompte et échéance. Le client confirme aucune offre. Visites et échanges avec sa propre assurance rapportés; rapports
+et position écrite à retrouver.
+Pièces : MASTER-PLAN-ASSUREUR.md
+Statut : Priorité P0-P3
+ASS-02 - valeur neuf, replacement value
+Matériel neuf non automatiquement dû : formule contractuelle, valeur et diagnostic de réparabilité à établir. Exiger
+comparaison documentée et motif de dépréciation.
+Pièces : DROIT-ET-APPLICATION.md; MASTER-PLAN-ASSUREUR.md
+Statut : Police exacte nécessaire
+ASS-03 - quittance, release
+Clarifier acompte ou règlement final, biens et postes visés, réserves et portée de la quittance avec l’avocat.
+Pièces : MASTER-PLAN-ASSUREUR.md
+Statut : Texte de l’offre requis
+CTRL-01 - contradictions, contradictions
+20 points de contrôle documentaires répertoriés. Examiner chaque version avec date, auteur, pièce et explication; aucun
+écart ne prouve seul une fausse déclaration adverse.
+Pièces : POINTS-A-CLARIFIER.md
+Statut : Vérifications ouvertes
+LIVE-01 - fieldy, live
+Accès Fieldy en lecture vérifié. Aucun flux audio continu, import de cette base ou enregistrement activé par cet outil. Une
+transcription ou question effectivement reçue peut être analysée en français ou anglais.
+Pièces : FIELDY-FR-EN.md
+Statut : Connexion de lecture seulement

@@ -1,0 +1,9 @@
+Message Gmail: 19c520239d00b90f
+Date en-tête: Thu, 12 Feb 2026 08:19:49 -0500
+De: yan romanowski <romanowskiyan@gmail.com>
+À: takatak ca <takatak.ca@gmail.com>, "Oeuf Déjeuner" <ooeuf.ca@gmail.com>
+Objet: Voici les procédures
+Source brute: ../lectures-002.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+

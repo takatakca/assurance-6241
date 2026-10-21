@@ -1,0 +1,292 @@
+[
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Signature.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A01.pdf",
+    "bytes": 254912,
+    "expected_bytes": 254912,
+    "sha256": "abec2655cfe792212b52fc5c28902288e0f6105aa95efc4ee5f941543c441027",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A02.pdf",
+    "bytes": 237927,
+    "expected_bytes": 237927,
+    "sha256": "5e023c755bfba15512804d0bafe7f94c1d53058d46fb94cffbcff981c9d4ac11",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Suivi sur ma réclamation de juin.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A03.pdf",
+    "bytes": 236788,
+    "expected_bytes": 236788,
+    "sha256": "a6c6d37c1c4f812e17c0be04496e1402d76d1f9f96bf9581b51d611a29897b8f",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A04.pdf",
+    "bytes": 203988,
+    "expected_bytes": 203988,
+    "sha256": "a6b77ce85f6204c8ce0ee392f14d19dbb43ace46d920adcc5eb0539cc6c46cfb",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833;TR_ 2024002464.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A05.pdf",
+    "bytes": 235673,
+    "expected_bytes": 235673,
+    "sha256": "c01ef4117032c157486953070ae8eb86e953650111a697f09a559f6ecff5f145",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Demande de Remplacement d'équipement .PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A06.pdf",
+    "bytes": 100087,
+    "expected_bytes": 100087,
+    "sha256": "e417911ed45ba662416842fd5f821c47e53bbc691f091753cedd7ef1acfae517",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833 Visite d'un consultant en équipement.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A07.pdf",
+    "bytes": 382258,
+    "expected_bytes": 382258,
+    "sha256": "82d1be3e9731cd134f9c9f47dd12bcb17cbca0ab7e109bfccd01f3b9e7a4ab76",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Réponse à vos questions .PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A08.pdf",
+    "bytes": 387693,
+    "expected_bytes": 387693,
+    "sha256": "bb006410dab060bce13d7e47d965e930b159df1b3c88482a14e9719b34c057f3",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833; Visite d'un consultant en équipement.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A09.pdf",
+    "bytes": 296270,
+    "expected_bytes": 296270,
+    "sha256": "e99bb93b972bbeb7ea4c8a3e4b7f7b73c485e756cc6ea99087edf07c062c47bf",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833 Visire d'un consultant en équipement.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A10.pdf",
+    "bytes": 340829,
+    "expected_bytes": 340829,
+    "sha256": "44f846cd90ed4823e85f9d844e05e38f92d7c1ed7446a96fb636dbc1be029315",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail -  24110-4833; Dommages équipements.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A11.pdf",
+    "bytes": 471727,
+    "expected_bytes": 471727,
+    "sha256": "d96912e6ab803144805161a7b2d91349d5e201b7a3040aab47aa96182446105d",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A12.pdf",
+    "bytes": 293849,
+    "expected_bytes": 293849,
+    "sha256": "435de0744aa95c28c64c6528d37b9a81838ac17ff7ed6810dbb180a50e98d3d6",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833-Suivi.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A13.pdf",
+    "bytes": 194545,
+    "expected_bytes": 194545,
+    "sha256": "32fa75f17cd7811c1bec442f11b7e2bdf82ce881762b99bb41dce0e5af57e613",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A14.pdf",
+    "bytes": 242486,
+    "expected_bytes": 242486,
+    "sha256": "995a2bec3d63da55a63139cdf78fc326c8301a8378d63c94fa740c696bd69f3b",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A15.pdf",
+    "bytes": 97945,
+    "expected_bytes": 97945,
+    "sha256": "42f273e782f2e4cdeaf126db4fe92b09ca335dd88e656a27edd32bc15b84652b",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail -  24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A16.pdf",
+    "bytes": 386317,
+    "expected_bytes": 386317,
+    "sha256": "047d4919e2a1c3640b3a80f77e781d1e4a8a30125d5a611b4dfd2bd9262e920b",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A17.pdf",
+    "bytes": 763415,
+    "expected_bytes": 763415,
+    "sha256": "b1944a92a106354ed784f31a0687055584fc4b90d09c5bd845103642d1758ee2",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A18.pdf",
+    "bytes": 312170,
+    "expected_bytes": 312170,
+    "sha256": "16bb55d924f14cb39fa22065e86e15d8f4728c7940380d54b84d04dec82f3849",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A19.pdf",
+    "bytes": 285291,
+    "expected_bytes": 285291,
+    "sha256": "264b3114aaf63ffd5da7b6d855065bb4c03ba0f02f98896d36368c12ee7f7b44",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A20.pdf",
+    "bytes": 313930,
+    "expected_bytes": 313930,
+    "sha256": "eb9ef096e47b6f4dc7862bc3f0e6ab09ddec2ac630ec199601d8522318365203",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail -  24110-4833TR_ Demande de Remplacement d'équipement.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A21.pdf",
+    "bytes": 237255,
+    "expected_bytes": 237255,
+    "sha256": "fbb9bbe778c527b1d0b624554e8828a92bb0950552642de69f547890e7c45688",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A22.pdf",
+    "bytes": 453081,
+    "expected_bytes": 453081,
+    "sha256": "0cea767ae3af4b1f0d20f784fa3f99f78a1b651206b31ed6a16ef9ab1379f140",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "19e6a1c6483f8f5a",
+    "filename": "Gmail -  24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A23.pdf",
+    "bytes": 661159,
+    "expected_bytes": 661159,
+    "sha256": "f602e7244483bfb651a452e27fd6189ce09aaa91bea71b8979566ecf2f55afa6",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069244.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A24.jpg",
+    "bytes": 1497922,
+    "expected_bytes": 1497922,
+    "sha256": "6b4d691e1d7774035670c9069fe8ed7b3755d94cca5cd3ac18b6ea3ea67a64b1",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069246.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A25.jpg",
+    "bytes": 1154215,
+    "expected_bytes": 1154215,
+    "sha256": "9bced3bb6a7397be2103ecc3d2554268c534e663b176eea9cd832e6555bae6e1",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069252.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A33.jpg",
+    "bytes": 1484965,
+    "expected_bytes": 1484965,
+    "sha256": "45581883c4a207cf94a2fbf0d81c63030cdf881f2e4a07c473c413c01474f7f9",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069255.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A34.jpg",
+    "bytes": 1494310,
+    "expected_bytes": 1494310,
+    "sha256": "a81ea9ee935dc633bef4a218a4563e29536a9da933a304bc3e561d44a8da577d",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069254.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A35.jpg",
+    "bytes": 1539090,
+    "expected_bytes": 1539090,
+    "sha256": "4c757f57ef16e0583b7a58b182fe37f84d4bd21a9f934ac1533f225f0347bf1e",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069253.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A36.jpg",
+    "bytes": 1556576,
+    "expected_bytes": 1556576,
+    "sha256": "e9f12ad682027ca030385f9101af00f781433f70e3c59b58cb7fc38e249e0ea5",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded"
+  }
+]

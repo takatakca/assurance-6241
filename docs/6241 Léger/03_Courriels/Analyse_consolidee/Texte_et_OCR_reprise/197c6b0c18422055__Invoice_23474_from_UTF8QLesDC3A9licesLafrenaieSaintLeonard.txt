@@ -1,0 +1,77 @@
+PAGE 1
+Page 1 of 2
+Les Délices Lafrenaie Saint-Leonard
+8415 rue Lafrenaie
+Montreal QC  H1P 2B3
+(514) 324-8039
+info@lafrenaie.com
+GST/HST Registration No.: 895312866 RT0001
+QST Registration No.: 1018377574 TQ0001
+ 
+INVOICE
+BILL TO
+8697230 CANADA INC.
+6241 boul leger
+MONTREAL QC  H1G6K8
+SHIP TO
+8697230 CANADA INC.
+6241 boul leger
+MONTREAL QC  H1G6K8
+INVOICE 23474
+DATE 18/04/2024
+TERMS Net 30
+DUE DATE 18/05/2024
+PRODUCT DESCRIPTION TAX QTY RATE AMOUNT
+10" Red Velvet Cream Cheese White Chocolate Cake 
+10"
+Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Carrot Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Nutella Mascarpone Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Amaretto Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Dulce De Leche Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Apple Caramel Apple Caramel Cheesecake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Brownie Brownie Cheesecake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Marble Marble Cheesecake 10" Zero-rated 0 34.00 0.00
+CUT CUT Zero-rated 0 2.50 0.00
+10" Cookie Dough Cookie Dough Cheesecake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+Oreo Cheesecake Oreo Cheesecake Pastries Zero-rated 1 2.75 2.75
+CUT CUT Zero-rated 1 2.50 2.50
+frpista10'' PISTACHIO CHEESECAKE 10'' Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" Ferrero Rocher Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+
+PAGE 2
+Page 2 of 2
+10" Citron Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+SKO10'' SKOR 10'' Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+10" TOBLERONE Cake 10" Zero-rated 0 34.00 0.00
+CUT CUT Zero-rated 0 2.50 0.00
+10" Limoncello Frutto Di Bosco Cake 10" Zero-rated 1 34.00 34.00
+CUT CUT Zero-rated 1 2.50 2.50
+Zero-rated
+Zero-rated
+Zero-rated
+Zero-rated
+Zero-rated
+Zero-rated
+Zero-rated
+Zero-rated
+GST/HST Registration No.: 895312866 RT0001
+QST Registration No.: 1018377574 TQ0001
+SUBTOTAL 479.75
+GST @ 0% 0.00
+TOTAL 479.75
+PAYMENT 479.75
+BALANCE DUE $0.00
+PAID

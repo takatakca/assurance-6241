@@ -1,0 +1,200 @@
+[
+  {
+    "id": "197897943f689224__A24",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/197897943f689224__A24-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1422,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A25-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A25-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1165,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A26-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A26-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1641,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A27-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A27-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 690,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A28-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A28-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 655,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A29-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A29-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1534,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A30-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A30-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1656,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A31-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A31-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1449,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A32-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A32-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1329,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A33-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A33-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1427,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A34-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A34-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1305,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A35-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A35-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1467,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A36-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A36-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1492,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A37-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A37-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 763,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A38-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A38-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1478,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A39-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A39-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1608,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197897943f689224__A40-rot90",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A40-rot90-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 1253,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  },
+  {
+    "id": "197c6af4f0b3ebb1__1000069198-rot270",
+    "page": 1,
+    "method": "Windows OCR",
+    "language": "en-US",
+    "output": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197c6af4f0b3ebb1__1000069198-rot270-ocr.txt",
+    "status": "OCR automatique Ã  contrÃ´ler visuellement",
+    "characters": 507,
+    "error": null,
+    "selection": "Meilleure longueur de texte parmi orientation initiale, 90° et 270°; validation visuelle restant nécessaire."
+  }
+]

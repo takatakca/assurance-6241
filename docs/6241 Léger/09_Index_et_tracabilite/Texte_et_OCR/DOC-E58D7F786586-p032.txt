@@ -1,0 +1,109 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+32
+ Catalogue des images - QUADRO / Harmony
+ Movers
+Examen visuel du 5 octobre 2026. Ce registre décrit ce qui est visible, sans transformer une photo de document en photo
+de dommages. Les originaux récupérés restent séparés des planches de lecture et des rendus PDF. Chaque image A est
+identifiée dans PHOTOS-ORIGINAUX-METADONNEES.json par son nom, ses dimensions et son empreinte SHA256.
+A - Dix-neuf pages de factures Sysco
+Provenance : pièces jointes de la chaîne du 25 juillet 2024 relative au sinistre du 3 juillet 2024, transférée dans Gmail le
+19 juin puis le 6 novembre 2025. Message accessible : https://mail.google.com/mail/u/0/#all/197896004b3e9484. Fichiers
+locaux : photos-assurance-2024/. Les quatre factures sont au nom de Quadro holding ltee, au 6241 boulevard Léger,
+Montréal-Nord.
+Identifiant
+Fichier
+Facture / page
+Description visuelle
+IMG-A01
+1_20240724_223557_0000.pn
+g
+3313471581, 1/6
+En-tête Sysco et lignes d’achats alimentaires : notamment
+viandes, produits frais et produits laitiers. Total reporté à la
+suite.
+IMG-A02
+1_20240724_224116_0000.pn
+g
+3313507978, 1/3
+En-tête Sysco, produits laitiers, boissons et autres achats.
+Total reporté.
+IMG-A03
+1_20240724_224652_0000.pn
+g
+3313507979, 1/4
+En-tête Sysco et achats alimentaires, notamment bacon,
+margarine, condiments et boissons. Total reporté.
+IMG-A04
+1_20240724_225234_0000.pn
+g
+3313502070, 1/6
+En-tête Sysco et lignes d’aliments, notamment viandes et
+produits laitiers. Total reporté.
+IMG-A05
+2_20240724_223557_0001.pn
+g
+3313471581, 2/6
+Suite des achats : condiments, sauces, boissons et
+consommables.
+IMG-A06
+2_20240724_224116_0001.pn
+g
+3313507978, 2/3
+Fournitures, emballages, film et produits d’entretien;
+débuts de sommaires.
+IMG-A07
+2_20240724_224652_0001.pn
+g
+3313507979, 2/4
+Suite alimentaire et fournitures : huiles, pâtes, boissons et
+consommables.
+IMG-A08
+2_20240724_225235_0001.pn
+g
+3313502070, 2/6
+Sirops, condiments, boissons et fournitures.
+IMG-A09
+3_20240724_223557_0002.pn
+g
+3313471581, 3/6
+Boissons et fournitures d’entretien/emballage.
+IMG-A10
+3_20240724_224116_0002.pn
+g
+3313507978, 3/3
+Dernière page : sommaire des colis secs/surgelés, dépôt
+de bouteilles 108,00; total commande 5 071,61. Date 7
+juin 2024.
+IMG-A11
+3_20240724_224652_0002.pn
+g
+3313507979, 3/4
+Fournitures jetables, emballages et sommaires de
+catégories.
+IMG-A12
+3_20240724_225235_0002.pn
+g
+3313502070, 3/6
+Fournitures, détergents, emballages et ustensiles.
+IMG-A13
+4_20240724_223557_0003.pn
+g
+3313471581, 4/6
+Fournitures, gants, aluminium et serviettes.
+IMG-A14
+4_20240724_224652_0003.pn
+g
+3313507979, 4/4
+Dernière page : sommaire sec/surgelé, dépôt bouteilles
+36,00; total commande 13 316,09. Date 7 juin 2024.
+IMG-A15
+4_20240724_225235_0003.pn
+g
+3313502070, 4/6
+Fournitures d’entretien, film, serviettes et sommaires.
+IMG-A16
+5_20240724_223557_0004.pn
+g
+3313471581, 5/6
+Sommaires des achats, taxes et catégories; suite de la
+même facture.

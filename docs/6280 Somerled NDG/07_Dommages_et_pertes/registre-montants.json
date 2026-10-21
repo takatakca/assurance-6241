@@ -1,0 +1,361 @@
+{
+  "generated_at": "2026-10-21",
+  "currency": "CAD",
+  "total_proven_damages": null,
+  "total_note": "Aucun total global calculé: propositions, demandes, sommes à risque, échéanciers et paiements à rapprocher sont de natures différentes.",
+  "items": [
+    {
+      "item": "Installation — première proposition",
+      "amount": 500,
+      "currency": "CAD",
+      "rate_percent": 5,
+      "period": "Trois mois d'installation",
+      "status": "Proposition du 1er décembre, remplacée par des modalités discutées ensuite",
+      "sources": [
+        {
+          "type": "email",
+          "id": "19adac1b3dc27cc0",
+          "file": "03_Courriels/takatak.ca@gmail.com/19adac1b3dc27cc0.json",
+          "date_original": "Mon, 1 Dec 2025 16:30:15 +0000 (UTC)",
+          "date_utc": "2025-12-01T16:30:15.000Z",
+          "date_montreal": "2025-12-01 11 h 30 min 15 s",
+          "from": "nathalie ma <barsora@yahoo.com>",
+          "to": "\"takatak.ca@gmail.com\" <takatak.ca@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19adac1b3dc27cc0"
+        }
+      ]
+    },
+    {
+      "item": "Après ouverture — première proposition",
+      "amount": 1000,
+      "currency": "CAD",
+      "rate_percent": 10,
+      "status": "Proposition du 1er décembre; pas preuve d'une obligation définitive",
+      "sources": [
+        {
+          "type": "email",
+          "id": "19adac1b3dc27cc0",
+          "file": "03_Courriels/takatak.ca@gmail.com/19adac1b3dc27cc0.json",
+          "date_original": "Mon, 1 Dec 2025 16:30:15 +0000 (UTC)",
+          "date_utc": "2025-12-01T16:30:15.000Z",
+          "date_montreal": "2025-12-01 11 h 30 min 15 s",
+          "from": "nathalie ma <barsora@yahoo.com>",
+          "to": "\"takatak.ca@gmail.com\" <takatak.ca@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19adac1b3dc27cc0"
+        }
+      ]
+    },
+    {
+      "item": "Loyer — proposition du 2 décembre",
+      "amount": 1000,
+      "currency": "CAD",
+      "rate_percent": 5,
+      "period": "À partir de février 2026",
+      "status": "Proposition écrite; divergence avec projet de février",
+      "sources": [
+        {
+          "type": "email",
+          "id": "19ae0e6c7f31405a",
+          "file": "03_Courriels/takatak.ca@gmail.com/19ae0e6c7f31405a.json",
+          "date_original": "Tue, 2 Dec 2025 21:10:06 +0000 (UTC)",
+          "date_utc": "2025-12-02T21:10:06.000Z",
+          "date_montreal": "2025-12-02 16 h 10 min 06 s",
+          "from": "nathalie ma <barsora@yahoo.com>",
+          "to": "\"takatak.ca@gmail.com\" <takatak.ca@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19ae0e6c7f31405a"
+        }
+      ]
+    },
+    {
+      "item": "Loyer — DOCX envoyé le 6 février",
+      "amount": 1000,
+      "currency": "CAD",
+      "rate_percent": 5,
+      "period": "À partir d'avril 2026; janvier-mars 5 % seulement",
+      "status": "Texte d'un projet aux signatures vierges",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/19c348d21f8cd9bd__PPP_Simplified_Kitchen_Lease_Enhanced20251220.docx",
+          "sha256": "80c575b8d5096051a2e2c7785260fcb77f3941dab44e902ca9c1ffa6bca7f57a",
+          "source_message_id": "19c348d21f8cd9bd",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "item": "Dépôt — DOCX",
+      "amount": 3000,
+      "currency": "CAD",
+      "status": "Dépôt exigé dans projet; versement non prouvé",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/19c348d21f8cd9bd__PPP_Simplified_Kitchen_Lease_Enhanced20251220.docx",
+          "sha256": "80c575b8d5096051a2e2c7785260fcb77f3941dab44e902ca9c1ffa6bca7f57a",
+          "source_message_id": "19c348d21f8cd9bd",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "item": "Dépôt — position Quadro",
+      "amount": 1000,
+      "currency": "CAD",
+      "status": "Dépôt allégué comme convenu dans mise en demeure; reçu ou modification à retrouver; ne pas cumuler avec 3 000 $",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+          "sha256": "335a3cd874ab36ce26715b23013a943e61e459b071a2390fbe537fc7dc688d4f",
+          "source_message_id": "1a0cf835bf45a29f",
+          "pages": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "item": "Deux tablettes",
+      "amount": 700,
+      "currency": "CAD",
+      "calculation": "2 × 350 $",
+      "status": "Réclamation Quadro, propriété/valeur/dommage/causalité à documenter",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/1a0cf835bf45a29f__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+          "sha256": "6d3a9f8bd3abcaf07aa78ea03c9dc5964e81df60c17dbd15910e1c2010478ecd",
+          "source_message_id": "1a0cf835bf45a29f",
+          "pages": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "item": "Ventes évoquées pour épisode propane",
+      "amount": 700,
+      "currency": "CAD",
+      "approximate": true,
+      "status": "Ventes alléguées dans note rétrospective de projet; ne pas assimiler à bénéfice net perdu",
+      "sources": [
+        {
+          "type": "email",
+          "id": "1a0c4dd6b576134f",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0c4dd6b576134f.json",
+          "date_original": "Mon, 21 Sep 2026 12:47:20 -0400",
+          "date_utc": "2026-09-21T16:47:20.000Z",
+          "date_montreal": "2026-09-21 12 h 47 min 20 s",
+          "from": "takatak ca <takatak.ca@gmail.com>",
+          "to": "wadii.mohammadi@outlook.com",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0c4dd6b576134f"
+        }
+      ]
+    },
+    {
+      "item": "Denrées exposées au risque",
+      "amount": 8000,
+      "currency": "CAD",
+      "approximate": true,
+      "status": "Valeur reçue/à risque alléguée; perte effective non établie; exclue de tout total de dommages prouvés",
+      "sources": [
+        {
+          "type": "email",
+          "id": "1a0c4dd6b576134f",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0c4dd6b576134f.json",
+          "date_original": "Mon, 21 Sep 2026 12:47:20 -0400",
+          "date_utc": "2026-09-21T16:47:20.000Z",
+          "date_montreal": "2026-09-21 12 h 47 min 20 s",
+          "from": "takatak ca <takatak.ca@gmail.com>",
+          "to": "wadii.mohammadi@outlook.com",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0c4dd6b576134f"
+        }
+      ]
+    },
+    {
+      "item": "Propane demandé par Bar Sora",
+      "amount": 470.58,
+      "currency": "CAD",
+      "calculation": "Calcul cité dans le courriel : 532,89 L × 0,8831 $/L = 470,58 $. Recalcul : 470,595159 $, arrondi 470,60 $, soit 0,02 $ de plus. Quantité : 930 L × 57,3 % = 532,89 L.",
+      "status": "Demande adverse du 14 septembre; quantité/prix/obligation contestables à vérifier sur justificatifs; écart arithmétique source de 0,02 $ signalé sans modifier le montant demandé",
+      "sources": [
+        {
+          "type": "email",
+          "id": "1a0a1d4465d30af9",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0a1d4465d30af9.json",
+          "date_original": "Mon, 14 Sep 2026 21:30:35 +0000 (UTC)",
+          "date_utc": "2026-09-14T21:30:35.000Z",
+          "date_montreal": "2026-09-14 17 h 30 min 35 s",
+          "from": "nathalie ma <barsora@yahoo.com>",
+          "to": "Resto 6280 <6280.ca@gmail.com>, \"takatak.ca@gmail.com\" <takatak.ca@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0a1d4465d30af9"
+        }
+      ],
+      "source_claim_amount": 470.58,
+      "recalculated_amount": 470.6,
+      "arithmetic_difference": 0.02
+    },
+    {
+      "item": "Commission juillet et août",
+      "amount": null,
+      "rate_percent": 5,
+      "currency": "CAD",
+      "status": "Rapports de ventes demandés; base, montant dû et paiements non rapprochés",
+      "sources": [
+        {
+          "type": "email",
+          "id": "1a0a1d4465d30af9",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0a1d4465d30af9.json",
+          "date_original": "Mon, 14 Sep 2026 21:30:35 +0000 (UTC)",
+          "date_utc": "2026-09-14T21:30:35.000Z",
+          "date_montreal": "2026-09-14 17 h 30 min 35 s",
+          "from": "nathalie ma <barsora@yahoo.com>",
+          "to": "Resto 6280 <6280.ca@gmail.com>, \"takatak.ca@gmail.com\" <takatak.ca@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0a1d4465d30af9"
+        }
+      ]
+    },
+    {
+      "item": "Offre rapportée pour lettre d'avocat",
+      "amount": 300,
+      "currency": "CAD",
+      "taxes": "en sus, non calculées",
+      "status": "Offre d'un collègue rapportée par Quadro; ni facture ni paiement; identité du collègue non confirmée par ce message",
+      "sources": [
+        {
+          "type": "email",
+          "id": "1a0d034bcb239873",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0d034bcb239873.json",
+          "date_original": "Wed, 23 Sep 2026 17:38:29 -0400",
+          "date_utc": "2026-09-23T21:38:29.000Z",
+          "date_montreal": "2026-09-23 17 h 38 min 29 s",
+          "from": "takatak ca <takatak.ca@gmail.com>",
+          "to": "yan romanowski <romanowskiyan@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0d034bcb239873"
+        },
+        {
+          "type": "email",
+          "id": "1a0d03eb4874c84a",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0d03eb4874c84a.json",
+          "date_original": "Thu, 24 Sep 2026 05:49:12 +0800",
+          "date_utc": "2026-09-23T21:49:12.000Z",
+          "date_montreal": "2026-09-23 17 h 49 min 12 s",
+          "from": "yan romanowski <romanowskiyan@gmail.com>",
+          "to": "takatak ca <takatak.ca@gmail.com>",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0d03eb4874c84a"
+        }
+      ]
+    },
+    {
+      "item": "Virement notifié du 6 juin",
+      "amount": 500,
+      "currency": "CAD",
+      "status": "Fonds en attente notifiés puis courriel transféré à Bar Sora; dépôt final et affectation non prouvés",
+      "sources": [
+        {
+          "type": "email_extract",
+          "id": "19e9ec076a8bba83",
+          "file": "07_Dommages_et_pertes/virements-a-rapprocher.json"
+        },
+        {
+          "type": "email_extract",
+          "id": "19e9ef8c06f7587f",
+          "file": "07_Dommages_et_pertes/virements-a-rapprocher.json"
+        }
+      ]
+    },
+    {
+      "item": "Virement notifié du 8 juin",
+      "amount": 460,
+      "currency": "CAD",
+      "status": "Fonds en attente notifiés puis courriel transféré à Bar Sora; dépôt final et affectation non prouvés",
+      "sources": [
+        {
+          "type": "email_extract",
+          "id": "19ea9770c56453ae",
+          "file": "07_Dommages_et_pertes/virements-a-rapprocher.json"
+        },
+        {
+          "type": "email_extract",
+          "id": "19ea9daada2aef03",
+          "file": "07_Dommages_et_pertes/virements-a-rapprocher.json"
+        }
+      ]
+    },
+    {
+      "item": "Police Intact — nouveau solde",
+      "amount": 853.75,
+      "currency": "CAD",
+      "calculation": "Prime 500 + courtage 300 + intérêts 8,75 + taxe 45 = 853,75",
+      "status": "Montant documentaire facturé/planifié; pas preuve bancaire de règlement; ne pas ajouter les sous-postes une seconde fois",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+          "sha256": "84f6365fc34064be2e5ec44de5d9c0174d1a161c35b61ea1567c9b5d3132a574",
+          "source_message_id": "1a0cf835bf45a29f",
+          "pages": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "item": "Police Intact — premier prélèvement prévu",
+      "amount": 350.35,
+      "currency": "CAD",
+      "date": "2026-10-08",
+      "status": "Échéancier; versement réel non confirmé",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+          "sha256": "84f6365fc34064be2e5ec44de5d9c0174d1a161c35b61ea1567c9b5d3132a574",
+          "source_message_id": "1a0cf835bf45a29f",
+          "pages": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "item": "Police Intact — dix prélèvements prévus",
+      "amount": 50.34,
+      "currency": "CAD",
+      "quantity": 10,
+      "period": "8 novembre 2026 au 8 août 2027",
+      "status": "Échéancier; total avec 350,35 $ = 853,75 $; aucun cumul avec nouveau solde",
+      "sources": [
+        {
+          "type": "piece",
+          "file": "04_Pieces_jointes/1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+          "sha256": "84f6365fc34064be2e5ec44de5d9c0174d1a161c35b61ea1567c9b5d3132a574",
+          "source_message_id": "1a0cf835bf45a29f",
+          "pages": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "item": "Friteuses, personnel, diagnostics, commandes annulées",
+      "amount": null,
+      "currency": "CAD",
+      "status": "Postes signalés, non chiffrés de manière vérifiable dans cette collecte",
+      "sources": [
+        {
+          "type": "email",
+          "id": "1a0cf835bf45a29f",
+          "file": "03_Courriels/takatak.ca@gmail.com/1a0cf835bf45a29f.json",
+          "date_original": "Wed, 23 Sep 2026 13:24:46 -0500",
+          "date_utc": "2026-09-23T18:24:46.000Z",
+          "date_montreal": "2026-09-23 14 h 24 min 46 s",
+          "from": "takatak ca <takatak.ca@gmail.com>",
+          "to": "romanowskiyan@gmail.com",
+          "url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a0cf835bf45a29f"
+        }
+      ]
+    }
+  ]
+}

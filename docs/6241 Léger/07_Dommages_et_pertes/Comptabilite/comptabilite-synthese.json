@@ -1,0 +1,951 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-21",
+  "address": "6241 boulevard Léger, Montréal",
+  "scope": "Comptabilité et pertes du dossier avocat; corpus local examiné",
+  "new_loss_total": null,
+  "business_interruption_loss": null,
+  "confirmed_insurance_receipts": null,
+  "metrics": [
+    {
+      "id": "GL-VENTES",
+      "label": "Ventes comptabilisées",
+      "amount": 77995.44,
+      "type": "ventes historiques",
+      "status": "extrait CSV contrôlé",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/GRAND-LIVRE-ORIGINAL-feuille-1.csv",
+      "locator": "lignes 6–16",
+      "period": "2024-07 à 2025-04",
+      "currency": "$ présumé CAD",
+      "taxBasis": "selon source, non harmonisée",
+      "includedInNewLoss": false
+    },
+    {
+      "id": "GL-REPARATIONS",
+      "label": "Réparations comptabilisées",
+      "amount": 57842.6,
+      "type": "charges historiques",
+      "status": "64 écritures, rapprochement factures requis",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/GRAND-LIVRE-ORIGINAL-feuille-1.csv",
+      "locator": "compte 5765",
+      "period": "exercice 2024-07 à 2025-06",
+      "currency": "$ présumé CAD",
+      "taxBasis": "selon source, non harmonisée",
+      "includedInNewLoss": false
+    },
+    {
+      "id": "UBER",
+      "label": "Ventes Uber couvertes",
+      "amount": 55609.85,
+      "type": "ventes de plateforme",
+      "status": "cellules originales relues",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx",
+      "locator": "Ventes total 2024!C7:C17",
+      "period": "2024-03 à 2024-12",
+      "currency": "$ présumé CAD",
+      "taxBasis": "selon source, non harmonisée",
+      "includedInNewLoss": false
+    },
+    {
+      "id": "DOORDASH",
+      "label": "Ventes DoorDash couvertes",
+      "amount": 22774.34,
+      "type": "ventes de plateforme",
+      "status": "cellules originales relues",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx",
+      "locator": "Ventes total 2024!C6:C15",
+      "period": "2024-04 à 2024-12",
+      "currency": "$ présumé CAD",
+      "taxBasis": "selon source, non harmonisée",
+      "includedInNewLoss": false
+    },
+    {
+      "id": "HADMO-RECLAME",
+      "label": "Réclamé dans Hadmo avril",
+      "amount": 191615.88,
+      "type": "réclamation assurance historique",
+      "status": "montant du sommaire, doublons et options non résolus",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
+      "locator": "Feuil1!F63",
+      "currency": "$ présumé CAD",
+      "taxBasis": "selon source, non harmonisée",
+      "includedInNewLoss": false
+    },
+    {
+      "id": "HADMO-ALLOUE",
+      "label": "Alloué dans Hadmo avril",
+      "amount": 80918.31,
+      "type": "allocation historique",
+      "status": "non assimilable à un encaissement",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
+      "locator": "Feuil1!H63",
+      "currency": "$ présumé CAD",
+      "taxBasis": "selon source, non harmonisée",
+      "includedInNewLoss": false
+    }
+  ],
+  "invoices": [
+    {
+      "id": "CWIQUWOL-0001",
+      "date": "2025-06-12",
+      "kind": "Facture déménagement",
+      "group": "HARMONY-12JUIN",
+      "label": "CWIQUWOL-0001",
+      "ht": 3915,
+      "tps": 195.75,
+      "tvq": 390.52,
+      "total": 4501.27,
+      "status": "Annulée par version ultérieure",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0001 (4).pdf",
+      "note": "Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.",
+      "currency": "CAD"
+    },
+    {
+      "id": "CWIQUWOL-0002",
+      "date": "2025-06-12",
+      "kind": "Facture déménagement",
+      "group": "HARMONY-12JUIN",
+      "label": "CWIQUWOL-0002",
+      "ht": 4365,
+      "tps": 218.25,
+      "tvq": 435.41,
+      "total": 5018.66,
+      "status": "Annulée par version ultérieure",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (3).pdf",
+      "note": "Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.",
+      "currency": "CAD"
+    },
+    {
+      "id": "CWIQUWOL-0003",
+      "date": "2025-07-22",
+      "kind": "Facture déménagement",
+      "group": "HARMONY-12JUIN",
+      "label": "CWIQUWOL-0003",
+      "ht": 3200,
+      "tps": 160,
+      "tvq": 319.2,
+      "total": 3679.2,
+      "status": "Annulée par version 0004",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (4).pdf",
+      "note": "Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.",
+      "currency": "CAD"
+    },
+    {
+      "id": "CWIQUWOL-0004",
+      "date": "2025-08-15",
+      "kind": "Facture déménagement",
+      "group": "HARMONY-12JUIN",
+      "label": "CWIQUWOL-0004",
+      "ht": 4200,
+      "tps": 210,
+      "tvq": 418.95,
+      "total": 4828.95,
+      "status": "Version remplacée à rapprocher",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004.pdf",
+      "note": "Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.",
+      "currency": "CAD"
+    },
+    {
+      "id": "CWIQUWOL-0005",
+      "date": "2025-09-19",
+      "kind": "Facture déménagement",
+      "group": "HARMONY-12JUIN",
+      "label": "CWIQUWOL-0005",
+      "ht": 3915,
+      "tps": 195.75,
+      "tvq": 390.52,
+      "total": 4501.27,
+      "status": "Facture réclamée, paiement non vérifié",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0005 (1).pdf",
+      "note": "Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.",
+      "currency": "CAD"
+    },
+    {
+      "id": "A320",
+      "date": "2024-10-03",
+      "kind": "Réparation historique",
+      "group": "A320",
+      "label": "Frigo sous-sol",
+      "ht": 1705,
+      "tps": 85.25,
+      "tvq": 170.07,
+      "total": 1960.32,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069199.jpg",
+      "note": "Rapprocher Hadmo A320 daté juillet.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A315",
+      "date": "2024-09-22",
+      "kind": "Réparation historique",
+      "group": "A315",
+      "label": "Four à pizza",
+      "ht": 7900,
+      "tps": 395,
+      "tvq": 788.03,
+      "total": 9083.03,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069200.jpg",
+      "note": "Four/étage à identifier; version photographiée une seule fois.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A281",
+      "date": "2024-07-17",
+      "kind": "Réparation historique",
+      "group": "BUNN-A281-A290",
+      "label": "Slush BUNN CDS2",
+      "ht": 2340,
+      "tps": 117,
+      "tvq": 233.42,
+      "total": 2690.42,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069201.jpg",
+      "note": "A281/A290 : possible doublon à résoudre.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A294",
+      "date": "2024-07-29",
+      "kind": "Réparation historique",
+      "group": "A294",
+      "label": "Cocktail TAYLOR",
+      "ht": 3850,
+      "tps": 192.5,
+      "tvq": 384.04,
+      "total": 4426.54,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069202.jpg",
+      "note": "Date et montant lus sur facture.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A267",
+      "date": "2024-07-13",
+      "kind": "Réparation historique",
+      "group": "A267",
+      "label": "Chambre froide",
+      "ht": 2960,
+      "tps": 148,
+      "tvq": 295.26,
+      "total": 3403.26,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069203.jpg",
+      "note": "En-tête A290 en arrière-plan, facture principale A267.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A290",
+      "date": "2024-07-22",
+      "kind": "Réparation historique",
+      "group": "BUNN-A281-A290",
+      "label": "Slush BUNN",
+      "ht": 2340,
+      "tps": 117,
+      "tvq": 233.42,
+      "total": 2690.42,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069204.jpg",
+      "note": "A281/A290 : possible doublon à résoudre.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A245",
+      "date": "2024-06-25",
+      "kind": "Réparation historique",
+      "group": "A245",
+      "label": "Installation climatisation",
+      "ht": 1145,
+      "tps": 57.25,
+      "tvq": 114.21,
+      "total": 1316.46,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069205.jpg",
+      "note": "Avant sinistre juillet; ne pas attribuer au déménagement.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A280",
+      "date": "2024-07-15",
+      "kind": "Réparation historique",
+      "group": "A280",
+      "label": "Crème glacée",
+      "ht": 5990,
+      "tps": 299.5,
+      "tvq": 597.5,
+      "total": 6887,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069206.jpg",
+      "note": "Hadmo avril mentionne un dédoublement.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "A266",
+      "date": "2024-07-10",
+      "kind": "Réparation historique",
+      "group": "A266",
+      "label": "Chambre congélateur",
+      "ht": 8320,
+      "tps": 416,
+      "tvq": 829.92,
+      "total": 9565.92,
+      "status": "Facture lue, règlement non établi",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069207.jpg",
+      "note": "À rapprocher devis 261 et grand livre.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "N82145",
+      "date": "2024-11-26",
+      "kind": "Estimation marquée payée",
+      "group": "CKS-FOUR",
+      "label": "Four PS360WB",
+      "ht": 6700.68,
+      "tps": 335.03,
+      "tvq": 668.39,
+      "total": 7704.1,
+      "status": "Tampon payé; banque non rapprochée",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069214.jpg",
+      "note": "Dépôt 700 et payé 7 004,10 = 7 704,10. Recommandation de remplacement, livraison non établie.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "L-1027-A",
+      "date": "2025-08-04",
+      "kind": "Facture entreposage",
+      "group": "CONTENEUR-L1027",
+      "label": "Location conteneur",
+      "ht": 200,
+      "tps": 10,
+      "tvq": 19.95,
+      "total": 229.95,
+      "status": "Montant payé sur facture, solde 0",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/facture CQC_L-1027-A.pdf",
+      "note": "Date 04/08/2025 transcrite au format jour/mois. Paiement banque non rapproché.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-259",
+      "date": "2024-07-07",
+      "kind": "Devis historique",
+      "group": "DEV-259",
+      "label": "Frigo IFI",
+      "ht": 2615,
+      "tps": 130.75,
+      "tvq": 260.85,
+      "total": 3006.6,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 259.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-260",
+      "date": "2024-07-07",
+      "kind": "Devis historique",
+      "group": "DEV-260",
+      "label": "Machine à café Curtis",
+      "ht": 1485,
+      "tps": 74.25,
+      "tvq": 148.13,
+      "total": 1707.38,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 260.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-261",
+      "date": "2024-07-07",
+      "kind": "Devis historique",
+      "group": "DEV-261",
+      "label": "Chambre de congélation",
+      "ht": 8205,
+      "tps": 410.25,
+      "tvq": 818.45,
+      "total": 9433.7,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 261.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-262",
+      "date": "2024-07-07",
+      "kind": "Devis historique",
+      "group": "DEV-262",
+      "label": "Frigo sous-sol",
+      "ht": 1650,
+      "tps": 82.5,
+      "tvq": 164.59,
+      "total": 1897.09,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 262.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-263",
+      "date": "2024-07-07",
+      "kind": "Devis historique",
+      "group": "DEV-263",
+      "label": "Four Tim Horton",
+      "ht": 4635,
+      "tps": 231.75,
+      "tvq": 462.34,
+      "total": 5329.09,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 263.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-264",
+      "date": "2024-07-07",
+      "kind": "Devis historique",
+      "group": "DEV-264",
+      "label": "Electro-freeze",
+      "ht": 5990,
+      "tps": 299.5,
+      "tvq": 597.5,
+      "total": 6887,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 264.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-266",
+      "date": "2024-07-12",
+      "kind": "Devis historique",
+      "group": "DEV-266",
+      "label": "Cocktail Taylor",
+      "ht": 3390,
+      "tps": 169.5,
+      "tvq": 338.15,
+      "total": 3897.65,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 266.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-267",
+      "date": "2024-07-12",
+      "kind": "Devis historique",
+      "group": "DEV-267",
+      "label": "Slush BUNN",
+      "ht": 2340,
+      "tps": 117,
+      "tvq": 233.42,
+      "total": 2690.42,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 267.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "DEV-268",
+      "date": "2024-07-12",
+      "kind": "Devis historique",
+      "group": "DEV-268",
+      "label": "Chambre froide",
+      "ht": 1700,
+      "tps": 85,
+      "tvq": 169.58,
+      "total": 1954.58,
+      "status": "Proposition; exécution non établie",
+      "source": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 268.pdf",
+      "note": "Ne pas additionner au remplacement/réparation du même bien.",
+      "currency": "$ présumé CAD"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-01",
+      "date": "2025-04-22",
+      "label": "Provisoire no 1 inscrit",
+      "amount": 24136.06,
+      "type": "indemnité historique mentionnée",
+      "status": "Inscription au chiffrier",
+      "confirmedReceived": null,
+      "source": "Hadmo 22 avril 2025, H69",
+      "note": "Référence bancaire et affectation manquantes",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "PAY-02",
+      "date": "2025-02-20",
+      "label": "HSB demande no 2",
+      "amount": 37288.16,
+      "type": "indemnité historique mentionnée",
+      "status": "Paiement demandé / inscrit",
+      "confirmedReceived": null,
+      "source": "Courriel 19e847d75c50497e; Hadmo H71",
+      "note": "Même 37 288,16 dans courriel et chiffrier; une seule ligne",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "PAY-03",
+      "date": "2025-02-20",
+      "label": "HSB complément demandé",
+      "amount": 1855.68,
+      "type": "indemnité historique mentionnée",
+      "status": "Paiement demandé",
+      "confirmedReceived": null,
+      "source": "Courriel 19e847d75c50497e",
+      "note": "Ensemble annoncé : 39 143,84 avec PAY-02, pas une 3e somme",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "PAY-04",
+      "date": "2025-04-22",
+      "label": "Indemnité no 3 au calcul",
+      "amount": 18494.09,
+      "type": "indemnité historique mentionnée",
+      "status": "Solde calculé du chiffrier",
+      "confirmedReceived": null,
+      "source": "Hadmo 22 avril 2025, H73",
+      "note": "Ni chèque ni crédit bancaire établis ici",
+      "currency": "$ présumé CAD"
+    },
+    {
+      "id": "PAY-05",
+      "date": "2025-10-29",
+      "label": "Chèque annoncé en octobre",
+      "amount": 31085.3,
+      "type": "indemnité historique mentionnée",
+      "status": "Reçu déclaré le 6 novembre",
+      "confirmedReceived": null,
+      "source": "Courriel 19c3887029c39b3e, échanges 29 octobre / 6 novembre",
+      "note": "Encaissement, annulation et ventilation à vérifier",
+      "currency": "$ présumé CAD"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "ANN-01",
+      "label": "Frigo commercial deux portes",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-02",
+      "label": "Congélateur commercial trois portes",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-03",
+      "label": "Four à pizza double",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-04",
+      "label": "Friteuse électrique double cuve",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-05",
+      "label": "Friteuse gaz",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-06",
+      "label": "Deux shawarmas Shish Taro",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-07",
+      "label": "Table inox",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-08",
+      "label": "Table pizza double et comptoir réfrigéré",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-09",
+      "label": "Micro-ondes commercial",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-10",
+      "label": "Pétrin / mélangeur industriel",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-11",
+      "label": "Évier double inox",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-12",
+      "label": "Table hamburger avec comptoir réfrigéré",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-13",
+      "label": "Deux frigos à bière",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-14",
+      "label": "Comptoir sous-marins réfrigéré",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-15",
+      "label": "Convoyeurs, doigts et tapis PS360",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-16",
+      "label": "Grande plaque commerciale",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-17",
+      "label": "Petite plaque commerciale",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-18",
+      "label": "Deux frigos verticaux Coca-Cola",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-19",
+      "label": "Table chaude et bacs GN",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-20",
+      "label": "Toasteur rotatif double",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-21",
+      "label": "Bac à frites inox",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-22",
+      "label": "Café Bon’s",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-23",
+      "label": "Trois tables de travail",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-24",
+      "label": "Deux fours Tim Hortons",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-25",
+      "label": "Trois étagères inox",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-26",
+      "label": "Rack à étagères",
+      "netLoss": null,
+      "status": "À documenter"
+    },
+    {
+      "id": "ANN-27",
+      "label": "Ustensiles et accessoires pizzeria",
+      "netLoss": null,
+      "status": "À documenter"
+    }
+  ],
+  "sources": [
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/GRAND-LIVRE-ORIGINAL-feuille-1.csv",
+      "sha256": "452263aaf3bbfebd56c3fc6adf8e526663314bfae3a5a99ee1f43e5c5a4d1f0b"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-aout24.xlsx",
+      "sha256": "6d31f13d3c60eb85c6ef995607ff75a8af6f4123d59559449aaeacf2e8bdcc01"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-avril24.xlsx",
+      "sha256": "658ca2b57f4e80e3078ab1a726d9c2f777220fd952f34cf127d8e193677fc277"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-juillet24.xlsx",
+      "sha256": "1f982411bffd2d65d6792b36a3957a5e830df9b0d0f8ce2928fb6061f7778a0e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-juin24.xlsx",
+      "sha256": "b4d7ae5e88bff0a5a814a4917a2ceb2aa8b122c508cc14e1fbc48e255f309535"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-mai24.xlsx",
+      "sha256": "96ccd758c6a62890f4a36520cb615a8f6c5eab487b9858be1eca2c854233a1e4"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-mars24.xlsx",
+      "sha256": "3b892e110d606b71f92d290b16c3b8d15c8a9f8de87a081988432a99f1f3a1b5"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-nov24.xlsx",
+      "sha256": "d8ca4a7dddd57e40c9c5a5f7a79625de7339f1749c8d9e5065aa22a36788a9b0"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-oct24.xlsx",
+      "sha256": "f3f3b5842a16327458e0429933e887213e2a8a0cf7ea8a856d37e48b2e2d2fa6"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-sept24.xlsx",
+      "sha256": "2b631a9679de98ba72e08a0b07a46302e7ae8275dffd5febf4d7cddb9dd971e5"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx",
+      "sha256": "070c4a83eb572ccd9f557c35c6291c544a85e117b173ceb39593843e51f2ca06"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx",
+      "sha256": "1b214d9493c9ea09218ecb6f114fbbc1f9fb625a5466f330d1798f3a2ba1d715"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
+      "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Hadmo.xlsx",
+      "sha256": "56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7"
+    },
+    {
+      "path": "6241 Léger/04_Pieces_jointes/takatak.ca@gmail.com/19e847d203e73434__Hadmo_3621dc63-820c-4470-95be-cdb7f345317c 15 Janv 2025...xlsx",
+      "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/DOC090825-09082025203544(1).PDF",
+      "sha256": "525fb1ab5ab2616637019423ebbaac481b71e504cd63f0b8b9b6adf1b617850f"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/DOC091225-09122025113745.pdf",
+      "sha256": "9881b27793bf9cd01fe61baec0bd5d9d37feddb280de0643fca9982ad4ee9101"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0001 (4).pdf",
+      "sha256": "d0ce7dac7bc4100f2ca7a92ccec62a42a35e907e87027da286f98cc0361d000c"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (3).pdf",
+      "sha256": "46ad675bfcbe4c0b51d2adbf7a34de39f3839ad83c53816ada92b1436bff5a8b"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (4).pdf",
+      "sha256": "2bae5c141c048d01dac2c2205acebced1e64f469596bd7b7f1edb2d714806c8e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (5).pdf",
+      "sha256": "2bae5c141c048d01dac2c2205acebced1e64f469596bd7b7f1edb2d714806c8e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (6).pdf",
+      "sha256": "9b30c09334fdaafe64adb1bd38795a185203793cdb5197a6cca1e7ad8017427e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (7).pdf",
+      "sha256": "fc757e550c9f9c1b8fa7a1c3de8acb0ddfd827d23112f5c4e756334fb62cf645"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3) (2).pdf",
+      "sha256": "a9e038577fefce0aa27f2a2146a19dc161dc218de1fe03595e210788f3205232"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3).pdf",
+      "sha256": "a9e038577fefce0aa27f2a2146a19dc161dc218de1fe03595e210788f3205232"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (4).pdf",
+      "sha256": "ea7620dcc66fff820fdbe0c40107de5d1dd38c80ce025da62c1c483ba9a836b8"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (1).pdf",
+      "sha256": "dcb2ca0889fbca633282d6f0ae9ae13fa084d23e0b62d498f567c57ce00596c8"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (2).pdf",
+      "sha256": "cc6856a79f0b6e596cedcc39cc9ee7923f05f48b90b10848b50acf7f692e5c42"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (3).pdf",
+      "sha256": "8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (4).pdf",
+      "sha256": "8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (5).pdf",
+      "sha256": "8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (7) (2).pdf",
+      "sha256": "ef3a86243e3bf084278d8d4c96bc9c9e398df6bb845f58fe6595e3b94b08dc1a"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (7).pdf",
+      "sha256": "ef3a86243e3bf084278d8d4c96bc9c9e398df6bb845f58fe6595e3b94b08dc1a"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004.pdf",
+      "sha256": "dcb2ca0889fbca633282d6f0ae9ae13fa084d23e0b62d498f567c57ce00596c8"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0005 (1).pdf",
+      "sha256": "72157c9d71af7066f760fb341eb2ad3b5fb5ca388dba316cecfb17302b3b179a"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
+      "sha256": "8594c0fff3ee6f19ae994d6edd315f2e4fb7ba08cfe92bf3a6cd01c7c209334e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Rapport court 18757-1-1-1.pdf",
+      "sha256": "8741340bbe7d35263f027342c35d8292422e1adfbe241623602a56a1570d18d4"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/sources/Transport Services Quote for Quadro holding ltee.pdf",
+      "sha256": "8594c0fff3ee6f19ae994d6edd315f2e4fb7ba08cfe92bf3a6cd01c7c209334e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 259.pdf",
+      "sha256": "985f811e148ab88ae016a27540074e4dc9d6d004b9a335afbd3501ae901d2a64"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 260.pdf",
+      "sha256": "29f82b3533a97778532c66a340f3334ce08fd3cd4ebd0b5beb5fec8dc0ebf091"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 261.pdf",
+      "sha256": "8b0f68bb970a4c0813e43a25aeb193221b662c45453f481b3f897797cf0dddaa"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 262.pdf",
+      "sha256": "c0eaf66fc132b38effacc4a11d1a7cb38253cfc6f3334b28b6db0a97a31cd38d"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 263.pdf",
+      "sha256": "51dbae5856326c5d24d15566a6166c8af3427b501e7aee2b1ef018f92bf43646"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 264.pdf",
+      "sha256": "b829b3820ee0b93d4b2a1723ec16ded701f0589cc4bc618501a9cfb75e8aa951"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 266.pdf",
+      "sha256": "f35769319067f7e9f805743d474d7b1fde63c9cf697d48e56cb272deea88bb47"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 267.pdf",
+      "sha256": "e2f29c689e5e9736b2d22225808c9f23c819af2943f90fdedf8a9a16c4c94919"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 268.pdf",
+      "sha256": "61e06b0a59f82c494e256bed0a713ad2318bbbb8b0315344334be3b6fa649f3e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/fac 265.pdf",
+      "sha256": "bc68073bdfda346ee433880f50c55e56a4227d4f0d124b8d181137b73c77ef0e"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/facture CQC_L-1027-A.pdf",
+      "sha256": "93fcc24af4e7bae2a81d342d2a0a1ee78bb30cf55e6d8e7143a821ceb785b773"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Rapport court 46810-1-1-1 (1).pdf",
+      "sha256": "4ad884469ccf0f901ad80e8c49226f89046b7a2e67c1adbf72e2409694150bbd"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Receipt_20251020_0001 (1).pdf",
+      "sha256": "cf0ed982d8e80d327f0881283c9e75324fa313ff480f081249702bdb3c84d659"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069199.jpg",
+      "sha256": "ecf4327688dd965548c95d3a3848ce9a68e65b7e5afe7e89a048d37a3e5f1276"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069200.jpg",
+      "sha256": "65ba5a425abb151be3f7accf60a8052890805b66ddeaaa67341c63da32ef7283"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069201.jpg",
+      "sha256": "1d8db01844540c412b48f6cf249753397fff8d525674150a08241cebe99ee563"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069202.jpg",
+      "sha256": "86580c1c92180d3f5ae76c59d385172173982d5e6f43a3e72eda538f0534cfdb"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069203.jpg",
+      "sha256": "f232e2d6bdd38fb8d8d8ba499877e1bb949d25657563f0722cb87daf2e4a9978"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069204.jpg",
+      "sha256": "e398e6ace662e9955ef1032d2737dec7b29d27c93110d2bd3273384631105d92"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069205.jpg",
+      "sha256": "2171b583c7a271b34bc22af1f6d71c557eabe6a86f7f497a2a5965023ab0cc68"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069206.jpg",
+      "sha256": "ea2c7ef4ecfb7e9c38054b13a88cb98a465ec2ae989cb7f9dae04c5c22bf4492"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069207.jpg",
+      "sha256": "349f6090dc10702219a02543a33a04597b995239b1d49439d7f96cabcf62ed30"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069214.jpg",
+      "sha256": "147a29670197460ff8bbb9248969dbdc9dcbcdff0dc1b6604c7ab43a557e6fca"
+    },
+    {
+      "path": "6241 Léger/10_Archive_avocat_2026-10-05/REGISTRE-EQUIPEMENTS.csv",
+      "sha256": "a0e5d75713615c2182e147d1e178c22fdc2e8e35c6e164323058b776dc645fbd"
+    },
+    {
+      "path": "6241 Léger/03_Courriels/Analyse_consolidee/emails-index.json",
+      "sha256": "361b9fc017898ce5006ad5554c096d26e28dad6b923a69559068bc945dff8a8d"
+    }
+  ],
+  "limitations": [
+    "Les ventes et charges ne sont pas des pertes indemnisables.",
+    "Versions de factures, devis et réparations des mêmes biens non additionnés.",
+    "Aucune preuve bancaire rapprochée des indemnités dans ce master.",
+    "Réserve Hadmo K55 exclut K13 et K18 : 82 400 affichés contre 96 600 pour toutes lignes.",
+    "Grand livre repris du CSV conservé; format binaire final.xls non relu directement."
+  ]
+}

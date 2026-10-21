@@ -1,0 +1,23 @@
+# Grand livre original — contrôle complet
+
+Original final.xls, 148 992 octets, joint au courriel « Fwd: excel » du 27 mai 2026, identifiant 19e6a1cec02dd8b7. Le transfert reprend des échanges de mars 2026 avec le comptable. Une feuille, 750 lignes, 11 colonnes. L'original est conservé dans comptabilite-ventes2024/; extraction complète dans GRAND-LIVRE-ORIGINAL-feuille-1.csv. Les numéros de ligne ci-dessous correspondent au chiffrier original.
+
+## Revenus
+
+Compte 4200 Sales : dix écritures mensuelles, juillet 2024 à avril 2025, crédits totalisant **77 995,44 $**, lignes 6 à 15; total ligne 16. L'en-tête annonce juillet 2024 à juin 2025, mais il n'y a pas de ligne mensuelle de ventes pour mai ou juin. Leur absence ne prouve pas des ventes nulles. Le fichier complet confirme le total précédemment extrait; ce montant n'est pas un bénéfice ni une perte d'exploitation calculée.
+
+## Dépenses et rapprochements prioritaires
+
+Compte 5765 Repair & Maintenance : **57 842,60 $** de débits sur 64 écritures datées avec numéro de journal. Ce total comptable ne représente pas automatiquement des travaux exécutés, payés, admissibles ou causés par Harmony. Il ne doit pas être ajouté aux factures déjà comptées.
+
+Repères : Choquette CKS, lignes 568 (1 374,43 $) et 590 (6 091,85 $); Senville.ca, ligne 621 (4 761,77 $); « Repartion », lignes 567 (3 383,70 $), 620 (12 180,01 $), 627 (12 962,79 $). Obtenir les factures et expliquer les dates comptables, taxes et regroupements avant de les rattacher à une machine ou un paiement. Certaines valeurs diffèrent des factures photographiées; ne pas les remplacer ni les additionner sans rapprochement.
+
+Harmony Movers apparaît ligne 320 pour **25 $**, compte 5300 Freight Expense, journal J402. Cette ligne ne prouve pas le règlement de la facture de déménagement litigieuse.
+
+Compte 5685 Insurance : débits **6 469,71 $**, quatre écritures lignes 392 à 395. Ce sont des charges comptabilisées; elles ne prouvent aucune indemnité reçue.
+
+Le tableau GRAND-LIVRE-CONTROLE-COMPTES.csv totalise les débits et crédits par compte pour les écritures datées avec numéro de journal, sans inclure les sous-totaux ni les annotations finales. Les achats, fournitures, honoraires et frais apparaissent aussi dans le fichier; leur qualification et leur période réelle exigent les pièces sous-jacentes. Aucun résultat net indemnisable n'est établi par ce contrôle.
+
+## Réponses rapides
+
+« Revenu total » : 77 995,44 $ de ventes au compte 4200, juillet 2024–avril 2025 seulement. « Réparations comptabilisées » : 57 842,60 $ au compte 5765, à rapprocher des factures et preuves d'exécution. « Assurance payée » : distinguer les charges de primes et les indemnités; aucun versement d'indemnité n'est confirmé par ce compte.

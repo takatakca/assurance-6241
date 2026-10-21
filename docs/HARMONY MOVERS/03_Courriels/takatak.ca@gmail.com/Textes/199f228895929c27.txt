@@ -1,0 +1,174 @@
+Message Gmail: 199f228895929c27
+Date en-tête: Fri, 17 Oct 2025 08:32:46 -0400
+De: takatak ca <takatak.ca@gmail.com>
+À: yan romanowski <romanowskiyan@gmail.com>
+Objet: Re: DOSSIER HARMONY MOVERS (DEMANDE A LA COUR)
+Source brute: ../lectures-007.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+On Fri, Oct 17, 2025, 08:01 takatak ca <takatak.ca@gmail.com> wrote:
+
+> 1.Page de couverture
+> 2. Sommaire exécutif
+> 3. Chronologie détaillée des événements
+> 4. Liste des pièces avec description
+> 5. Synthèse des preuves et points juridiques 6. Demandes et conclusions
+> Nous allons maintenant rédiger chaque section en utilisant les
+> informations extraites précédemment.
+>
+> DOSSIER JURIDIQUE : QUADRO HOLDING LTÉE c. HARMONY MOVERS INC.
+>
+>
+> COUR SUPÉRIEURE DU QUÉBEC District de Montréal
+> N dossier :(à compléter par le greffe)
+> ENTRE:
+> QUADRO HOLDING LTÉE
+> 6241,boul. Léger, Montréal-Nord (Québec) H1G 6K8
+> Représentée par Pierre Lévesque, représentant dûment autorisé Demanderesse
+> ET:
+> HARMONY MOVERS INC.
+> 1600,55e Avenue, Lachine (Québec) H8T 3J5 Défenderesse
+> OBJET : Requête en injonction provisoire et interlocutoire, et en saisie
+> avant jugement DATE :20 octobre 2025
+>
+>
+> 2. Sommaire exécutif
+> Quadro Holding Ltée (la < Demandeuresse >) a mandaté Harmony Movers Inc.
+> (la 3 < Défenderesse pour le démantèlement et le transport d'équipements
+> lourds dans le cadre de la fermeture du restaurant < Situé au 6241 Blvd
+> Léger Montréal nord H1g6k8>. Un devis (*QT1076*) a été accepté et payé le
+> 10 juin 2025. Cependant, lors de l'exécution le 12 juin 2025, la
+> Défenderesse a tenté d'imposer des modifications unilatérales au contrat,
+> puis a retenu les équipements sans droit, en exigeant le paiement de
+> factures majorées et non acceptées. Malgré plusieurs mises en demeure, la
+> Défenderesse n'a pas restitué es biens. La Demandeuresse a dû engager des
+> frais supplémentaires pour atténuer son préjudice. Ce dossier présente la
+> chronologie complète des événements, les preuves à l'appui et les recours
+> demandés.
+>
+> 3. Chronologie détaillée
+> *10 juin 2025*
+> S Courriel de Oeuf Déjeuner Quadro
+> *10 juin 2025*
+> • Courriel de Oeuf Déjeuner à Quadro Holding : Mandat confiế à Harmony
+> Movers pour le retrait des équipements (comptoir à gâteaux, fours à pizza,
+> équipement de cuisson Tim Hortons). Prévision d'un technicien en gaz.
+> Attente de confirmation du chèque à l'assureur.
+> . Paiement du devis QT1076 via Stripe (28,74 $)- Reçu #1628-9431.
+> • Envoi du contrat CT2500078 par Harmony Movers via PandaDoc -en attente
+> de signature.
+> *12 juin 2025*
+> . Intervention d'Harmony Movers : Arrivée sur place à 12h30 (*au lieu de
+> 8h-9h*). Début des travaux après 48 minutes d'attente.
+> Courriel d'Harmony Movers (*15h43*) : Demande urgente de confirmation
+> pour ajouter deux travailleurs et un second camion, avec frais
+> supplémentaires.
+> <
+> Courriel d'Harmony Movers (*17h54*):Exige
+> Le paiement de 4 501,27 $ avant de poursuivre le travail. Menace de frais
+> d'entreposage (450 $/nuit et 850 $/mois).
+> . Facture Stripe #*CWIQUWOL-0001* (4 501,27 s) émise, puis annulée et
+> remplacée par *#0002* (5 018,66 $) incluant un frais de nuitée de 450 $.
+> *13 juin 2025*
+> .R Réponse de Quadro Holding (O9h17): Refus des modifications
+> unilatérales. Rappel que seul le contrat *QT1076* est valide. offre de
+> règlement de 7 842,50 $ (max 2 667,50 $) si livraison complète avant midi.
+> Avertissement de dépôt de plainte police et OPC.
+> . Couriel d'Harmony Movers (17h53) : Admet que les biens sont conservés à
+> leur entrepôt. Prétend un accord verbal avec < Mathieu >. Offre de
+> récupération moyennant paiement et 3 heures de déchargement.
+> *14 juin 2025*
+> Mise en Demeure Quadro Holding Ltee
+> *14 juin 2025*
+> Rapport de police *SPVM*
+> *22 juillet 2025*
+> Courriel d'Harmony Movers (Lev Jampolsky) : Propose une entente à
+> l'amiable : récupération des biens par un transporteur de Quadro, après
+> paiement intégral de la facture. Délai jusqu'au 25 juillet 2025 à midi.
+> *15 août 2025*
+> . Courriel d'Harmony Movers : Facture d'entreposage de 4 828,95 $ Exige
+> paiement avant toute intervention.
+> *12 septembre 2025*
+> ◦ Courriel de Me Yan Romanowski: Préparation de l'envoi officiel Harmony
+> Movers. Préavis de signification par huissier.
+> *17 septembre 2025*
+> Le Courriel de Me Yan Romanowski . Instruction de signification par
+> huissier (Ricci Teasdale Inc.).
+> *19 septembre 2025*
+> Facture Stripe #*CWIQUWOL-0005* (4 501,27 $) émise par Harmony Movers,
+> échéance 19 septembre 2025
+> *25 septembre 2025*
+> Échanges avec Ricci Teasdale Inc. (huissier): Préparation de a
+> signification.
+> *3 octobre 2025*
+> Ricci Teasdale Inc.:Facturation du mandat de signification.
+> *16 octobre 2025*
+> Ricci Teasdale Inc.: Conifirme la signification à Harmony Movers.
+>
+> P-1 10 juin 2025 Courri
+> P-2 10 juin 2025 Reçu #1628
+> P-3 Contra 10 juin 2025 (Pandé 12 juin 2025 Factur
+> P-4 #CWIC
+> P-5 j n 2025 Factur #CWIC Courri
+> P-6 12-19 juin 2025 Panda
+> P-7 20 juin 2025 Captur
+> P-8 12 juin 2025 Courrit Mover:
+> P-9 12 juin 2025 Courri Mover.
+> P-10 13 juin 2025 Courrit Holdin
+> P-11 13 juin 2025 Co' Mo
+> P-10 13 juin 2025 Holdin
+> P-11 13 juin 2025 Courrie Mover:
+> P-12 Courric 14 juin 2025 Holdin
+> P-13 14 juin 2025 Rappo SPVM Courrie
+> P-14 22 juillet 2025 Mover: Jampc
+> P-15 15 août 2025 Courri Mover: Factur
+> P-16 19 septembre 2025 #CWIC
+> P-17 12-17 septembre 2025 Courrie Romar P-18 25 sept-3 oct 2025
+> P-19 16 octobre 2025 Inc.
+>
+> 5. Synthèse des preuves et points juridiques
+> Preuves clés
+>
+>    - . Contrat initial: Devis QT1076 payé le 10 juin 2025. Preuve
+>    d'acceptation.
+>    - .Rétention illégale: Courriels d'Harmony Movers des 12 et 13 juin
+>    2025 admettant la rétention des biens sans droit.
+>    - . Modifications unilatérales : Tentative d'imposer des frais non
+>    prévus (heures supplémentaires, entreposage, nuitée) sans accord écrit.
+>    - • Mises en demeure : Quadro Holding a adressé deux mises en demeure
+>    les 13 et 14 juin 2025, restées sans suite.
+>    - . Rapport de police : Dépôt le 14 juin 2025 pour rétention illégale.
+>    - Entente conditionnelle:Offre d'Harmony Movers le 22 juillet 2025
+>    conditionnant la restitution au paiement intégral.
+>
+> Points juridiques
+>
+>    - Violation du contrat : Harmony Movers n'a pas exécuté le contrat
+>    selon les termes V convenus (art. 1439 C.c.Q.).
+>    - . Rétention illégale: Détention des biens sans droit (art. 1458
+>    C.c.Q.).
+>    - . Modifications unilatérales : Non valides sans consentement écrit
+>    (art. 1399 C.c.Q.).
+>    - . Obligation de restitution: Harmony Movers doit restituer les biens
+>    immédiatement (art. 1590 C.c.Q.).
+>    - . Préjudice : Quadro Holding a subi des pertes d'exploitation engagé
+>    des frais supplémentaires (conteneur, seconde compagnie de déménagement).
+>
+> 6. Demandes et conclusions
+>
+> La Demandeuresse demande à la Cour :
+> 1. ACCUEILLIR la requête en injonction provisoire et interlocutoire;
+> 2. *ORDONNER* à la Défenderesse de livrer "intégralité des biens à
+> l'adresse contractuelle (5007, rue Irwin, Montréal) dans un délai de 24
+> heures;
+> 3INTERDIRE à la Défenderesse de déplacer, aliéner ou facturer des frais
+> supplémentaires non prévus au contrat;
+> 4. *AUTORISER* l'assistance d'un huissier agent de la paix lors de la
+> récunération
+> 5. *CONDAMNER* la Défenderesse au paiement des dommages-intérêts, frais
+> et dépens, incluant les frais de justice et les honoraires d'avocat;
+> 6. *ORDONNER* l'exécution provisoire nonobstant appel.
+>
+>
+>
+>

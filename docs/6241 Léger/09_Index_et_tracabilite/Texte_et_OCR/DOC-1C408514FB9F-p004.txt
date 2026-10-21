@@ -1,0 +1,10 @@
+Rapprochement financier par dépense
+Financial reconciliation — distinguer facture, devis, paiement et indemnité reçue.
+QUADRO / HARMONY — champs à compléter — les blancs ne sont pas des zéros
+Fournisseur, numéro, date et objet / Supplier, number, date, item
+Nature : devis, facture, acompte ou autre / Type: quote, invoice, deposit or other
+Avant taxes, taxes, total, devise / Before tax, taxes, total, currency
+Montant réellement payé, date et preuve / Actual payment, date and evidence
+Indemnité reçue, sinistre, bien couvert et preuve / Insurance received, claim, item, evidence
+Sinistre antérieur ou perte Harmony nouvelle, justification / Earlier claim or new Harmony loss, basis
+Autres versions de la facture et doublon possible / Other versions and possible duplicate

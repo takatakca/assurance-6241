@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-10-21",
+  "source": "Fieldy connector",
+  "search": {
+    "query": "Harmony Movers",
+    "items": [],
+    "count": 0,
+    "coverage": {
+      "account": {
+        "isPaid": false,
+        "historyWindowDays": 7,
+        "accessibleFrom": "2026-10-14T18:57:52.427Z"
+      },
+      "earliestConversationAt": "2025-07-29T01:32:35.935Z",
+      "latestConversationAt": "2026-10-05T13:28:06.797Z",
+      "requestedFrom": null,
+      "requestedTo": null,
+      "searchMode": "keyword",
+      "index": {
+        "status": "unverified",
+        "keywordRetentionDays": 180,
+        "semanticRetentionDays": 30
+      }
+    },
+    "truncated": false,
+    "nextStep": "Use fieldy_get_conversation with an id for the full record, fieldy_list_transcripts for evidence around a passage, or fieldy_browse_conversations to enumerate matching meeting metadata. Existing content-index coverage is unverified. Browse metadata and fetch candidate conversations when a historical content search finds nothing.",
+    "transcriptSearchEnabled": true
+  },
+  "browse": {
+    "items": [],
+    "count": 0,
+    "nextCursor": null,
+    "hasMore": false,
+    "coverage": {
+      "account": {
+        "isPaid": false,
+        "historyWindowDays": 7,
+        "accessibleFrom": "2026-10-14T18:58:18.455Z"
+      },
+      "earliestConversationAt": "2025-07-29T01:32:35.935Z",
+      "latestConversationAt": "2026-10-05T13:28:06.797Z",
+      "requestedFrom": null,
+      "requestedTo": null,
+      "searchMode": "keyword",
+      "index": {
+        "status": "unverified",
+        "keywordRetentionDays": 180,
+        "semanticRetentionDays": 30
+      }
+    }
+  },
+  "content_retrieved": false
+}

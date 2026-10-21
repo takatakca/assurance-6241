@@ -1,0 +1,9 @@
+Registre de la rencontre
+Meeting record — consigner les propos et les documents, sans inventer de conclusion.
+QUADRO / HARMONY — champs à compléter — les blancs ne sont pas des zéros
+Date, heure, lieu et nature de la rencontre / Date, time, venue and type
+Participants et fonctions / Participants and roles
+Question à décider et pièce invoquée / Issue and source document
+Question et réponse exactes, intervenant, horodatage / Exact words, speaker, timestamp
+Traduction identifiée et incertitudes / Labelled translation and uncertainties
+Pièce du dossier, page ou identifiant / Evidence file, page or ID

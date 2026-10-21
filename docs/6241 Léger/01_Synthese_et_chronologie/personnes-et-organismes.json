@@ -1,0 +1,283 @@
+{
+  "as_of": "2026-10-21",
+  "scope": "Personnes citées dans corpus 6241; rôles gradués selon sources",
+  "parties": [
+    {
+      "name": "Quadro Holding Ltée",
+      "role": "Entreprise réclamante selon l’utilisateur",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-13",
+          "turn_id": "bbb21739-3075-4a93-8392-cb397f38ff08",
+          "thread_id": "69ff7213-698c-83ea-a564-81c78200263f",
+          "title": "Mise en demeure Quadro Holding",
+          "date_message_locale": "2026-05-09T13:42:46.185953-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/69ff7213-698c-83ea-a564-81c78200263f.md"
+        }
+      ]
+    },
+    {
+      "name": "Matthieu Wallace Barnard",
+      "role": "Nom communiqué par l’utilisateur; qualité juridique et mandat pour Quadro à vérifier",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "thread_id": "6a29ba9d-ec58-83ea-8929-30e017adad19",
+          "turn_id": "bbb21057-a747-46b9-8df9-e2e9bff7a5e5",
+          "note": "Identité du compte observée au navigateur le 21 octobre; qualité juridique à vérifier.",
+          "title": "Demande de rectification dossier",
+          "date_message_locale": "2026-06-10T15:28:18.808029-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/6a29ba9d-ec58-83ea-8929-30e017adad19.md"
+        }
+      ],
+      "note": "Coordonnées privées présentes seulement dans l’archive source; ne pas diffuser publiquement."
+    },
+    {
+      "name": "Joey Dubois",
+      "role": "Signature visible : expert en sinistre, vice-président, Division des risques spéciaux, SRD IndemniPro",
+      "status": "document reproduit dans capture, original complet à rapprocher",
+      "refs": [
+        {
+          "reference": "CORR-01",
+          "turn_id": "bbb219da-ec51-488a-b26e-359829a83232",
+          "thread_id": "68de664f-d7f8-8326-902b-9bb75045e23d",
+          "title": "Réécriture professionnelle en français",
+          "date_message_locale": "2025-10-02T07:47:28.466031-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68de664f-d7f8-8326-902b-9bb75045e23d.md"
+        },
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21cb3-8240-48d8-96cf-c1c0eabc9543",
+          "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+          "title": "Letter draft polishing",
+          "date_message_locale": "2025-09-11T11:22:55.410353-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+        }
+      ],
+      "document_id": "DOC-C08"
+    },
+    {
+      "name": "INDEMNI PRO",
+      "role": "Cabinet d’expertise en règlement de sinistres selon signature SRD IndemniPro; ne pas confondre avec assureur porteur du risque",
+      "status": "document reproduit dans capture",
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c",
+          "thread_id": "68e8e36c-8974-8329-8a46-b6b30cc1ea6b",
+          "title": "Insurance claim delay",
+          "date_message_locale": "2025-10-10T14:52:43.879000-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68e8e36c-8974-8329-8a46-b6b30cc1ea6b.md"
+        }
+      ],
+      "document_id": "DOC-C08"
+    },
+    {
+      "name": "HSB",
+      "role": "Assureur présenté dans des anciennes lettres générées; original de police/lettre non visible",
+      "status": "texte assistant uniquement",
+      "refs": [
+        {
+          "reference": "CORR-12",
+          "turn_id": "bbb2151f-820f-4a67-ad7b-fff83dedc78c",
+          "thread_id": "690cd1f5-6304-8327-957d-b5af7cb99d5b",
+          "title": "Reformulation message professionnel",
+          "date_message_locale": "2025-11-06T22:26:44.766263-05:00",
+          "source_texte": "02_Conversations/Textes_lisibles/690cd1f5-6304-8327-957d-b5af7cb99d5b.md"
+        }
+      ]
+    },
+    {
+      "name": "Racine & Chamberland Inc.",
+      "role": "Cabinet attribué à Joey Dubois par les anciennes lettres générées; non confirmé",
+      "status": "texte assistant uniquement",
+      "refs": [
+        {
+          "reference": "CORR-12",
+          "turn_id": "bbb2151f-820f-4a67-ad7b-fff83dedc78c",
+          "thread_id": "690cd1f5-6304-8327-957d-b5af7cb99d5b",
+          "title": "Reformulation message professionnel",
+          "date_message_locale": "2025-11-06T22:26:44.766263-05:00",
+          "source_texte": "02_Conversations/Textes_lisibles/690cd1f5-6304-8327-957d-b5af7cb99d5b.md"
+        }
+      ],
+      "note": "Ancienne attribution à Joey issue de textes assistant; signature visible dans DOC-C08 indique SRD IndemniPro. Ne pas reprendre cette affiliation pour Joey sans autre pièce."
+    },
+    {
+      "name": "Ayisha Houle-Dixon",
+      "role": "Présentée comme signataire de HSB par l’assistant; original non disponible",
+      "status": "texte assistant uniquement",
+      "refs": [
+        {
+          "reference": "CORR-12",
+          "turn_id": "bbb2151f-820f-4a67-ad7b-fff83dedc78c",
+          "thread_id": "690cd1f5-6304-8327-957d-b5af7cb99d5b",
+          "title": "Reformulation message professionnel",
+          "date_message_locale": "2025-11-06T22:26:44.766263-05:00",
+          "source_texte": "02_Conversations/Textes_lisibles/690cd1f5-6304-8327-957d-b5af7cb99d5b.md"
+        }
+      ]
+    },
+    {
+      "name": "Me Romanowski",
+      "role": "Avocat mentionné dans les textes assistant; mandat/identité non vérifiés dans ce corpus",
+      "status": "texte assistant uniquement",
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "a4ef976f-e7d9-46cf-8596-8dd663b68e6b",
+          "thread_id": "68e8e36c-8974-8329-8a46-b6b30cc1ea6b",
+          "title": "Insurance claim delay",
+          "date_message_locale": "2025-10-10T14:38:42.382000-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68e8e36c-8974-8329-8a46-b6b30cc1ea6b.md"
+        }
+      ]
+    },
+    {
+      "name": "Harmony Movers",
+      "role": "Déménageur mandaté; retards et rétention des biens allégués par utilisateur",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21c20-4ed6-4765-a42c-3c53938139cc",
+          "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+          "title": "Letter draft polishing",
+          "date_message_locale": "2025-09-11T11:38:01.550069-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+        }
+      ]
+    },
+    {
+      "name": "Tzanet",
+      "role": "Magasin et réparation/analyse du PS360 selon l’utilisateur",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-01",
+          "turn_id": "bbb219da-ec51-488a-b26e-359829a83232",
+          "thread_id": "68de664f-d7f8-8326-902b-9bb75045e23d",
+          "title": "Réécriture professionnelle en français",
+          "date_message_locale": "2025-10-02T07:47:28.466031-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68de664f-d7f8-8326-902b-9bb75045e23d.md"
+        }
+      ]
+    },
+    {
+      "name": "Torry Repairs",
+      "role": "Analyse du four à pizza annoncée par utilisateur le 11 septembre 2025",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21c20-4ed6-4765-a42c-3c53938139cc",
+          "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+          "title": "Letter draft polishing",
+          "date_message_locale": "2025-09-11T11:38:01.550069-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+        }
+      ]
+    },
+    {
+      "name": "TDP",
+      "role": "Désignation « notaire comptable agréé TDP » dans déclaration; identité et profession exactes à clarifier",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-13",
+          "turn_id": "bbb2134d-09dc-4b75-ba6c-6e8f14e2fd29",
+          "thread_id": "69ff7213-698c-83ea-a564-81c78200263f",
+          "title": "Mise en demeure Quadro Holding",
+          "date_message_locale": "2026-05-09T13:47:11.080027-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/69ff7213-698c-83ea-a564-81c78200263f.md"
+        }
+      ]
+    },
+    {
+      "name": "Daniel",
+      "role": "Interlocuteur cité à propos d’un accord sur factures Sysco; nom complet et rôle inconnus",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21c20-4ed6-4765-a42c-3c53938139cc",
+          "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+          "title": "Letter draft polishing",
+          "date_message_locale": "2025-09-11T11:38:01.550069-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+        }
+      ]
+    },
+    {
+      "name": "Mike (incertain)",
+      "role": "Comptable partenaire présumé selon « Mike je pense »; identité à confirmer",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21c20-4ed6-4765-a42c-3c53938139cc",
+          "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+          "title": "Letter draft polishing",
+          "date_message_locale": "2025-09-11T11:38:01.550069-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+        }
+      ]
+    },
+    {
+      "name": "Patman",
+      "role": "Rendez-vous évoqué pour juillet dans récit des délais; identité et rôle à confirmer",
+      "status": "déclaration utilisateur",
+      "refs": [
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21ace-2c8b-4cbf-bfcc-e1e4c8d0acb9",
+          "thread_id": "68c2e94f-1e7c-832a-8885-713f3e4a74b9",
+          "title": "Letter draft polishing",
+          "date_message_locale": "2025-09-11T12:07:59.768065-04:00",
+          "source_texte": "02_Conversations/Textes_lisibles/68c2e94f-1e7c-832a-8885-713f3e4a74b9.md"
+        }
+      ]
+    },
+    {
+      "name": "Avocat Yan Ramo…",
+      "role": "Nom de contact tronqué dans capture; interlocuteur exprimant sa compréhension du dossier et demandant une esquisse de lettre",
+      "status": "document reproduit dans capture; identité complète/mandat non vérifiés",
+      "document_id": "DOC-C11",
+      "note": "Ne pas fusionner automatiquement Ian Ramunoski, Yan Ramo… et Me Romanowski."
+    },
+    {
+      "name": "Équipement Frigo-Spec / 9184-6881 Québec inc.",
+      "role": "Émetteur des devis et factures photographiés",
+      "status": "document reproduit dans capture",
+      "document_ids": [
+        "DOC-C05",
+        "DOC-C06",
+        "DOC-C07",
+        "DOC-C12",
+        "DOC-C13"
+      ]
+    },
+    {
+      "name": "Senville",
+      "role": "Émetteur de la confirmation de commande 120714",
+      "status": "document reproduit dans capture",
+      "document_id": "DOC-C04"
+    },
+    {
+      "name": "Abdel Restaurant",
+      "role": "Nom de contact visible; échanges sur proposition commerciale Quadro/délice aden, lien précis à relance du 6241 à confirmer",
+      "status": "document reproduit dans capture; identité réelle non vérifiée",
+      "document_ids": [
+        "DOC-C09",
+        "DOC-C10"
+      ]
+    },
+    {
+      "name": "M. Manes",
+      "role": "Mentionné par Joey comme source d’information sur le déménagement; prénom et qualité non visibles",
+      "status": "document reproduit dans capture",
+      "document_id": "DOC-C08"
+    }
+  ]
+}

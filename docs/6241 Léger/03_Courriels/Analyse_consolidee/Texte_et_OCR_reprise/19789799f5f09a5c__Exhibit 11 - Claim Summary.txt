@@ -1,0 +1,31 @@
+PAGE 1
+INDEMNIPRO
+Sommaire dossier 24110-4833
+Assuré: Hadmo
+Description Fournisseur No. facture Date Montant Montnat Commentaires
+réclamé alloué
+Équipements
+Frigo Pâtisserie IFI-DDSG-6 Frigo-Spec Devis 259 7 juillet, 2024 2,615.00$            -$                      Remplacement de compresseur
+Aucune explication cause du bris
+Machine à café Curtis Frigo-Spec Devis 260 7 juillet, 2024 1,485.00$            -$                      Module de remplissage et valve
+Aucune explication cause du bris
+Chambre de congélation Frigo-Spec Devis 261 7 juillet,2024 8,205.00$            -$                      Compresseur filtre,thermostat
+Aucune explication cause du bris
+Four Tim Horton Frigo-Spec Devis 263 7 juillet, 2024 4,635.00$            -$                      Sonde de temp. et plaque de contrôle
+Aucune explication cause du bris
+Frigo une porte Frigo-Spec Devis 262 7 juillet, 2024 1,650.00$            -$                      Compresseur 
+Aucune explication cause du bris
+Machine cocktail taylor Frigo-Spec Devis 266 7 juillet, 2024 3,390.00$            -$                      Moteur agitateur et compresseur
+Aucune explication cause du bris
+Electro Freeze Frigo-Spec Devis 264 7 juillet, 2024 5,990.00$            -$                      Compresseur
+Aucune explication cause du bris
+Machine à Slush Frigo-Spec Devis 267 7 juillet, 2024 2,340.00$            -$                      Contrôle électronique
+Aucune explication cause du bris
+Four à Pizza Frigo-Spec Devis 265 7 juillet, 2024 7,900.00$            -$                      Blowers, Pilot. Sensor de sécurité
+Aucune explication cause du bris
+Chambre froide Frigo-Spec Devis 268 7 juillet, 2024 1,700.00$            -$                      Compresseur
+Inspection Frimabec 6371 6  oct.,2024 408.16$               408.66$                
+Aucune explication cause du bris
+Total 40,318.16$          408.66$                
+Marchandise 31,420.08$          25,136.06$           allocation 80%
+Total 71,738.24$          25,544.72$           

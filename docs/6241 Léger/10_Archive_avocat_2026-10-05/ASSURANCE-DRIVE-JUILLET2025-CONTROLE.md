@@ -1,0 +1,11 @@
+# Contrôle complémentaire — document Drive du 30 juillet 2025
+
+Source : « Untitled document », créé le 30 juillet 2025, identifiant 1RmkyLbHb6BK7N9JDTHeIQbQw0RHL_oM04aAamFfmWic. Texte conservé dans DRIVE-ASSURANCE-JUILLET2025.txt. Le document mélange une mise en demeure et des réponses insérées; il ne comporte pas de signature, d'expéditeur ni de preuve d'envoi dans l'extraction. Retrouver le courriel original avant attribution définitive.
+
+Le texte porte sur le sinistre antérieur : il évoque une attente de plus d'un an, Daniel Simard, CEC et les réparations autorisées. Il ne confirme aucune offre pour les dommages Harmony.
+
+Trois oppositions sont explicites : autorisation de certains travaux plutôt que validation de tous; inspection CEC et travaux prétendument non effectués; réclamation de perte d'exploitation encore attendue par l'expert-comptable plutôt que comptabilité complète reçue. Ce sont des positions rapportées dans un document composite, pas des faits techniques établis.
+
+À obtenir : message original avec auteur et date, mandat et rapport CEC, facture et identité du technicien contesté, preuves d'exécution avant déménagement, liste exacte des justificatifs de perte d'exploitation reçus ou manquants. Une facture seule ne résout pas l'objection concernant l'exécution; joindre rapport, photos datées et attestation du technicien.
+
+Commande pratique : « autorisation des réparations » ou « objection CEC ». Réponse : certaines autorisations sont rapportées, mais leur périmètre et l'exécution restent à documenter; ne pas présenter l'ensemble des machines comme techniquement validé sur cette seule source.

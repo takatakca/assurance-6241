@@ -1,0 +1,9 @@
+Fiche par objet physique
+Individual item record — reproduire cette page pour chaque objet, même dans une rubrique groupée.
+QUADRO / HARMONY — champs à compléter — les blancs ne sont pas des zéros
+Identifiant, rubrique, modèle et série / Item ID, category, model, serial number
+Présence, lieu, gardien et date du constat / Presence, location, custodian, observation date
+État avant transport et pièce précise / Pre-move condition and exact source
+Dommage visible, pièces manquantes et photos / Visible damage, missing parts, photo IDs
+Essai, opération autorisée, technicien et résultat / Test, authorised operation, technician, result
+Diagnostic, réparation ou remplacement, devis et coût / Diagnosis, repair or replacement, quote, cost

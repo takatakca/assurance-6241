@@ -1,0 +1,30 @@
+Message Gmail: 1a10d11ad511601b
+Date en-tête: Mon, 5 Oct 2026 13:17:03 -0400
+De: Mail Delivery Subsystem <MAILER-DAEMON@mail309c9.megamailservers.com>
+À: takatak.ca@gmail.com
+Objet: Returned mail: see transcript for details
+Source brute: ../lectures-004.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+The original message was received at Mon, 5 Oct 2026 13:17:03 -0400
+from cdufourd.dufourdion.com@localhost
+
+   ----- The following addresses had permanent fatal errors -----
+christiandufourd@gmail.com
+    (reason: 550 5.7.1 695HH3gY2104208 This message has been blocked for containing SPAM-like characteristics.)
+    (expanded from: christiandufourd@gmail.com)
+
+   ----- Transcript of session follows -----
+... while talking to localhost:
+>>> DATA
+<<< 550 5.7.1 695HH3gY2104208 This message has been blocked for containing SPAM-like characteristics.
+554 5.0.0 Service unavailable
+
+
+Final-Recipient: RFC822; christiandufourd@gmail.com
+X-Actual-Recipient: rfc822; christiandufourd@gmail.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: DNS; localhost
+Diagnostic-Code: @gmail.com; 550 5.7.1 695HH3gY2104208 This message has been blocked for containing SPAM-like characteristics.
+Last-Attempt-Date: Mon, 5 Oct 2026 13:17:03 -0400

@@ -1,0 +1,1256 @@
+{
+  "retrieved_at": "2026-10-21",
+  "scope": "45 fichiers nouveaux pour cette reprise; 23 exports PDF de courriels peuvent répéter les fils MIME et entre eux. Aucun cumul de facture.",
+  "files": [
+    {
+      "case": "6241 Léger",
+      "message_id": "19789799f5f09a5c",
+      "filename": "Exhibit 11 - Claim Summary.pdf",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf",
+      "bytes": 91284,
+      "expected_bytes": 91284,
+      "sha256": "4f62c985c60ca566548d0c30dcf0dc764024f4295ca204875a46b8ade60abe7e",
+      "retrieved_at": "2026-10-21",
+      "original_filename": "Exhibit 11 - Claim Summary.pdf",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf",
+        "pages": 1,
+        "characters": [
+          1988
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "case": "6241 Léger",
+      "message_id": "197c6af4f0b3ebb1",
+      "filename": "1000069198.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6af4f0b3ebb1__1000069198.jpg",
+      "bytes": 1574204,
+      "expected_bytes": 1574204,
+      "sha256": "369036a02a3b4de9cdc42029d4b913cdf6c963cc8346a022f52c46e0fb989faa",
+      "retrieved_at": "2026-10-21",
+      "original_filename": "1000069198.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197c6af4f0b3ebb1__1000069198-rot270-ocr.txt",
+        "characters": 507,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "case": "6241 Léger",
+      "message_id": "197c6b0c18422055",
+      "filename": "Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "bytes": 86571,
+      "expected_bytes": 86571,
+      "sha256": "1eada45c543663ede8f4082223760a79b1c3ef7a3b8a86d1ba5655bd2d56492a",
+      "retrieved_at": "2026-10-21",
+      "original_filename": "Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+        "pages": 1,
+        "characters": [
+          736
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "case": "6241 Léger",
+      "message_id": "197c6b0c18422055",
+      "filename": "Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "bytes": 90371,
+      "expected_bytes": 90371,
+      "sha256": "2e226b2f2953b0c1e1f2e2c32659a6dff48bf0933017031ceaae115ecfe325d5",
+      "retrieved_at": "2026-10-21",
+      "original_filename": "Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+        "pages": 2,
+        "characters": [
+          1537,
+          587
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "case": "6241 Léger",
+      "message_id": "1978961b3ba85bb2",
+      "filename": "Re: 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord.eml",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/1978961b3ba85bb2__Re_ 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord.eml",
+      "bytes": 106043,
+      "expected_bytes": 106043,
+      "sha256": "89ef9d9578515711d88ef7d76c6fe0a6079b574cde660042c054750e0ad21b19",
+      "retrieved_at": "2026-10-21",
+      "original_filename": "Re: 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord.eml",
+      "extraction": null,
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Signature.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A01.pdf",
+      "bytes": 254912,
+      "expected_bytes": 254912,
+      "sha256": "abec2655cfe792212b52fc5c28902288e0f6105aa95efc4ee5f941543c441027",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Signature.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A01.pdf",
+        "pages": 2,
+        "characters": [
+          2179,
+          860
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A02.pdf",
+      "bytes": 237927,
+      "expected_bytes": 237927,
+      "sha256": "5e023c755bfba15512804d0bafe7f94c1d53058d46fb94cffbcff981c9d4ac11",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A02.pdf",
+        "pages": 2,
+        "characters": [
+          1487,
+          2005
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Suivi sur ma réclamation de juin.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A03.pdf",
+      "bytes": 236788,
+      "expected_bytes": 236788,
+      "sha256": "a6c6d37c1c4f812e17c0be04496e1402d76d1f9f96bf9581b51d611a29897b8f",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Suivi sur ma réclamation de juin.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A03.pdf",
+        "pages": 2,
+        "characters": [
+          1971,
+          1221
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A04.pdf",
+      "bytes": 203988,
+      "expected_bytes": 203988,
+      "sha256": "a6b77ce85f6204c8ce0ee392f14d19dbb43ace46d920adcc5eb0539cc6c46cfb",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A04.pdf",
+        "pages": 2,
+        "characters": [
+          953,
+          1388
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833;TR_ 2024002464.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A05.pdf",
+      "bytes": 235673,
+      "expected_bytes": 235673,
+      "sha256": "c01ef4117032c157486953070ae8eb86e953650111a697f09a559f6ecff5f145",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833;TR_ 2024002464.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A05.pdf",
+        "pages": 2,
+        "characters": [
+          1962,
+          53
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Demande de Remplacement d'équipement .PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A06.pdf",
+      "bytes": 100087,
+      "expected_bytes": 100087,
+      "sha256": "e417911ed45ba662416842fd5f821c47e53bbc691f091753cedd7ef1acfae517",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Demande de Remplacement d'équipement .PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A06.pdf",
+        "pages": 2,
+        "characters": [
+          2741,
+          0
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833 Visite d'un consultant en équipement.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A07.pdf",
+      "bytes": 382258,
+      "expected_bytes": 382258,
+      "sha256": "82d1be3e9731cd134f9c9f47dd12bcb17cbca0ab7e109bfccd01f3b9e7a4ab76",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833 Visite d'un consultant en équipement.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A07.pdf",
+        "pages": 13,
+        "characters": [
+          1958,
+          1823,
+          1153,
+          2137,
+          1831,
+          908,
+          2076,
+          2080,
+          2081,
+          1996,
+          2009,
+          1841,
+          347
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Réponse à vos questions .PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A08.pdf",
+      "bytes": 387693,
+      "expected_bytes": 387693,
+      "sha256": "bb006410dab060bce13d7e47d965e930b159df1b3c88482a14e9719b34c057f3",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Réponse à vos questions .PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A08.pdf",
+        "pages": 10,
+        "characters": [
+          2753,
+          3293,
+          1225,
+          2544,
+          2837,
+          2990,
+          2746,
+          2338,
+          3220,
+          1291
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833; Visite d'un consultant en équipement.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A09.pdf",
+      "bytes": 296270,
+      "expected_bytes": 296270,
+      "sha256": "e99bb93b972bbeb7ea4c8a3e4b7f7b73c485e756cc6ea99087edf07c062c47bf",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833; Visite d'un consultant en équipement.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A09.pdf",
+        "pages": 6,
+        "characters": [
+          2342,
+          1800,
+          2037,
+          1796,
+          949,
+          304
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833 Visire d'un consultant en équipement.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A10.pdf",
+      "bytes": 340829,
+      "expected_bytes": 340829,
+      "sha256": "44f846cd90ed4823e85f9d844e05e38f92d7c1ed7446a96fb636dbc1be029315",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833 Visire d'un consultant en équipement.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A10.pdf",
+        "pages": 8,
+        "characters": [
+          2315,
+          1816,
+          1447,
+          3004,
+          2183,
+          1556,
+          1930,
+          1026
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail -  24110-4833; Dommages équipements.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A11.pdf",
+      "bytes": 471727,
+      "expected_bytes": 471727,
+      "sha256": "d96912e6ab803144805161a7b2d91349d5e201b7a3040aab47aa96182446105d",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail -  24110-4833; Dommages équipements.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A11.pdf",
+        "pages": 13,
+        "characters": [
+          2585,
+          2362,
+          2037,
+          3276,
+          2181,
+          1947,
+          3118,
+          4005,
+          4046,
+          3329,
+          2888,
+          1917,
+          3044
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A12.pdf",
+      "bytes": 293849,
+      "expected_bytes": 293849,
+      "sha256": "435de0744aa95c28c64c6528d37b9a81838ac17ff7ed6810dbb180a50e98d3d6",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A12.pdf",
+        "pages": 9,
+        "characters": [
+          1525,
+          856,
+          1186,
+          1762,
+          1830,
+          1227,
+          1015,
+          1345,
+          1992
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833-Suivi.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A13.pdf",
+      "bytes": 194545,
+      "expected_bytes": 194545,
+      "sha256": "32fa75f17cd7811c1bec442f11b7e2bdf82ce881762b99bb41dce0e5af57e613",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833-Suivi.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A13.pdf",
+        "pages": 3,
+        "characters": [
+          1422,
+          1348,
+          1269
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A14.pdf",
+      "bytes": 242486,
+      "expected_bytes": 242486,
+      "sha256": "995a2bec3d63da55a63139cdf78fc326c8301a8378d63c94fa740c696bd69f3b",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A14.pdf",
+        "pages": 2,
+        "characters": [
+          2028,
+          758
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A15.pdf",
+      "bytes": 97945,
+      "expected_bytes": 97945,
+      "sha256": "42f273e782f2e4cdeaf126db4fe92b09ca335dd88e656a27edd32bc15b84652b",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A15.pdf",
+        "pages": 1,
+        "characters": [
+          868
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail -  24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A16.pdf",
+      "bytes": 386317,
+      "expected_bytes": 386317,
+      "sha256": "047d4919e2a1c3640b3a80f77e781d1e4a8a30125d5a611b4dfd2bd9262e920b",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail -  24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A16.pdf",
+        "pages": 10,
+        "characters": [
+          2143,
+          2082,
+          2820,
+          2679,
+          3687,
+          2531,
+          2964,
+          2493,
+          2225,
+          2825
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A17.pdf",
+      "bytes": 763415,
+      "expected_bytes": 763415,
+      "sha256": "b1944a92a106354ed784f31a0687055584fc4b90d09c5bd845103642d1758ee2",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A17.pdf",
+        "pages": 29,
+        "characters": [
+          3142,
+          2200,
+          2706,
+          1842,
+          2965,
+          2805,
+          2468,
+          4088,
+          3315,
+          2735,
+          3937,
+          2853,
+          3529,
+          3093,
+          3023,
+          3024,
+          2777,
+          2670,
+          3430,
+          2492,
+          2190,
+          2964,
+          2981,
+          2934,
+          2891,
+          3129,
+          2636,
+          2105,
+          543
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A18.pdf",
+      "bytes": 312170,
+      "expected_bytes": 312170,
+      "sha256": "16bb55d924f14cb39fa22065e86e15d8f4728c7940380d54b84d04dec82f3849",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A18.pdf",
+        "pages": 8,
+        "characters": [
+          1587,
+          1836,
+          752,
+          1027,
+          1009,
+          787,
+          1161,
+          545
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A19.pdf",
+      "bytes": 285291,
+      "expected_bytes": 285291,
+      "sha256": "264b3114aaf63ffd5da7b6d855065bb4c03ba0f02f98896d36368c12ee7f7b44",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A19.pdf",
+        "pages": 7,
+        "characters": [
+          1943,
+          1883,
+          1019,
+          902,
+          948,
+          1617,
+          506
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A20.pdf",
+      "bytes": 313930,
+      "expected_bytes": 313930,
+      "sha256": "eb9ef096e47b6f4dc7862bc3f0e6ab09ddec2ac630ec199601d8522318365203",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A20.pdf",
+        "pages": 8,
+        "characters": [
+          2085,
+          2585,
+          2081,
+          2692,
+          2130,
+          2206,
+          3507,
+          1174
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail -  24110-4833TR_ Demande de Remplacement d'équipement.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A21.pdf",
+      "bytes": 237255,
+      "expected_bytes": 237255,
+      "sha256": "fbb9bbe778c527b1d0b624554e8828a92bb0950552642de69f547890e7c45688",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail -  24110-4833TR_ Demande de Remplacement d'équipement.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A21.pdf",
+        "pages": 3,
+        "characters": [
+          1669,
+          1906,
+          135
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A22.pdf",
+      "bytes": 453081,
+      "expected_bytes": 453081,
+      "sha256": "0cea767ae3af4b1f0d20f784fa3f99f78a1b651206b31ed6a16ef9ab1379f140",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A22.pdf",
+        "pages": 14,
+        "characters": [
+          2684,
+          2449,
+          2867,
+          2099,
+          2705,
+          2141,
+          2783,
+          2992,
+          2685,
+          2835,
+          2781,
+          2861,
+          2465,
+          1425
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "19e6a1c6483f8f5a",
+      "filename": "Gmail -  24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A23.pdf",
+      "bytes": 661159,
+      "expected_bytes": 661159,
+      "sha256": "f602e7244483bfb651a452e27fd6189ce09aaa91bea71b8979566ecf2f55afa6",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "Gmail -  24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF",
+      "extraction": {
+        "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A23.pdf",
+        "pages": 21,
+        "characters": [
+          2440,
+          2330,
+          2302,
+          2961,
+          2270,
+          3048,
+          2694,
+          2413,
+          4244,
+          2573,
+          2659,
+          2771,
+          2794,
+          3128,
+          3375,
+          3777,
+          3224,
+          2119,
+          778,
+          2431,
+          2537
+        ]
+      },
+      "ocr": null
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069244.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A24.jpg",
+      "bytes": 1497922,
+      "expected_bytes": 1497922,
+      "sha256": "6b4d691e1d7774035670c9069fe8ed7b3755d94cca5cd3ac18b6ea3ea67a64b1",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "1000069244.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A24-rot270-ocr.txt",
+        "characters": 292,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069246.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A25.jpg",
+      "bytes": 1154215,
+      "expected_bytes": 1154215,
+      "sha256": "9bced3bb6a7397be2103ecc3d2554268c534e663b176eea9cd832e6555bae6e1",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "1000069246.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A25-rot90-ocr.txt",
+        "characters": 1165,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069252.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A33.jpg",
+      "bytes": 1484965,
+      "expected_bytes": 1484965,
+      "sha256": "45581883c4a207cf94a2fbf0d81c63030cdf881f2e4a07c473c413c01474f7f9",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "1000069252.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A33-rot90-ocr.txt",
+        "characters": 1427,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069255.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A34.jpg",
+      "bytes": 1494310,
+      "expected_bytes": 1494310,
+      "sha256": "a81ea9ee935dc633bef4a218a4563e29536a9da933a304bc3e561d44a8da577d",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "1000069255.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A34-rot90-ocr.txt",
+        "characters": 1305,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069254.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A35.jpg",
+      "bytes": 1539090,
+      "expected_bytes": 1539090,
+      "sha256": "4c757f57ef16e0583b7a58b182fe37f84d4bd21a9f934ac1533f225f0347bf1e",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "1000069254.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A35-rot90-ocr.txt",
+        "characters": 1467,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069253.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A36.jpg",
+      "bytes": 1556576,
+      "expected_bytes": 1556576,
+      "sha256": "e9f12ad682027ca030385f9101af00f781433f70e3c59b58cb7fc38e249e0ea5",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded",
+      "case": "6241 Léger",
+      "original_filename": "1000069253.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A36-rot90-ocr.txt",
+        "characters": 1492,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069243.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A26.jpg",
+      "bytes": 1548518,
+      "expected_bytes": 1548518,
+      "sha256": "2798cdd8d6952366e06273a2e43c3199cb37f5a1f631b71dba8e21e71cf65679",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069243.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A26-rot90-ocr.txt",
+        "characters": 1641,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069245.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A27.jpg",
+      "bytes": 1380733,
+      "expected_bytes": 1380733,
+      "sha256": "c21b4f860b461700f4d1fa8860a9ea35a773acc041628764efdf26b51610f9b5",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069245.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A27-rot90-ocr.txt",
+        "characters": 690,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069248.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A28.jpg",
+      "bytes": 1375955,
+      "expected_bytes": 1375955,
+      "sha256": "e6dc939a56afc47e226a6c0b8ad045533e5fa377516cdcfc3124cb3a44af38f6",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069248.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A28-rot90-ocr.txt",
+        "characters": 655,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069247.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A29.jpg",
+      "bytes": 1498702,
+      "expected_bytes": 1498702,
+      "sha256": "5d0f9a0266d7dc34c5bc89dc7080ac64b500f2fd8f8187e6c183d57c0ab8fd2c",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069247.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A29-rot90-ocr.txt",
+        "characters": 1534,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069249.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A30.jpg",
+      "bytes": 1518133,
+      "expected_bytes": 1518133,
+      "sha256": "87df8fc63078eb4fde57b85fb44d23eee887d02541a94a793f60f5b4354285d5",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069249.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A30-rot90-ocr.txt",
+        "characters": 1656,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069250.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A31.jpg",
+      "bytes": 1523594,
+      "expected_bytes": 1523594,
+      "sha256": "8008989cc5ac27a40491df804f42cccbdcdf59617ea5a06a716838ca1317fb6f",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069250.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A31-rot90-ocr.txt",
+        "characters": 1449,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069251.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A32.jpg",
+      "bytes": 1470577,
+      "expected_bytes": 1470577,
+      "sha256": "d5049e211dd0986b18710ec2619cef06bf29adff8da7c89510f8b25e199363fc",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069251.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A32-rot90-ocr.txt",
+        "characters": 1329,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069256.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A37.jpg",
+      "bytes": 1414178,
+      "expected_bytes": 1414178,
+      "sha256": "8cd17ac8e744603096747197c5486179c1ff15ea3eb807363572de10e5366b11",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069256.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A37-rot90-ocr.txt",
+        "characters": 763,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069257.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A38.jpg",
+      "bytes": 1483793,
+      "expected_bytes": 1483793,
+      "sha256": "ccf288382db0a43b42f7e9e5b160e2b2049bc0d57009feac2c171a7f98418b50",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069257.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A38-rot90-ocr.txt",
+        "characters": 1478,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069258.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A39.jpg",
+      "bytes": 1575163,
+      "expected_bytes": 1575163,
+      "sha256": "1fcdb932bc74ae0992c98cfd282f688b900226ff56a0f8b4467151db2965ea6f",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069258.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A39-rot90-ocr.txt",
+        "characters": 1608,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    },
+    {
+      "message_id": "197897943f689224",
+      "filename": "1000069259.jpg",
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A40.jpg",
+      "bytes": 1530141,
+      "expected_bytes": 1530141,
+      "sha256": "d66c647278c5a3f9db269755ef263c372ae1673633cbe95167156c153ca0d99a",
+      "retrieved_at": "2026-10-21",
+      "status": "downloaded_after_rate_limit",
+      "case": "6241 Léger",
+      "original_filename": "1000069259.jpg",
+      "extraction": null,
+      "ocr": {
+        "file": "03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/Rotations/197897943f689224__A40-rot90-ocr.txt",
+        "characters": 1253,
+        "status": "OCR automatique, validation visuelle partielle seulement"
+      }
+    }
+  ],
+  "validation": [
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6af4f0b3ebb1__1000069198.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/1978961b3ba85bb2__Re_ 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord.eml",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A01.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A02.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A03.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A04.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A05.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A06.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A07.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A08.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A09.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A10.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A11.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A12.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A13.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A14.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A15.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A16.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A17.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A18.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A19.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A20.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A21.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A22.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A23.pdf",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A24.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A25.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A33.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A34.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A35.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A36.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A26.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A27.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A28.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A29.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A30.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A31.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A32.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A37.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A38.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A39.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    },
+    {
+      "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A40.jpg",
+      "size_ok": true,
+      "sha_ok": true
+    }
+  ],
+  "coverage": {
+    "files": 45,
+    "pdf_files": 26,
+    "pdf_pages": 181,
+    "pdf_pages_existing_text": 180,
+    "pdf_pages_without_text": 1,
+    "pdf_pages_ocr_attempted": 2,
+    "pdf_blank_pages_visually_confirmed": 1,
+    "pdf_pages_visually_checked": 4,
+    "jpg_files": 18,
+    "jpg_ocr_completed": 18,
+    "jpg_visually_checked": 2,
+    "eml_files": 1,
+    "complete": false
+  }
+}

@@ -1,0 +1,45 @@
+Message Gmail: 199f1eb1777e7d94
+Date en-tête: Fri, 17 Oct 2025 07:25:39 -0400
+De: takatak ca <takatak.ca@gmail.com>
+À: yan romanowski <romanowskiyan@gmail.com>
+Objet: 📘 DOSSIER JURIDIQUE COMPLET - QUADRO HOLDING LTÉE c. HARMONY MOVERS INC.
+
+🏛️ IDENTIFICATION DES PARTIES
+
+DEMANDERESSE
+
+QUADRO HOLDING LTÉE
+
+· Représentant autorisé : Pierre Lévesque
+· Adresse : 6241, boul. Léger, Montréal-Nord (Québec) H1G 6K8
+· Courriel : plevesquemtl@gmail.com
+· Téléphone : 514-791-3978
+
+DÉFENDERESSE
+
+HARMONY MOVERS INC.
+
+· Dirigeants : Elanchayan Siva ("Allen") - Président | Lev Jampolsky - Directeur administratif
+· Adresse : 1600, 55e Avenue, Lachine (Québec) H8T 3J5
+· Courriels : service@harmonymovers.com, accounting@harmonymovers.com
+· Téléphone : 514-866-5550
+
+---
+
+⏳ CHRONOLOGIE DÉTAILLÉE DES FAITS
+
+10 JUIN 2025
+
+09h00 - Mandat initial
+
+· Courriel d'Oeuf Déjeuner confirmant le mandat à Harmony Movers pour démantèlement et transport d'équipements lourds
+· Équipements concernés : comptoir à gâteaux, fours à pizza, équipement de cuisson Tim Hortons
+· Prévision d'un technicien en gaz pour fermeture sécuritaire
+
+11h44 - Paiement du devis
+
+· Paiement Stripe #16...
+Source brute: ../lectures-007.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+

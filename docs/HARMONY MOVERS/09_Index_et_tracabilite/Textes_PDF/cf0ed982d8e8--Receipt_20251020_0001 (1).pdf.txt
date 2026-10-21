@@ -1,0 +1,5 @@
+Source: 04_Factures_et_comptabilite\Archive_2026-10-05\pieces-facturation-oct2025\Receipt_20251020_0001 (1).pdf
+SHA256: cf0ed982d8e80d327f0881283c9e75324fa313ff480f081249702bdb3c84d659
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===

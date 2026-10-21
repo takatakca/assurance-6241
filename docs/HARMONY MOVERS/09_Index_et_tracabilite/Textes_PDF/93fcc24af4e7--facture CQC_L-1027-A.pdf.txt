@@ -1,0 +1,65 @@
+Source: 04_Factures_et_comptabilite\Archive_2026-10-05\pieces-facturation-oct2025\facture CQC_L-1027-A.pdf
+SHA256: 93fcc24af4e7bae2a81d342d2a0a1ee78bb30cf55e6d8e7143a821ceb785b773
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+134794 Canada inc.
+1475-A, boul. St-Antoine
+Saint-Jérôme, Québec J7Z 7M1
+Canada 
+Date :
+L-1027-A
+04/08/2025
+Client :
+Quadro Holding Ltée L-1027
+Expédié à:
+ship to adress
+QC 
+Remarques:
+ooeuf.ca@gmail.com
+6241 Boulevard Léger
+Montréal, QC  H1G 6K8
+CA
+514 458 4587
+No. Commande :450-436-7863 
+WWW.CONTENEUR.CA
+Transport non-inclus payable au Transporteur DGL (450)-990-7656
+Un supplément de 2% par mois est porté sur le solde impayé
+En cas de non paiement, les frais de huissier, d'avocat est des conteneurs loués, seront payé par le client
+En cas de non paiement, le conteneur sera remorqué sans pré-avis et un cadenas sera installé.
+Passé la date de retour, des frais de 15$/jour pour un 20' et 30$/jour pour un 40' seront applicable.
+SVP appelez 5 jours avant la fin de la location 
+1475-A, Boul. St-Antoine, Saint-Jérôme, Québec, J7Z 7M1
+No. Founisseur:
+info@conteneursquebec.ca
+4511848012
+203800046
+203860079
+57215609-DA4254
+4511965438
+No. Facture :
+FACTURE
+IMSO 256361
+30324205
+BC75002546
+203800037
+1096837
+IMSO256361
+IMAG-5143
+122265
+30512639
+CIP: CF1223 / 30512639
+Article Description Unité Prix unit. Taxe Montant
+810016-4 20' UA - 810016-4 1 200.00 GQ 200.00
+Sous-total: 200.00
+GQ - TPS 5%, TVQ 9.975%
+TPS/TVH 10.00
+TVQ 19.95
+134794 Canada inc. TPS/TVH: #105879399RT0001
+134794 Canada inc. TVQ: #1002452533TQ0001
+Vendu par:
+Montant payé 229.95
+Montant dû
+Montant total
+0.00
+229.95

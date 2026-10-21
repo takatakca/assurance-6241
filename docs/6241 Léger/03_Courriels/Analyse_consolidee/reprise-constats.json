@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-21",
+  "facts": [
+    {
+      "id": "REPRISE-CLAIM-11",
+      "source": "04_Pieces_jointes/Reprise_2026-10-21/19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf",
+      "message_id": "19789799f5f09a5c",
+      "page": 1,
+      "author": "IndemniPro (en-tête)",
+      "type": "Tableau de réclamation / allocation, original PDF contrôlé visuellement",
+      "values": {
+        "equipment_claimed": 40318.16,
+        "equipment_allowed": 408.66,
+        "stock_claimed": 31420.08,
+        "stock_allowed": 25136.06,
+        "total_claimed": 71738.24,
+        "total_allowed": 25544.72
+      },
+      "currency": "CAD",
+      "payment_proven": false,
+      "open_verification": "Frimabec 6371 : 408,16 demandé / 408,66 alloué; vérifier la facture et toute version ultérieure. Ne pas cumuler ce sommaire avec ses postes sources."
+    },
+    {
+      "id": "REPRISE-LAF-23245",
+      "source": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23245_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "message_id": "197c6b0c18422055",
+      "page": 1,
+      "author": "Les Délices Lafrenaie Saint-Léonard",
+      "type": "Facture originale PDF, total contrôlé visuellement",
+      "date_printed": "12/04/2024",
+      "amount": 147.5,
+      "currency": "CAD",
+      "payment_status_source": "PAID / payment 147.50 / balance 0",
+      "bank_payment_verified": false,
+      "open_verification": "Rapprocher stock au jour du sinistre; ne pas cumuler avec une réclamation déjà agrégée."
+    },
+    {
+      "id": "REPRISE-LAF-23474",
+      "source": "04_Pieces_jointes/Reprise_2026-10-21/197c6b0c18422055__Invoice_23474_from_UTF8QLesDC3A9licesLafrenaieSaintLeonard.pdf",
+      "message_id": "197c6b0c18422055",
+      "page": 2,
+      "author": "Les Délices Lafrenaie Saint-Léonard",
+      "type": "Facture originale PDF, total contrôlé visuellement page 2; date issue du texte page 1",
+      "date_printed": "18/04/2024",
+      "amount": 479.75,
+      "currency": "CAD",
+      "payment_status_source": "PAID / payment 479.75 / balance 0",
+      "bank_payment_verified": false,
+      "open_verification": "Rapprocher stock au jour du sinistre; ne pas cumuler avec une réclamation déjà agrégée."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Source: 06_Procedures_et_avocats\Archive_2026-10-05\PV-SEPARATE-ORIGINAL.pdf
+SHA256: 24ecb2bf91d1f3c09406254ce6c388194f7867bbea114571fc268ee881a205c2
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+
+=== PAGE 2 ===
+
+=== PAGE 3 ===

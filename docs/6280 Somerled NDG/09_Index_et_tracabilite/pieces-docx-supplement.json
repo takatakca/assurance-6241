@@ -1,0 +1,18 @@
+[
+  {
+    "message_id": "1a0c680f9c0cda8a",
+    "filename": "LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.docx",
+    "file": "04_Pieces_jointes/1a0c680f9c0cda8a__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.docx",
+    "bytes": 46146,
+    "sha256": "6accfacc2a02533fce8021b0e47ebf064b5b044d3b56acdc0f4909d32f8f5322",
+    "status": "extracted_from_original_rfc"
+  },
+  {
+    "message_id": "1a0c680f9c0cda8a",
+    "filename": "LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.docx",
+    "file": "04_Pieces_jointes/1a0c680f9c0cda8a__LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.docx",
+    "bytes": 42041,
+    "sha256": "89db5015d05525584482f3a4f1e0d5797b8771e34171408d214b310aadfadf11",
+    "status": "extracted_from_original_rfc"
+  }
+]

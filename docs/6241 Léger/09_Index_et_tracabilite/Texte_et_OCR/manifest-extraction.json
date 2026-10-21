@@ -1,0 +1,3861 @@
+[
+  {
+    "id": "DOC-66AC2A15030D",
+    "sha256": "66ac2a15030db7804853c0c54ee3a38502b126e461f3616c2e26119fa06a28e8",
+    "source": "04_Pieces_jointes/takatak.ca@gmail.com/19e847ccb9e47466__AVENANT-RACIBM1126-Quadro Holding Ltée.pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/ASSURANCE-AVENANT-QUADRO.pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 2226,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-66AC2A15030D-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-A8069731AEFB",
+    "sha256": "a8069731aefb7da60533a5990665cd6c4e5f7f8a1788eac1c7bedcc38c719f42",
+    "source": "04_Pieces_jointes/takatak.ca@gmail.com/19e847ccb9e47466__Avenat Ajout du nom de l'assuré effective 20 juin 2024-RACIBM1126-8697230 Canada Inc -23255993.pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/ASSURANCE-AJOUT-JUIN2024.pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 2254,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-A8069731AEFB-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-6D552979EB15",
+    "sha256": "6d552979eb15389c303411301dd3774cb1f956e669c12195da4e844fe8bdcbfc",
+    "source": "04_Pieces_jointes/takatak.ca@gmail.com/19e847cd361839d1__Screenshot_20241128_000056_Chrome.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-6D552979EB15-p001-ocr.txt",
+        "ocr_characters": 282,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-0CF4A8DB41B1",
+    "sha256": "0cf4a8db41b1cf784b82308468c0d0b1c5dba9a16d27bf44cfafe99e9de2bbff",
+    "source": "04_Pieces_jointes/takatak.ca@gmail.com/19e847cd361839d1__Screenshot_20241128_000102_Chrome.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-0CF4A8DB41B1-p001-ocr.txt",
+        "ocr_characters": 165,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1BCE5CECCAA2",
+    "sha256": "1bce5ceccaa27229cda2b7a9c679d5e1b906c0e542f027eb38c70c6540143e92",
+    "source": "04_Pieces_jointes/takatak.ca@gmail.com/19e847cd361839d1__Screenshot_20241128_000152_Chrome.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1BCE5CECCAA2-p001-ocr.txt",
+        "ocr_characters": 166,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-A0E064E781C8",
+    "sha256": "a0e064e781c88e2e1ab6204b6c6323b51d9b71134b3cece4fb3ff2d8a10daf88",
+    "source": "04_Pieces_jointes/takatak.ca@gmail.com/19e847cd361839d1__Screenshot_20241128_085744_Facebook.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-A0E064E781C8-p001-ocr.txt",
+        "ocr_characters": 926,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-7562039038F8",
+    "sha256": "7562039038f860b7f08836b218cb4dd1691cfa24da158669358fec827f02411d",
+    "source": "05_Photos_et_captures/Conversations/1000033337.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-7562039038F8-p001-ocr.txt",
+        "ocr_characters": 1192,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-BD9469BCC70C",
+    "sha256": "bd9469bcc70c0c5cfade9932bbad123e8f6f874ec5fe6bf715871056c18e1f2e",
+    "source": "05_Photos_et_captures/Conversations/1000036523.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-BD9469BCC70C-p001-ocr.txt",
+        "ocr_characters": 757,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-7F133935B01E",
+    "sha256": "7f133935b01ec8705c8d06341c828e4c5b0d400493e060e484cb42f4dd0906c4",
+    "source": "05_Photos_et_captures/Conversations/1000036525.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-7F133935B01E-p001-ocr.txt",
+        "ocr_characters": 581,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-45D2D2E5BE52",
+    "sha256": "45d2d2e5be52bab401204bc90d8c31fff8e6d97c593fbd0ee67c049acd8f94db",
+    "source": "05_Photos_et_captures/Conversations/1000036526.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-45D2D2E5BE52-p001-ocr.txt",
+        "ocr_characters": 6,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-855C6D7D1760",
+    "sha256": "855c6d7d17603f626bed1776865f65448dc7756ddc9efaf9fc4f1ec211368307",
+    "source": "05_Photos_et_captures/Conversations/1000041915.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-855C6D7D1760-p001-ocr.txt",
+        "ocr_characters": 892,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-A80130397636",
+    "sha256": "a80130397636a072382f100bc180bf7ea7a42a88b8fe82e7917197510cd50402",
+    "source": "05_Photos_et_captures/Conversations/1000041916.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-A80130397636-p001-ocr.txt",
+        "ocr_characters": 717,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-A4951E0EBAC1",
+    "sha256": "a4951e0ebac1d19d057daf2357361b97fd3b03d86c89b6b8cbd13ff7c5303c30",
+    "source": "05_Photos_et_captures/Conversations/1000069201 (1).jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-A4951E0EBAC1-p001-ocr.txt",
+        "ocr_characters": 544,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-B5E1715DFA67",
+    "sha256": "b5e1715dfa6751de81db07e88c1a3a0431a7610c5bbf0ba7be769f85f0eedeae",
+    "source": "05_Photos_et_captures/Conversations/1000114477.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-B5E1715DFA67-p001-ocr.txt",
+        "ocr_characters": 924,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-CA403A888324",
+    "sha256": "ca403a8883243884ba26df39981f19f970d0eb9ec0cb766f1837c2242c035818",
+    "source": "05_Photos_et_captures/Conversations/1000114478.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-CA403A888324-p001-ocr.txt",
+        "ocr_characters": 442,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-D349816D64D8",
+    "sha256": "d349816d64d8a013190732060e1c6c43c8a332e6d27d49782f74fb7fcf0ab981",
+    "source": "05_Photos_et_captures/Conversations/1000114479.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-D349816D64D8-p001-ocr.txt",
+        "ocr_characters": 453,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-76E8C7C14596",
+    "sha256": "76e8c7c14596487391efda5c623970c3b80f6de4c1264ce0298a085861a2bc41",
+    "source": "05_Photos_et_captures/Conversations/Screenshot_2025-10-10_144332.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-76E8C7C14596-p001-ocr.txt",
+        "ocr_characters": 1524,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-021CB419355E",
+    "sha256": "021cb419355e20f770402d7ee9a08301fa22c2bcff7ffcbbdfe0ccf5b3460b7d",
+    "source": "05_Photos_et_captures/Conversations/Screenshot_2025-10-10_144456.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-021CB419355E-p001-ocr.txt",
+        "ocr_characters": 498,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-7DDCBA9349F9",
+    "sha256": "7ddcba9349f9f2e72e170700b1f7fd7748c913f8eea522e18152e22bf387ba64",
+    "source": "05_Photos_et_captures/Conversations/Screenshot_2025-10-10_145008.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-7DDCBA9349F9-p001-ocr.txt",
+        "ocr_characters": 892,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-CA88A46A6E7F",
+    "sha256": "ca88a46a6e7fd67c7f2a579329b6c4f47bc6f5e1fee05b02b296ca29777566e4",
+    "source": "10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Ventes-juil-sept-2024.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-CA88A46A6E7F-p001-ocr.txt",
+        "ocr_characters": 110,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-C70761696F7F",
+    "sha256": "c70761696f7fbb40b4cd34384301ea0123bd7f7964cfe91d12608e4ffaa68975",
+    "source": "10_Archive_avocat_2026-10-05/DII-AMENDEE-ORIGINAL.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1271,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 1945,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 893,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 1803,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p004.txt"
+      },
+      {
+        "page": 5,
+        "characters": 2424,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p005.txt"
+      },
+      {
+        "page": 6,
+        "characters": 2027,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p006.txt"
+      },
+      {
+        "page": 7,
+        "characters": 537,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C70761696F7F-p007.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-E6E3C59F5647",
+    "sha256": "e6e3c59f5647379d240dad6ae8158303e01adacd1ff7cc6a5986031f5ec50f5c",
+    "source": "10_Archive_avocat_2026-10-05/DII-JANVIER-12P-ORIGINAL.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p001-ocr.txt",
+        "ocr_characters": 580,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 2,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p002-ocr.txt",
+        "ocr_characters": 1109,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 3,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p003-ocr.txt",
+        "ocr_characters": 927,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 4,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p004-ocr.txt",
+        "ocr_characters": 1379,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 5,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p005-ocr.txt",
+        "ocr_characters": 2148,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 6,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p006-ocr.txt",
+        "ocr_characters": 1415,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 7,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p007-ocr.txt",
+        "ocr_characters": 1607,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 8,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p008-ocr.txt",
+        "ocr_characters": 1368,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 9,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p009-ocr.txt",
+        "ocr_characters": 977,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 10,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p010-ocr.txt",
+        "ocr_characters": 1600,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 11,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p011-ocr.txt",
+        "ocr_characters": 1367,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 12,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E6E3C59F5647-p012-ocr.txt",
+        "ocr_characters": 13,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1ABFA4B5BD72",
+    "sha256": "1abfa4b5bd725aeb8194875e0659edb7bccbfcfd031dbd509bafa655f74e2659",
+    "source": "10_Archive_avocat_2026-10-05/DII-NOVEMBRE-ORIGINAL.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p001-ocr.txt",
+        "ocr_characters": 1309,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 2,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p002-ocr.txt",
+        "ocr_characters": 1985,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 3,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p003-ocr.txt",
+        "ocr_characters": 908,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 4,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p004-ocr.txt",
+        "ocr_characters": 1846,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 5,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p005-ocr.txt",
+        "ocr_characters": 2390,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 6,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p006-ocr.txt",
+        "ocr_characters": 1957,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 7,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1ABFA4B5BD72-p007-ocr.txt",
+        "ocr_characters": 11,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-09B4ACEB29FA",
+    "sha256": "09b4aceb29fa24488f0c97ad2fc9007e71d31b50b1206abdf53fb23a4defff9e",
+    "source": "10_Archive_avocat_2026-10-05/IMG-B01-IMG_9898-affichage.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-09B4ACEB29FA-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-ED2399209149",
+    "sha256": "ed23992091492d65f40f5f44f3fda2c192eafa203cb808301fb0eb202f135117",
+    "source": "10_Archive_avocat_2026-10-05/IMG-G01-1000032173.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-ED2399209149-p001-ocr.txt",
+        "ocr_characters": 2142,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-30A8D9D23630",
+    "sha256": "30a8d9d236305d6dc43b0f3acacf012c384da5469763d2af9752aa1a4bfd9adb",
+    "source": "10_Archive_avocat_2026-10-05/IMG-H01-Screenshot_2026-02-12_075317.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-30A8D9D23630-p001-ocr.txt",
+        "ocr_characters": 609,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-0B86551BEADC",
+    "sha256": "0b86551beadc278df6ac009a9b33fda121ac2437824dd75b7cf4bfe8c39984bd",
+    "source": "10_Archive_avocat_2026-10-05/IMG-H02-Screenshot_2026-02-12_075320.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-0B86551BEADC-p001-ocr.txt",
+        "ocr_characters": 425,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-9DC900134EF5",
+    "sha256": "9dc900134ef5f20314fc4365b5f4cc85dfa2d19caa7b7e43446c0921c8c5e6af",
+    "source": "10_Archive_avocat_2026-10-05/IMG-N01-Screenshot_2026-02-12_083957.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-9DC900134EF5-p001-ocr.txt",
+        "ocr_characters": 661,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-3F9997DD5408",
+    "sha256": "3f9997dd540879dceba27afda5c0c44449ee5ea4b8bb1483678777b94ceb72d8",
+    "source": "10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/image001-lecture.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-3F9997DD5408-p001-ocr.txt",
+        "ocr_characters": 2649,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-FDDC5903F12B",
+    "sha256": "fddc5903f12bee0969d51c75db57bccd740a304ea6d6859864c91428ea76ef7a",
+    "source": "10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/image001.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-FDDC5903F12B-p001-ocr.txt",
+        "ocr_characters": 1797,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-CB0628092DDE",
+    "sha256": "cb0628092ddea96bb040221b5c793dbbb792a67d0621bdfba170c07374d85801",
+    "source": "10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/~WRD0117.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-CB0628092DDE-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-29C875B0A111",
+    "sha256": "29c875b0a111962adaad40b25ab4c8556bfa87b7745672685a5cad6d2b73a846",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069199.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-29C875B0A111-p001-ocr.txt",
+        "ocr_characters": 458,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-C10067B7E620",
+    "sha256": "c10067b7e62007b3698aa50334b85fde48e9e61b4517f7265890cce64826f7e2",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069200.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-C10067B7E620-p001-ocr.txt",
+        "ocr_characters": 436,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-E62510927043",
+    "sha256": "e62510927043f977fbc44985ccd4f13d0619cda33ca2b852576739c17a482faf",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069201.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E62510927043-p001-ocr.txt",
+        "ocr_characters": 520,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-D789198BF298",
+    "sha256": "d789198bf2980bdacf4095d844f63249f4491bf25d968ec338ae5981bf695ea9",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069202.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-D789198BF298-p001-ocr.txt",
+        "ocr_characters": 481,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-9BFDD8873EED",
+    "sha256": "9bfdd8873eed95b6918e647d01935b49cd70a3c1c578f072ea17d89e59f48a90",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069203.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-9BFDD8873EED-p001-ocr.txt",
+        "ocr_characters": 557,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1155DA25F14E",
+    "sha256": "1155da25f14e1ca56403f74ab82b56d554d293fa566cd3a873f16b97fe885be3",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069204.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1155DA25F14E-p001-ocr.txt",
+        "ocr_characters": 501,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-DADF17E525F7",
+    "sha256": "dadf17e525f74506b035c8ea9f1f2cd34b4c8f5704bf0b21b22428b9cafb221b",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069205.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-DADF17E525F7-p001-ocr.txt",
+        "ocr_characters": 540,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-291D8A049EEE",
+    "sha256": "291d8a049eee8330111f44aa60468b3b4469cc2a381044473195ae996648a0ee",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069206.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-291D8A049EEE-p001-ocr.txt",
+        "ocr_characters": 589,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-942357F7007E",
+    "sha256": "942357f7007ef21044d1a16c8123f4877b46284d6b6e6ae3ac8e7b679a1498d3",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069207.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-942357F7007E-p001-ocr.txt",
+        "ocr_characters": 509,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-D105BA8B2B22",
+    "sha256": "d105ba8b2b226b94827e367c50ba2f66e96958a59af8af4eac57985b72cd5394",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069208.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-D105BA8B2B22-p001-ocr.txt",
+        "ocr_characters": 448,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-107AA336B25E",
+    "sha256": "107aa336b25e9ce9472d62c991fe2ccdd59c77abc6de873b3102816cd4a750c9",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069209.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-107AA336B25E-p001-ocr.txt",
+        "ocr_characters": 506,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-82A8FD942F1E",
+    "sha256": "82a8fd942f1ede88852ac6c891da6d5b31c3b2bbfeb2015d796642304b1f7104",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069210.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-82A8FD942F1E-p001-ocr.txt",
+        "ocr_characters": 1457,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-08F7569072D1",
+    "sha256": "08f7569072d10d95a81ba663fecaf5be3f17f17d6979690ba43f6370b4834844",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069211.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-08F7569072D1-p001-ocr.txt",
+        "ocr_characters": 1057,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-878CAFAF7DB2",
+    "sha256": "878cafaf7db28e100453b4f8a15168c0543de84b2b9e605937ff6603dc37bd62",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069212.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-878CAFAF7DB2-p001-ocr.txt",
+        "ocr_characters": 649,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-3315A55BCF08",
+    "sha256": "3315a55bcf08b593ab49a6e0fab55243c41fbb4eda9611cf8c626dc9f847f216",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069213.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-3315A55BCF08-p001-ocr.txt",
+        "ocr_characters": 422,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-7E7FBAB87B25",
+    "sha256": "7e7fbab87b25111dfa7ff72025f2da5efc128a27c4f0151ce553e95ec9cede9a",
+    "source": "10_Archive_avocat_2026-10-05/lectures-factures2024/1000069214.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-7E7FBAB87B25-p001-ocr.txt",
+        "ocr_characters": 1204,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-000D17B0B019",
+    "sha256": "000d17b0b019a80f54e5ed4fce2050dda76a69af18f15152ea89d5a08de91ea2",
+    "source": "10_Archive_avocat_2026-10-05/OPPOSITION-ORIGINAL.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1682,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 2383,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 3063,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 2283,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p004.txt"
+      },
+      {
+        "page": 5,
+        "characters": 2683,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p005.txt"
+      },
+      {
+        "page": 6,
+        "characters": 2486,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p006.txt"
+      },
+      {
+        "page": 7,
+        "characters": 1908,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p007.txt"
+      },
+      {
+        "page": 8,
+        "characters": 367,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p008.txt"
+      },
+      {
+        "page": 9,
+        "characters": 653,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p009.txt"
+      },
+      {
+        "page": 10,
+        "characters": 1724,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p010.txt"
+      },
+      {
+        "page": 11,
+        "characters": 1642,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p011.txt"
+      },
+      {
+        "page": 12,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p012.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p012-ocr.txt",
+        "ocr_characters": 2313,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 13,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p013.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p013-ocr.txt",
+        "ocr_characters": 20,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 14,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p014.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p014-ocr.txt",
+        "ocr_characters": 326,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 15,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p015.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p015-ocr.txt",
+        "ocr_characters": 5,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 16,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p016.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p016-ocr.txt",
+        "ocr_characters": 276,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 17,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p017.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p017-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 18,
+        "characters": 956,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p018.txt"
+      },
+      {
+        "page": 19,
+        "characters": 1101,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p019.txt"
+      },
+      {
+        "page": 20,
+        "characters": 679,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p020.txt"
+      },
+      {
+        "page": 21,
+        "characters": 833,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p021.txt"
+      },
+      {
+        "page": 22,
+        "characters": 753,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p022.txt"
+      },
+      {
+        "page": 23,
+        "characters": 673,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p023.txt"
+      },
+      {
+        "page": 24,
+        "characters": 673,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p024.txt"
+      },
+      {
+        "page": 25,
+        "characters": 672,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p025.txt"
+      },
+      {
+        "page": 26,
+        "characters": 956,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p026.txt"
+      },
+      {
+        "page": 27,
+        "characters": 1101,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p027.txt"
+      },
+      {
+        "page": 28,
+        "characters": 680,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p028.txt"
+      },
+      {
+        "page": 29,
+        "characters": 841,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p029.txt"
+      },
+      {
+        "page": 30,
+        "characters": 753,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p030.txt"
+      },
+      {
+        "page": 31,
+        "characters": 666,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p031.txt"
+      },
+      {
+        "page": 32,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p032.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p032-ocr.txt",
+        "ocr_characters": 2171,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 33,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p033.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p033-ocr.txt",
+        "ocr_characters": 2259,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 34,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p034.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p034-ocr.txt",
+        "ocr_characters": 1421,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 35,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p035.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p035-ocr.txt",
+        "ocr_characters": 3834,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 36,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p036.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p036-ocr.txt",
+        "ocr_characters": 467,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 37,
+        "characters": 1105,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p037.txt"
+      },
+      {
+        "page": 38,
+        "characters": 2095,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p038.txt"
+      },
+      {
+        "page": 39,
+        "characters": 1591,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p039.txt"
+      },
+      {
+        "page": 40,
+        "characters": 2514,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p040.txt"
+      },
+      {
+        "page": 41,
+        "characters": 4524,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p041.txt"
+      },
+      {
+        "page": 42,
+        "characters": 4605,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p042.txt"
+      },
+      {
+        "page": 43,
+        "characters": 4883,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p043.txt"
+      },
+      {
+        "page": 44,
+        "characters": 4445,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p044.txt"
+      },
+      {
+        "page": 45,
+        "characters": 1105,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p045.txt"
+      },
+      {
+        "page": 46,
+        "characters": 2095,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p046.txt"
+      },
+      {
+        "page": 47,
+        "characters": 1591,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p047.txt"
+      },
+      {
+        "page": 48,
+        "characters": 2514,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p048.txt"
+      },
+      {
+        "page": 49,
+        "characters": 4524,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p049.txt"
+      },
+      {
+        "page": 50,
+        "characters": 4605,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p050.txt"
+      },
+      {
+        "page": 51,
+        "characters": 4883,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p051.txt"
+      },
+      {
+        "page": 52,
+        "characters": 4445,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p052.txt"
+      },
+      {
+        "page": 53,
+        "characters": 1811,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p053.txt"
+      },
+      {
+        "page": 54,
+        "characters": 1095,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p054.txt"
+      },
+      {
+        "page": 55,
+        "characters": 1291,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p055.txt"
+      },
+      {
+        "page": 56,
+        "characters": 532,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p056.txt"
+      },
+      {
+        "page": 57,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p057.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p057-ocr.txt",
+        "ocr_characters": 207,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 58,
+        "characters": 1415,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p058.txt"
+      },
+      {
+        "page": 59,
+        "characters": 1363,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p059.txt"
+      },
+      {
+        "page": 60,
+        "characters": 1349,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p060.txt"
+      },
+      {
+        "page": 61,
+        "characters": 1232,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p061.txt"
+      },
+      {
+        "page": 62,
+        "characters": 469,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p062.txt"
+      },
+      {
+        "page": 63,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p063.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p063-ocr.txt",
+        "ocr_characters": 774,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 64,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p064.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p064-ocr.txt",
+        "ocr_characters": 1938,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 65,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p065.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p065-ocr.txt",
+        "ocr_characters": 739,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 66,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p066.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p066-ocr.txt",
+        "ocr_characters": 1663,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 67,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p067.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p067-ocr.txt",
+        "ocr_characters": 1400,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 68,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p068.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p068-ocr.txt",
+        "ocr_characters": 720,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 69,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p069.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p069-ocr.txt",
+        "ocr_characters": 9,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 70,
+        "characters": 9,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p070.txt",
+        "ocr_requested": true,
+        "ocr_file": "DOC-000D17B0B019-p070-ocr.txt",
+        "ocr_characters": 33,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 71,
+        "characters": 1607,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p071.txt"
+      },
+      {
+        "page": 72,
+        "characters": 519,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-000D17B0B019-p072.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-E58D7F786586",
+    "sha256": "e58d7f786586e404ac26918ac3347b886c9e01b3ed570addb1b13c4d3d240999",
+    "source": "10_Archive_avocat_2026-10-05/output/pdf/DOSSIER-AVOCAT-HARMONY.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1639,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 4050,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 1823,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 3675,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p004.txt"
+      },
+      {
+        "page": 5,
+        "characters": 3398,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p005.txt"
+      },
+      {
+        "page": 6,
+        "characters": 1344,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p006.txt"
+      },
+      {
+        "page": 7,
+        "characters": 2209,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p007.txt"
+      },
+      {
+        "page": 8,
+        "characters": 2022,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p008.txt"
+      },
+      {
+        "page": 9,
+        "characters": 2061,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p009.txt"
+      },
+      {
+        "page": 10,
+        "characters": 1933,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p010.txt"
+      },
+      {
+        "page": 11,
+        "characters": 2837,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p011.txt"
+      },
+      {
+        "page": 12,
+        "characters": 2666,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p012.txt"
+      },
+      {
+        "page": 13,
+        "characters": 802,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p013.txt"
+      },
+      {
+        "page": 14,
+        "characters": 3381,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p014.txt"
+      },
+      {
+        "page": 15,
+        "characters": 3740,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p015.txt"
+      },
+      {
+        "page": 16,
+        "characters": 3634,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p016.txt"
+      },
+      {
+        "page": 17,
+        "characters": 866,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p017.txt"
+      },
+      {
+        "page": 18,
+        "characters": 3112,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p018.txt"
+      },
+      {
+        "page": 19,
+        "characters": 4046,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p019.txt"
+      },
+      {
+        "page": 20,
+        "characters": 3368,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p020.txt"
+      },
+      {
+        "page": 21,
+        "characters": 2781,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p021.txt"
+      },
+      {
+        "page": 22,
+        "characters": 2684,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p022.txt"
+      },
+      {
+        "page": 23,
+        "characters": 4251,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p023.txt"
+      },
+      {
+        "page": 24,
+        "characters": 2375,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p024.txt"
+      },
+      {
+        "page": 25,
+        "characters": 4281,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p025.txt"
+      },
+      {
+        "page": 26,
+        "characters": 4537,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p026.txt"
+      },
+      {
+        "page": 27,
+        "characters": 2192,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p027.txt"
+      },
+      {
+        "page": 28,
+        "characters": 3645,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p028.txt"
+      },
+      {
+        "page": 29,
+        "characters": 4993,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p029.txt"
+      },
+      {
+        "page": 30,
+        "characters": 3835,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p030.txt"
+      },
+      {
+        "page": 31,
+        "characters": 239,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p031.txt"
+      },
+      {
+        "page": 32,
+        "characters": 2970,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p032.txt"
+      },
+      {
+        "page": 33,
+        "characters": 3521,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p033.txt"
+      },
+      {
+        "page": 34,
+        "characters": 2274,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p034.txt"
+      },
+      {
+        "page": 35,
+        "characters": 4090,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p035.txt"
+      },
+      {
+        "page": 36,
+        "characters": 3832,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p036.txt"
+      },
+      {
+        "page": 37,
+        "characters": 422,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p037.txt"
+      },
+      {
+        "page": 38,
+        "characters": 2531,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p038.txt"
+      },
+      {
+        "page": 39,
+        "characters": 2751,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p039.txt"
+      },
+      {
+        "page": 40,
+        "characters": 3513,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p040.txt"
+      },
+      {
+        "page": 41,
+        "characters": 487,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p041.txt"
+      },
+      {
+        "page": 42,
+        "characters": 3481,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p042.txt"
+      },
+      {
+        "page": 43,
+        "characters": 2843,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p043.txt"
+      },
+      {
+        "page": 44,
+        "characters": 1465,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p044.txt"
+      },
+      {
+        "page": 45,
+        "characters": 1995,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p045.txt"
+      },
+      {
+        "page": 46,
+        "characters": 3091,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p046.txt"
+      },
+      {
+        "page": 47,
+        "characters": 3812,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p047.txt"
+      },
+      {
+        "page": 48,
+        "characters": 2991,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p048.txt"
+      },
+      {
+        "page": 49,
+        "characters": 4605,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p049.txt"
+      },
+      {
+        "page": 50,
+        "characters": 1992,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p050.txt"
+      },
+      {
+        "page": 51,
+        "characters": 825,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p051.txt"
+      },
+      {
+        "page": 52,
+        "characters": 276,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p052.txt"
+      },
+      {
+        "page": 53,
+        "characters": 222,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p053.txt"
+      },
+      {
+        "page": 54,
+        "characters": 222,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p054.txt"
+      },
+      {
+        "page": 55,
+        "characters": 222,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p055.txt"
+      },
+      {
+        "page": 56,
+        "characters": 222,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p056.txt"
+      },
+      {
+        "page": 57,
+        "characters": 222,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p057.txt"
+      },
+      {
+        "page": 58,
+        "characters": 256,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p058.txt"
+      },
+      {
+        "page": 59,
+        "characters": 256,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p059.txt"
+      },
+      {
+        "page": 60,
+        "characters": 256,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p060.txt"
+      },
+      {
+        "page": 61,
+        "characters": 256,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p061.txt"
+      },
+      {
+        "page": 62,
+        "characters": 210,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p062.txt"
+      },
+      {
+        "page": 63,
+        "characters": 213,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p063.txt"
+      },
+      {
+        "page": 64,
+        "characters": 209,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p064.txt"
+      },
+      {
+        "page": 65,
+        "characters": 224,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p065.txt"
+      },
+      {
+        "page": 66,
+        "characters": 217,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p066.txt"
+      },
+      {
+        "page": 67,
+        "characters": 188,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p067.txt"
+      },
+      {
+        "page": 68,
+        "characters": 336,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p068.txt"
+      },
+      {
+        "page": 69,
+        "characters": 183,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p069.txt"
+      },
+      {
+        "page": 70,
+        "characters": 172,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p070.txt"
+      },
+      {
+        "page": 71,
+        "characters": 186,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p071.txt"
+      },
+      {
+        "page": 72,
+        "characters": 182,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p072.txt"
+      },
+      {
+        "page": 73,
+        "characters": 258,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p073.txt"
+      },
+      {
+        "page": 74,
+        "characters": 1695,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p074.txt"
+      },
+      {
+        "page": 75,
+        "characters": 2779,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p075.txt"
+      },
+      {
+        "page": 76,
+        "characters": 2474,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p076.txt"
+      },
+      {
+        "page": 77,
+        "characters": 3011,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E58D7F786586-p077.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1C408514FB9F",
+    "sha256": "1c408514fb9fb060a0a3cdccfe8416a36e58af607ff22f4db5dc8c435a4ad66f",
+    "source": "10_Archive_avocat_2026-10-05/output/pdf/FICHES-RENCONTRE-REMPLISSABLES.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 603,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1C408514FB9F-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 712,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1C408514FB9F-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 735,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1C408514FB9F-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 774,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1C408514FB9F-p004.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1DF936DCADD0",
+    "sha256": "1df936dcadd05929add08cae47b8623ffd090ed912513e6978ffa73d7ad18224",
+    "source": "10_Archive_avocat_2026-10-05/output/pdf/MATRICE-PREUVES-EQUIPEMENTS.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 2878,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1DF936DCADD0-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 2725,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1DF936DCADD0-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 2289,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-1DF936DCADD0-p003.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-B1D5477D7F72",
+    "sha256": "b1d5477d7f72fc9610ab2e31f2633e5db607f65cc6bbb71b016bd87e4b97b108",
+    "source": "10_Archive_avocat_2026-10-05/output/pdf/QUESTIONS-ET-PIECES-A-OBTENIR.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1854,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-B1D5477D7F72-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 1872,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-B1D5477D7F72-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-C62BE9F45740",
+    "sha256": "c62be9f45740612e4c8c70fbbb94d45e6de3bdeaf67d0d96566a2c970fb1731e",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/1_20240724_223557_0000.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-C62BE9F45740-p001-ocr.txt",
+        "ocr_characters": 2553,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-87977FF734C7",
+    "sha256": "87977ff734c76cf8b1c85f1c699b0abce17825b23be08d10f7e975ad6859180f",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/1_20240724_224116_0000.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-87977FF734C7-p001-ocr.txt",
+        "ocr_characters": 2500,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-316785514A39",
+    "sha256": "316785514a39786e6dfeaa74cf97c4196943d1d0b1d44924fa1359443d9c989f",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/1_20240724_224652_0000.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-316785514A39-p001-ocr.txt",
+        "ocr_characters": 2660,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-29AEE816E456",
+    "sha256": "29aee816e4560f67959011225fbbba37a133b2f225db7c74fbc7150b13f6c161",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/1_20240724_225234_0000.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-29AEE816E456-p001-ocr.txt",
+        "ocr_characters": 2833,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-0312C303DE3A",
+    "sha256": "0312c303de3adefab3ac2b40536a755f3b323bc8854f9f08b9d40d2afe751fb9",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/2_20240724_223557_0001.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-0312C303DE3A-p001-ocr.txt",
+        "ocr_characters": 2837,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-78D6E2A5628C",
+    "sha256": "78d6e2a5628cce548d43bdd2f3657e58a2edc4eb85b0ffa1976438a9d2d64d97",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/2_20240724_224116_0001.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-78D6E2A5628C-p001-ocr.txt",
+        "ocr_characters": 2484,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-519657AE7288",
+    "sha256": "519657ae72889ba4a1066bc906e2b62ba2e1e53a6ea84863f3c02aba632011fd",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/2_20240724_224652_0001.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-519657AE7288-p001-ocr.txt",
+        "ocr_characters": 2891,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-69623A05BE7B",
+    "sha256": "69623a05be7b551f0ce016562766a3789086e1e1e4bf1df273ffb73a5a1227de",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/2_20240724_225235_0001.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-69623A05BE7B-p001-ocr.txt",
+        "ocr_characters": 2869,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-3FE02AA83718",
+    "sha256": "3fe02aa837183fdf18ddb9c3f7b982f45e3215baf2ee4d05561944f46868ee51",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/3_20240724_223557_0002.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-3FE02AA83718-p001-ocr.txt",
+        "ocr_characters": 2769,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-C30D32F8BA71",
+    "sha256": "c30d32f8ba7142a914be1566b22dc9f291012ea1ef81ea10ac990122f0075e49",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/3_20240724_224116_0002.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-C30D32F8BA71-p001-ocr.txt",
+        "ocr_characters": 1490,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-B144926FCA71",
+    "sha256": "b144926fca71a7424dffd9b6f2b18ccbbc3d5e800a680a936bde469e0143d938",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/3_20240724_224652_0002.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-B144926FCA71-p001-ocr.txt",
+        "ocr_characters": 2296,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-46168F400D92",
+    "sha256": "46168f400d9225a79ed4686a3a10a2ac976ec887c3c8263fb8081eff8885b762",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/3_20240724_225235_0002.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-46168F400D92-p001-ocr.txt",
+        "ocr_characters": 2841,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-ACEEDCACE131",
+    "sha256": "aceedcace13164d790c238405031a1c28656cde3bd90f39dfde66ed99f694a48",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/4_20240724_223557_0003.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-ACEEDCACE131-p001-ocr.txt",
+        "ocr_characters": 2517,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1CE9E7A396BA",
+    "sha256": "1ce9e7a396bacd1f8f61623d5e4b2e24a1e2c102b485e29add8d6598cadc46f5",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/4_20240724_224652_0003.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1CE9E7A396BA-p001-ocr.txt",
+        "ocr_characters": 1478,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-677B760E27B0",
+    "sha256": "677b760e27b0748d2a3932540fe985961862af44052abab2c988c5994ddcc7dd",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/4_20240724_225235_0003.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-677B760E27B0-p001-ocr.txt",
+        "ocr_characters": 2393,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-2EAFB7E33B52",
+    "sha256": "2eafb7e33b5264e4d0c024d8123a6468960c1708585fb1df5092296a93e683ee",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/5_20240724_223557_0004.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-2EAFB7E33B52-p001-ocr.txt",
+        "ocr_characters": 2202,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-FE7EF9D0535C",
+    "sha256": "fe7ef9d0535cf72bd591fc461b261d8f1eaedbf46c8c7e7577be072b42c77999",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/5_20240724_225235_0004.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-FE7EF9D0535C-p001-ocr.txt",
+        "ocr_characters": 2065,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-A49A3FB1F891",
+    "sha256": "a49a3fb1f891e56a22aec812520338bf121d2d5a4166a4bc9a9185208a26459f",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/6_20240724_223557_0005.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-A49A3FB1F891-p001-ocr.txt",
+        "ocr_characters": 1589,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-386914528C09",
+    "sha256": "386914528c090172318d152ad8a91e8bace80865473f71992903d6a425b23160",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/6_20240724_225235_0005.png",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-386914528C09-p001-ocr.txt",
+        "ocr_characters": 1455,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-985F811E148A",
+    "sha256": "985f811e148ab88ae016a27540074e4dc9d6d004b9a335afbd3501ae901d2a64",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 259.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 630,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-985F811E148A-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-29F82B3533A9",
+    "sha256": "29f82b3533a97778532c66a340f3334ce08fd3cd4ebd0b5beb5fec8dc0ebf091",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 260.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 494,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-29F82B3533A9-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-8B0F68BB970A",
+    "sha256": "8b0f68bb970a4c0813e43a25aeb193221b662c45453f481b3f897797cf0dddaa",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 261.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 625,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8B0F68BB970A-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-C0EAF66FC132",
+    "sha256": "c0eaf66fc132b38effacc4a11d1a7cb38253cfc6f3334b28b6db0a97a31cd38d",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 262.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 496,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-C0EAF66FC132-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-51DBAE585632",
+    "sha256": "51dbae5856326c5d24d15566a6166c8af3427b501e7aee2b1ef018f92bf43646",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 263.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 501,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-51DBAE585632-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-B829B3820EE0",
+    "sha256": "b829b3820ee0b93d4b2a1723ec16ded701f0589cc4bc618501a9cfb75e8aa951",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 264.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 673,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-B829B3820EE0-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-F35769319067",
+    "sha256": "f35769319067f7e9f805743d474d7b1fde63c9cf697d48e56cb272deea88bb47",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 266.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 494,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-F35769319067-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-E2F29C689E5E",
+    "sha256": "e2f29c689e5e9736b2d22225808c9f23c819af2943f90fdedf8a9a16c4c94919",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 267.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 499,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-E2F29C689E5E-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-61E06B0A59F8",
+    "sha256": "61e06b0a59f82c494e256bed0a713ad2318bbbb8b0315344334be3b6fa649f3e",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 268.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 504,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-61E06B0A59F8-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-BC68073BDFDA",
+    "sha256": "bc68073bdfda346ee433880f50c55e56a4227d4f0d124b8d181137b73c77ef0e",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/fac 265.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-BC68073BDFDA-p001-ocr.txt",
+        "ocr_characters": 556,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-94900533C251",
+    "sha256": "94900533c251994af55806f35a3f61675354965732983ce1c32f87db857666b8",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Registraire des entreprises - �tat de renseignements d'une personne morale au registre des entreprise Hamco Canada Incs.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1240,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-94900533C251-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 1498,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-94900533C251-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 1506,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-94900533C251-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 1979,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-94900533C251-p004.txt"
+      },
+      {
+        "page": 5,
+        "characters": 671,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-94900533C251-p005.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-D8046C6ECD7F",
+    "sha256": "d8046c6ecd7f979aa956d20f7bf99e25abd9602b6fae2b815c7eb482b44090bb",
+    "source": "10_Archive_avocat_2026-10-05/photos-assurance-2024/Registraire des entreprises - �tat de renseignements d'une personne morale au registre des entreprises Hadmo.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1154,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D8046C6ECD7F-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 1484,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D8046C6ECD7F-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 1558,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D8046C6ECD7F-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 1598,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D8046C6ECD7F-p004.txt"
+      },
+      {
+        "page": 5,
+        "characters": 568,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D8046C6ECD7F-p005.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-27CBBDA8AEE7",
+    "sha256": "27cbbda8aee76242921e15f6f2ade331bf78c64067279ae5749e9df17875b16f",
+    "source": "10_Archive_avocat_2026-10-05/photos-drive/I01-1000135225-affichage.webp",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-27CBBDA8AEE7-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-567A491C14AE",
+    "sha256": "567a491c14ae816e7cef1c60bce0ee51de4fafa4bb0bab6aff0c3a77ea65cd52",
+    "source": "10_Archive_avocat_2026-10-05/photos-drive/I02-1000135224-affichage.webp",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-567A491C14AE-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-358687B4572A",
+    "sha256": "358687b4572a59f5f3f10577bfa763755786629bc53e45ed2bf03050723de6d9",
+    "source": "10_Archive_avocat_2026-10-05/photos-drive/I03-1000135216-affichage.webp",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-358687B4572A-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-8C50E5199769",
+    "sha256": "8c50e51997695bd4858bf0b64541461aa57590e0e1b21c945535ff3c9b67dc20",
+    "source": "10_Archive_avocat_2026-10-05/photos-drive/I04-1000135219-affichage.webp",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-8C50E5199769-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-0749D52A606F",
+    "sha256": "0749d52a606fbf29eaeae45a6516efb8646b564b13901b6a672585f05bec9f04",
+    "source": "10_Archive_avocat_2026-10-05/photos-drive/I05-1000135222-affichage.webp",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-0749D52A606F-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-346654EC0F4F",
+    "sha256": "346654ec0f4f733d14bad8a453e97973c11a9ecfadb283761898f57c61f748aa",
+    "source": "10_Archive_avocat_2026-10-05/photos-drive/I06-1000135220-affichage.webp",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-346654EC0F4F-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-F1F670AB46E9",
+    "sha256": "f1f670ab46e9fc39d43ef7585a7d7780f7bb1016765286967f7efec7e1aafac8",
+    "source": "10_Archive_avocat_2026-10-05/photos-factures-aout2025/1000036523.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-F1F670AB46E9-p001-ocr.txt",
+        "ocr_characters": 827,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-BB0D8675EBE5",
+    "sha256": "bb0d8675ebe5feeb3919ba3bf77388b31b4239cb2feea93c4b954d1392021158",
+    "source": "10_Archive_avocat_2026-10-05/photos-factures-aout2025/1000036525.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-BB0D8675EBE5-p001-ocr.txt",
+        "ocr_characters": 666,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-5A252824232F",
+    "sha256": "5a252824232f2c85c97de43b06bf92d3345efaa09ca56ff90ea7600f213ff89d",
+    "source": "10_Archive_avocat_2026-10-05/photos-factures-aout2025/1000036526.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-5A252824232F-p001-ocr.txt",
+        "ocr_characters": 16,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-17C640FAB187",
+    "sha256": "17c640fab187af1976ddaefcf925ce4f7605d763ae77c16e12c4cf9ef6418771",
+    "source": "10_Archive_avocat_2026-10-05/photos-factures-aout2025/1000036527.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-17C640FAB187-p001-ocr.txt",
+        "ocr_characters": 365,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-FDE766E035B3",
+    "sha256": "fde766e035b3baa03c3a26fec8a0eb3c3eefa8c05f64fd865a2fc24d9835b55d",
+    "source": "10_Archive_avocat_2026-10-05/photos-octobre2025/J01-1000047545.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-FDE766E035B3-p001-ocr.txt",
+        "ocr_characters": 499,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-DEE19A1A5B1D",
+    "sha256": "dee19a1a5b1d92b09486570583ad54b9793c33ab0434c3959a6001f6087b8143",
+    "source": "10_Archive_avocat_2026-10-05/photos-octobre2025/J02-1000047542.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-DEE19A1A5B1D-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-6F23CC810149",
+    "sha256": "6f23cc810149e1807abea1ada0ee020c3c123a82d9cd8217141cbfcd4feafe40",
+    "source": "10_Archive_avocat_2026-10-05/photos-octobre2025/J03-1000047544.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-6F23CC810149-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-DDDFEDFF6080",
+    "sha256": "dddfedff6080ea6da94040ecc5477c1e08b02f1b8e112295c0d47b3afdff48cc",
+    "source": "10_Archive_avocat_2026-10-05/photos-octobre2025/J04-1000047543.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-DDDFEDFF6080-p001-ocr.txt",
+        "ocr_characters": 0,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-ECF4327688DD",
+    "sha256": "ecf4327688dd965548c95d3a3848ce9a68e65b7e5afe7e89a048d37a3e5f1276",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069199.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-ECF4327688DD-p001-ocr.txt",
+        "ocr_characters": 452,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-65BA5A425ABB",
+    "sha256": "65ba5a425abb151be3f7accf60a8052890805b66ddeaaa67341c63da32ef7283",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069200.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-65BA5A425ABB-p001-ocr.txt",
+        "ocr_characters": 446,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-1D8DB0184454",
+    "sha256": "1d8db01844540c412b48f6cf249753397fff8d525674150a08241cebe99ee563",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069201.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-1D8DB0184454-p001-ocr.txt",
+        "ocr_characters": 499,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-86580C1C9218",
+    "sha256": "86580c1c92180d3f5ae76c59d385172173982d5e6f43a3e72eda538f0534cfdb",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069202.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-86580C1C9218-p001-ocr.txt",
+        "ocr_characters": 454,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-F232E2D6BDD3",
+    "sha256": "f232e2d6bdd38fb8d8d8ba499877e1bb949d25657563f0722cb87daf2e4a9978",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069203.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-F232E2D6BDD3-p001-ocr.txt",
+        "ocr_characters": 554,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-E398E6ACE662",
+    "sha256": "e398e6ace662e9955ef1032d2737dec7b29d27c93110d2bd3273384631105d92",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069204.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-E398E6ACE662-p001-ocr.txt",
+        "ocr_characters": 501,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-2171B583C7A2",
+    "sha256": "2171b583c7a271b34bc22af1f6d71c557eabe6a86f7f497a2a5965023ab0cc68",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069205.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-2171B583C7A2-p001-ocr.txt",
+        "ocr_characters": 540,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-EA2C7EF4ECFB",
+    "sha256": "ea2c7ef4ecfb7e9c38054b13a88cb98a465ec2ae989cb7f9dae04c5c22bf4492",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069206.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-EA2C7EF4ECFB-p001-ocr.txt",
+        "ocr_characters": 600,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-349F6090DC10",
+    "sha256": "349f6090dc10702219a02543a33a04597b995239b1d49439d7f96cabcf62ed30",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069207.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-349F6090DC10-p001-ocr.txt",
+        "ocr_characters": 482,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-37FC7C426B35",
+    "sha256": "37fc7c426b353aceee5c660d7b4ab51840c204cd28393bf0f76ce8e594f2bad9",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069208.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-37FC7C426B35-p001-ocr.txt",
+        "ocr_characters": 455,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-180F65167AC2",
+    "sha256": "180f65167ac2fb571325de8b354e6c1ef9b6077e7206a4e7d499e4b0e63d08d1",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069209.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-180F65167AC2-p001-ocr.txt",
+        "ocr_characters": 511,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-45DD3987C655",
+    "sha256": "45dd3987c655ad0824c73d5e9abd3465182d9812e2741cb1ef6a40c4b35ff343",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069210.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-45DD3987C655-p001-ocr.txt",
+        "ocr_characters": 976,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-0A18E05501DE",
+    "sha256": "0a18e05501de41b2eff27cdb76b2f556f26e1aa183b24ea3e064efd5f4d55a14",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069211.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-0A18E05501DE-p001-ocr.txt",
+        "ocr_characters": 1051,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-BD0FCADA7597",
+    "sha256": "bd0fcada7597ecade62c7e2ab860bacc6c677ad4fe882d8be51931897c791099",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069212.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-BD0FCADA7597-p001-ocr.txt",
+        "ocr_characters": 646,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-06CDEEA45C74",
+    "sha256": "06cdeea45c747363f057b4882df5ee90b73ba1f8585406f034c8b262c6b256d2",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069213.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-06CDEEA45C74-p001-ocr.txt",
+        "ocr_characters": 415,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-147A29670197",
+    "sha256": "147a29670197460ff8bbb9248969dbdc9dcbcdff0dc1b6604c7ab43a557e6fca",
+    "source": "10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069214.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-147A29670197-p001-ocr.txt",
+        "ocr_characters": 1203,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-93FCC24AF4E7",
+    "sha256": "93fcc24af4e7bae2a81d342d2a0a1ee78bb30cf55e6d8e7143a821ceb785b773",
+    "source": "10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/facture CQC_L-1027-A.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1388,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-93FCC24AF4E7-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-4AD884469CCF",
+    "sha256": "4ad884469ccf0f901ad80e8c49226f89046b7a2e67c1adbf72e2409694150bbd",
+    "source": "10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Rapport court 46810-1-1-1 (1).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1986,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-4AD884469CCF-p001.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-CF0ED982D8E8",
+    "sha256": "cf0ed982d8e80d327f0881283c9e75324fa313ff480f081249702bdb3c84d659",
+    "source": "10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Receipt_20251020_0001 (1).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-CF0ED982D8E8-p001-ocr.txt",
+        "ocr_characters": 306,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-65F95523C887",
+    "sha256": "65f95523c8876e1e2d40dfcbea10d757d72791132ad51a0afe57e7c5b9549b7f",
+    "source": "10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Screenshot_2025-10-27_213759.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-65F95523C887-p001-ocr.txt",
+        "ocr_characters": 1255,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-BA836C605592",
+    "sha256": "ba836c605592a5f9e8951651eafd6571bc1b84599efdcad0d5353fd8b2e9f15c",
+    "source": "10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Screenshot_2025-10-27_213805.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-BA836C605592-p001-ocr.txt",
+        "ocr_characters": 1252,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-24ECB2BF91D1",
+    "sha256": "24ecb2bf91d1f3c09406254ce6c388194f7867bbea114571fc268ee881a205c2",
+    "source": "10_Archive_avocat_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-24ECB2BF91D1-p001-ocr.txt",
+        "ocr_characters": 2353,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 2,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-24ECB2BF91D1-p002-ocr.txt",
+        "ocr_characters": 371,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 3,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-24ECB2BF91D1-p003-ocr.txt",
+        "ocr_characters": 307,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-525FB1AB5AB2",
+    "sha256": "525fb1ab5ab2616637019423ebbaac481b71e504cd63f0b8b9b6adf1b617850f",
+    "source": "10_Archive_avocat_2026-10-05/sources/DOC090825-09082025203544(1).PDF",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-525FB1AB5AB2-p001-ocr.txt",
+        "ocr_characters": 1588,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 2,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-525FB1AB5AB2-p002-ocr.txt",
+        "ocr_characters": 1100,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-9881B27793BF",
+    "sha256": "9881b27793bf9cd01fe61baec0bd5d9d37feddb280de0643fca9982ad4ee9101",
+    "source": "10_Archive_avocat_2026-10-05/sources/DOC091225-09122025113745.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-9881B27793BF-p001-ocr.txt",
+        "ocr_characters": 1391,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 2,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-9881B27793BF-p002-ocr.txt",
+        "ocr_characters": 1324,
+        "ocr_language": "en-US"
+      },
+      {
+        "page": 3,
+        "characters": 0,
+        "method": "Texte PDF natif",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-9881B27793BF-p003-ocr.txt",
+        "ocr_characters": 18,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-EC87348FF007",
+    "sha256": "ec87348ff00730c83d38177be98b6e39da1ad53616746d03f98e35851954252c",
+    "source": "10_Archive_avocat_2026-10-05/sources/image006.jpg",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 0,
+        "method": "Image",
+        "text_file": null,
+        "ocr_requested": true,
+        "ocr_file": "DOC-EC87348FF007-p001-ocr.txt",
+        "ocr_characters": 256,
+        "ocr_language": "en-US"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-D0CE7DAC7BC4",
+    "sha256": "d0ce7dac7bc4100f2ca7a92ccec62a42a35e907e87027da286f98cc0361d000c",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0001 (4).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 963,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D0CE7DAC7BC4-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 456,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-D0CE7DAC7BC4-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-46AD675BFCBE",
+    "sha256": "46ad675bfcbe4c0b51d2adbf7a34de39f3839ad83c53816ada92b1436bff5a8b",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (3).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1104,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-46AD675BFCBE-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 521,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-46AD675BFCBE-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-2BAE5C141C04",
+    "sha256": "2bae5c141c048d01dac2c2205acebced1e64f469596bd7b7f1edb2d714806c8e",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (4).pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (5).pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1104,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-2BAE5C141C04-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 521,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-2BAE5C141C04-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-9B30C09334FD",
+    "sha256": "9b30c09334fdaafe64adb1bd38795a185203793cdb5197a6cca1e7ad8017427e",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (6).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1104,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-9B30C09334FD-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 521,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-9B30C09334FD-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-FC757E550C9F",
+    "sha256": "fc757e550c9f9c1b8fa7a1c3de8acb0ddfd827d23112f5c4e756334fb62cf645",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (7).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1104,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-FC757E550C9F-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 521,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-FC757E550C9F-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-A9E038577FEF",
+    "sha256": "a9e038577fefce0aa27f2a2146a19dc161dc218de1fe03595e210788f3205232",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3) (2).pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3).pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1378,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-A9E038577FEF-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 537,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-A9E038577FEF-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-EA7620DCC66F",
+    "sha256": "ea7620dcc66fff820fdbe0c40107de5d1dd38c80ce025da62c1c483ba9a836b8",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (4).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1378,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-EA7620DCC66F-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 537,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-EA7620DCC66F-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-DCB2CA0889FB",
+    "sha256": "dcb2ca0889fbca633282d6f0ae9ae13fa084d23e0b62d498f567c57ce00596c8",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (1).pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004.pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1475,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-DCB2CA0889FB-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 575,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-DCB2CA0889FB-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-CC6856A79F0B",
+    "sha256": "cc6856a79f0b6e596cedcc39cc9ee7923f05f48b90b10848b50acf7f692e5c42",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (2).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1497,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-CC6856A79F0B-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 576,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-CC6856A79F0B-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-8D7560100565",
+    "sha256": "8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (3).pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (4).pdf",
+      "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (5).pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1497,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8D7560100565-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 576,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8D7560100565-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-EF3A86243E3B",
+    "sha256": "ef3a86243e3bf084278d8d4c96bc9c9e398df6bb845f58fe6595e3b94b08dc1a",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (7) (2).pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (7).pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1497,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-EF3A86243E3B-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 576,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-EF3A86243E3B-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-72157C9D71AF",
+    "sha256": "72157c9d71af7066f760fb341eb2ad3b5fb5ca388dba316cecfb17302b3b179a",
+    "source": "10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0005 (1).pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 1221,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-72157C9D71AF-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 457,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-72157C9D71AF-p002.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-8594C0FFF3EE",
+    "sha256": "8594c0fff3ee6f19ae994d6edd315f2e4fb7ba08cfe92bf3a6cd01c7c209334e",
+    "source": "10_Archive_avocat_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
+    "copies": [
+      "10_Archive_avocat_2026-10-05/sources/Transport Services Quote for Quadro holding ltee.pdf"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 2266,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8594C0FFF3EE-p001.txt"
+      },
+      {
+        "page": 2,
+        "characters": 2216,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8594C0FFF3EE-p002.txt"
+      },
+      {
+        "page": 3,
+        "characters": 1404,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8594C0FFF3EE-p003.txt"
+      },
+      {
+        "page": 4,
+        "characters": 3868,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8594C0FFF3EE-p004.txt"
+      },
+      {
+        "page": 5,
+        "characters": 410,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8594C0FFF3EE-p005.txt"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "DOC-8741340BBE7D",
+    "sha256": "8741340bbe7d35263f027342c35d8292422e1adfbe241623602a56a1570d18d4",
+    "source": "10_Archive_avocat_2026-10-05/sources/Rapport court 18757-1-1-1.pdf",
+    "copies": [],
+    "pages": [
+      {
+        "page": 1,
+        "characters": 2012,
+        "method": "Texte PDF natif",
+        "text_file": "DOC-8741340BBE7D-p001.txt"
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,27 @@
+Source: 06_Procedures_et_avocats\Archive_2026-10-05\DII-JANVIER-12P-ORIGINAL.pdf
+SHA256: e6e3c59f5647379d240dad6ae8158303e01adacd1ff7cc6a5986031f5ec50f5c
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+
+=== PAGE 2 ===
+
+=== PAGE 3 ===
+
+=== PAGE 4 ===
+
+=== PAGE 5 ===
+
+=== PAGE 6 ===
+
+=== PAGE 7 ===
+
+=== PAGE 8 ===
+
+=== PAGE 9 ===
+
+=== PAGE 10 ===
+
+=== PAGE 11 ===
+
+=== PAGE 12 ===

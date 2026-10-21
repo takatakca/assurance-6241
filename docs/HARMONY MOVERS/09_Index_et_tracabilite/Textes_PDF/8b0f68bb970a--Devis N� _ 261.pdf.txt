@@ -1,0 +1,28 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\Devis N� _ 261.pdf
+SHA256: 8b0f68bb970a4c0813e43a25aeb193221b662c45453f481b3f897797cf0dddaa
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Devis N° : 261
+Date : 2024-07-07
+Devis
+À : Quadro Holding Ltee
+Réf. Désignation Qté P .U HT Montant
+***Chambre de congelation *** 1 0,00 $ 0,00 $ 
+Unité de réfrigération a l’air complet
+Inclus: compresseur,filtre,thermostat,dégivreurs 
+1 0,00 $ 0,00 $ 
+Freon,soudure,vaccum 1 215,00 $ 215,00 $ 
+0001 MAIN-D’OEUVRE 6 115,00 $ 690,00 $ 
+Unité de condensation refroidi a l’air 1 7 300,00 $ 7 300,00 $ 
+Sous-total 8 205,00 $
+851005553 TPS 5 % 410,25 $
+1213285927 TVQ 9,975 % 818,45 $
+T otal T.T.C 9 433,70 $
+T otal T.T.C 9 433,70 $
+ 
+Equipement Frigo-Spec Cp277 Succ. Jean-T alon est
+Montreal, Quebec
+H1S 2Z2
+(514) 999-6793
+1 / 1

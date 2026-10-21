@@ -1,0 +1,112 @@
+[
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069243.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A26.jpg",
+    "bytes": 1548518,
+    "expected_bytes": 1548518,
+    "sha256": "2798cdd8d6952366e06273a2e43c3199cb37f5a1f631b71dba8e21e71cf65679",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069245.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A27.jpg",
+    "bytes": 1380733,
+    "expected_bytes": 1380733,
+    "sha256": "c21b4f860b461700f4d1fa8860a9ea35a773acc041628764efdf26b51610f9b5",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069248.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A28.jpg",
+    "bytes": 1375955,
+    "expected_bytes": 1375955,
+    "sha256": "e6dc939a56afc47e226a6c0b8ad045533e5fa377516cdcfc3124cb3a44af38f6",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069247.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A29.jpg",
+    "bytes": 1498702,
+    "expected_bytes": 1498702,
+    "sha256": "5d0f9a0266d7dc34c5bc89dc7080ac64b500f2fd8f8187e6c183d57c0ab8fd2c",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069249.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A30.jpg",
+    "bytes": 1518133,
+    "expected_bytes": 1518133,
+    "sha256": "87df8fc63078eb4fde57b85fb44d23eee887d02541a94a793f60f5b4354285d5",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069250.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A31.jpg",
+    "bytes": 1523594,
+    "expected_bytes": 1523594,
+    "sha256": "8008989cc5ac27a40491df804f42cccbdcdf59617ea5a06a716838ca1317fb6f",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069251.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A32.jpg",
+    "bytes": 1470577,
+    "expected_bytes": 1470577,
+    "sha256": "d5049e211dd0986b18710ec2619cef06bf29adff8da7c89510f8b25e199363fc",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069256.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A37.jpg",
+    "bytes": 1414178,
+    "expected_bytes": 1414178,
+    "sha256": "8cd17ac8e744603096747197c5486179c1ff15ea3eb807363572de10e5366b11",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069257.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A38.jpg",
+    "bytes": 1483793,
+    "expected_bytes": 1483793,
+    "sha256": "ccf288382db0a43b42f7e9e5b160e2b2049bc0d57009feac2c171a7f98418b50",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069258.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A39.jpg",
+    "bytes": 1575163,
+    "expected_bytes": 1575163,
+    "sha256": "1fcdb932bc74ae0992c98cfd282f688b900226ff56a0f8b4467151db2965ea6f",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  },
+  {
+    "message_id": "197897943f689224",
+    "filename": "1000069259.jpg",
+    "file": "04_Pieces_jointes/Reprise_2026-10-21/197897943f689224__A40.jpg",
+    "bytes": 1530141,
+    "expected_bytes": 1530141,
+    "sha256": "d66c647278c5a3f9db269755ef263c372ae1673633cbe95167156c153ca0d99a",
+    "retrieved_at": "2026-10-21",
+    "status": "downloaded_after_rate_limit"
+  }
+]

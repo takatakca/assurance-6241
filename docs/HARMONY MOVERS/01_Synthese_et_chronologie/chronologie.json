@@ -1,0 +1,218 @@
+[
+  {
+    "id": "H-CHR-001",
+    "date_evenement_ou_document": "2025-06-09",
+    "libelle": "Soumission QT 1076 et certificat de signature",
+    "statut": "Document contractuel reproduit",
+    "source_id": "QT1076 pages1-5",
+    "source": "02_Contrats/Archive_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
+    "limite": "Date certificat21:01:10UTC; identité physique et mandat non tranchés"
+  },
+  {
+    "id": "H-CHR-002",
+    "date_evenement_ou_document": "2025-06-10",
+    "libelle": "Reçu de frais administratifs 28,74 CAD",
+    "statut": "Reçu Stripe cité dans un courriel",
+    "source_id": "19e6a1b713891ad1",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a1b713891ad1.txt",
+    "limite": "Pas un paiement de transport"
+  },
+  {
+    "id": "H-CHR-003",
+    "date_evenement_ou_document": "2025-06-10",
+    "libelle": "Envoi CT 2500078 à signer",
+    "statut": "Courriel PandaDoc cité",
+    "source_id": "19e6a23b1207901a",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a23b1207901a.txt",
+    "limite": "Ne prouve pas signature"
+  },
+  {
+    "id": "H-CHR-004",
+    "date_evenement_ou_document": "2025-06-12",
+    "libelle": "Transport et suppléments contestés",
+    "statut": "Événement visé par échanges; positions des parties",
+    "source_id": "19e6a17a01a2a5f7; oppositionD5",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a17a01a2a5f7.txt",
+    "limite": "Chronologie précise, autorisation et causalité à rapprocher"
+  },
+  {
+    "id": "H-CHR-005",
+    "date_evenement_ou_document": "2025-06-12",
+    "libelle": "Facture 0001 :4501,27 puis 0002 :5018,66",
+    "statut": "Factures émises",
+    "source_id": "0001/0002",
+    "source": "04_Factures_et_comptabilite/Archive_2026-10-05/sources/Invoice-CWIQUWOL-0002 (3).pdf",
+    "limite": "Versions successives; ne pas additionner"
+  },
+  {
+    "id": "H-CHR-006",
+    "date_evenement_ou_document": "2025-06-19",
+    "libelle": "Rappel CT 2500078 disponible pour signature jusqu'au 20 juin",
+    "statut": "Courriel cité",
+    "source_id": "19e6a2424af8a3b9",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a2424af8a3b9.txt",
+    "limite": "À confronter à la pièceD4 et journal de signature"
+  },
+  {
+    "id": "H-CHR-007",
+    "date_evenement_ou_document": "2025-07-22",
+    "libelle": "Facture 0003 :3679,20 avec crédit 1165 hors taxes",
+    "statut": "Facture émise",
+    "source_id": "CWIQUWOL0003",
+    "source": "04_Factures_et_comptabilite/Archive_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3) (2).pdf",
+    "limite": "Libellé entente ne prouve pas règlement définitif"
+  },
+  {
+    "id": "H-CHR-008",
+    "date_evenement_ou_document": "2025-08-15",
+    "libelle": "Facture 0004 :4828,95 avec ajout 1000 entreposage HT",
+    "statut": "Facture émise",
+    "source_id": "CWIQUWOL0004",
+    "source": "04_Factures_et_comptabilite/Archive_2026-10-05/sources/Invoice-CWIQUWOL-0004 (1).pdf",
+    "limite": "Pas preuve de paiement"
+  },
+  {
+    "id": "H-CHR-009",
+    "date_evenement_ou_document": "2025-09-19",
+    "libelle": "Offre de récupération et facture 0005 :4501,27",
+    "statut": "Position/offre historique Harmony",
+    "source_id": "19e6a17a01a2a5f7;0005",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a17a01a2a5f7.txt",
+    "limite": "Conditions et échéance historique; pas offre actuelle présumée"
+  },
+  {
+    "id": "H-CHR-010",
+    "date_evenement_ou_document": "2025-09-20",
+    "libelle": "Romanowski expose options et question de mitigation",
+    "statut": "Avis historique de l'avocat reproduit",
+    "source_id": "19e6a25a8630185d",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a25a8630185d.txt",
+    "limite": "Avis attribué, non nouvelle conclusion juridique"
+  },
+  {
+    "id": "H-CHR-011",
+    "date_evenement_ou_document": "2025-10-20",
+    "libelle": "Transmission du rapport et reçu RicciTeasdale",
+    "statut": "Courriel prestataire",
+    "source_id": "19e6a1f2927c69a4",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a1f2927c69a4.txt",
+    "limite": "Date du courriel distincte de la signification"
+  },
+  {
+    "id": "H-CHR-023",
+    "date_evenement_ou_document": "2025-10-22",
+    "libelle": "Romanowski distingue QUA-002 Harmony et QUA-003 bail commercial",
+    "statut": "Courriel de l’avocat cité",
+    "source_id": "19e6a1f23dde0c3f",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a1f23dde0c3f.txt",
+    "limite": "Ne pas fusionner les honoraires des différents dossiers"
+  },
+  {
+    "id": "H-CHR-012",
+    "date_evenement_ou_document": "2025-12-17",
+    "libelle": "Saisie et désignation d'un tiers gardien",
+    "statut": "Procès-verbal reproduitD1",
+    "source_id": "OppositionD1",
+    "source": "06_Procedures_et_avocats/Archive_2026-10-05/OPPOSITION-ORIGINAL.pdf",
+    "limite": "État et lieu actuels à confirmer"
+  },
+  {
+    "id": "H-CHR-013",
+    "date_evenement_ou_document": "2025-12-22",
+    "libelle": "Opposition selon notification citée",
+    "statut": "Acte adverse et correspondance",
+    "source_id": "19e6a182f595e448",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a182f595e448.txt",
+    "limite": "Aucune décision présumée"
+  },
+  {
+    "id": "H-CHR-014",
+    "date_evenement_ou_document": "2025-12-24",
+    "libelle": "Déclaration de dommages par le client",
+    "statut": "Déclaration client",
+    "source_id": "19b509d902387412",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19b509d902387412.txt",
+    "limite": "Ne constitue pas diagnostic technique"
+  },
+  {
+    "id": "H-CHR-015",
+    "date_evenement_ou_document": "2026-01-26",
+    "libelle": "Demande amendée 287958,75 à parfaire",
+    "statut": "Demande judiciaire, pages5-6 contrôlées visuellement",
+    "source_id": "DIIJANVIER12P",
+    "source": "06_Procedures_et_avocats/Archive_2026-10-05/DII-JANVIER-12P-ORIGINAL.pdf",
+    "limite": "Montant demandé, non accordé"
+  },
+  {
+    "id": "H-CHR-016",
+    "date_evenement_ou_document": "2026-02-12",
+    "libelle": "MarioTaoutel annonce demande en rejet",
+    "statut": "Courriel avocat adverse",
+    "source_id": "19e6a1e90a00d54f",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a1e90a00d54f.txt",
+    "limite": "Résultat du tribunal non établi"
+  },
+  {
+    "id": "H-CHR-017",
+    "date_evenement_ou_document": "2026-02-20",
+    "libelle": "Dufourd propose 300$/h +taxes, dépôt 3000",
+    "statut": "Conditions de mandat citées",
+    "source_id": "19e6a19f26e310ed",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a19f26e310ed.txt",
+    "limite": "MandatPDF et acceptation à joindre"
+  },
+  {
+    "id": "H-CHR-024",
+    "date_evenement_ou_document": "2026-02-26",
+    "libelle": "Dufourd refuse la représentation à l’audience du lendemain faute de mandat en temps utile",
+    "statut": "Courriel du cabinet cité",
+    "source_id": "19e6a1a2c26d8709",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a1a2c26d8709.txt",
+    "limite": "Mandat ultérieur à dater; ne pas déduire absence de représentation en octobre"
+  },
+  {
+    "id": "H-CHR-018",
+    "date_evenement_ou_document": "2026-04-22",
+    "libelle": "Avis d'intention de cesser d'occuper et répartition adverse annoncée",
+    "statut": "Courriel cabinet",
+    "source_id": "19e6a1891d29ddb1",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/19e6a1891d29ddb1.txt",
+    "limite": "Ne pas conclure absence actuelle de représentation"
+  },
+  {
+    "id": "H-CHR-019",
+    "date_evenement_ou_document": "2026-10-05",
+    "libelle": "Liste des 25 engagements",
+    "statut": "Demande cabinet",
+    "source_id": "1a10d5436a58b8f3",
+    "source": "03_Courriels/takatak.ca@gmail.com/Textes/1a10d5436a58b8f3.txt",
+    "limite": "Exécution et transmission à suivre"
+  },
+  {
+    "id": "H-CHR-020",
+    "date_evenement_ou_document": "2026-10-20",
+    "libelle": "Transmission sixfactures par AlexandraLavoie",
+    "statut": "EML original",
+    "source_id": "2026-10-20_1401",
+    "source": "03_Courriels/Originaux_ooeuf_2026-10-20/2026-10-20_1401_Alexandra_Lavoie_6_factures.eml",
+    "limite": "En-tête14:00:31-0400;nomfichier1401 d'après affichage"
+  },
+  {
+    "id": "H-CHR-021",
+    "date_evenement_ou_document": "2026-10-20",
+    "libelle": "Dufourd confirme dépôt 3000; estimations et délai 10 jours",
+    "statut": "EML original14:20",
+    "source_id": "2026-10-20_1420",
+    "source": "03_Courriels/Originaux_ooeuf_2026-10-20/2026-10-20_1420_Christian_Dufourd_honoraires.eml",
+    "limite": "Délai cabinet à partir réception, non date judiciaire"
+  },
+  {
+    "id": "H-CHR-022",
+    "date_evenement_ou_document": "2026-10-20",
+    "libelle": "Dufourd demande 3500 minimum et décrit démarches",
+    "statut": "EML original16:29",
+    "source_id": "2026-10-20_1629",
+    "source": "03_Courriels/Originaux_ooeuf_2026-10-20/2026-10-20_1629_Christian_Dufourd.eml",
+    "limite": "Paiement et fin effective du mandat non constatés"
+  }
+]

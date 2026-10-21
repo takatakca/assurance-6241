@@ -1,0 +1,20 @@
+TRANSACTION RECORD
+RICCI, TEASDALE HUISSIERS DE
+142b RENE-LEVESQUE BOUL O
+MONTREAL QC
+Purchase
+Oct 20.2025
+MASTERCARD
+1 '2:0603
+Entry: Manual (M)
+OOI-OT4FU230AQlN98S
+Auth#: 04356J Response: 01-027
+Order:
+Username.
+Amount
+MG01760976360489
+ricci
+$ 105.00
+Approved
+this copy for your
+record

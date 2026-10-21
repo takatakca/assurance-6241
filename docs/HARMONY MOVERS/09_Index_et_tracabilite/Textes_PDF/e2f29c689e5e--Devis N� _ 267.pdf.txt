@@ -1,0 +1,25 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\Devis N� _ 267.pdf
+SHA256: e2f29c689e5e9736b2d22225808c9f23c819af2943f90fdedf8a9a16c4c94919
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Devis N° : 267
+Date : 2024-07-12
+Devis
+À : Quadro Holding Ltee
+Réf. Désignation Qté P .U HT Montant
+Machine a Slush cds2 Bunn 1 0,00 $ 0,00 $ 
+Contrôle électronique 1 1 230,00 $ 1 230,00 $ 
+Agitateur côté gauche 1 995,00 $ 995,00 $ 
+0001 MAIN-D’OEUVRE 1 115,00 $ 115,00 $ 
+Sous-total 2 340,00 $
+851005553 TPS 5 % 117,00 $
+1213285927 TVQ 9,975 % 233,42 $
+T otal T.T.C 2 690,42 $
+T otal T.T.C 2 690,42 $
+ 
+Equipement Frigo-Spec Cp277 Succ. Jean-T alon est
+Montreal, Quebec
+H1S 2Z2
+(514) 999-6793
+1 / 1

@@ -1,0 +1,35 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+46
+ Rapport numéro 7 : photographie annotée et
+ chiffrier original
+Origine : transfert Oeuf du 1er juin 2026 à 14 h 41, message 19e847da779dcd5a, dans le fil 19e8482128fe8d77. Courriel
+Joey Dubois du 23 avril 2025 à 7 h 37. Trois pièces jointes originales conservées dans joey-rapport7-avril2025/.
+M01 - image001.jpg
+Photographie d’un tableau imprimé des appareils, devis, réparations et montants du sinistre antérieur. Aucun dommage
+physique n’est photographié. Surlignages jaunes de remplacements, cases rouges et annotations manuscrites visibles
+dans la marge. Plusieurs mentions portent « démontage du four 23/04/25 », « remplacement en cours » et « devis en
+cours ». L’auteur des annotations et leur exécution ne sont pas établis. Le bord droit coupe certaines inscriptions.
+L’original est inversé; image001-lecture.jpg est une copie orientée à 180 degrés pour lecture.
+La photographie affiche 197 357,05 $ d’équipements réclamés, 79 563,35 $ évalués/alloués, puis 25 136,06 $ de
+marchandises et un total 222 493,11 $ réclamés / 104 699,41 $ évalués/alloués avant la franchise de 1 000 $. Ces
+colonnes ne prouvent pas des versements. Cette photographie n’est pas identique au chiffrier joint : ne pas prendre ses
+chiffres comme dernière position acceptée.
+Chiffrier joint : copie du 22 avril 2025
+Feuil1 du fichier Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx. Montants affichés : 191
+615,88 $ réclamés, 92 318,16 $ évalués, 80 918,31 $ alloués au sommaire, 79 918,31 $ après franchise. Le tableau
+soustrait deux paiements provisoires de 24 136,06 $ et 37 288,16 $, et porte « indemnité no.3 » de 18 494,09 $. La
+réserve affichée est 82 400,00 $. Ce sont les inscriptions du chiffrier, à rapprocher des relevés et quittances; l’intitulé «
+alloué » ne démontre pas une réception bancaire.
+Le chiffrier indique pour A280 un dédoublement non réclamé. Pour le four item 11 : module gaz non fonctionnel selon
+CKS, perte totale usagée nécessitant un rapport technique, et A315 7 900,00 $ pour réparation. Pour A320, il indique
+juillet 2024 tandis que la photographie originale A320 est datée du 3 octobre 2024. Utiliser les originaux de facture pour
+vérifier dates, taxes et identité des appareils.
+Objection technique déjà formulée avant Harmony
+Le 23 avril 2025, Joey demande de confirmer les items en suspens 1, 2B, 4, 11, 12, 13 et annonce vouloir demander une
+expertise à l’assureur, les rapports techniques ne suffisant pas selon lui à justifier plusieurs pertes totales. Le client
+annonce des travaux gaz/CO2 pour le 23 avril et l’envoi futur des factures des items 4, 11, 12, 13. L’annonce de travaux
+et les annotations « en cours » ne prouvent pas leur achèvement. Retrouver le rapport de fin de travaux, les tests et les
+séries demeure essentiel pour établir l’état à la remise à Harmony en juin 2025.
+M02 - ~WRD0117.jpg
+Petite image de signature/ressource du courriel. Conservée avec l’envoi original, sans valeur de photographie de
+dommage. Ne pas compter comme équipement ni comme facture.

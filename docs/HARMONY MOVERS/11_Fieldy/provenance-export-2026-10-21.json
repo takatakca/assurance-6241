@@ -1,0 +1,50 @@
+{
+  "recorded_on": "2026-10-21",
+  "record_type": "relevé de provenance et de couverture; pas un export du contenu",
+  "observed_by": "agent principal /root, navigateur Gmail et Adobe",
+  "recorded_by": "agent extraction_portrait_chatgpt, à partir du relevé transmis par l'agent principal",
+  "gmail": {
+    "account": "takatak.ca@gmail.com",
+    "displayed_date_time": "2026-10-21 14:59",
+    "date_time_status": "date et heure désormais confirmées par métadonnées du message original acquis",
+    "subject": "takatak ca has shared a file with you",
+    "context": "partage adressé au même compte selon le relevé de l'agent principal",
+    "url": "https://mail.google.com/mail/u/0/#inbox/KtbxLvHkTVsCbBRKSBHxZpHlCRNndhFcQq",
+    "message_id": "1a15fd5a4ddf7dfb",
+    "thread_id": "1a15fd5a4b09e8e8",
+    "email_ts": "2026-10-21T14:59:58-04:00",
+    "from_": "takatak ca takatak.ca@gmail.com",
+    "to": [
+      "takatak ca takatak.ca@gmail.com"
+    ],
+    "has_attachment": false,
+    "original_eml": "2026-10-21-courriel-partage-Fieldy.eml",
+    "original_eml_sha256": "a187766f92fc9c137fc6151891f0a47d017e17357b9731c06b2380e938475421",
+    "metadata_file": "2026-10-21-courriel-partage-Fieldy.json"
+  },
+  "adobe": {
+    "url": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:c4dc68eb-22e2-4295-bcb2-ca96aa69398f",
+    "displayed_title": "Fieldy – Interrogatoire préalable Quadro Holding vs Harmony Movers – 5 octobre 2026 – transcription verbatim",
+    "displayed_pages": 79,
+    "displayed_bytes": 423672,
+    "metadata_status": "valeurs affichées dans l'interface, non vérifiées sur fichier local"
+  },
+  "page_1_reported_observation": {
+    "source_label": "Fieldy",
+    "date_and_time_label": "5 octobre 2026 vers 09:28",
+    "transcription_status_label": "transcription brute sans correction ni identification des locuteurs",
+    "limitation": "relevé de la page 1 seulement, pas transcription complète de la page ni validation de l'audio"
+  },
+  "acquisition": {
+    "status": "export identifié; original non acquis",
+    "local_pdf": null,
+    "sha256": null,
+    "full_text_extracted": false,
+    "all_pages_read": false,
+    "audio_obtained": false,
+    "attempts": "Deux navigateurs n'ont pas fourni de PDF récupérable; outil de récupération de contenu PDF : format non pris en charge.",
+    "cause": "indéterminée; aucune conclusion sur l'absence du document ou un refus du propriétaire",
+    "latest_browser_status": "L’agent principal signale ensuite des délais d’attente du navigateur, y compris Gmail; aucun contenu supplémentaire du PDF acquis."
+  },
+  "next_step": "Acquérir le fichier original, vérifier métadonnées et SHA256, puis analyser avec provenance par page sans attribuer les locuteurs par supposition."
+}

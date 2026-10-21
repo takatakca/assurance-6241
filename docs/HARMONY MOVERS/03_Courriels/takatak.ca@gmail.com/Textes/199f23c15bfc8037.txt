@@ -1,0 +1,34 @@
+Message Gmail: 199f23c15bfc8037
+Date en-tête: Fri, 17 Oct 2025 08:54:07 -0400
+De: takatak ca <takatak.ca@gmail.com>
+À: yan romanowski <romanowskiyan@gmail.com>
+Objet: 
+📁 FACTURE AU DOSSIER – HARMONY MOVERS 
+Source brute: ../lectures-007.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+A) FACTURES – EN ORDRE CHRONOLOGIQUE
+
+(Toutes seront extraites des fichiers PDF déjà fournis : CWIQUWOL-0001 à
+0005)
+
+1. Invoice CWIQUWOL-0001 – 12 juin 2025 – Déménagement initial
+
+
+2. Invoice CWIQUWOL-0002 – 20 juin 2025 – Heures supplémentaires
+
+
+3. Invoice CWIQUWOL-0003 – 22 Juillet 2025 – Entente Amiable
+
+
+4. Invoice CWIQUWOL-0004 – 23 Aout 2025 – Immobilisation camion /
+entreposage
+
+
+5. Invoice CWIQUWOL-0005 – 19 Septembre  2025 – Frais de manutention et
+supervision
+
+6. Quotation du service
+
+👉 Ces documents seront annexés dans l’ordre avec mention : “Pièces
+justificatives P-1 à P-6”

@@ -1,0 +1,29 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\photos-assurance-2024\Devis N� _ 259.pdf
+SHA256: 985f811e148ab88ae016a27540074e4dc9d6d004b9a335afbd3501ae901d2a64
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Devis N° : 259
+Date : 2024-07-07
+Devis
+À : Quadro Holding Ltee
+Réf. Désignation Qté P .U HT Montant
+Frigo Pâtisserie 
+IFI- DDSG-6
+1 0,00 $ 0,00 $ 
+Compresseur Aspera 2212gk1 1 1 725,00 $ 1 725,00 $ 
+Freon /filtre/soudure/vaccum 1 315,00 $ 315,00 $ 
+0001 MAIN-D’OEUVRE 5 115,00 $ 575,00 $ 
+Sous-total 2 615,00 $
+851005553 TPS 5 % 130,75 $
+1213285927 TVQ 9,975 % 260,85 $
+T otal T.T.C 3 006,60 $
+T otal T.T.C 3 006,60 $
+Commentaires
+Remplacement du compresseur au Freon 22,,ce freon est discontinué,compresseur de remplacement au r449
+ 
+Equipement Frigo-Spec Cp277 Succ. Jean-T alon est
+Montreal, Quebec
+H1S 2Z2
+(514) 999-6793
+1 / 1

@@ -1,0 +1,117 @@
+{
+  "captured_on": "2026-10-21",
+  "scope": "Conversations liées au dossier 6241 Léger repérées dans CHATGPT-REPERES.md",
+  "requests": [
+    {
+      "id": "6a1a6b53-c33c-83ea-a7e0-292d996dfdef",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"detail\":\"Too many requests\"}"
+            }
+          ],
+          "isError": true
+        }
+      }
+    },
+    {
+      "id": "695225bc-09e0-832e-9dc3-70880bbccd7a",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "ChatGPT conversation history was rate limited"
+            }
+          ],
+          "isError": true
+        }
+      }
+    },
+    {
+      "id": "6908d0f8-b9d8-8326-87e6-849b80c89f44",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "ChatGPT conversation history was rate limited"
+            }
+          ],
+          "isError": true
+        }
+      }
+    },
+    {
+      "id": "6a170cfe-93b0-83ea-9bd4-dcd10ce6ebd6",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "ChatGPT conversation history was rate limited"
+            }
+          ],
+          "isError": true
+        }
+      }
+    },
+    {
+      "id": "6a29f57f-0268-83ea-a98f-7da6124b1603",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "ChatGPT conversation history was rate limited"
+            }
+          ],
+          "isError": true
+        }
+      }
+    },
+    {
+      "id": "6abc0c85-20d4-83ea-93f4-c2ddba77fb7c",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "ChatGPT conversation history was rate limited"
+            }
+          ],
+          "isError": true
+        }
+      }
+    },
+    {
+      "id": "6a6efd71-7454-83ea-b81c-165702f9ca27",
+      "response": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "ChatGPT conversation history was rate limited"
+            }
+          ],
+          "isError": true
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Les sept appels corrigés avec turnLimit=10 et maxOutputCharsPerItem=20000 sont limités temporairement par ChatGPT.",
+    "Aucun contenu des sept conversations n’a été reçu.",
+    "Ouverture navigateur Expertise technique et saisie refusée par contrôle automatique: lien au périmètre jugé non établi.",
+    "Le navigateur intégré du parent n’est pas visible depuis ce sous-agent."
+  ]
+}

@@ -1,0 +1,1757 @@
+{
+  "generated_at": "2026-10-21",
+  "counts": {
+    "pages_pdf": 218,
+    "pages_couche_texte_existante": 217,
+    "pages_sans_texte_ocr_effectue": 1,
+    "pages_sans_extraction_connue": 0,
+    "pages_pdf_controle_visuel": 6
+  },
+  "limits": "Couche texte existante extraite, origine native ou OCR antérieur non authentifiée. Présence de texte ne garantit pas la transcription des éléments graphiques. Contrôle visuel ciblé, pas 218 pages relues visuellement.",
+  "pages": [
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 1,
+      "existing_text_characters": 1779,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 2,
+      "existing_text_characters": 162,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 3,
+      "existing_text_characters": 1572,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 4,
+      "existing_text_characters": 1282,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 5,
+      "existing_text_characters": 2299,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 6,
+      "existing_text_characters": 2142,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 7,
+      "existing_text_characters": 877,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 8,
+      "existing_text_characters": 1549,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 9,
+      "existing_text_characters": 1577,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 10,
+      "existing_text_characters": 593,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 11,
+      "existing_text_characters": 3372,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 12,
+      "existing_text_characters": 4418,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 13,
+      "existing_text_characters": 1516,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 14,
+      "existing_text_characters": 2072,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 15,
+      "existing_text_characters": 4054,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 16,
+      "existing_text_characters": 4600,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 17,
+      "existing_text_characters": 3595,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 18,
+      "existing_text_characters": 4392,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 19,
+      "existing_text_characters": 5800,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 20,
+      "existing_text_characters": 5778,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 21,
+      "existing_text_characters": 4478,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 22,
+      "existing_text_characters": 5778,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 23,
+      "existing_text_characters": 6802,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 24,
+      "existing_text_characters": 7049,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 25,
+      "existing_text_characters": 5326,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 26,
+      "existing_text_characters": 5468,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 27,
+      "existing_text_characters": 2414,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 28,
+      "existing_text_characters": 11066,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 29,
+      "existing_text_characters": 13475,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 30,
+      "existing_text_characters": 8390,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 31,
+      "existing_text_characters": 6210,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 32,
+      "existing_text_characters": 5846,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 33,
+      "existing_text_characters": 5520,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 34,
+      "existing_text_characters": 5149,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 35,
+      "existing_text_characters": 5087,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 36,
+      "existing_text_characters": 6626,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 37,
+      "existing_text_characters": 6602,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 38,
+      "existing_text_characters": 6456,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 39,
+      "existing_text_characters": 5589,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 40,
+      "existing_text_characters": 6003,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 41,
+      "existing_text_characters": 6660,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 42,
+      "existing_text_characters": 4554,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 43,
+      "existing_text_characters": 9592,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 44,
+      "existing_text_characters": 4736,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 45,
+      "existing_text_characters": 6362,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 46,
+      "existing_text_characters": 6844,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 47,
+      "existing_text_characters": 5644,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 48,
+      "existing_text_characters": 3671,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 49,
+      "existing_text_characters": 1230,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 50,
+      "existing_text_characters": 343,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 51,
+      "existing_text_characters": 820,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 52,
+      "existing_text_characters": 1119,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 53,
+      "existing_text_characters": 9305,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 54,
+      "existing_text_characters": 796,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 55,
+      "existing_text_characters": 5440,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 56,
+      "existing_text_characters": 5353,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 57,
+      "existing_text_characters": 6008,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 58,
+      "existing_text_characters": 5285,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 59,
+      "existing_text_characters": 922,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 60,
+      "existing_text_characters": 3387,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 61,
+      "existing_text_characters": 2963,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0c4e0a4787b0a8__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+      "page": 62,
+      "existing_text_characters": 1081,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Avis_resiliation_cuisine_Quadro_FINAL（signature）.pdf",
+      "page": 1,
+      "existing_text_characters": 0,
+      "extraction_method": "OCR automatique",
+      "ocr_file": "09_Index_et_tracabilite/Texte_et_OCR/1a0cf835bf45a29f__Avis_resiliation_cuisine_Quadro_FINAL（signature）-p1-ocr.txt",
+      "visually_checked": true
+    },
+    {
+      "file": "1a0cf835bf45a29f__Certificat_nettoyage_hotte_Rapid2Net_2026-09-14.pdf",
+      "page": 1,
+      "existing_text_characters": 1618,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": true
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+      "page": 1,
+      "existing_text_characters": 3352,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": true
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+      "page": 2,
+      "existing_text_characters": 4095,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+      "page": 3,
+      "existing_text_characters": 4054,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+      "page": 4,
+      "existing_text_characters": 4222,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+      "page": 5,
+      "existing_text_characters": 3459,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": true
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_Mise_en_demeure_Quadro_BAR_SORA_20_septembre_2026.pdf",
+      "page": 1,
+      "existing_text_characters": 2538,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_Mise_en_demeure_Quadro_BAR_SORA_20_septembre_2026.pdf",
+      "page": 2,
+      "existing_text_characters": 2839,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_Mise_en_demeure_Quadro_BAR_SORA_20_septembre_2026.pdf",
+      "page": 3,
+      "existing_text_characters": 2495,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.pdf",
+      "page": 1,
+      "existing_text_characters": 4002,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.pdf",
+      "page": 2,
+      "existing_text_characters": 3998,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+      "page": 1,
+      "existing_text_characters": 414,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+      "page": 2,
+      "existing_text_characters": 2416,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+      "page": 3,
+      "existing_text_characters": 2629,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+      "page": 4,
+      "existing_text_characters": 2434,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+      "page": 5,
+      "existing_text_characters": 1102,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+      "page": 6,
+      "existing_text_characters": 1161,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Mise_en_demeure_Quadro_Holdings_Bar_Sora.pdf",
+      "page": 1,
+      "existing_text_characters": 1381,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Mise_en_demeure_Quadro_Holdings_Bar_Sora.pdf",
+      "page": 2,
+      "existing_text_characters": 1490,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Mise_en_demeure_Quadro_Holdings_Bar_Sora.pdf",
+      "page": 3,
+      "existing_text_characters": 212,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 1,
+      "existing_text_characters": 741,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 2,
+      "existing_text_characters": 2679,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 3,
+      "existing_text_characters": 3118,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 4,
+      "existing_text_characters": 2436,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 5,
+      "existing_text_characters": 2903,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 6,
+      "existing_text_characters": 526,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+      "page": 7,
+      "existing_text_characters": 1691,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+      "page": 1,
+      "existing_text_characters": 393,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+      "page": 2,
+      "existing_text_characters": 2329,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+      "page": 3,
+      "existing_text_characters": 2727,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+      "page": 4,
+      "existing_text_characters": 2244,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+      "page": 5,
+      "existing_text_characters": 990,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 1,
+      "existing_text_characters": 1572,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 2,
+      "existing_text_characters": 1282,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 3,
+      "existing_text_characters": 2299,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": true
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 4,
+      "existing_text_characters": 2142,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 5,
+      "existing_text_characters": 877,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 6,
+      "existing_text_characters": 1549,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 7,
+      "existing_text_characters": 1577,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": true
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 8,
+      "existing_text_characters": 593,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 9,
+      "existing_text_characters": 3372,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 10,
+      "existing_text_characters": 4418,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 11,
+      "existing_text_characters": 1516,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 12,
+      "existing_text_characters": 2072,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 13,
+      "existing_text_characters": 4054,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 14,
+      "existing_text_characters": 4600,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 15,
+      "existing_text_characters": 3595,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 16,
+      "existing_text_characters": 4392,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 17,
+      "existing_text_characters": 5800,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 18,
+      "existing_text_characters": 5778,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 19,
+      "existing_text_characters": 4478,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 20,
+      "existing_text_characters": 5778,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 21,
+      "existing_text_characters": 6802,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 22,
+      "existing_text_characters": 7049,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 23,
+      "existing_text_characters": 5326,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 24,
+      "existing_text_characters": 5468,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 25,
+      "existing_text_characters": 2414,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 26,
+      "existing_text_characters": 11066,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 27,
+      "existing_text_characters": 13475,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 28,
+      "existing_text_characters": 8390,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 29,
+      "existing_text_characters": 6210,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 30,
+      "existing_text_characters": 5846,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 31,
+      "existing_text_characters": 5520,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 32,
+      "existing_text_characters": 5149,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 33,
+      "existing_text_characters": 5087,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 34,
+      "existing_text_characters": 6626,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 35,
+      "existing_text_characters": 6602,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 36,
+      "existing_text_characters": 6456,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 37,
+      "existing_text_characters": 5589,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 38,
+      "existing_text_characters": 6003,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 39,
+      "existing_text_characters": 6660,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 40,
+      "existing_text_characters": 4554,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 41,
+      "existing_text_characters": 9592,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 42,
+      "existing_text_characters": 4736,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 43,
+      "existing_text_characters": 6362,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 44,
+      "existing_text_characters": 6844,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 45,
+      "existing_text_characters": 5644,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 46,
+      "existing_text_characters": 3671,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 47,
+      "existing_text_characters": 1230,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 48,
+      "existing_text_characters": 343,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 49,
+      "existing_text_characters": 820,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 50,
+      "existing_text_characters": 1119,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 51,
+      "existing_text_characters": 9305,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 52,
+      "existing_text_characters": 796,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 53,
+      "existing_text_characters": 5440,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 54,
+      "existing_text_characters": 5353,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 55,
+      "existing_text_characters": 6008,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 56,
+      "existing_text_characters": 5285,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 57,
+      "existing_text_characters": 922,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 58,
+      "existing_text_characters": 3387,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Nouvelle affaire 2026-27(1).pdf",
+      "page": 59,
+      "existing_text_characters": 2963,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Suivi_mise_en_demeure_interruption_propane.pdf",
+      "page": 1,
+      "existing_text_characters": 1727,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__Suivi_mise_en_demeure_propane_style_formel.pdf",
+      "page": 1,
+      "existing_text_characters": 2973,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 1,
+      "existing_text_characters": 1779,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 2,
+      "existing_text_characters": 162,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 3,
+      "existing_text_characters": 1572,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 4,
+      "existing_text_characters": 1282,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 5,
+      "existing_text_characters": 2299,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 6,
+      "existing_text_characters": 2142,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 7,
+      "existing_text_characters": 877,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 8,
+      "existing_text_characters": 1549,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 9,
+      "existing_text_characters": 1577,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 10,
+      "existing_text_characters": 593,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 11,
+      "existing_text_characters": 3372,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 12,
+      "existing_text_characters": 4418,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 13,
+      "existing_text_characters": 1516,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 14,
+      "existing_text_characters": 2072,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 15,
+      "existing_text_characters": 4054,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 16,
+      "existing_text_characters": 4600,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 17,
+      "existing_text_characters": 3595,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 18,
+      "existing_text_characters": 4392,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 19,
+      "existing_text_characters": 5800,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 20,
+      "existing_text_characters": 5778,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 21,
+      "existing_text_characters": 4478,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 22,
+      "existing_text_characters": 5778,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 23,
+      "existing_text_characters": 6802,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 24,
+      "existing_text_characters": 7049,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 25,
+      "existing_text_characters": 5326,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 26,
+      "existing_text_characters": 5468,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 27,
+      "existing_text_characters": 2414,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 28,
+      "existing_text_characters": 11066,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 29,
+      "existing_text_characters": 13475,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 30,
+      "existing_text_characters": 8390,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 31,
+      "existing_text_characters": 6210,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 32,
+      "existing_text_characters": 5846,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 33,
+      "existing_text_characters": 5520,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 34,
+      "existing_text_characters": 5149,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 35,
+      "existing_text_characters": 5087,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 36,
+      "existing_text_characters": 6626,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 37,
+      "existing_text_characters": 6602,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 38,
+      "existing_text_characters": 6456,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 39,
+      "existing_text_characters": 5589,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 40,
+      "existing_text_characters": 6003,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 41,
+      "existing_text_characters": 6660,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 42,
+      "existing_text_characters": 4554,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 43,
+      "existing_text_characters": 9592,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 44,
+      "existing_text_characters": 4736,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 45,
+      "existing_text_characters": 6362,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 46,
+      "existing_text_characters": 6844,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 47,
+      "existing_text_characters": 5644,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 48,
+      "existing_text_characters": 3671,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 49,
+      "existing_text_characters": 1230,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 50,
+      "existing_text_characters": 343,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 51,
+      "existing_text_characters": 820,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 52,
+      "existing_text_characters": 1119,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 53,
+      "existing_text_characters": 9305,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 54,
+      "existing_text_characters": 796,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 55,
+      "existing_text_characters": 5440,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 56,
+      "existing_text_characters": 5353,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 57,
+      "existing_text_characters": 6008,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 58,
+      "existing_text_characters": 5285,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 59,
+      "existing_text_characters": 922,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 60,
+      "existing_text_characters": 3387,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 61,
+      "existing_text_characters": 2963,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    },
+    {
+      "file": "1a0cf835bf45a29f__TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+      "page": 62,
+      "existing_text_characters": 1081,
+      "extraction_method": "couche texte existante",
+      "ocr_file": null,
+      "visually_checked": false
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "as_of": "2026-10-21",
+  "conflicts": [
+    {
+      "id": "CF-01",
+      "issue": "Identité et rôles des intervenants",
+      "observations": [
+        "Utilisateur corrige INDEMNI PRO en octobre 2025.",
+        "HSB et Racine & Chamberland proviennent surtout de lettres générées.",
+        "HSBC Assurance en mai 2026 est la formulation utilisateur, non une identité légale vérifiée.",
+        "Amnipro a été explicitement écarté par la correction utilisateur."
+      ],
+      "resolution": "Lire police, signatures et mandats; ne pas fusionner assureur, courtier et expert.",
+      "refs": [
+        "CORR-05",
+        "CORR-12",
+        "CORR-13"
+      ]
+    },
+    {
+      "id": "CF-02",
+      "issue": "Aucun paiement versus paiements déjà reçus",
+      "observations": [
+        "Ancien assistant affirme zéro reçu et silence total.",
+        "Utilisateur corrige expressément l’existence de paiements.",
+        "Le montant 9 700 $ est introduit ensuite par l’assistant, sans confirmation chiffrée utilisateur."
+      ],
+      "resolution": "Retenir existence déclarée de paiements; montant inconnu jusqu’aux pièces bancaires.",
+      "refs": [
+        "CORR-05"
+      ]
+    },
+    {
+      "id": "CF-03",
+      "issue": "Paiement final versus items en suspens",
+      "observations": [
+        "Lettres générées citent finalité des dommages directs et items 9/13 en suspens.",
+        "Une version ajoute sauf nouvelles pièces justificatives; autre version présente une finalité absolue.",
+        "Ces phrases pourraient concerner catégories/conditions distinctes."
+      ],
+      "resolution": "Conflit allégué, non contradiction démontrée; comparer courriels et lettre intégraux avant conclusion.",
+      "refs": [
+        "CORR-12"
+      ]
+    },
+    {
+      "id": "CF-04",
+      "issue": "Pertes de marchandises et perte d’exploitation",
+      "observations": [
+        "Utilisateur affirme que Joey a demandé leur retransmission au comptable.",
+        "Anciennes lettres assimilent inclusion comptable et couverture contractuelle et décrivent une limite comme arbitraire sans police."
+      ],
+      "resolution": "Séparer classement de la réclamation, couverture, période et montant.",
+      "refs": [
+        "CORR-08",
+        "CORR-12"
+      ]
+    },
+    {
+      "id": "CF-05",
+      "issue": "État du PS360",
+      "observations": [
+        "Utilisateur signale analyse/réparation puis non-règlement en mai 2026.",
+        "Ancien assistant présente un four PS360WB remplacé/payant chez Choquette."
+      ],
+      "resolution": "Vérifier série, facture, travaux réellement effectués et identité des équipements.",
+      "refs": [
+        "CORR-01",
+        "CORR-03",
+        "CORR-05",
+        "CORR-13"
+      ]
+    },
+    {
+      "id": "CF-06",
+      "issue": "Incohérences de transcriptions comptables",
+      "observations": [
+        "A245 : 25 juin et 1 316,46 $ dans une extraction; 26 juin et 1 145 $ dans résumé.",
+        "A294 : 29 juillet et 4 426,54 $ dans extraction; 19 juillet et 3 850 $ dans résumé.",
+        "BUNN 2 690,42 $ attribué tantôt A290 du 22 juillet, tantôt A281 du 17 juillet.",
+        "Confusion manifeste possible entre HT et TTC et entre numéros."
+      ],
+      "resolution": "Ne pas importer ces chiffres dans un grand livre vérifié sans originaux.",
+      "refs": [
+        "CORR-05"
+      ]
+    },
+    {
+      "id": "CF-07",
+      "issue": "Dates et délais",
+      "observations": [
+        "Le récit utilisateur mentionne réponses les 6 janvier/20 février; assistant décrit ensuite silence total décembre-mars.",
+        "14 juin sans année explicite; 9 juin 2024 date précise vient ici de textes assistant.",
+        "Dates de rédaction 7 novembre dans lettres alors que tours locaux sont 6 novembre."
+      ],
+      "resolution": "Conserver date événement, date document, date déclaration séparément; ne pas mesurer retard depuis metadata de mise à jour.",
+      "refs": [
+        "CORR-01",
+        "CORR-03",
+        "CORR-05",
+        "CORR-12"
+      ]
+    },
+    {
+      "id": "CF-08",
+      "issue": "Risque de mélange de dossiers",
+      "observations": [
+        "Lettre à avocate concerne jeunesse/tribunal familial selon utilisateur.",
+        "Porter plainte avocat décrit Cintec/terrain dans l’ancien assistant; lien assurance non établi."
+      ],
+      "resolution": "Exclure de chronologie et présentation assurance sauf pièce reliant explicitement les dossiers.",
+      "refs": [
+        "CORR-09",
+        "CORR-10"
+      ]
+    }
+  ],
+  "monetary_claims": [
+    {
+      "id": "MC-01",
+      "amount": 25000,
+      "currency": null,
+      "currency_symbol": "$",
+      "kind": "Chèque annoncé pour pertes alimentaires selon utilisateur",
+      "status": "déclaration utilisateur",
+      "declared_date": "2025-09-11",
+      "paid": false,
+      "payment_status": "non établi",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-03",
+          "turn_id": "bbb21cb3-8240-48d8-96cf-c1c0eabc9543"
+        }
+      ],
+      "note": "L’utilisateur dit qu’un chèque de 25 000 $ avait été mentionné. Ne prouve ni émission ni réception. Peut recouvrir tout ou partie de MC-02."
+    },
+    {
+      "id": "MC-02",
+      "amount": 60000,
+      "qualifier": "et plus",
+      "currency": null,
+      "currency_symbol": "$",
+      "kind": "Marchandises alimentaires perdues alléguées",
+      "status": "déclaration utilisateur",
+      "declared_date": "2025-10-27",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-08",
+          "turn_id": "bbb212ce-9b19-45af-9a72-834fbd73df23"
+        },
+        {
+          "reference": "CORR-08",
+          "turn_id": "bbb21af9-d353-4859-b7f8-4a9a0bd706d7"
+        }
+      ],
+      "note": "Montant annoncé devant être remis au comptable avec pertes d’exploitation. Inventaire, coût, taxes, valeur récupérée et absence de double comptage à vérifier."
+    },
+    {
+      "id": "MC-03",
+      "amount": null,
+      "currency": null,
+      "kind": "Paiements déjà reçus",
+      "status": "déclaration utilisateur",
+      "declared_date": "2025-10-10",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        }
+      ],
+      "note": "Correction explicite utilisateur : des paiements ont déjà été donnés par INDEMNI PRO. Aucun montant confirmé dans cette déclaration."
+    },
+    {
+      "id": "MC-04",
+      "amount": 31085.3,
+      "currency": null,
+      "kind": "Paiement final d’équipements attribué à une lettre du 29 octobre 2025",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-12",
+          "turn_id": "bbb21448-e43b-4299-90c4-695fa322fea9"
+        }
+      ],
+      "note": "Présent dans un copier-coller de lettre générée; la lettre HSB originale n’est pas disponible. Ne prouve pas paiement/reconnaissance."
+    },
+    {
+      "id": "MC-05",
+      "amount": 200801.44,
+      "currency": null,
+      "kind": "Total présenté comme réclamé dans ancien résumé",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        }
+      ]
+    },
+    {
+      "id": "MC-06",
+      "amount": 96265.2,
+      "currency": null,
+      "kind": "Total présenté comme évalué dans ancien résumé",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        }
+      ]
+    },
+    {
+      "id": "MC-07",
+      "amount": 71229.14,
+      "currency": null,
+      "kind": "Total présenté comme autorisé dans ancien résumé",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        }
+      ]
+    },
+    {
+      "id": "MC-08",
+      "amount": 9700,
+      "components": [
+        8000,
+        1700
+      ],
+      "currency": null,
+      "kind": "Paiements chiffrés seulement par l’assistant après correction utilisateur",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        }
+      ],
+      "note": "La correction utilisateur confirme des paiements, pas ces chiffres."
+    },
+    {
+      "id": "MC-09",
+      "amount": 61529.14,
+      "currency": null,
+      "kind": "Solde déduit par assistant",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        }
+      ],
+      "note": "Différence de nombres non vérifiés; ne pas appeler solde dû."
+    },
+    {
+      "id": "MC-10",
+      "amount": 38785.3,
+      "currency": null,
+      "kind": "Colonne à payer alléguée d’un sommaire non disponible",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "4444cafa-784c-4817-af2c-f9fd2ec54b74"
+        }
+      ]
+    },
+    {
+      "id": "MC-11",
+      "amount": 45000,
+      "currency": null,
+      "kind": "Chèque annoncé mais non reçu allégué seulement par assistant",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "a4ef976f-e7d9-46cf-8596-8dd663b68e6b"
+        }
+      ]
+    },
+    {
+      "id": "MC-12",
+      "amount": 39332.95,
+      "currency": "CAD",
+      "kind": "Total de huit factures Frigo-Spec transcrites uniquement par assistant",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "9ad30dc5-643c-4dfc-918b-482e72d983e4"
+        }
+      ],
+      "note": "La somme des huit nombres est cohérente; les factures et paiements restent non vérifiés."
+    },
+    {
+      "id": "MC-13",
+      "amount": null,
+      "range": [
+        120000,
+        150000
+      ],
+      "currency": null,
+      "kind": "Estimations globales divergentes dans anciens textes assistant",
+      "status": "texte assistant uniquement",
+      "included_in_verified_total": false,
+      "refs": [
+        {
+          "reference": "CORR-05",
+          "turn_id": "84957ba0-37d6-4987-93e7-35b7ad5cfa9c"
+        },
+        {
+          "reference": "CORR-05",
+          "turn_id": "4444cafa-784c-4817-af2c-f9fd2ec54b74"
+        }
+      ],
+      "note": "Aucun calcul justificatif indépendant; exclure des demandes chiffrées."
+    }
+  ],
+  "warning": "Anciennes analyses du 20 octobre. DOC-C01 à DOC-C13 apportent maintenant les images; consulter le portrait du 21 octobre pour les mises à jour. Les listes de documents non vus ne signifient pas absence dans le nouveau dossier local."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "query": "in:anywhere {Somerled Summerlet \"6280\" \"6284\" \"Bar Sora\" barsora@yahoo.com}",
+    "account": "takatak.ca@gmail.com",
+    "message_count": 52,
+    "next_page_token": null,
+    "searched_at": "2026-10-21",
+    "scope": "Résultats non pertinents non copiés au dossier."
+  },
+  {
+    "query": "in:anywhere {\"Nathalie Barcera\" Barcera \"Nathalie Ma\"}",
+    "account": "takatak.ca@gmail.com",
+    "message_count": 11,
+    "next_page_token": null,
+    "searched_at": "2026-10-21",
+    "scope": "Résultats non pertinents non copiés au dossier."
+  },
+  {
+    "query": "in:anywhere {from:barsora@yahoo.com to:barsora@yahoo.com}",
+    "account": "takatak.ca@gmail.com",
+    "message_count": 8,
+    "next_page_token": null,
+    "searched_at": "2026-10-21",
+    "scope": "Résultats non pertinents non copiés au dossier."
+  },
+  {
+    "query": "in:anywhere {propane MAPAQ \"résiliation\"} {Quadro \"Bar Sora\" Somerled}",
+    "account": "takatak.ca@gmail.com",
+    "message_count": 25,
+    "next_page_token": null,
+    "searched_at": "2026-10-21",
+    "scope": "Résultats non pertinents non copiés au dossier."
+  },
+  {
+    "query": "in:anywhere {from:yromanowski@romanowskiavocats.com to:yromanowski@romanowskiavocats.com} {\"Bar Sora\" Somerled 6280}",
+    "account": "takatak.ca@gmail.com",
+    "message_count": 0,
+    "next_page_token": null,
+    "searched_at": "2026-10-21",
+    "scope": "Résultats non pertinents non copiés au dossier."
+  }
+]

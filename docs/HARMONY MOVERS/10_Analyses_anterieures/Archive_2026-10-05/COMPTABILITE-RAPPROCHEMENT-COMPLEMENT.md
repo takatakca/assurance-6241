@@ -1,0 +1,43 @@
+# Rapprochement des exports Uber avec la synthèse comptable
+
+Origine : treize pièces jointes reçues du comptable le 6 mars 2026. Les neuf exports mensuels data-vente et le fichier Uber-Ventes-2024- final.xlsx sont conservés sans modification. Les calculs ci-dessous sont un contrôle de périmètre, pas une nouvelle déclaration de revenus ni un calcul de perte indemnisable.
+
+## Contrôle par mois civil 2024
+
+| Mois | Completed HT | Cancelled HT | Unfulfilled HT | Tous statuts HT | Synthèse HT | Écart Completed |
+|---|---|---|---|---|---|---|
+| 3/2024 | 3703.31 $ | 21.12 $ | 32.87 $ | 3757.30 $ | 3687.71 $ | 15.60 $ |
+| 4/2024 | 6649.67 $ | 107.95 $ | 49.43 $ | 6807.05 $ | 6807.05 $ | -157.38 $ |
+| 5/2024 | 8790.76 $ | 175.05 $ | 100.39 $ | 9066.20 $ | 8922.47 $ | -131.71 $ |
+| 6/2024 | 6514.31 $ | 169.56 $ | 117.16 $ | 6801.03 $ | 6736.50 $ | -222.19 $ |
+| 7/2024 | 5618.71 $ | 69.93 $ | 54.52 $ | 5743.16 $ | 5754.49 $ | -135.78 $ |
+| 8/2024 | 5658.83 $ | 105.57 $ | 16.70 $ | 5781.10 $ | 5722.00 $ | -63.17 $ |
+| 9/2024 | 5720.79 $ | 85.64 $ | 0 $ | 5806.43 $ | 5711.48 $ | 9.31 $ |
+| 10/2024 | 5252.91 $ | 80.43 $ | 34.30 $ | 5367.64 $ | 5287.21 $ | -34.30 $ |
+| 11/2024 | 4518.40 $ | 16.24 $ | 0 $ | 4534.64 $ | 4576.80 $ | -58.40 $ |
+
+## Méthode et cellules sources
+
+Dans chaque export, date de commande en colonne E, statut en J et Sales (excl. tax) en L. Les deux premières lignes sont des en-têtes. Le contrôle conserve uniquement les lignes ayant une date réelle dans le mois civil du nom du fichier. Il additionne L séparément par statut, sans ajouter taxes, publicités, commissions ni versements. Les lignes de frais portant 0000-12-31 sont exclues de cette comparaison de ventes datées. Les valeurs affichées de la synthèse proviennent de Ventes total 2024, colonne C, lignes 7 à 15 pour mars-novembre. La colonne d’écart compare Completed seul à la synthèse.
+
+Tous les montants de la table sont des sommes de valeurs de ventes source. Cancelled et Unfulfilled ne signifient pas automatiquement revenu acquis, payé ou indemnisable. Des ajustements, reprises, décisions de classement et autres canaux peuvent expliquer des différences. Le comptable doit préciser les statuts retenus et leur traitement. Le calcul n’efface aucune ligne de l’original.
+
+Plusieurs exports contiennent des commandes ou références de dates hors du mois annoncé :
+
+| Export | Dates présentes | Lignes datées hors du mois |
+|---|---|---|
+| data-vente-mars24.xlsx | 2024-02-25 à 2024-03-31 | 2 |
+| data-vente-avril24.xlsx | 2024-03-29 à 2024-04-30 | 2 |
+| data-vente-mai24.xlsx | 2024-04-26 à 2024-05-31 | 5 |
+| data-vente-juin24.xlsx | 2024-05-31 à 2024-06-30 | 2 |
+| data-vente-juillet24.xlsx | 2024-06-30 à 2024-07-31 | 2 |
+| data-vente-aout24.xlsx | 2024-07-29 à 2024-08-31 | 11 |
+| data-vente-sept24.xlsx | 2024-08-27 à 2024-09-30 | 6 |
+| data-vente-oct24.xlsx | 2024-09-28 à 2024-10-31 | 2 |
+| data-vente-nov24.xlsx | 2024-10-06 à 2024-11-30 | 7 |
+
+## Questions de rapprochement à adresser au comptable
+
+Quels statuts ont été inclus dans chaque synthèse? Les commandes annulées ou non exécutées ont-elles donné lieu à compensation, ajustement ou remboursement? La date retenue est-elle celle de la commande, du versement ou de la déclaration? Comment les enseignes virtuelles se rattachent-elles à Quadro et aux autres canaux de vente? Où sont les relevés de versement et les écritures correspondantes?
+
+Les chiffres de Completed seul ne doivent pas remplacer la synthèse sans explication et rapprochement. Conserver ce contrôle avec les originaux, le grand livre et les preuves de paiements.

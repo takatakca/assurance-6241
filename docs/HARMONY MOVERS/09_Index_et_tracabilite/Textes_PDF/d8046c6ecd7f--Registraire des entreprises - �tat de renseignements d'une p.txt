@@ -1,0 +1,194 @@
+Source: 07_Assurance_et_etat_anterieur\Archive_2026-10-05\d8046c6ecd7f--Registraire des entreprises - �tat de renseignements d'une p.pdf
+SHA256: d8046c6ecd7f979aa956d20f7bf99e25abd9602b6fae2b815c7eb482b44090bb
+Extraction pypdf; le PDF original prime.
+
+=== PAGE 1 ===
+Numéro d'entreprise du Québec (NEQ) 1177310324
+Nom Entreprise HADMO Inc.
+Adresse 310 BLVD Sir-Wilfrid-Laurier
+Beloeil Québec J3G4G7
+Canada
+Nom de famille Molina Quiroga
+Prénom Estephanie
+Adresse 310 BLVD Sir-Wilfrid-Laurier
+Beloeil Québec J3G4G7
+Canada
+Date d'immatriculation 2022-01-25
+Statut Immatriculée
+Date de mise à jour du statut 2022-01-25
+Date de fin d’existence prévue Aucune date de fin d'existence n'est déclarée auregistre.
+Forme juridique Société par actions ou compagnie
+Date de la constitution 2022-01-25 Constitution
+Régime constitutif QUÉBEC : Loi sur les sociétés par actions (RLRQ, C.S-31.1)
+Rechercher une entreprise au registre
+ 
+État de renseignements d'une personne morale au registre des entreprises
+Renseignements en date du 2024-07-18 07:47:06
+État des informations
+Identification de l'entreprise
+Adresse du domicile
+Adresse du domicile élu
+Immatriculation
+Forme juridique
+18/07/2024 07:47 Registraire des entreprises - État de renseignements d'une personne morale au registre des entreprises
+https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.JetonStatic=29d5873… 1/5
+=== PAGE 2 ===
+Régime courant QUÉBEC : Loi sur les sociétés par actions (RLRQ, C.S-31.1)
+Date de mise à jour de l'état de renseignements 2024-06-13
+Date de la dernière déclaration de mise à jour
+annuelle
+2024-02-19 2023
+Date de fin de la période de production de la
+déclaration de mise à jour annuelle de 2024
+2025-07-01
+Date de fin de la période de production de la
+déclaration de mise à jour annuelle de 2023
+2024-07-01
+Code d'activité économique (CAE) 6013
+Activité Boulangeries et pâtisseries
+Précisions (facultatives) -
+Code d'activité économique (CAE) 6019
+Activité Autres magasins d'alimentation spécialisés n.c.a.
+Précisions (facultatives) Boisson au thé et glace
+Nombre de salariés au Québec
+De 1 à 5
+Proportion de salariés qui ne sont pas en mesure
+de communiquer en français au travail
+0%
+Dates des mises à jour
+Faillite
+L'entreprise n'est pas en faillite.
+Fusion, scission et conversion
+Aucune fusion ou scission n'a été déclarée.
+Continuation et autre transformation
+Aucune continuation ou autre transformation n'a été déclarée.
+Liquidation ou dissolution
+Aucune intention de liquidation ou de dissolution n'a été déclarée.
+Activités économiques et nombre de salariés
+1er secteur d'activité
+2e secteur d'activité
+Nombre de salariés
+18/07/2024 07:47 Registraire des entreprises - État de renseignements d'une personne morale au registre des entreprises
+https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.JetonStatic=29d5873… 2/5
+=== PAGE 3 ===
+Premier actionnaire
+Le premier actionnaire n'est pas majoritaire.
+Nom de famille Molina Quiroga
+Prénom Estephanie
+Adresse du domicile 310 BLVD Sir-Wilfrid-Laurier Beloeil Québec J3G4G7Canada
+Adresse professionnelle
+Deuxième actionnaire
+Nom de famille Hadj-Attou
+Prénom Youssouf
+Adresse du domicile 310 BLVD Sir-Wilfrid-Laurier Beloeil Québec J3G4G7Canada
+Adresse professionnelle
+Nom de famille Molina Quiroga
+Prénom Estephanie
+Date du début de la charge 2022-01-25
+Date de fin de la charge
+Fonctions actuelles Président
+Adresse du domicile 310 BLVD Sir-Wilfrid-Laurier Beloeil Québec J3G4G7Canada
+Adresse professionnelle
+Nom de famille Hadj-Attou
+Prénom Youssouf
+Date du début de la charge 2022-02-20
+Date de fin de la charge
+Fonctions actuelles Vice-président
+Adresse du domicile 310 BLVD Sir-Wilfrid-Laurier Beloeil Québec J3G4G7Canada
+Adresse professionnelle
+Convention unanime, actionnaires, administrateurs, dirigeants, bénéficiaires ultimes et
+fondé de pouvoir
+Actionnaires
+Convention unanime des actionnaires
+Il n'existe pas de convention unanime des actionnaires conclue en vertu d’une loi du Québec ou d’une
+autre autorité législative du Canada.
+Liste des administrateurs
+Dirigeants non membres du conseil d'administration
+Aucun dirigeant non membre du conseil d'administration n'a été déclaré.
+18/07/2024 07:47 Registraire des entreprises - État de renseignements d'une personne morale au registre des entreprises
+https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.JetonStatic=29d5873… 3/5
+=== PAGE 4 ===
+Aucun fondé de pouvoir n'a été déclaré.
+Aucun administrateur du bien d'autrui n'a été déclaré.
+Date de mise à jour de l'index des noms 2024-06-13
+Nom Versions du nom
+dans une autre
+langue
+Date de
+déclaration du
+nom
+Date de
+déclaration du
+retrait du nom
+Situation
+Entreprise HADMO
+Inc.
+ 2022-01-25  En vigueur
+Autre nom Versions du nom
+dans une autre
+langue
+Date de
+déclaration du
+nom
+Date de
+déclaration du
+retrait du nom
+Situation
+Pâtisserie et café
+Mont Rose
+ 2023-03-10  En vigueur
+Déclaration relative aux bénéficiaires ultimes
+En attente d'être déclaré
+Fondé de pouvoir
+Administrateurs du bien d'autrui
+Établissements
+Numéro et nom de
+l'établissement
+Adresse Activités économiques
+(CAE)
+0001 - Pâtisserie et café Mont
+Rose
+(Établissement principal)
+310 BLVD Sir-Wilfrid-Laurier Beloeil Québec
+J3G4G7 Canada
+Boulangeries et pâtisseries
+(6013)
+Documents en traitement
+Aucun document n'est actuellement traité par le Registraire des entreprises.
+Index des documents
+Documents conservés
+Type de document Date de dépôt au registre
+Déclaration de mise à jour courante 2024-06-13
+DÉCLARATION DE MISE À JOUR ANNUELLE 2023 2024-02-19
+Déclaration de mise à jour courante 2023-06-07
+Déclaration de mise à jour courante 2023-03-10
+Déclaration initiale 2023-02-21
+Certificat de constitution 2022-01-25
+Index des noms
+Nom
+Autres noms utilisés au Québec
+18/07/2024 07:47 Registraire des entreprises - État de renseignements d'une personne morale au registre des entreprises
+https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.JetonStatic=29d5873… 4/5
+=== PAGE 5 ===
+Autre nom Versions du nom
+dans une autre
+langue
+Date de
+déclaration du
+nom
+Date de
+déclaration du
+retrait du nom
+Situation
+PPP MONTRÉAL-
+NORD
+ 2024-02-19 2024-06-13 Antérieur
+Jade d’Or thé aux
+perles
+ 2023-06-07 2024-02-19 Antérieur
+Pâtisserie Les
+Délices
+ 2023-02-21 2023-03-10 Antérieur
+© Gouvernement du Québec
+18/07/2024 07:47 Registraire des entreprises - État de renseignements d'une personne morale au registre des entreprises
+https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.JetonStatic=29d5873… 5/5

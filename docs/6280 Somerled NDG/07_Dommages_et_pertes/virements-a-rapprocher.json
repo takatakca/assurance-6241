@@ -1,0 +1,58 @@
+[
+  {
+    "id": "19ea9770c56453ae",
+    "thread_id": "19ea9770c56453ae",
+    "date": "Mon, 8 Jun 2026 23:00:10 +0000 (UTC)",
+    "from": "Jean Francois Vezina <notify@payments.interac.ca>",
+    "to": "May atak <takatak.ca@gmail.com>",
+    "message-id": "<1884031873.71091639.1780959610117@e82b1bc2a945>",
+    "subject": "Interac e-Transfer: Jean Francois Vezina sent you $460.00. Claim your deposit!",
+    "snippet": "May atak, you have $460.00 (CAD) waiting to be deposited! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ INTERAC e-Transfer View in browser | FR ? Hi May atak, Your funds await! $460.00 Select your financial",
+    "amount": 460,
+    "status": "notification de fonds en attente; dépôt effectif et imputation au dossier non établis",
+    "source_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19ea9770c56453ae",
+    "provenance": "Extrait ciblé: en-têtes et snippet du message Gmail; liens de dépôt non reproduits. Lecture 2026-10-21."
+  },
+  {
+    "id": "19ea9daada2aef03",
+    "thread_id": "19ea9770c56453ae",
+    "date": "Mon, 8 Jun 2026 20:48:58 -0400",
+    "message-id": "<CAGN0CqihcfsW7+PcpA6qk1FhjseBongdzs_k6F+JR5XSAYYXdQ@mail.gmail.com>",
+    "subject": "Fwd: Interac e-Transfer: Jean Francois Vezina sent you $460.00. Claim your deposit!",
+    "from": "takatak ca <takatak.ca@gmail.com>",
+    "to": "barsora@yahoo.com",
+    "snippet": "---------- Forwarded message --------- From: Jean Francois Vezina &lt;notify@payments.interac.ca&gt; Date: Mon, Jun 8, 2026, 19:00 Subject: Interac e-Transfer: Jean Francois Vezina sent you $460.00.",
+    "amount": 460,
+    "status": "notification de fonds en attente; dépôt effectif et imputation au dossier non établis",
+    "source_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19ea9daada2aef03",
+    "provenance": "Extrait ciblé: en-têtes et snippet du message Gmail; liens de dépôt non reproduits. Lecture 2026-10-21."
+  },
+  {
+    "id": "19e9ec076a8bba83",
+    "thread_id": "19e9ec076a8bba83",
+    "date": "Sat, 6 Jun 2026 21:04:33 +0000 (UTC)",
+    "from": "Jean Francois Vezina <notify@payments.interac.ca>",
+    "to": "May atak <takatak.ca@gmail.com>",
+    "message-id": "<1476522394.52756270.1780779873635@e82b1bc2a945>",
+    "subject": "Interac e-Transfer: Jean Francois Vezina sent you $500.00. Claim your deposit!",
+    "snippet": "May atak, you have $500.00 (CAD) waiting to be deposited! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ INTERAC e-Transfer View in browser | FR ? Hi May atak, Your funds await! $500.00 Select your financial",
+    "amount": 500,
+    "status": "notification de fonds en attente; dépôt effectif et imputation au dossier non établis",
+    "source_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19e9ec076a8bba83",
+    "provenance": "Extrait ciblé: en-têtes et snippet du message Gmail; liens de dépôt non reproduits. Lecture 2026-10-21."
+  },
+  {
+    "id": "19e9ef8c06f7587f",
+    "thread_id": "19e9ec076a8bba83",
+    "date": "Sat, 6 Jun 2026 18:05:52 -0400",
+    "message-id": "<CAGN0Cqjo3+79a16P8yJpUhG=E9m055Bj02c+UDyUXgptBW1MOw@mail.gmail.com>",
+    "subject": "Fwd: Interac e-Transfer: Jean Francois Vezina sent you $500.00. Claim your deposit!",
+    "from": "takatak ca <takatak.ca@gmail.com>",
+    "to": "barsora@yahoo.com",
+    "snippet": "---------- Forwarded message --------- From: Jean Francois Vezina &lt;notify@payments.interac.ca&gt; Date: Sat, Jun 6, 2026, 17:04 Subject: Interac e-Transfer: Jean Francois Vezina sent you $500.00.",
+    "amount": 500,
+    "status": "notification de fonds en attente; dépôt effectif et imputation au dossier non établis",
+    "source_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/19e9ef8c06f7587f",
+    "provenance": "Extrait ciblé: en-têtes et snippet du message Gmail; liens de dépôt non reproduits. Lecture 2026-10-21."
+  }
+]

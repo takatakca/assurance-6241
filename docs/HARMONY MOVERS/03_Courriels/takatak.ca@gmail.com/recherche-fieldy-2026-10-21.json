@@ -1,0 +1,102 @@
+{
+  "query": "(Fieldy OR transcription OR transcript) (Harmony OR \"500-17-136442-251\")",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "emails": [
+        {
+          "id": "1a10d11afbf7805b",
+          "thread_id": "1a10d11afbf7805b",
+          "from_": "takatak.ca@gmail.com",
+          "to": [
+            "cdufourd@dufourdion.com"
+          ],
+          "cc": [],
+          "bcc": [],
+          "subject": "QUADRO / Harmony — 7/7 — Comptabilité, revenus et vérifications à finaliser",
+          "snippet": "Bonjour Me Dufourd, Dans l'archive, ouvrir « Comptabilité » et « Contrôles et repères ». Le grand livre final.xls et ses extractions sont conservés pour permettre votre vérification avec le",
+          "labels": [
+            "SENT"
+          ],
+          "has_attachment": false,
+          "attachments": [],
+          "inline_images": [],
+          "email_ts": "2026-10-05T17:17:05+00:00",
+          "display_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a10d11afbf7805b",
+          "display_title": "QUADRO / Harmony — 7/7 — Comptabilité, revenus et vérifications à finaliser"
+        },
+        {
+          "id": "1a10d119b71c4554",
+          "thread_id": "1a10d119b71c4554",
+          "from_": "takatak.ca@gmail.com",
+          "to": [
+            "cdufourd@dufourdion.com"
+          ],
+          "cc": [],
+          "bcc": [],
+          "subject": "QUADRO / Harmony — 5/7 — Contrats, saisie, huissier et garde des biens",
+          "snippet": "Bonjour Me Dufourd, Dans l'archive, ouvrir « Contrats, assurance et procédures ». Le procès-verbal, l'opposition et les demandes retrouvées permettent d'organiser la chronologie, mais les",
+          "labels": [
+            "Label_10",
+            "SENT"
+          ],
+          "has_attachment": false,
+          "attachments": [],
+          "inline_images": [],
+          "email_ts": "2026-10-05T19:17:00+02:00",
+          "display_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a10d119b71c4554",
+          "display_title": "QUADRO / Harmony — 5/7 — Contrats, saisie, huissier et garde des biens"
+        },
+        {
+          "id": "1a10d08a7feddb4a",
+          "thread_id": "1a10d08a7feddb4a",
+          "from_": "takatak.ca@gmail.com",
+          "to": [
+            "cdufourd@dufourdion.com"
+          ],
+          "cc": [],
+          "bcc": [],
+          "subject": "QUADRO / Harmony — 1/7 — Suivi urgent de l’interrogatoire du 5 octobre : origine des dommages",
+          "snippet": "Bonjour Me Dufourd, À ma demande, voici le premier volet du dossier préparé pour votre examen après l'interrogatoire de ce matin. Je vous transmets séparément les volets photos, réparations,",
+          "labels": [
+            "SENT"
+          ],
+          "has_attachment": false,
+          "attachments": [],
+          "inline_images": [],
+          "email_ts": "2026-10-05T12:07:13-05:00",
+          "display_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/1a10d08a7feddb4a",
+          "display_title": "QUADRO / Harmony — 1/7 — Suivi urgent de l’interrogatoire du 5 octobre : origine des dommages"
+        },
+        {
+          "id": "199f03946ac18c10",
+          "thread_id": "199f0375de623f9c",
+          "from_": "takatak ca takatak.ca@gmail.com",
+          "to": [
+            "yan romanowski romanowskiyan@gmail.com"
+          ],
+          "cc": [],
+          "bcc": [],
+          "subject": "(No Subject)",
+          "snippet": "📘 DOSSIER JURIDIQUE COMPLET - QUADRO HOLDING LTÉE c. HARMONY MOVERS INC. 🏛️ IDENTIFICATION DES PARTIES DEMANDERESSE QUADRO HOLDING LTÉE · Représentant autorisé : Pierre Lévesque · Adresse : 6241, boul.",
+          "labels": [
+            "SENT"
+          ],
+          "has_attachment": false,
+          "attachments": [],
+          "inline_images": [],
+          "email_ts": "2025-10-16T23:31:49-04:00",
+          "display_url": "https://mail.google.com/mail/u/?authuser=takatak.ca%40gmail.com#all/199f03946ac18c10",
+          "display_title": "(No Subject)"
+        }
+      ],
+      "next_page_token": null
+    },
+    "isError": false
+  }
+}

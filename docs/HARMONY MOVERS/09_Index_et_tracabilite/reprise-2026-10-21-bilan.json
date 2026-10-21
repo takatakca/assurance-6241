@@ -1,0 +1,19 @@
+{
+  "capture_date": "2026-10-21",
+  "gmail_candidates": 189,
+  "gmail_mime_recovered": 189,
+  "new_mime_messages": 136,
+  "mime_batches": 7,
+  "attachment_occurrences": 634,
+  "downloaded_additional_originals": 23,
+  "types": {
+    ".pdf": 14,
+    ".xls": 2,
+    ".eml": 4,
+    ".jpg": 3
+  },
+  "ocr_pages": 17,
+  "chatgpt_targeted_read": 1,
+  "chatgpt_ui_load_failures": 4,
+  "original_sha256_checks": "23/23 conformes"
+}

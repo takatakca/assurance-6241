@@ -1,0 +1,64 @@
+QUADRO / HARMONY - préparation administrative - 5 octobre 2026
+5
+ Visites, inspections et positions d'assurance
+Version du 5 octobre 2026. Aucun montant d'offre actuelle confirmé : le client précise qu'aucune offre n'a été faite. Les
+visites ne sont pas des décisions de garantie ou de paiement.
+Code
+Événement ou position
+Ce qui est établi / reste à obtenir
+VIS-01
+Inspections techniques avant Harmony
+Un courriel client du 10 octobre 2025 rapporte trois
+inspections dans le contexte des travaux et de l'ancien
+sinistre. Dates et rapports à rapprocher. Source
+email-text/19e6a1f840c9da35.txt. Ne pas en faire trois
+inspections des dommages après déménagement sans
+vérification.
+VIS-02
+Inspection proposée janvier 2026
+Échanges Romanowski/partie adverse évoquent
+l'inspection projetée et la présence adverse. Source
+email-text/19e6a1d9c09ca650.txt. Date de réalisation,
+participants et rapport non établis par cette proposition.
+VIS-03
+Observation sans essais rapportée
+Conversation ChatGPT « Expertise technique et saisie »,
+30 mai 2026 : observation visuelle sans branchement
+rapportée par le client. Rapport technique signé à
+obtenir.
+VIS-04
+Visites de l'assurance et/ou bureau Dufourd
+Déclaration du client dans cette conversation le 5
+octobre 2026 : assurance a écrit, renseignements
+transmis à Monsieur Dufour ou son assistante,
+personnes venues constater les dommages. Date,
+visiteurs, mandat, destinataire, rapport et courriel exact à
+retrouver. Ne pas attribuer chaque visite à une personne
+sans pièce.
+ASS-H01
+Position Joey du 17 septembre 2025
+Courriel parle d'entente de principe sur équipements et
+approbation de l'assureur encore requise; renvoie
+interruption des affaires à M. Arcand. Source
+email-text/19e6a1f61d8d060c.txt. Ancien dossier
+24110-4833, à distinguer des pertes nouvelles Harmony.
+Pas de paiement prouvé par ce texte.
+ASS-H02
+Offre actuelle Harmony
+Aucune offre selon le client. Nom de l'assureur, numéro
+de sinistre, garantie examinée, montant accepté et
+conditions toujours à préciser.
+Questions pour obtenir les rapports déjà produits
+Repère supplémentaire : courriel de Me Dufourd du 27 mars 2026, repris dans le transfert du 16 avril puis du 27 mai
+(email-text/19e6a179335276e5.txt). Il demande le contact du gestionnaire d'assurance et l'état de l'indemnisation pour
+coordonner la procédure. Il rapporte un dépôt proposé de 3 200 $ refusé et recommande alors un dépôt d'environ 5 000 $
+à préciser. Ce sont des discussions de garantie pour la saisie, pas une offre d'indemnité des machines, ni une preuve
+que le dépôt a été effectué. L'évocation de couverture dans ce courriel reprend l'information donnée par le client; ce n'est
+pas une confirmation de garantie émise par l'assureur.
+Qui est venu, à quelle date et à quel lieu ? Pour quel assureur et quel sinistre ? Quelles machines ont été identifiées ?
+Quelles photos et mesures ont été prises ? Les appareils ont-ils été déplacés, branchés ou testés ? Quelles opérations
+étaient impossibles et pourquoi ? Un rapport a-t-il été transmis au bureau Dufourd, à son assistante, à Joey ou à un autre
+décideur ? Demander une copie du rapport, annexes photographiques et recommandations, avec son statut final ou
+provisoire.
+La visite, la prise de photos, l'allocation dans un tableau, l'approbation de couverture, l'offre de règlement et le paiement
+sont six faits différents. Consigner chacun avec sa propre preuve.

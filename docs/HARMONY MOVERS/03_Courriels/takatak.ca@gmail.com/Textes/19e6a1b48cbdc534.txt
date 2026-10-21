@@ -1,0 +1,246 @@
+Message Gmail: 19e6a1b48cbdc534
+Date en-tête: Wed, 27 May 2026 11:43:22 -0400
+De: "Oeuf Déjeuner" <ooeuf.ca@gmail.com>
+À: dada daad <takatak.ca@gmail.com>
+Objet: Fwd: ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES
+Source brute: ../lectures-006.json
+Attention: une date de transfert n'est pas la date des événements ou messages cités. Une pièce annoncée n'est pas forcément téléchargée.
+
+---------- Forwarded message ---------
+From: Oeuf Déjeuner <ooeuf.ca@gmail.com>
+Date: Wed, Jul 16, 2025, 00:15
+Subject: ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES
+To: <info@avocatslogement.com>
+
+
+
+A Soumission QT1076 signée (9 juin 2025) Contrat écrit liant les parties ;
+précise adresses, date limite (14 juin 2025), tarifs et clause
+d’acceptation écrite pour toute modification. 3 p. PDF Pièce maîtresse ;
+numéroter les paragraphes du contrat au surligneur pour renvois.
+B-1 → B-4 Courriels de “modifications” unilatérales Quatre courriels datés
+12-14 juin par Harmony Movers imposant frais ou conditions non signés. 8 p.
+(B-1 : 3 p. ; B-2 : 2 p. ; B-3 : 1 p. ; B-4 : 2 p.) Imprimer avec en-têtes
+complets (date / heure / IP) ; surligner « refusé » en marge.
+C Journal d’appels / SMS (11-14 juin) Captures d’écran iPhone + relevé Fizz
+; prouve retards (arrivée 12 h 30) et absence de réponse. 6 p. PDF + 1
+fichier .csv Paginer captures + joindre export .csv en version électronique.
+D Photographies datées du matériel non ramassé 10 photos horodatées (13
+juin 2025, 7 h 45) montrant fours, friteuses, réfrigérateurs encore sur
+place. 10 p. couleurs Ajouter légende sous chaque photo (lieu, date, heure,
+objet).
+E Facture Harmony Movers contestée (14 juin) Facture de 5,5 h + frais
+d’immobilisation, non conforme au contrat ni acceptée. 2 p. Surligner les
+postes contestés ; ajouter note manuscrite « refusé ».
+F Rapport de police SPVM n° M25-06-14-789 Déclaration SPVM pour retenue de
+biens et vol (art. 322 C.cr.). 4 p. Inclure timbre officiel + numéro
+d’évènement.
+G-1 / G-2 Frais de mitigation G-1 : Contrat de location de conteneur (14
+juin).<br>G-2 : Facture seconde compagnie de déménagement (15 juin). 3 p. +
+2 p. Joindre preuve de paiement (reçu carte CR).
+H Preuves de pertes d’exploitation - Copie du bail (clause pénalité) <br>-
+Tableur pertes de ventes 15-30 juin 2025 <br>- Courriels d’annulation de
+commandes 7 p. + 1 xlsx Imprimer tableur + fournir .xlsx sur clé USB
+numérotée.
+I Lettre de plainte OPC + accusé réception Plainte formelle OPC + courriel
+de confirmation d’ouverture de dossier. 3 p. Sert à démontrer diligence du
+Demandeur.
+J (optionnel) Chronologie illustrée Ligne de temps infographique résumant
+retards et démarches (utile pour le juge). 1 p. Non obligatoire, mais très
+didactique à l’audience.
+
+
+
+---
+
+Conseils de présentation « cahier de pièces »
+
+1. Pagination continue en haut à droite (ex. : “P-001” à “P-?”).
+
+
+2. Onglets de plastique (A, B-1, B-2…) ou signets PDF correspondants.
+
+
+3. Table des pièces (la présente) placée immédiatement après la page-titre
+du cahier.
+
+
+4. Chaque photo : légende + source EXIF en pied de page.
+
+
+5. Les fichiers numériques (CSV, XLSX, JPEG) sur clé USB étiquetée “Pièces
+électroniques – Quadro v Harmony”.
+
+
+6. Prévoir copie supplémentaire pour le juge + un exemplaire pour la
+Défenderesse (art. 108 C.p.c.).
+
+
+
+On Wed, Jul 16, 2025, 12:09 a.m. Oeuf Déjeuner <ooeuf.ca@gmail.com> wrote:
+
+>
+> COUR SUPÉRIEURE DU QUÉBEC
+> District : Montréal
+> No de dossier : ___________________
+>
+> PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO
+> HOLDING LTÉE
+> 6241 blvd Léger, Montréal nord H1G6K8 (Québec)
+> Demandeur
+>
+> c.
+>
+> HARMONY MOVERS INC.
+> 1600, 55ᵉ Avenue, Lachine (Québec) H8T 3J5
+> Défenderesse
+>
+>
+> ---
+>
+> REQUÊTE POUR ORDONNANCE D’INJONCTION PROVISOIRE ET INTERLOCUTOIRE
+>
+> (articles 509 et 510 C.p.c.)
+>
+>
+> ---
+>
+> I. OBJET DE LA DEMANDE
+>
+> Obtenir une ordonnance obligeant Harmony Movers Inc. à :
+>
+> 1. Restituer immédiatement à Quadro Holding Ltée tous les biens et
+> équipements listés à la soumission QT1076;
+>
+>
+> 2. Livrer ces biens à l’adresse convenue, soit : 5007, rue Irwin,
+> Montréal, dans les 24 heures de la signification du jugement;
+>
+>
+> 3. S’abstenir de déplacer, vendre, entreposer ou facturer tout frais
+> supplémentaire non prévu au contrat;
+>
+>
+> 4. Permettre qu’un huissier ou agent de la paix assiste le Demandeur lors
+> de la récupération;
+>
+>
+> 5. Condamner la Défenderesse aux dépens.
+>
+>
+>
+>
+> ---
+>
+> II. EXPOSÉ DES FAITS
+>
+> 1. Le 9 juin 2025, Quadro Holding Ltée (« Quadro ») a signé avec Harmony
+> Movers Inc. (« Harmony ») la soumission QT1076 pour déménager la totalité
+> de l’équipement commercial de son restaurant.
+>
+>
+> 2. Adresse de ramassage : 6241, boul. Léger, Montréal-Nord (H1G 6K8).
+> Adresse de livraison : 5007, rue Irwin, Montréal.
+>
+>
+> 3. La soumission fixe une date limite de libération des lieux au 14 juin
+> 2025 et précise qu’aucune modification n’est valide sans consentement écrit
+> du signataire autorisé (le Demandeur).
+>
+>
+> 4. Malgré ces conditions, Harmony :
+> a. N’a pas ramassé tout l’équipement;
+> b. N’a jamais livré les biens transportés à l’adresse convenue;
+> c. Retient encore des biens dans son camion/entrepôt;
+> d. A transmis quatre (4) modifications contractuelles unilatérales, toutes
+> refusées par Quadro.
+>
+>
+> 5. Pour respecter la date de remise des lieux, Quadro a dû :
+>
+> Engager une seconde compagnie;
+>
+> Louer un conteneur d’urgence;
+>
+> Débourser plus de 2 500 $ de frais imprévus.
+>
+>
+>
+> 6. Le 14 juin 2025, Quadro a déposé un rapport de police dénonçant la
+> rétention illégale des biens.
+>
+>
+> 7. Les pertes actuelles incluent : interruption des activités, perte de
+> revenus, réputation atteinte et frais additionnels.
+>
+>
+>
+>
+> ---
+>
+> III. MOYENS DE DROIT
+>
+> Apparence de droit – art. 509 C.p.c.
+> 8. Le contrat écrit lie les parties (art. 1439 C.c.Q.). Harmony viole ses
+> obligations (art. 1458 C.c.Q.) en retenant les biens sans titre.
+>
+> Préjudice sérieux et irréparable
+> 9. Les équipements (fours commerciaux, friteuses, réfrigérateurs
+> industriels, etc.) sont essentiels ; chaque jour de rétention compromet
+> irrémédiablement l’entreprise (perte de clientèle, denrées, contrats).
+>
+> Urgence et absence de recours utile
+> 10. Les démarches amiables et la mise en demeure sont demeurées
+> infructueuses ; seule une injonction peut forcer la restitution rapide.
+>
+> Bonne foi et loyauté
+> 11. L’article 1375 C.c.Q. impose la bonne foi dans l’exécution des
+> contrats ; l’attitude d’Harmony constitue une mauvaise foi manifeste.
+>
+>
+> ---
+>
+> IV. CONCLUSIONS (DISPOSITIF)
+>
+> PAR CES MOTIFS, PLAISE AU TRIBUNAL :
+>
+> 1. ACCUEILLIR la présente requête ;
+>
+>
+> 2. ORDONNER à Harmony Movers Inc. de livrer, dans les 24 heures, tous les
+> biens appartenant au Demandeur, à l’adresse 5007 rue Irwin, Montréal ;
+>
+>
+> 3. INTERDIRE à Harmony Movers Inc. de déplacer, entreposer ou facturer
+> tout frais supplémentaire lié à ces biens ;
+>
+>
+> 4. AUTORISER l’assistance d’un huissier ou agent de la paix lors de la
+> récupération ;
+>
+>
+> 5. CONDAMNER la Défenderesse aux dépens, avec frais de 2e instance au
+> besoin ;
+>
+>
+> 6. ORDONNER que le jugement soit exécutoire nonobstant appel.
+>
+>
+>
+>
+> ---
+>
+> FAIT À : Montréal, le ______ juin 2025
+>
+> (Signature)
+>
+>
+> ---
+>
+> Pierre Lévesque
+> Quadro Holding Ltée
+>
+>
+> ---
+>
+>

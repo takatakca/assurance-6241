@@ -51,7 +51,7 @@
     ],
     "nature": "texte dérivé et lot MIME conservé",
     "status": "disponible localement; transmission de ce dossier non effectuée",
-    "limits": "Chaîne transférée; le relevé intégral des engagements d’interrogatoire reste à rapprocher de la transcription.",
+    "limits": "Chaîne transférée; concordance avec les 79 pages Fieldy effectuée et liée dans RD-25. Notes officielles et audio restent à rapprocher; portée et numérotation non assimilées automatiquement.",
     "files": [
       {
         "path": "03_Courriels/takatak.ca@gmail.com/Textes/1a10d5436a58b8f3.txt",
@@ -655,7 +655,7 @@
     ],
     "nature": "EML et métadonnées de recherche",
     "status": "disponible localement; transmission de ce dossier non effectuée",
-    "limits": "Lien vers export identifié; aucun PDF joint au message. Les 79 pages n’ont pas été acquises ou lues intégralement.",
+    "limits": "Courriel original avec lien Adobe, sans pièce jointe. PDF acquis séparément et référencé RD-24.",
     "files": [
       {
         "path": "11_Fieldy/2026-10-21-courriel-partage-Fieldy.eml",
@@ -666,6 +666,109 @@
         "path": "11_Fieldy/2026-10-21-courriel-partage-Fieldy.json",
         "bytes": 824,
         "sha256": "e1d025a6fb0e3ee451174f36e394e465bfb31729c14a0bd3bf2aacaac9841d92"
+      }
+    ]
+  },
+  {
+    "id": "RD-24",
+    "title": "Export Fieldy et extraction native",
+    "engagements": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "nature": "source PDF acquise et dérivés de lecture identifiés",
+    "status": "disponible localement; transmission de ce dossier non effectuée",
+    "limits": "79 pages lues en texte natif; Unknown conservés, audio absent; PDF inclut avant-séance/pause/après-séance.",
+    "files": [
+      {
+        "path": "11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "bytes": 423672,
+        "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+        "pages": 79
+      },
+      {
+        "path": "11_Fieldy/acquisition-pdf.json",
+        "bytes": 948,
+        "sha256": "862e431cb59cc9accecb0cc533ad2afa64c8f81e3eedfd54186293b386e83b8d"
+      },
+      {
+        "path": "11_Fieldy/texte-natif-pages.json",
+        "bytes": 178815,
+        "sha256": "e22ccd07cb76703476effc8d07f2f30d14d6cc342206632cb0e7330622d05886"
+      },
+      {
+        "path": "11_Fieldy/texte-natif-integral.txt",
+        "bytes": 176991,
+        "sha256": "c9b78c58664bbc984fb4026c201cfe9f0eedd5edac479a8716f69fd51ed71359"
+      }
+    ]
+  },
+  {
+    "id": "RD-25",
+    "title": "Analyse Fieldy pour le cabinet et journal de lecture",
+    "engagements": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "nature": "analyse documentaire produite par l’agent",
+    "status": "disponible localement; transmission de ce dossier non effectuée",
+    "limits": "Ce n’est pas une preuve indépendante ni une transcription certifiée; concordance QA liée dans la fiche; aucun engagement clos.",
+    "files": [
+      {
+        "path": "11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md",
+        "bytes": 23455,
+        "sha256": "2403aaaf87f88af7ee5c71a5c9532900b107d83b07c41ac8d42eb03734f68ad4"
+      },
+      {
+        "path": "11_Fieldy/journal-lecture-integrale.json",
+        "bytes": 22761,
+        "sha256": "27164cb9fc0fb77258be7022b4a6d70ef5fd1571e4174f82e20a1394987a3738"
       }
     ]
   }

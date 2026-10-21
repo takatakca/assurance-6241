@@ -1,6 +1,6 @@
 # Rapprochement des demandes du cabinet — préparation à compléter
 
-Source principale : originaux des courriels de Me Christian Dufourd du **20 octobre 2026 à 14 h 20 et 16 h 29**, disponibles dans [Originaux_ooeuf_2026-10-20](../03_Courriels/Originaux_ooeuf_2026-10-20/). Cette fiche prépare l'intégration de la transcription Fieldy annoncée de 79 pages; elle ne prétend pas que ces pages ont été récupérées ou analysées à ce stade. Les demandes du cabinet ne sont pas transformées en ordonnances du tribunal.
+Source principale : originaux des courriels de Me Christian Dufourd du **20 octobre 2026 à 14 h 20 et 16 h 29**, disponibles dans [Originaux_ooeuf_2026-10-20](../03_Courriels/Originaux_ooeuf_2026-10-20/). Le PDF Fieldy de 79 pages est maintenant acquis, extrait en texte natif et lu intégralement; sa concordance est liée ci-dessous, avec réserves sur l'audio et les locuteurs. Les demandes du cabinet ne sont pas transformées en ordonnances du tribunal.
 
 | Demande du 20 octobre | Documents et contrôles déjà préparés | Rôle possible de la transcription | Pièce ou confirmation restant nécessaire |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Source principale : originaux des courriels de Me Christian Dufourd du **20 octo
 | Régler les honoraires dans le délai demandé | [Six factures : 8 296,60 $ moins dépôt 3 000 $ = 5 296,60 $](../04_Factures_et_comptabilite/Controle_Dufourd_2026-10-20/README.md) | Repérer d'éventuels échanges sur mandat et dépôts sans remplacer les factures | Paiements réels et attribution du dossier, clarification de la ligne atypique facture 27738; demande minimale 3 500 $ distincte du solde |
 | Évaluer une piste de règlement et préserver le dossier si changement de représentation | Courriel de 16 h 29 conservé; le cabinet évoque abandon réciproque et transfert du dossier au successeur | Repérer concessions ou déclarations réellement formulées, sans en fabriquer une offre | Décision du client, conseil du représentant et texte d'accord éventuel. Aucune offre, quittance, acceptation ou révocation n'est envoyée par l'agent |
 
-## Méthode prévue pour le PDF Fieldy
+## Méthode de lecture et vérifications restantes
 
 1. Conserver le fichier intégral, son nom exact, le message ou lien de provenance, date de capture, nombre de pages et SHA256.
 2. Séparer texte natif, éventuel OCR, traduction et analyse. Vérifier les chiffres, noms, négations et citations sur les pages rendues; si l'audio n'est pas disponible, ne pas prétendre à une vérification sonore.
@@ -25,4 +25,6 @@ Cette grille n'ajoute aucune échéance : le délai de dix jours suivant la réc
 
 ## État confirmé de l’export Fieldy
 
-Export identifié dans Adobe sous le titre « Fieldy – Interrogatoire préalable Quadro Holding vs Harmony Movers – 5 octobre 2026 – transcription verbatim », 79 pages et 423 672 octets affichés. Courriel original de partage du 21 octobre à 14:59:58 (-04:00) acquis, sans pièce jointe. Page 1 repérée par l’agent principal : source Fieldy, date 5 octobre vers 09:28, transcription brute sans locuteurs identifiés. **Le PDF lui-même et la lecture intégrale restent indisponibles.** Aucun engagement n’est complété sur la foi de pages non lues. [Provenance](../11_Fieldy/README.md), [dossier documentaire déjà préparé](Reponse_Dufourd_20_octobre_2026/README.md).
+**PDF acquis : 79 pages, 423 672 octets, lecture intégrale du texte natif.** [Fiche sourcée par page/heure](../11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md), [concordance indépendante](../11_Fieldy/CONTROLE-ENGAGEMENTS-FIELDY.md), [provenance](../11_Fieldy/README.md). Le courriel original est conservé séparément. Les locuteurs restent Unknown, l'audio n'est pas obtenu et la transcription officielle reste à rapprocher. La pause et l'après-séance ne sont pas assimilées aux réponses formelles. Aucun engagement n'est clos par la seule lecture.
+
+Les numéros du courriel demeurent l'axe de travail : ils ne coïncident pas tous avec les E oraux. En particulier, l'E9 oral vise les communications avec la compagnie ayant engagé le U-Haul, et non la défenderesse visée au n°8 du courriel. La réserve sur les échanges internes après déménagement est conservée. Les demandes de vidéos visent les copies détenues; les médias de production doivent être identifiés séparément. [Dossier documentaire actualisé](Reponse_Dufourd_20_octobre_2026/README.md).

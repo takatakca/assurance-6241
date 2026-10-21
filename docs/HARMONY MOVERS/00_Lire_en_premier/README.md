@@ -26,4 +26,6 @@ Les originaux, les déclarations et les analyses sont identifiés par leur prove
 
 [Reprise Gmail : 189 messages récupérés et 23 pièces originales complémentaires](../09_Index_et_tracabilite/REPRISE-2026-10-21.md). [Fieldy et transcription](../11_Fieldy/README.md).
 
-[Dossier documentaire pour le cabinet : projet de réponse non envoyé, 23 groupes de pièces, 25 engagements et plan de travail](../01_Synthese_et_chronologie/Reponse_Dufourd_20_octobre_2026/README.md).
+[Dossier documentaire pour le cabinet : projet de réponse non envoyé, 25 groupes de pièces, 25 engagements et plan de travail](../01_Synthese_et_chronologie/Reponse_Dufourd_20_octobre_2026/README.md).
+
+[Fieldy acquis et lu intégralement : analyse pour le cabinet](../11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md), avec [concordance indépendante des engagements](../11_Fieldy/CONTROLE-ENGAGEMENTS-FIELDY.md). Le bordereau de réponse comprend désormais 25 groupes et 64 fichiers, sources et analyses séparées.

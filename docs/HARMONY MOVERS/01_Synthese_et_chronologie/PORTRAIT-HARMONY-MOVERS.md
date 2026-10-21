@@ -118,4 +118,8 @@ Les 189 messages candidats sont désormais récupérés et 23 originaux supplém
 
 ## Réponse documentaire aux demandes du cabinet
 
-Un [dossier de réponse préparé, non envoyé](Reponse_Dufourd_20_octobre_2026/README.md) rassemble le bordereau des pièces disponibles, les éléments manquants et le plan de travail. L’export Fieldy de 79 pages est identifié par son courriel original; le PDF reste non acquis et non analysé intégralement. [Provenance et limites](../11_Fieldy/README.md).
+Un [dossier de réponse préparé, non envoyé](Reponse_Dufourd_20_octobre_2026/README.md) rassemble le bordereau des pièces disponibles, les éléments manquants et le plan de travail. L’export Fieldy est désormais acquis et ses 79 pages ont été lues intégralement en texte natif. Audio absent et locuteurs Unknown : les réserves restent explicites. [Provenance et limites](../11_Fieldy/README.md).
+
+## Apport de la lecture intégrale Fieldy
+
+La [fiche pour le cabinet](../11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md) sépare séance, pause et après-séance, rapproche les engagements et les pièces, puis expose les points favorables et fragilités. L’oral E9 vise la compagnie ayant engagé le U-Haul alors que la ligne 8 du courriel vise la défenderesse; aucune numérotation n’est assimilée automatiquement. Un EML de proposition de suppléments est daté du 12 juin 2025 à 11:43:55 Montréal : il doit être distingué du récapitulatif du 13 juin à 19:24 évoqué dans la transcription. Une proposition n’établit pas son acceptation ni son exécution. Les heures d’arrivée, la date de vidéo «sept décembre», les montants de mémoire et les médias annoncés restent à vérifier sur les originaux.

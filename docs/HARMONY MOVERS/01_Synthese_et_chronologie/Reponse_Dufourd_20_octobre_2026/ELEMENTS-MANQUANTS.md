@@ -32,7 +32,7 @@
 
 ## Vérifications transversales
 
-- **Fieldy** : courriel de partage acquis RD-23; PDF de 79 pages non acquis, lecture intégrale et attribution des locuteurs non faites. Obtenir le fichier et, si disponible, l'audio avant tout contrôle sonore.
+- **Fieldy** : courriel de partage RD-23 et PDF de 79 pages RD-24 acquis; texte natif lu intégralement. Restent audio, notes sténographiques, identification vérifiée des locuteurs et séance de 13 h. Aucun contrôle sonore effectué.
 - **Expertises** : rapports technique et comptable signés à obtenir; ni un récit ni une synthèse IA ne remplace un rapport.
 - **Procédure** : plumitif actuel, ordonnances, actes de représentation et calendrier à confirmer. Les actes historiques ne permettent pas d'affirmer une échéance actuelle.
 - **Honoraires** : expliquer l'attribution de la ligne atypique de la facture 27738, confirmer les paiements effectivement effectués et obtenir la facture de sténographie annoncée comme attendue.
@@ -42,3 +42,7 @@
 Pour fermer une ligne : nom exact de la pièce, auteur, date, pages, engagement concerné, contrôle effectué, transmission réelle et réponse du cabinet. Les références RD sont détaillées dans le [bordereau](BORDEREAU-PIECES.md).
 
 [Registre CSV des 25 engagements](engagements-et-manquants.csv).
+
+## Précisions issues de Fieldy
+
+[Concordance par page/heure](../../11_Fieldy/CONTROLE-ENGAGEMENTS-FIELDY.md). Maintenir deux recherches pour le n° 8 : échanges avec la défenderesse selon le courriel, et échanges avec la compagnie ayant engagé le U-Haul selon l’E9 oral. Préserver la réserve sur les échanges internes postérieurs au déménagement. Pour le n° 17, le nom est épelé T-E-S-A-N-E-T p. 72; le rapport original reste requis. Pour le n° 18, les médias de production sont déclarés non détenus; les rechercher séparément des copies effectivement possédées. Les promesses d’envoi de photos après séance ne prouvent pas réception. Les montants de couverture 10 000/20 000 $ demeurent incertains; le nombre de mois de loyer n’est pas fixé.

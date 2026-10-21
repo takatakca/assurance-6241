@@ -27,7 +27,7 @@
     "displayed_title": "Fieldy – Interrogatoire préalable Quadro Holding vs Harmony Movers – 5 octobre 2026 – transcription verbatim",
     "displayed_pages": 79,
     "displayed_bytes": 423672,
-    "metadata_status": "valeurs affichées dans l'interface, non vérifiées sur fichier local"
+    "metadata_status": "79 pages et 423 672 octets confirmés sur le PDF local acquis"
   },
   "page_1_reported_observation": {
     "source_label": "Fieldy",
@@ -36,6 +36,24 @@
     "limitation": "relevé de la page 1 seulement, pas transcription complète de la page ni validation de l'audio"
   },
   "acquisition": {
+    "status": "original PDF acquis; texte natif extrait et lu intégralement",
+    "local_pdf": "2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+    "bytes": 423672,
+    "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+    "pages": 79,
+    "characters": 167817,
+    "full_text_extracted": true,
+    "all_pages_read": true,
+    "reading_method": "lecture intégrale du texte natif par huit lots (1–10,11–20,21–30,31–40,41–50,51–60,61–70,71–79); contrôles visuels ciblés séparés",
+    "audio_obtained": false,
+    "audio_verified": false,
+    "speaker_attribution_verified": false,
+    "acquisition_manifest": "acquisition-pdf.json",
+    "reading_journal": "journal-lecture-integrale.json",
+    "limite": "Lecture de transcription non corrigée, pas de certification sténographique; contrôles visuels ciblés seulement."
+  },
+  "next_step": "Rapprocher les passages et engagements des notes officielles, de l’audio si disponible et des originaux documentaires cités; acquérir la séance de 13 h si elle existe. Aucune attribution automatique des Unknown.",
+  "acquisition_history_before_success": {
     "status": "export identifié; original non acquis",
     "local_pdf": null,
     "sha256": null,
@@ -45,6 +63,5 @@
     "attempts": "Deux navigateurs n'ont pas fourni de PDF récupérable; outil de récupération de contenu PDF : format non pris en charge.",
     "cause": "indéterminée; aucune conclusion sur l'absence du document ou un refus du propriétaire",
     "latest_browser_status": "L’agent principal signale ensuite des délais d’attente du navigateur, y compris Gmail; aucun contenu supplémentaire du PDF acquis."
-  },
-  "next_step": "Acquérir le fichier original, vérifier métadonnées et SHA256, puis analyser avec provenance par page sans attribuer les locuteurs par supposition."
+  }
 }

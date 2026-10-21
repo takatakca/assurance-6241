@@ -1,12 +1,10 @@
 # Bordereau des pièces disponibles
 
-Références de travail **RD** propres à ce dossier documentaire; ce ne sont pas des cotes judiciaires. État : 21 octobre 2026. Les sources restent à leur emplacement actuel. Les empreintes ont été recalculées lors de la préparation.
-
-**23 groupes, 58 fichiers référencés.** Disponibilité locale ne signifie ni transmission au cabinet, ni validation d’un engagement, ni admissibilité décidée. [CSV détaillé avec SHA256](bordereau-pieces.csv), [JSON](bordereau-pieces.json).
+Références de travail **RD**, sans valeur de cotes judiciaires. État actualisé le 21 octobre 2026 après acquisition et lecture Fieldy. **25 groupes, 64 fichiers**. Disponibilité ne signifie pas transmission ou engagement rempli. [CSV et SHA256](bordereau-pieces.csv), [JSON](bordereau-pieces.json).
 
 ## RD-01 — Demandes du cabinet, 20 octobre 2026
 
-Nature : courriels originaux EML. Engagements : demande de gestion du dossier / honoraires.
+Nature : courriels originaux EML. Engagements : gestion du dossier / honoraires.
 
 Demandes, estimations et délai du cabinet; ne constituent pas une ordonnance.
 
@@ -17,7 +15,7 @@ Demandes, estimations et délai du cabinet; ne constituent pas une ordonnance.
 
 Nature : texte dérivé et lot MIME conservé. Engagements : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25.
 
-Chaîne transférée; le relevé intégral des engagements d’interrogatoire reste à rapprocher de la transcription.
+Chaîne transférée; concordance avec les 79 pages Fieldy effectuée et liée dans RD-25. Notes officielles et audio restent à rapprocher; portée et numérotation non assimilées automatiquement.
 
 - RD-02-01 [1a10d5436a58b8f3.txt](<../../03_Courriels/takatak.ca@gmail.com/Textes/1a10d5436a58b8f3.txt>).
 - RD-02-02 [lectures-001.json](<../../03_Courriels/takatak.ca@gmail.com/lectures-001.json>).
@@ -109,7 +107,7 @@ Nature : original de pièce jointe scannée. Engagements : 3, 9, 23.
 
 ## RD-11 — Avis d’intention de cesser d’occuper, avril 2026
 
-Nature : original de pièce jointe. Engagements : demande de gestion du dossier / honoraires.
+Nature : original de pièce jointe. Engagements : gestion du dossier / honoraires.
 
 Avis historique; ne prouve pas seul la représentation actuelle ni son effet procédural.
 
@@ -125,7 +123,7 @@ Nature : original de pièce jointe, total contrôlé visuellement. Engagements :
 
 ## RD-13 — Résultat de paiement de frais judiciaires
 
-Nature : capture jointe contrôlée visuellement. Engagements : demande de gestion du dossier / honoraires.
+Nature : capture jointe contrôlée visuellement. Engagements : gestion du dossier / honoraires.
 
 265 $ payés le 5 février 2026 selon portail; courriel mentionne 250 $, écart conservé.
 
@@ -178,7 +176,7 @@ Nature : copies locales. Engagements : 5, 21, 22.
 
 ## RD-19 — Conditions générales du mandat Dufourd
 
-Nature : original de pièce jointe. Engagements : demande de gestion du dossier / honoraires.
+Nature : original de pièce jointe. Engagements : gestion du dossier / honoraires.
 
 À rapprocher de l’offre, de l’acceptation et de la prise d’effet; ne vaut pas seul mandat accepté.
 
@@ -186,7 +184,7 @@ Nature : original de pièce jointe. Engagements : demande de gestion du dossier 
 
 ## RD-20 — Six factures Dufourd
 
-Nature : originaux PDF joints, rapprochement arithmétique séparé. Engagements : demande de gestion du dossier / honoraires.
+Nature : originaux PDF joints, rapprochement arithmétique séparé. Engagements : gestion du dossier / honoraires.
 
 8 296,60 $ TTC moins unique dépôt 3 000 $ = 5 296,60 $. Attribution du mandat et ligne « jugement de divorce » à expliquer; minimum demandé 3 500 $ distinct.
 
@@ -199,7 +197,7 @@ Nature : originaux PDF joints, rapprochement arithmétique séparé. Engagements
 
 ## RD-21 — Comptes Romanowski du 22 octobre 2025
 
-Nature : original scanné et courriel d’explication. Engagements : demande de gestion du dossier / honoraires.
+Nature : original scanné et courriel d’explication. Engagements : gestion du dossier / honoraires.
 
 QUA-002 Harmony et QUA-003 bail : ne pas fusionner. OCR automatique de cinq pages à contrôler pour les montants.
 
@@ -218,7 +216,27 @@ Deux récits récupérés; ne remplacent pas vidéos, constat d’huissier ou ex
 
 Nature : EML et métadonnées de recherche. Engagements : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25.
 
-Lien vers export identifié; aucun PDF joint au message. Les 79 pages n’ont pas été acquises ou lues intégralement.
+Courriel original avec lien Adobe, sans pièce jointe. PDF acquis séparément et référencé RD-24.
 
 - RD-23-01 [2026-10-21-courriel-partage-Fieldy.eml](<../../11_Fieldy/2026-10-21-courriel-partage-Fieldy.eml>).
 - RD-23-02 [2026-10-21-courriel-partage-Fieldy.json](<../../11_Fieldy/2026-10-21-courriel-partage-Fieldy.json>).
+
+## RD-24 — Export Fieldy et extraction native
+
+Nature : source PDF acquise et dérivés de lecture identifiés. Engagements : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25.
+
+79 pages lues en texte natif; Unknown conservés, audio absent; PDF inclut avant-séance/pause/après-séance.
+
+- RD-24-01 [2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf](<../../11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf>) — 79 page(s).
+- RD-24-02 [acquisition-pdf.json](<../../11_Fieldy/acquisition-pdf.json>).
+- RD-24-03 [texte-natif-pages.json](<../../11_Fieldy/texte-natif-pages.json>).
+- RD-24-04 [texte-natif-integral.txt](<../../11_Fieldy/texte-natif-integral.txt>).
+
+## RD-25 — Analyse Fieldy pour le cabinet et journal de lecture
+
+Nature : analyse documentaire produite par l’agent. Engagements : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25.
+
+Ce n’est pas une preuve indépendante ni une transcription certifiée; concordance QA liée dans la fiche; aucun engagement clos.
+
+- RD-25-01 [ANALYSE-FIELDY-POUR-CABINET.md](<../../11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md>).
+- RD-25-02 [journal-lecture-integrale.json](<../../11_Fieldy/journal-lecture-integrale.json>).

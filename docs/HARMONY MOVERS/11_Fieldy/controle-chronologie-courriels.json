@@ -1,0 +1,35 @@
+[
+  {
+    "source": "03_Courriels/Collecte_Gmail_2026-10-21/1a0ef2ad6a978b96__Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+    "sha256": "faed497786695c78f593a8ef03dfa096fc5e7d00b8e5012e591063e11ad3ebd7",
+    "date_header": "Thu, 12 Jun 2025 15:43:55 +0000",
+    "date_montreal": "2025-06-12T11:43:55-04:00",
+    "from_": "\"Service @ Harmony Movers\" <service@harmonymovers.com>",
+    "to": "\"ooeuf.ca@gmail.com\" <ooeuf.ca@gmail.com>",
+    "subject": "Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements",
+    "message_id": "<YT3PR01MB58923282D601F7D6C07C37A5B674A@YT3PR01MB5892.CANPRD01.PROD.OUTLOOK.COM>",
+    "limite": "En-tête du fichier EML acquis; ne prouve pas à lui seul réception, lecture, consentement ou exécution."
+  },
+  {
+    "source": "03_Courriels/Collecte_Gmail_2026-10-21/1a0ef2a9ed8ebc7d__RE_ Situation de transport 12 Juin 2025.eml",
+    "sha256": "9cee210a57f16e4539a3c35dae020b9b13e33d1888a8ffb9647b82ac419ad9e9",
+    "date_header": "Fri, 13 Jun 2025 00:15:38 +0000",
+    "date_montreal": "2025-06-12T20:15:38-04:00",
+    "from_": "\"Service @ Harmony Movers\" <service@harmonymovers.com>",
+    "to": "\"ooeuf.ca@gmail.com\" <ooeuf.ca@gmail.com>",
+    "subject": "RE: Situation de transport 12 Juin 2025",
+    "message_id": "<YT3PR01MB5892733B8D56988743F36854B677A@YT3PR01MB5892.CANPRD01.PROD.OUTLOOK.COM>",
+    "limite": "En-tête du fichier EML acquis; ne prouve pas à lui seul réception, lecture, consentement ou exécution."
+  },
+  {
+    "source": "03_Courriels/Collecte_Gmail_2026-10-21/1a0ef2ad6a978b96__Re[2]_ Situation de transport 12 Juin 2025.eml",
+    "sha256": "db1970a63b6f12380b333bffb3bd0ccf2c794794df6f897b5f6e3eb939bf2ee7",
+    "date_header": "Fri, 13 Jun 2025 23:24:05 +0000",
+    "date_montreal": "2025-06-13T19:24:05-04:00",
+    "from_": "\"Service @ Harmony Movers\" <service@harmonymovers.com>",
+    "to": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+    "subject": "Re[2]: Situation de transport 12 Juin 2025",
+    "message_id": "<em52e7f81d-4c56-4bb6-9d58-07cebe57dd73@1395515f.com>",
+    "limite": "En-tête du fichier EML acquis; ne prouve pas à lui seul réception, lecture, consentement ou exécution."
+  }
+]

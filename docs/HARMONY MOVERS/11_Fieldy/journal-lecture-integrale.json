@@ -1,0 +1,646 @@
+{
+  "date": "2026-10-21",
+  "reader": "extraction_portrait_chatgpt",
+  "pdf_sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+  "pages_total": 79,
+  "pages_read_in_full": 79,
+  "method": "lecture intégrale du texte natif par huit lots (1–10,11–20,21–30,31–40,41–50,51–60,61–70,71–79); contrôles visuels ciblés séparés",
+  "characters": 167817,
+  "audio_verified": false,
+  "automatic_speaker_labels": "Unknown; aucune attribution automatique ajoutée",
+  "source_instructions_executed": false,
+  "pages": [
+    {
+      "page": 1,
+      "characters": 1554,
+      "first_printed_time": "09:28:06",
+      "last_printed_time": "09:36:32",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "cd99a1d709a602f191de10ba6771994d09e8d06986027340c86e868db241be7e"
+    },
+    {
+      "page": 2,
+      "characters": 1154,
+      "first_printed_time": "09:36:34",
+      "last_printed_time": "09:44:43",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f631b569ec6b814e01f20dfd70eb03689cc71bac7db146e6c65a3a55e8f3bdf5"
+    },
+    {
+      "page": 3,
+      "characters": 1220,
+      "first_printed_time": "09:44:59",
+      "last_printed_time": "09:46:23",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "ab38dd7ee208529dd3e0b0f570a8c3e5d037476046e9b91eec7af02b6c79f3eb"
+    },
+    {
+      "page": 4,
+      "characters": 1623,
+      "first_printed_time": "09:46:28",
+      "last_printed_time": "09:47:46",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "e25c4a1a59a303a195def7ff9205069bf3f84008bb5ed2fc6564a4f6a90616fb"
+    },
+    {
+      "page": 5,
+      "characters": 1970,
+      "first_printed_time": "09:47:50",
+      "last_printed_time": "09:49:22",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "a2bf8ef76368962fb54f617bac3ff105621da2a709ba5e2ae49f00b90f9918de"
+    },
+    {
+      "page": 6,
+      "characters": 2723,
+      "first_printed_time": "09:50:13",
+      "last_printed_time": "09:51:43",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "5f129c0aa9c4410c2dd219905320cb7a239f08e4a66b3e46329aca9c8bb7c342"
+    },
+    {
+      "page": 7,
+      "characters": 2169,
+      "first_printed_time": "09:52:32",
+      "last_printed_time": "09:53:45",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "689055d47bf2a61e0d321108f3e5917a12c5ad229f938a5632a63ad4603c0609"
+    },
+    {
+      "page": 8,
+      "characters": 2499,
+      "first_printed_time": "09:53:47",
+      "last_printed_time": "09:55:39",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "6e1996ce509c1964b5b9db94f5c97c37071849f41438d203984ac74a6383d605"
+    },
+    {
+      "page": 9,
+      "characters": 2589,
+      "first_printed_time": "09:56:00",
+      "last_printed_time": "09:58:00",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "83f3853a3e7efd49d53a576d00571f9b885f3cdf38bb35c7499eecfdbb5dec5c"
+    },
+    {
+      "page": 10,
+      "characters": 1762,
+      "first_printed_time": "09:58:10",
+      "last_printed_time": "09:59:26",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "b383d8cc84b4e56fc4cc4d4865b43381898b201dd15d1139230eef74d789760b"
+    },
+    {
+      "page": 11,
+      "characters": 1987,
+      "first_printed_time": "09:59:34",
+      "last_printed_time": "10:01:08",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "56c4c8b58b79190e09b8d70f61c430fb0d19cc95d55d55c57bde041acc12b067"
+    },
+    {
+      "page": 12,
+      "characters": 2216,
+      "first_printed_time": "10:01:11",
+      "last_printed_time": "10:02:47",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "9a0fe29f32b933e42c6e1ceeb8b3a4ac112747b983301bc34f68958de037bd02"
+    },
+    {
+      "page": 13,
+      "characters": 1933,
+      "first_printed_time": "10:02:50",
+      "last_printed_time": "10:04:10",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "083b7088a117f9d8846a2f122844038aaadd80b50835f1b3ce762e953ba32005"
+    },
+    {
+      "page": 14,
+      "characters": 2358,
+      "first_printed_time": "10:04:26",
+      "last_printed_time": "10:06:50",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "79861d8fd81e22c46ec5c045f1a8910a72ef83dda3fdcf925fbcdce14e9e7713"
+    },
+    {
+      "page": 15,
+      "characters": 2439,
+      "first_printed_time": "10:06:51",
+      "last_printed_time": "10:08:40",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "4d35b55218b195870992ad78adacedaf60e46f825a78e19a26a9660cde069380"
+    },
+    {
+      "page": 16,
+      "characters": 2583,
+      "first_printed_time": "10:09:11",
+      "last_printed_time": "10:11:19",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "4624a277ae17e49dc0de267fad8ec1aac9c8473680872485709d6249c6f8c325"
+    },
+    {
+      "page": 17,
+      "characters": 2051,
+      "first_printed_time": "10:11:22",
+      "last_printed_time": "10:12:44",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "d9a1fc9f00d97063030594cc1deced796e6abe588166afdeef95861b7e05b8ae"
+    },
+    {
+      "page": 18,
+      "characters": 3270,
+      "first_printed_time": "10:12:50",
+      "last_printed_time": "10:15:20",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f3c020700e1496978b86bbbc0476439f471b315ab30f776ff486e53ac733985f"
+    },
+    {
+      "page": 19,
+      "characters": 2081,
+      "first_printed_time": "10:15:20",
+      "last_printed_time": "10:17:04",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "21043eccbedbe314fa8de1e56a4c28243e4aba67db36e3bd6e10626637e49ed2"
+    },
+    {
+      "page": 20,
+      "characters": 2124,
+      "first_printed_time": "10:17:14",
+      "last_printed_time": "10:19:15",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "db12a1c045b3be2e71ff663b18cc4eac1dbdb0fe8fef8eecd5fa7609820337e9"
+    },
+    {
+      "page": 21,
+      "characters": 2249,
+      "first_printed_time": "10:19:32",
+      "last_printed_time": "10:21:01",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "ad1a13e6f8e38698d6fd2ef66fe1e7bb07462f11feb5da65a96fd0382dabccd5"
+    },
+    {
+      "page": 22,
+      "characters": 2213,
+      "first_printed_time": "10:21:04",
+      "last_printed_time": "10:22:50",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "22bee73cd6d4a18af1a8a73c399a095021946bcf27524fb1ded528ccc9c2d8dc"
+    },
+    {
+      "page": 23,
+      "characters": 2408,
+      "first_printed_time": "10:23:32",
+      "last_printed_time": "10:25:14",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "77c7ec42cbfa8c40f962f67e1058f5a382b061c51d72434d6a48a782289fd940"
+    },
+    {
+      "page": 24,
+      "characters": 2395,
+      "first_printed_time": "10:25:18",
+      "last_printed_time": "10:26:56",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "c07af8de315666a54c8a1a34757864939e0cb1a30bda135b74da99ca4ded7546"
+    },
+    {
+      "page": 25,
+      "characters": 2544,
+      "first_printed_time": "10:27:02",
+      "last_printed_time": "10:28:27",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "3abdb481a6dc376c73cb5f966c424396e221c616ad826fe7390a86bcb487f1af"
+    },
+    {
+      "page": 26,
+      "characters": 2601,
+      "first_printed_time": "10:28:53",
+      "last_printed_time": "10:30:34",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "fe7493be60144e0755ef77318817058f59a8c2676faa4b33849b580b85b48cf8"
+    },
+    {
+      "page": 27,
+      "characters": 1919,
+      "first_printed_time": "10:30:40",
+      "last_printed_time": "10:31:58",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "5f845b8fa496afa8c35bc0386ac3ecd5ae124ef5c65afb6a7c2f81647637e194"
+    },
+    {
+      "page": 28,
+      "characters": 1594,
+      "first_printed_time": "10:31:58",
+      "last_printed_time": "10:33:16",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "7629336795e9f817389367a57be52f042d53aef90d39560f3b7e7deb6684bfae"
+    },
+    {
+      "page": 29,
+      "characters": 1908,
+      "first_printed_time": "10:33:17",
+      "last_printed_time": "10:35:41",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "5697d03ef96738c6c0188722b99df954c014b0041ba0b0b42a5effce10b578c0"
+    },
+    {
+      "page": 30,
+      "characters": 2188,
+      "first_printed_time": "10:35:43",
+      "last_printed_time": "10:37:45",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "ce48442553d663aeeb05578355cecf95be624a3cd623ad9870a77905d47ccdad"
+    },
+    {
+      "page": 31,
+      "characters": 2274,
+      "first_printed_time": "10:37:50",
+      "last_printed_time": "10:40:23",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "38215b4f22bc7f4bc97b97075d7d5175f137b5dbe0a841306bba5664038e758a"
+    },
+    {
+      "page": 32,
+      "characters": 3369,
+      "first_printed_time": "10:40:29",
+      "last_printed_time": "10:40:59",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "09967c21800eafe78df7701263389ae54ad6af2b8142003199a0b62fd9cbe0c4"
+    },
+    {
+      "page": 33,
+      "characters": 2518,
+      "first_printed_time": "10:43:00",
+      "last_printed_time": "10:45:02",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "06a4c10a8ca060d2eaab4f4ec9db4f1cf00664a7eaf09d84eb46ea7111ddde36"
+    },
+    {
+      "page": 34,
+      "characters": 2061,
+      "first_printed_time": "10:45:03",
+      "last_printed_time": "10:47:02",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "870067183fd03732d8b2ddd1c5a1fa9be54c68251f6e57641288b05dfd58d42e"
+    },
+    {
+      "page": 35,
+      "characters": 2336,
+      "first_printed_time": "10:47:06",
+      "last_printed_time": "10:48:46",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "429cdd2464274c4a5adf4f270f2141c0308e8c1b72b232ef2594d1e88d6b70b9"
+    },
+    {
+      "page": 36,
+      "characters": 2428,
+      "first_printed_time": "10:48:55",
+      "last_printed_time": "10:51:04",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "d478f6a06e09f16fccac19d59729e0ed6942522d579f0d4bad0b525be75120c3"
+    },
+    {
+      "page": 37,
+      "characters": 2711,
+      "first_printed_time": "10:51:15",
+      "last_printed_time": "10:53:28",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "aec70a1219ac39594b1aed76a964fed5da44cb72494cbf356da2a986235e628d"
+    },
+    {
+      "page": 38,
+      "characters": 2129,
+      "first_printed_time": "10:53:35",
+      "last_printed_time": "10:55:31",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "7f35fbefeb00cd2a9145766ef7038476e3bc6e3ea89ddb37e98feac49d25de1f"
+    },
+    {
+      "page": 39,
+      "characters": 1719,
+      "first_printed_time": "10:55:33",
+      "last_printed_time": "10:57:10",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "ebc7386072814903d5218f78261a8378ec5313c0b8d5d9320a7611b37900a400"
+    },
+    {
+      "page": 40,
+      "characters": 2317,
+      "first_printed_time": "10:57:16",
+      "last_printed_time": "10:58:19",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "62222182d2686d2f9d1482890d6307a09c367fa3ad1cae3783843f69a92df36a"
+    },
+    {
+      "page": 41,
+      "characters": 1820,
+      "first_printed_time": "10:59:06",
+      "last_printed_time": "11:00:56",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "87c3015e3aff376dd999fe8eb45f0da648d6ecd8d4602a98bb6fe28310bd5417"
+    },
+    {
+      "page": 42,
+      "characters": 2205,
+      "first_printed_time": "11:00:58",
+      "last_printed_time": "11:02:43",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "658393320a0ae5c16e55b6799f8fe5ab00f44870ff33f22df1f65b2664f7236c"
+    },
+    {
+      "page": 43,
+      "characters": 2395,
+      "first_printed_time": "11:02:45",
+      "last_printed_time": "11:04:31",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "aa0ca250e6fe5207124a4637ccb48c9e2f4cf8bf15ad52dcd6b909524771a73a"
+    },
+    {
+      "page": 44,
+      "characters": 1670,
+      "first_printed_time": "11:04:32",
+      "last_printed_time": "11:05:29",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "00bac2c2ad756fb57c77fedb942b64cbdc6f1b541ae357539e78322b36dfc65d"
+    },
+    {
+      "page": 45,
+      "characters": 2186,
+      "first_printed_time": "11:06:01",
+      "last_printed_time": "11:07:21",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "dea2390b8fa14258e50b53c65909b126fa1b0670b19990b78d801fbc7af0f023"
+    },
+    {
+      "page": 46,
+      "characters": 2393,
+      "first_printed_time": "11:07:38",
+      "last_printed_time": "11:09:25",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "c50f1a71cf9626cba1bbe4defb227a3689d3aae26d183130532fd9f00e25b412"
+    },
+    {
+      "page": 47,
+      "characters": 2219,
+      "first_printed_time": "11:09:27",
+      "last_printed_time": "11:10:58",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "d10cc09476cfaf012314b8592ef6a004469e6dcb8eab86f70e718ef4a97be3dc"
+    },
+    {
+      "page": 48,
+      "characters": 2551,
+      "first_printed_time": "11:11:16",
+      "last_printed_time": "11:13:11",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "8e9a627d7fd135e22d914500362f0d1ae90a6563e6cffa8d241831a7bf1dda05"
+    },
+    {
+      "page": 49,
+      "characters": 2396,
+      "first_printed_time": "11:13:13",
+      "last_printed_time": "11:15:19",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "53c432543814ddeb58aef4bdb508a5b75e12a0bb227b7803bb2a43c01955c621"
+    },
+    {
+      "page": 50,
+      "characters": 2372,
+      "first_printed_time": "11:15:27",
+      "last_printed_time": "11:16:52",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "76d0b1fb38c6f67e42757970c2d5bfc23595ab5408dddd7c837e90fe190e0042"
+    },
+    {
+      "page": 51,
+      "characters": 2791,
+      "first_printed_time": "11:17:20",
+      "last_printed_time": "11:19:21",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "e058f8274aadbeed240dfa95ea0131c399291321f87df9523eeb022781647e37"
+    },
+    {
+      "page": 52,
+      "characters": 1773,
+      "first_printed_time": "11:19:50",
+      "last_printed_time": "11:21:03",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "cfe69137dde7281b928c1742ced03c1077535aa78fba616dbefc4bf76516be98"
+    },
+    {
+      "page": 53,
+      "characters": 1882,
+      "first_printed_time": "11:21:10",
+      "last_printed_time": "11:22:19",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "23167af704ff8e5c337ddefd2bfa9ee7ee240677fb675cfa048823bcf71ef570"
+    },
+    {
+      "page": 54,
+      "characters": 2249,
+      "first_printed_time": "11:22:49",
+      "last_printed_time": "11:24:42",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "61a5b874fc9464bb4b348614f0011c936a2e278209fc4d31a5e740405332f548"
+    },
+    {
+      "page": 55,
+      "characters": 2824,
+      "first_printed_time": "11:24:47",
+      "last_printed_time": "11:27:01",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "9550d6ac658533b19a5ecbc5334732477a1ab0e315a8dc1d079f571f8c3c50c4"
+    },
+    {
+      "page": 56,
+      "characters": 2337,
+      "first_printed_time": "11:27:03",
+      "last_printed_time": "11:28:57",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "fc315507b8b686f7243f4fbdf0b3682974322412584198340d0ea3bcccfde761"
+    },
+    {
+      "page": 57,
+      "characters": 2120,
+      "first_printed_time": "11:29:02",
+      "last_printed_time": "11:30:58",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f30478defb82757b6857ce288f13f66f5286d9f84f15469f8f229cbc58730d35"
+    },
+    {
+      "page": 58,
+      "characters": 2238,
+      "first_printed_time": "11:31:00",
+      "last_printed_time": "11:32:56",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "8d32ef3c0686b11fdd420bdeed6a8e3a64d85a7ef5ab01b58e327073678e9860"
+    },
+    {
+      "page": 59,
+      "characters": 2399,
+      "first_printed_time": "11:32:57",
+      "last_printed_time": "11:34:43",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "b15dc5248962dad106ee2f9eed7e137ccd7a8516a057c3e09f085b4e671f6592"
+    },
+    {
+      "page": 60,
+      "characters": 3296,
+      "first_printed_time": "11:35:29",
+      "last_printed_time": "11:37:20",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "2fea956a17845688dbe1e820b39a193f87c39ab8f2032d3f88fec32a6678b4be"
+    },
+    {
+      "page": 61,
+      "characters": 2063,
+      "first_printed_time": "11:37:30",
+      "last_printed_time": "11:39:15",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "a884c2c868340dd724f8d9b628028b44e40e844c241ba44cb4502f16bee273bb"
+    },
+    {
+      "page": 62,
+      "characters": 1598,
+      "first_printed_time": "11:39:16",
+      "last_printed_time": "11:41:44",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "9a68cb75865880bb5ccb04a9e9bb0de744e31f6aa3d591673e44c67596ca6255"
+    },
+    {
+      "page": 63,
+      "characters": 2623,
+      "first_printed_time": "11:41:48",
+      "last_printed_time": "11:43:33",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f51f295a55354a830e57664eb34b0e86731ea6bcbaac5251a1751511f51a2182"
+    },
+    {
+      "page": 64,
+      "characters": 3020,
+      "first_printed_time": "11:44:29",
+      "last_printed_time": "11:45:44",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "a109186a15b86f8b228e7fbe51bb0489158ba1e962f170ecdf1538838d63dc0b"
+    },
+    {
+      "page": 65,
+      "characters": 1844,
+      "first_printed_time": "11:46:17",
+      "last_printed_time": "11:48:18",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "e0bf258ba0e2ddfba7ed6e6ac8444d4ed3e9487c17ab16ccde1cab45953272b6"
+    },
+    {
+      "page": 66,
+      "characters": 1472,
+      "first_printed_time": "11:48:22",
+      "last_printed_time": "11:49:19",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "09dd1969fdd4a3a38660dd12470ba91f62bfa53456391e0b9d1047331d48f0a5"
+    },
+    {
+      "page": 67,
+      "characters": 1763,
+      "first_printed_time": "11:49:22",
+      "last_printed_time": "11:50:58",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f5481de69a496e4c647b284a6c68597faf305d6bbaad57727e0520e4817c027f"
+    },
+    {
+      "page": 68,
+      "characters": 1425,
+      "first_printed_time": "11:51:05",
+      "last_printed_time": "11:52:25",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "9a4ad1c66c67a64b8ebd100a8d189fa4291653d9569c53e8515ccee7508f372d"
+    },
+    {
+      "page": 69,
+      "characters": 1683,
+      "first_printed_time": "11:52:30",
+      "last_printed_time": "11:54:28",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "5401ac83000bdd67a86c20e68d9243a065f226cdaa863ade9c643d1c8ef553fc"
+    },
+    {
+      "page": 70,
+      "characters": 2063,
+      "first_printed_time": "11:55:16",
+      "last_printed_time": "11:56:45",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f1294db6858f8dca90f7294670aa6b2830748b230ae59ba5f5f804958cdd8f9d"
+    },
+    {
+      "page": 71,
+      "characters": 1469,
+      "first_printed_time": "11:56:50",
+      "last_printed_time": "11:58:13",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "588aa676d1da8ef0e4530ffd93d06b085b7e869c439f8d830293fcfd128a6d1f"
+    },
+    {
+      "page": 72,
+      "characters": 1451,
+      "first_printed_time": "11:58:14",
+      "last_printed_time": "11:59:30",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "2e73178a97d656c58de2817c313830a3c6781bd4db2f4dc04bc5a802b1873f69"
+    },
+    {
+      "page": 73,
+      "characters": 1632,
+      "first_printed_time": "11:59:34",
+      "last_printed_time": "12:00:26",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "dfe73805d165fa1e596fe4fef84be7267699e6f8d26171189f54052d338ac535"
+    },
+    {
+      "page": 74,
+      "characters": 2310,
+      "first_printed_time": "12:00:59",
+      "last_printed_time": "12:02:54",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "a4b92b241986cf3c7041b12e9e68785859191212753bee16b5d87e433a8be787"
+    },
+    {
+      "page": 75,
+      "characters": 1439,
+      "first_printed_time": "12:03:04",
+      "last_printed_time": "12:04:39",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "7242a5065da3bc6bc77b2d5afbd9f70b67768ca572eab66168f5f4c5a64e6977"
+    },
+    {
+      "page": 76,
+      "characters": 1594,
+      "first_printed_time": "12:04:48",
+      "last_printed_time": "12:06:21",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "7893d4fa1fdd5ab749c46806de89f08e88ca11eb0be337cd295482dd1d2aa0e6"
+    },
+    {
+      "page": 77,
+      "characters": 1638,
+      "first_printed_time": "12:06:23",
+      "last_printed_time": "12:07:35",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "f58db12305ec70ca2beadccfa392123abfb8aced26543861529357647d87a000"
+    },
+    {
+      "page": 78,
+      "characters": 1718,
+      "first_printed_time": "12:07:46",
+      "last_printed_time": "12:09:20",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "92b4c456a4d2c8cc2b09f8a38bf62a2bda5abc7eb004755297e2fed6e136df5a"
+    },
+    {
+      "page": 79,
+      "characters": 710,
+      "first_printed_time": "12:09:42",
+      "last_printed_time": "12:12:12",
+      "status": "texte natif lu intégralement",
+      "text_sha256": "6d0cfd86ff62bf6e79cb2596f2d4e3ce49388dc9b93038211a6aec95a3fdce1c"
+    }
+  ]
+}

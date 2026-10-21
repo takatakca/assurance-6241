@@ -31,3 +31,7 @@ Source : courriel de Me Christian Dufourd du 5 octobre 2026 à 14 h 15, transfé
 | 25 | Échange complet avec autre partie et réponse | Plusieurs chaînes longues disponibles; relier annexes et messages originaux, vérifier début/fin et doublons |
 
 Pour clôturer une ligne : inscrire le nom du fichier, l'auteur, la date de la pièce, les pages, les appareils concernés et la date réelle de transmission au cabinet. Une copie présente sur disque ne prouve pas que l'avocat l'a reçue.
+
+## Contrôle après lecture intégrale Fieldy
+
+La [concordance indépendante](../11_Fieldy/CONTROLE-ENGAGEMENTS-FIELDY.md) précise les pages/heures, réserves et réponses. La numérotation du courriel ci-dessus est conservée, sans assimilation automatique aux E oraux. L’E9 oral vise la compagnie ayant engagé le U-Haul; le n° 8 écrit vise la défenderesse. L’E3 oral concerne des échanges internes avec réserve sur l’après-déménagement. Les demandes d’entretien antérieur ne sont pas annulées par le retrait d’une nouvelle demande de réparation p. 41. «Skip the Dishes» et «Tesanet» apparaissent dans le texte, à rapprocher des originaux et non à substituer silencieusement aux mots du courriel. Les 25 lignes restent ouvertes jusqu’à contrôle des pièces et de leur production réelle.

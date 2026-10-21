@@ -36,4 +36,3 @@ foreach ($job in $jobs) {
 $dest = Join-Path (Split-Path $JobsPath -Parent) 'ocr-resultats.json'
 $results | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $dest -Encoding UTF8
 Write-Output "Résultats : $dest"
-

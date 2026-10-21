@@ -1,33 +1,39 @@
 # Dossiers de travail pour l’avocat
 
-Point d’entrée local : **OUVRIR-LES-DOSSIERS.html**. Le classement distingue trois dossiers :
+[Ouvrir le site public](https://takatakca.github.io/assurance-6241/) · [État de publication](documentation/ETAT-PUBLICATION-GITHUB.md)
 
-- **6241 Léger** — assurance, chronologie, correspondances, pièces et comptabilité.
-- **6280 Somerled NDG** — bail, propriétaire, avis, mises en demeure et litiges.
-- **HARMONY MOVERS** — contrats, transport et entreposage, factures, état des biens et procédures.
+Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **HARMONY MOVERS**. Il permet la consultation, la recherche et le téléchargement des documents classés. Le tableau de bord Léger contient aussi une recherche dans les textes PDF/OCR et une chronologie attribuée aux sources. Le classeur comptable et le PowerPoint se téléchargent depuis les rubriques du dossier Léger.
 
-Les fichiers sont préparés dans le répertoire OneDrive `Documents/ChatGPT/ASSURANCE 6241`. La présence locale ne confirme pas l’état de synchronisation OneDrive.
+## Provenance et couverture
 
-## Livrables locaux
+Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.
 
-Le dossier Léger contient un tableau de bord consultable hors ligne, un classeur comptable de dix onglets et une présentation PowerPoint de neuf diapositives. Chaque dossier contient ou reçoit sa synthèse, sa chronologie, son index de pièces et un état de couverture indiquant les documents obtenus et ceux restant à acquérir.
+[Règles communes](docs/documentation/REGLES-COMMUNES.md). Les limites d’acquisition et les vérifications ouvertes figurent dans les synthèses de chaque dossier. Les positions des intervenants, les déclarations et les réponses ChatGPT ne sont pas automatiquement des faits établis. L’export Fieldy de 79 pages est identifié par un courriel de partage, mais son PDF n’a pas été acquis ni analysé intégralement dans cette publication.
 
-Les messages originaux, les pièces jointes et les documents conservés restent distincts des analyses. Les copies sont identifiées par empreinte SHA-256. Les dates originales restent inchangées. Les allocations d’assurance, les factures, les devis et les encaissements ne sont pas additionnés comme s’ils représentaient la même chose.
+## Travailler à distance
 
-## Code de l’outil
+Les pièces publiées se trouvent dans **docs/**. Elles peuvent être consultées et téléchargées depuis le site ou GitHub. Les liens « Modifier sur GitHub » ouvrent la source avec les droits de votre compte GitHub; les collaborateurs doivent disposer des droits du dépôt pour y enregistrer leurs modifications.
 
-- `scripts/extract_case_text.py` : extraction du texte PDF et préparation des pages ou images nécessitant un OCR.
-- `scripts/run_case_ocr.ps1` : reconnaissance avec le moteur Windows disponible.
-- `scripts/build_case_portal.py` et `scripts/case_portal_template.html` : génération du tableau de bord Léger.
-- `scripts/build_dossier_hub.py` : index de recherche commun aux trois dossiers.
-- `scripts/extract_downloaded_eml.py` : extraction locale des corps et pièces jointes des courriels EML conservés.
+Une modification d’un fichier Markdown sur GitHub ne régénère pas automatiquement son lecteur `.md.html`, la recherche ou les index. Une nouvelle génération et publication sont nécessaires. Le site n’a pas de serveur applicatif, de compte utilisateur propre ou de synchronisation automatique avec OneDrive. L’état de synchronisation OneDrive n’a pas été vérifié.
 
-Les chemins et les générateurs décrivent l’espace de travail local. Le code publié ne télécharge pas automatiquement les courriels ou les conversations et n’embarque pas les pièces originales.
+## Génération et publication
 
-## État au 21 octobre 2026
+Les scripts, modèles et assets sont conservés dans **scripts/**. Le générateur statique Python utilise la bibliothèque standard. Les générateurs comptables et de présentation ont leurs dépendances précisées dans leurs sources.
 
-Le dépôt GitHub public est créé. La publication du code de classement et la préparation des dossiers OneDrive sont deux étapes distinctes. Aucun site en production ni accès distant à l’ensemble des pièces n’est confirmé par ce README. L’extraction de toutes les conversations ChatGPT et de toutes les boîtes courriel reste à compléter selon les états de couverture locaux.
+Les commandes suivantes s’exécutent depuis un **espace source** contenant à sa racine `6241 Léger/`, `6280 Somerled NDG/`, `HARMONY MOVERS/`, `documentation/` et `scripts/`, comme le dossier de travail OneDrive. Cette disposition diffère du répertoire **docs/** du clone publié; conserver les originaux et les manifestes lors de la préparation d’un nouvel espace source. Les lecteurs `.md.html` et les index de répertoires sont des sorties générées.
 
-Pour reconstruire les index sur le poste où se trouvent les documents, exécuter `python scripts/build_case_portal.py`, puis `python scripts/build_dossier_hub.py`. Les index s’ouvrent ensuite directement dans un navigateur, sans serveur.
+```sh
+python scripts/build_case_portal.py
+python scripts/build_dossier_hub.py
+python scripts/build_remote_site.py --audit-only
+python scripts/build_remote_site.py --build
+python scripts/site/verify_static_transport.py
+```
 
-L’OCR facilite la recherche; les chiffres, dates et citations doivent être contrôlés sur les originaux. Les questions juridiques et les décisions procédurales restent à valider avec l’avocat chargé du dossier.
+Le paquet `dist-site/` est contrôlé avant publication. [Les outils de publication](scripts/site/README.md) décrivent la copie vers `docs/` du clone `.publish-repo`, le commit et le push ordinaires, puis les contrôles HTTP. GitHub Pages sert la branche **main**, dossier **/docs**. Réconcilier les modifications faites à distance avant de remplacer une publication; le script refuse d’écraser des documents modifiés depuis le dernier manifeste.
+
+## Publication vérifiée
+
+Le paquet publié contient 1,761 fichiers, dont 1,539 sources sélectionnées et 115 lecteurs Markdown, pour environ 514.35 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
+
+[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/9aff96e5b7e741149062fb86dc239aab3ada247d). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-21T19:46:17.401857+00:00. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.

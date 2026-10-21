@@ -82,6 +82,12 @@ Les états d’extraction détaillés figurent dans les index des conversations 
 
 La demande récente de rencontre sans avocat reste à rapprocher du courriel exact. Une citation retrouvée du 21 octobre 2025 dit que l’intervenant transigera avec le représentant si un avocat est mandaté; ce n’est pas une exigence de renoncer à un avocat.
 
+## Règle commune de traitement
+
+Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.
+
+[Règles communes détaillées](../../documentation/REGLES-COMMUNES.md).
+
 ## Travail partagé
 
 Le dépôt GitHub créé est https://github.com/takatakca/assurance-6241. Son contenu publié doit être vérifié séparément de cette consolidation OneDrive. Les dossiers «6280 Somerled NDG» et «HARMONY MOVERS» sont classés à côté; les pièces communes sont référencées avec leur origine.
@@ -171,4 +177,3 @@ template=(ROOT/'scripts/case_portal_template.html').read_text(encoding='utf-8')
 (HOME/'index.html').write_text(template.replace('/*CASE_DATA*/',json.dumps(data,ensure_ascii=False).replace('<','\\u003c').replace('\u2028','\\u2028').replace('\u2029','\\u2029')),encoding='utf-8')
 
 print(json.dumps({'files':len(records),'distinct':data['counts']['distinct_contents'],'timeline':len(timeline),'warnings':warnings,'ocr':ocr_summary},ensure_ascii=False))
-

@@ -31,4 +31,3 @@ for source in sorted(BASE.glob('*.eml')):
     records.append(entry)
 (BASE/'manifest-originaux.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(records,ensure_ascii=False,indent=2))
-

@@ -121,4 +121,3 @@ const receipt={as_of:new Date().toISOString(),mode:'Node VM + filesystem; no bro
 fs.mkdirSync(path.join(root,'scripts/.build-livrables'),{recursive:true});
 fs.writeFileSync(path.join(root,'scripts/.build-livrables/portal-validation.json'),JSON.stringify(receipt,null,2));
 console.log(JSON.stringify(receipt,null,2));
-

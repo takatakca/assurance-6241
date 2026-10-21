@@ -47,4 +47,3 @@ for f in sorted(CASE.rglob('*')):
 (OUT/'manifest-extraction.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
 (TMP/'ocr-jobs.json').write_text(json.dumps(jobs,ensure_ascii=False,indent=2),encoding='utf-8-sig')
 print(json.dumps({'unique_documents':len(records),'copies':sum(len(x['copies']) for x in records),'pages':sum(len(x['pages']) for x in records),'ocr_jobs':len(jobs),'errors':sum(len(x['errors']) for x in records)},ensure_ascii=False),flush=True)
-

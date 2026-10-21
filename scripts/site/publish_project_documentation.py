@@ -1,0 +1,110 @@
+"""Publish generator sources and a factual access guide after live HTTP checks pass."""
+from pathlib import Path
+from datetime import datetime, timezone
+import importlib.util, json, shutil
+
+ROOT=Path(__file__).resolve().parents[2]
+spec=importlib.util.spec_from_file_location('publisher',ROOT/'scripts/site/publish_remote_site.py')
+publisher=importlib.util.module_from_spec(spec);spec.loader.exec_module(publisher)
+REPO=publisher.REPO
+
+def main():
+    publication=json.loads((ROOT/'scripts/.build-livrables/publication-result.json').read_text(encoding='utf-8'))
+    live=json.loads((ROOT/'scripts/.build-livrables/public-site-verification.json').read_text(encoding='utf-8'))
+    manifest=json.loads((ROOT/'dist-site/.site-build.json').read_text(encoding='utf-8'))
+    if not publication.get('ok') or not live.get('ok'):raise RuntimeError('Publication and public HTTP verification must succeed first')
+    if publisher.text('remote','get-url','origin') not in publisher.ALLOWED_REMOTES:raise RuntimeError('Unexpected remote')
+    if publisher.text('symbolic-ref','--short','HEAD')!='main' or publisher.git('status','--porcelain').stdout:raise RuntimeError('Expected a clean main branch')
+    publisher.git('pull','--ff-only','origin','main')
+    live_url=live['base_url'];commit=publication['commit']
+    rule=manifest['rules']
+    readme=f'''# Dossiers de travail pour l’avocat
+
+[Ouvrir le site public]({live_url}) · [État de publication](documentation/ETAT-PUBLICATION-GITHUB.md)
+
+Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **HARMONY MOVERS**. Il permet la consultation, la recherche et le téléchargement des documents classés. Le tableau de bord Léger contient aussi une recherche dans les textes PDF/OCR et une chronologie attribuée aux sources. Le classeur comptable et le PowerPoint se téléchargent depuis les rubriques du dossier Léger.
+
+## Provenance et couverture
+
+{rule}
+
+[Règles communes](docs/documentation/REGLES-COMMUNES.md). Les limites d’acquisition et les vérifications ouvertes figurent dans les synthèses de chaque dossier. Les positions des intervenants, les déclarations et les réponses ChatGPT ne sont pas automatiquement des faits établis. L’export Fieldy de 79 pages est identifié par un courriel de partage, mais son PDF n’a pas été acquis ni analysé intégralement dans cette publication.
+
+## Travailler à distance
+
+Les pièces publiées se trouvent dans **docs/**. Elles peuvent être consultées et téléchargées depuis le site ou GitHub. Les liens « Modifier sur GitHub » ouvrent la source avec les droits de votre compte GitHub; les collaborateurs doivent disposer des droits du dépôt pour y enregistrer leurs modifications.
+
+Une modification d’un fichier Markdown sur GitHub ne régénère pas automatiquement son lecteur `.md.html`, la recherche ou les index. Une nouvelle génération et publication sont nécessaires. Le site n’a pas de serveur applicatif, de compte utilisateur propre ou de synchronisation automatique avec OneDrive. L’état de synchronisation OneDrive n’a pas été vérifié.
+
+## Génération et publication
+
+Les scripts, modèles et assets sont conservés dans **scripts/**. Le générateur statique Python utilise la bibliothèque standard. Les générateurs comptables et de présentation ont leurs dépendances précisées dans leurs sources.
+
+Les commandes suivantes s’exécutent depuis un **espace source** contenant à sa racine `6241 Léger/`, `6280 Somerled NDG/`, `HARMONY MOVERS/`, `documentation/` et `scripts/`, comme le dossier de travail OneDrive. Cette disposition diffère du répertoire **docs/** du clone publié; conserver les originaux et les manifestes lors de la préparation d’un nouvel espace source. Les lecteurs `.md.html` et les index de répertoires sont des sorties générées.
+
+```sh
+python scripts/build_case_portal.py
+python scripts/build_dossier_hub.py
+python scripts/build_remote_site.py --audit-only
+python scripts/build_remote_site.py --build
+python scripts/site/verify_static_transport.py
+```
+
+Le paquet `dist-site/` est contrôlé avant publication. [Les outils de publication](scripts/site/README.md) décrivent la copie vers `docs/` du clone `.publish-repo`, le commit et le push ordinaires, puis les contrôles HTTP. GitHub Pages sert la branche **main**, dossier **/docs**. Réconcilier les modifications faites à distance avant de remplacer une publication; le script refuse d’écraser des documents modifiés depuis le dernier manifeste.
+
+## Publication vérifiée
+
+Le paquet publié contient {manifest['published_files']:,} fichiers, dont {manifest['source_files']:,} sources sélectionnées et {manifest['markdown_readers']} lecteurs Markdown, pour environ {publication['bytes']/1_000_000:.2f} Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
+
+[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/{commit}). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le {live['as_of']}. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.
+'''
+    status=f'''# État de publication GitHub
+
+Vérification : {live['as_of']}.
+
+- [Site public]({live_url})
+- [Dépôt public](https://github.com/takatakca/assurance-6241)
+- [Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/{commit})
+- Source GitHub Pages : branche `main`, répertoire `/docs`.
+- Fichiers publiés : {manifest['published_files']}; sources sélectionnées : {manifest['source_files']}; volume réel incluant le manifeste : {publication['bytes']:,} octets.
+- Plus gros fichier : {manifest['largest_files'][0]['bytes']:,} octets.
+- Liens générés contrôlés : {manifest['static_links_checked']}; liens cassés : 0.
+- Contrôles HTTP publics : {len(live['checks'])} réussis, avec comparaison SHA-256 du hub, des trois entrées de dossier, d’un PDF et d’un EML.
+
+Les pièces, courriels, textes OCR, classeur, présentation, index et synthèses sélectionnés sont désormais dans `docs/`. Les originaux de travail restent dans le dossier local; la copie publiée est distincte. `.gitattributes` impose `docs/** -text` pour préserver les octets et les empreintes des documents.
+
+Le site permet consultation, recherche et téléchargement. Les modifications passent par GitHub authentifié ou l’espace source, puis une nouvelle génération/publication. Modifier un Markdown ne met pas automatiquement à jour son lecteur HTML ni les index. Il n’y a pas de synchronisation automatique avec OneDrive.
+
+{rule}
+
+L’export Fieldy de 79 pages reste à acquérir et à contrôler intégralement. Les limites de couverture sont conservées dans les synthèses; la publication n’implique pas que tous les échanges et toutes les pièces possibles ont été obtenus.
+'''
+    (ROOT/'README.md').write_text(readme,encoding='utf-8')
+    (ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md').write_text(status,encoding='utf-8')
+    selected=[ROOT/'README.md',ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md',ROOT/'documentation/REGLES-COMMUNES.md']
+    selected += [p for p in (ROOT/'scripts').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.ps1','.html'}]
+    selected += [p for p in (ROOT/'scripts/site').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.js','.css','.md'}]
+    for source in selected:
+        dest=REPO/source.relative_to(ROOT);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,dest)
+    ignore='dist-site/\n.publish-repo/\nscripts/.build-livrables/\nscripts/**/__pycache__/\n'
+    (REPO/'.gitignore').write_text(ignore,encoding='utf-8')
+    publisher.git('add','--','README.md','documentation','scripts','.gitignore')
+    staged=publisher.git('diff','--cached','--name-only','-z').stdout.decode('utf-8').split('\0')
+    allowed=lambda p:p in {'README.md','.gitignore'} or p.startswith(('scripts/','documentation/'))
+    if any(p and not allowed(p) for p in staged):raise RuntimeError('Unexpected staged documentation path')
+    if any(staged):
+        config=[]
+        if not publisher.git('config','user.name',allowed=(0,1)).stdout.strip():config+=['-c','user.name=Dossier 6241 automation']
+        if not publisher.git('config','user.email',allowed=(0,1)).stdout.strip():config+=['-c','user.email=noreply@github.com']
+        publisher.git(*config,'commit','-m','Documenter l’accès distant et sauvegarder les générateurs du site')
+    final=publisher.text('rev-parse','HEAD');publisher.git('push','origin','main')
+    if publisher.text('ls-remote','origin','refs/heads/main').split()[0]!=final:raise RuntimeError('Remote commit mismatch')
+    result={'ok':True,'commit':final,'commit_url':'https://github.com/takatakca/assurance-6241/commit/'+final,
+            'documentation_files':len(selected)+1,'site_url':live_url,'documentary_commit':commit}
+    (ROOT/'scripts/.build-livrables/publication-documentation-result.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
+    print(json.dumps(result))
+
+if __name__=='__main__':
+    try:main()
+    except (OSError,ValueError,RuntimeError) as exc:
+        print(json.dumps({'ok':False,'error':str(exc),'credential_output':'not retained'}));raise SystemExit(1)

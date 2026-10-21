@@ -31,4 +31,3 @@ $('query').oninput=render;$('category').onchange=render;$('case').onchange=()=>{
 </script></body></html>'''
 (ROOT/'OUVRIR-LES-DOSSIERS.html').write_text(template.replace('/*DATA*/',json.dumps(cases,ensure_ascii=False).replace('<','\\u003c')),encoding='utf-8')
 print(json.dumps([{'dossier':c['name'],'fichiers':len(c['files']),'distincts':c['distinct']} for c in cases],ensure_ascii=False))
-

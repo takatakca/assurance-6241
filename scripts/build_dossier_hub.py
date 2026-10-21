@@ -14,6 +14,9 @@ for name in names:
         records.append({'name':f.name,'path':rel,'category':f.relative_to(base).parts[0],'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
     intros=[r for r in records if r['category'] in ['00_Lire_en_premier','01_Synthese_et_chronologie'] and r['name'].endswith('.md')]
     if name==names[0]:intros.insert(0,{'path':name+'/00_Lire_en_premier/index.html','name':'Tableau de bord · textes et chronologie'})
+    remise=base/'12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md'
+    if name=='HARMONY MOVERS' and remise.is_file():
+        intros.insert(0,{'path':remise.relative_to(ROOT).as_posix(),'name':'Remise Dufourd · réponses, pièces et téléchargements'})
     cases.append({'name':name,'files':records,'distinct':len(set(r['sha256'] for r in records)),'guides':intros})
 (ROOT/'documentation').mkdir(exist_ok=True)
 (ROOT/'documentation/INDEX-TROIS-DOSSIERS.json').write_text(json.dumps(cases,ensure_ascii=False,indent=2),encoding='utf-8')

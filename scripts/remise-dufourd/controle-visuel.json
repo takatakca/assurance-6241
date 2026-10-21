@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-21",
+  "pdf_sha256": "1f9068bf78387f362c68e631bccf911f29c56b058d48b3508f5374a8d7c29b30",
+  "pages_revisees": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "defauts_restants": [],
+  "methode": "Rendu Poppler 1500 px; lecture visuelle de chaque page. Second contrôle après correction des titres et lignes orphelins, ponctuation et espaces. Dernière correction limitée aux pages 15 et 43 : images relues; les 55 autres rendus PNG sont identiques à la version déjà contrôlée.",
+  "relectures": {
+    "root": [
+      1,
+      14
+    ],
+    "extraction_portrait_chatgpt": [
+      15,
+      29
+    ],
+    "audit_corpus_emails": [
+      30,
+      43
+    ],
+    "master_comptable": [
+      44,
+      57
+    ]
+  },
+  "dernieres_pages_reverifiees_par_root": [
+    15,
+    43
+  ]
+}

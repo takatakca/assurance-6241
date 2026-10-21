@@ -24,11 +24,21 @@ def main():
         acquisition=json.loads((ROOT/'dist-site/HARMONY MOVERS/11_Fieldy/acquisition-pdf.json').read_text(encoding='utf-8'))
         if acquisition['sha256']!=manifest['output_hashes'][fieldy_pdf]:raise RuntimeError('Fieldy acquisition hash differs from the published PDF')
         fieldy_note=f"Le PDF Fieldy est acquis et publié : {acquisition['pages']} pages, dont {acquisition['nonempty_pages']} avec du texte natif extrait. L’original, l’extraction paginée et les analyses attribuées sont accessibles dans `HARMONY MOVERS/11_Fieldy/`. Le texte n’a pas été corrigé; l’audio et l’attribution des locuteurs ne sont pas confirmés par cette extraction."
+    remise_note=''
+    remise='HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/'
+    if remise+'LIRE-EN-PREMIER.md.html' in manifest['output_hashes']:
+        remise_url=live_url+'HARMONY%20MOVERS/12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md.html'
+        remise_note=f"La [remise documentaire Dufourd]({remise_url}) rassemble les réponses préparées, les pièces annexées et les téléchargements disponibles. Elle distingue les pièces disponibles et les vérifications ouvertes; la publication ne signifie pas que les documents ont été envoyés au cabinet."
+    remise_checks=[c['path'] for c in live['checks'] if c['path'].startswith(remise) and c.get('ok')]
+    remise_checked=(remise+'LIRE-EN-PREMIER.md.html' in remise_checks and any(p.endswith('.pdf') for p in remise_checks) and any(p.endswith('.zip') for p in remise_checks))
+    checked_note=' La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP.' if remise_checked else ''
     readme=f'''# Dossiers de travail pour l’avocat
 
 [Ouvrir le site public]({live_url}) · [État de publication](documentation/ETAT-PUBLICATION-GITHUB.md)
 
 Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **HARMONY MOVERS**. Il permet la consultation, la recherche et le téléchargement des documents classés. Le tableau de bord Léger contient aussi une recherche dans les textes PDF/OCR et une chronologie attribuée aux sources. Le classeur comptable et le PowerPoint se téléchargent depuis les rubriques du dossier Léger.
+
+{remise_note}
 
 ## Provenance et couverture
 
@@ -46,6 +56,8 @@ Une modification d’un fichier Markdown sur GitHub ne régénère pas automatiq
 
 Les scripts, modèles et assets sont conservés dans **scripts/**. Le générateur statique Python utilise la bibliothèque standard. Les générateurs comptables et de présentation ont leurs dépendances précisées dans leurs sources.
 
+La remise Dufourd est reproductible avec `scripts/build_remise_dufourd.py` et les entrées de `scripts/remise-dufourd/`. Son PDF utilise ReportLab et les polices Arial installées sous Windows; adapter ces chemins de polices sur un autre système. Après toute nouvelle génération, contrôler visuellement le PDF et actualiser `controle-visuel.json` avec son empreinte réelle avant d’exécuter `scripts/finalize_remise_dufourd.py` (dépendance : pypdf). Ce dernier vérifie les annexes et crée le ZIP. Le contrôle visuel fourni correspond au PDF publié, pas à une future version modifiée.
+
 Les commandes suivantes s’exécutent depuis un **espace source** contenant à sa racine `6241 Léger/`, `6280 Somerled NDG/`, `HARMONY MOVERS/`, `documentation/` et `scripts/`, comme le dossier de travail OneDrive. Cette disposition diffère du répertoire **docs/** du clone publié; conserver les originaux et les manifestes lors de la préparation d’un nouvel espace source. Les lecteurs `.md.html` et les index de répertoires sont des sorties générées.
 
 ```sh
@@ -62,7 +74,7 @@ Le paquet `dist-site/` est contrôlé avant publication. [Les outils de publicat
 
 Le paquet publié contient {manifest['published_files']:,} fichiers, dont {manifest['source_files']:,} sources sélectionnées et {manifest['markdown_readers']} lecteurs Markdown, pour environ {publication['bytes']/1_000_000:.2f} Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
 
-[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/{commit}). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le {live['as_of']}. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.
+[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/{commit}). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le {live['as_of']}.{checked_note} Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.
 '''
     status=f'''# État de publication GitHub
 
@@ -75,7 +87,7 @@ Vérification : {live['as_of']}.
 - Fichiers publiés : {manifest['published_files']}; sources sélectionnées : {manifest['source_files']}; volume réel incluant le manifeste : {publication['bytes']:,} octets.
 - Plus gros fichier : {manifest['largest_files'][0]['bytes']:,} octets.
 - Liens générés contrôlés : {manifest['static_links_checked']}; liens cassés : 0.
-- Contrôles HTTP publics : {len(live['checks'])} réussis, avec comparaison SHA-256 du hub, des trois entrées de dossier, d’un PDF et d’un EML.
+- Contrôles HTTP publics : {len(live['checks'])} réussis, avec comparaison SHA-256 du hub, des trois entrées de dossier, d’un PDF et d’un EML.{checked_note}
 
 Les pièces, courriels, textes OCR, classeur, présentation, index et synthèses sélectionnés sont désormais dans `docs/`. Les originaux de travail restent dans le dossier local; la copie publiée est distincte. `.gitattributes` impose `docs/** -text` pour préserver les octets et les empreintes des documents.
 
@@ -84,12 +96,15 @@ Le site permet consultation, recherche et téléchargement. Les modifications pa
 {rule}
 
 {fieldy_note} Les limites de couverture sont conservées dans les synthèses; la publication n’implique pas que tous les échanges et toutes les pièces possibles ont été obtenus.
+
+{remise_note}
 '''
     (ROOT/'README.md').write_text(readme,encoding='utf-8')
     (ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md').write_text(status,encoding='utf-8')
     selected=[ROOT/'README.md',ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md',ROOT/'documentation/REGLES-COMMUNES.md']
     selected += [p for p in (ROOT/'scripts').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.ps1','.html'}]
     selected += [p for p in (ROOT/'scripts/site').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.js','.css','.md'}]
+    selected += sorted((ROOT/'scripts/remise-dufourd').glob('*.json'))
     for source in selected:
         dest=REPO/source.relative_to(ROOT);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,dest)
     ignore='dist-site/\n.publish-repo/\nscripts/.build-livrables/\nscripts/**/__pycache__/\n'

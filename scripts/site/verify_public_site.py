@@ -23,6 +23,11 @@ for path in ['HARMONY MOVERS/11_Fieldy/README.md.html',
              'HARMONY MOVERS/11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md.html',
              'HARMONY MOVERS/11_Fieldy/texte-natif-pages.json']:
     if path in manifest['output_files']:paths.append(path)
+remise='HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/'
+if remise+'LIRE-EN-PREMIER.md.html' in manifest['output_files']:paths.append(remise+'LIRE-EN-PREMIER.md.html')
+for extension in ['.pdf','.zip']:
+    candidates=[p for p in manifest['output_files'] if p.startswith(remise) and p.lower().endswith(extension)]
+    if candidates:paths.append(min(candidates,key=lambda p:('/' in p[len(remise):],(OUT/p).stat().st_size)))
 checks=[]
 for path in paths:
     url=BASE+quote(path,safe='/')
@@ -31,9 +36,10 @@ for path in paths:
             data=response.read()
             matches=hashlib.sha256(data).hexdigest()==manifest['output_hashes'][path]
             mime=response.headers.get_content_type()
-            expected='application/pdf' if path.endswith('.pdf') else ('message/rfc822' if path.endswith('.eml') else ('application/json' if path.endswith('.json') else 'text/html'))
+            expected='application/pdf' if path.endswith('.pdf') else ('message/rfc822' if path.endswith('.eml') else ('application/json' if path.endswith('.json') else ('application/zip' if path.endswith('.zip') else 'text/html')))
+            mime_ok=(mime==expected or path.endswith('.eml') or (path.endswith('.zip') and mime=='application/x-zip-compressed'))
             checks.append({'path':path,'url':url,'status':response.status,'mime':mime,
-                           'sha256_matches':matches,'ok':response.status==200 and matches and (mime==expected or path.endswith('.eml'))})
+                           'sha256_matches':matches,'ok':response.status==200 and matches and mime_ok})
     except HTTPError as exc:checks.append({'path':path,'url':url,'status':exc.code,'ok':False})
     except (URLError,TimeoutError):checks.append({'path':path,'url':url,'status':0,'ok':False})
 receipt={'as_of':datetime.now(timezone.utc).isoformat(),'ok':all(c['ok'] for c in checks),

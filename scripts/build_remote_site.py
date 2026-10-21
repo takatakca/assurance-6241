@@ -8,7 +8,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote, quote
 from collections import Counter
 from datetime import datetime, timezone
-import argparse, base64, hashlib, html, json, posixpath, re, shutil
+import argparse, base64, hashlib, html, json, posixpath, re, shutil, zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=['6241 Léger','6280 Somerled NDG','HARMONY MOVERS']
@@ -16,7 +16,7 @@ OUT=ROOT/'dist-site'
 WORK=ROOT/'scripts/.build-livrables'
 RULE='Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.'
 RULE_PATH='documentation/REGLES-COMMUNES.md'
-ALLOWED={'.pdf','.png','.jpg','.jpeg','.webp','.gif','.xlsx','.xls','.docx','.doc','.pptx','.csv','.json','.txt','.md','.eml','.html'}
+ALLOWED={'.pdf','.png','.jpg','.jpeg','.webp','.gif','.xlsx','.xls','.docx','.doc','.pptx','.csv','.json','.txt','.md','.eml','.html','.zip'}
 TEXT={'.csv','.json','.txt','.md','.eml','.html'}
 MIMES={'.pdf':'application/pdf','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.gif':'image/gif','.html':'text/html; charset=utf-8','.md':'text/markdown; charset=utf-8','.txt':'text/plain; charset=utf-8','.json':'application/json','.csv':'text/csv; charset=utf-8','.eml':'message/rfc822','.xlsx':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.xls':'application/vnd.ms-excel','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document','.doc':'application/msword','.pptx':'application/vnd.openxmlformats-officedocument.presentationml.presentation'}
 SECRET_PATTERNS={
@@ -28,6 +28,7 @@ SECRET_PATTERNS={
 }
 SECRET_NAMES={'.env','.env.local','.env.production','credentials.json','service-account.json','cookies.json','id_rsa','id_ed25519'}
 EXCLUDE_PARTS={'99_Travail_et_collecte','.git','.codex','.agents','node_modules','__pycache__','ocr-images','.build-livrables'}
+MIMES['.zip']='application/zip'
 warnings=[];exclusions=[];secret_findings=[];repairs=[];missing=[]
 files={};hashes={};generated={};routes={};directories=set();links_checked=0
 
@@ -36,6 +37,29 @@ def escaped_json(value):return json.dumps(value,ensure_ascii=False).replace('<',
 def rel_url(target,source):
     return quote(posixpath.relpath(target,posixpath.dirname(source) or '.'),safe='/')
 def add(rel,text):generated[rel]=text.encode('utf-8') if isinstance(text,str) else text
+def audit_archive(path,rel):
+    """Inspect documentary ZIP members without extracting or changing originals."""
+    with zipfile.ZipFile(path) as archive:
+        for member in archive.infolist():
+            name=PurePosixPath(member.filename.replace('\\','/'))
+            label=rel+'!/'+member.filename
+            if name.is_absolute() or '..' in name.parts or ':' in member.filename:
+                raise RuntimeError('Chemin non portable dans une archive : '+label)
+            if member.is_dir():continue
+            if (member.external_attr >> 16) & 0o170000 == 0o120000:
+                raise RuntimeError('Lien symbolique dans une archive : '+label)
+            if name.name.lower() in SECRET_NAMES or name.suffix.lower() in {'.pem','.key','.pfx','.p12'}:
+                secret_findings.append({'path':label,'kind':'nom de fichier de secrets ou identifiants de service'});continue
+            if name.suffix.lower() not in ALLOWED- {'.zip'} or any(part in EXCLUDE_PARTS for part in name.parts):
+                raise RuntimeError('Pièce non documentaire ou archive imbriquée : '+label)
+            if member.flag_bits & 1:
+                raise RuntimeError('Archive chiffrée impossible à contrôler : '+label)
+            if member.file_size>128*1024*1024:
+                raise RuntimeError('Pièce d’archive supérieure au plafond de contrôle : '+label)
+            if name.suffix.lower() in TEXT:
+                raw=archive.read(member)
+                for kind,pattern in SECRET_PATTERNS.items():
+                    if re.search(pattern,raw):secret_findings.append({'path':label,'kind':kind})
 def collect():
     for name in CASES:
         base=ROOT/name
@@ -58,6 +82,7 @@ def collect():
         if p.suffix.lower() in TEXT:
             for label,pattern in SECRET_PATTERNS.items():
                 if re.search(pattern,raw):secret_findings.append({'path':rel,'kind':label})
+        elif p.suffix.lower()=='.zip':audit_archive(p,rel)
         parent=posixpath.dirname(rel)
         while parent:
             directories.add(parent);parent=posixpath.dirname(parent)

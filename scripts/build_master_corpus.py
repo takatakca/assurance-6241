@@ -118,6 +118,16 @@ def source_type(p):
     if ext in {'.txt','.html','.csv'} and any(w in s for w in ('lectures/','texte','transcription','ocr','extraction')):return 'extraction_ou_transcription'
     return 'document_source_ou_copie'
 
+def redact_source_access_context(t, h):
+    """A judicial login capture uses an email + request number as access fields."""
+    counts=collections.Counter()
+    if h=='1fa35c22238a43a134aafcc5c5541df1106779c15d4557b6eb107b7e2ce018b4':
+        t,n=re.subn(r'(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b','[ADRESSE DU FORMULAIRE D’ACCÈS MASQUÉE]',t)
+        counts['judicial_access_email']+=n
+        t,n=re.subn(r'(?i)\b\d{4}\s*[-–—]\s*PROC\s*[-–—]\s*\d+\b','[NUMÉRO DU FORMULAIRE D’ACCÈS MASQUÉ]',t)
+        counts['judicial_access_request']+=n
+    return t,dict((k,v) for k,v in counts.items() if v)
+
 SOURCE_LABELS={
     'document_source_ou_copie':'Document source ou copie — attribution à vérifier sur la pièce',
     'extraction_ou_transcription':'Extraction ou transcription — à rapprocher de la pièce',
@@ -315,7 +325,7 @@ def native_extract(p,h):
     if prior and prior.get('pages') and not prior.get('truncated'):
         return {'pages':copy.deepcopy(prior['pages']),'errors':copy.deepcopy(prior.get('errors',[])),'attachments':copy.deepcopy(prior.get('attachments_announced',[]))}
     cache=CACHE/'native'/f'{h}.json';cached=read_json(cache)
-    if cached and cached.get('version')==VERSION:return cached['result']
+    if cached and cached.get('version')==VERSION and not (p.suffix.lower()=='.xls' and not cached.get('result',{}).get('pages')):return cached['result']
     ext=p.suffix.lower();pages=[];errors=[];attachments=[]
     if ext=='.pdf':
         from pypdf import PdfReader
@@ -378,14 +388,58 @@ def native_extract(p,h):
         wb.close();cached_values.close()
     elif ext=='.xls':
         try:import xlrd
-        except ImportError:raise ValueError('XLS ancien : lecteur xlrd indisponible; original préservé, non indexé')
-        wb=xlrd.open_workbook(p)
+        except ImportError:
+            vendor=ROOT/'scripts/.build-livrables/python-vendor'
+            if (vendor/'xlrd/__init__.py').is_file():sys.path.insert(0,str(vendor))
+            try:import xlrd
+            except ImportError:raise ValueError('XLS ancien : lecteur xlrd indisponible; original préservé, non indexé')
+        wb=xlrd.open_workbook(str(p),on_demand=True)
+        def column_name(n):
+            out='';n+=1
+            while n:n,k=divmod(n-1,26);out=chr(65+k)+out
+            return out
         for i,s in enumerate(wb.sheets(),1):
-            pages.append({'page':i,'label':s.name,'text':'Feuille : '+s.name+'\n'+'\n'.join('Ligne '+str(r+1)+' : '+' | '.join(str(v) for v in s.row_values(r))for r in range(s.nrows)),'method':'xls_valeurs_enregistrees'})
+            lines=['Feuille : '+s.name,'Lecture XLS avec xlrd '+xlrd.__version__+'. Valeurs et caches enregistrés uniquement; aucun recalcul ni validation des formules.']
+            for r in range(s.nrows):
+                cells=[]
+                for c in range(s.ncols):
+                    cell=s.cell(r,c);typ=cell.ctype;value=cell.value
+                    if typ in {xlrd.XL_CELL_EMPTY,xlrd.XL_CELL_BLANK}:continue
+                    if typ==xlrd.XL_CELL_DATE:
+                        try:
+                            dt=xlrd.xldate_as_datetime(value,wb.datemode);value=dt.date().isoformat() if dt.time()==datetime.time() else dt.isoformat(sep=' ')
+                        except Exception:value='date Excel non convertible; valeur brute='+str(value)
+                        label='date Excel; calendrier '+str(wb.datemode)
+                    elif typ==xlrd.XL_CELL_BOOLEAN:label='booléen';value='VRAI' if value else 'FAUX'
+                    elif typ==xlrd.XL_CELL_ERROR:label='erreur Excel';value=xlrd.error_text_from_code.get(value,'code '+str(value))
+                    elif typ==xlrd.XL_CELL_NUMBER:label='nombre enregistré';value=str(int(value)) if float(value).is_integer() else repr(value)
+                    else:label='texte'
+                    cells.append(column_name(c)+str(r+1)+' ['+label+'] = '+str(value))
+                if cells:lines.append(' | '.join(cells))
+            pages.append({'page':i,'label':s.name,'text':'\n'.join(lines),'method':'xls_xlrd_2_0_2_valeurs_et_caches_non_recalcules','library':'xlrd '+xlrd.__version__,'rows':s.nrows,'columns':s.ncols,'date_mode':wb.datemode})
+        wb.release_resources()
     elif ext=='.doc':raise ValueError('DOC binaire ancien : convertisseur local non disponible; original préservé')
     result={'pages':pages,'errors':errors,'attachments':attachments}
     cache.parent.mkdir(parents=True,exist_ok=True);cache.write_text(json.dumps({'version':VERSION,'result':result},ensure_ascii=False),encoding='utf-8')
     return result
+
+def memory_ocr_helper():
+    # Use an in-memory stream for bytes already readable within the workspace.
+    # StorageFile's separate WinRT broker may reject the same OneDrive path.
+    src=(ROOT/'scripts/run_case_ocr.ps1').read_text(encoding='utf-8-sig')
+    old='''        $file = Await-WinRt ([Windows.Storage.StorageFile]::GetFileFromPathAsync($job.image)) ([Windows.Storage.StorageFile])
+        $stream = Await-WinRt ($file.OpenReadAsync()) ([Windows.Storage.Streams.IRandomAccessStreamWithContentType])'''
+    replacement='''        $stream = [Windows.Storage.Streams.InMemoryRandomAccessStream]::new()
+        $writer = [Windows.Storage.Streams.DataWriter]::new($stream)
+        $writer.WriteBytes([System.IO.File]::ReadAllBytes($job.image))
+        $stored = Await-WinRt ($writer.StoreAsync()) ([uint32])
+        $writer.DetachStream() | Out-Null
+        $writer.Dispose()
+        $stream.Seek(0)'''
+    if old not in src:raise RuntimeError('Helper OCR source modifié : adaptation mémoire à recontrôler')
+    helper=CACHE/'ocr/run_ocr_memory.ps1'
+    atomic_text(helper,'\ufeff'+src.replace(old,replacement))
+    return helper
 
 def run_ocr(pending,limit):
     from PIL import Image,ImageOps
@@ -395,7 +449,11 @@ def run_ocr(pending,limit):
         key=(d['sha256'],pg['page']);stem=d['sha256']+'-p'+str(pg['page']);dest=work/(stem+'.txt')
         if dest.exists():
             t=text_file(dest)
-            if t.strip():results[key]={'text':t,'method':'ocr_Windows_local_a_controler','source_ocr':'cache_local_exclu_publication','validation_visuelle':'non_effectuee'}
+            if t.strip():
+                results[key]={'text':t,'method':'ocr_Windows_local_a_controler','source_ocr':'cache_local_exclu_publication','validation_visuelle':'non_effectuee'}
+                meta=read_json(work/(stem+'.meta.json'),{}) or {}
+                for k in ('ocr_rotation_degrees','orientation_review'):
+                    if k in meta:results[key][k]=meta[k]
             continue
         if len(jobs)>=limit:continue
         if p.suffix.lower()=='.pdf' and not POPPLER.exists():continue
@@ -413,8 +471,11 @@ def run_ocr(pending,limit):
         jobfile=work/'ocr-jobs.json';jobfile.write_text(json.dumps(jobs,ensure_ascii=False),encoding='utf-8-sig')
         ps=Path(os.environ.get('WINDIR','C:/Windows'))/'System32/WindowsPowerShell/v1.0/powershell.exe'
         try:
-            proc=subprocess.run([str(ps),'-NoProfile','-ExecutionPolicy','Bypass','-File',str(ROOT/'scripts/run_case_ocr.ps1'),'-JobsPath',str(jobfile)],capture_output=True,timeout=max(90,len(jobs)*6))
-            state='Windows OCR local; '+str(len(jobs))+' pages demandées; code '+str(proc.returncode)
+            proc=subprocess.run([str(ps),'-NoProfile','-ExecutionPolicy','Bypass','-File',str(memory_ocr_helper()),'-JobsPath',str(jobfile)],capture_output=True,timeout=max(90,len(jobs)*6))
+            outcomes=read_json(work/'ocr-resultats.json',[]) or []
+            if isinstance(outcomes,dict):outcomes=[outcomes]
+            succeeded=sum(not x.get('error') for x in outcomes)
+            state='Windows OCR local par lecture mémoire; '+str(len(jobs))+' pages demandées, '+str(succeeded)+' sans erreur; code '+str(proc.returncode)
         except Exception as e:state='OCR local interrompu/indisponible : '+type(e).__name__
         for key,dest in mapped.items():
             if dest.exists() and text_file(dest).strip():results[key]={'text':text_file(dest),'method':'ocr_Windows_local_a_controler','source_ocr':'cache_local_exclu_publication','validation_visuelle':'non_effectuee'}
@@ -423,7 +484,7 @@ def run_ocr(pending,limit):
 
 def main():
     global PREVIOUS_DOCS
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--ocr-limit',type=int,default=0);ap.add_argument('--max-text-chars',type=int,default=400000);args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--ocr-limit',type=int,default=0);ap.add_argument('--max-text-chars',type=int,default=2000000);ap.add_argument('--ocr-priority-sha',action='append',default=[],help='Priorité OCR par SHA source; option répétable, aucun original modifié.');args=ap.parse_args()
     started=time.monotonic();rules=load_remote_rules();selected,excluded,all_files=select_files(rules)
     PREVIOUS_DOCS={d['sha256']:d for d in (read_json(CORPUS,{}) or {}).get('documents',[])}
     groups=collections.defaultdict(list)
@@ -440,6 +501,14 @@ def main():
         if aliases:duplicates.append({'sha256':h,'canonical_path':d['path'],'aliases':aliases})
         try:r=native_extract(p,h);d['pages']=r['pages'];d['errors']=r['errors'];d['attachments_announced']=r['attachments']
         except Exception as e:d['errors'].append({'error':type(e).__name__+': '+str(e)[:220]});d['extraction_status']='non_indexe_erreur_ou_format'
+        if p.suffix.lower()=='.docx':
+            with zipfile.ZipFile(p) as z:
+                for pg in d['pages']:
+                    label=pg.get('label','')
+                    if label not in {'word/footnotes.xml','word/endnotes.xml'} or pg.get('text','').strip():continue
+                    xml=ET.fromstring(z.read(label));tags=[e.tag.rsplit('}',1)[-1] for e in xml.iter()]
+                    if not any((e.text or '').strip() for e in xml.iter() if e.tag.rsplit('}',1)[-1]=='t') and not any(t in {'drawing','pict','object'} for t in tags):
+                        pg['extraction_status']='not_applicable_empty_auxiliary_xml';pg['empty_auxiliary_verified']=True
         for pg in d['pages']:
             if p.suffix.lower() in IMAGES|{'.pdf'} and len(re.sub(r'\s','',pg['text']))<100:
                 candidates=ocr_map.get((h,pg['page']),[])
@@ -453,7 +522,8 @@ def main():
     mail_audit,mail_source_files=integrate_email_exports(docs,all_files,excluded,rules)
     print('Courriels JSON : '+str(mail_audit['unique_messages'])+' messages uniques; '+str(mail_audit['messages_added'])+' ajoutés; '+str(mail_audit['messages_already_complete'])+' déjà complets.',flush=True)
     # Prefer small recent source documents over generated reports for the targeted OCR pass.
-    pending.sort(key=lambda x:(x[0]['sha256']!='da3e5f8ebdf17514bf62016707ea6207eb8f2fafa9287b6cbceaaa7b84ab4b1b','14_Recherche' not in x[2].as_posix(),'13_Complements' not in x[2].as_posix(),len(x[0]['pages']),x[0]['path'],x[1]['page']))
+    priority={h.lower():n for n,h in enumerate(args.ocr_priority_sha)}
+    pending.sort(key=lambda x:(priority.get(x[0]['sha256'],len(priority)),x[0]['sha256']!='da3e5f8ebdf17514bf62016707ea6207eb8f2fafa9287b6cbceaaa7b84ab4b1b','14_Recherche' not in x[2].as_posix(),'13_Complements' not in x[2].as_posix(),len(x[0]['pages']),x[0]['path'],x[1]['page']))
     new_ocr,ocr_state=run_ocr(pending,max(0,args.ocr_limit))
     for d,pg,p in pending:
         result=new_ocr.get((d['sha256'],pg['page']))
@@ -463,14 +533,15 @@ def main():
         prior_redactions={} if d['format']=='JSON' else PREVIOUS_DOCS.get(d['sha256'],{}).get('redactions',{})
         remaining=args.max_text_chars;original_chars=0;parts=[];missing_pages=[];low_text_pages=[];ocr_pages=[];red=collections.Counter(prior_redactions)
         for pg in d['pages']:
-            t,counts=redact(pg['text'],rules.SECRET_PATTERNS);red.update(counts);original_chars+=len(t)
+            t,counts=redact(pg['text'],rules.SECRET_PATTERNS);red.update(counts)
+            t,context_counts=redact_source_access_context(t,d['sha256']);red.update(context_counts);original_chars+=len(t)
             original=len(t)
             if original>remaining:
                 t=t[:max(0,remaining)];pg['truncated']=True;pg['characters_available']=original;pg['characters_indexed']=len(t)
                 if t:t+='\n[FIN DE L’EXTRAIT INDEXÉ — limite explicite; consulter le document original]'
             remaining=max(0,remaining-min(original,remaining));pg['text']=t;methods[pg['method']]+=1
             if t.strip():parts.append('[Page/unité '+str(pg['page'])+(' — '+pg['label'] if pg.get('label') else '')+'; '+pg['method']+']\n'+t)
-            if not t.strip() and not pg.get('truncated'):missing_pages.append(pg['page'])
+            if not t.strip() and not pg.get('truncated') and not pg.get('empty_auxiliary_verified'):missing_pages.append(pg['page'])
             if d['format'].lower() in {'pdf','png','jpg','jpeg','webp','gif'} and len(re.sub(r'\s','',t))<100 and 'ocr' not in pg['method'].lower() and not pg.get('truncated'):
                 low_text_pages.append(pg['page']);pg['scan_or_low_text_to_verify']=True
             if 'ocr' in pg['method'].lower():ocr_pages.append(pg['page'])
@@ -511,7 +582,7 @@ def main():
     stats['ocr_windows_pages_total']=sum(p['method']=='ocr_Windows_local_a_controler' for d in docs for p in d['pages'])
     atomic_text(CORPUS,json.dumps(payload,ensure_ascii=False,separators=(',',':')))
     stats['corpus_bytes']=CORPUS.stat().st_size
-    coverage={'generated_at':now,'corpus_path':rel(CORPUS),'corpus_sha256':sha(CORPUS),'stats':stats,'limits':{'max_text_chars_per_document':args.max_text_chars,'new_ocr_job_limit':args.ocr_limit,'ocr_runtime':ocr_state,'network_calls':0,'source_documents_modified':False,'cache_location':rel(CACHE)+' — cache local exclu de publication'},'warnings':warnings,'documents_non_ou_partiellement_indexes':nonindexed,'documents_truncated':truncated,'excluded_files':excluded,'duplicate_groups':duplicates,'redactions_without_values':redactions,'visual_sample_checks':checks,'email_json_extraction':mail_audit,'ocr_preservation_check':{'regression_detected':False,'previous_ocr_documents_preserved':len(preserved_ocr),'method':'Comparaison des pages OCR par SHA avant écriture; arrêt si une page OCR antérieure perd son texte.'}}
+    coverage={'generated_at':now,'corpus_path':rel(CORPUS),'corpus_sha256':sha(CORPUS),'stats':stats,'limits':{'max_text_chars_per_document':args.max_text_chars,'new_ocr_job_limit':args.ocr_limit,'ocr_runtime':ocr_state,'network_calls':0,'source_documents_modified':False,'cache_location':rel(CACHE)+' — cache local exclu de publication'},'warnings':warnings,'documents_non_ou_partiellement_indexes':nonindexed,'documents_truncated':truncated,'excluded_files':excluded,'duplicate_groups':duplicates,'redactions_without_values':redactions,'visual_sample_checks':checks,'structural_checks':(read_json(COVER,{}) or {}).get('structural_checks',[]),'extraction_libraries':sorted({pg['library'] for d in docs for pg in d['pages'] if pg.get('library')}),'email_json_extraction':mail_audit,'ocr_preservation_check':{'regression_detected':False,'previous_ocr_documents_preserved':len(preserved_ocr),'method':'Comparaison des pages OCR par SHA avant écriture; arrêt si une page OCR antérieure perd son texte.'}}
     atomic_text(COVER,json.dumps(coverage,ensure_ascii=False,indent=2))
     md=['# Couverture de l’extraction du dossier maître','',f'Générée le {now}. Aucun original ni paquet de remise modifié.','',f"{stats['source_files_seen']} fichiers recensés; {stats['documents_unique']} contenus distincts sélectionnés, {stats['duplicate_paths']} chemins doublons, {stats['excluded_files']} exclusions consignées.",f"{stats['documents_with_text']} documents disposent de texte indexé; {stats['documents_without_text']} restent sans texte. {stats['pages_without_text']} pages/unités sans texte exploitable. {stats['documents_truncated']} documents portent une limite explicite. Corpus : {stats['corpus_bytes']/1_000_000:.2f} Mo.",'','## Méthodes et limites','']+['- '+w for w in warnings]+['',f'OCR local : {ocr_state}. Aucun service externe utilisé.','',f'Plafond de texte par document : {args.max_text_chars:,} caractères après masquage. Toute coupure est marquée sur la page/unité et dans le statut.','', '## Documents sans texte ou avec pages non indexées','', '| Document | Statut | Pages/unités sans texte |','|---|---|---|']
     for d in nonindexed:md.append('| '+d['path'].replace('|','/')+' | '+d['status']+' | '+', '.join(map(str,d['pages_without_text']))+' |')
@@ -519,6 +590,9 @@ def main():
     md+=['','## Exclusions et doublons','', 'La liste complète des chemins exclus et de leur motif, ainsi que tous les groupes SHA et alias, figure dans COUVERTURE-EXTRACTION.json. Les annexes identiques renvoient à leur original canonique; aucun document original n’est supprimé.','', '## Contrôle visuel','', 'Aucune validation visuelle exhaustive n’est revendiquée par le script. Le contrôle ciblé effectué séparément doit être inscrit dans visual_sample_checks; toutes les pages OCR restent qualifiées « à contrôler ».']
     for check in checks:
         md+=['',f"### {check.get('title',check['canonical_path'])}",'',f"Pièce : {check['canonical_path']} — page/unité {check['page']}. SHA-256 : {check['sha256']}.",'',check.get('findings',''),'',check.get('method','')]
+    if coverage['structural_checks']:
+        md+=['','## Contrôles structurels et formats anciens','']
+        md+=['- '+x['findings'] for x in coverage['structural_checks']]
     atomic_text(COVER.with_suffix('.md'),'\n'.join(md)+'\n')
     print(json.dumps(stats,ensure_ascii=False),flush=True)
 

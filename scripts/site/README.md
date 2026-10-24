@@ -8,6 +8,8 @@ Le dossier maître `00_DOSSIER_MAITRE/` apporte une table des matières, des vue
 
 Le maître est produit par `scripts/build_master_corpus.py`, puis `scripts/build_master_workspace.py`, avec les modèles `scripts/master/*.js` et `scripts/master/*.css`. Exécuter ces commandes après la stabilisation des sources et avant le générateur de publication; le second maintient le lanceur commun. Ne pas exécuter l’ancien `scripts/build_dossier_hub.py` dans ce cycle : il remplacerait ce lanceur et le contrôle des modifications extérieures interromprait la génération suivante. Le corpus d’extraction peut nécessiter les bibliothèques documentaires indiquées dans le script.
 
+Les anciens classeurs XLS sont lus avec `xlrd 2.0.2`, installé localement dans `scripts/.build-livrables/python-vendor` ou disponible dans l’environnement Python. L’extraction utilise les valeurs enregistrées et les dates typées; elle ne recalcule pas les formules et n’ouvre pas Excel. Les versions restent distinctes et ne s’additionnent pas. Les vues de lecture indiquent la feuille d’origine. Le texte des présentations est présenté par partie logique; un ancien DOC sans lecteur disponible conserve une page explicative et le téléchargement de sa source.
+
 ```sh
 python scripts/build_master_corpus.py
 python scripts/build_master_workspace.py

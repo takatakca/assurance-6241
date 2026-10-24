@@ -88,7 +88,7 @@ def friendly_method(value):
     value=str(value or '')
     if 'ocr' in value.lower():return 'OCR automatique — à contrôler'
     if 'pdf_' in value:return 'Texte natif du PDF'
-    if 'xlsx' in value:return 'Cellules du classeur — valeurs non recalculées'
+    if 'xlsx' in value or 'xls_' in value:return 'Cellules du classeur — valeurs non recalculées'
     if 'OOXML' in value:return 'Texte du document — unité logique'
     if 'EML' in value:return 'Corps du courriel et noms des pièces jointes'
     if 'json' in value.lower():return 'Texte du courriel exporté'
@@ -106,6 +106,13 @@ def main():
     renderer.collect(); selected.update(r for r in renderer.files if not r.startswith(MASTER+'/'))
     selected.update(p.relative_to(ROOT).as_posix() for p in (ROOT/MASTER/'04_Remise_et_suivis').glob('*') if p.is_file() and p.suffix in {'.md','.txt'})
     doc_by_hash = {d['sha256']: d for d in documents}
+    current_hashes = {}
+    for doc in documents:
+        for path in [doc['path'], *doc.get('aliases', [])]:
+            if not isinstance(path, str): continue
+            if path not in current_hashes: current_hashes[path] = sha((ROOT/path).read_bytes())
+            if current_hashes[path] != doc['sha256']:
+                raise RuntimeError('Le corpus ne correspond plus à la source; régénérer le corpus avant le maître : '+path)
     for doc in documents:
         doc['format'] = doc.get('format', PurePosixPath(doc['path']).suffix).lower().lstrip('.')
         doc['aliases'] = [a for a in doc.get('aliases', []) if isinstance(a, str) and a != doc['path'] and a in selected]
@@ -117,10 +124,10 @@ def main():
         if not doc.get('pages') and doc.get('text'): doc['pages'] = [{'page':None,'text':doc['text'],'method':doc.get('extraction_status','Extraction textuelle')}]
         doc['extraction_status']=friendly_status(doc['extraction_status'])
         for pg in doc.get('pages',[]):pg['method']=friendly_method(pg.get('method'))
-    text_formats = {'.md','.txt','.eml','.json','.csv','.docx','.xlsx','.xls','.html'}
+    text_formats = {'.md','.txt','.eml','.json','.csv','.doc','.docx','.xlsx','.xls','.pptx','.html'}
     for path in sorted(selected):
         if PurePosixPath(path).suffix.lower() not in text_formats or path.startswith(MASTER+'/08_Lectures/'): continue
-        digest = sha((ROOT/path).read_bytes())
+        digest = current_hashes.get(path) or sha((ROOT/path).read_bytes())
         output = MASTER + '/08_Lectures/' + digest + '.html'
         readers[path] = output
         if output not in reader_sources: reader_sources[output] = doc_by_hash.get(digest, {}).get('path', path)
@@ -163,7 +170,7 @@ def main():
             content = '<h1>'+esc(title)+'</h1>'
             if not pages: content += '<p>La lecture textuelle de ce format n’est pas disponible dans cet index. Télécharger la pièce source ci-dessus.</p>'
             for idx, item in enumerate(pages,1):
-                n = item.get('page'); label = ('Feuille '+str(item.get('label') or n)) if p.suffix.lower()=='.xlsx' else ('Partie '+str(item.get('label') or n)) if p.suffix.lower() in {'.docx','.pptx'} else str(item.get('label') or f'Extrait {idx}')
+                n = item.get('page'); label = ('Feuille '+str(item.get('label') or n)) if p.suffix.lower() in {'.xlsx','.xls'} else ('Partie '+str(item.get('label') or n)) if p.suffix.lower() in {'.docx','.pptx'} else str(item.get('label') or f'Extrait {idx}')
                 content += f'<section class="page" id="page-{n or idx}"><p class="eyebrow">{esc(label)} · {esc(item.get("method","Extraction"))}</p><pre>{esc(item.get("text",""))}</pre></section>'
         intro = '<p class="breadcrumb">'+link('Accueil',HOME,output)+' / '+esc(doc.get('number','Lecture') if doc else 'Lecture')+'</p>'
         intro += '<div class="actions back">'+link('Télécharger la source',path,output,'button secondary',True)+'</div>'

@@ -46,7 +46,11 @@ def main():
     latest='HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html'
     if latest in manifest['output_hashes']:
         latest_url=live_url+'HARMONY%20MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html'
-        complements_note+=f" Le [bilan du 24 octobre 2026]({latest_url}) documente la reprise des recherches dans les deux boîtes courriel et les quatre conversations ChatGPT désormais accessibles. Les déclarations et analyses récupérées restent distinctes des pièces originales; les demandes sans document suffisant restent indiquées. Les archives de collecte contenant d’anciens scripts sont conservées localement dans OneDrive; les extraits pertinents et leur provenance sont publiés."
+        complements_note+=f" Le [bilan du 24 octobre 2026]({latest_url}) documente une reprise antérieure des recherches dans les deux boîtes courriel et la récupération de quatre conversations ChatGPT. Les déclarations et analyses récupérées restent distinctes des pièces originales; les demandes sans document suffisant restent indiquées. Les archives de collecte contenant d’anciens scripts sont conservées localement dans OneDrive; les extraits pertinents et leur provenance sont publiés."
+    reading_batch='HARMONY MOVERS/15_Suivi_extractions_2026-10-24/BILAN-DU-LOT.md.html'
+    if reading_batch in manifest['output_hashes']:
+        reading_batch_url=live_url+'HARMONY%20MOVERS/15_Suivi_extractions_2026-10-24/BILAN-DU-LOT.md.html'
+        complements_note+=f" Le [complément de lecture du 24 octobre]({reading_batch_url}) ajoute au texte recherchable trois anciens classeurs et 25 pages ou images déjà détenues. Il signale notamment la page imprimée 2 de QUA-002 absente de la copie examinée, les répétitions d’annexe et les limites de lecture des tableaux financiers. Le paquet de 312 annexes reste inchangé. Lors de cette dernière reprise, les nouveautés Takatak et Ooeuf ont été contrôlées sans nouvelle pièce pertinente; l’état distant des conversations ChatGPT n’a pas été revalidé."
     remise_checks=[c['path'] for c in live['checks'] if c['path'].startswith(remise) and c.get('ok')]
     remise_checked=(remise+'LIRE-EN-PREMIER.md.html' in remise_checks and any(p.endswith('.pdf') for p in remise_checks) and any(p.endswith('.zip') for p in remise_checks))
     checked_note=' La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP.' if remise_checked else ''

@@ -21,7 +21,11 @@ const checks=[
  ['"Moving Globo Shoe Company"','HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/REPONSES-AUX-25-DEMANDES.pdf'],
  ['CN487','HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/Originaux/INVENTAIRE RESTO.xlsx'],
  ['Dufourd','HARMONY MOVERS/03_Courriels/Originaux_ooeuf_2026-10-20/2026-10-20_1425_Quadro_reponse.eml'],
- ['"electricien licencie RBQ"','6280 Somerled NDG/03_Courriels/takatak.ca@gmail.com/19adac1b3dc27cc0.json']
+ ['"electricien licencie RBQ"','6280 Somerled NDG/03_Courriels/takatak.ca@gmail.com/19adac1b3dc27cc0.json'],
+ ['"General Ledger Report" "2025-06-30"','6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/final.xls'],
+ ['"General Ledger Report" "2025-06-30"','HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/19cb1ecd4a7964a1__quadro excel sort.xls'],
+ ['"General Ledger Report" "2025-06-30"','HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/19cb13a2879f146c__quadro excel sort.xls'],
+ ['"FINANCIAL INFORMATION"','HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf']
 ];
 const result=[];
 for(const [query,source] of checks){

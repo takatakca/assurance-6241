@@ -45,6 +45,14 @@ draft=OUT/master/'04_Remise_et_suivis/COURRIEL-DE-REMISE.md'
 if draft.is_file():
     reader=master+'08_Lectures/'+hashlib.sha256(draft.read_bytes()).hexdigest()+'.html'
     if reader in manifest['output_files']:paths.append(reader)
+for source in ['6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/final.xls',
+               'HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/19cb1ecd4a7964a1__quadro excel sort.xls',
+               'HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/19cb13a2879f146c__quadro excel sort.xls',
+               'HARMONY MOVERS/15_Suivi_extractions_2026-10-24/BILAN-DU-LOT.md']:
+    if (OUT/source).is_file():
+        reader=master+'08_Lectures/'+hashlib.sha256((OUT/source).read_bytes()).hexdigest()+'.html'
+        if reader in manifest['output_files']:paths.append(reader)
+        if source+'.html' in manifest['output_files']:paths.append(source+'.html')
 checks=[]
 for path in paths:
     url=BASE+quote(path,safe='/')

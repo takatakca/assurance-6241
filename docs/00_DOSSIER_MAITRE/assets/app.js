@@ -13,7 +13,7 @@
   const create = (tag, text, cls) => { const el = document.createElement(tag); if (text) el.textContent = text; if (cls) el.className = cls; return el; };
   const link = (label, path, cls) => { const el = create('a', label, cls); el.href = url(path); return el; };
   let matches = [], shown = 0, ts = [];
-  const pageLabel = (p, doc) => !p ? 'Texte' : doc.format === 'pdf' ? 'Page ' + p.page : doc.format === 'xlsx' ? 'Feuille ' + (p.label || p.page) : doc.format === 'json' ? (p.label || 'Courriel '+p.page) : ['png','jpg','jpeg','webp'].includes(doc.format) ? 'Image' : ['docx','pptx'].includes(doc.format) ? 'Partie ' + (p.label || p.page) : 'Texte';
+  const pageLabel = (p, doc) => !p ? 'Texte' : doc.format === 'pdf' ? 'Page ' + p.page : ['xlsx','xls'].includes(doc.format) ? 'Feuille ' + (p.label || p.page) : doc.format === 'json' ? (p.label || 'Courriel '+p.page) : ['png','jpg','jpeg','webp'].includes(doc.format) ? 'Image' : ['docx','pptx'].includes(doc.format) ? 'Partie ' + (p.label || p.page) : 'Texte';
   function renderMore() {
     const fragment = document.createDocumentFragment();
     for (const item of matches.slice(shown, shown + 30)) {

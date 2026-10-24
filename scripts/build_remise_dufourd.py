@@ -7,7 +7,11 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 AUDITS = ROOT / 'scripts/remise-dufourd'
 OUT = ROOT / 'HARMONY MOVERS/12_Remise_Dufourd_2026-10-21'
-DATE = '21 octobre 2026'
+DATE_ISO = '2026-10-24'
+DATE = '24 octobre 2026'
+RESEARCH = ROOT / 'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md'
+RESEARCH_LINK = '../14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md'
+RESEARCH_SUMMARY = 'La recherche complémentaire du 24 octobre 2026 porte sur les deux boîtes courriel et les quatre conversations ChatGPT auparavant inaccessibles. Ces quatre conversations sont désormais accessibles; leurs déclarations et les réponses de ChatGPT restent distinguées des pièces originales. Les résultats et les limites de recherche sont détaillés dans le bilan complémentaire.'
 COMMON = 'Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.'
 LABELS = {'document_disponible':'Document demandé disponible', 'partiel':'Pièces disponibles en partie', 'non_repere':'Document non repéré', 'a_confirmer':'Existence ou portée à confirmer'}
 REQUESTS = [
@@ -51,6 +55,35 @@ BASE += [
 ('HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md','Bilan de la recherche complémentaire du 21 octobre 2026 et évolution des demandes','analyse'),
 ('HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PROVENANCE-OOEUF.json','Provenance et empreintes des pièces natives récupérées dans Ooeuf','analyse'),
 ('HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md','Contrôle des rapports de saisie et du procès-verbal signé nouvellement acquis','analyse')]
+# Add the new research as context. Historical cotes and hashes remain unchanged;
+# identical files already cited in the responses are kept only once by annexes().
+LOT14 = 'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/'
+BASE += [(LOT14+p,a,n) for p,a,n in [
+('BILAN-DE-LA-RECHERCHE.md','Bilan du 24 octobre : deux boîtes courriel, quatre conversations ChatGPT et nouveaux documents du client','analyse'),
+('PRECISIONS-DU-CLIENT-24-OCTOBRE.md','Précisions du client du 24 octobre; déclarations distinguées des preuves documentaires','declaration'),
+('SUIVIS-ET-CONTACTS.md','Détenteurs indiqués par le client et demandes ciblées préparées; aucun contact effectué','analyse'),
+('ChatGPT/BILAN-REPRISE-CHATGPT.md','Bilan des quatre conversations auparavant inaccessibles, maintenant consultées','analyse'),
+('ChatGPT/COUVERTURE-REPRISE-CHATGPT-2026-10-24.json','URLs, dates, état d’accès et provenance des extractions des quatre conversations','analyse'),
+('ChatGPT/Finaliser-dossier-Harmony-Movers.txt','Extraction de conversation : Finaliser dossier Harmony Movers; paroles du client et texte ChatGPT ne sont pas des pièces originales de l’incident','extraction'),
+('ChatGPT/Extraire-la-conversation.txt','Extraction assemblée de la conversation Extraire la conversation; rôles détaillés dans le relevé associé','extraction'),
+('ChatGPT/Extraire-la-conversation-roles.json','Attribution des messages utilisateur et assistant de la conversation Extraire la conversation','analyse'),
+('ChatGPT/Prepare-Hearing-Evidence.txt','Extraction de la conversation Prepare Hearing Evidence; contenu déclaratif et analytique','extraction'),
+('ChatGPT/Prepare-Hearing-Evidence-roles.json','Attribution des messages utilisateur et assistant de Prepare Hearing Evidence','analyse'),
+('ChatGPT/Harmony-Movers-Incident.txt','Extraction de la conversation Harmony Movers Incident; contenu déclaratif et analytique','extraction'),
+('ChatGPT/Harmony-Movers-Incident-roles.json','Attribution des messages utilisateur et assistant de Harmony Movers Incident','analyse'),
+('ChatGPT/CONTROLE-FACTURES-ARCHIVES.json','Contrôles des PDF extraits des archives et limites de rapprochement','analyse'),
+('ChatGPT/CONTROLE-DIFFUSION-ARCHIVES.json','Conservation locale des deux archives complètes et diffusion des extraits pertinents','analyse'),
+('Ooeuf/PROVENANCE-OOEUF-24.json','Provenance des courriels et pièces récupérés dans Ooeuf le 24 octobre','analyse'),
+('Ooeuf/ANALYSE-ET-PROVENANCE-OOEUF.md','Analyse et limites des pièces Ooeuf : factures AKA, relocalisation et lettre Uber Eats','analyse'),
+('Ooeuf/Polices/Controle_10043375_2024_2025/CONTROLE-VISUEL.json','Contrôle des conditions particulières et pages ciblées de la police 10043375 renouvelée pour 2024–2025','analyse'),
+('Ooeuf/Polices/Controle_10043375_2023_2024/CONTROLE-VISUEL.json','Contrôle des conditions particulières de la police initiale 10043375 pour 2023–2024','analyse'),
+('Entretien_inventaire_24/PROVENANCE-TABLEAUX.json','Origine et empreintes des trois versions du sommaire IndemniPro','analyse'),
+('Entretien_inventaire_24/PROVENANCE-COURRIELS-TABLEAUX.json','Provenance des échanges cités de Joey Dubois sur les tableaux et les rapports techniques','analyse'),
+('Entretien_inventaire_24/CONTROLE-VISUEL.json','Contrôle des photographies de factures et différences de versions','analyse'),
+('Autorisation_SPVM/LIRE-EN-PREMIER.md','Instructions au cabinet pour le projet d’autorisation SPVM à faire signer personnellement','analyse'),
+('Autorisation_SPVM/PROVENANCE-AUTORISATION.json','Sources officielles et limites du projet d’autorisation SPVM non signé','analyse'),
+('Autorisation_SPVM/CONTROLE-VISUEL-AUTORISATION.json','Contrôle visuel des deux pages du projet SPVM','analyse'),
+]]
 
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def jwrite(p, data): p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n',encoding='utf-8')
@@ -145,6 +178,8 @@ def write_texts(rows,ann):
     counts=Counter(r['statut'] for r in rows)
     intro=[f'# Réponses documentaires aux 25 demandes de Me Dufourd',f'\nQuadro Holdings ltée et Harmony Movers — État du {DATE}.', '\nCe dossier prépare la remise au cabinet des documents disponibles pour chacune des 25 demandes du 5 octobre, réitérées le 20 octobre 2026. Les réponses ci-dessous s’appuient sur les pièces annexées. Les documents absents ou incomplets sont indiqués séparément. **Dossier préparé, non envoyé.**', '\nLes références A001 et suivantes sont des cotes de classement internes. Une annexe n’est conservée qu’une fois lorsque ses octets sont identiques; elle peut servir à plusieurs demandes. La disponibilité d’une pièce ne vaut ni confirmation de réception par le cabinet, ni reconnaissance que l’engagement est satisfait.', '\n'+COMMON, '\n## État des réponses', '\n| Statut documentaire | Nombre |','|---|---:|']
     intro += [f'| {LABELS[k]} | {counts[k]} |' for k in LABELS if counts[k]]
+    if RESEARCH.is_file():
+        intro += ['\n'+RESEARCH_SUMMARY, f'\n[Bilan de la recherche du 24 octobre 2026]({RESEARCH_LINK}).']
     intro += ['\nLes statuts portent sur les documents demandés, sans jugement sur leur force probante. Le cabinet pourra préciser la portée des engagements, notamment l’écart entre le n° 8 écrit et l’E9 oral, ainsi que la réserve relative à certains échanges internes.', '\nLa transcription Fieldy demeure automatique, avec locuteurs non identifiés et audio absent. Son usage est celui d’un repérage par page et heure; elle ne remplace pas les notes officielles.', '\n## Réponses par demande']
     md='\n'.join(intro)+'\n'
     missing=['# Documents manquants et démarches ciblées',f'\nÉtat du {DATE}. Les personnes ou organismes mentionnés sont des détenteurs à confirmer; aucune demande ne leur a été envoyée.']
@@ -220,7 +255,20 @@ def make_pdf(rows,ann):
     styles.add(ParagraphStyle('Small',parent=styles['Normal'],fontSize=8.5,leading=11,spaceAfter=5))
     styles.add(ParagraphStyle('Cell',parent=styles['Normal'],fontSize=8.5,leading=11,spaceAfter=0))
     styles.add(ParagraphStyle('CellHeader',parent=styles['Cell'],fontName='Arial-Bold',textColor=colors.white))
-    esc=lambda x:html.escape(s(x).replace('—','-').replace('–','-').replace('\u2011','-').replace('..','.').replace('.;',';')).replace('\n','<br/>')
+    def esc(value):
+        # Display-only typography: source files and quoted image originals stay intact.
+        text=s(value)
+        months='janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre'
+        text=re.sub(r'(?i)\b(le|acquisition)(\d{1,2})(?=(?:'+months+'))',r'\1 \2',text)
+        text=re.sub(r'(?i)(\d{1,2})('+months+r')(20\d{2})\b',r'\1 \2 \3',text)
+        text=re.sub(r'(?i)\b('+months+r')(20\d{2})\b',r'\1 \2',text)
+        text=re.sub(r'\b(Takatak|chargement|échange|écrite|Photo|dans|entreposage)(?=\d)',r'\1 ',text)
+        text=re.sub(r'(?<=[A-Za-zÀ-ÿ]),(?=\d)',', ',text)
+        text=re.sub(r'(20\d{2}),(?=\d{1,2}:)',r'\1, ',text)
+        text=text.replace('$+taxes','$ + taxes')
+        # Arial lacks this glyph; the bracket is an explicit editorial description.
+        text=text.replace('🤝','[emoji : poignée de main]')
+        return html.escape(text.replace('—','-').replace('–','-').replace('\u2011','-').replace('..','.').replace('.;',';')).replace('\n','<br/>')
     P=lambda txt,style='Normal':Paragraph(esc(txt),styles[style])
     story=[P('Réponses documentaires aux 25 demandes','Title'),P('Quadro Holdings ltée et Harmony Movers','Heading1'),P('Pour Me Christian Dufourd\nÉtat du '+DATE),P('Ce dossier réunit les réponses préparées aux 25 demandes du 5 octobre 2026 et les documents disponibles. Chaque réponse indique ses annexes, ce qui manque et les démarches ciblées. Dossier préparé, non envoyé.'),P(f'{len(ann)} annexes distinctes accompagnent ce document. Les cotes A001 et suivantes sont des références internes; une même annexe peut soutenir plusieurs réponses. Le bordereau CSV et JSON précise les emplacements sources et les empreintes SHA256.'),P(COMMON),P('Statut des documents','Heading2')]
     counts=Counter(r['statut'] for r in rows)
@@ -251,14 +299,17 @@ def make_pdf(rows,ann):
 
 def finish(rows,ann):
     counts=dict(Counter(r['statut'] for r in rows))
-    controls={'date':'2026-10-21','demandes':len(rows),'statuts':counts,'annexes_uniques':len(ann),'octets_annexes':sum(a['octets'] for a in ann),'copies_identiques_non_dupliquees':sum(len(a['copies_identiques']) for a in ann),'originaux_modifies':False,'courriel_envoye':False,'sha_erreurs':[],'pdf_controle_visuel':'à effectuer avant livraison'}
+    controls={'date':DATE_ISO,'demandes':len(rows),'statuts':counts,'annexes_uniques':len(ann),'octets_annexes':sum(a['octets'] for a in ann),'copies_identiques_non_dupliquees':sum(len(a['copies_identiques']) for a in ann),'originaux_modifies':False,'courriel_envoye':False,'sha_erreurs':[],'pdf_controle_visuel':'à effectuer avant livraison'}
     for a in ann:
         if sha(OUT/a['fichier'])!=a['sha256'] or sha(source_path(a['source']))!=a['sha256']:controls['sha_erreurs'].append(a['id'])
     if controls['sha_erreurs']:raise ValueError('Empreinte divergente')
     jwrite(OUT/'CONTROLES-DU-DOSSIER.json',controls)
+    research_note=(RESEARCH_SUMMARY+f'\n\n[Bilan de la recherche du 24 octobre 2026]({RESEARCH_LINK}).\n\n') if RESEARCH.is_file() else ''
     readme=f'''# Dossier de remise à Me Christian Dufourd
 
 État du {DATE}. **Préparé, non envoyé.** Les 25 demandes ont une réponse documentaire individualisée, avec les pièces disponibles et les manquants précis. Le dossier ne certifie pas que tous les engagements sont satisfaits.
+
+{research_note}Le dossier et les noms de téléchargement conservent leur emplacement initial du 21 octobre pour préserver les liens existants. La date ci-dessus indique la version documentaire courante.
 
 1. Lire les [réponses en PDF](REPONSES-AUX-25-DEMANDES.pdf) ou la [version en ligne](REPONSES-AUX-25-DEMANDES.md).
 2. Consulter le [bordereau des {len(ann)} annexes](BORDEREAU-DES-ANNEXES.md), avec [empreintes et chemins sources CSV](BORDEREAU-DES-ANNEXES.csv).

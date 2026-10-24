@@ -87,16 +87,19 @@
       "Premier audit, avant cette collecte complémentaire : Recherche locale dans les trois dossiers des noms « états financiers », « financial statements », « balance », « immobilisation », « grand livre » et « amortization »; le bilan demandé n’avait pas encore été acquis lors de cette première recherche; les états 2025 sont ajoutés dans le présent complément.",
       "Premier audit, avant cette collecte complémentaire : Consultation des deux extractions de courriels pour la provenance; aucun document original modifié.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json."
+      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   },
   {
     "id": 13,
     "demande": "Produire les contrats conclus avec DoorDash, Uber Eats, Sky et Descheuse, ainsi que tous les relevés relatifs à ces entreprises.",
     "statut": "partiel",
-    "reponse_proposee": "Aux classeurs de ventes 2024 déjà identifiés, nous ajoutons 107 relevés mensuels originaux DoorDash couvrant neuf identifiants de commerce :59 pour 2024 et 48 pour 2025, avec un registre des mois effectivement présents. Les 87 relevés portant 6241 Léger et les 20 portant 5837 Jean-Talon sont distingués; plusieurs identifiants conservent le même numéro lors du changement d’adresse imprimée en mai/juin 2025. Cela ne démontre pas, seul, les dates d’ouverture physique. Deux exports SKIP sont également joints : un CSV nommé mars–décembre 2024 et un XLSX nommé novembre 2024–avril 2025, mais l’adresse et l’identifiant du commerce ne figurent pas dans les cellules. Le courriel du XLSX le décrit comme les relevés du précédent local de Pizza Mambo 5; son rattachement au litige est à confirmer. Aucun contrat accepté ni ensemble complet Uber 2025 n’a été repéré dans cette recherche Takatak. Les contrats et périodes manquantes restent à compléter; « Sky et Descheuse » dans la liste écrite est rapproché de Skip the Dishes dans Fieldy, sous confirmation.",
+    "reponse_proposee": "Aux classeurs de ventes 2024 déjà identifiés, nous ajoutons 107 relevés mensuels originaux DoorDash couvrant neuf identifiants de commerce :59 pour 2024 et 48 pour 2025, avec un registre des mois effectivement présents. Les 87 relevés portant 6241 Léger et les 20 portant 5837 Jean-Talon sont distingués; plusieurs identifiants conservent le même numéro lors du changement d’adresse imprimée en mai/juin 2025. Cela ne démontre pas, seul, les dates d’ouverture physique. Deux exports SKIP sont également joints : un CSV nommé mars–décembre 2024 et un XLSX nommé novembre 2024–avril 2025, mais l’adresse et l’identifiant du commerce ne figurent pas dans les cellules. Le courriel du XLSX le décrit comme les relevés du précédent local de Pizza Mambo 5; son rattachement au litige est à confirmer. Aucun contrat accepté ni ensemble complet Uber 2025 n’a été repéré dans cette recherche Takatak. Les contrats et périodes manquantes restent à compléter; « Sky et Descheuse » dans la liste écrite est rapproché de Skip the Dishes dans Fieldy, sous confirmation. Le client désigne le dossier fiscal déjà transmis par Tommaso/Nick comme sa réponse. Les sources identifient Nicholas « Nick » Cristiano, CPA, CMA, au cabinet Tommaso Di Paola Inc.; les classeurs et le rapport de compilation au 30 juin 2025 sont déjà joints. La note de rapprochement distingue les documents effectivement disponibles des contrats, périodes ou calculs restant à documenter. Une lettre Quadro de trois pages demandant l’activation de seize marques sur Uber Eats est également disponible. Elle porte la date imprimée du 24 avril 2024 et l’adresse 5839 Jean-Talon, et figure en pièce jointe du courriel du 16 juillet 2025 à Benson Noisy. Il s’agit d’une démarche unilatérale du client : aucune acceptation Uber, aucun contrat contresigné ni revenu n’en est déduit.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx",
@@ -1097,6 +1100,36 @@
         "nature": "original",
         "sha256": "4b792f2d432ae41da63f6b19f15adc563724c2e94176dbdbf722ffb49f92dedf",
         "octets": 27852
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/NOTE-DOSSIER-FISCAL-TOMMASO-NICK.md",
+        "apport": "Repérage du dossier fiscal Tommaso Di Paola/Nicholas Cristiano et limites par demande.",
+        "repere": "",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Quadro_Holding_Lettre_UberEats_FR_Clean.pdf",
+        "apport": "Lettre unilatérale Quadro demandant l’activation de seize marques chez Uber Eats; date imprimée du 24 avril 2024, adresse 5839 Jean-Talon.",
+        "repere": "3 pages; jointe au courriel du 16 juillet 2025 à Benson Noisy",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/PROVENANCE-OOEUF-24.json",
+        "apport": "Provenance du courriel et de la lettre Uber Eats; date imprimée et date d’envoi distinguées.",
+        "repere": "",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/ANALYSE-ET-PROVENANCE-OOEUF.md",
+        "apport": "Analyse des documents récupérés dans Ooeuf, dont la lettre unilatérale Uber Eats et ses limites.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
@@ -1118,23 +1151,27 @@
       "107 couples identifiant de commerce/mois distincts, sans doublon dans ce nouveau lot.",
       "107 PDF /415 pages DoorDash extraites nativement; trois pages de résumé vérifiées visuellement (OEUF mars/mai 2025, PPP juin 2025). Les 415 pages n’ont pas toutes fait l’objet d’une revue visuelle.",
       "Les totaux nets DoorDash sont des montants après frais de plateforme, non des bénéfices d’exploitation. Les pages de détail peuvent couvrir plusieurs mois : aucun cumul avec leur résumé.",
-      "Les relevés indiquent qu’ils ne constituent pas des factures fiscales; ne pas en déduire la récupération de taxes."
+      "Les relevés indiquent qu’ils ne constituent pas des factures fiscales; ne pas en déduire la récupération de taxes.",
+      "Lettre Uber : date imprimée du 24 avril 2024 distincte de sa transmission le 16 juillet 2025; adresse 5839 distincte du 5837, à rapprocher sans correction du document source."
     ],
     "recherche_effectuee": [
       "Premier audit, avant cette collecte complémentaire : Lecture openpyxl en mode lecture seule des onze classeurs, inventaire des onglets, vérification des cellules de synthèse et des dates de commandes de la colonne E.",
       "Premier audit, avant cette collecte complémentaire : Recherche de contrats, conditions acceptées, Uber, DoorDash, Sky/Skip et Descheuse dans les noms de pièces et textes locaux des trois dossiers.",
       "Premier audit, avant cette collecte complémentaire : Lecture du passage Fieldy pages 39–40 pour signaler l’écart de désignation entre demande écrite et transcription.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json."
+      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   },
   {
     "id": 14,
     "demande": "Produire les rapports de caisse ainsi que les déclarations de TPS et de TVQ pour les années 2024 et 2025.",
     "statut": "partiel",
-    "reponse_proposee": "Nous joignons désormais la déclaration de TPS/TVQ de Quadro du 1 juillet au 30 septembre 2024 et son accusé de réception, qui indique une transmission réussie le 7 octobre 2024 par Élodie Simard. Elle déclare 27877,99 $ de fournitures,755,76 $ de TPS nette et 1507,73 $ de TVQ nette, soit 2263,49 $ à remettre. L’intention de payer affichée ne constitue pas une preuve de paiement. Les données coïncident avec le tableau trimestriel déjà identifié, mais l’écart de 2,61 $ avec le grand livre reste à expliquer. Les autres déclarations 2024–2025 et les rapports originaux de caisse demeurent à produire.",
+    "reponse_proposee": "Nous joignons désormais la déclaration de TPS/TVQ de Quadro du 1 juillet au 30 septembre 2024 et son accusé de réception, qui indique une transmission réussie le 7 octobre 2024 par Élodie Simard. Elle déclare 27877,99 $ de fournitures,755,76 $ de TPS nette et 1507,73 $ de TVQ nette, soit 2263,49 $ à remettre. L’intention de payer affichée ne constitue pas une preuve de paiement. Les données coïncident avec le tableau trimestriel déjà identifié, mais l’écart de 2,61 $ avec le grand livre reste à expliquer. Les autres déclarations 2024–2025 et les rapports originaux de caisse demeurent à produire. Le client désigne le dossier fiscal déjà transmis par Tommaso/Nick comme sa réponse. Les sources identifient Nicholas « Nick » Cristiano, CPA, CMA, au cabinet Tommaso Di Paola Inc.; les classeurs et le rapport de compilation au 30 juin 2025 sont déjà joints. La note de rapprochement distingue les documents effectivement disponibles des contrats, périodes ou calculs restant à documenter.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Ventes-juil-sept-2024.png",
@@ -1183,6 +1220,18 @@
         "nature": "analyse",
         "sha256": "70c7a7e75885304a72a270b9f288d668eaf1dba8652341e7cf9964cf988f7575",
         "octets": 1096
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/NOTE-DOSSIER-FISCAL-TOMMASO-NICK.md",
+        "apport": "Repérage du dossier fiscal Tommaso Di Paola/Nicholas Cristiano et limites par demande.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
@@ -1206,16 +1255,19 @@
       "Premier audit, avant cette collecte complémentaire : Recherches locales TPS, TVQ, GST, QST, déclaration, caisse/POS et rapports dans les trois dossiers; les mentions dans les demandes et analyses n’ont pas été assimilées à des déclarations déposées.",
       "Premier audit, avant cette collecte complémentaire : Lecture des classeurs de ventes et de leurs colonnes fiscales; cette première lecture des classeurs est désormais complétée par le PDF fiscal portant un accusé de réception pour juillet–septembre 2024.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json."
+      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   },
   {
     "id": 21,
     "demande": "Produire une copie de la police d’assurance de QH couvrant les biens concernés.",
-    "statut": "partiel",
-    "reponse_proposee": "Nous joignons deux certificats/avenants d’assurance repérés pour le 6241 boulevard Léger et la lettre de réserve du 4 août 2026. Le certificat au nom de Quadro Holding Ltée affiche une période du 7 mai 2024 au 24 août 2025, le numéro RACIBM 1126 et une référence à la police 10266520. Un autre certificat vise 8697230 Canada Inc. et Quadro Holding Ltée du 20 juin au 24 août 2024. La lettre concernant les dommages allégués durant le déménagement et l’entreposage renvoie, elle, à la police 10043375. Ces pièces ne remplacent pas le contrat complet, ses conditions et ses avenants applicables aux biens et lieux concernés en juin 2025; aucune conclusion de couverture n’est tirée de ces seuls certificats.",
+    "statut": "document_disponible",
+    "reponse_proposee": "La police 10043375 est désormais produite dans son PDF de renouvellement 2024–2025 de 113 pages, avec conditions particulières et formulaires joints. La page 2 nomme 8697230 Canada Inc. et Quadro Holding Ltée., fixe la période du 24 août 2024 au 24 août 2025 et désigne le risque au 6241 boulevard Léger. La page 4 inscrit le contenu pour 215 000 $ et les revenus pour 150 000 $; la page 5 mentionne des extensions de transport et d’emplacement temporaire, dont l’application reste à examiner avec leurs conditions. Le contrat initial 2023–2024 de 117 pages est aussi joint : ses conditions particulières nomment seulement 8697230 Canada Inc. Les deux certificats RACIBM1126/10266520 et la lettre SNB déjà réunis restent conservés. Le statut « document disponible » porte sur la copie de police demandée, sans conclusion sur la garantie du sinistre, l’étendue de l’indemnité ou le paiement des primes. Les correspondances du courtier sont également jointes avec leur chronologie; les brouillons restent distingués des messages envoyés.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/ASSURANCE-AVENANT-QUADRO.pdf",
@@ -1240,38 +1292,110 @@
         "nature": "original",
         "sha256": "540db2b92c77e02219eac6b2f1ce33b7435388cbae49d774b56ddb88db23625d",
         "octets": 124896
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/rapport.md",
+        "repere": "Bilan et limites de collecte du 24 octobre 2026",
+        "apport": "Étendue réelle de collecte, distinction des dossiers, manquants et contrôles.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/INDEX-CORRESPONDANCES.md",
+        "repere": "43 résultats courtier dont 41 fils + 2 brouillons; 22 fils expert",
+        "apport": "Index des copies lisibles avec renvoi aux sources et limites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CHRONOLOGIE-ASSURANCE-EXPERTS.md",
+        "repere": "Chronologie attribuée 2023–2026",
+        "apport": "Dates originales, dates de transfert et dossiers distincts.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/provenance-copies-lecture.json",
+        "repere": "Sources et copies; empreintes SHA-256",
+        "apport": "Traçabilité des captures et copies de lecture.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CORRESPONDANCES-RACINE.md",
+        "repere": "Fils 32 et 41 : transmissions des polices; fils 11 et 10 : dates de résiliation à rapprocher",
+        "apport": "Recueil des textes visibles des 41 fils, brouillons séparés, secrets masqués.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Renouvellement-2024-2025.pdf",
+        "repere": "Conditions particulières p. 1–12",
+        "apport": "Copie de la police 10043375 : renouvellement 2024–2025, 113 pages, Quadro nommé assuré.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Nouveau-contrat-2023-2024.pdf",
+        "repere": "Conditions particulières p. 1–11",
+        "apport": "Copie de la police 10043375 : contrat initial 2023–2024, 117 pages, 8697230 Canada Inc. seul nommé dans les conditions particulières.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/ANALYSE-POLICES-10043375.md",
+        "repere": "Contrôle du 24 octobre 2026",
+        "apport": "Identification des deux polices, repères des formulaires et limites du contrôle.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/PROVENANCE-POLICES-10043375.json",
+        "repere": "Contrôle du 24 octobre 2026",
+        "apport": "Provenance Gmail et empreintes des PDF intacts.",
+        "nature": "analyse"
       }
     ],
-    "manquants": [
-      "Police complète 10043375 et tous avenants en vigueur à la date du sinistre allégué, avec noms d’assurés, biens, lieux, dates et limites applicables.",
-      "Texte complet du programme/police 10266520 et du certificat RACIBM 1126, dont les conditions et exclusions, ainsi que la confirmation des périodes effectives par le courtier.",
-      "Documents établissant les biens effectivement déclarés et les lieux de transport/entreposage concernés; rattachement entre société propriétaire, assurée et bénéficiaire."
-    ],
+    "manquants": [],
     "demarches": [
-      "Demander au courtier et à l’expert SNB la copie contractuelle intégrale des polices identifiées, avec avenants et état des lieux/biens déclarés.",
-      "Rapprocher les dates imprimées des certificats et les circonstances alléguées, sans assimiler le programme de bris d’équipement à une garantie automatiquement applicable au transport."
+      "Rapprocher avec le cabinet et le courtier les biens, les dates et les lieux allégués avec les clauses, les exclusions et tout avenant ultérieur effectivement émis; conserver les versions sans les fusionner.",
+      "Faire préciser au courtier, si nécessaire, les différences de dates de version R4 et LMA5190 dans le renouvellement, et le lien distinct du certificat RACIBM1126 avec la police 10266520."
     ],
     "controles": [
       "Le certificat mentionne une extension pour certains équipements portatifs hors lieux de 10 000 $; elle ne suffit pas à établir la garantie des biens déplacés.",
       "La pièce NDG « TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf » a été consultée puis écartée des annexes utiles à la couverture de juin 2025 : pages 3–5, police Intact 383-1237, période du 8 septembre 2026 au 8 septembre 2027, destinataire Restaurent Montréal Hub, 6284 avenue Somerled.",
       "Les montants oraux de garantie de l’interrogatoire ne sont pas substitués au contrat.",
-      "L’écart entre police 10043375 et référence 10266520 reste à expliquer; ces numéros ne sont pas assimilés."
+      "L’écart entre police 10043375 et référence 10266520 reste à expliquer; ces numéros ne sont pas assimilés.",
+      "Conserver les deux brouillons en notes, sans les compter comme correspondances envoyées.",
+      "Les soldes et primes ne prouvent pas une indemnité; versions non additionnées.",
+      "Différence 12/30 novembre 2025 à rapprocher avec avis et avenant effectifs.",
+      "La police 2025–2026 annoncée dans un courriel est distincte des copies 2023–2024 et 2024–2025 acquises.",
+      "Disponibilité de la copie de police distincte de l’application de la garantie au sinistre et de tout paiement.",
+      "La version initiale ne nomme pas Quadro; le renouvellement le nomme. La date effective d’un ajout antérieur ne se déduit pas de la seule comparaison.",
+      "Le formulaire de demande de résiliation est vierge; aucune résiliation déduite de sa présence.",
+      "Conditions particulières vues intégralement : 12 pages du renouvellement, 11 pages du contrat initial. Le reste des PDF a été extrait nativement; seules les pages complémentaires énumérées dans les contrôles ont été vues.",
+      "Montants de garantie, franchise, règle proportionnelle et sommes effectivement réclamées ou payées restent distincts.",
+      "F120PE18 modifie la rubrique 2 B de PA1; examiner le texte avec les avenants. Différences de versions R4 et LMA5190 relevées sans correction des originaux."
     ],
     "recherche_effectuee": [
       "Premier audit, avant cette collecte complémentaire : Lecture native des deux certificats d’une page et de la lettre de réserve originale de deux pages.",
       "Premier audit, avant cette collecte complémentaire : Contrôle de la pièce NDG de 62 pages et de son bloc identité/période pages 3–5 pour éviter de présenter une police de 2026 comme preuve de couverture en 2025.",
       "Premier audit, avant cette collecte complémentaire : Recherche locale des numéros de police, certificats et avenants dans les trois dossiers; contrat intégral 10043375 non repéré.",
       "Recherche Takatak supplémentaire in:anywhere par 10043375,10266520,RACIBM 1126; les certificats et transferts déjà connus ont été retrouvés, sans police complète ni nouvelle réponse finale de l’assureur. Aucun changement de statut.",
-      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "24 octobre 2026 : 43 résultats Racine Ooeuf, 41 fils capturés et 2 brouillons signalés; 9 requêtes Takatak consignées.",
+      "24 octobre 2026 : acquisition native des deux PDF dans Ooeuf; identification et contrôle visuel des conditions particulières; extraction textuelle de 113 + 117 pages et repérage des formulaires."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "portee_statut": "Copie de police demandée disponible; application de l’assurance au sinistre réservée à l’examen du cabinet."
   },
   {
     "id": 22,
     "demande": "Produire le dossier transmis à l’assureur ainsi que la réponse de celui-ci.",
     "statut": "partiel",
-    "reponse_proposee": "Nous joignons la lettre de réserve de droits d’IndemniPro du 4 août 2026 concernant le dossier 23910-009447 SNB ainsi que l’extraction locale du suivi documentaire. Cette lettre décrit des dommages allégués à des équipements après déménagement et entreposage, une date de perte du 9 juin 2025 et un lieu au 1600, 55 e Avenue à Lachine. Elle indique que l’enquête est toujours en cours et que les documents permettant d’établir la perte détaillée et le quantum ne sont pas tous reçus. Elle constitue une réponse retrouvée de l’assureur, sans admission de couverture ni décision finale. Le dossier complet effectivement transmis, avec ses pièces et accusés de réception, reste à reconstituer. Deux pièces du dossier antérieur Léger/Hadmo sont aussi identifiées pour contrôler les recoupements de biens et de montants, sans les présenter comme un règlement du sinistre de transport.",
+    "reponse_proposee": "Nous joignons la lettre de réserve de droits d’IndemniPro du 4 août 2026 concernant le dossier 23910-009447 SNB ainsi que l’extraction locale du suivi documentaire. Cette lettre décrit des dommages allégués à des équipements après déménagement et entreposage, une date de perte du 9 juin 2025 et un lieu au 1600, 55 e Avenue à Lachine. Elle indique que l’enquête est toujours en cours et que les documents permettant d’établir la perte détaillée et le quantum ne sont pas tous reçus. Elle constitue une réponse retrouvée de l’assureur, sans admission de couverture ni décision finale. Le dossier complet effectivement transmis, avec ses pièces et accusés de réception, reste à reconstituer. Deux pièces du dossier antérieur Léger/Hadmo sont aussi identifiées pour contrôler les recoupements de biens et de montants, sans les présenter comme un règlement du sinistre de transport. Tableaux IndemniPro du sinistre antérieur, avec transferts de courriels Joey cités par les extractions et leurs provenances. La version d’avril est identique par SHA-256 à la pièce déjà annexée A074; elle ne crée pas une seconde preuve ou un montant supplémentaire. Complément du 24 octobre : Le lot Daniel reconstitue des transmissions et réponses du dossier antérieur Léger/Hadmo 24110-4833, dont les demandes de cause, les confirmations de réception et les suivis de denrées. Aucun bordereau exhaustif SNB transport ou règlement final nouveau n’est établi par cette collecte. Complément du 24 octobre : Le fil Expert 07 établit le dernier retour de l’expert identifié dans la recherche ciblée : Lorraine Lamarche pour Sylvain Bernier, 4 août 2026 à 14 h 41, lettre de réserve de droits SNB 53640-196353 / 23910-9447. Ooeuf la transfère à yan, Christian et catherine.remillard à 16 h 00. Les échanges plus récents sont ceux du cabinet, sans nouvelle décision d’assurance identifiée. Le dossier DLL 32-10296 contient une lettre qualifiée de négation par le courtier en 2025; ne pas l’assimiler au dossier SNB.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Collecte_2026-10-21/2026-08-04-Lettre-reserve-droits-SNB.pdf",
@@ -1304,16 +1428,133 @@
         "nature": "original",
         "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
         "octets": 22799
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-15-janvier-2025.xlsx",
+        "repere": "Feuil1, en-tête et lignes d’équipements; références détaillées dans le rapprochement.",
+        "apport": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+        "nature": "original",
+        "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0",
+        "octets": 21268
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-22-avril-2025.xlsx",
+        "repere": "Feuil1, en-tête et lignes d’équipements; références détaillées dans le rapprochement.",
+        "apport": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+        "nature": "original",
+        "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
+        "octets": 22799
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-ancienne.xlsx",
+        "repere": "Feuil1, en-tête et lignes d’équipements; références détaillées dans le rapprochement.",
+        "apport": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+        "nature": "original",
+        "sha256": "56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7",
+        "octets": 14929
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.md",
+        "repere": "Tableau de rapprochement des cinq références et section du four à gaz.",
+        "apport": "Analyse du 24 octobre : dix PDF pour cinq groupes; divergences dates/références; trois versions du tableau IndemniPro et points à vérifier.",
+        "nature": "analyse",
+        "sha256": "5adfb9f99faa434615f4c6b4c53763d632c4478cbe3d905d689108163a796f98",
+        "octets": 9823
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+        "repere": "Bilan, couverture et vérifications ouvertes du 24 octobre 2026",
+        "apport": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+        "repere": "Messages de 2022 à 2026; dates des citations distinguées des transferts",
+        "apport": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19e847ca0d6579ce.txt",
+        "repere": "Citations Daniel/Joey des 6–7 août, 27 août et 18 septembre 2024; transfert du 1er juin 2026",
+        "apport": "Réclamation marchandises et relances du rapport de cause.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/07-fil-texte.txt",
+        "repere": "Fil 24110-4833; messages d’octobre–novembre 2024",
+        "apport": "Réception, demandes de factures, formulaire et échanges sur le dossier antérieur; distinct du dossier transport.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/15-fil-texte.txt",
+        "repere": "Ayisha, 2 juillet 2024; HSB2024002464",
+        "apport": "Demande du rapport frigoriste, soumission et pièces de marchandises; corps ultérieurs partiellement visibles.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/rapport.md",
+        "repere": "Bilan et limites de collecte du 24 octobre 2026",
+        "apport": "Étendue réelle de collecte, distinction des dossiers, manquants et contrôles.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/INDEX-CORRESPONDANCES.md",
+        "repere": "43 résultats courtier dont 41 fils + 2 brouillons; 22 fils expert",
+        "apport": "Index des copies lisibles avec renvoi aux sources et limites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CHRONOLOGIE-ASSURANCE-EXPERTS.md",
+        "repere": "Chronologie attribuée 2023–2026",
+        "apport": "Dates originales, dates de transfert et dossiers distincts.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/provenance-copies-lecture.json",
+        "repere": "Sources et copies; empreintes SHA-256",
+        "apport": "Traçabilité des captures et copies de lecture.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Expert_Dufourd/07-fil-lecture.txt",
+        "repere": "4 août 2026, 14 h 41 puis 16 h 00",
+        "apport": "Message d’accompagnement de la réserve et transfert au cabinet; les suggestions Gmail finales ne sont pas des messages.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CORRESPONDANCES-EXPERT-DUFOURD.md",
+        "repere": "22 fils, notamment 10, 13, 14 et 07",
+        "apport": "Demandes de l’expert, échanges sur une expertise Gamelin et transmission de la réserve.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Racine_Chamberland/13-fil-lecture.txt",
+        "repere": "21 octobre 2025 et 12 novembre 2025 — DLL 32-10296",
+        "apport": "Courrier joint et qualification de négation par Maude; PDF non acquis, dossier séparé.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Racine_Chamberland/20-fil-lecture.txt",
+        "repere": "27 juin–2 juillet 2025",
+        "apport": "Déclaration du client après incident du 26 juin et désignation de Benoit Daigle / DLL 32-10296.",
+        "nature": "extraction interface Gmail"
       }
     ],
     "manquants": [
-      "Bordereau exhaustif des documents effectivement transmis au dossier SNB avec originaux des courriels, pièces jointes et accusés de réception.",
+      "Dossier assureur/expert SNB 53640-196353 / 23910-009447 : bordereau exhaustif des documents transmis et reçus, courriels natifs, pièces jointes et accusés de réception; compléments des passages tronqués ou repliés et pièces seulement annoncées.",
       "Preuve de perte détaillée par bien, devis/rapports, photographies, factures, chaîne de garde, dates et lieux, ainsi que tout complément transmis depuis la lettre du 4 août 2026.",
-      "Réponse finale ou position plus récente de l’assureur, si elle existe; justificatifs bancaires des indemnités réellement encaissées et ventilation par sinistre/bien/période.",
-      "Rapprochement documenté entre le dossier antérieur Léger/Hadmo, le dossier SNB et les biens réclamés contre Harmony."
+      "Rapport final ou position plus récente de l’assureur, si émis; justificatifs bancaires des indemnités réellement encaissées et ventilation par sinistre, bien et période. Un paiement de prime ou un montant de garantie ne démontre pas une indemnité.",
+      "Rapprochement documenté par bien, poste et période entre le dossier antérieur Léger/Hadmo, le dossier SNB et les biens réclamés contre Harmony.",
+      "PDF natif « Lettre à l’Assuré.pdf » du 21 octobre 2025 (DLL 32-10296) et contrôle de son périmètre distinct."
     ],
     "demarches": [
-      "Compléter la collecte ciblée du fil du 4 août 2026 « Concernant la réclamation 53640-196353 - 8697230 Canada Inc. et Quadro Holding Ltée (23910-9447) » et conserver l’EML d’origine lorsque disponible.",
+      "Le fil du 4 août 2026 est désormais documenté par les copies de lecture du corpus expert. Obtenir au besoin son EML d’origine et ses annexes annoncées pour vérifier la complétude native, puis rapprocher le dossier de l’assureur avec les 22 fils conservés.",
       "Demander à l’expert SNB l’inventaire des pièces reçues, des manquants et de la position actuelle; aucun message envoyé par cet audit.",
       "Construire une matrice par équipement et par sinistre pour distinguer réclamé, évalué, alloué, paiement annoncé et paiement encaissé."
     ],
@@ -1322,7 +1563,15 @@
       "La lettre mentionne le contrat Lloyd’s 33140824 au corps de la page 1 et 3340824 dans la copie conforme page 2; conserver les deux graphies et demander confirmation.",
       "Le refus ou l’absence de couverture ne peut pas être déduit d’une réserve de droits; inversement, l’ouverture d’une enquête n’est pas une admission de couverture.",
       "Dans Exhibit 11, la ligne d’inspection Frimabec porte 408,16 $ réclamés et 408,66 $ alloués : l’écart source est conservé.",
-      "Les totaux Hadmo et l’indemnité no 3 sont des états/versions de l’ancien dossier; aucun cumul entre versions ou avec le dossier transport n’est effectué."
+      "Les totaux Hadmo et l’indemnité no 3 sont des états/versions de l’ancien dossier; aucun cumul entre versions ou avec le dossier transport n’est effectué.",
+      "Provenance, déclarations et analyses distinguées; aucun montant cumulé entre versions.",
+      "23 captures Ooeuf ne sont pas 23 EML exhaustifs; citations masquées et pièces non acquises explicitement signalées.",
+      "Aucune réponse suggérée Gmail attribuée au client; accès Sysco masqués dans la lecture.",
+      "Réserve de droits ≠ refus définitif ni admission de garantie.",
+      "Dates des transferts distinctes des dates de rédaction; dernière réponse dans les résultats, pas affirmation universelle.",
+      "Dossiers 24110-4833 / 2024002464, DLL 32-10296, SNB 53640-196353 et référence contestée 53640-190785 restent séparés.",
+      "Nicolas Gamelin est une piste d’expertise des équipements; demande de mandat ≠ rapport exécuté.",
+      "Réponses suggérées Gmail non attribuées au client."
     ],
     "recherche_effectuee": [
       "Premier audit, avant cette collecte complémentaire : Lecture de la lettre originale récupérée depuis l’aperçu Gmail et de ses deux pages de texte natif.",
@@ -1330,16 +1579,23 @@
       "Premier audit, avant cette collecte complémentaire : Lecture native du Claim Summary d’une page et du classeur Hadmo, avec contrôle des cellules de total et indemnité; distinction explicite entre dossier antérieur et transport.",
       "Recherche Takatak supplémentaire in:anywhere par 10043375,10266520,RACIBM 1126; les certificats et transferts déjà connus ont été retrouvés, sans police complète ni nouvelle réponse finale de l’assureur. Aucun changement de statut.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json."
+      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Collecte Takatak : 26 messages MIME lus, 23 retenus, deux EML natifs et deux PDF extraits.",
+      "Collecte Ooeuf : 23 résultats de recherche exactemail capturés par interface; limites consignées dans couverture.json.",
+      "Finalisation locale du 24 octobre 2026; aucun nouvel appel Gmail.",
+      "24 octobre 2026 : 22 fils Ooeuf du corpus ciblé expert/cabinet capturés; 41 fils courtier lus et conservés; 9 requêtes Takatak consignées, sans courrier récent de l’expert identifié."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   },
   {
     "id": 23,
     "demande": "Produire tous les documents justifiant la perte d’exploitation réclamée.",
     "statut": "partiel",
-    "reponse_proposee": "La prétention de 24000 $, soit quatre mois à 6000 $, reste celle de la procédure et n’est pas remplacée par un calcul vérifié. Nous ajoutons les états financiers compilés au 30 juin 2025 : ventes 77995 $, coût des ventes 59975 $, frais généraux et administratifs 130598 $, perte nette annuelle 112578 $. Cette perte annuelle ne mesure pas le dommage attribuable au déménagement ni le bénéfice qui aurait été réalisé sans celui-ci. Les nouveaux relevés DoorDash 2024–2025 et la déclaration fiscale trimestrielle complètent les données disponibles, mais ne suffisent pas à isoler les quatre mois, le bénéfice net attendu, les dépenses évitées et les causes concurrentes. La ventilation mensuelle et le rapprochement avec les indemnités effectives restent nécessaires.",
+    "reponse_proposee": "La prétention de 24000 $, soit quatre mois à 6000 $, reste celle de la procédure et n’est pas remplacée par un calcul vérifié. Nous ajoutons les états financiers compilés au 30 juin 2025 : ventes 77995 $, coût des ventes 59975 $, frais généraux et administratifs 130598 $, perte nette annuelle 112578 $. Cette perte annuelle ne mesure pas le dommage attribuable au déménagement ni le bénéfice qui aurait été réalisé sans celui-ci. Les nouveaux relevés DoorDash 2024–2025 et la déclaration fiscale trimestrielle complètent les données disponibles, mais ne suffisent pas à isoler les quatre mois, le bénéfice net attendu, les dépenses évitées et les causes concurrentes. La ventilation mensuelle et le rapprochement avec les indemnités effectives restent nécessaires. Le client désigne le dossier fiscal déjà transmis par Tommaso/Nick comme sa réponse. Les sources identifient Nicholas « Nick » Cristiano, CPA, CMA, au cabinet Tommaso Di Paola Inc.; les classeurs et le rapport de compilation au 30 juin 2025 sont déjà joints. La note de rapprochement distingue les documents effectivement disponibles des contrats, périodes ou calculs restant à documenter.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/DII-JANVIER-12P-ORIGINAL.pdf",
@@ -1420,6 +1676,18 @@
         "nature": "analyse",
         "sha256": "d99ade8e0a6a59bd8165d9a60fc1d140cf6ffbbd90526c31a79afccd66f1c4ee",
         "octets": 59281
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/NOTE-DOSSIER-FISCAL-TOMMASO-NICK.md",
+        "apport": "Repérage du dossier fiscal Tommaso Di Paola/Nicholas Cristiano et limites par demande.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
@@ -1448,9 +1716,12 @@
       "Premier audit, avant cette collecte complémentaire : Lecture native du grand livre et des synthèses de plateformes, contrôle de leurs périodes et catégories de montants.",
       "Premier audit, avant cette collecte complémentaire : Lecture de la transcription Fieldy pages 57–58 et de la lettre SNB; recherche locale des rapports financiers et calculs détaillés de perte d’exploitation.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json."
+      "Compléments Takatak et pièces natives Ooeuf du fil fiscal du 29 septembre 2026; provenance et empreintes dans Recherche_Ooeuf/PROVENANCE-OOEUF.json.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   }
 ]

@@ -22,7 +22,10 @@ try:
         if candidate:selected.append(candidate)
     for rel in ['HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md.html',
                 'HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/REPONSES-AUX-25-DEMANDES.pdf',
-                'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html']:
+                'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html',
+                'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html',
+                'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/BILAN-REPRISE-CHATGPT.md.html',
+                'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/COUVERTURE-REPRISE-CHATGPT-2026-10-24.json']:
         if rel in files:selected.append(rel)
     results=[]
     for rel in selected:

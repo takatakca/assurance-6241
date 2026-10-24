@@ -28,6 +28,11 @@ SECRET_PATTERNS={
 }
 SECRET_NAMES={'.env','.env.local','.env.production','credentials.json','service-account.json','cookies.json','id_rsa','id_ed25519'}
 EXCLUDE_PARTS={'99_Travail_et_collecte','.git','.codex','.agents','node_modules','__pycache__','ocr-images','.build-livrables'}
+# Raw collection exports stay in OneDrive; the reviewed reading copies are published.
+LOCAL_COLLECTION_PREFIXES=tuple(
+    'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/'+part+'/'
+    for part in ('RAW','MIME','Textes')
+)
 MIMES['.zip']='application/zip'
 warnings=[];exclusions=[];secret_findings=[];repairs=[];missing=[]
 files={};hashes={};generated={};routes={};directories=set();links_checked=0
@@ -67,7 +72,7 @@ def collect():
         for p in sorted(base.rglob('*')):
             if not p.is_file():continue
             rel=p.relative_to(ROOT).as_posix();reason=None
-            if any(part in EXCLUDE_PARTS for part in p.relative_to(ROOT).parts):reason='cache ou collecte technique'
+            if any(part in EXCLUDE_PARTS for part in p.relative_to(ROOT).parts) or rel.startswith(LOCAL_COLLECTION_PREFIXES):reason='cache ou collecte technique; copie de lecture contrôlée publiée séparément'
             elif p.name.lower() in SECRET_NAMES or p.suffix.lower() in {'.pem','.key','.pfx','.p12'}:reason='fichier de secrets ou identifiants de service'
             elif p.suffix.lower() not in ALLOWED:reason='format non documentaire ou non pris en charge'
             elif not p.resolve().is_relative_to(ROOT.resolve()) or p.is_symlink():reason='lien de fichier hors périmètre'

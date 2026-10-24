@@ -25,7 +25,13 @@ for path in ['HARMONY MOVERS/11_Fieldy/README.md.html',
              'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html',
              'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PROVENANCE-OOEUF.json',
              'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf',
-             'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Declaration-TPS-TVQ-2024-09-30.pdf']:
+             'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Declaration-TPS-TVQ-2024-09-30.pdf',
+             'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html',
+             'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/BILAN-REPRISE-CHATGPT.md.html',
+             'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/COUVERTURE-REPRISE-CHATGPT-2026-10-24.json',
+             'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Renouvellement-2024-2025.pdf',
+             'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Nouveau-contrat-2023-2024.pdf',
+             'HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf']:
     if path in manifest['output_files']:paths.append(path)
 remise='HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/'
 if remise+'LIRE-EN-PREMIER.md.html' in manifest['output_files']:paths.append(remise+'LIRE-EN-PREMIER.md.html')

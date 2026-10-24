@@ -3,7 +3,7 @@
     "id": 3,
     "demande": "Produire tout titre de propriété ou document d’acquisition établissant la propriété des équipements.",
     "statut": "partiel",
-    "reponse_proposee": "Nous avons retrouvé une confirmation de commande Senville du 19 juin 2024 au nom de Quadro, ainsi que des documents de service et une estimation Choquette portant le nom de Quadro et l'adresse du 6241 Léger. La commande Senville concerne une thermopompe; son appartenance aux équipements du litige n'est pas établie. Ces pièces sont remises comme indices documentaires limités. Elles ne constituent pas une chaîne d'acquisition complète des équipements de l'annexe de saisie. Les factures d'achat ou actes de cession, et leur correspondance avec les marques, modèles et numéros de série, restent à compléter. Les informations financières compilées au 30 juin 2025 ajoutent une inscription globale de 209758 $ d’équipements. La soumission Tzanet 141455 est adressée à Quadro. Ni cette inscription globale ni un devis de remplacement ne remplacent les factures d’acquisition ou une chaîne de propriété par bien.",
+    "reponse_proposee": "Nous avons retrouvé une confirmation de commande Senville du 19 juin 2024 au nom de Quadro, ainsi que des documents de service et une estimation Choquette portant le nom de Quadro et l'adresse du 6241 Léger. La commande Senville concerne une thermopompe; son appartenance aux équipements du litige n'est pas établie. Ces pièces sont remises comme indices documentaires limités. Elles ne constituent pas une chaîne d'acquisition complète des équipements de l'annexe de saisie. Les factures d'achat ou actes de cession, et leur correspondance avec les marques, modèles et numéros de série, restent à compléter. Les informations financières compilées au 30 juin 2025 ajoutent une inscription globale de 209758 $ d’équipements. La soumission Tzanet 141455 est adressée à Quadro. Ni cette inscription globale ni un devis de remplacement ne remplacent les factures d’acquisition ou une chaîne de propriété par bien. Complément du 24 octobre : Inventaire de mai 2023 retrouvé, avec modèles et séries, confirmé par le client comme le fichier d’équipements lors de l’achat. Aucun prix, vendeur/acquéreur ou signature dans le classeur. Complément du 24 octobre : Les échanges Daniel/Joey du 25 juillet 2024 montrent une demande de justificatifs sur l’acquisition des équipements; la proposition Econolease du 2 juillet constitue une piste, sans acte accepté retrouvé dans ce lot.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069210.jpg",
@@ -52,11 +52,59 @@
         "nature": "original",
         "sha256": "88382fecd7883913b083b075565e670939ebe21304e2e7a18816d9c1e222f04e",
         "octets": 67569
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/Originaux/INVENTAIRE RESTO.xlsx",
+        "repere": "Feuil1!A1:D47; Feuil2 et Feuil3 vides",
+        "apport": "39 lignes, 35 modèles et 32 séries renseignés. Colonne VALEUR vide.",
+        "nature": "original numerique joint au courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/EML/198472d44b632476.eml",
+        "repere": "Transfert du 26 juillet 2025 et chaîne citant le 29 mai 2023",
+        "apport": "Provenance de transmission du classeur; la chaîne antérieure citée ne remplace pas son EML autonome.",
+        "nature": "original courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/rapport.md",
+        "repere": "Déclaration du client, distincte de la pièce",
+        "apport": "Confirmation du client le 24 octobre 2026 que ce fichier est l’inventaire recherché des équipements lors de l’achat.",
+        "nature": "declaration client consignee"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+        "repere": "Bilan, couverture et vérifications ouvertes du 24 octobre 2026",
+        "apport": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+        "repere": "Messages de 2022 à 2026; dates des citations distinguées des transferts",
+        "apport": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/197896004b3e9484.txt",
+        "repere": "Joey, 25 juillet 2024, 11 h 48; transfert Daniel du 23 septembre",
+        "apport": "Question sur les équipements inclus dans l’acquisition du commerce; pas preuve de propriété.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/08-fil-texte.txt",
+        "repere": "2 juillet 2024, 13 h 55–56",
+        "apport": "Offre de financement et transmission à Daniel; pas contrat signé.",
+        "nature": "extraction"
       }
     ],
     "manquants": [
-      "Facture d'achat, acte de cession ou crédit-bail de chaque équipement concerné, avec vendeur, acquéreur, date et désignation.",
-      "Rapprochement des titres avec chaque item de l'annexe du PV, ses numéros de série et, s'il y a lieu, les transferts entre entités.",
+      "Facture d’achat, acte de cession ou crédit-bail de chaque équipement concerné, avec vendeur, acquéreur, date, désignation et justificatif de paiement.",
+      "Rapprochement des titres avec chaque item de l’annexe du PV et du classeur de 2023, ses modèles/séries et les transferts entre entités; auteur et contexte du classeur à confirmer.",
       "Confirmation de la pertinence de la thermopompe Senville pour ce litige; preuve de livraison/installation si elle est invoquée."
     ],
     "demarches": [
@@ -66,23 +114,32 @@
     "controles": [
       "Les factures de service et devis ne sont pas des titres d'acquisition.",
       "Les PNG du dossier photos-assurance-2024 et les JPG A 24–A 40 du courriel Inventaire sont principalement des photographies de factures alimentaires; ils ne prouvent pas l'acquisition des équipements.",
-      "Aucun total d'achat n'est calculé; versions et copies photographiques ne sont pas additionnées."
+      "Aucun total d'achat n'est calculé; versions et copies photographiques ne sont pas additionnées.",
+      "Provenance, déclarations et analyses distinguées; aucun montant cumulé entre versions.",
+      "23 captures Ooeuf ne sont pas 23 EML exhaustifs; citations masquées et pièces non acquises explicitement signalées.",
+      "Aucune réponse suggérée Gmail attribuée au client; accès Sysco masqués dans la lecture."
     ],
     "recherche_effectuee": [
       "Premier audit, avant cette collecte complémentaire : Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
       "Premier audit, avant cette collecte complémentaire : Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
       "Premier audit, avant cette collecte complémentaire : Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J 02–J 04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
       "Premier audit, avant cette collecte complémentaire : Recherche propriété/acquisition/achat/Senville/Choquette/équipement et contrôle de la commande 120714, estimation N 82145, annexes du PV.",
-      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Collecte Takatak : 26 messages MIME lus, 23 retenus, deux EML natifs et deux PDF extraits.",
+      "Collecte Ooeuf : 23 résultats de recherche exactemail capturés par interface; limites consignées dans couverture.json.",
+      "Finalisation locale du 24 octobre 2026; aucun nouvel appel Gmail."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   },
   {
     "id": 5,
     "demande": "Produire les factures, soumissions, déclarations d’experts et toute autre documentation concernant l’entretien et le service des équipements.",
     "statut": "partiel",
-    "reponse_proposee": "Le lot d'entretien et de service identifié est disponible : quinze photographies de factures, devis ou feuillets techniques, neuf devis PDF Frigo-Spec et le document intitulé fac 265.pdf. Il comprend notamment A 315 du 22 septembre 2024, les documents SCC Auger et l'estimation Choquette CKS N 82145 du 26 novembre 2024. Nous les remettons dans leur état conservé, y compris les constats de problèmes antérieurs et les versions divergentes. La disponibilité de ce lot ne certifie ni son exhaustivité, ni l'exécution de tous les devis, ni le fonctionnement des équipements au 12 juin 2025. Les compléments Tzanet retrouvés consistent en une soumission commerciale de remplacement et une capture de courriel sur la disponibilité d’un modèle Tim Hortons. Nous les distinguons des rapports d’entretien et de diagnostic : ils ne démontrent ni une réparation exécutée ni le fonctionnement des appareils avant le déménagement.",
+    "reponse_proposee": "Le lot d'entretien et de service identifié est disponible : quinze photographies de factures, devis ou feuillets techniques, neuf devis PDF Frigo-Spec et le document intitulé fac 265.pdf. Il comprend notamment A 315 du 22 septembre 2024, les documents SCC Auger et l'estimation Choquette CKS N 82145 du 26 novembre 2024. Nous les remettons dans leur état conservé, y compris les constats de problèmes antérieurs et les versions divergentes. La disponibilité de ce lot ne certifie ni son exhaustivité, ni l'exécution de tous les devis, ni le fonctionnement des équipements au 12 juin 2025. Les compléments Tzanet retrouvés consistent en une soumission commerciale de remplacement et une capture de courriel sur la disponibilité d’un modèle Tim Hortons. Nous les distinguons des rapports d’entretien et de diagnostic : ils ne démontrent ni une réparation exécutée ni le fonctionnement des appareils avant le déménagement. Complément du 24 octobre : Dix PDF Frigo-Spec récupérés dans les archives ChatGPT complètent les photographies existantes pour cinq références A245, A266, A267, A280 et A281. Les variantes de dates et libellés restent conservées. Trois versions du tableau IndemniPro relient les factures aux équipements et aux montants réclamés/évalués/alloués. Elles révèlent des points à rapprocher, notamment A267/A290, BUNN/Taylor, le dédoublement A280/devis264 et le HT/TTC de CKS. Elles ne prouvent pas seules l’exécution de tous les travaux, le paiement ou le fonctionnement au 12 juin 2025. Complément du 24 octobre : Suivis de réparation reconstitués : visite frigoriste annoncée le 3 octobre 2024, réception du 7 octobre, demandes de factures du 11 et 29 octobre, déclaration client du 4 novembre sur le four double et le comptoir R22. Le fil du 10 juin 2025 conserve les présentations opposées du client et de Joey sur les travaux CEC. État Gicleurs récupéré et contrôlé; il ne détaille pas les travaux.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069199.jpg",
@@ -307,26 +364,184 @@
         "nature": "original",
         "sha256": "b77d5fb20d666cfbf945e4eea5425c9c298dade5f5e83140e339d9da7ef6fbe2",
         "octets": 399726
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G22_192b69775df0e947-Facture.pdf",
+        "repere": "p. 1, facture A281, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 15 juillet 2024, BUNN CDS2; variante datée du 15, à rapprocher de la version du 17 et d’A290. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "c65619ec3eb3fc54cc8242b358e35dcf13a56fc64efa6439326783caa311b112",
+        "octets": 23981
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G23_192b6e5ddbebbe4b-Facture.pdf",
+        "repere": "p. 1, facture A245, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 25 juin 2024, climatisation fournie par le client; texte identique à G26 mais empreinte différente. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "43029c92eeb0300e6684463723a867842db3cf6041b3849eb55c0a36ed5e8701",
+        "octets": 23724
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G24_192b6e62f5eb5fb3-Facture.pdf",
+        "repere": "p. 1, facture A266, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 10 juillet 2024, unité 2 hp; précise chambre congélateur et mise en route. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "140d074db203054b1630286687f6cd71431b6bf2bdf3ea91d3de630bd0e28cc2",
+        "octets": 23908
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G25_192b696201394ef4-Facture.pdf",
+        "repere": "p. 1, facture A266, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 10 juillet 2024, unité 2 hp; libellé final plus général que G24, pas nouvelle dépense. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "7183d7c2b5980c6ab5680070fd20db0da67a7783bf3ce29cbe1de6973998ddba",
+        "octets": 23892
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G26_192b695cec4fb023-Facture.pdf",
+        "repere": "p. 1, facture A245, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 25 juin 2024, climatisation fournie par le client; texte identique à G23 mais empreinte différente. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "242440ad009e98ea3595a7d25d2def580d2c370136d191093cf1e7f109be743c",
+        "octets": 23724
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G27_192b69707dcc14ba-Facture.pdf",
+        "repere": "p. 1, facture A280, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 15 juillet 2024, compresseur machine à crème glacée; texte identique à G29. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "4932c46f2af6983a522bb4f5d5b8c058b98537c5fa55199b8a5bf337d1395949",
+        "octets": 24108
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G28_192b696b2a3af44a-Facture.pdf",
+        "repere": "p. 1, facture A267, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 10 juillet 2024, chambre froide; variante datée du 10, à rapprocher du 13 et de la référence A290 du tableau. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "c22f6a8bf96a999daeb47389a4c523eb38ee2bf1a3ae5af4e5f932a2da881f45",
+        "octets": 23773
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G29_192b6e6d937fa268-Facture.pdf",
+        "repere": "p. 1, facture A280, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 15 juillet 2024, compresseur machine à crème glacée; texte identique à G27. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "8c4e5cf67dbed9550dec3ed474cd12aee0ca25286a61beea9a36fa8faf6dccfb",
+        "octets": 24108
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G30_192b6e67a28f1bfc-Facture.pdf",
+        "repere": "p. 1, facture A267, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 13 juillet 2024, chambre froide; concorde avec la photo où une autre feuille A290 est visible derrière. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "13d48414444199da315dad6fe6048ddccb30331745c637de16a5a18349924160",
+        "octets": 23798
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G31_192b6e7272d2e3d0-Facture.pdf",
+        "repere": "p. 1, facture A281, texte natif et contrôle visuel",
+        "apport": "Copie PDF extraite de l’archive ChatGPT; 17 juillet 2024, BUNN CDS2; même groupe de réparation que G22, ne pas additionner. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+        "nature": "original",
+        "sha256": "39ed2f0fdd84c686812fbb03005f6b5553eee2d0fd0ec886a217baad60828c7c",
+        "octets": 23928
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-15-janvier-2025.xlsx",
+        "repere": "Feuil1, en-tête et lignes d’équipements; références détaillées dans le rapprochement.",
+        "apport": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+        "nature": "original",
+        "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0",
+        "octets": 21268
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-22-avril-2025.xlsx",
+        "repere": "Feuil1, en-tête et lignes d’équipements; références détaillées dans le rapprochement.",
+        "apport": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+        "nature": "original",
+        "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
+        "octets": 22799
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-ancienne.xlsx",
+        "repere": "Feuil1, en-tête et lignes d’équipements; références détaillées dans le rapprochement.",
+        "apport": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+        "nature": "original",
+        "sha256": "56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7",
+        "octets": 14929
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.md",
+        "repere": "Tableau de rapprochement des cinq références et section du four à gaz.",
+        "apport": "Analyse du 24 octobre : dix PDF pour cinq groupes; divergences dates/références; trois versions du tableau IndemniPro et points à vérifier.",
+        "nature": "analyse",
+        "sha256": "5adfb9f99faa434615f4c6b4c53763d632c4478cbe3d905d689108163a796f98",
+        "octets": 9823
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+        "repere": "Bilan, couverture et vérifications ouvertes du 24 octobre 2026",
+        "apport": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+        "repere": "Messages de 2022 à 2026; dates des citations distinguées des transferts",
+        "apport": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/07-fil-texte.txt",
+        "repere": "Messages principaux datés des 3, 7, 11, 29 octobre et 4 novembre 2024",
+        "apport": "Transmissions et suivis; distinction explicite entre soumissions, factures demandées et déclarations du client.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19e6a1f6ebc6d9dd.txt",
+        "repere": "Citations des messages du 10 juin 2025",
+        "apport": "Divergence entre les déclarations du client et de Joey sur l’autorisation/exécution des travaux; pas constat autonome.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19cd9982ac53b52e.txt",
+        "repere": "Riad, 1er mai 2024; Gicleurs FF, 25 avril 2024",
+        "apport": "Demande de rapport de conformité et suivi du compte impayé.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Pieces_jointes/19cd9982ac53b52e/EC2024-04-22.pdf",
+        "repere": "p.1; lecture visuelle contrôlée",
+        "apport": "État de compte HADAMO au 6241 Léger, facture 7478, solde 2 020,11 $; absence de détail des travaux, pas preuve de paiement.",
+        "nature": "original"
       }
     ],
     "manquants": [
       "L'exhaustivité du dossier de service reste à confirmer auprès des fournisseurs : rapports d'intervention finaux, essais et pièces effectivement remplacées correspondant aux devis.",
       "Identification et numéros de série absents ou incomplets sur plusieurs documents; rattachement de chaque intervention à l'appareil litigieux à finaliser.",
-      "Les justificatifs bancaires de paiement et les éventuels rapports complémentaires ne sont pas démontrés par les seules mentions manuscrites ou tampons."
+      "Les justificatifs bancaires de paiement et les éventuels rapports complémentaires ne sont pas démontrés par les seules mentions manuscrites ou tampons.",
+      "Original EC0000006371.pdf annoncé dans le message du 3 octobre 2024, rapport complet Frigo-Spec et diagnostic de cause.",
+      "Bons de travail et factures définitives détaillant les opérations effectivement réalisées, preuves de paiement et de réception, pièces remplacées et dates par appareil.",
+      "Rapprochement de l’état des appareils avant/après travaux puis avant le déménagement; clarification du comptoir déclaré retiré en novembre 2024.",
+      "Rapport de conformité Gicleurs et facture détaillée 7478 si invoqués; correspondance avec les équipements litigieux à établir."
     ],
     "demarches": [
       "Présenter le lot disponible au cabinet, puis compléter un tableau appareil/document/prestation/essai avec Frigo-Spec, SCC Auger et Choquette CKS.",
-      "Faire confirmer les numéros ambigus A 290/A 267, les versions de 259 et les relations entre devis et factures; demander les feuillets finaux manquants.",
+      "Faire confirmer les variantes de dates et de contenu A267/A290, A281/BUNN/Taylor, les versions de devis 259 et les relations devis/factures; la photo 1000069203 montre A267 devant un autre feuillet A290.",
       "Contrôler visuellement les dates et références signalées comme issues de l'OCR avant toute nouvelle saisie comptable; ne pas en tirer un diagnostic fonctionnel."
     ],
     "controles": [
       "Le statut signifie que le lot documentaire répondant à cette catégorie existe, pas qu'il a déjà été transmis ou accepté ni que chaque document demandé dans l'absolu a été retrouvé.",
-      "Quinze images et dix PDF constituent des fichiers, pas vingt-cinq dépenses indépendantes.",
+      "Le lot antérieur comportait quinze images et dix PDF; les dix PDF ajoutés le 24 octobre couvrent cinq références et plusieurs copies ou versions. Les fichiers ne sont pas des dépenses indépendantes.",
       "A 315 indique une mise en route; N 82145, plus tardif, rapporte des problèmes persistants. Ne pas conclure à un fonctionnement parfait juste avant le transport.",
       "Choquette : le montant total, le dépôt et le solde marqué payé ne sont pas trois paiements distincts.",
       "A 266/1000069207 existe aussi sous 1000036526; A 315/1000069200 sous 1000036527; devis 260 photographié et PDF; copies non additionnées.",
       "Les deux versions de devis 259 diffèrent sur réparation/remplacement; les devis et factures Bunn apparentés doivent être rapprochés avant toute somme.",
-      "Le rapport Tezanet sollicité à la demande 17 n'est pas remplacé par ces devis Frigo-Spec. Le diagnostic et la causalité restent à une expertise appropriée."
+      "Le rapport Tezanet sollicité à la demande 17 n'est pas remplacé par ces devis Frigo-Spec. Le diagnostic et la causalité restent à une expertise appropriée.",
+      "Photo1000069203 : A267 est la feuille principale; A290 est seulement l’en-tête de la feuille derrière. Ne pas traiter les deux en-têtes comme deux numéros de la même facture.",
+      "Les tableaux IndemniPro sont des tableaux de réclamation du sinistre antérieur, pas un inventaire autonome de valeur marchande actuelle. Les colonnes réclamé, évalué et alloué ne prouvent pas un paiement encaissé.",
+      "Le rapport CKS N82145 du 26 novembre 2024 décrit des problèmes persistants et une recommandation de remplacement; il ne prouve pas l’installation ultérieure d’un nouvel appareil. Le montant HT de 6 700,68 $ et le montant TTC de 7 704,10 $ doivent être rapprochés avant toute totalisation.",
+      "Provenance, déclarations et analyses distinguées; aucun montant cumulé entre versions.",
+      "23 captures Ooeuf ne sont pas 23 EML exhaustifs; citations masquées et pièces non acquises explicitement signalées.",
+      "Aucune réponse suggérée Gmail attribuée au client; accès Sysco masqués dans la lecture."
     ],
     "recherche_effectuee": [
       "Premier audit, avant cette collecte complémentaire : Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
@@ -335,16 +550,22 @@
       "Premier audit, avant cette collecte complémentaire : Lecture des seize images du lot lectures-factures 2024 via texte/OCR et contrôles visuels ciblés; la commande Senville est rattachée à la demande 3, non présentée comme entretien.",
       "Premier audit, avant cette collecte complémentaire : Lecture du texte natif des neuf devis PDF; contrôle des copies photos-reparations-janvier 2025 et photos-factures-aout 2025 et des divergences de versions.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {TZANET TEZANET TESANET 1000026855 1000026854}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {TZANET TEZANET TESANET 1000026855 1000026854}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Collecte Takatak : 26 messages MIME lus, 23 retenus, deux EML natifs et deux PDF extraits.",
+      "Collecte Ooeuf : 23 résultats de recherche exactemail capturés par interface; limites consignées dans couverture.json.",
+      "Finalisation locale du 24 octobre 2026; aucun nouvel appel Gmail."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye"
   },
   {
     "id": 10,
     "demande": "Indiquer le lieu d’entreposage des équipements.",
     "statut": "partiel",
-    "reponse_proposee": "Le rapport de saisie 26-08196-19337, portant le 17 décembre 2025 à 19 h 00, certifie le transport des biens vers le lieu du gardien judiciaire au 5505, rue Irwin, LaSalle, Québec H8N 1A1, a/s KOSTAS KRONIS (RAPPORT_F, pages 5–6). Le PV signé mentionne également Kostas Kronis et cette adresse. Ces pièces documentent la destination après la saisie, distincte du 5007 rue Herwin prévu initialement au devis. Elles sont jointes pour répondre sur le lieu historiquement documenté. Une confirmation actuelle, datée, de l'emplacement physique des équipements, des conteneurs et de l'inventaire présent reste à obtenir, ainsi que les éventuels déplacements intervenus depuis.",
+    "reponse_proposee": "Le rapport de saisie 26-08196-19337, portant le 17 décembre 2025 à 19 h 00, certifie le transport des biens vers le lieu du gardien judiciaire au 5505, rue Irwin, LaSalle, Québec H8N 1A1, a/s KOSTAS KRONIS (RAPPORT_F, pages 5–6). Le PV signé mentionne également Kostas Kronis et cette adresse. Ces pièces documentent la destination après la saisie, distincte du 5007 rue Herwin prévu initialement au devis. Elles sont jointes pour répondre sur le lieu historiquement documenté. Une confirmation actuelle, datée, de l'emplacement physique des équipements, des conteneurs et de l'inventaire présent reste à obtenir, ainsi que les éventuels déplacements intervenus depuis. Complément du 24 octobre : Destination historique précisée et contrôlée visuellement. Le 24 octobre, le client précise pour les demandes 10 et 11 qu’il ne dispose d’aucun bail supplémentaire, seulement de factures et de paiements immédiats. Cette précision ne retire pas les anciennes conventions CINTEC conservées; elle doit être rapprochée de la période et du site concernés.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/02_Contrats/Archive_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
@@ -381,6 +602,18 @@
         "repere": "Page 1, PV manuscrit portant le 17 décembre 2025; contrôle visuel réalisé",
         "apport": "Version avec une signature à la rubrique « le gardien », désignation manuscrite Kostas Kronis et 5505 Irwin, LaSalle. Identité de la personne ayant signé et date de signature à confirmer; aucune convention détaillée distincte fournie.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+        "apport": "Coordonnées fournies par le client et demandes précises à adresser; aucun appel ni message envoyé.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
@@ -388,6 +621,7 @@
       "Historique des déplacements postérieurs au PV s'il y en a eu; distinction entre l'adresse du gardien et le lieu physique des biens."
     ],
     "demarches": [
+      "Identifier les factures et règlements immédiats évoqués par le client : émetteur, adresse, période et objet (entreposage ou chariot).",
       "Faire confirmer par le gardien désigné ou par l'huissier le lieu physique actuel et la date du dernier déplacement, avec inventaire et référence au PV.",
       "Rapprocher Herwin/Irwin et les trois adresses dans une chronologie sans les harmoniser artificiellement."
     ],
@@ -396,8 +630,7 @@
       "Les captures H01 et H02 rangées dans 02_Contrats sont des courriels de Mario Taoutel/Miller Thomson; elles ne prouvent pas une location de conteneur.",
       "Le nom manuscrit Kronis doit être rapproché des signatures et des variantes épelées dans Fieldy; aucune identité commerciale n'est déduite.",
       "Le rapport de notification page 11 vise KOSTA KRONIS à l'adresse Ooeuf le 22 avril 2026; il ne confirme pas à lui seul l'emplacement physique des biens en octobre.",
-      "Les heures de trajet de la page 6 ne sont pas assimilées à une heure de livraison au gardien. La date manuscrite du PV ne date pas automatiquement l'apposition de la signature noire.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les heures de trajet de la page 6 ne sont pas assimilées à une heure de livraison au gardien. La date manuscrite du PV ne date pas automatiquement l'apposition de la signature noire."
     ],
     "recherche_effectuee": [
       "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
@@ -405,15 +638,19 @@
       "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
       "Termes entreposage, gardien, 5505, 5007, Irwin, Herwin, Lachine, LaSalle; lecture du QT1076, CT2500078, PV complet et inspection des captures H01/H02.",
       "Complément du 21 octobre : lecture native et contrôle visuel des 12 pages de RAPPORT_F, de la page de PV_SIGNE et de la facture 8695 récupérés dans Ooeuf depuis le courriel MANDAT COMPLÉTÉ du 1er mai 2026. Empreintes et réserves dans 13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "date_recherche_complementaire": "2026-10-21"
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 15,
     "demande": "Produire une copie des photos envoyées avant le déménagement ainsi que toute liste des équipements préparée avant le déménagement, le cas échéant.",
     "statut": "partiel",
-    "reponse_proposee": "La liste incluse au devis QT1076 préparé le 9 juin 2025 pour le transport du 12 juin est disponible. Trois captures J02 à J04 montrent des équipements de cuisine et sont jointes comme pistes photographiques à identifier. Leur date de prise de vue, leur auteur et leur envoi effectif à Harmony avant le déménagement ne sont pas établis par les fichiers conservés. Il reste à obtenir le message d'origine, ses annexes natives et toute autre liste préparée avant le transport, s'il en existe.",
+    "reponse_proposee": "Le lot comprend désormais le devis QT1076, la liste « INVENTAIRE RESTO.xlsx » transmise dans une chaîne de mai 2023 et les captures des échanges avec Allen fournies par Pierre le 24 octobre. Certaines captures affichent des galeries de photos envoyées le 6 juin 2025 à 17 h 59; elles documentent l’envoi avant le déménagement. Le classeur contient 39 lignes d’équipements avec de nombreux modèles et séries; le client confirme qu’il s’agit de l’inventaire lors de l’achat. Sa colonne VALEUR est vide. Les captures, le classeur et leur provenance sont remis; les photos natives et les correspondances entre les listes restent à contrôler.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/02_Contrats/Archive_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
@@ -450,37 +687,111 @@
         "repere": "p. 49, 11:13:13–11:13:18; p. 74–78, après Recording stop",
         "apport": "Demande des photos et d'une éventuelle autre liste; envoi et nombre de photos évoqués après séance, sans preuve de réception.",
         "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+        "repere": "6 juin 2025, 17:54",
+        "apport": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155464.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Vue galerie contenant plusieurs vignettes de photos d’équipements : comptoirs, appareils de cuisine, évier et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155466.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Deuxième vue galerie : comptoir, mélangeur, chambre/appareil froid, réfrigérateur et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155468.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Troisième vue galerie : friteuse, deux appareils verticaux de cuisson et grande enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155472.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Dans le fil « Transport Resto 6141 », agrandissement d’une photo de cuisine et début d’une autre photo d’enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155474.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Agrandissement d’une enceinte blanche et vue partielle d’un réfrigérateur métallique.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155476.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Vue partielle du réfrigérateur métallique, puis photo de deux appareils verticaux de cuisson sur table.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/Originaux/INVENTAIRE RESTO.xlsx",
+        "repere": "Feuil1!A1:D47; Feuil2 et Feuil3 vides",
+        "apport": "39 lignes, 35 modèles et 32 séries renseignés. Colonne VALEUR vide.",
+        "nature": "original numerique joint au courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/EML/198472d44b632476.eml",
+        "repere": "Transfert du 26 juillet 2025 et chaîne citant le 29 mai 2023",
+        "apport": "Provenance de transmission du classeur; la chaîne antérieure citée ne remplace pas son EML autonome.",
+        "nature": "original courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/rapport.md",
+        "repere": "Déclaration du client, distincte de la pièce",
+        "apport": "Confirmation du client le 24 octobre 2026 que ce fichier est l’inventaire recherché des équipements lors de l’achat.",
+        "nature": "declaration client consignee"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
       }
     ],
     "manquants": [
-      "Courriel ou export de conversation original ayant transmis les photos à Harmony avant le 12 juin 2025, avec en-têtes, date, destinataire et annexes.",
-      "Fichiers photographiques natifs et confirmation de leur auteur/date; correspondance avec les appareils de la liste.",
-      "Autre liste d'équipements antérieure, uniquement si elle existe; le contrat ne démontre pas qu'il n'y en avait aucune."
+      "Fichiers natifs des photos visibles dans les galeries, si une lecture de détail ou des métadonnées est nécessaire.",
+      "Rapprochement entre la liste de mai 2023, le devis QT1076 et les photos envoyées en juin 2025; confirmation des ajouts ou retraits."
     ],
     "demarches": [
-      "Rechercher l'envoi d'origine dans les courriels et messages des personnes ayant préparé le transport, en utilisant les noms des photos et la période précédant le 12 juin 2025.",
-      "Obtenir les originaux des captures J02–J04 et les faire identifier par leur auteur, sans déduire leur date du répertoire photos-octobre 2025."
+      "Comparer les galeries envoyées le 6 juin à 17 h 59 avec les photos natives et les captures J02–J04, sans supposer qu’elles représentent exactement les mêmes fichiers.",
+      "Faire identifier par la personne présente les équipements de la liste de 2023 et ceux du devis de 2025; consigner les modèles, séries, ajouts et retraits confirmés."
     ],
     "controles": [
       "J02–J04 sont des captures de photos, pas les fichiers natifs de prise de vue; champs EXIF de date/auteur contrôlés non renseignés.",
       "Les JPG A24–A40 du message 197897943f689224 intitulé Inventaire montrent des documents/factures alimentaires; les contrôles visuels A25 et A40 ne permettent pas de les présenter comme photos des appareils.",
       "Les PNG Sysco du dossier photos-assurance-2024 sont des scans de factures alimentaires, non des photos d'équipement.",
-      "Le nombre de photos annoncé oralement ne prouve ni leur réception ni leur rattachement aux fichiers présents.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Le nombre de photos annoncé oralement ne prouve ni leur réception ni leur rattachement aux fichiers présents."
     ],
     "recherche_effectuee": [
       "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
       "Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
       "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
-      "Lecture QT1076/CT2500078; contrôle visuel J02–J04 et métadonnées; comparaison du courriel Inventaire 197897943f689224 et de ses annexes A24–A40; contrôle des premières familles de PNG Sysco."
+      "Lecture QT1076/CT2500078; contrôle visuel J02–J04 et métadonnées; comparaison du courriel Inventaire 197897943f689224 et de ses annexes A24–A40; contrôle des premières familles de PNG Sysco.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "date_recherche_complementaire": "2026-10-21"
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 16,
     "demande": "Produire le contrat conclu avec le gardien relativement à l’entreposage actuel des équipements.",
     "statut": "partiel",
-    "reponse_proposee": "Nous produisons la version signée du procès-verbal de saisie et les rapports de l'huissier relatifs à la garde. PV_SIGNE comporte une signature à la rubrique « le gardien » et désigne manuscritement Kostas Kronis, 5505 Irwin, LaSalle. L'identité et la qualité de la personne ayant apposé cette signature, ainsi que sa date, restent à confirmer. Le rapport 26-08196-24097 indique la notification du PV à « KOSTA KRONIS, gardien judiciaire », via ooeuf.ca@gmail.com, le 22 avril 2026 à 14 h 25, avec un accusé de réception déclaré à 14 h 35. Ces documents ne comportent pas une convention actuelle détaillée d'entreposage avec sa durée, son prix et ses annexes. Nous demandons au cabinet de préciser la portée du PV signé et de confirmer si une convention distincte existe; si oui, cette convention reste à obtenir.",
+    "reponse_proposee": "Nous produisons la version signée du procès-verbal de saisie et les rapports de l'huissier relatifs à la garde. PV_SIGNE comporte une signature à la rubrique « le gardien » et désigne manuscritement Kostas Kronis, 5505 Irwin, LaSalle. L'identité et la qualité de la personne ayant apposé cette signature, ainsi que sa date, restent à confirmer. Le rapport 26-08196-24097 indique la notification du PV à « KOSTA KRONIS, gardien judiciaire », via ooeuf.ca@gmail.com, le 22 avril 2026 à 14 h 25, avec un accusé de réception déclaré à 14 h 35. Ces documents ne comportent pas une convention actuelle détaillée d'entreposage avec sa durée, son prix et ses annexes. Nous demandons au cabinet de préciser la portée du PV signé et de confirmer si une convention distincte existe; si oui, cette convention reste à obtenir. Complément du 24 octobre : Comparaison des versions du PV; mention de conditions convenues, sans détail; ajout de signature dans PV_SIGNE non authentifié par cette analyse. Le client fournit le contact « Costantinos Chronis », 514 910-6319, indique qu’il est disponible par téléphone et qu’il a été témoin du déménagement. Ce nom déclaré sera rapproché des variantes KOSTAS/KOSTA KRONIS inscrites aux procès-verbaux, sans correction silencieuse de ces pièces.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
@@ -505,6 +816,18 @@
         "repere": "Pages physiques 5–6, rapport 26-08196-19337; page 11, rapport 26-08196-24097; contrôle visuel réalisé",
         "apport": "Rapport de saisie du 17 décembre 2025 avec transport certifié vers le 5505 rue Irwin, LaSalle H8N 1A1, a/s KOSTAS KRONIS; notification du PV à KOSTA KRONIS, via Ooeuf, le 22 avril 2026 à 14 h 25, réception indiquée à 14 h 35. Repères historiques, sans confirmation actuelle du lieu.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+        "apport": "Coordonnées fournies par le client et demandes précises à adresser; aucun appel ni message envoyé.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
@@ -513,6 +836,7 @@
       "Confirmation actuelle du détenteur, du lieu physique, de la période et des conditions de garde."
     ],
     "demarches": [
+      "Joindre le contact fourni au 514 910-6319 pour confirmer son identité, les conditions de garde, les documents détenus et ses observations personnelles datées; fiche de demande préparée.",
       "Retrouver le courriel de notification du PV envoyé par saj@huissierdejustice.ca à Ooeuf le 22 avril 2026 à 14 h 25, et la réponse indiquée à 14 h 35, puis rapprocher leur pièce jointe de PV_SIGNE.",
       "Faire confirmer par l'huissier et le détenteur désigné l'identité et la qualité du signataire, les modalités de garde et l'existence éventuelle d'une convention distincte.",
       "Soumettre le PV signé au cabinet pour apprécier sa portée exacte; ne pas le rebaptiser contrat ni le substituer sans examen à la pièce demandée."
@@ -521,8 +845,7 @@
       "Signature visible à la rubrique « le gardien », sans attribution automatique à Kostas Kronis. L'adresse Ooeuf utilisée pour la notification ne prouve pas l'identité du lecteur ou du signataire.",
       "Conserver KOSTAS (page 6) et KOSTA (page 11) tels qu'ils sont écrits, sans correction silencieuse.",
       "Le PV signé ne comporte pas de durée ou de prix d'entreposage; la version d'une page ne remplace pas les autres annexes d'inventaire du PV déjà acquises.",
-      "Les captures H01/H02 restent des courriels procéduraux et ne deviennent pas des contrats de conteneur.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les captures H01/H02 restent des courriels procéduraux et ne deviennent pas des contrats de conteneur."
     ],
     "recherche_effectuee": [
       "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
@@ -530,15 +853,19 @@
       "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
       "Termes gardien, garde, contrat, entreposage, Kronis/Cronis, Irwin/Herwin; lecture PV et documents contractuels disponibles, inspection H01/H02.",
       "Complément du 21 octobre : lecture native et contrôle visuel des 12 pages de RAPPORT_F, de la page de PV_SIGNE et de la facture 8695 récupérés dans Ooeuf depuis le courriel MANDAT COMPLÉTÉ du 1er mai 2026. Empreintes et réserves dans 13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "date_recherche_complementaire": "2026-10-21"
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 17,
     "demande": "Produire la documentation de Tezanet concernant l’évaluation des équipements.",
-    "statut": "partiel",
-    "reponse_proposee": "Nous joignons la soumission Tzanet 141455 du 28 juillet 2025, adressée à Quadro au 5837 Jean-Talon : deux fours convoyeurs PS 528 GNAT, une vitrine réfrigérée, deux fours à convection et un kit de conversion, pour 90620 $ avant taxes et 104190,35 $ taxes comprises, livraison exclue. Nous joignons aussi la capture 1000026855.jpg du courriel de Panos Liveris concernant l’indisponibilité d’un modèle réservé à Tim Hortons. Ces pièces apportent des prix et un renseignement commercial; elles ne constituent pas un diagnostic ni une évaluation documentée de tous les biens saisis. Le devis 141490 reçu dans le même fil est au nom de Les délice d’aden et reste exclu du montant Quadro. La seconde image 1000026854.jpg a aussi été récupérée : elle photographie le même devis 141455 et ne constitue ni un montant supplémentaire ni un rapport distinct. La provenance des deux images est rattachée au courriel Ooeuf du 30 juillet 2025. Tout rapport d’évaluation distinct demeure à obtenir s’il existe.",
+    "statut": "document_disponible",
+    "reponse_proposee": "La documentation Tzanet désignée par le client comme son évaluation complète est disponible : soumission 141455 du 28 juillet 2025 à Quadro, sa photographie et le courriel/capture de Panos Liveris sur le modèle Tim Hortons. Nous remettons ce lot pour répondre à la demande 17. La soumission est un chiffrage commercial de remplacement, de 90 620 $ HT et 104 190,35 $ TTC, livraison exclue. Le classement « document disponible » porte sur la production de ce lot identifié par le client; il ne transforme pas le devis en expertise indépendante de l’état, de la valeur marchande de chaque bien ou de la cause des dommages. Le devis 141490 au nom de Les délice d’aden est distingué et exclu du montant Quadro.",
     "pieces": [
       {
         "path": "6241 Léger/04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A06.pdf",
@@ -619,16 +946,17 @@
         "nature": "extraction",
         "sha256": "69743b01549fe425f7629032b93354f51fd158c2e9a77b58ccc12c89a8bba517",
         "octets": 7872
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
       }
     ],
-    "manquants": [
-      "Rapport d’évaluation ou d’expertise distinct, s’il existe, avec auteur, méthode, état/âge, modèles/numéros de série et correspondance aux équipements litigieux.",
-      "Confirmation du fournisseur sur l’adéquation des appareils proposés et la distinction entre remplacement, réparation et évaluation; justificatif d’achat si un devis a été accepté."
-    ],
+    "manquants": [],
     "demarches": [
-      "Compléter au besoin la provenance par l’export EML du message Ooeuf du 30 juillet 2025; les deux images et les devis sont désormais disponibles, ainsi qu’une extraction UI du message.",
-      "Faire confirmer s’il existe un rapport d’évaluation distinct des deux devis de vente et de la capture concernant la disponibilité du modèle Tim Hortons.",
-      "Traiter séparément les projets TORI Repair et le comptoir réfrigéré : devis de remplacement et rapports techniques n’établissent pas les mêmes faits."
+      "Faire confirmer au cabinet que le lot Tzanet ainsi identifié correspond à la portée de la demande; s’il requiert une évaluation technique supplémentaire, en préciser le mandat."
     ],
     "controles": [
       "Un courriel annonçant un rapport ne démontre ni le contenu, ni la remise, ni la portée de ce rapport.",
@@ -639,7 +967,8 @@
       "Devis 141490 autre client : sous-total 61368,99; grand total 70559,01; taxes imprimées 4012,45 et 8004,84 discordantes. Option 18879,99 affichée avec tiret dans le total; aucune correction de l’original ni cumul avec 141455.",
       "La capture 1000026855.jpg ne montre pas de date complète ni de conclusion technique; son auteur visible est Panos Liveris, représentant aux ventes Tzanet.",
       "1000026854.jpg et Sales Quotation 141455.pdf sont deux représentations du même devis : une seule valeur.",
-      "Devis 141490 :61368,99 × 1,14975 arrondi =70559,00 contre 70559,01 imprimé, écart 0,01 $. Aucun chiffre original modifié."
+      "Devis 141490 :61368,99 × 1,14975 arrondi =70559,00 contre 70559,01 imprimé, écart 0,01 $. Aucun chiffre original modifié.",
+      "Le client confirme le 24 octobre que ce lot constitue l’évaluation qu’il entend produire. Aucune nouvelle expertise technique n’a été acquise; disponibilité documentaire et portée probante restent distinctes."
     ],
     "recherche_effectuee": [
       "Premier audit, avant cette collecte complémentaire : Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
@@ -649,16 +978,20 @@
       "Premier audit, avant cette collecte complémentaire : Gmail Takatak, lecture seule : {tzanet tezanet tesanet \"brindamour\"} (14 résultats); recherche des deux noms de pièces et sujets expertise/évaluation; recherche expéditeur/destinataire tzanet.com et sujets Tzanet/Tezanet/Tesanet (aucun résultat direct).",
       "Premier audit, avant cette collecte complémentaire : Lecture intégrale du PDF A 06 et de son texte; les limites du compte Takatak ne prouvent pas une absence dans ooeuf.",
       "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {TZANET TEZANET TESANET 1000026855 1000026854}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {TZANET TEZANET TESANET 1000026855 1000026854}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés.",
-    "date_recherche_complementaire": "2026-10-21"
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "portee_statut": "Disponibilité du lot Tzanet désigné par le client; chiffrage commercial de remplacement, sans conclusion d’expertise indépendante."
   },
   {
     "id": 18,
     "demande": "Produire les vidéos et les photos prises par l’huissier, dans la mesure où elles sont en votre possession.",
     "statut": "non_repere",
-    "reponse_proposee": "Les rapports de l'huissier et le PV signé sont maintenant disponibles et joints comme pièces de contexte. Les 12 pages de RAPPORT_F et la page de PV_SIGNE ont été contrôlées visuellement : elles ne contiennent aucune photo d'équipement ni vidéo. Le rapport de production 26-08196-24696, page 12, vise le dépôt de procédures au greffe le 1er mai 2026 et ne concerne pas les images d'une production télévisée. Aucun lot acquis ne peut encore être identifié avec certitude comme les photos ou vidéos prises par l'huissier et détenues par Quadro. Les originaux WhatsApp et vidéos évoqués dans les correspondances restent une piste de récupération, sans preuve de réception des médias.",
+    "reponse_proposee": "Les rapports de l'huissier et le PV signé sont maintenant disponibles et joints comme pièces de contexte. Les 12 pages de RAPPORT_F et la page de PV_SIGNE ont été contrôlées visuellement : elles ne contiennent aucune photo d'équipement ni vidéo. Le rapport de production 26-08196-24696, page 12, vise le dépôt de procédures au greffe le 1er mai 2026 et ne concerne pas les images d'une production télévisée. Aucun lot acquis ne peut encore être identifié avec certitude comme les photos ou vidéos prises par l'huissier et détenues par Quadro. Les originaux WhatsApp et vidéos évoqués dans les correspondances restent une piste de récupération, sans preuve de réception des médias. Complément du 24 octobre : Contrôle visuel intégral de RAPPORT_F/PV_SIGNE et annexes. Aucun fichier photo/vidéo natif ni constat explicite de dommages acquis dans cette sous-analyse. Déclaration client sur les dommages conservée. Le 24 octobre, le client précise que les images relèvent de la production TV et doivent être demandées directement à Michel Gaucher, 514 863-0116. Leur détenteur, leur auteur, les droits de copie et leur lien aux constats de l’huissier sont à confirmer auprès de lui. Les médias ne sont pas présentés comme reçus.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
@@ -683,18 +1016,67 @@
         "repere": "Page 1, PV manuscrit portant le 17 décembre 2025; contrôle visuel réalisé",
         "apport": "Version avec une signature à la rubrique « le gardien », désignation manuscrite Kostas Kronis et 5505 Irwin, LaSalle. Identité de la personne ayant signé et date de signature à confirmer; aucune convention détaillée distincte fournie.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/ANALYSE-HUISSIER.md",
+        "repere": "Contrôle p.1–12 / p.1 / annexes; section observations",
+        "apport": "Analyse de portée, ne remplace pas les médias demandés.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/1000155488.jpg",
+        "repere": "Photo écran Gmail Saj 1 mai 2026",
+        "apport": "Identifie le courriel du cabinet; n’affiche ni équipement ni dommage.",
+        "nature": "document_fourni_client"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d1182b2319b2.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d1182b2319b2",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d119b71c4554.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d119b71c4554",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d08a7feddb4a.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d08a7feddb4a",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d2e36bf7f452.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d2e36bf7f452",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+        "apport": "Coordonnées fournies par le client et demandes précises à adresser; aucun appel ni message envoyé.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
       "Photos/vidéos natives effectivement prises par l'huissier et actuellement détenues, avec auteur, date et lien au PV.",
       "Preuve de réception/transfert des supports; distinction avec les fichiers de la production télévisée et les images prises par d'autres personnes.",
-      "Confirmation de ce qui est réellement en possession de Quadro et de ce qui reste détenu par un tiers."
+      "Confirmation de ce qui est réellement en possession de Quadro et de ce qui reste détenu par un tiers.",
+      "Rapport complémentaire distinguant dommages personnellement vus et propos rapportés, si disponible."
     ],
     "demarches": [
+      "Joindre Michel Gaucher au 514 863-0116 : demander qui détient les photos/vidéos, copie ou modalités de remise, dates, auteur, inventaire des fichiers et éventuelles observations écrites de dommages.",
       "Inventorier les supports détenus par les participants et les éventuels liens Drive, avec noms de fichiers et origine, avant de déclarer la possession.",
       "À partir du PV, demander le bordereau ou les copies du lot de l'huissier; identifier séparément la production si ses images sont recherchées.",
-      "Conserver les originaux et leurs métadonnées; n'attribuer ni date de saisie, ni auteur, ni causalité sur la seule apparence d'une image.",
-      "Élargir la recherche aux adresses du domaine gaucherhuissier.com, notamment la chaîne de Karina Charlebois relative à la facture 8695, ainsi qu'aux échanges saj@huissierdejustice.ca; rechercher séparément les exports WhatsApp annoncés."
+      "Conserver les originaux et leurs métadonnées; n'attribuer ni date de saisie, ni auteur, ni causalité sur la seule apparence d'une image."
     ],
     "controles": [
       "Contrôle visuel des six fichiers I01 à I06 de photos-drive : même vitrine ronde au verre cassé, emballage VEVOR, aucune attribution à l'huissier établie; champs date/auteur EXIF contrôlés non renseignés.",
@@ -703,7 +1085,9 @@
       "Les pages après Recording stop ne sont pas qualifiées automatiquement de témoignage formel.",
       "Les rapports de l'huissier sont désormais acquis; leur disponibilité ne suffit pas à déclarer les médias récupérés.",
       "Les montants ventilés dans RAPPORT_F et les deux versions de la facture 8695 décrivent les mêmes prestations; ils ne doivent pas être additionnés comme charges supplémentaires.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Pas de doublon de la facture8695 ajouté.",
+      "Rapport de production au greffe distinct de médias vidéo.",
+      "Les recherches négatives n’établissent pas l’absence dans les téléphones."
     ],
     "recherche_effectuee": [
       "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
@@ -712,9 +1096,14 @@
       "Recherche photos, vidéos, huissier, Michel Gaucher, saisie, production, Brindamour; contrôle visuel de I01–I06.",
       "Gmail Takatak : {from:huissierdejustice.ca to:huissierdejustice.ca} {Quadro Harmony \"136442\"} sans résultat; ce résultat limité ne prouve pas l'absence d'autres adresses ou supports.",
       "Complément du 21 octobre : lecture native et contrôle visuel des 12 pages de RAPPORT_F, de la page de PV_SIGNE et de la facture 8695 récupérés dans Ooeuf depuis le courriel MANDAT COMPLÉTÉ du 1er mai 2026. Empreintes et réserves dans 13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (sous-lot de recherche) : Quatre EML natifs du 5 octobre 2026 sont maintenant acquis; leur contenu administratif était déjà analysé dans le lot13. Ils précisent que les originaux WhatsApp/photos/vidéos du huissier restaient à obtenir et ne comprennent aucune pièce jointe."
     ],
-    "date_recherche_complementaire": "2026-10-21"
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 19,
@@ -727,6 +1116,12 @@
         "repere": "Image entière, contrôle visuel effectué le 21 octobre 2026",
         "apport": "Carte de Bouchard, Stéphane, matricule 4388, PDQ16; numéro manuscrit MTLEV2500487177. Carte existante lisible, sans date d'incident imprimée.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
       }
     ],
     "manquants": [],
@@ -743,15 +1138,19 @@
       "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
       "Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
       "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
-      "Recherche image006.jpg, carte police, rapport police, MTLEV/MILEV; inspection visuelle directe de l'original conservé."
+      "Recherche image006.jpg, carte police, rapport police, MTLEV/MILEV; inspection visuelle directe de l'original conservé.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
-    "date_recherche_complementaire": "2026-10-21"
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 20,
     "demande": "Fournir le formulaire d’autorisation d’accès dûment signé permettant aux avocats d’obtenir le rapport de police.",
-    "statut": "non_repere",
-    "reponse_proposee": "Le formulaire d'autorisation d'accès signé n'a pas été repéré dans les pièces examinées. La carte portant MTLEV2500487177 est disponible pour préparer la demande. Il reste à obtenir du cabinet le formulaire approprié, à en faire confirmer la portée et le signataire habilité, puis à recueillir sa signature. Aucune signature n'a été créée ni apposée par l'assistant. Contrôle d'un faux positif : les autorisations d'accès à un lieu mentionnées dans la facture 8695 ne sont pas l'autorisation d'obtenir le rapport de police.",
+    "statut": "partiel",
+    "reponse_proposee": "Une autorisation personnelle limitée au rapport SPVM MTLEV2500487177 est maintenant préparée, en PDF de deux pages et en version modifiable, à la demande du client. Les champs d’identité, de date et de signature restent vierges. Chaque personne concernée doit signer personnellement un exemplaire à la main. Le cabinet pourra joindre ce consentement à sa demande sur papier à en-tête, avec l’identification requise. Aucun formulaire signé n’a été retrouvé ni créé, aucune assermentation n’a été effectuée et aucune demande n’a été envoyée. La demande 20 est donc préparée en partie et reste à finaliser par la signature réelle. La rubrique facultative d’attestation est réservée au cabinet; aucune assermentation n’est tenue pour accomplie ou systématiquement obligatoire.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/sources/image006.jpg",
@@ -776,22 +1175,57 @@
         "repere": "Page 1, lignes des rapports d'autorisation",
         "nature": "original",
         "apport": "Objet différent de l'accès au rapport de police; ne pas substituer ces lignes au formulaire demandé."
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "p.3–4",
+        "apport": "Demande de force/serrurier/police et autorisation; pas le formulaire d’accès au dossier policier.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf",
+        "repere": "p1 autorisation vierge à signer; p2 instructions et sources officielles.",
+        "apport": "Projet préparé le 24 octobre 2026; consentement limité, un exemplaire par personne; aucune signature ni attestation créée.",
+        "nature": "analyse",
+        "sha256": "b8ba01d6079ba78daf4e3cf5c48dcc572e410b0e38c108d570f444070465151e",
+        "octets": 78933
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.md",
+        "repere": "Version modifiable correspondant au projet PDF.",
+        "apport": "Projet préparé le 24 octobre 2026; consentement limité, un exemplaire par personne; aucune signature ni attestation créée.",
+        "nature": "analyse",
+        "sha256": "e766db93af8f79f0cb9df2d5a6097aed80760362f4b279117483764b8bff9e02",
+        "octets": 4301
       }
     ],
     "manquants": [
-      "Formulaire d'autorisation rempli et dûment signé pour l'accès au rapport visé.",
-      "Identification du signataire habilité et validation par le cabinet de la portée de l'autorisation."
+      "Identité complète de chaque personne concernée et confirmation par le cabinet de la portée, de la date et du lieu de l’événement.",
+      "Autorisation datée et signée personnellement à la main par chaque personne concernée, avec copie lisible d’identité requise.",
+      "Finalisation et transmission par le cabinet de sa demande sur papier à en-tête, puis suivi de sa réception."
     ],
     "demarches": [
-      "Faire préparer ou fournir le formulaire par le cabinet en utilisant la carte disponible; le remettre à la personne habilitée pour signature.",
-      "Classer l'original signé lorsqu'il sera reçu et distinguer sa réception de l'obtention ultérieure du rapport."
+      "Imprimer la page 1 pour chaque personne concernée, compléter les renseignements et signer personnellement après vérification du cabinet.",
+      "Le cabinet complète sa lettre sur papier à en-tête et joint les autorisations et justificatifs requis; vérifier les frais au moment de l’envoi."
     ],
     "controles": [
       "Aucun formulaire vierge n'est présenté comme signé; un accord oral ne vaut pas une pièce signée retrouvée.",
       "Aucune autorisation ni demande d'accès n'a été envoyée; aucune signature n'a été appliquée.",
       "La carte disponible satisfait la demande 19, pas la demande 20.",
       "Aucune signature créée, aucun formulaire envoyé et aucun statut de pièce signée attribué à un accord oral ou à la carte de police.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Carte du policier distincte du rapport et de l’autorisation.",
+      "Autorisation d’accès forcé à un lieu distincte de l’accès au rapport de police.",
+      "Aucune signature créée ou apposée.",
+      "Le PDF est un projet vierge, pas une autorisation signée.",
+      "Aucune identité, date de signature ou assermentation inventée.",
+      "Le formulaire public SPVM n’est pas utilisé comme demande au nom de l’avocat; le consentement est une annexe à sa lettre.",
+      "La mention de fax du PDF officiel2024 est dépassée par la pageSPVM actuelle; ne pas transmettre par fax."
     ],
     "recherche_effectuee": [
       "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
@@ -799,8 +1233,15 @@
       "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
       "Recherche autorisation, accès, rapport de police, formulaire, signature, MTLEV2500487177; aucune autorisation signée identifiée.",
       "Gmail Takatak : sujets rapport/évaluation/police et numéro MTLEV2500487177 avec Quadro/Harmony/Léger, sans résultat correspondant.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"curriculum vitae\" \"autorisation police\" \"autorisation SPVM\" \"rapport de police\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"curriculum vitae\" \"autorisation police\" \"autorisation SPVM\" \"rapport de police\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (sous-lot de recherche) : Les recherches exactes et variantes n'ont pas retrouvé d'autorisation signée. Les notifications SPVM T25015911 concernent un signalement relatif à un aéroport et sont écartées du dossier Harmony.",
+      "24 octobre 2026 : carte de police relue; formulaire F470-16 et page Accès à l’information du SPVM consultés; projet créé et ses deux pages contrôlées visuellement."
     ],
-    "date_recherche_complementaire": "2026-10-21"
+    "date_recherche_complementaire": "2026-10-24",
+    "date_controle": "2026-10-24",
+    "statut_transmission": "non_envoye",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+    "portee_statut": "Projet d’autorisation préparé, non signé, non assermenté et non envoyé; l’autorisation personnelle signée reste à obtenir."
   }
 ]

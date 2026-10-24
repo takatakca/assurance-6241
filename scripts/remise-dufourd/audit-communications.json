@@ -2,9 +2,9 @@
   {
     "id": 1,
     "demande": "Produire une copie de votre curriculum vitae.",
-    "statut": "non_repere",
+    "statut": "document_disponible",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Aucune copie du curriculum vitae demandé n’a été repérée parmi les fichiers et courriels examinés. Le passage Fieldy permet de retrouver cette demande, mais ne remplace pas le CV. Une version datée et vérifiée par la personne interrogée reste à fournir; le parcours ne sera pas reconstitué à partir d’allusions dans la transcription.",
+    "reponse_proposee": "La copie de CV-Final.docx fournie directement par le client le 24 octobre 2026 est jointe. Le document de deux pages porte le nom Matthieu Wallace Barnard. Il répond à la demande de copie du curriculum vitae. Le contenu décrit son parcours; il ne constitue pas une vérification indépendante des formations et emplois. Le document ne porte pas de date imprimée.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
@@ -12,13 +12,23 @@
         "repere": "10:04:50–10:04:59",
         "apport": "Transcription automatique Fieldy : demande et acquiescement à la production du CV, sans CV reproduit.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/CV-Final.docx",
+        "repere": "Deux pages dans l’aperçu Gmail; nom MATTHIEU WALLACE BARNARD; fourni le24octobre2026",
+        "apport": "CV déclaratif fourni par le client, conservé sans modification. Aucun emploi ni diplôme vérifié indépendamment.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/PROVENANCE-CV.json",
+        "repere": "Acquisition24octobre2026 depuis le compte Gmail indiqué par le client",
+        "apport": "Trace d’acquisition de la copie; ne valide pas le contenu du CV.",
+        "nature": "analyse"
       }
     ],
-    "manquants": [
-      "CV de la personne interrogée, version actuelle ou version pertinente demandée; dates de formation/emplois et identité à confirmer par son auteur."
-    ],
+    "manquants": [],
     "demarches": [
-      "Faire compléter ou récupérer le CV auprès de la personne interrogée, puis le faire relire avant remise. Aucun contact effectué."
+      "Faire relire le CV par son auteur avant la remise au cabinet."
     ],
     "controles": [
       "Aucun CV inventé ou rédigé comme s’il était validé.",
@@ -27,14 +37,19 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
+      "Aucun emploi, année, diplôme, qualification ou niveau de langue vérifié indépendamment.",
+      "Le document ne comporte pas de date de rédaction/validation imprimée. Les métadonnées juillet2026 ne prouvent pas cette validation.",
+      "Aucune réécriture, correction ou signature ajoutée.",
+      "Piste Uber de mai2025 conservée comme historique de recherche, sans assimilation au CV maintenant fourni."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
       "Noms de fichiers CV / curriculum; mots exacts CV / curriculum vitae dans textes sources. Gmail: in:anywhere (\"curriculum vitae\" OR filename:cv OR subject:CV) (Mathieu OR Bernard OR Barnard) : un résultat sans lien (lettre d’information), écarté sans collecte.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"curriculum vitae\" \"autorisation police\" \"autorisation SPVM\" \"rapport de police\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"curriculum vitae\" \"autorisation police\" \"autorisation SPVM\" \"rapport de police\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (sous-lot de recherche) : Après la recherche Takatak négative, le client a fourni directement CV-Final.docx depuis son autre compte Gmail mwb130890@gmail.com. Le nom MATTHIEU WALLACE BARNARD et les deux pages de l’aperçu concordent avec le texte OOXML. La copie du CV est disponible."
     ],
     "sources_demande": [
       {
@@ -46,17 +61,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 2,
     "demande": "Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant le déménagement.",
     "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Le lot préparé comprend les quatre courriels d’origine des 12 et 13 juin 2025 et les chaînes conservées des 22 juillet et 15 août 2025. Il contient donc des messages Harmony et une réponse Ooeuf/Quadro. Il ne permet pas de certifier que toutes les communications de chacun des trois intervenants ont été réunies. Les échanges directs de M. Constantino, les SMS/Messenger et les enregistrements téléphoniques annoncés par Harmony restent à rapprocher de ce lot. Une consultation complémentaire du fil dans Ooeuf corrobore les trois messages Harmony du 15 août et les réponses Ooeuf déjà citées dans les transferts conservés. Cette extraction d’interface comporte des passages tronqués et ne certifie donc pas l’intégralité du fil ni des annexes.",
+    "reponse_proposee": "Le lot préparé comprend les quatre courriels d’origine des 12 et 13 juin 2025 et les chaînes conservées des 22 juillet et 15 août 2025. Il contient donc des messages Harmony et une réponse Ooeuf/Quadro. Il ne permet pas de certifier que toutes les communications de chacun des trois intervenants ont été réunies. Les échanges directs de M. Constantino, les treize captures SMS/MMS reçues le 24 octobre et les enregistrements téléphoniques annoncés par Harmony restent à rapprocher de ce lot. Les captures sont désormais disponibles; leur complétude et les autres canaux restent à vérifier. Une consultation complémentaire du fil dans Ooeuf corrobore les trois messages Harmony du 15 août et les réponses Ooeuf déjà citées dans les transferts conservés. Cette extraction d’interface comporte des passages tronqués et ne certifie donc pas l’intégralité du fil ni des annexes. Complément du 24 octobre : Captures d’échanges entrants et sortants avec le contact « Transport Resto 6141 », se présentant comme Allen et répondant à Mathieu. Dates explicites du 6 au 13 juin 2025; demande de photos, devis, livraison, équipement restant et mandat.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/03_Courriels/Collecte_Gmail_2026-10-21/1a0ef2ad6a978b96__Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
@@ -106,10 +122,46 @@
         "repere": "Vue Gmail Ooeuf extraite le 21 octobre 2026; messages Harmony du 15 août 2025 à 11 h 02, 14 h 15 et 15 h 17; citations des réponses Ooeuf des 13/14 juin",
         "apport": "Corrobore dans Ooeuf le contenu déjà conservé dans les transferts Takatak 19a037ccd5540733 et 19e6a1bab4f8e5b1. Permet de distinguer les trois envois du 15 août et les pièces annoncées. Aucun nouveau contenu substantiel établi; plusieurs corps affichés sont tronqués.",
         "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+        "repere": "6 juin 2025, 17:54",
+        "apport": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155480.jpg",
+        "repere": "7 juin 2025, 15:51 et 16:57; 8 juin 2025, 16:18",
+        "apport": "Même adresse et courriel qu’en 5478. Entrant à 16:57 : « i resend it let me know if you have any question ». Entrant le 8 juin : « Hey! I just wanted to follow up to make sure you received the quote I sent yesterday. Let me know if you have any questions or if there’s anything I can help with! »",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155482.jpg",
+        "repere": "12 juin 2025, 11:07; 13 juin 2025, 13:46",
+        "apport": "Entrant le 12 juin : « Hey call me when you have a moment ». Sortant le 13 juin : « Confirming that we have tried to reach you this morning and still waiting on a call back. » Puis : « Pierre has sent you and email and waiting your reply, he had people scheduled at location 5507 rue Irwin waiting on his delivery! Also there people waiting at 6241 blvd Léger Montréal nord H1g6k8 to empty the reste of the Pizzeria equipment provided in the initial quote. » Puis : « Also pierre was willing to make payment to what was agreed upon signing the agreement 🤝 ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+        "repere": "Horodatage du message non visible dans cette capture",
+        "apport": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+        "repere": "Horodatage propre du message sortant non visible; séparateur ultérieur « Sunday, Jun 21 • 02:25 », sans année",
+        "apport": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
       }
     ],
     "manquants": [
-      "Exports intégraux SMS/Messenger avec dates, interlocuteurs et médias des trois intervenants.",
+      "Comparaison des treize captures reçues aux conversations sur les téléphones : numéro du contact, identité de l’utilisateur, coupures, médias natifs et éventuels échanges supplémentaires SMS/Messenger détenus par les trois intervenants.",
       "Originaux des chaînes 22 juillet/15 août dans les comptes Ooeuf/Pierre, avec toutes leurs PJ; vérifier les messages intermédiaires.",
       "Échanges directs Constantino–Harmony et journaux/enregistrements des appels pertinents, notamment 6–13 juin 2025."
     ],
@@ -128,8 +180,9 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "Conserver la distinction plevesquesmtl@gmail.com / plevesquemtl@gmail.com dans les en-têtes; ne pas corriger silencieusement ni en déduire une non-réception. La réponse datée du 14 juin cite un délai du 13 juin : incohérence présente dans la source, à conserver."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
+      "Conserver la distinction plevesquesmtl@gmail.com / plevesquemtl@gmail.com dans les en-têtes; ne pas corriger silencieusement ni en déduire une non-réception. La réponse datée du 14 juin cite un délai du 13 juin : incohérence présente dans la source, à conserver.",
+      "Les captures prouvent le contenu affiché; elles ne valent ni export intégral ni vérification indépendante de l’identité du contact. La complétude annoncée par le client reste une déclaration."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
@@ -137,7 +190,8 @@
       "Recherche source Harmony/Constantino/U-Haul/Situation de transport et comparaison aux numéros Fieldy.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
       "Comparaison locale de Situation-transport-fil-Ooeuf.txt aux textes 19a037ccd5540733 (repères 14:15:28 et 11:02) et 19e6a1bab4f8e5b1 (réponses des 13/14 juin). Le navigateur Ooeuf a été piloté par l’agent parent.",
-      "Corroboration du fil Situation de transport dans Ooeuf; contenu substantiel déjà présent dans Takatak, fil affiché partiellement tronqué."
+      "Corroboration du fil Situation de transport dans Ooeuf; contenu substantiel déjà présent dans Takatak, fil affiché partiellement tronqué.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
     "sources_demande": [
       {
@@ -149,17 +203,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 6,
     "demande": "Produire le contrat de location conclu avec U-Haul. «Il n’y a en a pas si je comprends bien.»",
-    "statut": "non_repere",
+    "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Le contrat de location U-Haul relatif au déménagement du 12 juin 2025 n’a pas été repéré. La transcription indique qu’une compagnie externe aurait loué le véhicule et que le contrat ne serait pas détenu directement; cela ne démontre pas l’inexistence du contrat. Le récit de récupération de décembre mentionnant 469 $ est une opération à identifier séparément. Il ne remplace pas le contrat demandé.",
+    "reponse_proposee": "Selon la précision donnée par le client le 24 octobre, le prestataire du véhicule U-Haul était AKA Moving et la réponse documentaire à produire est sa facture. Nous joignons la facture 1020 du 11 juin 2025 à Quadro, pour 689,85 $ TTC. La date la rapproche de l’opération de juin; le client n’a pas précisé le numéro de facture dans sa déclaration. Le PDF décrit un service commercial de déménagement et porte le libellé « Moving Globo Shoe Company », sans mention U-Haul. L’identité du prestataire est donc déclarée par le client; le contrat ou numéro de location U-Haul lui-même reste non retrouvé. Aucun contrat distinct n’est inventé.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
@@ -173,15 +228,38 @@
         "repere": "Message 19e6a1ba7854b14c transféré 27 mai 2026; chaîne «Francais», échange29 décembre 2025, section dépenses de récupération. Source MIME lectures-006.json, même ID.",
         "apport": "Récit côté client :469 $ U-Haul, environ 2 000 $ autre entreprise de déménagement,400 $ outils; aucun reçu ou mandat Élite dans ce passage. Déclarations à rapprocher des pièces, sans addition.",
         "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 6",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Invoice_1020_from_AKA_Moving.pdf",
+        "apport": "Facture AKA Moving 1020 à Quadro du 11 juin 2025 : 600 $ HT, 689,85 $ TTC, montant dû affiché.",
+        "repere": "p. 1; description « Moving Globo Shoe Company »",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/ANALYSE-ET-PROVENANCE-OOEUF.md",
+        "apport": "Contrôle des factures AKA, des versions et du lien U-Haul déclaré par le client.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
-      "Nom légal du locataire du camion du 12 juin 2025 et de la compagnie l’ayant engagé.",
-      "Contrat/réservation U-Haul, date, véhicule, agence, facture finale et personne signataire; ou confirmation documentée de non-détention après recherche."
+      "Confirmation par le client ou AKA que la facture 1020 est bien la facture visée et explication du libellé « Moving Globo Shoe Company ».",
+      "Contrat/réservation U-Haul détenu par AKA, ou confirmation de non-détention et modalités effectivement convenues."
     ],
     "demarches": [
-      "Faire préciser à Constantino/au donneur d’ordre l’identité de la compagnie et le numéro de réservation; demander la copie au détenteur via le cabinet.",
-      "Séparer la location du 12 juin et la récupération ultérieure de décembre avant toute imputation des 469 $."
+      "Présenter la facture AKA et la déclaration au cabinet; faire confirmer par le donneur d’ordre le numéro, le véhicule et la date."
     ],
     "controles": [
       "L’énoncé du courriel 5 octobre contient une compréhension à confirmer, pas une preuve d’inexistence.",
@@ -191,15 +269,18 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
       "Recherche locale U-Haul/Uhaul/location/contrat, récit « Francais », Fieldy p. 30–31.",
       "Gmail in:anywhere (\"U-Haul\" OR Uhaul OR \"Remorquage Élite\" OR \"Remorquage Elite\" OR \"5007\" OR \"Herwin\" OR \"Irwin\") after:2025/06/01 before:2025/09/01 : 4 résultats non probants; aucun contrat pertinent repéré.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (takatak.ca@gmail.com) : La reprise ciblée ne retrouve pas le contrat U-Haul du 12 juin 2025. Le créneau Gmail du 1er au 20 juin 2025 ne retourne aucun résultat U-Haul dans Takatak. Les documents U-Haul retrouvés relèvent surtout de l’activité de concessionnaire antérieure, de clients tiers, du dossier Les Délices d’Aden de 2026 ou de récits déjà conservés. Cela ne prouve pas l’inexistence du contrat.",
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
     ],
     "sources_demande": [
       {
@@ -211,17 +292,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 7,
     "demande": "Produire les factures et preuves de paiement relatives à tout contrat conclu avec la société ayant transigé avec Quadro dans le cadre de la location du véhicule U-Haul.",
-    "statut": "non_repere",
+    "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Aucune facture ni preuve de paiement identifiant la société qui aurait transigé avec Quadro pour le véhicule U-Haul du 12 juin 2025 n’a été repérée. Le récit de décembre fait état de 469 $ pour U-Haul, d’environ 2 000 $ pour une autre entreprise et de 400 $ d’outils, sans joindre dans ce passage les pièces permettant de rattacher ces montants au prestataire et à l’opération demandés. Ces montants demeurent des déclarations, sans totalisation.",
+    "reponse_proposee": "Même réponse documentaire que pour la demande 6, conformément à la précision du client : facture AKA Moving 1020 du 11 juin 2025, 689,85 $ TTC, jointe une seule fois au bordereau et référencée aux deux demandes. Elle affiche un montant dû; aucune preuve bancaire ou quittance d’acquittement correspondante n’est produite par cette facture seule. Les factures 1026 d’août, relatives notamment à des fours à pizza, sont traitées séparément et ne sont pas ajoutées au prix du véhicule U-Haul.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/19e6a1ba7854b14c.txt",
@@ -235,35 +317,60 @@
         "repere": "10:37:19–10:38:36",
         "apport": "Transcription automatique Fieldy : facture annoncée pour la société externe; discussion séparant contrat U-Haul et société ayant contracté.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 7",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Invoice_1020_from_AKA_Moving.pdf",
+        "apport": "Facture AKA Moving 1020 à Quadro du 11 juin 2025 : 600 $ HT, 689,85 $ TTC, montant dû affiché.",
+        "repere": "p. 1; description « Moving Globo Shoe Company »",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/ANALYSE-ET-PROVENANCE-OOEUF.md",
+        "apport": "Contrôle des factures AKA, des versions et du lien U-Haul déclaré par le client.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
-      "Facture de la société externe à Quadro : fournisseur, numéro, date, mandat, détail et taxes.",
-      "Reçu acquitté et ligne bancaire/carte/virement correspondante; identité du payeur et remboursement éventuel.",
-      "Identification de l’opération à laquelle se rapportent 469 $, 2 000 $ et 400 $ et absence de double comptage avec autres pièces."
+      "Rapprochement confirmé de la facture 1020 avec le véhicule U-Haul de juin.",
+      "Preuve de paiement de cette facture : reçu, virement ou ligne bancaire, avec payeur et date."
     ],
     "demarches": [
-      "Vérifier comptes fournisseurs et relevés du donneur d’ordre pour juin 2025, puis ceux de la récupération de décembre séparément.",
-      "Demander au cabinet de confirmer le prestataire avant de solliciter ses justificatifs. Aucun contact effectué."
+      "Rechercher la ligne de règlement correspondant à la facture 1020 auprès du payeur ou du comptable; conserver les opérations d’août et de décembre séparées."
     ],
     "controles": [
-      "La facture 45 du 28 juillet 2025 consultée dans Gmail est adressée à Les Délices d’Aden au 5837 Jean-Talon E : 8 635,14 $, prestations Rapide 2 Nette; elle ne démontre pas une dépense Quadro/U-Haul. Aucun original sauvegardé/annexé.",
+      "La facture 45 du 28 juillet 2025 consultée dans Gmail est adressée à Les Délices d’Aden au 5837 Jean-Talon E : 8 635,14 $, prestations Rapide 2 Nette; elle ne démontre pas une dépense Quadro/U-Haul. Un exemplaire PDF a depuis été récupéré dans les archives ChatGPT du lot 14; il reste écarté comme justificatif de Quadro/U-Haul.",
       "Les différentes factures Harmony sont des versions d’une autre relation contractuelle; elles ne satisfont pas cette demande et ne sont pas additionnées.",
       "Préparation pour le cabinet uniquement; cette réponse et ses annexes ne sont pas envoyées.",
       "Une copie de courriel prouve la teneur de la communication; elle ne rend pas exacts tous les faits allégués par son auteur.",
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "Facture no 43 Rapide 2 Nette examinée : Les Délices d’Aden, 1 807,65 $, mention de paiement comptant; elle ne facture ni Quadro ni une location U-Haul du 12 juin 2025. Aucun ajout au total Harmony.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
+      "Facture no 43 Rapide 2 Nette examinée : Les Délices d’Aden, 1 807,65 $, mention de paiement comptant; elle ne facture ni Quadro ni une location U-Haul du 12 juin 2025. Aucun ajout au total Harmony."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
       "Gmail UHaul/Rapide 2 Net et période juin–août 2025; candidat 19a0848eada12c15 Invoice_45_2025-07-28.pdf lu via connecteur (p. 1 et 8–14), écarté comme justificatif faute de lien.",
       "Corps MIME 19e6a1ba7854b14c vérifié : dépenses déclarées de récupération.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (takatak.ca@gmail.com) : Aucune nouvelle facture ni preuve de paiement du prestataire ayant loué le véhicule pour l’opération de juin n’est repérée. Les montants 469 $ et environ 2 000 $ proviennent des récits de récupération déjà au dossier. Les variantes 4 527,75 $ conduisent au grand livre déjà conservé, sans nouvelle facture détaillée ni identification du cocontractant. Six requêtes finales sur AKA Moving, Matthew Dacar, info@akamoving.com et factures 1020/1026 ne retrouvent aucun original du fournisseur dans Takatak. La piste de l’autre compte Ooeuf est traitée séparément par le parent. Le projet de procédure du 28 octobre 2025 mentionnant 1 077,90 $ ne prouve pas le paiement ni le rattachement à U-Haul/Élite.",
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
     ],
     "sources_demande": [
       {
@@ -275,17 +382,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 8,
     "demande": "Produire toutes les communications, y compris les messages textes, entre Quadro et la partie défenderesse, qu’elles proviennent de vous-même, de M. Lévesque ou de M. Constantino.",
     "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Pour la demande écrite 8, les échanges avec Harmony retrouvés sont les mêmes courriels que ceux classés sous la demande 2; ils sont repérés individuellement ci-dessous. Aucun export SMS complet ni échange direct Constantino–Harmony n’a été identifié. La transcription orale E9 vise plutôt les communications avec la compagnie qui aurait engagé le U-Haul; cette portée différente doit être confirmée avec le cabinet et ne sera pas réputée satisfaite par les courriels Harmony. Une consultation complémentaire du fil dans Ooeuf corrobore les trois messages Harmony du 15 août et les réponses Ooeuf déjà citées dans les transferts conservés. Cette extraction d’interface comporte des passages tronqués et ne certifie donc pas l’intégralité du fil ni des annexes.",
+    "reponse_proposee": "Les courriels conservés et les treize captures SMS/MMS envoyées par Pierre le 24 octobre sont joints et référencés ci-dessous. Les captures montrent le contact « Transport Resto 6141 », se présentant comme Allen, des échanges sur les photos et le devis avant le déménagement, puis des messages sur la livraison, les biens restants et le mandat. Le client déclare que tous les échanges sont déjà au dossier. Cette déclaration est consignée; les captures ne permettent pas, seules, de contrôler l’intégralité technique des trois téléphones et de tous les médias. La portée écrite de la demande 8 et l’engagement oral E9 relatif au prestataire U-Haul restent distingués.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/03_Courriels/Collecte_Gmail_2026-10-21/1a0ef2ad6a978b96__Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
@@ -335,16 +443,104 @@
         "repere": "Vue Gmail Ooeuf extraite le 21 octobre 2026; messages Harmony du 15 août 2025 à 11 h 02, 14 h 15 et 15 h 17; citations des réponses Ooeuf des 13/14 juin",
         "apport": "Corrobore dans Ooeuf le contenu déjà conservé dans les transferts Takatak 19a037ccd5540733 et 19e6a1bab4f8e5b1. Permet de distinguer les trois envois du 15 août et les pièces annoncées. Aucun nouveau contenu substantiel établi; plusieurs corps affichés sont tronqués.",
         "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+        "repere": "6 juin 2025, 17:54",
+        "apport": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155464.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Vue galerie contenant plusieurs vignettes de photos d’équipements : comptoirs, appareils de cuisine, évier et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155466.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Deuxième vue galerie : comptoir, mélangeur, chambre/appareil froid, réfrigérateur et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155468.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Troisième vue galerie : friteuse, deux appareils verticaux de cuisson et grande enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155470.jpg",
+        "repere": "13 juin 2025, 14:36 (affichage « You »)",
+        "apport": "Capture d’un courriel adressé à M. Lévesque. Liste visible : 2 fours à pizza; 1 four rotatif; 1 machine à pâte; 4 réfrigérateurs; friteuses; 2 machines à shawarma (partiellement couvert par trait bleu); équipement complet de pizzeria (étagères, accessoires, etc.).",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155472.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Dans le fil « Transport Resto 6141 », agrandissement d’une photo de cuisine et début d’une autre photo d’enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155474.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Agrandissement d’une enceinte blanche et vue partielle d’un réfrigérateur métallique.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155476.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Vue partielle du réfrigérateur métallique, puis photo de deux appareils verticaux de cuisson sur table.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155478.jpg",
+        "repere": "7 juin 2025, 15:51 et début du message de 16:57",
+        "apport": "Sortant : « ooeuf.ca@gmail.com »; « Quadro holding ltee 6241 blvd Léger Montréal nord H1g6k8 ». Début de la réponse entrante : « i resend it let me know if you have any… »",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155480.jpg",
+        "repere": "7 juin 2025, 15:51 et 16:57; 8 juin 2025, 16:18",
+        "apport": "Même adresse et courriel qu’en 5478. Entrant à 16:57 : « i resend it let me know if you have any question ». Entrant le 8 juin : « Hey! I just wanted to follow up to make sure you received the quote I sent yesterday. Let me know if you have any questions or if there’s anything I can help with! »",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155482.jpg",
+        "repere": "12 juin 2025, 11:07; 13 juin 2025, 13:46",
+        "apport": "Entrant le 12 juin : « Hey call me when you have a moment ». Sortant le 13 juin : « Confirming that we have tried to reach you this morning and still waiting on a call back. » Puis : « Pierre has sent you and email and waiting your reply, he had people scheduled at location 5507 rue Irwin waiting on his delivery! Also there people waiting at 6241 blvd Léger Montréal nord H1g6k8 to empty the reste of the Pizzeria equipment provided in the initial quote. » Puis : « Also pierre was willing to make payment to what was agreed upon signing the agreement 🤝 ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+        "repere": "Horodatage du message non visible dans cette capture",
+        "apport": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+        "repere": "Horodatage propre du message sortant non visible; séparateur ultérieur « Sunday, Jun 21 • 02:25 », sans année",
+        "apport": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
       }
     ],
     "manquants": [
-      "SMS/Messenger et médias dans leur contexte complet, pour les trois intervenants et la défenderesse.",
-      "Pour la portée orale E9 : identité de la compagnie ayant engagé U-Haul et communications avec celle-ci.",
-      "Confirmation écrite du cabinet sur le rapprochement demande 8/engagement oral E9."
+      "Vérification des éventuelles coupures, du numéro de contact et des médias natifs par comparaison au téléphone; confirmation de la complétude déclarée par le client.",
+      "Rapprochement de la portée écrite 8 et de la portée orale E9 avec le cabinet."
     ],
     "demarches": [
-      "Utiliser le même jeu de fichiers que la demande 2 sans créer de faux nouveaux documents.",
-      "Faire valider la discordance de portée avant de limiter la recherche à Harmony."
+      "Remettre le lot disponible et la déclaration de complétude du client; vérifier uniquement les coupures ou pièces annoncées sans fichier correspondant."
     ],
     "controles": [
       "E9 ne désigne pas nécessairement la société U-Haul directement.",
@@ -354,7 +550,7 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
       "Conserver la distinction plevesquesmtl@gmail.com / plevesquemtl@gmail.com dans les en-têtes; ne pas corriger silencieusement ni en déduire une non-réception. La réponse datée du 14 juin cite un délai du 13 juin : incohérence présente dans la source, à conserver."
     ],
     "recherche_effectuee": [
@@ -362,7 +558,8 @@
       "Lecture exacte demande 8 du 5 octobre; QA Fieldy p. 31; recherches échanges Harmony, Constantino, U-Haul, WhatsApp/SMS/Messenger dans les corpus disponibles.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
       "Comparaison locale de Situation-transport-fil-Ooeuf.txt aux textes 19a037ccd5540733 (repères 14:15:28 et 11:02) et 19e6a1bab4f8e5b1 (réponses des 13/14 juin). Le navigateur Ooeuf a été piloté par l’agent parent.",
-      "Corroboration du fil Situation de transport dans Ooeuf; contenu substantiel déjà présent dans Takatak, fil affiché partiellement tronqué."
+      "Corroboration du fil Situation de transport dans Ooeuf; contenu substantiel déjà présent dans Takatak, fil affiché partiellement tronqué.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
     "sources_demande": [
       {
@@ -374,17 +571,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 9,
     "demande": "Produire la liste des équipements chargés dans le véhicule U-Haul.",
-    "statut": "non_repere",
+    "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Aucune liste individualisée et validée des équipements effectivement chargés dans le U-Haul n’a été repérée. La soumission QT 1076 dresse les articles prévus pour Harmony, et son courriel du 12 juin parle de plus de 15 pièces supplémentaires : ces éléments ne donnent pas la liste des biens effectivement chargés dans le U-Haul. Le récit client évoque notamment du matériel de pâtisserie, sans inventaire pièce par pièce.",
+    "reponse_proposee": "Le client désigne l’inventaire établi par l’huissier comme sa réponse à la demande 9 et déclare qu’il comprend tous les biens déménagés ce jour-là. Le rapport et les annexes de saisie sont joints. Ils documentent la saisie du 17 décembre 2025 : le rapport comporte 18 lignes ou catégories, qui ne représentent pas nécessairement 18 objets. L’annexe II manuscrite précise que certains items ont été retrouvés après coup. Ces pièces peuvent servir au rapprochement demandé; leur correspondance article par article avec le chargement U-Haul de juin reste à confirmer, car les dates et opérations sont distinctes.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/02_Contrats/Archive_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
@@ -411,11 +609,47 @@
         "repere": "10:44:20–10:45:19",
         "apport": "Transcription automatique Fieldy : demande distincte de la liste U-Haul; périmètre à confirmer, sans inventaire fourni dans ce passage.",
         "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "p.5–6; saisie du 17 décembre 2025",
+        "apport": "18 lignes d’inventaire et destination gardien, pas une liste de véhicule U-Haul.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p.1–3; annexe II",
+        "apport": "Inventaire manuscrit et notes de découvertes après coup; numérotation distincte.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/DECLARATIONS-CLIENT.md",
+        "repere": "24 octobre 2026, complément relatif à la demande 9",
+        "apport": "Déclaration du client désignant la pièce; pas un constat de l’huissier.",
+        "nature": "declaration_client_relayee"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 9",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/EML/1a10d08a7feddb4a.eml",
+        "repere": "Message Gmail 1a10d08a7feddb4a, 5 octobre 2026, courriel 1/7",
+        "apport": "Communication administrative existante signalant les identifications et vérifications encore à faire; ne fournit pas de liste de chargement.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
       }
     ],
     "manquants": [
-      "Liste par article chargé dans U-Haul le 12 juin 2025 : désignation, quantité, identifiant/photo, origine, destination et témoin de chargement.",
-      "Distinction biens Pâtisserie/Pizzeria, biens confiés Harmony et biens récupérés après saisie."
+      "Correspondance entre les lignes des inventaires de saisie et les biens chargés dans U-Haul en juin, à confirmer par une personne présente.",
+      "Identification de la date visée par « ce jour-là » dans la déclaration du client et prise en compte des biens retrouvés après coup."
     ],
     "demarches": [
       "Faire établir et signer la liste factuelle par les personnes présentes au chargement, en confrontant photos horodatées et factures; les éléments incertains devront être signalés.",
@@ -429,15 +663,18 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "Quatre photographies manuscrites envoyées par Yan Romanowski le 28 octobre 2025 sont un projet de procédure avec renvoi « Voir Annexe A », sans inventaire U-Haul détaillé; elles ne répondent pas à la demande 9.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
+      "Quatre photographies manuscrites envoyées par Yan Romanowski le 28 octobre 2025 sont un projet de procédure avec renvoi « Voir Annexe A », sans inventaire U-Haul détaillé; elles ne répondent pas à la demande 9."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
       "Recherche liste/inventaire/U-Haul/pâtisserie dans courriels et PDF; examen QT 1076, p. 1, EML 12 juin, récit du 29 décembre et Fieldy 33–34.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (takatak.ca@gmail.com) : La lecture des récits et des communications préparatoires ne fournit toujours pas la liste article par article des équipements réellement chargés dans le véhicule U-Haul le 12 juin 2025. Le courriel administratif 1/7 du 5 octobre réaffirme précisément que le transporteur, les biens chargés et les témoins restent à identifier. Les mentions « matériel de pâtisserie » et les inventaires généraux ne sont pas convertis en liste de chargement.",
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
     ],
     "sources_demande": [
       {
@@ -449,17 +686,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 11,
     "demande": "Produire le contrat de bail relatif à l’entreposage des équipements ainsi que le contrat relatif à l’utilisation du chariot élévateur.",
     "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "La reprise de recherche a permis de retrouver deux photographies de conventions concernant le terrain CINTEC au 5505 rue Irwin : une convention de 2023 et une convention de bail à durée indéterminée datée de novembre 2024. Cette dernière porte des signatures visibles et mentionne expressément un bureau et une unité d’entreposage inclus dans l’espace loué. Sont également préparés le projet de bail de juillet 2025, qui nomme Quadro Holding Ltée mais dont les espaces de signature sont vierges, la proposition de résiliation de la convention de 2023, ainsi que l’avis signé CINTEC du 15 août 2025 annonçant le non-renouvellement pour septembre. Ces pièces documentent les versions et la chronologie du terrain; elles ne permettent pas encore de confirmer quelle convention liait Quadro à la date du transport ni de rapprocher définitivement le 5505 Irwin du 5007 « Herwin » figurant au devis. Aucun contrat ou accord relatif au chariot élévateur, ni preuve de ses horaires le 12 juin 2025, n’a été retrouvé.",
+    "reponse_proposee": "La reprise de recherche a permis de retrouver deux photographies de conventions concernant le terrain CINTEC au 5505 rue Irwin : une convention de 2023 et une convention de bail à durée indéterminée datée de novembre 2024. Cette dernière porte des signatures visibles et mentionne expressément un bureau et une unité d’entreposage inclus dans l’espace loué. Sont également préparés le projet de bail de juillet 2025, qui nomme Quadro Holding Ltée mais dont les espaces de signature sont vierges, la proposition de résiliation de la convention de 2023, ainsi que l’avis signé CINTEC du 15 août 2025 annonçant le non-renouvellement pour septembre. Ces pièces documentent les versions et la chronologie du terrain; elles ne permettent pas encore de confirmer quelle convention liait Quadro à la date du transport ni de rapprocher définitivement le 5505 Irwin du 5007 « Herwin » figurant au devis. Aucun contrat ou accord relatif au chariot élévateur, ni preuve de ses horaires le 12 juin 2025, n’a été retrouvé. Le 24 octobre, le client précise pour les demandes 10 et 11 qu’il ne dispose d’aucun bail supplémentaire, seulement de factures et de paiements immédiats. Cette précision ne retire pas les anciennes conventions CINTEC conservées; elle doit être rapprochée de la période et du site concernés.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/02_Contrats/Archive_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
@@ -522,6 +760,18 @@
         "repere": "Courriel du 2 octobre 2025, Matthieu Wallace Barnard à Fernando; corps text/plain",
         "apport": "Le client déclare avoir émis des chèques et constate un refus de virement; ce courriel ne prouve pas leur encaissement ni le maintien du bail.",
         "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+        "apport": "Coordonnées fournies par le client et demandes précises à adresser; aucun appel ni message envoyé.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
@@ -532,6 +782,7 @@
       "Preuves d’accès et de disponibilité réelle du conteneur/site le jour du transport; distinguer du lieu actuel de garde après saisie."
     ],
     "demarches": [
+      "Identifier les factures et règlements immédiats évoqués par le client : émetteur, adresse, période et objet (entreposage ou chariot).",
       "Soumettre au cabinet les cinq pièces CINTEC avec leurs courriels de provenance et faire confirmer la convention applicable et le bénéficiaire du droit.",
       "Obtenir du client les originaux lisibles des conventions photographiées et tout accord ou message sur le chariot et ses horaires.",
       "Faire préciser les adresses exactes de destination et le rapport entre les sites 5007 et 5505 Irwin avant d’affirmer qu’il s’agit du même emplacement.",
@@ -546,15 +797,15 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "La signature visible sur une photographie n’est pas authentifiée. Les extraits OCR sont imparfaits; les clauses retenues ont été relues sur les images sources. Les loyers de versions différentes ne sont pas additionnés. Le projet de juillet 2025 est non signé à la page 10.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
+      "La signature visible sur une photographie n’est pas authentifiée. Les extraits OCR sont imparfaits; les clauses retenues ont été relues sur les images sources. Les loyers de versions différentes ne sont pas additionnés. Le projet de juillet 2025 est non signé à la page 10."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
       "Noms de fichiers bail/location/conteneur/container/chariot/forklift; textes Harmony, Léger, NDG; lecture QT 1076, p. 1 et Fieldy 34–36; contrôle visuel de deux captures H01/H02.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
     "sources_demande": [
       {
@@ -566,17 +817,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 12,
     "demande": "Produire le bail ou tout document établissant le droit d’occupation des lieux situés au 5837, rue Jean-Talon Est.",
     "statut": "non_repere",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Aucun bail, sous-bail, autorisation du propriétaire ou autre document établissant le droit d’occupation de Quadro au 5837 rue Jean-Talon Est n’a été repéré. Plusieurs documents portent cette adresse : le relevé BMO de Quadro finissant le 29 mai 2026, l’état de renseignements au registre des entreprises daté du 24 avril 2026 (domicile et établissement principal), et l’avis de confirmation d’inscription TPS daté du 3 octobre 2025. Ils sont conservés comme indices administratifs d’adresse, sans être présentés comme un titre d’occupation. Le document de location de cuisine Somerled vise le 6280 Somerled malgré son adresse du locataire Jean-Talon; il ne remplace pas le droit demandé. Les photographies de pièces d’identité jointes au fil DoorDash ne sont pas des documents d’occupation et ne sont pas annexées à cette réponse. L’avis TPS annonce une prise d’effet le 7 octobre 2025, tandis que la déclaration trimestrielle juillet–septembre 2024 utilise le même compte TPS : les dates et l’historique du compte doivent être rapprochés sans conclure à une erreur ou à une irrégularité.",
+    "reponse_proposee": "Aucun bail, sous-bail, autorisation du propriétaire ou autre document établissant le droit d’occupation de Quadro au 5837 rue Jean-Talon Est n’a été repéré. Plusieurs documents portent cette adresse : le relevé BMO de Quadro finissant le 29 mai 2026, l’état de renseignements au registre des entreprises daté du 24 avril 2026 (domicile et établissement principal), et l’avis de confirmation d’inscription TPS daté du 3 octobre 2025. Ils sont conservés comme indices administratifs d’adresse, sans être présentés comme un titre d’occupation. Le document de location de cuisine Somerled vise le 6280 Somerled malgré son adresse du locataire Jean-Talon; il ne remplace pas le droit demandé. Les photographies de pièces d’identité jointes au fil DoorDash ne sont pas des documents d’occupation et ne sont pas annexées à cette réponse. L’avis TPS annonce une prise d’effet le 7 octobre 2025, tandis que la déclaration trimestrielle juillet–septembre 2024 utilise le même compte TPS : les dates et l’historique du compte doivent être rapprochés sans conclure à une erreur ou à une irrégularité. Complément du 24 octobre : Nouveau transfert du 24 octobre reproduisant une déclaration de relocalisation effective le 1er juillet 2025 au 5837 Rue Jean-Talon Est, après concertation déclarée avec le propriétaire. Aucun titre d’occupation joint. Le client désigne maintenant Abdel, au 514 996-4247, comme la personne qui sous-loue l’espace et qu’il faut joindre. Le courriel natif du 1er juillet 2025 à Maude Robidoux, joint, annonce la relocalisation au 5837 Jean-Talon et une concertation avec le propriétaire; il s’agit d’une déclaration adressée au courtier, pas d’un accord du sous-locateur.",
     "pieces": [
       {
         "path": "6280 Somerled NDG/04_Pieces_jointes/19c348d21f8cd9bd__PPP_Simplified_Kitchen_Lease_Enhanced20251220.docx",
@@ -620,6 +872,42 @@
         "repere": "Fil fourni par l’agent parent, message du 24 avril 2026 à 23 h 31 et six pièces annoncées",
         "apport": "Provenance des documents administratifs; extrait de l’interface Gmail, non EML brut.",
         "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/EML/1a16c2b6913d6e9a.eml",
+        "repere": "Transfert du 24 octobre 2026; message cité du 1er juillet 2025, 15:17",
+        "apport": "Déclaration de relocalisation et adresse, sans bail ou autorisation signée.",
+        "nature": "courriel original contenant declaration client"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/relocalisation-rapport.md",
+        "repere": "Analyse du courriel",
+        "apport": "Distinction entre déclaration d’adresse et titre d’occupation demandé.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 12",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+        "apport": "Coordonnées fournies par le client et demandes précises à adresser; aucun appel ni message envoyé.",
+        "repere": "",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/2025-07-01-Relocalisation-Jean-Talon.eml",
+        "apport": "Courriel du 1er juillet 2025 annonçant la relocalisation au 5837 Jean-Talon; déclaration du client au courtier.",
+        "repere": "En-têtes et corps du message",
+        "nature": "original"
       }
     ],
     "manquants": [
@@ -629,6 +917,7 @@
       "Verso de l’avis d’inscription TPS et confirmation de l’historique du compte par le comptable ou les documents officiels : prise d’effet annoncée en octobre 2025 à rapprocher de la déclaration 2024."
     ],
     "demarches": [
+      "Joindre Abdel au 514 996-4247 pour obtenir une confirmation écrite de la sous-location : parties, adresse exacte, dates, espace, loyers et autorisations; projet de demande dans la fiche de suivi.",
       "Faire préciser la qualité d’occupant de Quadro et le titulaire du bail; récupérer la convention et l’autorisation du propriétaire s’il s’agit d’une sous-location.",
       "Rapprocher quittances/relevés de loyer d’un contrat identifié; une adresse de facturation seule reste insuffisante.",
       "Obtenir le bail ou l’autorisation du titulaire des lieux; ne pas substituer les mentions au registre, sur l’avis fiscal ou sur le relevé bancaire au document établissant le droit d’occupation."
@@ -642,11 +931,10 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
       "La facture Rapide 2 Nette no 43 du 14 juillet 2025 est au nom de Les Délices d’Aden, non de Quadro; elle ne prouve pas le droit d’occupation de Quadro. Conservée parmi les candidats écartés et non ajoutée à la réclamation.",
       "Lecture visuelle des quatre images jointes au fil DoorDash : documents d’identité, sans apport au droit d’occupation. Aucun numéro personnel repris et aucune annexe d’identité ajoutée à cette demande.",
-      "La date du fichier transmis en avril 2026 ne remplace pas la date imprimée du 3 octobre 2025. L’avis comporte un renvoi « verso »; le PDF ne contient qu’une page.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "La date du fichier transmis en avril 2026 ne remplace pas la date imprimée du 3 octobre 2025. L’avis comporte un renvoi « verso »; le PDF ne contient qu’une page."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
@@ -654,7 +942,11 @@
       "Noms de fichiers et textes baux/5837/Jean-Talon dans les trois dossiers; contrat Somerled/Fieldy 38–39.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
       "Complément Ooeuf : quatre images vues sans reprise de données personnelles, état du registre de 13 pages lu intégralement, avis TPS d’une page et déclaration TPS/TVQ de deux pages examinés. Ces sources ont été acquises par l’agent parent.",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"5837\" \"5839\"} {bail convention occupation lease} -from:toogoodtogo.com -from:doordash.com; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"5837\" \"5839\"} {bail convention occupation lease} -from:toogoodtogo.com -from:doordash.com; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (takatak.ca@gmail.com) : Les variantes 5837/5839, bail, lease, loyer, locateur, autorisation et les noms de fichiers retrouvent des pièces administratives ou commerciales déjà connues. Les seuls candidats dont le nom annonce un bail visent le local Somerled; les documents Les Délices d’Aden concernent un autre dossier. Aucun nouveau titre d’occupation Quadro du 5837 Jean-Talon Est n’a été repéré.",
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
     ],
     "sources_demande": [
       {
@@ -666,17 +958,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 24,
     "demande": "Produire toutes les communications et tous les documents relatifs au mandat confié à Remorquage Élite pour le déménagement résiduel.",
     "statut": "non_repere",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Aucun contrat, facture, preuve de paiement ou échange avec Remorquage Élite n’a été repéré. Le nom apparaît dans la liste d’engagements et dans Fieldy. Le récit client de décembre mentionne environ 2 000 $ pour une autre entreprise de déménagement sans l’identifier dans ce passage. Il ne permet donc pas d’attribuer cette dépense à Élite ni de distinguer définitivement le transport résiduel du 12 juin de la récupération postérieure.",
+    "reponse_proposee": "Le client précise le 24 octobre que Remorquage Élite a été sollicité par téléphone, que la facture n’est pas repérée et que le contact est Polo, 514 928-4444. Cette déclaration et la fiche de suivi sont jointes. Aucun mandat écrit, facture ou reçu Élite n’a encore été acquis. AKA Moving est traité séparément aux demandes 6 et 7; ses factures ne sont pas attribuées à Élite.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
@@ -696,16 +989,38 @@
         "repere": "Message 19a037ccd5540733, Pierre Lévesque à Takatak20 octobre2025,17:18; message cité Lev/Accounting du 15 août 2025,15:17. Source MIME lectures-007.json, même ID.",
         "apport": "Proposition d’entreposage1 000 $+taxes, chargement975 $+taxes et référence à AKA Moving; ce sont des conditions/propositions, pas une preuve de paiement ni le mandat Élite. Corps MIME contrôlé.",
         "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 24",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/Notifications-Instagram-extrait.txt",
+        "repere": "Message Gmail 1a16b90c774c3edb, 23 octobre 2026, notification automatique",
+        "apport": "Piste de nom de compte seulement; aucun mandat ni identité légale établis.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+        "apport": "Coordonnées fournies par le client et demandes précises à adresser; aucun appel ni message envoyé.",
+        "repere": "",
+        "nature": "analyse"
       }
     ],
     "manquants": [
-      "Identité légale complète d’Élite, coordonnées, bon de commande/mandat, dates, départ/destination et équipements transportés.",
-      "Messages SMS/courriels, photos de chargement, bon de livraison, facture et preuve de paiement.",
-      "Lien éventuel avec 2 000 $ déclarés; distinction d’AKA Moving cité le 15 août et de Rapide 2 Net cité lors de la récupération."
+      "Duplicata de facture ou reçu Élite; confirmation écrite du mandat téléphonique, de la date, du trajet, des biens et du payeur.",
+      "Identité légale de l’entreprise et qualité de Polo; rapprochement de tout règlement avec l’opération concernée."
     ],
     "demarches": [
-      "Faire confirmer par le donneur d’ordre le transporteur/date et rechercher dans son téléphone, compte bancaire et compte fournisseur.",
-      "Demander ensuite au transporteur identifié copie du mandat/facture par le cabinet; aucun contact effectué."
+      "Joindre Polo au 514 928-4444 pour demander le duplicata et la confirmation du mandat; conserver sa réponse avec la date et les pièces reçues."
     ],
     "controles": [
       "Remorquage Élite, AKA Moving, Rapide 2 Net et U-Haul ne sont pas fusionnés.",
@@ -715,16 +1030,19 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
-      "Les recherches Elite/Élite, Remorquage, towing et variantes n’ont révélé aucun nouveau mandat pertinent. La facture no 43 Rapide 2 Nette ne peut être attribuée à Élite.",
-      "Reprise ChatGPT : une conversation accessible sans pièce utile; quatre conversations Harmony affichent une erreur de chargement. Aucun contenu manquant reconstitué; les extractions antérieures restent distinctes."
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
+      "Les recherches Elite/Élite, Remorquage, towing et variantes n’ont révélé aucun nouveau mandat pertinent. La facture no 43 Rapide 2 Nette ne peut être attribuée à Élite."
     ],
     "recherche_effectuee": [
       "Recherche locale ciblée dans Harmony (courriels, 4 EML, contrats, PJ, index, textes PDF), archive avocat 6241 Léger et textes / pièces jointes NDG; examen direct des sources indiquées. Les autres images/scans non indexés ne sont pas déclarés intégralement lus.",
       "Recherche locale remorquage/Élite/Elite, textes et index.",
       "Gmail in:anywhere (\"Remorquage Élite\" OR \"Remorquage Elite\" OR (Elite (remorquage OR transport OR demenagement))) : seul résultat pertinent liste Dufourd 5 octobre; aucun mandat/facture.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
-      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json"
+      "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+      "Recherche du 24 octobre (takatak.ca@gmail.com) : Les variantes Élite, Elite, remorquageelite, towing et AKA Moving ne révèlent aucun contrat, facture, preuve de paiement ni échange de mandat Élite. Sept notifications Instagram contiennent remorquageelite, dont celle du 23 octobre 2026. Ce nom de compte est seulement une piste à faire identifier; la notification n’établit ni l’identité légale, ni une relation contractuelle, ni une participation au transport. Six requêtes finales sur AKA Moving, Matthew Dacar, info@akamoving.com et factures 1020/1026 ne retrouvent aucun original du fournisseur dans Takatak. La piste de l’autre compte Ooeuf est traitée séparément par le parent. Le projet de procédure du 28 octobre 2025 mentionnant 1 077,90 $ ne prouve pas le paiement ni le rattachement à U-Haul/Élite.",
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
     ],
     "sources_demande": [
       {
@@ -736,17 +1054,18 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   },
   {
     "id": 25,
     "demande": "Produire l’échange complet avec l’autre partie, y compris la réponse de celle-ci.",
     "statut": "partiel",
     "statut_transmission": "non_envoye",
-    "reponse_proposee": "Les quatre EML originaux des 12 et 13 juin 2025 permettent de présenter des échanges dans les deux sens : demande Harmony, réponse Ooeuf et réponses Harmony, avec les contrats joints à la réponse du 13 juin. Les chaînes du 22 juillet et du 15 août complètent les échanges conservés. Le lot ne sera pas présenté comme l’échange intégral P-2 avant rapprochement avec la pièce effectivement déposée et vérification des messages intermédiaires et annexes. Une consultation complémentaire du fil dans Ooeuf corrobore les trois messages Harmony du 15 août et les réponses Ooeuf déjà citées dans les transferts conservés. Cette extraction d’interface comporte des passages tronqués et ne certifie donc pas l’intégralité du fil ni des annexes.",
+    "reponse_proposee": "Les quatre EML originaux des 12 et 13 juin 2025 permettent de présenter des échanges dans les deux sens : demande Harmony, réponse Ooeuf et réponses Harmony, avec les contrats joints à la réponse du 13 juin. Les chaînes du 22 juillet et du 15 août complètent les échanges conservés. Le lot ne sera pas présenté comme l’échange intégral P-2 avant rapprochement avec la pièce effectivement déposée et vérification des messages intermédiaires et annexes. Une consultation complémentaire du fil dans Ooeuf corrobore les trois messages Harmony du 15 août et les réponses Ooeuf déjà citées dans les transferts conservés. Cette extraction d’interface comporte des passages tronqués et ne certifie donc pas l’intégralité du fil ni des annexes. Complément du 24 octobre : La capture 5485 ajoute la réponse reçue concernant l’autorisation de Mathieu; la capture 5486 montre la réplique contestant l’ajout d’équipements et signalant des équipements laissés derrière. Ces positions sont conservées ensemble. Les treize captures reçues le 24 octobre complètent les échanges entrants et sortants. Le client indique avoir maintenant répondu à l’ensemble du questionnaire de son côté. Les documents sont présentés avec leur provenance, sans conclusion de responsabilité ni admission ajoutée; les échanges divergents sont conservés pour examen par le cabinet.",
     "pieces": [
       {
         "path": "HARMONY MOVERS/03_Courriels/Collecte_Gmail_2026-10-21/1a0ef2ad6a978b96__Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
@@ -796,12 +1115,38 @@
         "repere": "Vue Gmail Ooeuf extraite le 21 octobre 2026; messages Harmony du 15 août 2025 à 11 h 02, 14 h 15 et 15 h 17; citations des réponses Ooeuf des 13/14 juin",
         "apport": "Corrobore dans Ooeuf le contenu déjà conservé dans les transferts Takatak 19a037ccd5540733 et 19e6a1bab4f8e5b1. Permet de distinguer les trois envois du 15 août et les pièces annoncées. Aucun nouveau contenu substantiel établi; plusieurs corps affichés sont tronqués.",
         "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+        "repere": "Horodatage du message non visible dans cette capture",
+        "apport": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+        "repere": "Horodatage propre du message sortant non visible; séparateur ultérieur « Sunday, Jun 21 • 02:25 », sans année",
+        "apport": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+        "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+        "repere": "Échanges du 24 octobre 2026",
+        "nature": "declaration"
       }
     ],
     "manquants": [
       "Version exacte de P-2 déposée au dossier et comparaison message par message au lot EML.",
       "Messages originaux manquants entre les réponses/renvois, annexes annoncées et réponses de chacun des deux côtés.",
-      "Journaux/listes des échanges avant le 12 juin puis après le 13 juin, pour confirmer le début et la fin des chaînes demandées."
+      "Journaux/listes des échanges avant le 12 juin puis après le 13 juin, pour confirmer le début et la fin des chaînes demandées.",
+      "Export complet du fil avec dates propres des dernières réponses et pièces natives.",
+      "Rapprochement avec le courriel de Pierre mentionné par la réponse et les échanges suivants."
     ],
     "demarches": [
       "Assembler les messages dans l’ordre chronologique à partir des en-têtes, en conservant chaque EML inchangé et ses PJ.",
@@ -817,7 +1162,7 @@
       "Le PDF Fieldy est une transcription automatique, avec locuteurs Unknown non attribués; extraction native, aucune écoute audio et aucune transcription judiciaire vérifiée. Vérifier les mots incertains au document/audio officiel.",
       "Le premier audit par connecteur portait sur Takatak et ses transferts. La reprise dans Ooeuf est documentée séparément dans les compléments. Aucun accès indépendant complet aux SMS/Messenger ni aux boîtes des autres intervenants.",
       "Rapprochement des versions et doublons nécessaire; aucune somme de factures ou dépenses effectuée dans cet audit.",
-      "Résultat négatif limité aux requêtes exécutées dans Takatak; ne démontre pas l’absence dans Ooeuf, les téléphones, le compte de Pierre ou les archives non indexées. Aucun message envoyé.",
+      "Les recherches négatives initiales étaient limitées à Takatak; les recherches du 24 octobre dans Takatak et Ooeuf sont documentées séparément. Leur absence de résultat ne prouve pas l’absence dans les téléphones, les comptes tiers ou les archives non indexées. Aucun message envoyé.",
       "Conserver la distinction plevesquesmtl@gmail.com / plevesquemtl@gmail.com dans les en-têtes; ne pas corriger silencieusement ni en déduire une non-réception. La réponse datée du 14 juin cite un délai du 13 juin : incohérence présente dans la source, à conserver."
     ],
     "recherche_effectuee": [
@@ -825,7 +1170,8 @@
       "Lecture des 4 EML et source index eml-transport; chaînes juillet/août, MIME comparés; Fieldy 62 et liste Dufourd.",
       "Reprise Takatak du 21 octobre 2026 : quinze requêtes Gmail ciblées, dix-sept pages, pagination épuisée pour chacune; voir HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_communications/recherche-couverture.json",
       "Comparaison locale de Situation-transport-fil-Ooeuf.txt aux textes 19a037ccd5540733 (repères 14:15:28 et 11:02) et 19e6a1bab4f8e5b1 (réponses des 13/14 juin). Le navigateur Ooeuf a été piloté par l’agent parent.",
-      "Corroboration du fil Situation de transport dans Ooeuf; contenu substantiel déjà présent dans Takatak, fil affiché partiellement tronqué."
+      "Corroboration du fil Situation de transport dans Ooeuf; contenu substantiel déjà présent dans Takatak, fil affiché partiellement tronqué.",
+      "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14."
     ],
     "sources_demande": [
       {
@@ -837,9 +1183,10 @@
         "repere": "20 octobre 2026,14:20 : demande de production immédiate et indication des démarches"
       }
     ],
-    "date_controle": "2026-10-21",
+    "date_controle": "2026-10-24",
     "portee_statut": "État de la pièce expressément demandée; références contextuelles ne signifient pas engagement satisfait.",
-    "date_recherche_complementaire": "2026-10-21",
-    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures"
+    "date_recherche_complementaire": "2026-10-24",
+    "mode_patch": "remplacement de la ligne après fusion des apports des autres agents; conserver les pièces antérieures",
+    "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés."
   }
 ]

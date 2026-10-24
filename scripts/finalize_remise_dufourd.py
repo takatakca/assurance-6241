@@ -2,10 +2,10 @@
 from pathlib import Path
 import csv, hashlib, io, json, zipfile
 from pypdf import PdfReader
-from build_remise_dufourd import ROOT, OUT, LABELS, sha, jwrite
+from build_remise_dufourd import ROOT, OUT, LABELS, DATE, DATE_ISO, RESEARCH, RESEARCH_SUMMARY, sha, jwrite
 
-# Date de la reprise et de la finalisation; le corpus documentaire demeure daté du 21 octobre.
-FINALISATION_DATE = '2026-10-23'
+# La date de version suit le corpus contrôlé; les chemins initiaux restent stables.
+FINALISATION_DATE = DATE_ISO
 
 rows=json.loads((OUT/'SUIVI-DES-DEMANDES.json').read_text(encoding='utf-8'))
 ann=json.loads((OUT/'BORDEREAU-DES-ANNEXES.json').read_text(encoding='utf-8'))
@@ -24,12 +24,14 @@ for a in ann:
 # La matrice de consultation reprend le dernier état documenté.
 matrix=ROOT/'HARMONY MOVERS/01_Synthese_et_chronologie/ENGAGEMENTS-DUFOURD.md'
 base='../12_Remise_Dufourd_2026-10-21/'
-md='# Matrice des 25 demandes de Me Christian Dufourd\n\nÉtat documentaire du 21 octobre 2026. **Réponses préparées, non envoyées.** Une pièce disponible ne confirme ni sa réception par le cabinet ni l’accomplissement juridique de l’engagement.\n\n'
+md=f'# Matrice des 25 demandes de Me Christian Dufourd\n\nÉtat documentaire du {DATE}. **Réponses préparées, non envoyées.** Une pièce disponible ne confirme ni sa réception par le cabinet ni l’accomplissement juridique de l’engagement.\n\n'
 md+=f'[Dossier complet et archive à remettre]({base}LIRE-EN-PREMIER.md) · [Réponses PDF]({base}REPONSES-AUX-25-DEMANDES.pdf) · [Documents à obtenir]({base}DOCUMENTS-A-OBTENIR.md)\n\n'
+if RESEARCH.is_file():
+    md+=RESEARCH_SUMMARY+'\n\n[Bilan de la recherche du 24 octobre 2026](../14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md).\n\n'
 md+='Source de numérotation : courriel du 5 octobre 2026, réitéré le 20 octobre. Les références orales Fieldy sont rapprochées séparément, notamment le n° 8 écrit et l’E9 oral.\n\n| N° | Demande | État documentaire | Annexes | Complément précis |\n|---|---|---|---|---|\n'
 for r in rows:
     ids=', '.join(dict.fromkeys(p['annexe'] for p in r['pieces'])) or 'Aucune'
-    missing=' ; '.join(r['manquants']).replace('|','/') or 'Aucun complément nécessaire pour la carte demandée; rapport de police et autorisation relèvent de documents distincts.'
+    missing=' ; '.join(r['manquants']).replace('|','/') or 'Aucun complément supplémentaire identifié dans cette rubrique; voir les réserves de la réponse.'
     md+=f"| {r['id']} | {r['titre']} | {LABELS[r['statut']]} | {ids} | {missing} |\n"
 md+='\nContrôles ayant corrigé le classement antérieur : H01/H02 sont des captures de courriel procédural; les images de factures alimentaires ne sont pas le lot de photos d’équipements annoncé. La carte de police porte MTLEV2500487177. La lettre SNB du 4 août 2026 est jointe à la nouvelle remise. Les contrats, pièces comptables et confirmations encore nécessaires sont détaillés dans chaque réponse.\n'
 matrix.write_text(md,encoding='utf-8')
@@ -58,7 +60,7 @@ with oldcsv.open('w',encoding='utf-8-sig',newline='') as f:
     w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(oldrows)
 
 control=json.loads((OUT/'CONTROLES-DU-DOSSIER.json').read_text(encoding='utf-8'))
-control.update(date_finalisation=FINALISATION_DATE,pdf_controle_visuel='Toutes les pages du PDF final ont été contrôlées visuellement; aucun défaut restant.',pdf_pages=pages,pdf_sha256=sha(pdf),pages_controlees=qa['pages_revisees'],references_pieces=sum(len(r['pieces']) for r in rows))
+control.update(date_finalisation=FINALISATION_DATE,pdf_controle_visuel='Toutes les pages du PDF final ont été contrôlées visuellement; aucune coupure, superposition ou glyphe manquant. Les observations cosmétiques éventuelles sont conservées dans le contrôle.',observations_cosmetiques=qa.get('observations_cosmetiques_acceptees',[]),pdf_pages=pages,pdf_sha256=sha(pdf),pages_controlees=qa['pages_revisees'],references_pieces=sum(len(r['pieces']) for r in rows))
 jwrite(OUT/'CONTROLES-DU-DOSSIER.json',control)
 
 zipname='DOSSIER-DUFOURD-2026-10-21.zip'
@@ -66,7 +68,7 @@ readme=OUT/'LIRE-EN-PREMIER.md'
 text=readme.read_text(encoding='utf-8')
 block=f'\n## Télécharger et remettre\n\n[Télécharger le dossier complet en ZIP]({zipname}). Décompresser ce fichier dans un dossier, puis ouvrir REPONSES-AUX-25-DEMANDES.pdf. Le dossier contient les {annex_count} annexes avec leur bordereau, les réponses modifiables, les documents à obtenir et le projet de courriel. Les analyses initialement en Markdown sont conservées sous extension .txt, sans modification de leurs octets.\n\nLe contrôle visuel porte sur les {pages} pages du PDF final. Les {annex_count} annexes correspondent aux empreintes des sources; les vérifications comptables ou documentaires restant ouvertes demeurent indiquées dans les réponses.\n'
 if '## Télécharger et remettre' in text:text=text.split('\n## Télécharger et remettre')[0]
-block += '\nVersion contrôlée et archive finalisée le 23 octobre 2026 à partir du corpus daté du 21 octobre 2026. Cette finalisation ne constitue pas une nouvelle recherche des messages reçus les 22 et 23 octobre.\n'
+block += f'\nVersion documentaire et archive finalisées le {DATE}. La recherche complémentaire du 24 octobre et ses limites figurent dans le bilan; elle ne certifie pas l’exhaustivité des comptes courriel ou ChatGPT. Les noms de fichiers datés du 21 octobre sont conservés pour préserver les liens de remise.\n'
 readme.write_text(text+block,encoding='utf-8')
 # Dans l'archive, le lien vers l'archive elle-même n'est pas nécessaire.
 package_files=[p for p in OUT.rglob('*') if p.is_file() and p.suffix.lower()!='.zip' and p.name!='ARCHIVE-CONTROLE.json']

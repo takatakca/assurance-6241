@@ -7,7 +7,9 @@ spec=importlib.util.spec_from_file_location('remote_site',ROOT/'scripts/build_re
 site=importlib.util.module_from_spec(spec);spec.loader.exec_module(site)
 site.collect();site.build_generated();report=site.audit()
 assert not report['broken_generated_links']
+assert report['bytes']<1_000_000_000, 'Volume supérieur ou égal au plafond de publication de 1 Go'
 checks=['Generated internal links all resolve in the selected publication tree']
+checks.append('Selected publication remains below one billion bytes before its manifest')
 for rel,data in site.generated.items():
     if not rel.endswith('.html'):continue
     text=data.decode('utf-8')

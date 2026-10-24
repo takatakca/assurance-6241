@@ -43,6 +43,10 @@ def main():
     if complements in manifest['output_hashes']:
         complements_url=live_url+'HARMONY%20MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html'
         complements_note=f"Le [bilan de la recherche complémentaire]({complements_url}) présente les pièces nouvelles, leur provenance et les documents encore manquants. Les états financiers, données de plateformes, déclarations fiscales et devis ne sont pas assimilés à un dommage net démontré."
+    latest='HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html'
+    if latest in manifest['output_hashes']:
+        latest_url=live_url+'HARMONY%20MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html'
+        complements_note+=f" Le [bilan du 24 octobre 2026]({latest_url}) documente la reprise des recherches dans les deux boîtes courriel et les quatre conversations ChatGPT désormais accessibles. Les déclarations et analyses récupérées restent distinctes des pièces originales; les demandes sans document suffisant restent indiquées. Les archives de collecte contenant d’anciens scripts sont conservées localement dans OneDrive; les extraits pertinents et leur provenance sont publiés."
     remise_checks=[c['path'] for c in live['checks'] if c['path'].startswith(remise) and c.get('ok')]
     remise_checked=(remise+'LIRE-EN-PREMIER.md.html' in remise_checks and any(p.endswith('.pdf') for p in remise_checks) and any(p.endswith('.zip') for p in remise_checks))
     checked_note=' La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP.' if remise_checked else ''

@@ -1,0 +1,742 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;self&#x27;; style-src &#x27;self&#x27;; img-src &#x27;self&#x27; data:; font-src &#x27;self&#x27;; connect-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;"><title>Master_comptable_6241_Leger.xlsx · Dossier maître</title><link rel="stylesheet" href="../assets/master.css"></head><body data-workspace-root="../../"><a class="skip" href="#contenu">Aller au contenu</a><header class="topbar"><a class="brand" href="../00-OUVRIR-LE-DOSSIER.html">DOSSIER MAÎTRE · 6241</a><nav class="toplinks" aria-label="Navigation principale"><a href="../00-OUVRIR-LE-DOSSIER.html#recherche">Rechercher</a><a href="../05_Table_des_matieres/index.html">Table des matières</a><a href="../04_Remise_et_suivis/index.html">Remise et suivis</a></nav></header><main id="contenu" class="reader"><p class="breadcrumb"><a href="../00-OUVRIR-LE-DOSSIER.html">Accueil</a> / 1.7.2</p><div class="actions back"><a href="../../6241%20L%C3%A9ger/07_Dommages_et_pertes/Comptabilite/Master_comptable_6241_Leger.xlsx" class="button secondary" download>Télécharger la source</a></div><p class="note">Vue de lecture dérivée. La source est conservée sans modification. Texte disponible</p><details class="provenance"><summary>Emplacement et empreinte de la source</summary><p>6241 Léger/07_Dommages_et_pertes/Comptabilite/Master_comptable_6241_Leger.xlsx</p><p class="hash">SHA-256 : f567c70c47200f6630c34eb4c0ebf1269f451b3d9dd5c32114d941f7d381db3a</p></details><article><h1>Master_comptable_6241_Leger.xlsx</h1><section class="page" id="page-1"><p class="eyebrow">Feuille Synthese · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Synthese
+Ligne 2 : A=6241 boulevard Léger — master comptable
+Ligne 3 : A=État au 21 octobre 2026. Aucune addition globale des sources ni perte finale annoncée.
+Ligne 5 : A=Mesure | B=Montant ($) | C=Portée
+Ligne 6 : A=Ventes du grand livre | B==SUMIFS(&#x27;Grand livre&#x27;!H6:H577,&#x27;Grand livre&#x27;!A6:A577,&quot;4200&quot;) [valeur en cache : 77995.44] | C=Juillet 2024 à avril 2025. Mai et juin non renseignés.
+Ligne 7 : A=Réparations comptabilisées | B==SUMIFS(&#x27;Grand livre&#x27;!G6:G577,&#x27;Grand livre&#x27;!A6:A577,&quot;5765&quot;) [valeur en cache : 57842.6] | C=64 écritures au compte 5765; factures et banque à rapprocher.
+Ligne 8 : A=Primes d’assurance comptabilisées | B==SUMIFS(&#x27;Grand livre&#x27;!G6:G577,&#x27;Grand livre&#x27;!A6:A577,&quot;5685&quot;) [valeur en cache : 6469.71] | C=Charges du compte 5685; ce ne sont pas des indemnités.
+Ligne 9 : A=Uber : ventes couvertes | B==&#x27;Ventes&#x27;!B21 [valeur en cache : 55609.85] | C=Mars à décembre 2024. Définition et entité à confirmer.
+Ligne 10 : A=DoorDash : ventes couvertes | B==&#x27;Ventes&#x27;!C21 [valeur en cache : 22774.339999999997] | C=Avril à décembre 2024. Ne pas ajouter au grand livre.
+Ligne 11 : A=Hadmo : réclamé, copie avril | B==&#x27;Hadmo avril&#x27;!B33 [valeur en cache : 191615.88] | C=Sommaire historique; options et doublons à réconcilier.
+Ligne 12 : A=Hadmo : alloué, copie avril | B==&#x27;Hadmo avril&#x27;!D33 [valeur en cache : 80918.31] | C=Avant franchise; ne prouve pas un encaissement.
+Ligne 13 : A=Indemnités encaissées documentées | B==&#x27;Indemnites&#x27;!F12 [valeur en cache : n.d.] | C=Aucun montant rapproché à un crédit bancaire dans ce master.
+Ligne 14 : A=Pertes nouvelles : total validé | B==IF(COUNT(&#x27;Pertes nouvelles&#x27;!H6:H32)=27,SUM(&#x27;Pertes nouvelles&#x27;!H6:H32),&quot;n.d.&quot;) [valeur en cache : n.d.] | C=Indisponible tant que les 27 rubriques ne sont pas traitées.
+Ligne 15 : A=Perte d’exploitation calculée | B==&#x27;Exploitation&#x27;!H6 [valeur en cache : n.d.] | C=Période, marge, frais et recouvrements à documenter.</pre></section><section class="page" id="page-2"><p class="eyebrow">Feuille Pertes nouvelles · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Pertes nouvelles
+Ligne 2 : A=Dommages allégués liés au déménagement
+Ligne 3 : A=Une base par bien : réparation OU remplacement. Zéro doit être documenté; vide signifie information manquante.
+Ligne 5 : A=Rubrique | B=Bien / groupe | C=Méthode retenue | D=Coût justifié HT | E=Taxes non récup. | F=Recouvrement affecté | G=Valeur résiduelle | H=Perte nette | I=État du dossier | J=Pièce justificative | K=Vérification requise | M=Source de départ
+Ligne 6 : A=ANN-01 | B=Frigo commercial deux portes | H==IF(OR(C6=&quot;&quot;,COUNT(D6:G6)&lt;4,J6=&quot;&quot;,I6&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D6+E6-F6-G6) [valeur en cache : n.d.] | I=À documenter | K=Identifier celui auquel se rapportent portes et charnières signalées | M=REGISTRE-EQUIPEMENTS.csv, ANN-01
+Ligne 7 : A=ANN-02 | B=Congélateur commercial trois portes | H==IF(OR(C7=&quot;&quot;,COUNT(D7:G7)&lt;4,J7=&quot;&quot;,I7&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D7+E7-F7-G7) [valeur en cache : n.d.] | I=À documenter | K=Impacts dans l’inox signalés dans le courriel du 24 décembre | M=REGISTRE-EQUIPEMENTS.csv, ANN-02
+Ligne 8 : A=ANN-03 | B=Four à pizza double | H==IF(OR(C8=&quot;&quot;,COUNT(D8:G8)&lt;4,J8=&quot;&quot;,I8&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D8+E8-F8-G8) [valeur en cache : n.d.] | I=À documenter | K=Lier aux deux PS360WB, Joey 9/11, unités/étages et four resté sur place | M=REGISTRE-EQUIPEMENTS.csv, ANN-03
+Ligne 9 : A=ANN-04 | B=Friteuse électrique double cuve | H==IF(OR(C9=&quot;&quot;,COUNT(D9:G9)&lt;4,J9=&quot;&quot;,I9&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D9+E9-F9-G9) [valeur en cache : n.d.] | I=À documenter | K=Constat individuel et alimentation à vérifier | M=REGISTRE-EQUIPEMENTS.csv, ANN-04
+Ligne 10 : A=ANN-05 | B=Friteuse gaz | H==IF(OR(C10=&quot;&quot;,COUNT(D10:G10)&lt;4,J10=&quot;&quot;,I10&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D10+E10-F10-G10) [valeur en cache : n.d.] | I=À documenter | K=Constat individuel et sécurité gaz à vérifier | M=REGISTRE-EQUIPEMENTS.csv, ANN-05
+Ligne 11 : A=ANN-06 | B=Deux shawarmas Shish Taro | H==IF(OR(C11=&quot;&quot;,COUNT(D11:G11)&lt;4,J11=&quot;&quot;,I11&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D11+E11-F11-G11) [valeur en cache : n.d.] | I=À documenter | K=Deux objets à identifier séparément | M=REGISTRE-EQUIPEMENTS.csv, ANN-06
+Ligne 12 : A=ANN-07 | B=Table inox | H==IF(OR(C12=&quot;&quot;,COUNT(D12:G12)&lt;4,J12=&quot;&quot;,I12&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D12+E12-F12-G12) [valeur en cache : n.d.] | I=À documenter | K=Carcasse, pieds, soudures à documenter | M=REGISTRE-EQUIPEMENTS.csv, ANN-07
+Ligne 13 : A=ANN-08 | B=Table pizza double et comptoir réfrigéré | H==IF(OR(C13=&quot;&quot;,COUNT(D13:G13)&lt;4,J13=&quot;&quot;,I13&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D13+E13-F13-G13) [valeur en cache : n.d.] | I=À documenter | K=Rapprochement avec comptoirs couchés et compresseurs signalés | M=REGISTRE-EQUIPEMENTS.csv, ANN-08
+Ligne 14 : A=ANN-09 | B=Micro-ondes commercial | H==IF(OR(C14=&quot;&quot;,COUNT(D14:G14)&lt;4,J14=&quot;&quot;,I14&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D14+E14-F14-G14) [valeur en cache : n.d.] | I=À documenter | K=Signalé manquant dans le récit de décembre | M=REGISTRE-EQUIPEMENTS.csv, ANN-09
+Ligne 15 : A=ANN-10 | B=Pétrin / mélangeur industriel | H==IF(OR(C15=&quot;&quot;,COUNT(D15:G15)&lt;4,J15=&quot;&quot;,I15&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D15+E15-F15-G15) [valeur en cache : n.d.] | I=À documenter | K=Identification, présence et contrôle technique | M=REGISTRE-EQUIPEMENTS.csv, ANN-10
+Ligne 16 : A=ANN-11 | B=Évier double inox | H==IF(OR(C16=&quot;&quot;,COUNT(D16:G16)&lt;4,J16=&quot;&quot;,I16&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D16+E16-F16-G16) [valeur en cache : n.d.] | I=À documenter | K=Présence et état de structure | M=REGISTRE-EQUIPEMENTS.csv, ANN-11
+Ligne 17 : A=ANN-12 | B=Table hamburger avec comptoir réfrigéré | H==IF(OR(C17=&quot;&quot;,COUNT(D17:G17)&lt;4,J17=&quot;&quot;,I17&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D17+E17-F17-G17) [valeur en cache : n.d.] | I=À documenter | K=Rapprochement avec comptoirs couchés, portes et compresseurs | M=REGISTRE-EQUIPEMENTS.csv, ANN-12
+Ligne 18 : A=ANN-13 | B=Deux frigos à bière | H==IF(OR(C18=&quot;&quot;,COUNT(D18:G18)&lt;4,J18=&quot;&quot;,I18&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D18+E18-F18-G18) [valeur en cache : n.d.] | I=À documenter | K=Ne pas les confondre automatiquement avec les frigos Coca-Cola | M=REGISTRE-EQUIPEMENTS.csv, ANN-13
+Ligne 19 : A=ANN-14 | B=Comptoir sous-marins réfrigéré | H==IF(OR(C19=&quot;&quot;,COUNT(D19:G19)&lt;4,J19=&quot;&quot;,I19&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D19+E19-F19-G19) [valeur en cache : n.d.] | I=À documenter | K=Rapprochement avec dommages aux comptoirs; unité à identifier | M=REGISTRE-EQUIPEMENTS.csv, ANN-14
+Ligne 20 : A=ANN-15 | B=Convoyeurs, doigts et tapis PS360 | H==IF(OR(C20=&quot;&quot;,COUNT(D20:G20)&lt;4,J20=&quot;&quot;,I20&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D20+E20-F20-G20) [valeur en cache : n.d.] | I=À documenter | K=Pièces essentielles à relier aux fours; absence alléguée à vérifier | M=REGISTRE-EQUIPEMENTS.csv, ANN-15
+Ligne 21 : A=ANN-16 | B=Grande plaque commerciale | H==IF(OR(C21=&quot;&quot;,COUNT(D21:G21)&lt;4,J21=&quot;&quot;,I21&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D21+E21-F21-G21) [valeur en cache : n.d.] | I=À documenter | K=Présence, carcasse et alimentation | M=REGISTRE-EQUIPEMENTS.csv, ANN-16
+Ligne 22 : A=ANN-17 | B=Petite plaque commerciale | H==IF(OR(C22=&quot;&quot;,COUNT(D22:G22)&lt;4,J22=&quot;&quot;,I22&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D22+E22-F22-G22) [valeur en cache : n.d.] | I=À documenter | K=Même contrôle séparé | M=REGISTRE-EQUIPEMENTS.csv, ANN-17
+Ligne 23 : A=ANN-18 | B=Deux frigos verticaux Coca-Cola | H==IF(OR(C23=&quot;&quot;,COUNT(D23:G23)&lt;4,J23=&quot;&quot;,I23&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D23+E23-F23-G23) [valeur en cache : n.d.] | I=À documenter | K=Deux frigos à breuvages signalés non localisés en décembre; rattachement à confirmer | M=REGISTRE-EQUIPEMENTS.csv, ANN-18
+Ligne 24 : A=ANN-19 | B=Table chaude et bacs GN | H==IF(OR(C24=&quot;&quot;,COUNT(D24:G24)&lt;4,J24=&quot;&quot;,I24&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D24+E24-F24-G24) [valeur en cache : n.d.] | I=À documenter | K=Structure et éléments électriques | M=REGISTRE-EQUIPEMENTS.csv, ANN-19
+Ligne 25 : A=ANN-20 | B=Toasteur rotatif double | H==IF(OR(C25=&quot;&quot;,COUNT(D25:G25)&lt;4,J25=&quot;&quot;,I25&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D25+E25-F25-G25) [valeur en cache : n.d.] | I=À documenter | K=Toasteur signalé manquant dans le récit de décembre | M=REGISTRE-EQUIPEMENTS.csv, ANN-20
+Ligne 26 : A=ANN-21 | B=Bac à frites inox | H==IF(OR(C26=&quot;&quot;,COUNT(D26:G26)&lt;4,J26=&quot;&quot;,I26&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D26+E26-F26-G26) [valeur en cache : n.d.] | I=À documenter | K=Présence et état | M=REGISTRE-EQUIPEMENTS.csv, ANN-21
+Ligne 27 : A=ANN-22 | B=Café Bon’s | H==IF(OR(C27=&quot;&quot;,COUNT(D27:G27)&lt;4,J27=&quot;&quot;,I27&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D27+E27-F27-G27) [valeur en cache : n.d.] | I=À documenter | K=Ne pas confondre avec Curtis/Keurig du dossier Joey | M=REGISTRE-EQUIPEMENTS.csv, ANN-22
+Ligne 28 : A=ANN-23 | B=Trois tables de travail | H==IF(OR(C28=&quot;&quot;,COUNT(D28:G28)&lt;4,J28=&quot;&quot;,I28&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D28+E28-F28-G28) [valeur en cache : n.d.] | I=À documenter | K=Trois objets à identifier séparément | M=REGISTRE-EQUIPEMENTS.csv, ANN-23
+Ligne 29 : A=ANN-24 | B=Deux fours Tim Hortons | H==IF(OR(C29=&quot;&quot;,COUNT(D29:G29)&lt;4,J29=&quot;&quot;,I29&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D29+E29-F29-G29) [valeur en cache : n.d.] | I=À documenter | K=Rapprocher Joey item 4 et diagnostics avant/après | M=REGISTRE-EQUIPEMENTS.csv, ANN-24
+Ligne 30 : A=ANN-25 | B=Trois étagères inox | H==IF(OR(C30=&quot;&quot;,COUNT(D30:G30)&lt;4,J30=&quot;&quot;,I30&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D30+E30-F30-G30) [valeur en cache : n.d.] | I=À documenter | K=Trois objets à identifier séparément | M=REGISTRE-EQUIPEMENTS.csv, ANN-25
+Ligne 31 : A=ANN-26 | B=Rack à étagères | H==IF(OR(C31=&quot;&quot;,COUNT(D31:G31)&lt;4,J31=&quot;&quot;,I31&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D31+E31-F31-G31) [valeur en cache : n.d.] | I=À documenter | K=Présence et état | M=REGISTRE-EQUIPEMENTS.csv, ANN-26
+Ligne 32 : A=ANN-27 | B=Ustensiles et accessoires pizzeria | H==IF(OR(C32=&quot;&quot;,COUNT(D32:G32)&lt;4,J32=&quot;&quot;,I32&lt;&gt;&quot;Validé&quot;),&quot;n.d.&quot;,D32+E32-F32-G32) [valeur en cache : n.d.] | I=À documenter | K=Pelles, coupe-pizzas, paniers, tamis, spatules, pinces, couteaux, GN, grilles, filets, plaques, bacs et plateaux : décompte détaillé nécessaire | M=REGISTRE-EQUIPEMENTS.csv, ANN-27</pre></section><section class="page" id="page-3"><p class="eyebrow">Feuille Exploitation · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Exploitation
+Ligne 2 : A=Perte d’exploitation : calcul à documenter
+Ligne 3 : A=Renseigner une période justifiée et une marge après charges variables évitées. Les ventes seules ne mesurent pas la perte.
+Ligne 5 : A=Période | B=Ventes de référence | C=Ventes réalisées | D=Marge contributive | E=Frais supplémentaires | F=Recouvrements affectés | G=Pièces / méthode | H=Perte calculée
+Ligne 6 : A=Période à définir | H==IF(OR(COUNT(B6:F6)&lt;5,G6=&quot;&quot;,A6=&quot;Période à définir&quot;),&quot;n.d.&quot;,(B6-C6)*D6+E6-F6) [valeur en cache : n.d.]</pre></section><section class="page" id="page-4"><p class="eyebrow">Feuille Factures et devis · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Factures et devis
+Ligne 2 : A=Registre des factures et devis vérifiés
+Ligne 3 : A=Montants des pièces, non cumulables en l’état. Taxes récupérables et affectations à chaque sinistre restent à établir.
+Ligne 5 : A=Pièce | B=Date | C=Nature | D=Objet | E=Hors taxes | F=TPS | G=TVQ | H=Total pièce | I=Écart taxes | J=Groupe / doublon | K=Statut | M=Source dans archive | N=Point à rapprocher
+Ligne 6 : A=CWIQUWOL-0001 | B=2025-06-12 12:00:00 | C=Facture déménagement | D=CWIQUWOL-0001 | E=3915 | F=195.75 | G=390.52 | H=4501.27 | I==ROUND(H6-SUM(E6:G6),2) [valeur en cache : 0] | J=HARMONY-12JUIN | K=Annulée par version ultérieure | M=sources/Invoice-CWIQUWOL-0001 (4).pdf | N=Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.
+Ligne 7 : A=CWIQUWOL-0002 | B=2025-06-12 12:00:00 | C=Facture déménagement | D=CWIQUWOL-0002 | E=4365 | F=218.25 | G=435.41 | H=5018.66 | I==ROUND(H7-SUM(E7:G7),2) [valeur en cache : 0] | J=HARMONY-12JUIN | K=Annulée par version ultérieure | M=sources/Invoice-CWIQUWOL-0002 (3).pdf | N=Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.
+Ligne 8 : A=CWIQUWOL-0003 | B=2025-07-22 12:00:00 | C=Facture déménagement | D=CWIQUWOL-0003 | E=3200 | F=160 | G=319.2 | H=3679.2 | I==ROUND(H8-SUM(E8:G8),2) [valeur en cache : 0] | J=HARMONY-12JUIN | K=Annulée par version 0004 | M=sources/Invoice-CWIQUWOL-0003 (4).pdf | N=Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.
+Ligne 9 : A=CWIQUWOL-0004 | B=2025-08-15 12:00:00 | C=Facture déménagement | D=CWIQUWOL-0004 | E=4200 | F=210 | G=418.95 | H=4828.95 | I==ROUND(H9-SUM(E9:G9),2) [valeur en cache : 0] | J=HARMONY-12JUIN | K=Version remplacée à rapprocher | M=sources/Invoice-CWIQUWOL-0004.pdf | N=Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.
+Ligne 10 : A=CWIQUWOL-0005 | B=2025-09-19 12:00:00 | C=Facture déménagement | D=CWIQUWOL-0005 | E=3915 | F=195.75 | G=390.52 | H=4501.27 | I==ROUND(H10-SUM(E10:G10),2) [valeur en cache : 0] | J=HARMONY-12JUIN | K=Facture réclamée, paiement non vérifié | M=sources/Invoice-CWIQUWOL-0005 (1).pdf | N=Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.
+Ligne 11 : A=A320 | B=2024-10-03 12:00:00 | C=Réparation historique | D=Frigo sous-sol | E=1705 | F=85.25 | G=170.07 | H=1960.32 | I==ROUND(H11-SUM(E11:G11),2) [valeur en cache : 0] | J=A320 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069199.jpg | N=Rapprocher Hadmo A320 daté juillet.
+Ligne 12 : A=A315 | B=2024-09-22 12:00:00 | C=Réparation historique | D=Four à pizza | E=7900 | F=395 | G=788.03 | H=9083.03 | I==ROUND(H12-SUM(E12:G12),2) [valeur en cache : 0] | J=A315 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069200.jpg | N=Four/étage à identifier; version photographiée une seule fois.
+Ligne 13 : A=A281 | B=2024-07-17 12:00:00 | C=Réparation historique | D=Slush BUNN CDS2 | E=2340 | F=117 | G=233.42 | H=2690.42 | I==ROUND(H13-SUM(E13:G13),2) [valeur en cache : 0] | J=BUNN-A281-A290 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069201.jpg | N=A281/A290 : possible doublon à résoudre.
+Ligne 14 : A=A294 | B=2024-07-29 12:00:00 | C=Réparation historique | D=Cocktail TAYLOR | E=3850 | F=192.5 | G=384.04 | H=4426.54 | I==ROUND(H14-SUM(E14:G14),2) [valeur en cache : 0] | J=A294 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069202.jpg | N=Date et montant lus sur facture.
+Ligne 15 : A=A267 | B=2024-07-13 12:00:00 | C=Réparation historique | D=Chambre froide | E=2960 | F=148 | G=295.26 | H=3403.26 | I==ROUND(H15-SUM(E15:G15),2) [valeur en cache : 0] | J=A267 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069203.jpg | N=En-tête A290 en arrière-plan, facture principale A267.
+Ligne 16 : A=A290 | B=2024-07-22 12:00:00 | C=Réparation historique | D=Slush BUNN | E=2340 | F=117 | G=233.42 | H=2690.42 | I==ROUND(H16-SUM(E16:G16),2) [valeur en cache : 0] | J=BUNN-A281-A290 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069204.jpg | N=A281/A290 : possible doublon à résoudre.
+Ligne 17 : A=A245 | B=2024-06-25 12:00:00 | C=Réparation historique | D=Installation climatisation | E=1145 | F=57.25 | G=114.21 | H=1316.46 | I==ROUND(H17-SUM(E17:G17),2) [valeur en cache : 0] | J=A245 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069205.jpg | N=Avant sinistre juillet; ne pas attribuer au déménagement.
+Ligne 18 : A=A280 | B=2024-07-15 12:00:00 | C=Réparation historique | D=Crème glacée | E=5990 | F=299.5 | G=597.5 | H=6887 | I==ROUND(H18-SUM(E18:G18),2) [valeur en cache : 0] | J=A280 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069206.jpg | N=Hadmo avril mentionne un dédoublement.
+Ligne 19 : A=A266 | B=2024-07-10 12:00:00 | C=Réparation historique | D=Chambre congélateur | E=8320 | F=416 | G=829.92 | H=9565.92 | I==ROUND(H19-SUM(E19:G19),2) [valeur en cache : 0] | J=A266 | K=Facture lue, règlement non établi | M=photos-reparations-janvier2025/1000069207.jpg | N=À rapprocher devis 261 et grand livre.
+Ligne 20 : A=N82145 | B=2024-11-26 12:00:00 | C=Estimation marquée payée | D=Four PS360WB | E=6700.68 | F=335.03 | G=668.39 | H=7704.1 | I==ROUND(H20-SUM(E20:G20),2) [valeur en cache : 0] | J=CKS-FOUR | K=Tampon payé; banque non rapprochée | M=photos-reparations-janvier2025/1000069214.jpg | N=Dépôt 700 et payé 7 004,10 = 7 704,10. Recommandation de remplacement, livraison non établie.
+Ligne 21 : A=L-1027-A | B=2025-08-04 12:00:00 | C=Facture entreposage | D=Location conteneur | E=200 | F=10 | G=19.95 | H=229.95 | I==ROUND(H21-SUM(E21:G21),2) [valeur en cache : 0] | J=CONTENEUR-L1027 | K=Montant payé sur facture, solde 0 | M=pieces-facturation-oct2025/facture CQC_L-1027-A.pdf | N=Date 04/08/2025 transcrite au format jour/mois. Paiement banque non rapproché.
+Ligne 22 : A=DEV-259 | B=2024-07-07 12:00:00 | C=Devis historique | D=Frigo IFI | E=2615 | F=130.75 | G=260.85 | H=3006.6 | I==ROUND(H22-SUM(E22:G22),2) [valeur en cache : 0] | J=DEV-259 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 259.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 23 : A=DEV-260 | B=2024-07-07 12:00:00 | C=Devis historique | D=Machine à café Curtis | E=1485 | F=74.25 | G=148.13 | H=1707.38 | I==ROUND(H23-SUM(E23:G23),2) [valeur en cache : 0] | J=DEV-260 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 260.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 24 : A=DEV-261 | B=2024-07-07 12:00:00 | C=Devis historique | D=Chambre de congélation | E=8205 | F=410.25 | G=818.45 | H=9433.7 | I==ROUND(H24-SUM(E24:G24),2) [valeur en cache : 0] | J=DEV-261 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 261.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 25 : A=DEV-262 | B=2024-07-07 12:00:00 | C=Devis historique | D=Frigo sous-sol | E=1650 | F=82.5 | G=164.59 | H=1897.09 | I==ROUND(H25-SUM(E25:G25),2) [valeur en cache : 0] | J=DEV-262 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 262.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 26 : A=DEV-263 | B=2024-07-07 12:00:00 | C=Devis historique | D=Four Tim Horton | E=4635 | F=231.75 | G=462.34 | H=5329.09 | I==ROUND(H26-SUM(E26:G26),2) [valeur en cache : 0] | J=DEV-263 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 263.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 27 : A=DEV-264 | B=2024-07-07 12:00:00 | C=Devis historique | D=Electro-freeze | E=5990 | F=299.5 | G=597.5 | H=6887 | I==ROUND(H27-SUM(E27:G27),2) [valeur en cache : 0] | J=DEV-264 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 264.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 28 : A=DEV-266 | B=2024-07-12 12:00:00 | C=Devis historique | D=Cocktail Taylor | E=3390 | F=169.5 | G=338.15 | H=3897.65 | I==ROUND(H28-SUM(E28:G28),2) [valeur en cache : 0] | J=DEV-266 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 266.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 29 : A=DEV-267 | B=2024-07-12 12:00:00 | C=Devis historique | D=Slush BUNN | E=2340 | F=117 | G=233.42 | H=2690.42 | I==ROUND(H29-SUM(E29:G29),2) [valeur en cache : 0] | J=DEV-267 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 267.pdf | N=Ne pas additionner au remplacement/réparation du même bien.
+Ligne 30 : A=DEV-268 | B=2024-07-12 12:00:00 | C=Devis historique | D=Chambre froide | E=1700 | F=85 | G=169.58 | H=1954.58 | I==ROUND(H30-SUM(E30:G30),2) [valeur en cache : 0] | J=DEV-268 | K=Proposition; exécution non établie | M=photos-assurance-2024/Devis N� _ 268.pdf | N=Ne pas additionner au remplacement/réparation du même bien.</pre></section><section class="page" id="page-5"><p class="eyebrow">Feuille Indemnites · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Indemnites
+Ligne 2 : A=Indemnités historiques : suivi des preuves
+Ligne 3 : A=Sinistre 2024 HSB. Aucune somme de ces mentions n’est présentée comme total encaissé.
+Ligne 5 : A=ID | B=Date repère | C=Objet | D=Montant mentionné | E=Statut de preuve | F=Encaissé confirmé | G=Référence bancaire | I=Source | J=Affectation / contrôle
+Ligne 6 : A=PAY-01 | B=2025-04-22 12:00:00 | C=Provisoire no 1 inscrit | D=24136.06 | E=Inscription au chiffrier | I=Hadmo 22 avril 2025, H69 | J=Référence bancaire et affectation manquantes
+Ligne 7 : A=PAY-02 | B=2025-02-20 12:00:00 | C=HSB demande no 2 | D=37288.16 | E=Paiement demandé / inscrit | I=Courriel 19e847d75c50497e; Hadmo H71 | J=Même 37 288,16 dans courriel et chiffrier; une seule ligne
+Ligne 8 : A=PAY-03 | B=2025-02-20 12:00:00 | C=HSB complément demandé | D=1855.68 | E=Paiement demandé | I=Courriel 19e847d75c50497e | J=Ensemble annoncé : 39 143,84 avec PAY-02, pas une 3e somme
+Ligne 9 : A=PAY-04 | B=2025-04-22 12:00:00 | C=Indemnité no 3 au calcul | D=18494.09 | E=Solde calculé du chiffrier | I=Hadmo 22 avril 2025, H73 | J=Ni chèque ni crédit bancaire établis ici
+Ligne 10 : A=PAY-05 | B=2025-10-29 12:00:00 | C=Chèque annoncé en octobre | D=31085.3 | E=Reçu déclaré le 6 novembre | I=Courriel 19c3887029c39b3e, échanges 29 octobre / 6 novembre | J=Encaissement, annulation et ventilation à vérifier
+Ligne 12 : A=Encaissé documenté | F==IF(COUNT(F6:F10)=0,&quot;n.d.&quot;,SUM(F6:F10)) [valeur en cache : n.d.]
+Ligne 14 : A=Les extraits bancaires doivent identifier montant, bénéficiaire, date, annulation et dommage couvert.</pre></section><section class="page" id="page-6"><p class="eyebrow">Feuille Ventes · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Ventes
+Ligne 2 : A=Ventes documentées par période
+Ligne 3 : A=Périodes différentes et canaux non rapprochés. Ne pas additionner les plateformes au grand livre. Cellule vide = mois absent.
+Ligne 5 : A=Mois | B=Uber ($) | C=DoorDash ($) | D=Grand livre 4200 ($) | F=Source Uber | G=Source DoorDash | H=Source grand livre
+Ligne 6 : A=2024-03-01 12:00:00 | B=3687.71 | F=Uber, Ventes total 2024!C7
+Ligne 7 : A=2024-04-01 12:00:00 | B=6807.05 | C=711.12 | F=Uber, Ventes total 2024!C8 | G=DoorDash, Ventes total 2024!C6
+Ligne 8 : A=2024-05-01 12:00:00 | B=8922.47 | C=1283.56 | F=Uber, Ventes total 2024!C9 | G=DoorDash, Ventes total 2024!C7
+Ligne 9 : A=2024-06-01 12:00:00 | B=6736.5 | C=1108.54 | F=Uber, Ventes total 2024!C10 | G=DoorDash, Ventes total 2024!C8
+Ligne 10 : A=2024-07-01 12:00:00 | B=5754.49 | C=2316.89 | D=9907.7 | F=Uber, Ventes total 2024!C11 | G=DoorDash, Ventes total 2024!C9 | H=Grand livre ligne 6
+Ligne 11 : A=2024-08-01 12:00:00 | B=5722 | C=4653.24 | D=9927.52 | F=Uber, Ventes total 2024!C12 | G=DoorDash, Ventes total 2024!C10 | H=Grand livre ligne 7
+Ligne 12 : A=2024-09-01 12:00:00 | B=5711.48 | C=3774.4 | D=8040.16 | F=Uber, Ventes total 2024!C13 | G=DoorDash, Ventes total 2024!C11 | H=Grand livre ligne 8
+Ligne 13 : A=2024-10-01 12:00:00 | B=5287.21 | C=4203.32 | D=7402.31 | F=Uber, Ventes total 2024!C14 | G=DoorDash, Ventes total 2024!C12 | H=Grand livre ligne 9
+Ligne 14 : A=2024-11-01 12:00:00 | B=4576.8 | C=2397.67 | D=6164.95 | F=Uber, Ventes total 2024!C15 | G=DoorDash, Ventes total 2024!C13 | H=Grand livre ligne 10
+Ligne 15 : A=2024-12-01 12:00:00 | B=2404.14 | C=2325.6 | D=25289.17 | F=Uber, Ventes total 2024!C16 | G=DoorDash, Ventes total 2024!C14 | H=Grand livre ligne 11
+Ligne 16 : A=2025-01-01 12:00:00 | D=3643.53 | H=Grand livre ligne 12
+Ligne 17 : A=2025-02-01 12:00:00 | D=3173.35 | H=Grand livre ligne 13
+Ligne 18 : A=2025-03-01 12:00:00 | D=3906.51 | H=Grand livre ligne 14
+Ligne 19 : A=2025-04-01 12:00:00 | D=540.24 | H=Grand livre ligne 15
+Ligne 21 : A=Total couvert | B==SUM(B6:B19) [valeur en cache : 55609.85] | C==SUM(C6:C19) [valeur en cache : 22774.339999999997] | D==SUM(D6:D19) [valeur en cache : 77995.44]
+Ligne 23 : A=Pièces : Uber-Ventes-2024- final.xlsx et Doordash-ventes-2024-final.xlsx; original CSV du grand livre.
+Ligne 24 : A=Les ventes ne sont pas des profits ni une perte d’exploitation. Taxes, enseignes et ventes en salle à rapprocher.</pre></section><section class="page" id="page-7"><p class="eyebrow">Feuille Grand livre · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Grand livre
+Ligne 2 : A=Écritures du grand livre fourni
+Ligne 3 : A=Extraction CSV de final.xls. Écritures datées avec journal J, sous-totaux exclus. Devise $ présumée CAD, à confirmer.
+Ligne 5 : A=Compte | B=Intitulé | C=Date comptable | D=Description | E=Source comptable | F=Journal | G=Débit ($) | H=Crédit ($) | I=Ligne source | K=Source
+Ligne 6 : A=4200 | B=Sales | C=2024-07-31 12:00:00 | D=2024-07, Sales | E=Cash | F=J800 | G=0 | H=9907.7 | I=6 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 6
+Ligne 7 : A=4200 | B=Sales | C=2024-08-31 12:00:00 | D=2024-08, Sales | E=Cash | F=J802 | G=0 | H=9927.52 | I=7 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 7
+Ligne 8 : A=4200 | B=Sales | C=2024-09-30 12:00:00 | D=2024-09, Sales | E=Cash | F=J804 | G=0 | H=8040.16 | I=8 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 8
+Ligne 9 : A=4200 | B=Sales | C=2024-10-31 12:00:00 | D=2024-10, Sales | E=Cash | F=J806 | G=0 | H=7402.31 | I=9 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 9
+Ligne 10 : A=4200 | B=Sales | C=2024-11-30 12:00:00 | D=2024-11, Sales | E=Cash | F=J808 | G=0 | H=6164.95 | I=10 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 10
+Ligne 11 : A=4200 | B=Sales | C=2024-12-31 12:00:00 | D=2024-12, Sales | E=Cash | F=J810 | G=0 | H=25289.17 | I=11 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 11
+Ligne 12 : A=4200 | B=Sales | C=2025-01-31 12:00:00 | D=2025-01, Sales | E=Cash | F=J812 | G=0 | H=3643.53 | I=12 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 12
+Ligne 13 : A=4200 | B=Sales | C=2025-02-28 12:00:00 | D=2025-02, Sales | E=Cash | F=J814 | G=0 | H=3173.35 | I=13 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 13
+Ligne 14 : A=4200 | B=Sales | C=2025-03-31 12:00:00 | D=2025-03, Sales | E=Cash | F=J816 | G=0 | H=3906.51 | I=14 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 14
+Ligne 15 : A=4200 | B=Sales | C=2025-04-30 12:00:00 | D=2025-04, Sales | E=Cash | F=J818 | G=0 | H=540.24 | I=15 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 15
+Ligne 16 : A=5190 | B=Subcontracts | C=2024-07-01 12:00:00 | D=Riad | E=Cash | F=J318 | G=2840 | H=0 | I=47 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 47
+Ligne 17 : A=5190 | B=Subcontracts | C=2024-08-16 12:00:00 | D=Riad | E=Cash | F=J320 | G=3000 | H=0 | I=48 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 48
+Ligne 18 : A=5190 | B=Subcontracts | C=2024-08-23 12:00:00 | D=Riad | E=Cash | F=J322 | G=1000 | H=0 | I=49 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 49
+Ligne 19 : A=5190 | B=Subcontracts | C=2024-09-03 12:00:00 | D=Riad | E=Cash | F=J324 | G=1800 | H=0 | I=50 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 50
+Ligne 20 : A=5190 | B=Subcontracts | C=2024-11-01 12:00:00 | D=Anta | E=Cash | F=J54 | G=660 | H=0 | I=51 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 51
+Ligne 21 : A=5190 | B=Subcontracts | C=2024-11-08 12:00:00 | D=Anta | E=Cash | F=J59 | G=450 | H=0 | I=52 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 52
+Ligne 22 : A=5190 | B=Subcontracts | C=2024-11-15 12:00:00 | D=Anta | E=Cash | F=J72 | G=450 | H=0 | I=53 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 53
+Ligne 23 : A=5190 | B=Subcontracts | C=2024-11-19 12:00:00 | D=Anas Akli | E=Cash | F=J73 | G=304.41 | H=0 | I=54 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 54
+Ligne 24 : A=5190 | B=Subcontracts | C=2024-11-25 12:00:00 | D=Anta | E=Cash | F=J79 | G=400 | H=0 | I=55 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 55
+Ligne 25 : A=5190 | B=Subcontracts | C=2024-12-02 12:00:00 | D=Anta | E=Cash | F=J96 | G=450 | H=0 | I=56 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 56
+Ligne 26 : A=5190 | B=Subcontracts | C=2024-12-02 12:00:00 | D=Anas Akli | E=Cash | F=J97 | G=260.92 | H=0 | I=57 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 57
+Ligne 27 : A=5190 | B=Subcontracts | C=2024-12-04 12:00:00 | D=Emilie | E=Cash | F=J102 | G=100 | H=0 | I=58 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 58
+Ligne 28 : A=5190 | B=Subcontracts | C=2024-12-05 12:00:00 | D=Emilie | E=Cash | F=J103 | G=45 | H=0 | I=59 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 59
+Ligne 29 : A=5190 | B=Subcontracts | C=2024-12-06 12:00:00 | D=ADJIA Karo Cyr | E=Cash | F=J106 | G=50 | H=0 | I=60 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 60
+Ligne 30 : A=5190 | B=Subcontracts | C=2024-12-06 12:00:00 | D=Emilie | E=Cash | F=J111 | G=40 | H=0 | I=61 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 61
+Ligne 31 : A=5190 | B=Subcontracts | C=2024-12-11 12:00:00 | D=Anas Akli | E=Cash | F=J119 | G=260.92 | H=0 | I=62 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 62
+Ligne 32 : A=5190 | B=Subcontracts | C=2024-12-11 12:00:00 | D=Anta | E=Cash | F=J120 | G=400 | H=0 | I=63 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 63
+Ligne 33 : A=5190 | B=Subcontracts | C=2024-12-11 12:00:00 | D=Cathy Wallace | E=Cash | F=J124 | G=1000 | H=0 | I=64 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 64
+Ligne 34 : A=5190 | B=Subcontracts | C=2024-12-12 12:00:00 | D=VIrginia | E=Cash | F=J132 | G=300 | H=0 | I=65 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 65
+Ligne 35 : A=5190 | B=Subcontracts | C=2024-12-12 12:00:00 | D=Emilie | E=Cash | F=J133 | G=100 | H=0 | I=66 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 66
+Ligne 36 : A=5190 | B=Subcontracts | C=2024-12-12 12:00:00 | D=Elly | E=Cash | F=J134 | G=110 | H=0 | I=67 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 67
+Ligne 37 : A=5190 | B=Subcontracts | C=2024-12-12 12:00:00 | D=Cathy Wallace | E=Cash | F=J136 | G=810 | H=0 | I=68 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 68
+Ligne 38 : A=5190 | B=Subcontracts | C=2024-12-19 12:00:00 | D=Emilie | E=Cash | F=J148 | G=100 | H=0 | I=69 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 69
+Ligne 39 : A=5190 | B=Subcontracts | C=2024-12-20 12:00:00 | D=Anas Akli | E=Cash | F=J154 | G=304.41 | H=0 | I=70 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 70
+Ligne 40 : A=5190 | B=Subcontracts | C=2024-12-20 12:00:00 | D=Anta | E=Cash | F=J155 | G=450 | H=0 | I=71 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 71
+Ligne 41 : A=5190 | B=Subcontracts | C=2024-12-25 12:00:00 | D=Emilie | E=Cash | F=J166 | G=50 | H=0 | I=72 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 72
+Ligne 42 : A=5190 | B=Subcontracts | C=2024-12-25 12:00:00 | D=Tony | E=Cash | F=J167 | G=50 | H=0 | I=73 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 73
+Ligne 43 : A=5190 | B=Subcontracts | C=2024-12-26 12:00:00 | D=Tony | E=Cash | F=J169 | G=50 | H=0 | I=74 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 74
+Ligne 44 : A=5190 | B=Subcontracts | C=2024-12-27 12:00:00 | D=Tony | E=Cash | F=J173 | G=50 | H=0 | I=75 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 75
+Ligne 45 : A=5190 | B=Subcontracts | C=2024-12-27 12:00:00 | D=Anta | E=Cash | F=J174 | G=450 | H=0 | I=76 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 76
+Ligne 46 : A=5190 | B=Subcontracts | C=2024-12-31 12:00:00 | D=Emilie | E=Cash | F=J185 | G=100 | H=0 | I=77 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 77
+Ligne 47 : A=5190 | B=Subcontracts | C=2025-01-01 12:00:00 | D=Tony | E=Cash | F=J191 | G=50 | H=0 | I=78 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 78
+Ligne 48 : A=5190 | B=Subcontracts | C=2025-01-02 12:00:00 | D=Tony | E=Cash | F=J193 | G=50 | H=0 | I=79 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 79
+Ligne 49 : A=5190 | B=Subcontracts | C=2025-01-03 12:00:00 | D=ADJIA Karo Cyr | E=Cash | F=J196 | G=100 | H=0 | I=80 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 80
+Ligne 50 : A=5190 | B=Subcontracts | C=2025-01-03 12:00:00 | D=Jessica | E=Cash | F=J197 | G=100 | H=0 | I=81 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 81
+Ligne 51 : A=5190 | B=Subcontracts | C=2025-01-03 12:00:00 | D=Tony | E=Cash | F=J198 | G=50 | H=0 | I=82 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 82
+Ligne 52 : A=5190 | B=Subcontracts | C=2025-01-03 12:00:00 | D=Anta | E=Cash | F=J199 | G=400 | H=0 | I=83 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 83
+Ligne 53 : A=5190 | B=Subcontracts | C=2025-01-03 12:00:00 | D=Tony | E=Cash | F=J205 | G=50 | H=0 | I=84 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 84
+Ligne 54 : A=5190 | B=Subcontracts | C=2025-01-03 12:00:00 | D=VIrginia | E=Cash | F=J210 | G=40 | H=0 | I=85 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 85
+Ligne 55 : A=5190 | B=Subcontracts | C=2025-01-06 12:00:00 | D=Tony | E=Cash | F=J211 | G=100 | H=0 | I=86 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 86
+Ligne 56 : A=5190 | B=Subcontracts | C=2025-01-08 12:00:00 | D=Tony | E=Cash | F=J223 | G=100 | H=0 | I=87 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 87
+Ligne 57 : A=5190 | B=Subcontracts | C=2025-01-10 12:00:00 | D=Tony | E=Cash | F=J236 | G=50 | H=0 | I=88 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 88
+Ligne 58 : A=5190 | B=Subcontracts | C=2025-01-10 12:00:00 | D=Jessica | E=Cash | F=J237 | G=100 | H=0 | I=89 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 89
+Ligne 59 : A=5190 | B=Subcontracts | C=2025-01-10 12:00:00 | D=Domingo | E=Cash | F=J238 | G=100 | H=0 | I=90 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 90
+Ligne 60 : A=5190 | B=Subcontracts | C=2025-01-10 12:00:00 | D=Tony | E=Cash | F=J239 | G=50 | H=0 | I=91 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 91
+Ligne 61 : A=5190 | B=Subcontracts | C=2025-01-10 12:00:00 | D=Anta | E=Cash | F=J240 | G=450 | H=0 | I=92 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 92
+Ligne 62 : A=5190 | B=Subcontracts | C=2025-01-17 12:00:00 | D=Jessica | E=Cash | F=J241 | G=100 | H=0 | I=93 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 93
+Ligne 63 : A=5190 | B=Subcontracts | C=2025-01-21 12:00:00 | D=Tony | E=Cash | F=J242 | G=100 | H=0 | I=94 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 94
+Ligne 64 : A=5190 | B=Subcontracts | C=2025-01-21 12:00:00 | D=Anta | E=Cash | F=J243 | G=50 | H=0 | I=95 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 95
+Ligne 65 : A=5190 | B=Subcontracts | C=2025-01-21 12:00:00 | D=Domingo | E=Cash | F=J244 | G=100 | H=0 | I=96 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 96
+Ligne 66 : A=5190 | B=Subcontracts | C=2025-01-28 12:00:00 | D=VIrginia | E=Cash | F=J247 | G=20 | H=0 | I=97 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 97
+Ligne 67 : A=5190 | B=Subcontracts | C=2025-02-05 12:00:00 | D=Anta | E=Cash | F=J276 | G=60 | H=0 | I=98 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 98
+Ligne 68 : A=5190 | B=Subcontracts | C=2025-02-13 12:00:00 | D=Anta | E=Cash | F=J278 | G=600 | H=0 | I=99 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 99
+Ligne 69 : A=5190 | B=Subcontracts | C=2025-02-13 12:00:00 | D=Jessica | E=Cash | F=J279 | G=100 | H=0 | I=100 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 100
+Ligne 70 : A=5190 | B=Subcontracts | C=2025-03-05 12:00:00 | D=Emilie | E=Cash | F=J284 | G=50 | H=0 | I=101 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 101
+Ligne 71 : A=5190 | B=Subcontracts | C=2025-03-06 12:00:00 | D=Emilie | E=Cash | F=J289 | G=300 | H=0 | I=102 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 102
+Ligne 72 : A=5190 | B=Subcontracts | C=2025-03-06 12:00:00 | D=VIrginia | E=Cash | F=J290 | G=100 | H=0 | I=103 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 103
+Ligne 73 : A=5190 | B=Subcontracts | C=2025-03-06 12:00:00 | D=Tony | E=Cash | F=J291 | G=20 | H=0 | I=104 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 104
+Ligne 74 : A=5190 | B=Subcontracts | C=2025-03-11 12:00:00 | D=Loikwesh | E=Cash | F=J293 | G=90 | H=0 | I=105 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 105
+Ligne 75 : A=5190 | B=Subcontracts | C=2025-03-11 12:00:00 | D=Emilie | E=Cash | F=J294 | G=30 | H=0 | I=106 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 106
+Ligne 76 : A=5190 | B=Subcontracts | C=2025-03-11 12:00:00 | D=Tony | E=Cash | F=J295 | G=40 | H=0 | I=107 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 107
+Ligne 77 : A=5190 | B=Subcontracts | C=2025-03-11 12:00:00 | D=Christine | E=Cash | F=J296 | G=50 | H=0 | I=108 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 108
+Ligne 78 : A=5190 | B=Subcontracts | C=2025-03-13 12:00:00 | D=Anta | E=Cash | F=J297 | G=800 | H=0 | I=109 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 109
+Ligne 79 : A=5190 | B=Subcontracts | C=2025-03-21 12:00:00 | D=Jessica | E=Cash | F=J300 | G=30 | H=0 | I=110 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 110
+Ligne 80 : A=5190 | B=Subcontracts | C=2025-04-10 12:00:00 | D=Anta | E=Cash | F=J306 | G=500 | H=0 | I=111 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 111
+Ligne 81 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J330 | G=8677.76 | H=0 | I=115 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 115
+Ligne 82 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J331 | G=6625.71 | H=0 | I=116 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 116
+Ligne 83 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J332 | G=6548.08 | H=0 | I=117 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 117
+Ligne 84 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J333 | G=3170.39 | H=0 | I=118 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 118
+Ligne 85 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J334 | G=4411.06 | H=0 | I=119 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 119
+Ligne 86 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J335 | G=5086.03 | H=0 | I=120 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 120
+Ligne 87 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J336 | G=11581.72 | H=0 | I=121 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 121
+Ligne 88 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J337 | G=9907.11 | H=0 | I=122 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 122
+Ligne 89 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=Sysco | E=Cash | F=J339 | G=749.05 | H=0 | I=123 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 123
+Ligne 90 : A=5200 | B=Purchases | C=2024-07-01 12:00:00 | D=nexus | E=Cash | F=J340 | G=256 | H=0 | I=124 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 124
+Ligne 91 : A=5200 | B=Purchases | C=2024-08-08 12:00:00 | D=Flechere Bonin | E=Cash | F=J24 | G=510.98 | H=0 | I=125 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 125
+Ligne 92 : A=5200 | B=Purchases | C=2024-09-01 12:00:00 | D=Scc Auger | E=Cash | F=J354 | G=118.74 | H=0 | I=126 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 126
+Ligne 93 : A=5200 | B=Purchases | C=2024-10-01 12:00:00 | D=Amazon.ca | E=Cash | F=J357 | G=1043.7 | H=0 | I=127 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 127
+Ligne 94 : A=5200 | B=Purchases | C=2024-10-01 12:00:00 | D=Sinco | E=Cash | F=J359 | G=13857.79 | H=0 | I=128 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 128
+Ligne 95 : A=5200 | B=Purchases | C=2024-11-01 12:00:00 | D=Les Soeurs en Vrac | E=Cash | F=J362 | G=809.88 | H=0 | I=129 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 129
+Ligne 96 : A=5200 | B=Purchases | C=2024-11-01 12:00:00 | D=We Go Trade | E=Cash | F=J363 | G=445.14 | H=0 | I=130 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 130
+Ligne 97 : A=5200 | B=Purchases | C=2024-11-01 12:00:00 | D=We Go Trade | E=Cash | F=J364 | G=1069.28 | H=0 | I=131 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 131
+Ligne 98 : A=5200 | B=Purchases | C=2024-11-01 12:00:00 | D=We Go Trade | E=Cash | F=J365 | G=828.01 | H=0 | I=132 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 132
+Ligne 99 : A=5200 | B=Purchases | C=2024-11-12 12:00:00 | D=Resto Leger | E=Cash | F=J63 | G=410.93 | H=0 | I=133 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 133
+Ligne 100 : A=5200 | B=Purchases | C=2024-11-29 12:00:00 | D=Resto Leger | E=Cash | F=J85 | G=152.21 | H=0 | I=134 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 134
+Ligne 101 : A=5200 | B=Purchases | C=2024-12-01 12:00:00 | D=We Go Trade | E=Cash | F=J366 | G=5086.03 | H=0 | I=135 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 135
+Ligne 102 : A=5200 | B=Purchases | C=2024-12-01 12:00:00 | D=We Go Trade | E=Cash | F=J367 | G=3170.39 | H=0 | I=136 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 136
+Ligne 103 : A=5200 | B=Purchases | C=2024-12-01 12:00:00 | D=We Go Trade | E=Cash | F=J368 | G=6548.08 | H=0 | I=137 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 137
+Ligne 104 : A=5200 | B=Purchases | C=2024-12-01 12:00:00 | D=We Go Trade | E=Cash | F=J369 | G=6625.71 | H=0 | I=138 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 138
+Ligne 105 : A=5200 | B=Purchases | C=2024-12-01 12:00:00 | D=We Go Trade | E=Cash | F=J370 | G=8677.76 | H=0 | I=139 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 139
+Ligne 106 : A=5200 | B=Purchases | C=2024-12-01 12:00:00 | D=We Go Trade | E=Cash | F=J371 | G=11991.4 | H=0 | I=140 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 140
+Ligne 107 : A=5200 | B=Purchases | C=2024-12-02 12:00:00 | D=Resto Leger | E=Cash | F=J100 | G=152.21 | H=0 | I=141 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 141
+Ligne 108 : A=5200 | B=Purchases | C=2024-12-09 12:00:00 | D=Wal Mart | E=Cash | F=J114 | G=285.25 | H=0 | I=142 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 142
+Ligne 109 : A=5200 | B=Purchases | C=2024-12-09 12:00:00 | D=Costco | E=Cash | F=J115 | G=158.52 | H=0 | I=143 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 143
+Ligne 110 : A=5200 | B=Purchases | C=2024-12-11 12:00:00 | D=Resto Leger | E=Cash | F=J117 | G=347.9 | H=0 | I=144 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 144
+Ligne 111 : A=5200 | B=Purchases | C=2024-12-11 12:00:00 | D=Costco | E=Cash | F=J125 | G=418.81 | H=0 | I=145 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 145
+Ligne 112 : A=5200 | B=Purchases | C=2024-12-11 12:00:00 | D=Costco | E=Cash | F=J126 | G=67.78 | H=0 | I=146 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 146
+Ligne 113 : A=5200 | B=Purchases | C=2024-12-11 12:00:00 | D=Mayrand | E=Cash | F=J127 | G=61.64 | H=0 | I=147 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 147
+Ligne 114 : A=5200 | B=Purchases | C=2024-12-11 12:00:00 | D=Marcher Rio | E=Cash | F=J131 | G=5.29 | H=0 | I=148 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 148
+Ligne 115 : A=5200 | B=Purchases | C=2024-12-12 12:00:00 | D=Wal Mart | E=Cash | F=J138 | G=48.29 | H=0 | I=149 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 149
+Ligne 116 : A=5200 | B=Purchases | C=2024-12-23 12:00:00 | D=Wal Mart | E=Cash | F=J156 | G=83.49 | H=0 | I=150 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 150
+Ligne 117 : A=5200 | B=Purchases | C=2024-12-23 12:00:00 | D=Wal Mart | E=Cash | F=J157 | G=52.18 | H=0 | I=151 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 151
+Ligne 118 : A=5200 | B=Purchases | C=2024-12-23 12:00:00 | D=Costco | E=Cash | F=J158 | G=326.56 | H=0 | I=152 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 152
+Ligne 119 : A=5200 | B=Purchases | C=2024-12-24 12:00:00 | D=Wal Mart | E=Cash | F=J162 | G=130.47 | H=0 | I=153 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 153
+Ligne 120 : A=5200 | B=Purchases | C=2024-12-25 12:00:00 | D=Resto Leger | E=Cash | F=J165 | G=154.83 | H=0 | I=154 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 154
+Ligne 121 : A=5200 | B=Purchases | C=2024-12-26 12:00:00 | D=Wal Mart | E=Cash | F=J168 | G=113.09 | H=0 | I=155 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 155
+Ligne 122 : A=5200 | B=Purchases | C=2024-12-27 12:00:00 | D=Wal Mart | E=Cash | F=J172 | G=155.74 | H=0 | I=156 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 156
+Ligne 123 : A=5200 | B=Purchases | C=2024-12-30 12:00:00 | D=Costco | E=Cash | F=J178 | G=204.9 | H=0 | I=157 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 157
+Ligne 124 : A=5200 | B=Purchases | C=2024-12-31 12:00:00 | D=Costco | E=Cash | F=J179 | G=6.6 | H=0 | I=158 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 158
+Ligne 125 : A=5200 | B=Purchases | C=2024-12-31 12:00:00 | D=Costco | E=Cash | F=J180 | G=9.34 | H=0 | I=159 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 159
+Ligne 126 : A=5200 | B=Purchases | C=2025-01-03 12:00:00 | D=Costco | E=Cash | F=J202 | G=119.52 | H=0 | I=160 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 160
+Ligne 127 : A=5200 | B=Purchases | C=2025-01-03 12:00:00 | D=Costco | E=Cash | F=J203 | G=27.99 | H=0 | I=161 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 161
+Ligne 128 : A=5200 | B=Purchases | C=2025-01-03 12:00:00 | D=Wal Mart | E=Cash | F=J208 | G=67.18 | H=0 | I=162 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 162
+Ligne 129 : A=5200 | B=Purchases | C=2025-01-09 12:00:00 | D=Resto Leger | E=Cash | F=J229 | G=154.83 | H=0 | I=163 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 163
+Ligne 130 : A=5200 | B=Purchases | C=2025-01-09 12:00:00 | D=Costco | E=Cash | F=J233 | G=83.88 | H=0 | I=164 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 164
+Ligne 131 : A=5200 | B=Purchases | C=2025-01-22 12:00:00 | D=Doordash | E=Cash | F=J327 | G=50.39 | H=0 | I=165 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 165
+Ligne 132 : A=5200 | B=Purchases | C=2025-02-01 12:00:00 | D=Scc Auger | E=Cash | F=J400 | G=118.74 | H=0 | I=166 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 166
+Ligne 133 : A=5200 | B=Purchases | C=2025-02-01 12:00:00 | D=BMR Matco | E=Cash | F=J403 | G=68.16 | H=0 | I=167 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 167
+Ligne 134 : A=5200 | B=Purchases | C=2025-02-01 12:00:00 | D=Maxi | E=Cash | F=J404 | G=9.97 | H=0 | I=168 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 168
+Ligne 135 : A=5200 | B=Purchases | C=2025-02-01 12:00:00 | D=BMR Matco | E=Cash | F=J406 | G=68.42 | H=0 | I=169 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 169
+Ligne 136 : A=5200 | B=Purchases | C=2025-02-01 12:00:00 | D=BMR Matco | E=Cash | F=J407 | G=86.97 | H=0 | I=170 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 170
+Ligne 137 : A=5200 | B=Purchases | C=2025-02-01 12:00:00 | D=Super C | E=Cash | F=J408 | G=115.01 | H=0 | I=171 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 171
+Ligne 138 : A=5200 | B=Purchases | C=2025-02-13 12:00:00 | D=Resto Leger | E=Cash | F=J277 | G=173.95 | H=0 | I=172 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 172
+Ligne 139 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Super C | E=1 | F=J409 | G=160.38 | H=0 | I=173 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 173
+Ligne 140 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Super C | E=Cash | F=J410 | G=40 | H=0 | I=174 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 174
+Ligne 141 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Iga | E=Cash | F=J416 | G=28.42 | H=0 | I=175 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 175
+Ligne 142 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Iga | E=Cash | F=J417 | G=61.28 | H=0 | I=176 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 176
+Ligne 143 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J425 | G=32.22 | H=0 | I=177 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 177
+Ligne 144 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Resto Leger | E=Cash | F=J426 | G=170.26 | H=0 | I=178 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 178
+Ligne 145 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J445 | G=141.76 | H=0 | I=179 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 179
+Ligne 146 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J446 | G=31.74 | H=0 | I=180 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 180
+Ligne 147 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Metro | E=Cash | F=J448 | G=21.77 | H=0 | I=181 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 181
+Ligne 148 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Melissa Lena Ross | E=Cash | F=J449 | G=24.13 | H=0 | I=182 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 182
+Ligne 149 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J452 | G=73.47 | H=0 | I=183 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 183
+Ligne 150 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Resto Leger | E=Cash | F=J453 | G=25.97 | H=0 | I=184 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 184
+Ligne 151 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Resto Leger | E=Cash | F=J454 | G=27.71 | H=0 | I=185 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 185
+Ligne 152 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J455 | G=24.46 | H=0 | I=186 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 186
+Ligne 153 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J456 | G=18.31 | H=0 | I=187 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 187
+Ligne 154 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J459 | G=10.21 | H=0 | I=188 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 188
+Ligne 155 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J460 | G=39.83 | H=0 | I=189 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 189
+Ligne 156 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Tomeca DRP | E=Cash | F=J461 | G=114.64 | H=0 | I=190 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 190
+Ligne 157 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Tomeca DRP | E=Cash | F=J462 | G=18.77 | H=0 | I=191 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 191
+Ligne 158 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J463 | G=23.15 | H=0 | I=192 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 192
+Ligne 159 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J464 | G=57.6 | H=0 | I=193 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 193
+Ligne 160 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J465 | G=3.9 | H=0 | I=194 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 194
+Ligne 161 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J466 | G=36.23 | H=0 | I=195 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 195
+Ligne 162 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Metro | E=Cash | F=J467 | G=24.46 | H=0 | I=196 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 196
+Ligne 163 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J487 | G=33.27 | H=0 | I=197 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 197
+Ligne 164 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Super C | E=Cash | F=J491 | G=36.14 | H=0 | I=198 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 198
+Ligne 165 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Super C | E=Cash | F=J492 | G=14.89 | H=0 | I=199 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 199
+Ligne 166 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Super C | E=Cash | F=J493 | G=14.8 | H=0 | I=200 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 200
+Ligne 167 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Wal Mart | E=Cash | F=J494 | G=10.88 | H=0 | I=201 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 201
+Ligne 168 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J497 | G=28.22 | H=0 | I=202 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 202
+Ligne 169 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J498 | G=76.77 | H=0 | I=203 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 203
+Ligne 170 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J499 | G=37.4 | H=0 | I=204 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 204
+Ligne 171 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J500 | G=68.71 | H=0 | I=205 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 205
+Ligne 172 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Napa | E=Cash | F=J501 | G=16.29 | H=0 | I=206 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 206
+Ligne 173 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J502 | G=500 | H=0 | I=207 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 207
+Ligne 174 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Sqdc | E=Cash | F=J503 | G=62.45 | H=0 | I=208 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 208
+Ligne 175 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J505 | G=23.17 | H=0 | I=209 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 209
+Ligne 176 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Sqdc | E=Cash | F=J506 | G=49.57 | H=0 | I=210 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 210
+Ligne 177 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J508 | G=76.77 | H=0 | I=211 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 211
+Ligne 178 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Maxi | E=Cash | F=J509 | G=26.41 | H=0 | I=212 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 212
+Ligne 179 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J511 | G=40 | H=0 | I=213 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 213
+Ligne 180 : A=5200 | B=Purchases | C=2025-03-01 12:00:00 | D=Marcher Rio | E=Cash | F=J512 | G=79 | H=0 | I=214 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 214
+Ligne 181 : A=5200 | B=Purchases | C=2025-03-06 12:00:00 | D=Resto Leger | E=Cash | F=J286 | G=347.9 | H=0 | I=215 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 215
+Ligne 182 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=Sqdc | E=Cash | F=J522 | G=62.45 | H=0 | I=216 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 216
+Ligne 183 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=We Go Trade | E=Cash | F=J533 | G=1229.4 | H=0 | I=217 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 217
+Ligne 184 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=We Go Trade | E=Cash | F=J534 | G=353.24 | H=0 | I=218 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 218
+Ligne 185 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=We Go Trade | E=Cash | F=J535 | G=11.8 | H=0 | I=219 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 219
+Ligne 186 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=We Go Trade | E=Cash | F=J537 | G=828.01 | H=0 | I=220 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 220
+Ligne 187 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=We Go Trade | E=Cash | F=J538 | G=809.88 | H=0 | I=221 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 221
+Ligne 188 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=Sysco | E=Cash | F=J540 | G=234.84 | H=0 | I=222 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 222
+Ligne 189 : A=5200 | B=Purchases | C=2025-04-01 12:00:00 | D=Sysco | E=Cash | F=J541 | G=10150.24 | H=0 | I=223 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 223
+Ligne 190 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Rada Tech | E=Cash | F=J545 | G=696 | H=0 | I=224 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 224
+Ligne 191 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Alta Pack | E=Cash | F=J546 | G=179.5 | H=0 | I=225 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 225
+Ligne 192 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J547 | G=127.98 | H=0 | I=226 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 226
+Ligne 193 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J548 | G=317.87 | H=0 | I=227 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 227
+Ligne 194 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Les Entreprises Nile | E=Cash | F=J549 | G=330.69 | H=0 | I=228 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 228
+Ligne 195 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Les Entreprises Nile | E=Cash | F=J550 | G=248.76 | H=0 | I=229 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 229
+Ligne 196 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J551 | G=26.99 | H=0 | I=230 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 230
+Ligne 197 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J552 | G=67.06 | H=0 | I=231 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 231
+Ligne 198 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J553 | G=86.94 | H=0 | I=232 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 232
+Ligne 199 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J554 | G=61.6 | H=0 | I=233 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 233
+Ligne 200 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J555 | G=166.93 | H=0 | I=234 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 234
+Ligne 201 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Tzanet | E=Cash | F=J556 | G=110 | H=0 | I=235 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 235
+Ligne 202 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Costco | E=Cash | F=J557 | G=181.37 | H=0 | I=236 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 236
+Ligne 203 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Mondo | E=Cash | F=J560 | G=1999 | H=0 | I=237 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 237
+Ligne 204 : A=5200 | B=Purchases | C=2025-05-01 12:00:00 | D=Kenzap | E=Cash | F=J561 | G=45 | H=0 | I=238 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 238
+Ligne 205 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=We Go Trade | E=Cash | F=J567 | G=353.24 | H=0 | I=239 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 239
+Ligne 206 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=We Go Trade | E=Cash | F=J568 | G=445.14 | H=0 | I=240 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 240
+Ligne 207 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=We Go Trade | E=Cash | F=J569 | G=1229.4 | H=0 | I=241 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 241
+Ligne 208 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Viandes Montreal | E=Cash | F=J570 | G=389.95 | H=0 | I=242 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 242
+Ligne 209 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J573 | G=11991.4 | H=0 | I=243 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 243
+Ligne 210 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J574 | G=9852.6 | H=0 | I=244 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 244
+Ligne 211 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J575 | G=7503 | H=0 | I=245 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 245
+Ligne 212 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J576 | G=7449.97 | H=0 | I=246 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 246
+Ligne 213 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J577 | G=5847.66 | H=0 | I=247 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 247
+Ligne 214 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J578 | G=1229.4 | H=0 | I=248 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 248
+Ligne 215 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J579 | G=3645.16 | H=0 | I=249 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 249
+Ligne 216 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Maxi | E=Cash | F=J580 | G=4.59 | H=0 | I=250 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 250
+Ligne 217 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Maxi | E=Cash | F=J581 | G=2199.99 | H=0 | I=251 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 251
+Ligne 218 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Energir | E=Cash | F=J584 | G=1339.8 | H=0 | I=252 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 252
+Ligne 219 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Energir | E=Cash | F=J585 | G=7070.75 | H=0 | I=253 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 253
+Ligne 220 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J590 | G=3170.39 | H=0 | I=254 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 254
+Ligne 221 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J591 | G=7449.97 | H=0 | I=255 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 255
+Ligne 222 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J592 | G=7503.47 | H=0 | I=256 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 256
+Ligne 223 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J593 | G=12271.89 | H=0 | I=257 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 257
+Ligne 224 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Sysco | E=Cash | F=J594 | G=9977.26 | H=0 | I=258 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 258
+Ligne 225 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=We Go Trade | E=Cash | F=J595 | G=3229.4 | H=0 | I=259 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 259
+Ligne 226 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J596 | G=198.25 | H=0 | I=260 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 260
+Ligne 227 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J597 | G=266 | H=0 | I=261 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 261
+Ligne 228 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J598 | G=461.25 | H=0 | I=262 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 262
+Ligne 229 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J599 | G=157.5 | H=0 | I=263 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 263
+Ligne 230 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J600 | G=325.75 | H=0 | I=264 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 264
+Ligne 231 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J601 | G=224.5 | H=0 | I=265 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 265
+Ligne 232 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J602 | G=138 | H=0 | I=266 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 266
+Ligne 233 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J603 | G=272 | H=0 | I=267 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 267
+Ligne 234 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J604 | G=50 | H=0 | I=268 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 268
+Ligne 235 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J605 | G=259 | H=0 | I=269 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 269
+Ligne 236 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J606 | G=151 | H=0 | I=270 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 270
+Ligne 237 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J607 | G=479.75 | H=0 | I=271 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 271
+Ligne 238 : A=5200 | B=Purchases | C=2025-06-01 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J608 | G=147.5 | H=0 | I=272 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 272
+Ligne 239 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Rudolph | E=Cash | F=J624 | G=3947.7 | H=0 | I=273 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 273
+Ligne 240 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Services De Cafe Van Houter | E=Cash | F=J633 | G=378.43 | H=0 | I=274 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 274
+Ligne 241 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Services De Cafe Van Houter | E=Cash | F=J634 | G=153.9 | H=0 | I=275 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 275
+Ligne 242 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Services De Cafe Van Houter | E=Cash | F=J635 | G=0 | H=124.62 | I=276 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 276
+Ligne 243 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Services De Cafe Van Houter | E=Cash | F=J636 | G=378.43 | H=0 | I=277 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 277
+Ligne 244 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Sysco | E=Cash | F=J637 | G=1264.23 | H=0 | I=278 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 278
+Ligne 245 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Rudolph | E=Cash | F=J640 | G=3363.7 | H=0 | I=279 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 279
+Ligne 246 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Scc Auger | E=Cash | F=J663 | G=308.75 | H=0 | I=280 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 280
+Ligne 247 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Scc Auger | E=Cash | F=J665 | G=118.74 | H=0 | I=281 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 281
+Ligne 248 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J666 | G=845 | H=0 | I=282 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 282
+Ligne 249 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J668 | G=845 | H=0 | I=283 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 283
+Ligne 250 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J669 | G=148.5 | H=0 | I=284 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 284
+Ligne 251 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J670 | G=338.5 | H=0 | I=285 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 285
+Ligne 252 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J671 | G=845 | H=0 | I=286 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 286
+Ligne 253 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J672 | G=922 | H=0 | I=287 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 287
+Ligne 254 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J677 | G=147.5 | H=0 | I=288 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 288
+Ligne 255 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J678 | G=479.75 | H=0 | I=289 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 289
+Ligne 256 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J679 | G=320.75 | H=0 | I=290 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 290
+Ligne 257 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J680 | G=224.5 | H=0 | I=291 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 291
+Ligne 258 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J681 | G=104.5 | H=0 | I=292 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 292
+Ligne 259 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J682 | G=364.5 | H=0 | I=293 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 293
+Ligne 260 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J683 | G=364.5 | H=0 | I=294 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 294
+Ligne 261 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J684 | G=883 | H=0 | I=295 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 295
+Ligne 262 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J685 | G=327 | H=0 | I=296 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 296
+Ligne 263 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J686 | G=148.5 | H=0 | I=297 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 297
+Ligne 264 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J687 | G=845 | H=0 | I=298 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 298
+Ligne 265 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J688 | G=838.5 | H=0 | I=299 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 299
+Ligne 266 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J689 | G=922 | H=0 | I=300 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 300
+Ligne 267 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=L&#x27;Hermine SENC | E=Cash | F=J698 | G=353.24 | H=0 | I=301 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 301
+Ligne 268 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Kenzap | E=Cash | F=J699 | G=45 | H=0 | I=302 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 302
+Ligne 269 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J700 | G=922 | H=0 | I=303 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 303
+Ligne 270 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Carrousel | E=Cash | F=J701 | G=1102.54 | H=0 | I=304 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 304
+Ligne 271 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Jus Dose | E=Cash | F=J702 | G=2056.8 | H=0 | I=305 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 305
+Ligne 272 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Jus Dose | E=Cash | F=J703 | G=2283.06 | H=0 | I=306 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 306
+Ligne 273 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Jus Dose | E=Cash | F=J704 | G=2157.36 | H=0 | I=307 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 307
+Ligne 274 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Les Delice Lafrente | E=Cash | F=J706 | G=338.5 | H=0 | I=308 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 308
+Ligne 275 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Rudolph | E=Cash | F=J707 | G=3363.7 | H=0 | I=309 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 309
+Ligne 276 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Too Good to Go | E=Cash | F=J708 | G=4.99 | H=0 | I=310 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 310
+Ligne 277 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Too Good to Go | E=Cash | F=J709 | G=4.99 | H=0 | I=311 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 311
+Ligne 278 : A=5200 | B=Purchases | C=2025-06-30 12:00:00 | D=Too Good to Go | E=Cash | F=J710 | G=49.92 | H=0 | I=312 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 312
+Ligne 279 : A=5300 | B=Freight Expense | C=2025-02-01 12:00:00 | D=Harmony Movers | E=Cash | F=J402 | G=25 | H=0 | I=320 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 320
+Ligne 280 : A=5300 | B=Freight Expense | C=2025-06-01 12:00:00 | D=U-Haul | E=Cash | F=J583 | G=552.83 | H=0 | I=321 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 321
+Ligne 281 : A=5300 | B=Freight Expense | C=2025-06-01 12:00:00 | D=U-Haul | E=Cash | F=J586 | G=513.24 | H=0 | I=322 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 322
+Ligne 282 : A=5300 | B=Freight Expense | C=2025-06-30 12:00:00 | D=SLM Distributiuon | E=Cash | F=J638 | G=1045.76 | H=0 | I=323 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 323
+Ligne 283 : A=5300 | B=Freight Expense | C=2025-06-30 12:00:00 | D=SLM Distributiuon | E=Cash | F=J639 | G=59.99 | H=0 | I=324 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 324
+Ligne 284 : A=5610 | B=Accounting &amp; Legal | C=2024-11-26 12:00:00 | D=Comptable | E=Cash | F=J80 | G=300 | H=0 | I=354 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 354
+Ligne 285 : A=5610 | B=Accounting &amp; Legal | C=2024-12-11 12:00:00 | D=Comptable | E=Cash | F=J121 | G=173.95 | H=0 | I=355 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 355
+Ligne 286 : A=5610 | B=Accounting &amp; Legal | C=2024-12-19 12:00:00 | D=Comptable | E=Cash | F=J143 | G=630 | H=0 | I=356 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 356
+Ligne 287 : A=5615 | B=Advertising &amp; Promotions | C=2024-11-14 12:00:00 | D=VIdeo Editing | E=Cash | F=J67 | G=86.97 | H=0 | I=360 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 360
+Ligne 288 : A=5615 | B=Advertising &amp; Promotions | C=2025-06-01 12:00:00 | D=VIdeo Editing | E=Cash | F=J610 | G=163.57 | H=0 | I=361 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 361
+Ligne 289 : A=5625 | B=Business Fees &amp; Licenses | C=2024-10-08 12:00:00 | D=Revenu Quebec | E=Cash | F=J41 | G=102.03 | H=0 | I=367 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 367
+Ligne 290 : A=5625 | B=Business Fees &amp; Licenses | C=2024-12-01 12:00:00 | D=City of Montreal | E=Cash | F=J385 | G=549 | H=0 | I=368 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 368
+Ligne 291 : A=5625 | B=Business Fees &amp; Licenses | C=2024-12-01 12:00:00 | D=City of Montreal | E=Cash | F=J386 | G=100 | H=0 | I=369 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 369
+Ligne 292 : A=5625 | B=Business Fees &amp; Licenses | C=2025-03-01 12:00:00 | D=City of Montreal | E=Cash | F=J514 | G=1635 | H=0 | I=370 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 370
+Ligne 293 : A=5625 | B=Business Fees &amp; Licenses | C=2025-05-01 12:00:00 | D=City of Waterloo | E=Cash | F=J562 | G=361 | H=0 | I=371 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 371
+Ligne 294 : A=5625 | B=Business Fees &amp; Licenses | C=2025-06-01 12:00:00 | D=City of Waterloo | E=Cash | F=J563 | G=489 | H=0 | I=372 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 372
+Ligne 295 : A=5625 | B=Business Fees &amp; Licenses | C=2025-06-01 12:00:00 | D=City of Waterloo | E=Cash | F=J564 | G=345 | H=0 | I=373 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 373
+Ligne 296 : A=5625 | B=Business Fees &amp; Licenses | C=2025-06-01 12:00:00 | D=City of Waterloo | E=Cash | F=J565 | G=590 | H=0 | I=374 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 374
+Ligne 297 : A=5625 | B=Business Fees &amp; Licenses | C=2025-06-01 12:00:00 | D=City of Montreal | E=Cash | F=J587 | G=36.75 | H=0 | I=375 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 375
+Ligne 298 : A=5640 | B=Courier &amp; Postage | C=2024-12-20 12:00:00 | D=Transport Jahn | E=Cash | F=J149 | G=130.47 | H=0 | I=381 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 381
+Ligne 299 : A=5685 | B=Insurance | C=2025-01-02 12:00:00 | D=Assurance | E=Cash | F=J195 | G=1701.35 | H=0 | I=392 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 392
+Ligne 300 : A=5685 | B=Insurance | C=2025-01-27 12:00:00 | D=Assurance | E=Cash | F=J246 | G=1900 | H=0 | I=393 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 393
+Ligne 301 : A=5685 | B=Insurance | C=2025-02-05 12:00:00 | D=Assurance | E=Cash | F=J275 | G=1500 | H=0 | I=394 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 394
+Ligne 302 : A=5685 | B=Insurance | C=2025-06-30 12:00:00 | D=Insurance | E=Cash | F=J641 | G=1368.36 | H=0 | I=395 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 395
+Ligne 303 : A=5690 | B=Interest &amp; Bank Charges | C=2024-07-31 12:00:00 | D=Bank Fees | E=Cash | F=J14 | G=127.2 | H=0 | I=399 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 399
+Ligne 304 : A=5690 | B=Interest &amp; Bank Charges | C=2024-08-31 12:00:00 | D=Bank Fees | E=Cash | F=J29 | G=113.45 | H=0 | I=400 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 400
+Ligne 305 : A=5690 | B=Interest &amp; Bank Charges | C=2024-09-30 12:00:00 | D=Bank Fees | E=Cash | F=J35 | G=113.45 | H=0 | I=401 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 401
+Ligne 306 : A=5690 | B=Interest &amp; Bank Charges | C=2024-10-08 12:00:00 | D=Revenu Quebec | E=Cash | F=J42 | G=2.52 | H=0 | I=402 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 402
+Ligne 307 : A=5690 | B=Interest &amp; Bank Charges | C=2024-10-31 12:00:00 | D=Bank Fees | E=Cash | F=J39 | G=134.7 | H=0 | I=403 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 403
+Ligne 308 : A=5690 | B=Interest &amp; Bank Charges | C=2024-11-12 12:00:00 | D=Bank Fees | E=Cash | F=J65 | G=95.48 | H=0 | I=404 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 404
+Ligne 309 : A=5690 | B=Interest &amp; Bank Charges | C=2024-11-30 12:00:00 | D=Bank Fees | E=Cash | F=J91 | G=153.45 | H=0 | I=405 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 405
+Ligne 310 : A=5690 | B=Interest &amp; Bank Charges | C=2024-12-02 12:00:00 | D=Bank Fees | E=Cash | F=J98 | G=0 | H=383.75 | I=406 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 406
+Ligne 311 : A=5690 | B=Interest &amp; Bank Charges | C=2024-12-31 12:00:00 | D=Bank Fees | E=Cash | F=J188 | G=186.45 | H=0 | I=407 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 407
+Ligne 312 : A=5690 | B=Interest &amp; Bank Charges | C=2025-01-31 12:00:00 | D=Bank Fees | E=Cash | F=J250 | G=90.2 | H=0 | I=408 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 408
+Ligne 313 : A=5690 | B=Interest &amp; Bank Charges | C=2025-02-28 12:00:00 | D=Bank Fees | E=Cash | F=J273 | G=73.95 | H=0 | I=409 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 409
+Ligne 314 : A=5690 | B=Interest &amp; Bank Charges | C=2025-03-31 12:00:00 | D=Bank Fees | E=Cash | F=J282 | G=75.9 | H=0 | I=410 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 410
+Ligne 315 : A=5690 | B=Interest &amp; Bank Charges | C=2025-04-30 12:00:00 | D=Bank Fees | E=Cash | F=J305 | G=73.95 | H=0 | I=411 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 411
+Ligne 316 : A=5690 | B=Interest &amp; Bank Charges | C=2025-05-31 12:00:00 | D=Bank Fees | E=Cash | F=J315 | G=73.95 | H=0 | I=412 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 412
+Ligne 317 : A=5690 | B=Interest &amp; Bank Charges | C=2025-06-30 12:00:00 | D=Bank Fees | E=Cash | F=J316 | G=71.3 | H=0 | I=413 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 413
+Ligne 318 : A=5700 | B=Office Supplies | C=2024-07-01 12:00:00 | D=Quadro Holdings | E=Cash | F=J782 | G=10673.53 | H=0 | I=417 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 417
+Ligne 319 : A=5700 | B=Office Supplies | C=2024-10-22 12:00:00 | D=Entrepot Logis | E=Cash | F=J47 | G=521.86 | H=0 | I=418 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 418
+Ligne 320 : A=5700 | B=Office Supplies | C=2024-12-06 12:00:00 | D=Pharmaprix | E=Cash | F=J107 | G=66.87 | H=0 | I=419 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 419
+Ligne 321 : A=5700 | B=Office Supplies | C=2024-12-27 12:00:00 | D=Pharmaprix | E=Cash | F=J171 | G=68.6 | H=0 | I=420 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 420
+Ligne 322 : A=5700 | B=Office Supplies | C=2024-12-27 12:00:00 | D=Pharmaprix | E=Cash | F=J175 | G=76.84 | H=0 | I=421 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 421
+Ligne 323 : A=5700 | B=Office Supplies | C=2025-04-10 12:00:00 | D=Pharmaprix | E=Cash | F=J307 | G=20.16 | H=0 | I=422 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 422
+Ligne 324 : A=5700 | B=Office Supplies | C=2025-06-30 12:00:00 | D=Pyxa.ai | E=Cash | F=J705 | G=249.99 | H=0 | I=423 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 423
+Ligne 325 : A=5700 | B=Office Supplies | C=2025-06-30 12:00:00 | D=Groupe Takatak | E=Cash | F=J739 | G=17324.46 | H=0 | I=424 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 424
+Ligne 326 : A=5700 | B=Office Supplies | C=2025-06-30 12:00:00 | D=Groupe Takatak | E=Cash | F=J741 | G=1451.27 | H=0 | I=425 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 425
+Ligne 327 : A=5700 | B=Office Supplies | C=2025-06-30 12:00:00 | D=Groupe Takatak | E=Cash | F=J743 | G=331.62 | H=0 | I=426 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 426
+Ligne 328 : A=5725 | B=Rental | C=2025-06-30 12:00:00 | D=1672 Ste-Catherine Est | E=Cash | F=J625 | G=7557.99 | H=0 | I=432 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 432
+Ligne 329 : A=5730 | B=Motor Vehicle Expenses | C=2024-10-22 12:00:00 | D=Auto | E=Cash | F=J49 | G=500 | H=0 | I=435 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 435
+Ligne 330 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-15 12:00:00 | D=Gas | E=Cash | F=J69 | G=86.97 | H=0 | I=436 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 436
+Ligne 331 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-15 12:00:00 | D=Gas | E=Cash | F=J70 | G=130.47 | H=0 | I=437 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 437
+Ligne 332 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-15 12:00:00 | D=Gas | E=Cash | F=J71 | G=34.79 | H=0 | I=438 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 438
+Ligne 333 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-20 12:00:00 | D=Gas | E=Cash | F=J74 | G=34.79 | H=0 | I=439 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 439
+Ligne 334 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-21 12:00:00 | D=Gas | E=Cash | F=J75 | G=34.79 | H=0 | I=440 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 440
+Ligne 335 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-21 12:00:00 | D=Gas | E=Cash | F=J76 | G=34.79 | H=0 | I=441 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 441
+Ligne 336 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-28 12:00:00 | D=Gas | E=Cash | F=J82 | G=34.79 | H=0 | I=442 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 442
+Ligne 337 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-28 12:00:00 | D=Gas | E=Cash | F=J83 | G=23.28 | H=0 | I=443 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 443
+Ligne 338 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-29 12:00:00 | D=Gas | E=Cash | F=J88 | G=34.79 | H=0 | I=444 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 444
+Ligne 339 : A=5730 | B=Motor Vehicle Expenses | C=2024-11-29 12:00:00 | D=Gas | E=Cash | F=J89 | G=26.78 | H=0 | I=445 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 445
+Ligne 340 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-09 12:00:00 | D=Gas | E=Cash | F=J113 | G=34.79 | H=0 | I=446 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 446
+Ligne 341 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-11 12:00:00 | D=Auto | E=Cash | F=J122 | G=500 | H=0 | I=447 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 447
+Ligne 342 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-11 12:00:00 | D=Gas | E=Cash | F=J123 | G=86.97 | H=0 | I=448 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 448
+Ligne 343 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-12 12:00:00 | D=Gas | E=Cash | F=J135 | G=34.79 | H=0 | I=449 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 449
+Ligne 344 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-12 12:00:00 | D=Gas | E=Cash | F=J139 | G=61.59 | H=0 | I=450 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 450
+Ligne 345 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-19 12:00:00 | D=Gas | E=Cash | F=J144 | G=34.79 | H=0 | I=451 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 451
+Ligne 346 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-19 12:00:00 | D=Gas | E=Cash | F=J145 | G=23.28 | H=0 | I=452 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 452
+Ligne 347 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-19 12:00:00 | D=Gas | E=Cash | F=J147 | G=34.79 | H=0 | I=453 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 453
+Ligne 348 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-23 12:00:00 | D=Gas | E=Cash | F=J160 | G=43.49 | H=0 | I=454 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 454
+Ligne 349 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-31 12:00:00 | D=Gas | E=Cash | F=J181 | G=26.85 | H=0 | I=455 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 455
+Ligne 350 : A=5730 | B=Motor Vehicle Expenses | C=2024-12-31 12:00:00 | D=Gas | E=Cash | F=J184 | G=50.45 | H=0 | I=456 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 456
+Ligne 351 : A=5730 | B=Motor Vehicle Expenses | C=2025-01-01 12:00:00 | D=Gas | E=Cash | F=J192 | G=22.67 | H=0 | I=457 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 457
+Ligne 352 : A=5730 | B=Motor Vehicle Expenses | C=2025-01-03 12:00:00 | D=Gas | E=Cash | F=J204 | G=23.28 | H=0 | I=458 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 458
+Ligne 353 : A=5730 | B=Motor Vehicle Expenses | C=2025-01-03 12:00:00 | D=Gas | E=Cash | F=J209 | G=37.37 | H=0 | I=459 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 459
+Ligne 354 : A=5730 | B=Motor Vehicle Expenses | C=2025-01-06 12:00:00 | D=Gas | E=Cash | F=J218 | G=26.1 | H=0 | I=460 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 460
+Ligne 355 : A=5730 | B=Motor Vehicle Expenses | C=2025-01-06 12:00:00 | D=Gas | E=Cash | F=J219 | G=32.03 | H=0 | I=461 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 461
+Ligne 356 : A=5730 | B=Motor Vehicle Expenses | C=2025-01-08 12:00:00 | D=Gas | E=Cash | F=J227 | G=18.27 | H=0 | I=462 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 462
+Ligne 357 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Saaq | E=Cash | F=J418 | G=38.81 | H=0 | I=463 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 463
+Ligne 358 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J420 | G=43.49 | H=0 | I=464 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 464
+Ligne 359 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J421 | G=16.99 | H=0 | I=465 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 465
+Ligne 360 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J424 | G=43.49 | H=0 | I=466 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 466
+Ligne 361 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J427 | G=8.28 | H=0 | I=467 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 467
+Ligne 362 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J428 | G=43.61 | H=0 | I=468 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 468
+Ligne 363 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J429 | G=52.18 | H=0 | I=469 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 469
+Ligne 364 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J430 | G=56.14 | H=0 | I=470 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 470
+Ligne 365 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J431 | G=34.79 | H=0 | I=471 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 471
+Ligne 366 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J441 | G=19.19 | H=0 | I=472 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 472
+Ligne 367 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J442 | G=49.83 | H=0 | I=473 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 473
+Ligne 368 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J443 | G=43.49 | H=0 | I=474 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 474
+Ligne 369 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J444 | G=40.05 | H=0 | I=475 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 475
+Ligne 370 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J447 | G=43.49 | H=0 | I=476 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 476
+Ligne 371 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J450 | G=88.12 | H=0 | I=477 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 477
+Ligne 372 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J451 | G=41.13 | H=0 | I=478 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 478
+Ligne 373 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J457 | G=39.14 | H=0 | I=479 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 479
+Ligne 374 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J458 | G=34.79 | H=0 | I=480 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 480
+Ligne 375 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J474 | G=43.49 | H=0 | I=481 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 481
+Ligne 376 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J475 | G=28.7 | H=0 | I=482 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 482
+Ligne 377 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J476 | G=34.79 | H=0 | I=483 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 483
+Ligne 378 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J477 | G=34.79 | H=0 | I=484 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 484
+Ligne 379 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J478 | G=108.54 | H=0 | I=485 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 485
+Ligne 380 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J479 | G=34.79 | H=0 | I=486 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 486
+Ligne 381 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J483 | G=34.79 | H=0 | I=487 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 487
+Ligne 382 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J484 | G=7.83 | H=0 | I=488 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 488
+Ligne 383 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J485 | G=34.79 | H=0 | I=489 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 489
+Ligne 384 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J486 | G=49.29 | H=0 | I=490 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 490
+Ligne 385 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J488 | G=27.74 | H=0 | I=491 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 491
+Ligne 386 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J489 | G=34.79 | H=0 | I=492 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 492
+Ligne 387 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J490 | G=34.79 | H=0 | I=493 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 493
+Ligne 388 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J495 | G=52.18 | H=0 | I=494 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 494
+Ligne 389 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J496 | G=20.88 | H=0 | I=495 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 495
+Ligne 390 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J504 | G=68.16 | H=0 | I=496 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 496
+Ligne 391 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J507 | G=37.4 | H=0 | I=497 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 497
+Ligne 392 : A=5730 | B=Motor Vehicle Expenses | C=2025-03-01 12:00:00 | D=Gas | E=Cash | F=J510 | G=9.77 | H=0 | I=498 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 498
+Ligne 393 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-01 12:00:00 | D=Gas | E=Cash | F=J515 | G=43.49 | H=0 | I=499 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 499
+Ligne 394 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-01 12:00:00 | D=Auto | E=Cash | F=J523 | G=33 | H=0 | I=500 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 500
+Ligne 395 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-01 12:00:00 | D=Auto | E=Cash | F=J524 | G=28.72 | H=0 | I=501 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 501
+Ligne 396 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-01 12:00:00 | D=Gas | E=Cash | F=J525 | G=50.38 | H=0 | I=502 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 502
+Ligne 397 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-01 12:00:00 | D=Gas | E=Cash | F=J526 | G=68.16 | H=0 | I=503 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 503
+Ligne 398 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-14 12:00:00 | D=Gas | E=Cash | F=J308 | G=31.41 | H=0 | I=504 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 504
+Ligne 399 : A=5730 | B=Motor Vehicle Expenses | C=2025-04-14 12:00:00 | D=Gas | E=Cash | F=J310 | G=43.49 | H=0 | I=505 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 505
+Ligne 400 : A=5740 | B=Restaurant Supplies Expenses | C=2024-08-23 12:00:00 | D=Equipment Fri | E=Cash | F=J28 | G=778 | H=0 | I=509 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 509
+Ligne 401 : A=5740 | B=Restaurant Supplies Expenses | C=2024-10-18 12:00:00 | D=Equipment Fri | E=Cash | F=J45 | G=534.9 | H=0 | I=510 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 510
+Ligne 402 : A=5740 | B=Restaurant Supplies Expenses | C=2024-10-28 12:00:00 | D=Equipment Fri | E=Cash | F=J51 | G=434.88 | H=0 | I=511 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 511
+Ligne 403 : A=5740 | B=Restaurant Supplies Expenses | C=2024-11-08 12:00:00 | D=Equipment Fri | E=Cash | F=J58 | G=347.9 | H=0 | I=512 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 512
+Ligne 404 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-12 12:00:00 | D=Dollarama | E=Cash | F=J137 | G=156.72 | H=0 | I=513 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 513
+Ligne 405 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-12 12:00:00 | D=Dollarama | E=Cash | F=J140 | G=9.25 | H=0 | I=514 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 514
+Ligne 406 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-19 12:00:00 | D=Giant Tiger | E=Cash | F=J146 | G=30.46 | H=0 | I=515 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 515
+Ligne 407 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-27 12:00:00 | D=Dollarama | E=Cash | F=J170 | G=23.17 | H=0 | I=516 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 516
+Ligne 408 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-30 12:00:00 | D=Dollarama | E=Cash | F=J176 | G=78.7 | H=0 | I=517 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 517
+Ligne 409 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-30 12:00:00 | D=Dollarama | E=Cash | F=J177 | G=17.38 | H=0 | I=518 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 518
+Ligne 410 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-31 12:00:00 | D=Giant Tiger | E=Cash | F=J182 | G=90.96 | H=0 | I=519 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 519
+Ligne 411 : A=5740 | B=Restaurant Supplies Expenses | C=2024-12-31 12:00:00 | D=Dollarama | E=Cash | F=J183 | G=8 | H=0 | I=520 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 520
+Ligne 412 : A=5740 | B=Restaurant Supplies Expenses | C=2025-01-01 12:00:00 | D=Equipment Fri | E=Cash | F=J388 | G=1705 | H=0 | I=521 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 521
+Ligne 413 : A=5740 | B=Restaurant Supplies Expenses | C=2025-01-01 12:00:00 | D=Equipment Fri | E=Cash | F=J389 | G=7900 | H=0 | I=522 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 522
+Ligne 414 : A=5740 | B=Restaurant Supplies Expenses | C=2025-01-01 12:00:00 | D=Equipment Fri | E=Cash | F=J390 | G=2340 | H=0 | I=523 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 523
+Ligne 415 : A=5740 | B=Restaurant Supplies Expenses | C=2025-01-01 12:00:00 | D=Equipment Fri | E=Cash | F=J391 | G=3850 | H=0 | I=524 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 524
+Ligne 416 : A=5740 | B=Restaurant Supplies Expenses | C=2025-01-01 12:00:00 | D=Equipment Fri | E=Cash | F=J392 | G=2960 | H=0 | I=525 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 525
+Ligne 417 : A=5740 | B=Restaurant Supplies Expenses | C=2025-01-06 12:00:00 | D=Dollarama | E=Cash | F=J214 | G=17.5 | H=0 | I=526 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 526
+Ligne 418 : A=5740 | B=Restaurant Supplies Expenses | C=2025-02-01 12:00:00 | D=Equipment Fri | E=Cash | F=J393 | G=2340 | H=0 | I=527 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 527
+Ligne 419 : A=5740 | B=Restaurant Supplies Expenses | C=2025-02-01 12:00:00 | D=Equipment Fri | E=Cash | F=J394 | G=1145 | H=0 | I=528 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 528
+Ligne 420 : A=5740 | B=Restaurant Supplies Expenses | C=2025-02-01 12:00:00 | D=Equipment Fri | E=Cash | F=J395 | G=5990 | H=0 | I=529 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 529
+Ligne 421 : A=5740 | B=Restaurant Supplies Expenses | C=2025-02-01 12:00:00 | D=Equipment Fri | E=Cash | F=J396 | G=8320 | H=0 | I=530 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 530
+Ligne 422 : A=5740 | B=Restaurant Supplies Expenses | C=2025-02-01 12:00:00 | D=Equipment Fri | E=Cash | F=J397 | G=1485 | H=0 | I=531 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 531
+Ligne 423 : A=5740 | B=Restaurant Supplies Expenses | C=2025-02-01 12:00:00 | D=Equipment Fri | E=Cash | F=J398 | G=11500 | H=0 | I=532 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 532
+Ligne 424 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J419 | G=47.25 | H=0 | I=533 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 533
+Ligne 425 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J433 | G=8 | H=0 | I=534 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 534
+Ligne 426 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J434 | G=4.35 | H=0 | I=535 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 535
+Ligne 427 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J435 | G=60.89 | H=0 | I=536 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 536
+Ligne 428 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J436 | G=11 | H=0 | I=537 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 537
+Ligne 429 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J437 | G=39.14 | H=0 | I=538 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 538
+Ligne 430 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J438 | G=39.14 | H=0 | I=539 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 539
+Ligne 431 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J439 | G=44.27 | H=0 | I=540 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 540
+Ligne 432 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J440 | G=24.95 | H=0 | I=541 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 541
+Ligne 433 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J480 | G=46.54 | H=0 | I=542 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 542
+Ligne 434 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J481 | G=21.3 | H=0 | I=543 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 543
+Ligne 435 : A=5740 | B=Restaurant Supplies Expenses | C=2025-03-01 12:00:00 | D=Dollarama | E=Cash | F=J482 | G=47.84 | H=0 | I=544 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 544
+Ligne 436 : A=5740 | B=Restaurant Supplies Expenses | C=2025-04-01 12:00:00 | D=Dollarama | E=Cash | F=J539 | G=39.84 | H=0 | I=545 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 545
+Ligne 437 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-01 12:00:00 | D=Equipment Fri | E=Cash | F=J582 | G=1700 | H=0 | I=546 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 546
+Ligne 438 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J643 | G=2615 | H=0 | I=547 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 547
+Ligne 439 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J644 | G=1485 | H=0 | I=548 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 548
+Ligne 440 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J645 | G=8205 | H=0 | I=549 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 549
+Ligne 441 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J646 | G=1650 | H=0 | I=550 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 550
+Ligne 442 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J647 | G=4635 | H=0 | I=551 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 551
+Ligne 443 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J649 | G=3390 | H=0 | I=552 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 552
+Ligne 444 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J651 | G=1700 | H=0 | I=553 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 553
+Ligne 445 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J652 | G=0 | H=384.09 | I=554 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 554
+Ligne 446 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J653 | G=0 | H=78.2 | I=555 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 555
+Ligne 447 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J654 | G=0 | H=927 | I=556 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 556
+Ligne 448 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J655 | G=1225.8 | H=0 | I=557 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 557
+Ligne 449 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Equipment Fri | E=Cash | F=J658 | G=7900 | H=0 | I=558 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 558
+Ligne 450 : A=5740 | B=Restaurant Supplies Expenses | C=2025-06-30 12:00:00 | D=Northern Pizza Quipment | E=Cash | F=J745 | G=181.75 | H=0 | I=559 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 559
+Ligne 451 : A=5765 | B=Repair &amp; Maintenance | C=2024-07-01 12:00:00 | D=Repartion | E=Cash | F=J720 | G=3383.7 | H=0 | I=567 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 567
+Ligne 452 : A=5765 | B=Repair &amp; Maintenance | C=2024-10-01 12:00:00 | D=Choquette CKS | E=Cash | F=J779 | G=1374.43 | H=0 | I=568 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 568
+Ligne 453 : A=5765 | B=Repair &amp; Maintenance | C=2024-11-01 12:00:00 | D=Frimabec | E=Cash | F=J789 | G=366 | H=0 | I=569 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 569
+Ligne 454 : A=5765 | B=Repair &amp; Maintenance | C=2024-11-08 12:00:00 | D=Renovation | E=Cash | F=J57 | G=260.92 | H=0 | I=570 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 570
+Ligne 455 : A=5765 | B=Repair &amp; Maintenance | C=2024-11-11 12:00:00 | D=Electriciens | E=Cash | F=J60 | G=173.95 | H=0 | I=571 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 571
+Ligne 456 : A=5765 | B=Repair &amp; Maintenance | C=2024-11-11 12:00:00 | D=Electriciens | E=Cash | F=J61 | G=86.97 | H=0 | I=572 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 572
+Ligne 457 : A=5765 | B=Repair &amp; Maintenance | C=2024-11-15 12:00:00 | D=Electriciens | E=Cash | F=J68 | G=173.95 | H=0 | I=573 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 573
+Ligne 458 : A=5765 | B=Repair &amp; Maintenance | C=2024-12-05 12:00:00 | D=Home Depot | E=Cash | F=J105 | G=26.72 | H=0 | I=574 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 574
+Ligne 459 : A=5765 | B=Repair &amp; Maintenance | C=2024-12-09 12:00:00 | D=Home Depot | E=Cash | F=J116 | G=21.76 | H=0 | I=575 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 575
+Ligne 460 : A=5765 | B=Repair &amp; Maintenance | C=2024-12-11 12:00:00 | D=Home Depot | E=Cash | F=J130 | G=95.16 | H=0 | I=576 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 576
+Ligne 461 : A=5765 | B=Repair &amp; Maintenance | C=2024-12-13 12:00:00 | D=Renovation | E=Cash | F=J142 | G=217.44 | H=0 | I=577 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 577
+Ligne 462 : A=5765 | B=Repair &amp; Maintenance | C=2024-12-23 12:00:00 | D=Home Depot | E=Cash | F=J159 | G=13.92 | H=0 | I=578 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 578
+Ligne 463 : A=5765 | B=Repair &amp; Maintenance | C=2024-12-23 12:00:00 | D=Renovation | E=Cash | F=J161 | G=108.72 | H=0 | I=579 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 579
+Ligne 464 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-01 12:00:00 | D=Frimabec | E=Cash | F=J791 | G=399.22 | H=0 | I=580 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 580
+Ligne 465 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-03 12:00:00 | D=Canadian Tire | E=Cash | F=J207 | G=308.68 | H=0 | I=581 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 581
+Ligne 466 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-06 12:00:00 | D=Home Depot | E=Cash | F=J212 | G=57.19 | H=0 | I=582 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 582
+Ligne 467 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-06 12:00:00 | D=Home Depot | E=Cash | F=J213 | G=30.89 | H=0 | I=583 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 583
+Ligne 468 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-06 12:00:00 | D=Home Depot | E=Cash | F=J216 | G=37.21 | H=0 | I=584 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 584
+Ligne 469 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-06 12:00:00 | D=Home Depot | E=Cash | F=J217 | G=90.43 | H=0 | I=585 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 585
+Ligne 470 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-09 12:00:00 | D=Home Depot | E=Cash | F=J234 | G=71.69 | H=0 | I=586 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 586
+Ligne 471 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-09 12:00:00 | D=Home Depot | E=Cash | F=J235 | G=46.14 | H=0 | I=587 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 587
+Ligne 472 : A=5765 | B=Repair &amp; Maintenance | C=2025-01-21 12:00:00 | D=Renovation | E=Cash | F=J245 | G=130.47 | H=0 | I=588 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 588
+Ligne 473 : A=5765 | B=Repair &amp; Maintenance | C=2025-02-01 12:00:00 | D=Home Depot | E=Cash | F=J405 | G=172.61 | H=0 | I=589 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 589
+Ligne 474 : A=5765 | B=Repair &amp; Maintenance | C=2025-02-01 12:00:00 | D=Choquette CKS | E=Cash | F=J753 | G=6091.85 | H=0 | I=590 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 590
+Ligne 475 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J411 | G=120.9 | H=0 | I=591 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 591
+Ligne 476 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J412 | G=17.7 | H=0 | I=592 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 592
+Ligne 477 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J413 | G=26.55 | H=0 | I=593 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 593
+Ligne 478 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J414 | G=18.98 | H=0 | I=594 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 594
+Ligne 479 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J415 | G=6.44 | H=0 | I=595 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 595
+Ligne 480 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J422 | G=95.15 | H=0 | I=596 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 596
+Ligne 481 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J423 | G=59.95 | H=0 | I=597 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 597
+Ligne 482 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J432 | G=129 | H=0 | I=598 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 598
+Ligne 483 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Canadian Tire | E=Cash | F=J468 | G=83.24 | H=0 | I=599 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 599
+Ligne 484 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Canadian Tire | E=Cash | F=J469 | G=38.26 | H=0 | I=600 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 600
+Ligne 485 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J470 | G=20.84 | H=0 | I=601 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 601
+Ligne 486 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J471 | G=20.84 | H=0 | I=602 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 602
+Ligne 487 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J472 | G=25.98 | H=0 | I=603 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 603
+Ligne 488 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Home Depot | E=Cash | F=J473 | G=24.98 | H=0 | I=604 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 604
+Ligne 489 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-01 12:00:00 | D=Canadian Tire | E=Cash | F=J513 | G=83.24 | H=0 | I=605 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 605
+Ligne 490 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-05 12:00:00 | D=Home Depot | E=Cash | F=J285 | G=368.99 | H=0 | I=606 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 606
+Ligne 491 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-06 12:00:00 | D=Renovation | E=Cash | F=J288 | G=52.18 | H=0 | I=607 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 607
+Ligne 492 : A=5765 | B=Repair &amp; Maintenance | C=2025-03-17 12:00:00 | D=Electriciens | E=Cash | F=J298 | G=130.47 | H=0 | I=608 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 608
+Ligne 493 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Canadian Tire | E=Cash | F=J516 | G=24.98 | H=0 | I=609 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 609
+Ligne 494 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J517 | G=20.81 | H=0 | I=610 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 610
+Ligne 495 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J518 | G=130.09 | H=0 | I=611 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 611
+Ligne 496 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J519 | G=25.98 | H=0 | I=612 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 612
+Ligne 497 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J520 | G=22.98 | H=0 | I=613 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 613
+Ligne 498 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J521 | G=133.25 | H=0 | I=614 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 614
+Ligne 499 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J527 | G=172.61 | H=0 | I=615 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 615
+Ligne 500 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J528 | G=34.79 | H=0 | I=616 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 616
+Ligne 501 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J529 | G=16.68 | H=0 | I=617 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 617
+Ligne 502 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J530 | G=59.1 | H=0 | I=618 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 618
+Ligne 503 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Home Depot | E=Cash | F=J531 | G=10.27 | H=0 | I=619 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 619
+Ligne 504 : A=5765 | B=Repair &amp; Maintenance | C=2025-04-01 12:00:00 | D=Repartion | E=Cash | F=J713 | G=12180.01 | H=0 | I=620 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 620
+Ligne 505 : A=5765 | B=Repair &amp; Maintenance | C=2025-05-01 12:00:00 | D=Senville.ca | E=Cash | F=J777 | G=4761.77 | H=0 | I=621 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 621
+Ligne 506 : A=5765 | B=Repair &amp; Maintenance | C=2025-05-01 12:00:00 | D=Frimabec | E=Cash | F=J795 | G=399.22 | H=0 | I=622 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 622
+Ligne 507 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-01 12:00:00 | D=Rapide 2 Nette | E=Cash | F=J747 | G=1642.86 | H=0 | I=623 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 623
+Ligne 508 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-01 12:00:00 | D=Rapide 2 Nette | E=Cash | F=J749 | G=1581.5 | H=0 | I=624 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 624
+Ligne 509 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-01 12:00:00 | D=Northern Pizza Quipment | E=Cash | F=J751 | G=3500 | H=0 | I=625 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 625
+Ligne 510 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-01 12:00:00 | D=Frimabec | E=Cash | F=J793 | G=299.2 | H=0 | I=626 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 626
+Ligne 511 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-30 12:00:00 | D=Repartion | E=Cash | F=J715 | G=12962.79 | H=0 | I=627 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 627
+Ligne 512 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-30 12:00:00 | D=Dano Electrique | E=Cash | F=J737 | G=4000 | H=0 | I=628 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 628
+Ligne 513 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-30 12:00:00 | D=Frimabec | E=Cash | F=J787 | G=400 | H=0 | I=629 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 629
+Ligne 514 : A=5765 | B=Repair &amp; Maintenance | C=2025-06-30 12:00:00 | D=Frimabec | E=Cash | F=J797 | G=400 | H=0 | I=630 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 630
+Ligne 515 : A=5780 | B=Telephone | C=2024-11-06 12:00:00 | D=Internet | E=Cash | F=J326 | G=356.6 | H=0 | I=634 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 634
+Ligne 516 : A=5780 | B=Telephone | C=2024-12-20 12:00:00 | D=Internet | E=Cash | F=J152 | G=118.01 | H=0 | I=635 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 635
+Ligne 517 : A=5780 | B=Telephone | C=2024-12-20 12:00:00 | D=Rogers | E=Cash | F=J153 | G=347.9 | H=0 | I=636 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 636
+Ligne 518 : A=5780 | B=Telephone | C=2024-12-24 12:00:00 | D=Internet | E=Cash | F=J163 | G=117.99 | H=0 | I=637 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 637
+Ligne 519 : A=5780 | B=Telephone | C=2025-05-01 12:00:00 | D=Rogers | E=Cash | F=J559 | G=1260.78 | H=0 | I=638 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 638
+Ligne 520 : A=5780 | B=Telephone | C=2025-06-01 12:00:00 | D=Rogers | E=Cash | F=J611 | G=261 | H=0 | I=639 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 639
+Ligne 521 : A=5780 | B=Telephone | C=2025-06-01 12:00:00 | D=Rogers | E=Cash | F=J612 | G=606.79 | H=0 | I=640 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 640
+Ligne 522 : A=5780 | B=Telephone | C=2025-06-01 12:00:00 | D=Rogers | E=Cash | F=J615 | G=260.66 | H=0 | I=641 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 641
+Ligne 523 : A=5780 | B=Telephone | C=2025-06-01 12:00:00 | D=Rogers | E=Cash | F=J616 | G=261 | H=0 | I=642 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 642
+Ligne 524 : A=5780 | B=Telephone | C=2025-06-01 12:00:00 | D=Rogers | E=Cash | F=J617 | G=361.26 | H=0 | I=643 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 643
+Ligne 525 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J626 | G=768.45 | H=0 | I=644 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 644
+Ligne 526 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J627 | G=564.94 | H=0 | I=645 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 645
+Ligne 527 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J628 | G=35.12 | H=0 | I=646 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 646
+Ligne 528 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J629 | G=96.87 | H=0 | I=647 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 647
+Ligne 529 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J630 | G=159.88 | H=0 | I=648 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 648
+Ligne 530 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J631 | G=224.15 | H=0 | I=649 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 649
+Ligne 531 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Telus | E=Cash | F=J632 | G=289.7 | H=0 | I=650 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 650
+Ligne 532 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Videotron | E=Cash | F=J659 | G=326.97 | H=0 | I=651 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 651
+Ligne 533 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Videotron | E=Cash | F=J660 | G=264 | H=0 | I=652 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 652
+Ligne 534 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Videotron | E=Cash | F=J661 | G=259.7 | H=0 | I=653 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 653
+Ligne 535 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Videotron | E=Cash | F=J662 | G=128.1 | H=0 | I=654 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 654
+Ligne 536 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Videotron | E=Cash | F=J664 | G=128.1 | H=0 | I=655 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 655
+Ligne 537 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Phone2 | E=Cash | F=J693 | G=48 | H=0 | I=656 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 656
+Ligne 538 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Phone2 | E=Cash | F=J694 | G=69 | H=0 | I=657 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 657
+Ligne 539 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Phone2 | E=Cash | F=J695 | G=59.99 | H=0 | I=658 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 658
+Ligne 540 : A=5780 | B=Telephone | C=2025-06-30 12:00:00 | D=Phone2 | E=Cash | F=J696 | G=16.95 | H=0 | I=659 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 659
+Ligne 541 : A=5784 | B=Travel &amp; Entertainment | C=2024-12-04 12:00:00 | D=Meals | E=Cash | F=J101 | G=51.45 | H=0 | I=663 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 663
+Ligne 542 : A=5784 | B=Travel &amp; Entertainment | C=2025-06-01 12:00:00 | D=Travel | E=Cash | F=J609 | G=411.89 | H=0 | I=664 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 664
+Ligne 543 : A=5790 | B=Utilities | C=2024-07-01 12:00:00 | D=Hydro Quebec | E=Cash | F=J2 | G=861.06 | H=0 | I=670 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 670
+Ligne 544 : A=5790 | B=Utilities | C=2024-07-01 12:00:00 | D=Hydro Quebec | E=Cash | F=J3 | G=434.88 | H=0 | I=671 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 671
+Ligne 545 : A=5790 | B=Utilities | C=2024-07-01 12:00:00 | D=Quadro Holdings | E=Cash | F=J328 | G=25 | H=0 | I=672 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 672
+Ligne 546 : A=5790 | B=Utilities | C=2024-07-26 12:00:00 | D=Hydro Quebec | E=Cash | F=J11 | G=434.88 | H=0 | I=673 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 673
+Ligne 547 : A=5790 | B=Utilities | C=2024-08-16 12:00:00 | D=Hydro Quebec | E=Cash | F=J25 | G=782.78 | H=0 | I=674 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 674
+Ligne 548 : A=5790 | B=Utilities | C=2024-12-02 12:00:00 | D=Quadro Holdings | E=Cash | F=J259 | G=217.44 | H=0 | I=675 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 675
+Ligne 549 : A=5790 | B=Utilities | C=2024-12-11 12:00:00 | D=Quadro Holdings | E=Cash | F=J261 | G=127.86 | H=0 | I=676 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 676
+Ligne 550 : A=5790 | B=Utilities | C=2024-12-20 12:00:00 | D=Quadro Holdings | E=Cash | F=J263 | G=172.75 | H=0 | I=677 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 677
+Ligne 551 : A=5790 | B=Utilities | C=2024-12-25 12:00:00 | D=Quadro Holdings | E=Cash | F=J265 | G=172.75 | H=0 | I=678 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 678
+Ligne 552 : A=5790 | B=Utilities | C=2025-01-09 12:00:00 | D=Quadro Holdings | E=Cash | F=J267 | G=172.75 | H=0 | I=679 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 679
+Ligne 553 : A=5790 | B=Utilities | C=2025-03-06 12:00:00 | D=Quadro Holdings | E=Cash | F=J292 | G=172.75 | H=0 | I=680 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 680
+Ligne 554 : A=5790 | B=Utilities | C=2025-05-01 12:00:00 | D=Quadro Holdings | E=Cash | F=J558 | G=369.6 | H=0 | I=681 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 681
+Ligne 555 : A=5898 | B=Online Payment Fees | C=2024-07-01 12:00:00 | D=First Data | E=Cash | F=J257 | G=38.3 | H=0 | I=693 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 693
+Ligne 556 : A=5898 | B=Online Payment Fees | C=2024-07-10 12:00:00 | D=Clover App Market | E=Cash | F=J7 | G=49.95 | H=0 | I=694 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 694
+Ligne 557 : A=5898 | B=Online Payment Fees | C=2024-07-30 12:00:00 | D=First Data | E=Cash | F=J253 | G=5.18 | H=0 | I=695 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 695
+Ligne 558 : A=5898 | B=Online Payment Fees | C=2024-07-30 12:00:00 | D=First Data | E=Cash | F=J255 | G=17.3 | H=0 | I=696 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 696
+Ligne 559 : A=5898 | B=Online Payment Fees | C=2024-08-12 12:00:00 | D=Clover App Market | E=Cash | F=J22 | G=49.95 | H=0 | I=697 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 697
+Ligne 560 : A=5898 | B=Online Payment Fees | C=2024-08-31 12:00:00 | D=First Data | E=Cash | F=J21 | G=70.63 | H=0 | I=698 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 698
+Ligne 561 : A=5898 | B=Online Payment Fees | C=2024-09-12 12:00:00 | D=Clover App Market | E=Cash | F=J34 | G=49.95 | H=0 | I=699 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 699
+Ligne 562 : A=5898 | B=Online Payment Fees | C=2024-09-30 12:00:00 | D=First Data | E=Cash | F=J36 | G=549.02 | H=0 | I=700 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 700
+Ligne 563 : A=5898 | B=Online Payment Fees | C=2024-10-10 12:00:00 | D=Clover App Market | E=Cash | F=J38 | G=53.17 | H=0 | I=701 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 701
+Ligne 564 : A=5898 | B=Online Payment Fees | C=2024-10-31 12:00:00 | D=First Data | E=Cash | F=J40 | G=571.77 | H=0 | I=702 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 702
+Ligne 565 : A=5898 | B=Online Payment Fees | C=2024-11-12 12:00:00 | D=Clover App Market | E=Cash | F=J90 | G=49.95 | H=0 | I=703 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 703
+Ligne 566 : A=5898 | B=Online Payment Fees | C=2024-11-30 12:00:00 | D=First Data | E=Cash | F=J92 | G=550.06 | H=0 | I=704 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 704
+Ligne 567 : A=5898 | B=Online Payment Fees | C=2024-12-12 12:00:00 | D=Clover App Market | E=Cash | F=J187 | G=85.28 | H=0 | I=705 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 705
+Ligne 568 : A=5898 | B=Online Payment Fees | C=2024-12-31 12:00:00 | D=First Data | E=Cash | F=J189 | G=544.1 | H=0 | I=706 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 706
+Ligne 569 : A=5898 | B=Online Payment Fees | C=2025-01-12 12:00:00 | D=Clover App Market | E=Cash | F=J248 | G=69.95 | H=0 | I=707 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 707
+Ligne 570 : A=5898 | B=Online Payment Fees | C=2025-01-31 12:00:00 | D=First Data | E=Cash | F=J249 | G=536.03 | H=0 | I=708 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 708
+Ligne 571 : A=5898 | B=Online Payment Fees | C=2025-02-12 12:00:00 | D=Clover App Market | E=Cash | F=J272 | G=69.95 | H=0 | I=709 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 709
+Ligne 572 : A=5898 | B=Online Payment Fees | C=2025-02-28 12:00:00 | D=First Data | E=Cash | F=J274 | G=537.1 | H=0 | I=710 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 710
+Ligne 573 : A=5898 | B=Online Payment Fees | C=2025-03-12 12:00:00 | D=Clover App Market | E=Cash | F=J281 | G=69.95 | H=0 | I=711 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 711
+Ligne 574 : A=5898 | B=Online Payment Fees | C=2025-03-31 12:00:00 | D=First Data | E=Cash | F=J283 | G=535.81 | H=0 | I=712 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 712
+Ligne 575 : A=5898 | B=Online Payment Fees | C=2025-04-12 12:00:00 | D=Clover App Market | E=Cash | F=J304 | G=69.95 | H=0 | I=713 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 713
+Ligne 576 : A=5898 | B=Online Payment Fees | C=2025-04-30 12:00:00 | D=First Data | E=Cash | F=J303 | G=12.9 | H=0 | I=714 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 714
+Ligne 577 : A=5898 | B=Online Payment Fees | C=2025-05-31 12:00:00 | D=First Data | E=Cash | F=J314 | G=7.08 | H=0 | I=715 | K=GRAND-LIVRE-ORIGINAL-feuille-1.csv, ligne 715</pre></section><section class="page" id="page-8"><p class="eyebrow">Feuille Hadmo avril · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Hadmo avril
+Ligne 2 : A=Assurance historique : copie du 22 avril 2025
+Ligne 3 : A=Transcription des colonnes source, pas une demande cumulable. Réparations et remplacements peuvent viser les mêmes biens.
+Ligne 5 : A=Ligne | B=Item | C=Description | D=Pièce | E=Réclamé ($) | F=Évalué ($) | G=Alloué ($) | H=3 juillet ($) | I=8 juillet ($) | J=Réserve ($) | K=Commentaire source | M=Source
+Ligne 6 : A=13 | B=1 | C=Frigo Pâtisserie IFI-DDSG-6 | D=Devis 259 | E=2615 | F=2615 | G=2615 | J=11500 | K=Remplacement de compresseur $2,615 | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 13
+Ligne 7 : A=14 | B=1 | C=Frigo Pâtisserie IFI-DDSG-6 | E=11500 | K=recommnedation  de Frigo de remplacer | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 14
+Ligne 8 : A=17 | B=2A | C=Machine à café Curtis | D=Devis 260 | E=1200 | F=1200 | G=1200 | K=Module de remplissage et valve | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 17
+Ligne 9 : A=18 | B=2B | C=Kurig | E=2690.42 | F=2690.42 | J=2700 | K=Attends facture | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 18
+Ligne 10 : A=20 | B=3 | C=Chambre de congélation | D=A290 | E=2960 | F=2960 | G=2960 | K=Compresseur filtre,thermostat | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 20
+Ligne 11 : A=22 | B=3 | C=Chambre de congélation | D=A266 | E=8320 | F=8320 | G=8320 | K=Installé unité air | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 22
+Ligne 12 : A=23 | B=4 | C=Four Tim Horton | D=Devis 263 | E=4635 | F=4635 | G=4635 | J=4700 | K=Sonde de temp. et plaque de contrôle | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 23
+Ligne 13 : A=24 | B=4 | C=Four Tim Horton | E=30118.46 | J=30000 | K=L&#x27;assuré réclame perte totale aucune expertise | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 24
+Ligne 14 : A=25 | B=5 | C=Frigo une porte | D=A320 | E=1705 | F=1705 | G=1705 | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 25
+Ligne 15 : A=27 | B=6 | C=Machine cocktail taylor | D=A294 | E=3850 | F=3850 | G=3850 | K=Moteur agitateur et compresseur | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 27
+Ligne 16 : A=29 | B=7 | C=Electro Freeze Electro freeze | D=Devis 264 | E=5990 | F=5990 | G=5990 | K=Selon assuré nil | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 29
+Ligne 17 : A=31 | B=8 | C=Machine à Slush taylor | D=A281 | E=2340 | F=2340 | G=2340 | K=Contrôle électronique | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 31
+Ligne 18 : A=33 | B=9 | C=Four à Pizza | D=Devis 265 | E=6700.68 | F=6700.68 | H=6700.68 | K=Blowers, Pilot. Sensor de sécurité | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 33
+Ligne 19 : A=37 | B=9 | C=Four à Pizza | D=12786 | E=308.75 | F=308.75 | G=0 | K=Avant la date de perte | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 37
+Ligne 20 : A=39 | B=10 | C=Machine Crème glacée | D=A280 | E=5990 | F=0 | G=0 | K=Ne reclame pas dédoublement | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 39
+Ligne 21 : A=40 | B=11 | C=Four À Pizza | E=29472.24 | F=En suspens | H=En suspens | J=30000 | K=Perte Totale usagée besoin d&#x27;un rapport d&#x27;un technicien | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 40
+Ligne 22 : A=42 | B=11 | C=Four À Pizza | D=A315 | E=7900 | F=7900 | G=7900 | K=Réparation | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 42
+Ligne 23 : A=44 | B=12 | C=Frigidaire patisserie Hydro-Coll (2) | D=Estimé | E=15933 | F=En suspens | J=16000 | K=Attends facture et nous avons besoin | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 44
+Ligne 24 : A=46 | B=13 | C=Chambre froide | D=Devis 268 | E=1700 | F=1700 | G=0 | I=1700 | J=1700 | K=Compresseur attends la facture | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 46
+Ligne 25 : A=48 | B=14 | C=Installation unité AC | D=A245 | E=1145 | F=1145 | G=1145 | K=Voir commenatires de l&#x27;assuré | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 48
+Ligne 26 : A=50 | B=14A | C=Conditioner heat pump plus inst. | E=5009.99 | F=5009.99 | G=5009.99 | K=Attend plus d&#x27;explications  | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 50
+Ligne 27 : A=52 | B=16 | C=Inspection | D=6371 | E=408.16 | F=408.16 | G=408.16 | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 52
+Ligne 28 : A=53 | B=16 | C=Déplacements techniciens | E=7704.1 | F=7704.1 | G=7704.1 | J=0 | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 53
+Ligne 29 : A=60 | C=Marchandise | E=31420.08 | F=25136.06 | G=25136.06 | K=allocation 80% attends rapport de WMM | M=Copie Hadmo 22 avril 2025, Feuil1, ligne 60
+Ligne 32 : A=Sommaire de la copie | B=Réclamé | C=Évalué | D=Alloué
+Ligne 33 : A=Total affiché | B=191615.88 | C=92318.16 | D=80918.31 | F=Source : Feuil1 F63:H73. Alloué et provisoire ne prouvent pas un crédit bancaire.
+Ligne 34 : A=Franchise source | D=-1000
+Ligne 35 : A=Après franchise | D==SUM(D33:D34) [valeur en cache : 79918.31]
+Ligne 36 : A=Provisoire no 1 inscrit | D=-24136.06
+Ligne 37 : A=Provisoire no 2 inscrit | D=-37288.16
+Ligne 38 : A=Indemnité no 3 calculée | D==SUM(D35:D37) [valeur en cache : 18494.089999999997]</pre></section><section class="page" id="page-9"><p class="eyebrow">Feuille Controles · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Controles
+Ligne 2 : A=Contrôles et rapprochements
+Ligne 5 : A=Contrôle | B=Recalculé | C=Source / référence | D=Écart | E=Explication
+Ligne 6 : A=Ventes GL : total des 10 écritures | B==&#x27;Synthese&#x27;!B6 [valeur en cache : 77995.44] | C=77995.44 | D==ROUND(B6-C6,2) [valeur en cache : 0] | E=Source CSV ligne 16
+Ligne 7 : A=Réparations GL : total des 64 écritures | B==&#x27;Synthese&#x27;!B7 [valeur en cache : 57842.6] | C=57842.6 | D==ROUND(B7-C7,2) [valeur en cache : 0] | E=Compte 5765, extraction datée
+Ligne 8 : A=Uber : somme des mois | B==&#x27;Ventes&#x27;!B21 [valeur en cache : 55609.85] | C=55609.85 | D==ROUND(B8-C8,2) [valeur en cache : 0] | E=Source Ventes total 2024!C17
+Ligne 9 : A=DoorDash : somme des mois | B==&#x27;Ventes&#x27;!C21 [valeur en cache : 22774.339999999997] | C=22774.34 | D==ROUND(B9-C9,2) [valeur en cache : 0] | E=Source Ventes total 2024!C15
+Ligne 10 : A=Hadmo : alloué moins franchise/provisoires | B==&#x27;Hadmo avril&#x27;!D38 [valeur en cache : 18494.089999999997] | C=18494.089999999997 | D==ROUND(B10-C10,2) [valeur en cache : 0] | E=Source Feuil1!H73
+Ligne 11 : A=Taxes : somme des écarts au carré | B==SUMSQ(&#x27;Factures et devis&#x27;!I6:I30) [valeur en cache : 0] | C=0 | D==ROUND(B11-C11,2) [valeur en cache : 0] | E=Total pièce moins HT, TPS et TVQ
+Ligne 12 : A=Réserve Hadmo : plage affichée | B==SUM(&#x27;Hadmo avril&#x27;!J10:J28) [valeur en cache : 82400] | C=82400 | D==ROUND(B12-C12,2) [valeur en cache : 0] | E=K55 = SUM(K20:K54); exclut K13 et K18
+Ligne 13 : A=Réserve Hadmo : toutes lignes détaillées | B==SUM(&#x27;Hadmo avril&#x27;!J6:J29) [valeur en cache : 96600] | D==B13-B12 [valeur en cache : 14200] | E=Total différent attendu; portée à expliquer, ne pas corriger source</pre></section><section class="page" id="page-10"><p class="eyebrow">Feuille Methode · Cellules du classeur — valeurs non recalculées</p><pre>Feuille : Methode
+Ligne 2 : A=Utilisation et limites du master
+Ligne 5 : A=Sujet | B=Règle
+Ligne 6 : A=Devise | B=CAD explicite sur factures Harmony. Pour les autres sources en $, devise canadienne présumée à confirmer. Aucune conversion.
+Ligne 7 : A=Source grand livre | B=GRAND-LIVRE-ORIGINAL-feuille-1.csv, extraction de final.xls. Le binaire .xls est conservé; contrôle direct de ce format non exécuté ici.
+Ligne 8 : A=Traçabilité | B=Les chemins complets et SHA-256 des fichiers relus figurent dans comptabilite-synthese.json. Les cellules, lignes ou pièces sont indiquées dans chaque onglet source.
+Ligne 9 : A=Factures | B=Registre de pièces vérifiées, pas preuve automatique de paiement ni d’admissibilité. Versions et photos répétées ne créent pas une nouvelle dépense.
+Ligne 10 : A=Taxes | B=HT, TPS, TVQ et TTC conservés distinctement. Le droit aux crédits de taxes n’est pas établi; saisir uniquement les taxes non récupérables justifiées.
+Ligne 11 : A=Pertes nouvelles | B=Les 27 rubriques viennent du registre existant. Identifier les objets multiples, séries, état avant/après et preuve du lien au déménagement avant validation.
+Ligne 12 : A=Calcul par bien | B=Choisir une seule méthode. Coût HT + taxes non récupérables − recouvrement affecté − valeur résiduelle. Les quatre montants, une pièce et le statut Validé sont requis.
+Ligne 13 : A=Rubrique exclue | B=Pour une exclusion documentée, conserver le motif et saisir les montants à zéro avec statut Validé après validation du responsable. Ne jamais utiliser zéro pour une donnée absente.
+Ligne 14 : A=Recouvrements | B=Ne déduire que les sommes du même dommage et même événement. Un chèque remplacé et son virement ne sont pas deux paiements.
+Ligne 15 : A=Exploitation | B=Calcul de travail : (ventes de référence − ventes réalisées) × marge contributive + frais supplémentaires − recouvrements affectés. Méthode et période à établir.
+Ligne 16 : A=Limites de couverture | B=Les données locales examinées ne certifient ni exhaustivité des boîtes mail, ni bilan complet, ni montant judiciaire recouvrable.
+Ligne 17 : A=Historique des conversations | B=Les anciennes réponses d’assistant peuvent contenir montants ou dates transformés. Aucune translation de date (+1 an) n’est appliquée. Priorité aux dates imprimées et écritures originales.
+Ligne 18 : A=Mise à jour | B=Compléter les cellules jaunes sur copie de travail. Pour ajouter une nouvelle ligne, prolonger les formules et plages de synthèse, puis vérifier les contrôles.
+Ligne 19 : A=Documents photographiés | B=Dix photographies de factures/estimation ont été lues visuellement; les originaux restent inchangés. OCR généralisé et autres pièces se poursuivent dans le dossier documentaire.
+Ligne 20 : A=Date | B=Préparation le 21 octobre 2026. Données sources datées 2024–2026 selon les pièces.</pre></section></article></main><footer class="footer"><strong>Provenance et contrôle des pièces</strong><p>Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.</p><p>Les pièces d’origine restent dans leurs dossiers. L’index est une copie de travail datée; une recherche sans résultat ne démontre pas l’absence d’une pièce. Les synchronisations OneDrive et GitHub sont distinctes.</p></footer></body></html>

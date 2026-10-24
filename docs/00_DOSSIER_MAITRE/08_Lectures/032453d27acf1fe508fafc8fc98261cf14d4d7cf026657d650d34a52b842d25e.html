@@ -1,0 +1,951 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;self&#x27;; style-src &#x27;self&#x27;; img-src &#x27;self&#x27; data:; font-src &#x27;self&#x27;; connect-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;"><title>comptabilite synthese · Dossier maître</title><link rel="stylesheet" href="../assets/master.css"></head><body data-workspace-root="../../"><a class="skip" href="#contenu">Aller au contenu</a><header class="topbar"><a class="brand" href="../00-OUVRIR-LE-DOSSIER.html">DOSSIER MAÎTRE · 6241</a><nav class="toplinks" aria-label="Navigation principale"><a href="../00-OUVRIR-LE-DOSSIER.html#recherche">Rechercher</a><a href="../05_Table_des_matieres/index.html">Table des matières</a><a href="../04_Remise_et_suivis/index.html">Remise et suivis</a></nav></header><main id="contenu" class="reader"><p class="breadcrumb"><a href="../00-OUVRIR-LE-DOSSIER.html">Accueil</a> / Lecture</p><div class="actions back"><a href="../../6241%20L%C3%A9ger/07_Dommages_et_pertes/Comptabilite/comptabilite-synthese.json" class="button secondary" download>Télécharger la source</a></div><p class="note">Vue de lecture dérivée. La source est conservée sans modification. Lecture du fichier</p><details class="provenance"><summary>Emplacement et empreinte de la source</summary><p>6241 Léger/07_Dommages_et_pertes/Comptabilite/comptabilite-synthese.json</p><p class="hash">SHA-256 : 032453d27acf1fe508fafc8fc98261cf14d4d7cf026657d650d34a52b842d25e</p></details><article><h1>comptabilite synthese</h1><section class="page" id="page-1"><p class="eyebrow">Extrait 1 · Lecture du fichier texte</p><pre>{
+  &quot;schema_version&quot;: 1,
+  &quot;prepared_on&quot;: &quot;2026-10-21&quot;,
+  &quot;address&quot;: &quot;6241 boulevard Léger, Montréal&quot;,
+  &quot;scope&quot;: &quot;Comptabilité et pertes du dossier avocat; corpus local examiné&quot;,
+  &quot;new_loss_total&quot;: null,
+  &quot;business_interruption_loss&quot;: null,
+  &quot;confirmed_insurance_receipts&quot;: null,
+  &quot;metrics&quot;: [
+    {
+      &quot;id&quot;: &quot;GL-VENTES&quot;,
+      &quot;label&quot;: &quot;Ventes comptabilisées&quot;,
+      &quot;amount&quot;: 77995.44,
+      &quot;type&quot;: &quot;ventes historiques&quot;,
+      &quot;status&quot;: &quot;extrait CSV contrôlé&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/GRAND-LIVRE-ORIGINAL-feuille-1.csv&quot;,
+      &quot;locator&quot;: &quot;lignes 6–16&quot;,
+      &quot;period&quot;: &quot;2024-07 à 2025-04&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;,
+      &quot;taxBasis&quot;: &quot;selon source, non harmonisée&quot;,
+      &quot;includedInNewLoss&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;GL-REPARATIONS&quot;,
+      &quot;label&quot;: &quot;Réparations comptabilisées&quot;,
+      &quot;amount&quot;: 57842.6,
+      &quot;type&quot;: &quot;charges historiques&quot;,
+      &quot;status&quot;: &quot;64 écritures, rapprochement factures requis&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/GRAND-LIVRE-ORIGINAL-feuille-1.csv&quot;,
+      &quot;locator&quot;: &quot;compte 5765&quot;,
+      &quot;period&quot;: &quot;exercice 2024-07 à 2025-06&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;,
+      &quot;taxBasis&quot;: &quot;selon source, non harmonisée&quot;,
+      &quot;includedInNewLoss&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;UBER&quot;,
+      &quot;label&quot;: &quot;Ventes Uber couvertes&quot;,
+      &quot;amount&quot;: 55609.85,
+      &quot;type&quot;: &quot;ventes de plateforme&quot;,
+      &quot;status&quot;: &quot;cellules originales relues&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx&quot;,
+      &quot;locator&quot;: &quot;Ventes total 2024!C7:C17&quot;,
+      &quot;period&quot;: &quot;2024-03 à 2024-12&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;,
+      &quot;taxBasis&quot;: &quot;selon source, non harmonisée&quot;,
+      &quot;includedInNewLoss&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;DOORDASH&quot;,
+      &quot;label&quot;: &quot;Ventes DoorDash couvertes&quot;,
+      &quot;amount&quot;: 22774.34,
+      &quot;type&quot;: &quot;ventes de plateforme&quot;,
+      &quot;status&quot;: &quot;cellules originales relues&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx&quot;,
+      &quot;locator&quot;: &quot;Ventes total 2024!C6:C15&quot;,
+      &quot;period&quot;: &quot;2024-04 à 2024-12&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;,
+      &quot;taxBasis&quot;: &quot;selon source, non harmonisée&quot;,
+      &quot;includedInNewLoss&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;HADMO-RECLAME&quot;,
+      &quot;label&quot;: &quot;Réclamé dans Hadmo avril&quot;,
+      &quot;amount&quot;: 191615.88,
+      &quot;type&quot;: &quot;réclamation assurance historique&quot;,
+      &quot;status&quot;: &quot;montant du sommaire, doublons et options non résolus&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx&quot;,
+      &quot;locator&quot;: &quot;Feuil1!F63&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;,
+      &quot;taxBasis&quot;: &quot;selon source, non harmonisée&quot;,
+      &quot;includedInNewLoss&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;HADMO-ALLOUE&quot;,
+      &quot;label&quot;: &quot;Alloué dans Hadmo avril&quot;,
+      &quot;amount&quot;: 80918.31,
+      &quot;type&quot;: &quot;allocation historique&quot;,
+      &quot;status&quot;: &quot;non assimilable à un encaissement&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx&quot;,
+      &quot;locator&quot;: &quot;Feuil1!H63&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;,
+      &quot;taxBasis&quot;: &quot;selon source, non harmonisée&quot;,
+      &quot;includedInNewLoss&quot;: false
+    }
+  ],
+  &quot;invoices&quot;: [
+    {
+      &quot;id&quot;: &quot;CWIQUWOL-0001&quot;,
+      &quot;date&quot;: &quot;2025-06-12&quot;,
+      &quot;kind&quot;: &quot;Facture déménagement&quot;,
+      &quot;group&quot;: &quot;HARMONY-12JUIN&quot;,
+      &quot;label&quot;: &quot;CWIQUWOL-0001&quot;,
+      &quot;ht&quot;: 3915,
+      &quot;tps&quot;: 195.75,
+      &quot;tvq&quot;: 390.52,
+      &quot;total&quot;: 4501.27,
+      &quot;status&quot;: &quot;Annulée par version ultérieure&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0001 (4).pdf&quot;,
+      &quot;note&quot;: &quot;Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.&quot;,
+      &quot;currency&quot;: &quot;CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;CWIQUWOL-0002&quot;,
+      &quot;date&quot;: &quot;2025-06-12&quot;,
+      &quot;kind&quot;: &quot;Facture déménagement&quot;,
+      &quot;group&quot;: &quot;HARMONY-12JUIN&quot;,
+      &quot;label&quot;: &quot;CWIQUWOL-0002&quot;,
+      &quot;ht&quot;: 4365,
+      &quot;tps&quot;: 218.25,
+      &quot;tvq&quot;: 435.41,
+      &quot;total&quot;: 5018.66,
+      &quot;status&quot;: &quot;Annulée par version ultérieure&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (3).pdf&quot;,
+      &quot;note&quot;: &quot;Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.&quot;,
+      &quot;currency&quot;: &quot;CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;CWIQUWOL-0003&quot;,
+      &quot;date&quot;: &quot;2025-07-22&quot;,
+      &quot;kind&quot;: &quot;Facture déménagement&quot;,
+      &quot;group&quot;: &quot;HARMONY-12JUIN&quot;,
+      &quot;label&quot;: &quot;CWIQUWOL-0003&quot;,
+      &quot;ht&quot;: 3200,
+      &quot;tps&quot;: 160,
+      &quot;tvq&quot;: 319.2,
+      &quot;total&quot;: 3679.2,
+      &quot;status&quot;: &quot;Annulée par version 0004&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (4).pdf&quot;,
+      &quot;note&quot;: &quot;Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.&quot;,
+      &quot;currency&quot;: &quot;CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;CWIQUWOL-0004&quot;,
+      &quot;date&quot;: &quot;2025-08-15&quot;,
+      &quot;kind&quot;: &quot;Facture déménagement&quot;,
+      &quot;group&quot;: &quot;HARMONY-12JUIN&quot;,
+      &quot;label&quot;: &quot;CWIQUWOL-0004&quot;,
+      &quot;ht&quot;: 4200,
+      &quot;tps&quot;: 210,
+      &quot;tvq&quot;: 418.95,
+      &quot;total&quot;: 4828.95,
+      &quot;status&quot;: &quot;Version remplacée à rapprocher&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004.pdf&quot;,
+      &quot;note&quot;: &quot;Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.&quot;,
+      &quot;currency&quot;: &quot;CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;CWIQUWOL-0005&quot;,
+      &quot;date&quot;: &quot;2025-09-19&quot;,
+      &quot;kind&quot;: &quot;Facture déménagement&quot;,
+      &quot;group&quot;: &quot;HARMONY-12JUIN&quot;,
+      &quot;label&quot;: &quot;CWIQUWOL-0005&quot;,
+      &quot;ht&quot;: 3915,
+      &quot;tps&quot;: 195.75,
+      &quot;tvq&quot;: 390.52,
+      &quot;total&quot;: 4501.27,
+      &quot;status&quot;: &quot;Facture réclamée, paiement non vérifié&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0005 (1).pdf&quot;,
+      &quot;note&quot;: &quot;Même prestation; versions à ne pas additionner. Dernière version du lot, dette/solde à confirmer.&quot;,
+      &quot;currency&quot;: &quot;CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A320&quot;,
+      &quot;date&quot;: &quot;2024-10-03&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A320&quot;,
+      &quot;label&quot;: &quot;Frigo sous-sol&quot;,
+      &quot;ht&quot;: 1705,
+      &quot;tps&quot;: 85.25,
+      &quot;tvq&quot;: 170.07,
+      &quot;total&quot;: 1960.32,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069199.jpg&quot;,
+      &quot;note&quot;: &quot;Rapprocher Hadmo A320 daté juillet.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A315&quot;,
+      &quot;date&quot;: &quot;2024-09-22&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A315&quot;,
+      &quot;label&quot;: &quot;Four à pizza&quot;,
+      &quot;ht&quot;: 7900,
+      &quot;tps&quot;: 395,
+      &quot;tvq&quot;: 788.03,
+      &quot;total&quot;: 9083.03,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069200.jpg&quot;,
+      &quot;note&quot;: &quot;Four/étage à identifier; version photographiée une seule fois.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A281&quot;,
+      &quot;date&quot;: &quot;2024-07-17&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;BUNN-A281-A290&quot;,
+      &quot;label&quot;: &quot;Slush BUNN CDS2&quot;,
+      &quot;ht&quot;: 2340,
+      &quot;tps&quot;: 117,
+      &quot;tvq&quot;: 233.42,
+      &quot;total&quot;: 2690.42,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069201.jpg&quot;,
+      &quot;note&quot;: &quot;A281/A290 : possible doublon à résoudre.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A294&quot;,
+      &quot;date&quot;: &quot;2024-07-29&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A294&quot;,
+      &quot;label&quot;: &quot;Cocktail TAYLOR&quot;,
+      &quot;ht&quot;: 3850,
+      &quot;tps&quot;: 192.5,
+      &quot;tvq&quot;: 384.04,
+      &quot;total&quot;: 4426.54,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069202.jpg&quot;,
+      &quot;note&quot;: &quot;Date et montant lus sur facture.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A267&quot;,
+      &quot;date&quot;: &quot;2024-07-13&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A267&quot;,
+      &quot;label&quot;: &quot;Chambre froide&quot;,
+      &quot;ht&quot;: 2960,
+      &quot;tps&quot;: 148,
+      &quot;tvq&quot;: 295.26,
+      &quot;total&quot;: 3403.26,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069203.jpg&quot;,
+      &quot;note&quot;: &quot;En-tête A290 en arrière-plan, facture principale A267.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A290&quot;,
+      &quot;date&quot;: &quot;2024-07-22&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;BUNN-A281-A290&quot;,
+      &quot;label&quot;: &quot;Slush BUNN&quot;,
+      &quot;ht&quot;: 2340,
+      &quot;tps&quot;: 117,
+      &quot;tvq&quot;: 233.42,
+      &quot;total&quot;: 2690.42,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069204.jpg&quot;,
+      &quot;note&quot;: &quot;A281/A290 : possible doublon à résoudre.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A245&quot;,
+      &quot;date&quot;: &quot;2024-06-25&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A245&quot;,
+      &quot;label&quot;: &quot;Installation climatisation&quot;,
+      &quot;ht&quot;: 1145,
+      &quot;tps&quot;: 57.25,
+      &quot;tvq&quot;: 114.21,
+      &quot;total&quot;: 1316.46,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069205.jpg&quot;,
+      &quot;note&quot;: &quot;Avant sinistre juillet; ne pas attribuer au déménagement.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A280&quot;,
+      &quot;date&quot;: &quot;2024-07-15&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A280&quot;,
+      &quot;label&quot;: &quot;Crème glacée&quot;,
+      &quot;ht&quot;: 5990,
+      &quot;tps&quot;: 299.5,
+      &quot;tvq&quot;: 597.5,
+      &quot;total&quot;: 6887,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069206.jpg&quot;,
+      &quot;note&quot;: &quot;Hadmo avril mentionne un dédoublement.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;A266&quot;,
+      &quot;date&quot;: &quot;2024-07-10&quot;,
+      &quot;kind&quot;: &quot;Réparation historique&quot;,
+      &quot;group&quot;: &quot;A266&quot;,
+      &quot;label&quot;: &quot;Chambre congélateur&quot;,
+      &quot;ht&quot;: 8320,
+      &quot;tps&quot;: 416,
+      &quot;tvq&quot;: 829.92,
+      &quot;total&quot;: 9565.92,
+      &quot;status&quot;: &quot;Facture lue, règlement non établi&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069207.jpg&quot;,
+      &quot;note&quot;: &quot;À rapprocher devis 261 et grand livre.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;N82145&quot;,
+      &quot;date&quot;: &quot;2024-11-26&quot;,
+      &quot;kind&quot;: &quot;Estimation marquée payée&quot;,
+      &quot;group&quot;: &quot;CKS-FOUR&quot;,
+      &quot;label&quot;: &quot;Four PS360WB&quot;,
+      &quot;ht&quot;: 6700.68,
+      &quot;tps&quot;: 335.03,
+      &quot;tvq&quot;: 668.39,
+      &quot;total&quot;: 7704.1,
+      &quot;status&quot;: &quot;Tampon payé; banque non rapprochée&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069214.jpg&quot;,
+      &quot;note&quot;: &quot;Dépôt 700 et payé 7 004,10 = 7 704,10. Recommandation de remplacement, livraison non établie.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;L-1027-A&quot;,
+      &quot;date&quot;: &quot;2025-08-04&quot;,
+      &quot;kind&quot;: &quot;Facture entreposage&quot;,
+      &quot;group&quot;: &quot;CONTENEUR-L1027&quot;,
+      &quot;label&quot;: &quot;Location conteneur&quot;,
+      &quot;ht&quot;: 200,
+      &quot;tps&quot;: 10,
+      &quot;tvq&quot;: 19.95,
+      &quot;total&quot;: 229.95,
+      &quot;status&quot;: &quot;Montant payé sur facture, solde 0&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/facture CQC_L-1027-A.pdf&quot;,
+      &quot;note&quot;: &quot;Date 04/08/2025 transcrite au format jour/mois. Paiement banque non rapproché.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-259&quot;,
+      &quot;date&quot;: &quot;2024-07-07&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-259&quot;,
+      &quot;label&quot;: &quot;Frigo IFI&quot;,
+      &quot;ht&quot;: 2615,
+      &quot;tps&quot;: 130.75,
+      &quot;tvq&quot;: 260.85,
+      &quot;total&quot;: 3006.6,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 259.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-260&quot;,
+      &quot;date&quot;: &quot;2024-07-07&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-260&quot;,
+      &quot;label&quot;: &quot;Machine à café Curtis&quot;,
+      &quot;ht&quot;: 1485,
+      &quot;tps&quot;: 74.25,
+      &quot;tvq&quot;: 148.13,
+      &quot;total&quot;: 1707.38,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 260.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-261&quot;,
+      &quot;date&quot;: &quot;2024-07-07&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-261&quot;,
+      &quot;label&quot;: &quot;Chambre de congélation&quot;,
+      &quot;ht&quot;: 8205,
+      &quot;tps&quot;: 410.25,
+      &quot;tvq&quot;: 818.45,
+      &quot;total&quot;: 9433.7,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 261.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-262&quot;,
+      &quot;date&quot;: &quot;2024-07-07&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-262&quot;,
+      &quot;label&quot;: &quot;Frigo sous-sol&quot;,
+      &quot;ht&quot;: 1650,
+      &quot;tps&quot;: 82.5,
+      &quot;tvq&quot;: 164.59,
+      &quot;total&quot;: 1897.09,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 262.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-263&quot;,
+      &quot;date&quot;: &quot;2024-07-07&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-263&quot;,
+      &quot;label&quot;: &quot;Four Tim Horton&quot;,
+      &quot;ht&quot;: 4635,
+      &quot;tps&quot;: 231.75,
+      &quot;tvq&quot;: 462.34,
+      &quot;total&quot;: 5329.09,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 263.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-264&quot;,
+      &quot;date&quot;: &quot;2024-07-07&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-264&quot;,
+      &quot;label&quot;: &quot;Electro-freeze&quot;,
+      &quot;ht&quot;: 5990,
+      &quot;tps&quot;: 299.5,
+      &quot;tvq&quot;: 597.5,
+      &quot;total&quot;: 6887,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 264.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-266&quot;,
+      &quot;date&quot;: &quot;2024-07-12&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-266&quot;,
+      &quot;label&quot;: &quot;Cocktail Taylor&quot;,
+      &quot;ht&quot;: 3390,
+      &quot;tps&quot;: 169.5,
+      &quot;tvq&quot;: 338.15,
+      &quot;total&quot;: 3897.65,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 266.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-267&quot;,
+      &quot;date&quot;: &quot;2024-07-12&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-267&quot;,
+      &quot;label&quot;: &quot;Slush BUNN&quot;,
+      &quot;ht&quot;: 2340,
+      &quot;tps&quot;: 117,
+      &quot;tvq&quot;: 233.42,
+      &quot;total&quot;: 2690.42,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 267.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;DEV-268&quot;,
+      &quot;date&quot;: &quot;2024-07-12&quot;,
+      &quot;kind&quot;: &quot;Devis historique&quot;,
+      &quot;group&quot;: &quot;DEV-268&quot;,
+      &quot;label&quot;: &quot;Chambre froide&quot;,
+      &quot;ht&quot;: 1700,
+      &quot;tps&quot;: 85,
+      &quot;tvq&quot;: 169.58,
+      &quot;total&quot;: 1954.58,
+      &quot;status&quot;: &quot;Proposition; exécution non établie&quot;,
+      &quot;source&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 268.pdf&quot;,
+      &quot;note&quot;: &quot;Ne pas additionner au remplacement/réparation du même bien.&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    }
+  ],
+  &quot;payments&quot;: [
+    {
+      &quot;id&quot;: &quot;PAY-01&quot;,
+      &quot;date&quot;: &quot;2025-04-22&quot;,
+      &quot;label&quot;: &quot;Provisoire no 1 inscrit&quot;,
+      &quot;amount&quot;: 24136.06,
+      &quot;type&quot;: &quot;indemnité historique mentionnée&quot;,
+      &quot;status&quot;: &quot;Inscription au chiffrier&quot;,
+      &quot;confirmedReceived&quot;: null,
+      &quot;source&quot;: &quot;Hadmo 22 avril 2025, H69&quot;,
+      &quot;note&quot;: &quot;Référence bancaire et affectation manquantes&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;PAY-02&quot;,
+      &quot;date&quot;: &quot;2025-02-20&quot;,
+      &quot;label&quot;: &quot;HSB demande no 2&quot;,
+      &quot;amount&quot;: 37288.16,
+      &quot;type&quot;: &quot;indemnité historique mentionnée&quot;,
+      &quot;status&quot;: &quot;Paiement demandé / inscrit&quot;,
+      &quot;confirmedReceived&quot;: null,
+      &quot;source&quot;: &quot;Courriel 19e847d75c50497e; Hadmo H71&quot;,
+      &quot;note&quot;: &quot;Même 37 288,16 dans courriel et chiffrier; une seule ligne&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;PAY-03&quot;,
+      &quot;date&quot;: &quot;2025-02-20&quot;,
+      &quot;label&quot;: &quot;HSB complément demandé&quot;,
+      &quot;amount&quot;: 1855.68,
+      &quot;type&quot;: &quot;indemnité historique mentionnée&quot;,
+      &quot;status&quot;: &quot;Paiement demandé&quot;,
+      &quot;confirmedReceived&quot;: null,
+      &quot;source&quot;: &quot;Courriel 19e847d75c50497e&quot;,
+      &quot;note&quot;: &quot;Ensemble annoncé : 39 143,84 avec PAY-02, pas une 3e somme&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;PAY-04&quot;,
+      &quot;date&quot;: &quot;2025-04-22&quot;,
+      &quot;label&quot;: &quot;Indemnité no 3 au calcul&quot;,
+      &quot;amount&quot;: 18494.09,
+      &quot;type&quot;: &quot;indemnité historique mentionnée&quot;,
+      &quot;status&quot;: &quot;Solde calculé du chiffrier&quot;,
+      &quot;confirmedReceived&quot;: null,
+      &quot;source&quot;: &quot;Hadmo 22 avril 2025, H73&quot;,
+      &quot;note&quot;: &quot;Ni chèque ni crédit bancaire établis ici&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    },
+    {
+      &quot;id&quot;: &quot;PAY-05&quot;,
+      &quot;date&quot;: &quot;2025-10-29&quot;,
+      &quot;label&quot;: &quot;Chèque annoncé en octobre&quot;,
+      &quot;amount&quot;: 31085.3,
+      &quot;type&quot;: &quot;indemnité historique mentionnée&quot;,
+      &quot;status&quot;: &quot;Reçu déclaré le 6 novembre&quot;,
+      &quot;confirmedReceived&quot;: null,
+      &quot;source&quot;: &quot;Courriel 19c3887029c39b3e, échanges 29 octobre / 6 novembre&quot;,
+      &quot;note&quot;: &quot;Encaissement, annulation et ventilation à vérifier&quot;,
+      &quot;currency&quot;: &quot;$ présumé CAD&quot;
+    }
+  ],
+  &quot;equipment&quot;: [
+    {
+      &quot;id&quot;: &quot;ANN-01&quot;,
+      &quot;label&quot;: &quot;Frigo commercial deux portes&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-02&quot;,
+      &quot;label&quot;: &quot;Congélateur commercial trois portes&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-03&quot;,
+      &quot;label&quot;: &quot;Four à pizza double&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-04&quot;,
+      &quot;label&quot;: &quot;Friteuse électrique double cuve&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-05&quot;,
+      &quot;label&quot;: &quot;Friteuse gaz&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-06&quot;,
+      &quot;label&quot;: &quot;Deux shawarmas Shish Taro&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-07&quot;,
+      &quot;label&quot;: &quot;Table inox&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-08&quot;,
+      &quot;label&quot;: &quot;Table pizza double et comptoir réfrigéré&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-09&quot;,
+      &quot;label&quot;: &quot;Micro-ondes commercial&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-10&quot;,
+      &quot;label&quot;: &quot;Pétrin / mélangeur industriel&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-11&quot;,
+      &quot;label&quot;: &quot;Évier double inox&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-12&quot;,
+      &quot;label&quot;: &quot;Table hamburger avec comptoir réfrigéré&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-13&quot;,
+      &quot;label&quot;: &quot;Deux frigos à bière&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-14&quot;,
+      &quot;label&quot;: &quot;Comptoir sous-marins réfrigéré&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-15&quot;,
+      &quot;label&quot;: &quot;Convoyeurs, doigts et tapis PS360&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-16&quot;,
+      &quot;label&quot;: &quot;Grande plaque commerciale&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-17&quot;,
+      &quot;label&quot;: &quot;Petite plaque commerciale&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-18&quot;,
+      &quot;label&quot;: &quot;Deux frigos verticaux Coca-Cola&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-19&quot;,
+      &quot;label&quot;: &quot;Table chaude et bacs GN&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-20&quot;,
+      &quot;label&quot;: &quot;Toasteur rotatif double&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-21&quot;,
+      &quot;label&quot;: &quot;Bac à frites inox&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-22&quot;,
+      &quot;label&quot;: &quot;Café Bon’s&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-23&quot;,
+      &quot;label&quot;: &quot;Trois tables de travail&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-24&quot;,
+      &quot;label&quot;: &quot;Deux fours Tim Hortons&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-25&quot;,
+      &quot;label&quot;: &quot;Trois étagères inox&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-26&quot;,
+      &quot;label&quot;: &quot;Rack à étagères&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    },
+    {
+      &quot;id&quot;: &quot;ANN-27&quot;,
+      &quot;label&quot;: &quot;Ustensiles et accessoires pizzeria&quot;,
+      &quot;netLoss&quot;: null,
+      &quot;status&quot;: &quot;À documenter&quot;
+    }
+  ],
+  &quot;sources&quot;: [
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/GRAND-LIVRE-ORIGINAL-feuille-1.csv&quot;,
+      &quot;sha256&quot;: &quot;452263aaf3bbfebd56c3fc6adf8e526663314bfae3a5a99ee1f43e5c5a4d1f0b&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-aout24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;6d31f13d3c60eb85c6ef995607ff75a8af6f4123d59559449aaeacf2e8bdcc01&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-avril24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;658ca2b57f4e80e3078ab1a726d9c2f777220fd952f34cf127d8e193677fc277&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-juillet24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;1f982411bffd2d65d6792b36a3957a5e830df9b0d0f8ce2928fb6061f7778a0e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-juin24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;b4d7ae5e88bff0a5a814a4917a2ceb2aa8b122c508cc14e1fbc48e255f309535&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-mai24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;96ccd758c6a62890f4a36520cb615a8f6c5eab487b9858be1eca2c854233a1e4&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-mars24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;3b892e110d606b71f92d290b16c3b8d15c8a9f8de87a081988432a99f1f3a1b5&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-nov24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;d8ca4a7dddd57e40c9c5a5f7a79625de7339f1749c8d9e5065aa22a36788a9b0&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-oct24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;f3f3b5842a16327458e0429933e887213e2a8a0cf7ea8a856d37e48b2e2d2fa6&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/data-vente-sept24.xlsx&quot;,
+      &quot;sha256&quot;: &quot;2b631a9679de98ba72e08a0b07a46302e7ae8275dffd5febf4d7cddb9dd971e5&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx&quot;,
+      &quot;sha256&quot;: &quot;070c4a83eb572ccd9f557c35c6291c544a85e117b173ceb39593843e51f2ca06&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx&quot;,
+      &quot;sha256&quot;: &quot;1b214d9493c9ea09218ecb6f114fbbc1f9fb625a5466f330d1798f3a2ba1d715&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx&quot;,
+      &quot;sha256&quot;: &quot;b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Hadmo.xlsx&quot;,
+      &quot;sha256&quot;: &quot;56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/04_Pieces_jointes/takatak.ca@gmail.com/19e847d203e73434__Hadmo_3621dc63-820c-4470-95be-cdb7f345317c 15 Janv 2025...xlsx&quot;,
+      &quot;sha256&quot;: &quot;57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/DOC090825-09082025203544(1).PDF&quot;,
+      &quot;sha256&quot;: &quot;525fb1ab5ab2616637019423ebbaac481b71e504cd63f0b8b9b6adf1b617850f&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/DOC091225-09122025113745.pdf&quot;,
+      &quot;sha256&quot;: &quot;9881b27793bf9cd01fe61baec0bd5d9d37feddb280de0643fca9982ad4ee9101&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0001 (4).pdf&quot;,
+      &quot;sha256&quot;: &quot;d0ce7dac7bc4100f2ca7a92ccec62a42a35e907e87027da286f98cc0361d000c&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (3).pdf&quot;,
+      &quot;sha256&quot;: &quot;46ad675bfcbe4c0b51d2adbf7a34de39f3839ad83c53816ada92b1436bff5a8b&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (4).pdf&quot;,
+      &quot;sha256&quot;: &quot;2bae5c141c048d01dac2c2205acebced1e64f469596bd7b7f1edb2d714806c8e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (5).pdf&quot;,
+      &quot;sha256&quot;: &quot;2bae5c141c048d01dac2c2205acebced1e64f469596bd7b7f1edb2d714806c8e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (6).pdf&quot;,
+      &quot;sha256&quot;: &quot;9b30c09334fdaafe64adb1bd38795a185203793cdb5197a6cca1e7ad8017427e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0002 (7).pdf&quot;,
+      &quot;sha256&quot;: &quot;fc757e550c9f9c1b8fa7a1c3de8acb0ddfd827d23112f5c4e756334fb62cf645&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3) (2).pdf&quot;,
+      &quot;sha256&quot;: &quot;a9e038577fefce0aa27f2a2146a19dc161dc218de1fe03595e210788f3205232&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (3).pdf&quot;,
+      &quot;sha256&quot;: &quot;a9e038577fefce0aa27f2a2146a19dc161dc218de1fe03595e210788f3205232&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0003 (4).pdf&quot;,
+      &quot;sha256&quot;: &quot;ea7620dcc66fff820fdbe0c40107de5d1dd38c80ce025da62c1c483ba9a836b8&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (1).pdf&quot;,
+      &quot;sha256&quot;: &quot;dcb2ca0889fbca633282d6f0ae9ae13fa084d23e0b62d498f567c57ce00596c8&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (2).pdf&quot;,
+      &quot;sha256&quot;: &quot;cc6856a79f0b6e596cedcc39cc9ee7923f05f48b90b10848b50acf7f692e5c42&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (3).pdf&quot;,
+      &quot;sha256&quot;: &quot;8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (4).pdf&quot;,
+      &quot;sha256&quot;: &quot;8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (5).pdf&quot;,
+      &quot;sha256&quot;: &quot;8d7560100565dd1d8dffbd336f321ccf6063495b0bedd87e0d36f462823afe72&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (7) (2).pdf&quot;,
+      &quot;sha256&quot;: &quot;ef3a86243e3bf084278d8d4c96bc9c9e398df6bb845f58fe6595e3b94b08dc1a&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004 (7).pdf&quot;,
+      &quot;sha256&quot;: &quot;ef3a86243e3bf084278d8d4c96bc9c9e398df6bb845f58fe6595e3b94b08dc1a&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0004.pdf&quot;,
+      &quot;sha256&quot;: &quot;dcb2ca0889fbca633282d6f0ae9ae13fa084d23e0b62d498f567c57ce00596c8&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Invoice-CWIQUWOL-0005 (1).pdf&quot;,
+      &quot;sha256&quot;: &quot;72157c9d71af7066f760fb341eb2ad3b5fb5ca388dba316cecfb17302b3b179a&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf&quot;,
+      &quot;sha256&quot;: &quot;8594c0fff3ee6f19ae994d6edd315f2e4fb7ba08cfe92bf3a6cd01c7c209334e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Rapport court 18757-1-1-1.pdf&quot;,
+      &quot;sha256&quot;: &quot;8741340bbe7d35263f027342c35d8292422e1adfbe241623602a56a1570d18d4&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/sources/Transport Services Quote for Quadro holding ltee.pdf&quot;,
+      &quot;sha256&quot;: &quot;8594c0fff3ee6f19ae994d6edd315f2e4fb7ba08cfe92bf3a6cd01c7c209334e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 259.pdf&quot;,
+      &quot;sha256&quot;: &quot;985f811e148ab88ae016a27540074e4dc9d6d004b9a335afbd3501ae901d2a64&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 260.pdf&quot;,
+      &quot;sha256&quot;: &quot;29f82b3533a97778532c66a340f3334ce08fd3cd4ebd0b5beb5fec8dc0ebf091&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 261.pdf&quot;,
+      &quot;sha256&quot;: &quot;8b0f68bb970a4c0813e43a25aeb193221b662c45453f481b3f897797cf0dddaa&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 262.pdf&quot;,
+      &quot;sha256&quot;: &quot;c0eaf66fc132b38effacc4a11d1a7cb38253cfc6f3334b28b6db0a97a31cd38d&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 263.pdf&quot;,
+      &quot;sha256&quot;: &quot;51dbae5856326c5d24d15566a6166c8af3427b501e7aee2b1ef018f92bf43646&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 264.pdf&quot;,
+      &quot;sha256&quot;: &quot;b829b3820ee0b93d4b2a1723ec16ded701f0589cc4bc618501a9cfb75e8aa951&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 266.pdf&quot;,
+      &quot;sha256&quot;: &quot;f35769319067f7e9f805743d474d7b1fde63c9cf697d48e56cb272deea88bb47&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 267.pdf&quot;,
+      &quot;sha256&quot;: &quot;e2f29c689e5e9736b2d22225808c9f23c819af2943f90fdedf8a9a16c4c94919&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/Devis N� _ 268.pdf&quot;,
+      &quot;sha256&quot;: &quot;61e06b0a59f82c494e256bed0a713ad2318bbbb8b0315344334be3b6fa649f3e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-assurance-2024/fac 265.pdf&quot;,
+      &quot;sha256&quot;: &quot;bc68073bdfda346ee433880f50c55e56a4227d4f0d124b8d181137b73c77ef0e&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/facture CQC_L-1027-A.pdf&quot;,
+      &quot;sha256&quot;: &quot;93fcc24af4e7bae2a81d342d2a0a1ee78bb30cf55e6d8e7143a821ceb785b773&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Rapport court 46810-1-1-1 (1).pdf&quot;,
+      &quot;sha256&quot;: &quot;4ad884469ccf0f901ad80e8c49226f89046b7a2e67c1adbf72e2409694150bbd&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/pieces-facturation-oct2025/Receipt_20251020_0001 (1).pdf&quot;,
+      &quot;sha256&quot;: &quot;cf0ed982d8e80d327f0881283c9e75324fa313ff480f081249702bdb3c84d659&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069199.jpg&quot;,
+      &quot;sha256&quot;: &quot;ecf4327688dd965548c95d3a3848ce9a68e65b7e5afe7e89a048d37a3e5f1276&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069200.jpg&quot;,
+      &quot;sha256&quot;: &quot;65ba5a425abb151be3f7accf60a8052890805b66ddeaaa67341c63da32ef7283&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069201.jpg&quot;,
+      &quot;sha256&quot;: &quot;1d8db01844540c412b48f6cf249753397fff8d525674150a08241cebe99ee563&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069202.jpg&quot;,
+      &quot;sha256&quot;: &quot;86580c1c92180d3f5ae76c59d385172173982d5e6f43a3e72eda538f0534cfdb&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069203.jpg&quot;,
+      &quot;sha256&quot;: &quot;f232e2d6bdd38fb8d8d8ba499877e1bb949d25657563f0722cb87daf2e4a9978&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069204.jpg&quot;,
+      &quot;sha256&quot;: &quot;e398e6ace662e9955ef1032d2737dec7b29d27c93110d2bd3273384631105d92&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069205.jpg&quot;,
+      &quot;sha256&quot;: &quot;2171b583c7a271b34bc22af1f6d71c557eabe6a86f7f497a2a5965023ab0cc68&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069206.jpg&quot;,
+      &quot;sha256&quot;: &quot;ea2c7ef4ecfb7e9c38054b13a88cb98a465ec2ae989cb7f9dae04c5c22bf4492&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069207.jpg&quot;,
+      &quot;sha256&quot;: &quot;349f6090dc10702219a02543a33a04597b995239b1d49439d7f96cabcf62ed30&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/photos-reparations-janvier2025/1000069214.jpg&quot;,
+      &quot;sha256&quot;: &quot;147a29670197460ff8bbb9248969dbdc9dcbcdff0dc1b6604c7ab43a557e6fca&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/10_Archive_avocat_2026-10-05/REGISTRE-EQUIPEMENTS.csv&quot;,
+      &quot;sha256&quot;: &quot;a0e5d75713615c2182e147d1e178c22fdc2e8e35c6e164323058b776dc645fbd&quot;
+    },
+    {
+      &quot;path&quot;: &quot;6241 Léger/03_Courriels/Analyse_consolidee/emails-index.json&quot;,
+      &quot;sha256&quot;: &quot;361b9fc017898ce5006ad5554c096d26e28dad6b923a69559068bc945dff8a8d&quot;
+    }
+  ],
+  &quot;limitations&quot;: [
+    &quot;Les ventes et charges ne sont pas des pertes indemnisables.&quot;,
+    &quot;Versions de factures, devis et réparations des mêmes biens non additionnés.&quot;,
+    &quot;Aucune preuve bancaire rapprochée des indemnités dans ce master.&quot;,
+    &quot;Réserve Hadmo K55 exclut K13 et K18 : 82 400 affichés contre 96 600 pour toutes lignes.&quot;,
+    &quot;Grand livre repris du CSV conservé; format binaire final.xls non relu directement.&quot;
+  ]
+}</pre></section></article></main><footer class="footer"><strong>Provenance et contrôle des pièces</strong><p>Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.</p><p>Les pièces d’origine restent dans leurs dossiers. L’index est une copie de travail datée; une recherche sans résultat ne démontre pas l’absence d’une pièce. Les synchronisations OneDrive et GitHub sont distinctes.</p></footer></body></html>

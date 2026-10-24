@@ -1,0 +1,113 @@
+{
+  "id": 0,
+  "query": "in:anywhere (\"U-Haul\" OR Uhaul OR from:uhaul.com OR to:uhaul.com) after:2025/05/01 before:2026/02/01",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "19b32839d08d4ba9",
+          "subject": "The December Buyer's Club Bulletin is here.",
+          "snippet": "Ringing in the Holiday's with new products! ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "attachments": []
+        },
+        {
+          "id": "19ab6a038232c224",
+          "subject": "The November Buyer's Club Bulletin is here.",
+          "snippet": "Boost sales with the new Buy Online, Pick Up In Store program! ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "attachments": []
+        },
+        {
+          "id": "19a35b8de75036ea",
+          "subject": "Stock Up for the Season!",
+          "snippet": "Your Buyer's Club Bulletin is here. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "attachments": []
+        },
+        {
+          "id": "199e956c0919a5c3",
+          "subject": "Fwd: nouvelle convention et résiliation de la convention 2023",
+          "snippet": "---------- Forwarded message --------- From: Marc Desroches <mdesroches@cintec.ca> Date: Thu, Aug 7, 2025, 14:11 Subject: nouvelle convention et résiliation de la convention 2023 To: <takatak.",
+          "attachments": [
+            {
+              "filename": "Résiliation de la convention de location sans bail- VER 24 juillet.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Contrat de bail terrain revdFP July18_2025 clean-REV-22 JUIL-MD.PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "199d13798ff500f7",
+          "subject": "Fwd:",
+          "snippet": "---------- Forwarded message --------- From: Matthieu WB <mwb130890@gmail.com> Date: Sat, Jul 12, 2025, 09:16 Subject: To: <takatak.ca@gmail.com>",
+          "attachments": [
+            {
+              "filename": "releves (3).zip",
+              "mime_type": "application/zip",
+              "read_attachment_supported": false
+            }
+          ]
+        },
+        {
+          "id": "1997c66e28f56c88",
+          "subject": "Save $5 through September 30th!",
+          "snippet": "Your Buyer's Club Bulletin is here. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "attachments": []
+        },
+        {
+          "id": "1994f2f6163afe2d",
+          "subject": "Re: nouvelle convention et résiliation de la convention 2023",
+          "snippet": "T'as lu ça ou que le locateur ne pouvait pas expulser sans raison valable ? Le lun. 15 sept. 2025, à 16 h 43, yan romanowski <romanowskiyan@gmail.com> a écrit : C'est que tu écrivais",
+          "attachments": []
+        },
+        {
+          "id": "1994f1e80b25eff1",
+          "subject": "Re: nouvelle convention et résiliation de la convention 2023",
+          "snippet": "C'est que tu écrivais comme s'il y avait quelque chose que j'avais pas vu, pas lu, ou que j'ignorais. Donc à partir de ce que tu m'as envoyé, t'as rien. Un préavis puis après t",
+          "attachments": []
+        },
+        {
+          "id": "1994f1b0b24629ce",
+          "subject": "Re: nouvelle convention et résiliation de la convention 2023",
+          "snippet": "Je te demande a toi. Cest toi l'expert. Mais non cest ce qu'il est devant toi. Pas plus. On Mon, Sep 15, 2025, 4:38 pm yan romanowski <romanowskiyan@gmail.com> wrote: Valeur sentimentale",
+          "attachments": []
+        },
+        {
+          "id": "1994ef80e86fca11",
+          "subject": "Re: nouvelle convention et résiliation de la convention 2023",
+          "snippet": "Voila. On Mon, Sep 15, 2025, 12:50 pm yan romanowski <romanowskiyan@gmail.com> wrote: Mathieu, STP me joindre les documents ( bail initial et doc de novembre 2024 ), et toute échange de",
+          "attachments": [
+            {
+              "filename": "1000041195.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000041194.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "197fec78a27b3735",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "releves (3).zip",
+              "mime_type": "application/zip",
+              "read_attachment_supported": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "error": null
+}

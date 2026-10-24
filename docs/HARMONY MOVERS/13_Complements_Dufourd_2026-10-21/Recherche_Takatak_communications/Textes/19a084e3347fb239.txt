@@ -1,0 +1,16 @@
+Compte: takatak.ca@gmail.com
+Identifiant Gmail: 19a084e3347fb239
+Source: MIME/19a084e3347fb239.json
+date: Tue, 21 Oct 2025 15:45:33 -0400
+message-id: <CAGN0CqjAeLsP0sgg2Ev2vENMgG2k4JX7beSN4kWb846is1rDjA@mail.gmail.com>
+subject: Fwd:
+from: takatak ca <takatak.ca@gmail.com>
+to: staplesmobile@printme.com
+
+EXTRACTION TEXT/PLAIN DU MIME — ne remplace pas un EML brut
+
+---------- Forwarded message ---------
+From: takatak ca <takatak.ca@gmail.com>
+Date: Tue, Oct 21, 2025, 15:45
+Subject:
+To: takatak ca <takatak.ca@gmail.com>

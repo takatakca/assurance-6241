@@ -1,0 +1,823 @@
+{
+  "id": 3,
+  "query": "in:anywhere (\"5837\" OR \"5839\") (bail OR lease OR loyer OR \"sous-location\" OR occupation OR location)",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "1a157381a8337a36",
+          "subject": "(No Subject)",
+          "snippet": "Obtenir Outlook pour Android",
+          "attachments": [
+            {
+              "filename": "condition particulière Federated -1 mars 2026 au 1 mars 2027.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a156ae51922e01f",
+          "subject": "TR : Réponse : [one-time authentication code withheld]",
+          "snippet": "De : Annie Cholette <Annie.Cholette@nbfc.com> Envoyé : 19 octobre [one-time authentication code withheld]:28 À : sani-adel@live.com <sani-adel@live.com> Cc : Mackendy Iserve <Mackendy.Iserve@nbfc.com> Objet : FW:",
+          "attachments": [
+            {
+              "filename": "6804A5559_FR.xlsx",
+              "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "26-1554-E-0 Expertise.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "26-1554-R-0 Pertes.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a143de19349b730",
+          "subject": "DoorDash Drive Integration Support Request - [CASE #[one-time authentication code withheld]]",
+          "snippet": "Hi Matthieu, Thank you for your inquiry! Our team will reach back out in [one-time authentication code withheld] hours. Please refer case #[one-time authentication code withheld] for this request. Request Details: Category: Demo and Production Access Description:",
+          "attachments": []
+        },
+        {
+          "id": "1a143219b67f6060",
+          "subject": "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "Hi Lola, I'm following up on my request from October 5 (reference [one-time authentication code withheld]). I haven't heard from our account manager yet, and no one has called me back about the verification problem. To",
+          "attachments": []
+        },
+        {
+          "id": "1a1105b2b54fa2d4",
+          "subject": "[TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "I've already informed my colleague and have resent the request as urgent. They will call you sometime today. Lola PARTNER EXPERIENCE W: toogoodtogo.com | Privacy Policy This email is a service from",
+          "attachments": []
+        },
+        {
+          "id": "1a10f5d94ffd3098",
+          "subject": "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "I absolutely need a call back to fix problem with verification. Can someone call me 1514 458 4587 On Mon, Oct 5, [one-time authentication code withheld], 12:17 Oeuf Déjeuner <ooeuf.ca@gmail.com> wrote: Thank you for your response",
+          "attachments": []
+        },
+        {
+          "id": "1a10d5436a58b8f3",
+          "subject": "Fwd: Votre dossier - Dufourd, Dion Avocats",
+          "snippet": "---------- Forwarded message --------- From: <cdufourd@dufourdion.com> Date: Mon, Oct 5, [one-time authentication code withheld], 14:15 Subject: Votre dossier - Dufourd, Dion Avocats To: <ooeuf.ca@gmail.com> Bonjour, Voici",
+          "attachments": [
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a10cdb56e025ed5",
+          "subject": "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "Thank you for your response waiting on your reply On Mon, Oct 5, [one-time authentication code withheld], 06:04 Too Good To Go <info@toogoodtogo.ca> wrote: thanks! I've passed this on to your account manager and they will",
+          "attachments": []
+        },
+        {
+          "id": "1a10b85d92d61e41",
+          "subject": "[TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "thanks! I've passed this on to your account manager and they will follow up with you shortly. All the best, Lola PARTNER EXPERIENCE W: toogoodtogo.com | Privacy Policy This email is a service from",
+          "attachments": []
+        },
+        {
+          "id": "1a10b6cf420c6569",
+          "subject": "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "Yes i authorize the integrations into foodhub to accept order on pos On Mon, Oct 5, [one-time authentication code withheld], 05:26 takatak ca <takatak.ca@gmail.com> wrote: I CAN SEND YOU MESSAGE FROM MAIN EMAIL On Mon, Oct 5, [one-time authentication code withheld]",
+          "attachments": []
+        },
+        {
+          "id": "1a10b627426e634e",
+          "subject": "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "I CAN SEND YOU MESSAGE FROM MAIN EMAIL On Mon, Oct 5, [one-time authentication code withheld] at 4:52 AM takatak ca <takatak.ca@gmail.com> wrote: 2 LOCATIONS [one-time authentication code withheld] SOMERLED NDG [one-time authentication code withheld] RUE JEAN-TALON EST ooeuf.ca@gmail.com Main",
+          "attachments": []
+        },
+        {
+          "id": "1a10b434d69a66f4",
+          "subject": "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS",
+          "snippet": "2 LOCATIONS [one-time authentication code withheld] SOMERLED NDG [one-time authentication code withheld] RUE JEAN-TALON EST ooeuf.ca@gmail.com Main account i am dev team . On Mon, Oct 5, [one-time authentication code withheld], 04:48 Too Good To Go <info@toogoodtogo.ca> wrote: Hello! I'm sorry,",
+          "attachments": []
+        },
+        {
+          "id": "1a0efeca53aab405",
+          "subject": "Rapport [one-time authentication code withheld] complet — facture, photos et preuves — dossier [one-time authentication code withheld]",
+          "snippet": "Bonjour Abdel, Oui, je te renvoie maintenant tout le bloc [one-time authentication code withheld] relié au sinistre de Les Délices d'Aden, dossier [one-time authentication code withheld]. Je joins : 1. Le rapport descriptif complet [one-time authentication code withheld] — intervention au",
+          "attachments": [
+            {
+              "filename": "LIENS_MEDIA_PREUVES_6804A5559.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "DOSSIER_PREUVES_COMPLET_IMPRESSION_6804A5559_2026-09-28_COMPRESSE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ATLAS_PHOTOS_MEDIAS_6804A5559_COMPRESSE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "FACTURE_5837_JEAN_TALON_JOURS_1_A_5_FINAL_2026-09-03.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RAPPORT_DESCRIPTIF_R2NETTE_5837_JEAN_TALON_V1.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0ef5411e331621",
+          "subject": "Dossier [one-time authentication code withheld] — réponses question par question + liens vidéo et photos",
+          "snippet": "Bonjour Abdel, J'ai revérifié ton dernier message et le courriel de Mme Annie Cholette. Voici la réponse organisée exactement comme tu l'as demandé : UNE QUESTION DE L'ASSUREUR, puis LA",
+          "attachments": [
+            {
+              "filename": "ATLAS_PHOTOS_MEDIAS_6804A5559_COMPRESSE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LIENS_MEDIA_PREUVES_6804A5559.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0e9ce3b37da7ab",
+          "subject": "Dossier [one-time authentication code withheld] — 3/6 — Annexes sources de contrôle",
+          "snippet": "Bonjour Abdel, Troisième partie du dossier [one-time authentication code withheld]. Je joins les trois annexes sources de contrôle A, B et C qui ont servi au classement et à la vérification des factures, dépenses et photos. Ces",
+          "attachments": [
+            {
+              "filename": "ANNEXE_C_SOURCE_CONTROLE_V11.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ANNEXE_B_SOURCE_CONTROLE_V11.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ANNEXE_A_SOURCE_CONTROLE_V11.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0e9ce12cd8b4b0",
+          "subject": "Dossier [one-time authentication code withheld] — 2/6 — Atlas factures, photos et dépenses directes",
+          "snippet": "Bonjour Abdel, Deuxième partie du dossier [one-time authentication code withheld]. Pièces jointes : - atlas complet des factures et preuves de paiement; - atlas des photos et médias; - preuve Recybac; - facture de plomberie; -",
+          "attachments": [
+            {
+              "filename": "CARROUSEL_SOUmission_COT-0101658_1953.25_NON_PAYEE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LAFRENAIE_49240_744.00_ENTITE_A_RAPPROCHER.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "EXTERMINATEUR_CARTE_CONTACT_SEULEMENT.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "UHAUL_83092529_710.66.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "PLOMBERIE_FACTURE_6_2026-09-26_261.60.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RECYBAC_R-104619-697_787.58.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ATLAS_PHOTOS_MEDIAS_6804A5559_COMPRESSE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ATLAS_FACTURES_PREUVES_PAIEMENTS_6804A5559_COMPRESSE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0e9cde676f03c8",
+          "subject": "Dossier [one-time authentication code withheld] — 1/6 — Rapport final, dossier d’impression et liens médias",
+          "snippet": "Bonjour Abdel, Je te retransmets le dossier complet concernant Les Délices d'Aden — dossier d'assurance [one-time authentication code withheld]. Cette première partie contient : - le rapport final corrigé; - le dossier",
+          "attachments": [
+            {
+              "filename": "README_PACKAGE_PREUVES_6804A5559.txt",
+              "mime_type": "text/plain",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LIENS_MEDIA_PREUVES_6804A5559.txt",
+              "mime_type": "text/plain",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LIENS_MEDIA_PREUVES_6804A5559.html",
+              "mime_type": "text/html",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LIENS_MEDIA_PREUVES_6804A5559.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RAPPORT_DESCRIPTIF_R2NETTE_A_FAIRE_VALIDER_SIGNER.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "FACTURE_R2NETTE_SIN-5837-2026-09-01_A_VALIDER.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RELEVE_BANCAIRE_6_MOIS_2026-03-28_A_2026-09-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RAPPORT_PIECES_JUSTIFICATIVES_PREUVES_PAIEMENTS_MEDIAS_6804A5559_2026-09-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RAPPORT_FINAL_ASSURANCE_DELICES_ADEN_6804A5559_2026-09-28_CORRIGE_V2.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "DOSSIER_PREUVES_COMPLET_IMPRESSION_6804A5559_2026-09-28_COMPRESSE.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0e5114a26b2fa4",
+          "subject": "Re: RENVOYER DOSSIER COMPLET :",
+          "snippet": "Bonjour Abdel, J'ai vérifié le dossier. [one-time authentication code withheld] correspond à « Identification / lieu ». Ce point est déjà COMPLÉTÉ dans le dossier maître : sinistre du 26 août [one-time authentication code withheld], Les Délices d'Aden, [one-time authentication code withheld] rue",
+          "attachments": [
+            {
+              "filename": "REGISTRE_DEPENSES_PERTES_ALIMENTAIRES_ABDEL_V13.xlsx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "DOSSIER_COMPLET_ABDEL_DELI_ADEN_6804A5559_V13.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "DOSSIER_COMPLET_ABDEL_DELI_ADEN_6804A5559_V13.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0e4b489ea77365",
+          "subject": "Dossier [one-time authentication code withheld] — Mise à jour V13",
+          "snippet": "Bonjour Abdel, Voici la mise à jour V13 du dossier [one-time authentication code withheld] concernant Les Délices d'Aden, [one-time authentication code withheld] rue Jean-Talon Est. Les documents joints sont prêts à être téléchargés et conservés : - Dossier",
+          "attachments": [
+            {
+              "filename": "REGISTRE_DEPENSES_PERTES_ALIMENTAIRES_ABDEL_V13.xlsx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "DOSSIER_COMPLET_ABDEL_DELI_ADEN_6804A5559_V13.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "DOSSIER_COMPLET_ABDEL_DELI_ADEN_6804A5559_V13.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0d84a8b3ec91a9",
+          "subject": "Dossier [one-time authentication code withheld] — Dossier consolidé pour validation",
+          "snippet": "Bonjour Abdel, Je te renvoie le dossier consolidé actuellement disponible pour le dossier [one-time authentication code withheld] concernant Les Délices d'Aden, [one-time authentication code withheld] rue Jean-Talon Est. Pièces jointes : - Dossier maître V11 -",
+          "attachments": [
+            {
+              "filename": "REGISTRE_DEPENSES_PERTES_ALIMENTAIRES_ABDEL_V12.xlsx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "ANNEXE_C_PHOTOS_STOCK_ABDEL_V11_TRANSMISSION.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ANNEXE_B_DEPENSES_NOUVELLES_ABDEL_V11.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ANNEXE_A_FACTURES_PREUVES_ACHAT_ABDEL_V11.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "DOSSIER_COMPLET_ABDEL_DELI_ADEN_6804A5559_V11.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0d129e7a23cf2e",
+          "subject": "Document de Sani Adel",
+          "snippet": "Obtenir Outlook pour Android",
+          "attachments": [
+            {
+              "filename": "recu_R-104619-697.PDF_20260923_211449_0000.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0cf835bf45a29f",
+          "subject": "LOCAL [one-time authentication code withheld] — Dossier complet Quadro Holdings c. Bar Sora — faits, pièces et règlement recherché",
+          "snippet": "Bonjour Yan, Comme demandé, je t'envoie maintenant le dossier complet que j'ai actuellement pour le litige du 6280/6284 avenue Somerled entre Quadro Holdings Ltée et [one-time authentication code withheld] Québec inc. / Bar",
+          "attachments": [
+            {
+              "filename": "LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Certificat_nettoyage_hotte_Rapid2Net_2026-09-14.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Nouvelle affaire 2026-27(1).pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LOCAL_6280_Mise_en_demeure_Quadro_BAR_SORA_20_septembre_2026.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Suivi_mise_en_demeure_propane_style_formel.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Suivi_mise_en_demeure_interruption_propane.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Mise_en_demeure_Quadro_Holdings_Bar_Sora.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Avis_resiliation_cuisine_Quadro_FINAL（signature）.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "PPP_Simplified_Kitchen_Lease_Enhanced20251220.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            }
+          ]
+        },
+        {
+          "id": "1a0c680f9c0cda8a",
+          "subject": "URGENT — LOCAL [one-time authentication code withheld] / MAPAQ 21 septembre — projet consolidé à vérifier, signer et expédier",
+          "snippet": "Bonjour Me Mohammadi, Nouveau développement urgent dans le dossier Quadro Holdings Ltée c. [one-time authentication code withheld] Québec Inc. / Bar Sora : une visite du MAPAQ a eu lieu ce matin, le 21 septembre [one-time authentication code withheld]. Selon mon",
+          "attachments": [
+            {
+              "filename": "LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "LOCAL_6280_NOTE_CONFIDENTIELLE_AVOCAT_21_SEPT_2026.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.docx",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            },
+            {
+              "filename": "LOCAL_6280_MISE_EN_DEMEURE_CONSOLIDEE_MAPAQ_21_SEPT_2026.pdf",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0c4e0a4787b0a8",
+          "subject": "Complément de pièces jointes — Quadro Holdings c. Bar Sora — mise en demeure du 20 septembre et assurance",
+          "snippet": "Bonjour Me Mohammadi, Je vous transmets en complément du courriel précédent quatre documents originaux PDF que je viens de retrouver dans mes fichiers ChatGPT et de remettre à disposition : 1. Mise en",
+          "attachments": [
+            {
+              "filename": "Nouvelle affaire 2026-27(1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_SANS_LIENS_2026-09-10.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "LOCAL_6280_Mise_en_demeure_Quadro_BAR_SORA_20_septembre_2026.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0c4d323da708df",
+          "subject": "Dossier Quadro Holdings Ltée c. Bar Sora — copies des mises en demeure et suivis",
+          "snippet": "Bonjour Me Mohammadi, Je vous transmets en pièces jointes les six documents que j'ai pu retrouver concernant les mises en demeure et suivis de Quadro Holdings Ltée à l'égard de [one-time authentication code withheld] Québec",
+          "attachments": [
+            {
+              "filename": "Suivi_mise_en_demeure_interruption_propane.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Suivi_mise_en_demeure_propane_style_formel.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "MISE_EN_DEMEURE_Quadro_BAR_SORA_ACCUSÉ_RECEPTION_2026-09-10.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_CORRIGEE_2026-09-10.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "MISE_EN_DEMEURE_Quadro_Holdings_Ltee_c_BAR_SORA_2026-09-10.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Mise_en_demeure_Quadro_Holdings_Bar_Sora.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19eaf971d1774dcb",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "May 29, 2026.PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19e087f1e4a6d3b8",
+          "subject": "Re: Job Application - Didier Charles",
+          "snippet": "Job Application Choose your preferred location [one-time authentication code withheld] Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 Full Name Didier Charles Phone Number (450) [one-time authentication code withheld] Email Address didiersylvano.charles@outlook.com City",
+          "attachments": []
+        },
+        {
+          "id": "19cf6d0007679caf",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "Hello Mathieu, Activation request for the store O'Oeuf Déjeuner 24/7 Montréal-Nord - [one-time authentication code withheld] Rue Sainte-catherine E - [one-time authentication code withheld], is also activated and ready to receive orders. Thank you. Your reference",
+          "attachments": []
+        },
+        {
+          "id": "19cd3d37325b2182",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 14:19 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 14:07 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:25 takatak ca <takatak.ca@",
+          "attachments": [
+            {
+              "filename": "Confirmation inscription (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd3d35a513e667",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 14:07 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:25 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:24 takatak ca <takatak.ca@",
+          "attachments": [
+            {
+              "filename": "État des renseignements - Revenu Québec(8).PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd3c8b9725758a",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:25 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:24 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:23 takatak ca <takatak.ca@",
+          "attachments": [
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd3a1e2b732697",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:24 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:23 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:23 takatak ca <takatak.ca@",
+          "attachments": [
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd3a130f7b0e5e",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:23 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:23 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:18 takatak ca <takatak.ca@",
+          "attachments": [
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd3a064644f84c",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:23 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:18 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:15 takatak ca <takatak.ca@",
+          "attachments": [
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd39fc8564c3b4",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:18 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:15 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:15 DoorDash Merchant",
+          "attachments": [
+            {
+              "filename": "1000091045.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000091043.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd39b19f5244c9",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:15 takatak ca <takatak.ca@gmail.com> wrote: On Mon, Mar 9, [one-time authentication code withheld], 13:15 DoorDash Merchant Experience Partner Support <mxpsupport@doordash.com> wrote: Hi Mathieu, Can",
+          "attachments": [
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd398a62a56cb1",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "On Mon, Mar 9, [one-time authentication code withheld], 13:15 DoorDash Merchant Experience Partner Support <mxpsupport@doordash.com> wrote: Hi Mathieu, Can you send the photo IDs front and back here please? Best, Brian Cho",
+          "attachments": [
+            {
+              "filename": "1000091042.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000091041.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "1000091005.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19cd398608fa1ba1",
+          "subject": "Re: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!",
+          "snippet": "Hi Mathieu, Can you send the photo IDs front and back here please? Best, Brian Cho DoorDash | Merchant Experience Partner Office Hours: MF [one-time authentication code withheld]:[one-time authentication code withheld] (EST) Schedule a Call: https://doordash.chilipiper.",
+          "attachments": []
+        },
+        {
+          "id": "19c348d21f8cd9bd",
+          "subject": "contrat",
+          "snippet": "voila le contrat. Merci.",
+          "attachments": [
+            {
+              "filename": "PPP_Simplified_Kitchen_Lease_Enhanced20251220.docx",
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19a084e3347fb239",
+          "subject": "Fwd:",
+          "snippet": "---------- Forwarded message --------- From: takatak ca <takatak.ca@gmail.com> Date: Tue, Oct 21, [one-time authentication code withheld], 15:45 Subject: To: takatak ca <takatak.ca@gmail.com>",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28 (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice_43_2025-07-14.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19a084bb4ef9f177",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19a0848eada12c15",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19a0846c55bf40c8",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19a038714489e045",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1990b0a35660e9c3",
+          "subject": "Fwd:",
+          "snippet": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:c394bef5-25e6-4643-8148-28bce30d7696 ---------- Forwarded message --------- From: Oeuf Déjeuner <ooeuf.ca@gmail.com> Date: Wed, Aug 27, [one-time authentication code withheld], 2:49",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "198ecdcc51bf4304",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "Invoice_45_2025-07-28.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "error": null
+}

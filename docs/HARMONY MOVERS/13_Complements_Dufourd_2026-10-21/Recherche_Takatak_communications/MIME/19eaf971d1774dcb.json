@@ -1,0 +1,226 @@
+{
+  "id": "19eaf971d1774dcb",
+  "thread_id": "19eaf971d1774dcb",
+  "label_ids": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "",
+  "history_id": "3386134",
+  "internal_date": "1781062361000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "takatak.ca@gmail.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a05:6638:112:b0:5de:5681:102a with SMTP id x18csp2885808jao;        Tue, 9 Jun 2026 20:32:57 -0700 (PDT)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a17:907:78e:b0:bee:ec3b:6a8e with SMTP id a640c23a62f3a-bf36ff8da16mr1063608766b.8.1781062376779;        Tue, 09 Jun 2026 20:32:56 -0700 (PDT)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=2; a=rsa-sha256; t=1781062376; cv=pass;        d=google.com; s=arc-20240605;        b=iGFQydF+Y5K4tvj9pI+1nC6Ca0S+yfTTAjGvebuW64VMWsik+1V7xe5mjQH/CZUdYn         cKQ9/udoPUeMH9x1zAsWTdX8Lgj2PW1JhouSx8LGzTFXvsdfx3RZ/9tRPrlrMibG6OuM         QmtdRveNQvDRtYmR9m0EN8aRh3uO5YojsBrGnuhDBfvZ8yMvL17tDhU44M3ATia9dLYv         HnBoWsE2l+Vx5IZnzj33Tj5riCJVk7CYCzlv+/jyHyAk9INwnKgoKq+yk4T2I0wpwbDu         R7mpzFaQVr392zxvUQgfGMtMk0/4wKQOFlSdQ7+dLw9Yt5Bou5rKRKAtwee40+tGUrt9         hgQw=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=BQJKZxt1khoq7IpjnwQzzBebsxhAYV5yWj2w5JPDNy4=;        fh=xU/5uRDcKzq25whTgSg6IA+cCzKigzZ75uDJO7GO9gY=;        b=FJU49PEMGEjEwCziZEuiFkx5XklS76qbugLHJLVKHZmrASTlpkeLJMgsV+r76eA3IG         j1aTJ6V/CFh2jCK1LgwddDYcwWAWqDFL83IeoHj9XWEGjkle8w4dYUFQpkRdMEIMunDS         R65C5FKCuh+7/Kv5k82ZORLWV8HQTcDsP8L/VCgObURzYor8gsojS75yr+b98f1peq8i         z0B3VN7Ckwo4+ukv+S0RJZ5GVndM2zijCE3QDbw2EVOzpiCDEiBByRkKn9kdaYKVPenc         8KDvgPeLJpt/wvS1vE9xIitUTL44yh+9r9iSMlxbR4SCKCrP/cU93ITeqAhhGgPj6k+C         8DTw==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=2; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=GHEAsIG1;       arc=pass (i=1);       spf=pass (google.com: domain of popoulet.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=popoulet.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<popoulet.ca@gmail.com>"
+      },
+      {
+        "name": "Received",
+        "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id a640c23a62f3a-bf0df56cad1sor630393166b.3.2026.06.09.20.32.56        for <takatak.ca@gmail.com>        (Google Transport Security);        Tue, 09 Jun 2026 20:32:56 -0700 (PDT)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of popoulet.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=GHEAsIG1;       arc=pass (i=1);       spf=pass (google.com: domain of popoulet.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=popoulet.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1781062376; cv=none;        d=google.com; s=arc-20240605;        b=aeHlsFH1DDU9zBh6w2emh9m5G4lxycAOT5NSYyBf1rZp6Xn3UgZv6h4FXs8tT7a67p         p+LzX2FwVN6Fem6utnHTPVvroNV/zrtW+FTymof4hcZYBkP9utuJCVRLQKpNAg2xp/J0         jxKvrtMtFc5YxhEHTlB0Kymt5RXw4nehek6hByxYv1ZF8UhTsynlYO/+A07cJo8s3HsJ         MVQpZ0yV73Wmh3Ye5j+cGrcbCM2QKhAGtEcJRxY7U5noElXP22+RrUgFCp97PKdMVYvS         551sL/fYH0JBQt+NLAyQ7rOHC7G+AXXJCeCv9hRJcNSJaEcmVDd0To70xJsLTijLd/rO         EiUg=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=BQJKZxt1khoq7IpjnwQzzBebsxhAYV5yWj2w5JPDNy4=;        fh=xU/5uRDcKzq25whTgSg6IA+cCzKigzZ75uDJO7GO9gY=;        b=gF90ZFFnDCRZ4tLDNPm9WefMdVjKjCXokaMq+pbLBr2HfADHw1d7L9kH26bRzVO0Ua         i7jU23thgimEzIfH6fcKlTOpwyrea6T7JVjoeNY5nuZXeFTEC9aylkn81PN3ejuW+PcK         LuAYV0lYJuohumNZV/rgCVXhe95qOmywiiF2uiFwmYEMkzZ9wkhpB+X7HLxT5wWVDvY1         2zQEgEg38ahKqudfAKcynQhhQr4kcDk5NDlKxbanTrEwAW3hJl9J7XL5L/f7bPpjOcht         QIL7LzCt0KYzI4T+Y1Pv7KkWZ4l4AK67l8bZYi9tm/tK8qg8fxu/aTYgUGItRE/VrOra         4OPA==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com; arc=none"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20251104; t=1781062376; x=1781667176; dara=google.com;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=BQJKZxt1khoq7IpjnwQzzBebsxhAYV5yWj2w5JPDNy4=;        b=GHEAsIG1S0NQ7Dh9zXEV2qeFi1++mN1VuXpwKQAdcbW61F3x1Mn2MnLAD2N+S7AHf5         x126HMHm2e8u8oMT0ZUbCPz1ElhXTkhbMIFdbtHUXQu1u5nZaD/d7cjlpV242VUiRGrH         vOCaWGHRfZ+2Fj6f5GCohL0xpSSum4l/W56PdE0dNBrc0IyT0r1jJ74GUkVNwV31VyZ9         jfoVHGvbmI3WId8bEnwUYR+AwQeS+4I/zIuq91XEWyo2P0IskvIvmM6ASXyCVJppFzjw         926nQKRXqZqeVRGXBzJ/d/Irm4quTi+zplv3Vhae1kpk3qVZy6KxOvQOxFg486XAV2cd         zuUw=="
+      },
+      {
+        "name": "X-Google-DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20251104; t=1781062376; x=1781667176;        h=to:subject:message-id:date:from:mime-version:x-gm-gg         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=BQJKZxt1khoq7IpjnwQzzBebsxhAYV5yWj2w5JPDNy4=;        b=f9IZ0fKk4G1j36JwgaNzJ6ifFenZ0s4iYLKQo7ERCb5pClaO+b2YJdhIIDU4K0ZxGd         R6RznYBzMCPNW6SvvZwRWoHr6+A1exTmYSwBQE8k97hnaXbYdhDk16U37/gSqa4fT6Hm         9mc3KQ3NWXTIm5RNuZTg6+/qijUazH9j5VKWRhaPPq3wkc/kleqTK6xO/DWSSxJ7CeRW         fKNl0FZRgxF+JEgrfVsy3o+jiGFe70Z1SLB/XGX4CaGhTeOkY5+RuuUL+zjIuzPu9Ip9         QpfnzfIlSlomMX7JQrKo1gAFBNzEd148ihwh7RydSod4kM6TSFcZnbzNryx9/FKwmo+C         +kCw=="
+      },
+      {
+        "name": "X-Gm-Message-State",
+        "value": "AOJu0YywFFgxFkOurpNuDVxsY1hVOOiTVNoqFoV/AMnQFKGVEE2Ku7oU zuye2LfIx2fy+iSxXnZH7z43Nqw847U2TGXDxwRoI5geak2/DHjHMjjDWplOajyugtRwmUnUa44 mUTL85mLujXOdb/ySrkScJu4xm8tBLHEx4w=="
+      },
+      {
+        "name": "X-Gm-Gg",
+        "value": "Acq92OE8UKPCN3bkhFyJ2ew0uIGcHm08GHD+O9i/JO5RPS5L4HsECrAzIIofEYLnQcr +AegITKYTKRsY1He9ItWZ5fSpmAqw7oyToO4lnexqf8Cak92Y/F0MNEbtWNws3cSnZ0LbX8eh7c 4Ek4ZH+47/tg6Fhu7vRq3KowpxJdd0VIENBe6yFsPtEFRMNNNFBbbdqzmVc07JywBiDGMXFkD1U VpeUQgI9MuouLt0dxh7j0RpIME5RMgxEb554ytn93TKD2KODMFdjLPIM9f2xc8TXbHxGRvZtYab lflUtNRBfxdxQILGKJdNQAyEu0onvmC64paMDhtiHw9CpJGumQLhbX45VALV8jQ="
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a17:906:8d8d:b0:bf1:8145:c300 with SMTP id a640c23a62f3a-bf36ff8cf5fmr1112466266b.3.1781062373139; Tue, 09 Jun 2026 20:32:53 -0700 (PDT)"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "From",
+        "value": "Po Poulet Montreal <popoulet.ca@gmail.com>"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 9 Jun 2026 23:32:41 -0400"
+      },
+      {
+        "name": "X-Gm-Features",
+        "value": "AVVi8CfDaf98wHsfchLrXkdJX3YEnXrq38MwKhO83s0-pwb65vFBUizcwGZ7vgk"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<CANkG3sjL7pUz-8RoU+eMxf3Hr1S-+zKhsvJum7B3EV8A7BtYdQ@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": ""
+      },
+      {
+        "name": "To",
+        "value": "\"TAKATAK.CA\" <takatak.ca@gmail.com>"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary=\"000000000000132f350653dde658\""
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "multipart/alternative",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/alternative; boundary=\"000000000000132f330653dde656\""
+          }
+        ],
+        "body": {
+          "size": 0,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": [
+          {
+            "part_id": "0.0",
+            "mime_type": "text/plain",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/plain; charset=\"UTF-8\""
+              }
+            ],
+            "body": {
+              "size": 2,
+              "base64_url_content": null,
+              "content": "\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          },
+          {
+            "part_id": "0.1",
+            "mime_type": "text/html",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=\"UTF-8\""
+              }
+            ],
+            "body": {
+              "size": 24,
+              "base64_url_content": null,
+              "content": "<div dir=\"auto\"></div>\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          }
+        ]
+      },
+      {
+        "part_id": "1",
+        "mime_type": "application/pdf",
+        "filename": "May 29, 2026.PDF",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/pdf; name=\"May 29, 2026.PDF\""
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"May 29, 2026.PDF\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "Content-ID",
+            "value": "<19eaf96d8ad318ac7dc1>"
+          },
+          {
+            "name": "X-Attachment-Id",
+            "value": "19eaf96d8ad318ac7dc1"
+          }
+        ],
+        "body": {
+          "size": 184909,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ8p4FkWBQxUh-RvvqSZ-j8EtXKmgRYy1o3lbcNJxfs85iMHddJjoTSWKlf3bWnG5g37lrxZHrZTdhlBfXBriBRekmDKiv5eUboJmcaA3Jk_8bPHHZM28_35bv1M8gKtCnxLTpYaEkccqmoTjvAwE53hoom82EK75EWP1XITfHKDSJ1m9IJoqhsHODgD639opmiISG-yXcPN0LXwVhjvRa5dFd5BZa4mQtjlYnnq3zuEhRLrzxuNgTYz3lM2GqEk3PaCCC__rawVBMl2Ubh1CpYoK4GIAQZkejAXxxAllJYYySDdVce3vN77SzTbzIU6RV5-FUH3wX48b3eLLzPYNqUgF0WtXCmjemR_fUzKctOvOIjOzZd7j2Y59UXKztyCCq7iP-4Yo-MK99NM"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 260350,
+  "classification_label_values": null
+}

@@ -1,0 +1,196 @@
+Source : https://mail.google.com/mail/u/2/#advanced-search/subset=all&has=in%3Aanywhere+%7BTZANET+TEZANET+TESANET+1000026855+1000026854%7D&within=1d&sizeoperator=s_sl&sizeunit=s_smb&query=%2253640-196353%22/QgrcJHrjCsBTKSmWNVMrlbhXPcvgfnddzJv
+
+  - button "Tout réduire":
+  - tooltip: Tout réduire
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - heading "(sans objet)" [active] [level=2]
+  - button "Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu":
+    - img "✉️"
+    - text: J'ai répondu
+  - tooltip: Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu
+  - button "Retirez l'étiquette ✉️ J'ai répondu de cette conversation": ×
+  - tooltip: Retirez l'étiquette ✉️ J'ai répondu de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📎 Pièces jointes":
+    - img "📎"
+    - text: Pièces jointes
+  - tooltip: Recherchez tous les messages avec l'étiquette 📎 Pièces jointes
+  - button "Retirez l'étiquette 📎 Pièces jointes de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📎 Pièces jointes de cette conversation
+  - list:
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mar. 29 sept. 17 h 07 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mar. 29 sept. 17 h 07 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mar. 29 sept. 17 h 07"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à Christian Afficher les détails":
+          - cell "à Christian Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à Christian Afficher les détails":
+                  - cell "à Christian Afficher les détails":
+                    - generic: à Christian
+                    - button "Afficher les détails"
+    - generic: 3 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes avec l'encodage":
+    - tooltip: Télécharger toutes les pièces jointes avec l'encodage
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-a:r6906024350149062770&th=1a0eefed20713ddf&view=att&disp=inline&realattid=1a0eefec0d2cf3185d81&zw
+      - generic: Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+      - generic: Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+      - generic: Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+    - button "Télécharger la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe final (1).xls Prévisualiser la pièce jointe final (1).xls":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-a:r6906024350149062770&th=1a0eefed20713ddf&view=att&disp=safe&realattid=1a0eefec0d2dd1dbca73&zw
+      - generic: Prévisualiser la pièce jointe final (1).xls
+      - generic: Prévisualiser la pièce jointe final (1).xls
+      - generic: final (1).xls
+    - button "Télécharger la pièce jointe final (1).xls":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque final (1).xls":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec Google Feuilles de calcul
+    - button "Utiliser Google Feuilles de calcul pour modifier la pièce jointe final (1).xls":
+    - tooltip: Modifier avec Google Feuilles de calcul
+    - link "Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.3&permmsgid=msg-a:r6906024350149062770&th=1a0eefed20713ddf&view=att&disp=inline&realattid=1a0eefec0d25f88f5a72&zw
+      - generic: Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf
+      - generic: Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf
+      - generic: Scan2026-04-03_120155.pdf
+    - button "Télécharger la pièce jointe Scan2026-04-03_120155.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Scan2026-04-03_120155.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mar. 29 sept. 17 h 54 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mar. 29 sept. 17 h 54 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mar. 29 sept. 17 h 54"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à cdufourd Afficher les détails":
+          - cell "à cdufourd Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à cdufourd Afficher les détails":
+                  - cell "à cdufourd Afficher les détails":
+                    - text: à
+                    - generic: cdufourd
+                    - button "Afficher les détails"
+    - text: "---------- Forwarded message ---------"
+    - text: "From:"
+    - strong: Oeuf Déjeuner
+    - text: <
+    - link "ooeuf.ca@gmail.com":
+      - /url: mailto:ooeuf.ca@gmail.com
+    - text: ">"
+    - text: "Date: Tue, Sep 29, 2026, 17:07"
+    - text: "Subject:"
+    - text: "To: Christian Dufourd <"
+    - link "christiandufourd@gmail.com":
+      - /url: mailto:christiandufourd@gmail.com
+    - text: ">"
+    - generic: 3 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes avec l'encodage":
+    - tooltip: Télécharger toutes les pièces jointes avec l'encodage
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-a:r-2883686860366205840&th=1a0ef295fcf7ef28&view=att&disp=inline&realattid=1a0eefec0d2cf3185d81&zw
+      - generic: Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+      - generic: Prévisualiser la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+      - generic: Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+    - button "Télécharger la pièce jointe Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe final (1).xls Prévisualiser la pièce jointe final (1).xls":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-a:r-2883686860366205840&th=1a0ef295fcf7ef28&view=att&disp=safe&realattid=1a0eefec0d2dd1dbca73&zw
+      - generic: Prévisualiser la pièce jointe final (1).xls
+      - generic: Prévisualiser la pièce jointe final (1).xls
+      - generic: final (1).xls
+    - button "Télécharger la pièce jointe final (1).xls":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque final (1).xls":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec Google Feuilles de calcul
+    - button "Utiliser Google Feuilles de calcul pour modifier la pièce jointe final (1).xls":
+    - tooltip: Modifier avec Google Feuilles de calcul
+    - link "Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.3&permmsgid=msg-a:r-2883686860366205840&th=1a0ef295fcf7ef28&view=att&disp=inline&realattid=1a0eefec0d25f88f5a72&zw
+      - generic: Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf
+      - generic: Prévisualiser la pièce jointe Scan2026-04-03_120155.pdf
+      - generic: Scan2026-04-03_120155.pdf
+    - button "Télécharger la pièce jointe Scan2026-04-03_120155.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Scan2026-04-03_120155.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+  - link "Répondre"
+  - link "Transférer"
+  - button "Ajouter une réaction":
+  - tooltip: Ajouter une réaction
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Page 1 sur 1

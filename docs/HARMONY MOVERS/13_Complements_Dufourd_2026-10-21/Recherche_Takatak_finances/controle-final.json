@@ -1,0 +1,38 @@
+{
+  "statut": "sources et propositions contrôlées; ne pas publier avant coordination",
+  "demandes": [
+    3,
+    4,
+    5,
+    13,
+    14,
+    17,
+    21,
+    22,
+    23
+  ],
+  "references": 199,
+  "sources_ajoutees_gmail": 12,
+  "pdf_nouveaux_archives": 112,
+  "pages_natives": 434,
+  "doordash": {
+    "pdf": 107,
+    "pages": 415,
+    "2024": 59,
+    "2025": 48,
+    "adresse6241": 87,
+    "adresse5837": 20
+  },
+  "etats2025_visuel": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "impot_visuel": [
+    1,
+    2
+  ],
+  "anciens_inputs_modifies": false
+}

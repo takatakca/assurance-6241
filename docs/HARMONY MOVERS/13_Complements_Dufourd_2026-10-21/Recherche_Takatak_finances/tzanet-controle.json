@@ -1,0 +1,59 @@
+{
+  "sources": [
+    "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Sales Quotation - 141455.pdf",
+    "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Sales Quotation - 141490.pdf",
+    "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/1000026855.jpg",
+    "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/1000026854.jpg"
+  ],
+  "controle_visuel": "Deux devis PDF, une page chacun, capture intégrale1000026855.jpg et photographie1000026854.jpg inspectés le21octobre2026.",
+  "141455": {
+    "date": "2025-07-28",
+    "client": "Quadro holding ltee",
+    "adresse": "5837 jean talon est, Saint Leonard",
+    "lignes": [
+      {
+        "modele": "PS528GNAT",
+        "quantite": 2,
+        "unitaire": 32000,
+        "total": 64000
+      },
+      {
+        "modele": "T920, vitrine 56 pouces",
+        "quantite": 1,
+        "unitaire": 12500,
+        "total": 12500
+      },
+      {
+        "modele": "MCOE5C2083-GAR",
+        "quantite": 2,
+        "unitaire": 6560,
+        "total": 13120
+      },
+      {
+        "modele": "T920, conversion kit Garland",
+        "quantite": 1,
+        "unitaire": 1000,
+        "total": 1000
+      }
+    ],
+    "sous_total": 90620,
+    "TPS": 4531,
+    "TVQ": 9039.35,
+    "grand_total": 104190.35,
+    "livraison": "exclue",
+    "nature": "Soumission commerciale de remplacement; prix susceptibles de varier; aucune preuve de commande, paiement, diagnostic, propriété ou état antérieur."
+  },
+  "141490": {
+    "date": "2025-07-28",
+    "client": "Les délice d’aden",
+    "sous_total_imprime": 61368.99,
+    "TPS_imprimee": 4012.45,
+    "TVQ_imprimee": 8004.84,
+    "grand_total_imprime": 70559.01,
+    "option_hickory_unitaire": 18879.99,
+    "option_hickory_total_imprime": "-",
+    "controle": "Le sous-total61368,99 avec les taux affichés donne70559,00 $ après arrondi, soit0,01 $ de moins que le grand total70559,01 imprimé. Les taxes imprimées4012,45 et8004,84 ne correspondent pas au sous-total : elles concordent à la base avec le sous-total augmenté de l’option18879,99. À confirmer par le fournisseur; aucun montant source corrigé ni cumul avec Quadro."
+  },
+  "1000026855.jpg": "Capture d’un courriel de Panos Liveris, Tzanet, indiquant que le modèle demandé est réservé à Tim Hortons et difficile à acquérir sauf liquidation. Ce n’est pas un rapport d’expertise ni une preuve de panne. La date complète n’est pas visible dans la capture; la provenance la rattache au transfert du 30 juillet 2025.",
+  "1000026854.jpg": "Photographie du même devis141455 daté28juillet2025 : même client Quadro, mêmes quatre lignes,90620 $ HT et104190,35 $ TTC. Version photographiée, non second devis à additionner; aucun rapport d’expertise."
+}

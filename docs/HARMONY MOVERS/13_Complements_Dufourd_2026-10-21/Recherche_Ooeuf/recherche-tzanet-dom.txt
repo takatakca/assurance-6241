@@ -1,0 +1,707 @@
+- iframe
+- link "Passer au contenu":
+  - /url: ""
+- link "Utiliser Gmail avec un lecteur d'écran":
+  - /url: ""
+- heading [level=1]:
+  - banner:
+    - button "Menu principal":
+    - link "Gmail":
+      - /url: "#inbox"
+    - search:
+      - heading "Rechercher" [level=2]
+      - button "Rechercher dans les courriels":
+    - button "Assistance":
+    - button "Paramètres":
+    - button "Essayer Gemini"
+    - tooltip: Essayer Gemini
+    - link "Mettre à niveau":
+      - generic: Mettre à niveau
+    - tooltip: Mettre à niveau pour bénéficier des fonctionnalités premium
+    - button "Applications Google":
+    - 'button "Compte Google : Oeuf Déjeuner (ooeuf.ca@gmail.com)"':
+- alert
+- navigation:
+  - button "Nouveau message"
+  - generic "Étiquettes":
+    - heading "Étiquettes" [level=2]
+    - link "Boîte de réception 661 messages non lus":
+      - /url: https://mail.google.com/mail/u/2/#inbox
+      - text: Boîte de réception
+    - generic: "661"
+    - link "Favoris":
+      - /url: https://mail.google.com/mail/u/2/#starred
+    - link "Reportés":
+      - /url: https://mail.google.com/mail/u/2/#snoozed
+    - link "Messages envoyés":
+      - /url: https://mail.google.com/mail/u/2/#sent
+    - link "Brouillons 71 messages non lus":
+      - /url: https://mail.google.com/mail/u/2/#drafts
+      - text: Brouillons
+    - generic: "71"
+    - link "Achats 294 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#category/purchases
+      - text: Achats
+    - generic: "294"
+    - button "Plus d'étiquettes":
+      - generic: Plus
+  - button "Créer un nouvelle étiquette"
+  - generic "Étiquettes":
+    - heading "Étiquettes" [level=2]
+    - link "✉️ J'ai répondu 16 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%E2%9C%89%EF%B8%8F+J%27ai+r%C3%A9pondu
+      - img "✉️"
+      - text: J'ai répondu
+    - generic: "16"
+    - link "🌐 Web & Hébergement 645 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8C%90+Web+&+H%C3%A9bergement
+      - img "🌐"
+      - text: Web & Hébergement
+    - generic: "645"
+    - 'link "Réduire l''étiquette : 🍔 Plateformes"'
+    - link "🍔 Plateformes développé contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes
+      - img "🍔"
+      - text: Plateformes
+    - link "Clover 115 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/Clover
+      - text: Clover
+    - generic: "115"
+    - link "DoorDash 1270 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/DoorDash
+      - text: DoorDash
+    - generic: 1 270
+    - link "SkipTheDishes 102 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/SkipTheDishes
+      - text: SkipTheDishes
+    - generic: "102"
+    - link "Too Good To Go 134 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/Too+Good+To+Go
+      - text: Too Good To Go
+    - generic: "134"
+    - link "Uber Eats 13 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/Uber+Eats
+      - text: Uber Eats
+    - generic: "13"
+    - link "UrbanPiper contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/UrbanPiper
+      - text: UrbanPiper
+    - link "🎨 Logiciels contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8E%A8+Logiciels
+      - img "🎨"
+      - text: Logiciels
+    - link "🏛️ Gouvernement & Impôts 37 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8F%9B%EF%B8%8F+Gouvernement+&+Imp%C3%B4ts
+      - img "🏛️"
+      - text: Gouvernement & Impôts
+    - generic: "37"
+    - link "🏠 Maison & Auto contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8F%A0+Maison+&+Auto
+      - img "🏠"
+      - text: Maison & Auto
+    - link "🏦 Banque & Finances 185 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8F%A6+Banque+&+Finances
+      - img "🏦"
+      - text: Banque & Finances
+    - generic: "185"
+    - link "👨‍👩‍👧‍👦 Famille & Amis contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%91%A8%E2%80%8D%F0%9F%91%A9%E2%80%8D%F0%9F%91%A7%E2%80%8D%F0%9F%91%A6+Famille+&+Amis
+      - img "👨‍👩‍👧‍👦"
+      - text: Famille & Amis
+    - link "💼 Clients contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%92%BC+Clients
+      - img "💼"
+      - text: Clients
+    - link "📈 WeGoTrade contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%88+WeGoTrade
+      - img "📈"
+      - text: WeGoTrade
+    - link "📌 Reste dans la boîte 149 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%8C+Reste+dans+la+bo%C3%AEte
+      - img "📌"
+      - text: Reste dans la boîte
+    - generic: "149"
+    - link "📎 Pièces jointes 187 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%8E+Pi%C3%A8ces+jointes
+      - img "📎"
+      - text: Pièces jointes
+    - generic: "187"
+    - link "📰 Infolettres utiles contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%B0+Infolettres+utiles
+      - img "📰"
+      - text: Infolettres utiles
+    - link "🔎 Ancien tri 9 (à vérifier) 3470 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%94%8E+Ancien+tri+9+%28%C3%A0+v%C3%A9rifier%29
+      - img "🔎"
+      - text: Ancien tri 9 (à vérifier)
+    - generic: 3 470
+    - link "🗑️ Pubs à jeter contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%97%91%EF%B8%8F+Pubs+%C3%A0+jeter
+      - img "🗑️"
+      - text: Pubs à jeter
+    - link "🧾 Factures & Reçus 261 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%A7%BE+Factures+&+Re%C3%A7us
+      - img "🧾"
+      - text: Factures & Reçus
+    - generic: "261"
+    - link "🛒 Achats & Livraisons contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%9B%92+Achats+&+Livraisons
+      - img "🛒"
+      - text: Achats & Livraisons
+    - link "print resto contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/print+resto
+      - text: print resto
+- main:
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 18
+    - text: sur 18
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., documentation de Tezanet concernant l'évaluation des équipements. 18. Produire les vidéos et les photos prises par.":
+        - gridcell
+        - gridcell "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., documentation de Tezanet concernant l'évaluation des équipements. 18. Produire les vidéos et les photos prises par.":
+          - checkbox "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., documentation de Tezanet concernant l'évaluation des équipements. 18. Produire les vidéos et les photos prises par."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "cdufourd, moi 2":
+          - generic: cdufourd, moi
+          - generic: "2"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - documentation de Tezanet concernant l'évaluation des équipements. 18. Produire les vidéos et les photos prises par":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - documentation de Tezanet concernant l'évaluation des équipements. 18. Produire les vidéos et les photos prises par":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Votre dossier - Dufourd, Dion Avocats
+            - generic: "-"
+            - text: documentation de Tezanet concernant l'évaluation des équipements. 18. Produire les vidéos et les photos prises par
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "lun. 5 oct. 2026 14 h 29":
+          - generic "lun. 5 oct. 2026 14 h 29": 5 oct.
+        - gridcell
+      - 'row "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+        - gridcell
+        - 'gridcell "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+          - 'checkbox "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To Pièce jointe : Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf Pièce jointe : final (1).xls Pièce jointe : Scan2026-04-03_120155.pdf"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"
+          - generic "Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+            - generic: "Pièce jointe :"
+            - generic: Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+          - generic "final (1).xls":
+            - generic: "Pièce jointe :"
+            - generic: final (1).xls
+          - generic "Scan2026-04-03_120155.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Scan2026-04-03_120155.pdf
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 17 h 54":
+          - generic "mar. 29 sept. 2026 17 h 54": 29 sept.
+        - gridcell
+      - row "moi, Document demander, 3 juin, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons.":
+        - gridcell
+        - gridcell "moi, Document demander, 3 juin, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons.":
+          - checkbox "moi, Document demander, 3 juin, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - gridcell "✉️ J'ai répondu Document demander - chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons":
+          - link "✉️ J'ai répondu Document demander - chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Document demander
+            - generic: "-"
+            - text: chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons
+        - gridcell
+        - gridcell "mer. 3 juin 2026 17 h 06":
+          - generic "mer. 3 juin 2026 17 h 06": 3 juin
+        - gridcell
+      - 'row "moi, Message chronologie, 1 juin, [06-01, 15:39] Groupe Takatak: Voici le rapport complet réécrit ici, en format propre pour ton avocat."':
+        - gridcell
+        - 'gridcell "moi, Message chronologie, 1 juin, [06-01, 15:39] Groupe Takatak: Voici le rapport complet réécrit ici, en format propre pour ton avocat."':
+          - 'checkbox "moi, Message chronologie, 1 juin, [06-01, 15:39] Groupe Takatak: Voici le rapport complet réécrit ici, en format propre pour ton avocat."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu Message chronologie - [06-01, 15:39] Groupe Takatak: Voici le rapport complet réécrit ici, en format propre pour ton avocat"':
+          - 'link "✉️ J''ai répondu Message chronologie - [06-01, 15:39] Groupe Takatak: Voici le rapport complet réécrit ici, en format propre pour ton avocat"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Message chronologie
+            - generic: "-"
+            - text: "[06-01, 15:39] Groupe Takatak: Voici le rapport complet réécrit ici, en format propre pour ton avocat"
+        - gridcell
+        - gridcell "lun. 1 juin 2026 17 h 12":
+          - generic "lun. 1 juin 2026 17 h 12": 1 juin
+        - gridcell
+      - 'row "moi, Fwd: 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 IMPORTANT M......., 1 juin, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."':
+        - gridcell
+        - 'gridcell "moi, Fwd: 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 IMPORTANT M......., 1 juin, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."':
+          - 'checkbox "moi, Fwd: 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 IMPORTANT M......., 1 juin, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "Fwd: 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 IMPORTANT M....... - chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons"':
+          - 'link "Fwd: 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 IMPORTANT M....... - chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons"':
+            - generic: "Fwd: 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 IMPORTANT M......."
+            - generic: "-"
+            - text: chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons
+        - gridcell
+        - gridcell "lun. 1 juin 2026 15 h 01":
+          - generic "lun. 1 juin 2026 15 h 01": 1 juin
+        - gridcell
+      - 'row "marquée d''une étoile, moi, yan 8, Objet : Réponse formelle à votre offre de règlement, contient une pièce jointe, 30 mai, >> tes nouvelles occupations ? >>>> >>>> Qu''est ce qui se passe avec Harmony ? Et ta."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi, yan 8, Objet : Réponse formelle à votre offre de règlement, contient une pièce jointe, 30 mai, >> tes nouvelles occupations ? >>>> >>>> Qu''est ce qui se passe avec Harmony ? Et ta."':
+          - 'checkbox "marquée d''une étoile, moi, yan 8, Objet : Réponse formelle à votre offre de règlement, contient une pièce jointe, 30 mai, >> tes nouvelles occupations ? >>>> >>>> Qu''est ce qui se passe avec Harmony ? Et ta."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi, yan 8":
+          - generic: moi, yan
+          - generic: "8"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… Objet : Réponse formelle à votre offre de règlement - >> tes nouvelles occupations ? >>>> >>>> Qu''est ce qui se passe avec Harmony ? Et ta Pièce jointe : swvdh5ky.png Pièce jointe : yugcuenh.png Pièce jointe : 2rwh1bji.png 8 autres pièces jointes"':
+          - 'link "Boîte de réception 🏛️ Gouvernement & Impô… Objet : Réponse formelle à votre offre de règlement - >> tes nouvelles occupations ? >>>> >>>> Qu''est ce qui se passe avec Harmony ? Et ta"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic: "Objet : Réponse formelle à votre offre de règlement"
+            - generic: "-"
+            - text: ">> tes nouvelles occupations ? >>>> >>>> Qu'est ce qui se passe avec Harmony ? Et ta"
+          - generic "swvdh5ky.png":
+            - generic: "Pièce jointe :"
+            - generic: swvdh5ky.png
+          - generic "yugcuenh.png":
+            - generic: "Pièce jointe :"
+            - generic: yugcuenh.png
+          - generic "2rwh1bji.png":
+            - generic: "Pièce jointe :"
+            - generic: 2rwh1bji.png
+          - generic "8 autres pièces jointes":
+            - button "8 autres pièces jointes": "+8"
+        - gridcell:
+          - toolbar:
+        - gridcell
+      - 'row "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Mon, Mar 2, 2026, 23:26 Subject: Fwd."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Mon, Mar 2, 2026, 23:26 Subject: Fwd."':
+          - 'checkbox "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Mon, Mar 2, 2026, 23:26 Subject: Fwd."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Nick, takatak, moi 6":
+          - generic: Nick, takatak, moi
+          - generic: "6"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes excel - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Mon, Mar 2, 2026, 23:26 Subject: Fwd Pièce jointe : final.xls Pièce jointe : quadro excel sort.xls Pièce jointe : quadro excel sort.xls"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes excel - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Mon, Mar 2, 2026, 23:26 Subject: Fwd"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: excel
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Mon, Mar 2, 2026, 23:26 Subject: Fwd"
+          - generic "final.xls":
+            - generic: "Pièce jointe :"
+            - generic: final.xls
+          - generic "quadro excel sort.xls":
+            - generic: "Pièce jointe :"
+            - generic: quadro excel sort.xls
+          - generic "quadro excel sort.xls":
+            - generic: "Pièce jointe :"
+            - generic: quadro excel sort.xls
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 45":
+          - generic "mer. 27 mai 2026 11 h 45": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."':
+          - 'checkbox "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Nick, moi 8":
+          - generic: Nick, moi
+          - generic: "8"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Financials - Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax Pièce jointe : 1000100361.jpg Pièce jointe : 1000100365.jpg Pièce jointe : 1000100367.jpg 4 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Financials - Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Financials
+            - generic: "-"
+            - text: "Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax"
+          - generic "1000100361.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100361.jpg
+          - generic "1000100365.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100365.jpg
+          - generic "1000100367.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100367.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, moi 8, (aucun objet), contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi 8, (aucun objet), contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:."':
+          - 'checkbox "marquée d''une étoile, moi 8, (aucun objet), contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi 8":
+          - generic: moi
+          - generic: "8"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject: Pièce jointe : 1000032173.jpg Pièce jointe : Gmail - Signature.PDF Pièce jointe : Gmail.PDF 26 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:"
+          - generic "1000032173.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000032173.jpg
+          - generic "Gmail - Signature.PDF":
+            - generic: "Pièce jointe :"
+            - generic: Gmail - Signature.PDF
+          - generic "Gmail.PDF":
+            - generic: "Pièce jointe :"
+            - generic: Gmail.PDF
+          - generic "26 autres pièces jointes":
+            - button "26 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 43":
+          - generic "mer. 27 mai 2026 11 h 43": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Joey, yan, moi 10, 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833, contient une pièce jointe, 5 mai, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Joey, yan, moi 10, 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833, contient une pièce jointe, 5 mai, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."':
+          - 'checkbox "marquée d''une étoile, Joey, yan, moi 10, 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833, contient une pièce jointe, 5 mai, chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Joey, yan, moi 10":
+          - generic: Joey, yan, moi
+          - generic: "10"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 - chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons Pièce jointe : Copie de Sommaire 8697230 Canada 24110-4833 20 Août 2025 version (004).xlsx"':
+          - 'link "Boîte de réception 🏛️ Gouvernement & Impô… 24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 - chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic: "24110-4833;Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833"
+            - generic: "-"
+            - text: chez > Tzanet aussitôt que le paiement sera octroyé dans les autres réclamations > si jointes. > Nous vous avons
+          - generic "Copie de Sommaire 8697230 Canada 24110-4833 20 Août 2025 version (004).xlsx":
+            - generic: "Pièce jointe :"
+            - generic: Copie de Sommaire 8697230 Canada 24110-4833 20 Août 2025 version (004).xlsx
+        - gridcell
+        - gridcell "mar. 5 mai 2026 13 h 47":
+          - generic "mar. 5 mai 2026 13 h 47": 5 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Joey, Brouillon, moi 9, 24110-4833Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833, contient une pièce jointe, 3 févr., présentement chez TZANET pour une évaluation > approfondie. > Le congélateur c''est le compressor a l''eau."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Joey, Brouillon, moi 9, 24110-4833Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833, contient une pièce jointe, 3 févr., présentement chez TZANET pour une évaluation > approfondie. > Le congélateur c''est le compressor a l''eau."':
+          - 'checkbox "marquée d''une étoile, Joey, Brouillon, moi 9, 24110-4833Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833, contient une pièce jointe, 3 févr., présentement chez TZANET pour une évaluation > approfondie. > Le congélateur c''est le compressor a l''eau."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Joey, Brouillon, moi 9":
+          - generic: Joey, Brouillon, moi
+          - generic: "9"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… 24110-4833Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 - présentement chez TZANET pour une évaluation > approfondie. > Le congélateur c''est le compressor a l''eau Pièce jointe : Copie de Sommaire 8697230 Canada 24110-4833 20 Août 2025 version (004).xlsx Pièce jointe : Demande d''indemnité provisoire mais final équipements et marchandises.doc_.doc"':
+          - 'link "Boîte de réception 🏛️ Gouvernement & Impô… 24110-4833Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833 - présentement chez TZANET pour une évaluation > approfondie. > Le congélateur c''est le compressor a l''eau"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic: "24110-4833Réclamation / Date du sinistre: 10 juin 2024 / Notre dossier: 24110-4833"
+            - generic: "-"
+            - text: présentement chez TZANET pour une évaluation > approfondie. > Le congélateur c'est le compressor a l'eau
+          - generic "Copie de Sommaire 8697230 Canada 24110-4833 20 Août 2025 version (004).xlsx":
+            - generic: "Pièce jointe :"
+            - generic: Copie de Sommaire 8697230 Canada 24110-4833 20 Août 2025 version (004).xlsx
+          - generic "Demande d'indemnité provisoire mais final équipements et marchandises.doc_.doc":
+            - generic: "Pièce jointe :"
+            - generic: Demande d'indemnité provisoire mais final équipements et marchandises.doc_.doc
+        - gridcell
+        - gridcell "mar. 3 févr. 2026 14 h 39":
+          - generic "mar. 3 févr. 2026 14 h 39": 3 févr.
+        - gridcell
+      - row "moi, Reponse a votre courriel, 2025-10-29, présentement chez TZANET pour une évaluation approfondie*. *Le congélateur a un compresseur à eau et n'est pas réparable.":
+        - gridcell
+        - gridcell "moi, Reponse a votre courriel, 2025-10-29, présentement chez TZANET pour une évaluation approfondie*. *Le congélateur a un compresseur à eau et n'est pas réparable.":
+          - checkbox "moi, Reponse a votre courriel, 2025-10-29, présentement chez TZANET pour une évaluation approfondie*. *Le congélateur a un compresseur à eau et n'est pas réparable."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - gridcell "✉️ J'ai répondu Reponse a votre courriel - présentement chez TZANET pour une évaluation approfondie*. *Le congélateur a un compresseur à eau et n'est pas réparable":
+          - link "✉️ J'ai répondu Reponse a votre courriel - présentement chez TZANET pour une évaluation approfondie*. *Le congélateur a un compresseur à eau et n'est pas réparable":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Reponse a votre courriel
+            - generic: "-"
+            - text: présentement chez TZANET pour une évaluation approfondie*. *Le congélateur a un compresseur à eau et n'est pas réparable
+        - gridcell
+        - gridcell "mer. 29 oct. 2025 13 h 11":
+          - generic "mer. 29 oct. 2025 13 h 11": 2025-10-29
+        - gridcell
+      - 'row "marquée d''une étoile, moi, Panos 16, Quotation, contient une pièce jointe, 2025-10-21, panos@tzanet.ca > > [image: Icon Description automatically generated] > > > > [image: Facebook] [."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi, Panos 16, Quotation, contient une pièce jointe, 2025-10-21, panos@tzanet.ca > > [image: Icon Description automatically generated] > > > > [image: Facebook] [."':
+          - 'checkbox "marquée d''une étoile, moi, Panos 16, Quotation, contient une pièce jointe, 2025-10-21, panos@tzanet.ca > > [image: Icon Description automatically generated] > > > > [image: Facebook] [."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi, Panos 16":
+          - generic: moi, Panos
+          - generic: "16"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📌 Reste dans la boîte 📎 Pièces jointes Quotation - panos@tzanet.ca > > [image: Icon Description automatically generated] > > > > [image: Facebook] [ Pièce jointe : Sales Quotation - 141490.pdf Pièce jointe : Sales Quotation - 141455.pdf 8 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📌 Reste dans la boîte 📎 Pièces jointes Quotation - panos@tzanet.ca > > [image: Icon Description automatically generated] > > > > [image: Facebook] ["':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Quotation
+            - generic: "-"
+            - text: "panos@tzanet.ca > > [image: Icon Description automatically generated] > > > > [image: Facebook] ["
+          - generic "Sales Quotation - 141490.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Sales Quotation - 141490.pdf
+          - generic "Sales Quotation - 141455.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Sales Quotation - 141455.pdf
+          - generic "8 autres pièces jointes":
+            - button "8 autres pièces jointes": "+8"
+        - gridcell
+        - gridcell "mar. 21 oct. 2025 10 h 28":
+          - generic "mar. 21 oct. 2025 10 h 28": 2025-10-21
+        - gridcell
+      - row "marquée d'une étoile, moi, Réponse 18/10/2025, 2025-10-18, soumission de tzanet. Et pour le reste nous sommes prêts a considérer l'offre global faite par vous dans nos derniers.":
+        - gridcell
+        - gridcell "marquée d'une étoile, moi, Réponse 18/10/2025, 2025-10-18, soumission de tzanet. Et pour le reste nous sommes prêts a considérer l'offre global faite par vous dans nos derniers.":
+          - checkbox "marquée d'une étoile, moi, Réponse 18/10/2025, 2025-10-18, soumission de tzanet. Et pour le reste nous sommes prêts a considérer l'offre global faite par vous dans nos derniers."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi":
+          - generic: moi
+        - gridcell "✉️ J'ai répondu Réponse 18/10/2025 - soumission de tzanet. Et pour le reste nous sommes prêts a considérer l'offre global faite par vous dans nos derniers":
+          - link "✉️ J'ai répondu Réponse 18/10/2025 - soumission de tzanet. Et pour le reste nous sommes prêts a considérer l'offre global faite par vous dans nos derniers":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Réponse 18/10/2025
+            - generic: "-"
+            - text: soumission de tzanet. Et pour le reste nous sommes prêts a considérer l'offre global faite par vous dans nos derniers
+        - gridcell
+        - gridcell "sam. 18 oct. 2025 16 h 12":
+          - generic "sam. 18 oct. 2025 16 h 12": 2025-10-18
+        - gridcell
+      - 'row "moi, Objet : Réponse formelle à votre offre de règlement(ASSURANCE), contient une pièce jointe, 2025-09-24, transféré chez TZANET pour une évaluation technique finale afin de déterminer s''il peut être réparé. Compte tenu de."':
+        - gridcell
+        - 'gridcell "moi, Objet : Réponse formelle à votre offre de règlement(ASSURANCE), contient une pièce jointe, 2025-09-24, transféré chez TZANET pour une évaluation technique finale afin de déterminer s''il peut être réparé. Compte tenu de."':
+          - 'checkbox "moi, Objet : Réponse formelle à votre offre de règlement(ASSURANCE), contient une pièce jointe, 2025-09-24, transféré chez TZANET pour une évaluation technique finale afin de déterminer s''il peut être réparé. Compte tenu de."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "Objet : Réponse formelle à votre offre de règlement(ASSURANCE) - transféré chez TZANET pour une évaluation technique finale afin de déterminer s''il peut être réparé. Compte tenu de Pièce jointe : 1000042559.jpg Pièce jointe : 1000042557.jpg Pièce jointe : 1000042561.jpg 2 autres pièces jointes"':
+          - 'link "Objet : Réponse formelle à votre offre de règlement(ASSURANCE) - transféré chez TZANET pour une évaluation technique finale afin de déterminer s''il peut être réparé. Compte tenu de"':
+            - generic: "Objet : Réponse formelle à votre offre de règlement(ASSURANCE)"
+            - generic: "-"
+            - text: transféré chez TZANET pour une évaluation technique finale afin de déterminer s'il peut être réparé. Compte tenu de
+          - generic "1000042559.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000042559.jpg
+          - generic "1000042557.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000042557.jpg
+          - generic "1000042561.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000042561.jpg
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "mer. 24 sept. 2025 01 h 22":
+          - generic "mer. 24 sept. 2025 01 h 22": 2025-09-24
+        - gridcell
+      - 'row "takatak ca, Fwd: Factures et suivi des équipements, contient une pièce jointe, 2025-08-22, comptoir chez Tzanet. Je crois donc que la seule solution est d''effectuer le paiement du solde pour les autres articles."':
+        - gridcell
+        - 'gridcell "takatak ca, Fwd: Factures et suivi des équipements, contient une pièce jointe, 2025-08-22, comptoir chez Tzanet. Je crois donc que la seule solution est d''effectuer le paiement du solde pour les autres articles."':
+          - 'checkbox "takatak ca, Fwd: Factures et suivi des équipements, contient une pièce jointe, 2025-08-22, comptoir chez Tzanet. Je crois donc que la seule solution est d''effectuer le paiement du solde pour les autres articles."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "takatak ca":
+          - generic: takatak ca
+        - 'gridcell "Boîte de réception 📎 Pièces jointes Fwd: Factures et suivi des équipements - comptoir chez Tzanet. Je crois donc que la seule solution est d''effectuer le paiement du solde pour les autres articles Pièce jointe : 1000036523.jpg Pièce jointe : 1000036527.jpg Pièce jointe : 1000036525.jpg 1 autre pièce jointe"':
+          - 'link "Boîte de réception 📎 Pièces jointes Fwd: Factures et suivi des équipements - comptoir chez Tzanet. Je crois donc que la seule solution est d''effectuer le paiement du solde pour les autres articles"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fwd: Factures et suivi des équipements"
+            - generic: "-"
+            - text: comptoir chez Tzanet. Je crois donc que la seule solution est d'effectuer le paiement du solde pour les autres articles
+          - generic "1000036523.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000036523.jpg
+          - generic "1000036527.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000036527.jpg
+          - generic "1000036525.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000036525.jpg
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "ven. 22 août 2025 17 h 02":
+          - generic "ven. 22 août 2025 17 h 02": 2025-08-22
+        - gridcell
+      - 'row "Joey, moi 3, 24110-4833TR: Demande de Remplacement d''équipement, contient une pièce jointe, 2025-08-05, ''expertise TZANET . >> >> >> >> Maintenant pour le comptoir refrigerator nous allons procéder."':
+        - gridcell
+        - 'gridcell "Joey, moi 3, 24110-4833TR: Demande de Remplacement d''équipement, contient une pièce jointe, 2025-08-05, ''expertise TZANET . >> >> >> >> Maintenant pour le comptoir refrigerator nous allons procéder."':
+          - 'checkbox "Joey, moi 3, 24110-4833TR: Demande de Remplacement d''équipement, contient une pièce jointe, 2025-08-05, ''expertise TZANET . >> >> >> >> Maintenant pour le comptoir refrigerator nous allons procéder."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Joey, moi 3":
+          - generic: Joey, moi
+          - generic: "3"
+        - 'gridcell "🏛️ Gouvernement & Impô… 24110-4833TR: Demande de Remplacement d''équipement - ''expertise TZANET . >> >> >> >> Maintenant pour le comptoir refrigerator nous allons procéder Pièce jointe : 1000026855.jpg Pièce jointe : 1000026854.jpg"':
+          - 'link "🏛️ Gouvernement & Impô… 24110-4833TR: Demande de Remplacement d''équipement - ''expertise TZANET . >> >> >> >> Maintenant pour le comptoir refrigerator nous allons procéder"':
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic: "24110-4833TR: Demande de Remplacement d'équipement"
+            - generic: "-"
+            - text: "'expertise TZANET . >> >> >> >> Maintenant pour le comptoir refrigerator nous allons procéder"
+          - generic "1000026855.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000026855.jpg
+          - generic "1000026854.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000026854.jpg
+        - gridcell
+        - gridcell "mar. 5 août 2025 15 h 48":
+          - generic "mar. 5 août 2025 15 h 48": 2025-08-05
+        - gridcell
+      - row "moi, Brouillon 2, Demande de Remplacement d'équipement , contient une pièce jointe, 2025-07-30, 'expertise TZANET . > > Maintenant pour le comptoir refrigerator nous allons procéder a l'achat > pour.":
+        - gridcell
+        - gridcell "moi, Brouillon 2, Demande de Remplacement d'équipement , contient une pièce jointe, 2025-07-30, 'expertise TZANET . > > Maintenant pour le comptoir refrigerator nous allons procéder a l'achat > pour.":
+          - checkbox "moi, Brouillon 2, Demande de Remplacement d'équipement , contient une pièce jointe, 2025-07-30, 'expertise TZANET . > > Maintenant pour le comptoir refrigerator nous allons procéder a l'achat > pour."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi, Brouillon 2":
+          - generic: moi, Brouillon
+          - generic: "2"
+        - 'gridcell "Demande de Remplacement d''équipement - ''expertise TZANET . > > Maintenant pour le comptoir refrigerator nous allons procéder a l''achat > pour Pièce jointe : 1000026855.jpg Pièce jointe : 1000026854.jpg"':
+          - link "Demande de Remplacement d'équipement - 'expertise TZANET . > > Maintenant pour le comptoir refrigerator nous allons procéder a l'achat > pour":
+            - generic: Demande de Remplacement d'équipement
+            - generic: "-"
+            - text: "'expertise TZANET . > > Maintenant pour le comptoir refrigerator nous allons procéder a l'achat > pour"
+          - generic "1000026855.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000026855.jpg
+          - generic "1000026854.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000026854.jpg
+        - gridcell
+        - gridcell "mer. 30 juill. 2025 18 h 49":
+          - generic "mer. 30 juill. 2025 18 h 49": 2025-07-30
+        - gridcell
+- generic: Page 1 sur 2

@@ -1,0 +1,1192 @@
+
+  - button "Tout réduire":
+  - tooltip: Tout réduire
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - 'heading "Fw: RE: Re[2]: Situation de transport 12 Juin 2025" [active] [level=2]'
+  - button "Recherchez tous les messages avec l'étiquette Boîte de réception": Boîte de réception
+  - tooltip: Recherchez tous les messages avec l'étiquette Boîte de réception
+  - button "Retirez l'étiquette Boîte de réception de cette conversation": ×
+  - tooltip: Retirez l'étiquette Boîte de réception de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu":
+    - img "✉️"
+    - text: J'ai répondu
+  - tooltip: Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu
+  - button "Retirez l'étiquette ✉️ J'ai répondu de cette conversation": ×
+  - tooltip: Retirez l'étiquette ✉️ J'ai répondu de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📎 Pièces jointes":
+    - img "📎"
+    - text: Pièces jointes
+  - tooltip: Recherchez tous les messages avec l'étiquette 📎 Pièces jointes
+  - button "Retirez l'étiquette 📎 Pièces jointes de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📎 Pièces jointes de cette conversation
+  - list:
+    - table:
+      - rowgroup:
+        - row "Accounting @ Harmony Movers accounting@harmonymovers.com Pièces jointes ven. 15 août 2025 11 h 02 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+            - table:
+              - rowgroup:
+                - row "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                  - cell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                    - heading "Accounting @ Harmony Movers accounting@harmonymovers.com" [level=3]:
+                      - gridcell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                        - generic: Accounting @ Harmony Movers
+                        - generic: <accounting@harmonymovers.com>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 15 août 2025 11 h 02 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "ven. 15 août 2025 11 h 02"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à plevesquesmtl@gmail.com, Service, moi Afficher les détails":
+          - cell "à plevesquesmtl@gmail.com, Service, moi Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à plevesquesmtl@gmail.com, Service, moi Afficher les détails":
+                  - cell "à plevesquesmtl@gmail.com, Service, moi Afficher les détails":
+                    - generic: à plevesquesmtl@gmail.com, Service, moi
+                    - button "Afficher les détails"
+    - generic: Bonjour, voilà la copie du courriel envoyé le 22 Juillet. SVP confirmer sa réception.
+    - paragraph:
+      - generic: Bonjour
+    - paragraph
+    - paragraph:
+      - text: Comme convenu aujourd’hui dans le cadre de notre entente à l’amiable, veuillez trouver ci-joint la facture.
+      - text: "Le paiement peut être effectué directement en suivant ce lien:"
+    - paragraph
+    - paragraph:
+      - link "https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db":
+        - /url: https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db
+        - text: https://invoice.stripe.com/i/
+        - text: acct_1QXRHoLXg3uKDkyS/live_
+        - text: YWNjdF8xUVhSSG9MWGczdUtEa3lTLF
+        - text: 9TakVZQTJWQ0RmT1VaVUtMcUhHdzVz
+        - text: OEtPWXFxeTRNLDE0Mzc1NDM0NA0200
+        - text: enPoKwfN?s=db
+    - paragraph
+    - paragraph:
+      - generic: Pour rappel, voici les modalités convenues -
+    - paragraph
+    - paragraph:
+      - generic: • Un transporteur mandaté par vos soins pourra venir récupérer l’ensemble de vos biens à notre entrepôt. Aucune autre intervention (par exemple, livraison à un autre endroit, ou collecte d'autres biens vous appartenant qui ne sont pas déjà entreposés chez nous) n’est incluse dans cette entente.
+    - paragraph:
+      - generic: • Le chargement de vos biens dans ces camions sera entièrement sous la responsabilité de ce transporteur. De notre côté, un surintendant sera présent sur place pour superviser l’opération. Cette supervision n’incombera pas de frais supplémentaires et aucun membre de notre équipe n’assistera votre transporteur dans le chargement des biens.
+    - paragraph:
+      - generic: • Une fois les biens récupérés et chargés dans les camions du transporteur mandaté, notre relation d’affaires prendra fin.
+    - paragraph:
+      - generic: "De plus, avant d'autoriser l'accès à notre entrepôt, les conditions suivantes devront être remplies:"
+    - paragraph:
+      - generic: • La facture devra être entièrement réglée
+    - paragraph:
+      - generic: • Le nom de la société de transport devra nous être transmis
+    - paragraph:
+      - generic: • Les noms des intervenants qui se présenteront sur place devront être communiqués, avec un préavis d’au moins 24 heures
+    - paragraph:
+      - text: Finalement, cette intervention demeure possible jusqu’au Vendredi le 25 Juillet 2025 12:00, heure de l’est. Faute de quoi, cette entente sera invalidée.
+      - text: Merci de bien vouloir confirmer la réception de ce courriel et de procéder au paiement à votre convenance
+    - paragraph
+    - paragraph
+    - paragraph: La facture vient également d'être envoyée à cette adresse courriel. Si vous préférez régler la facture par téléphone, nous pouvons le faire également.
+    - paragraph
+    - paragraph: Merci
+    - paragraph
+    - paragraph:
+      - generic: Lev Jampolsky
+    - paragraph: Directeur Administratif - Administrative Director
+    - paragraph:
+      - link:
+        - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+      - generic: "Phone:"
+      - text: (514)
+      - link:
+        - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+      - text: 866-5550 ext. 107
+    - paragraph
+    - paragraph:
+      - link "1600 55e Avenue":
+        - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - link "Lachine, QC H8T 3J5":
+        - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - generic: "Email:"
+      - link "accounting@harmonymovers.com":
+        - /url: mailto:accounting@harmonymovers.com
+        - text: accounting@
+        - text: harmonymovers.com
+    - paragraph:
+      - generic: "Web:"
+      - link "www.harmonymovers.com":
+        - /url: http://www.harmonymovers.com/
+    - paragraph: Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue
+    - paragraph:
+    - paragraph: Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!
+    - paragraph: Déménagement Martineau & EZ Move are now part of the Harmony Movers family!
+    - paragraph: Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram
+    - paragraph:
+      - link "Icon Description automatically generated":
+        - /url: https://www.facebook.com/harmonymoversinc
+        - img "Icon Description automatically generated"
+      - link "Icon Description automatically generated":
+        - /url: https://www.instagram.com/harmonymovers_transportez/
+        - img "Icon Description automatically generated"
+    - paragraph:
+      - 'img "Title: Hexagon bar - Description: Hexagon bar"'
+    - paragraph
+    - paragraph:
+      - generic: "Confidentiality Warning :"
+      - generic: This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed. If you have received this message in error, please inform the sender via e-mail and destroy the message. If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part of this message is strictly prohibited.
+      - generic: "Information confidentielle:"
+      - generic: Ce message et toutes les pièces jointes qu'il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l'entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes pas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.
+    - generic: "------ Forwarded Message ------"
+    - text: From "Accounting @ Harmony Movers" <
+    - link "accounting@harmonymovers.com":
+      - /url: mailto:accounting@harmonymovers.com
+    - text: ">"
+    - text: To "Oeuf Déjeuner" <
+    - link "ooeuf.ca@gmail.com":
+      - /url: mailto:ooeuf.ca@gmail.com
+    - text: ">"
+    - text: Cc "Service @ Harmony Movers" <
+    - link "service@harmonymovers.com":
+      - /url: mailto:service@harmonymovers.com
+    - text: ">"
+    - generic: Date 2025-07-22 4:20:00 PM
+    - generic: "Subject RE: Re[2]: Situation de transport 12 Juin 2025"
+    - paragraph:
+      - generic: Bonjour
+    - paragraph
+    - paragraph:
+      - text: Comme convenu aujourd’hui dans le cadre de notre entente à l’amiable, veuillez trouver ci-joint la facture.
+      - text: "Le paiement peut être effectué directement en suivant ce lien:"
+    - paragraph
+    - paragraph:
+      - link "https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db":
+        - /url: https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db
+        - text: https://invoice.stripe.com/i/
+        - text: acct_1QXRHoLXg3uKDkyS/live_
+        - text: YWNjdF8xUVhSSG9MWGczdUtEa3lTLF
+        - text: 9TakVZQTJWQ0RmT1VaVUtMcUhHdzVz
+        - text: OEtPWXFxeTRNLDE0Mzc1NDM0NA0200
+        - text: enPoKwfN?s=db
+    - paragraph
+    - paragraph:
+      - generic: Pour rappel, voici les modalités convenues -
+    - paragraph
+    - paragraph:
+      - generic: • Un transporteur mandaté par vos soins pourra venir récupérer l’ensemble de vos biens à notre entrepôt. Aucune autre intervention (par exemple, livraison à un autre endroit, ou collecte d'autres biens vous appartenant qui ne sont pas déjà entreposés chez nous) n’est incluse dans cette entente.
+    - paragraph:
+      - generic: • Le chargement de vos biens dans ces camions sera entièrement sous la responsabilité de ce transporteur. De notre côté, un surintendant sera présent sur place pour superviser l’opération. Cette supervision n’incombera pas de frais supplémentaires et aucun membre de notre équipe n’assistera votre transporteur dans le chargement des biens.
+    - paragraph:
+      - generic: • Une fois les biens récupérés et chargés dans les camions du transporteur mandaté, notre relation d’affaires prendra fin.
+    - paragraph:
+      - generic: "De plus, avant d'autoriser l'accès à notre entrepôt, les conditions suivantes devront être remplies:"
+    - paragraph:
+      - generic: • La facture devra être entièrement réglée
+    - paragraph:
+      - generic: • Le nom de la société de transport devra nous être transmis
+    - paragraph:
+      - generic: • Les noms des intervenants qui se présenteront sur place devront être communiqués, avec un préavis d’au moins 24 heures
+    - paragraph:
+      - text: Finalement, cette intervention demeure possible jusqu’au Vendredi le 25 Juillet 2025 12:00, heure de l’est. Faute de quoi, cette entente sera invalidée.
+      - link:
+        - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+      - text: Merci de bien vouloir confirmer la réception de ce courriel et de procéder au paiement à votre convenance
+    - paragraph
+    - paragraph:
+      - generic: Lev Jampolsky
+    - paragraph:
+      - generic: Directeur Administratif – Administrative Director
+    - paragraph:
+      - generic: "Phone:"
+      - link "(514) 866-5550 ext. 107":
+        - /url: tel:(514)%20866-5550
+    - paragraph:
+      - link "1600 55e Avenue":
+        - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - link "Lachine, QC H8T 3J5":
+        - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - text: "Email:"
+      - link "accounting@harmonymovers.com":
+        - /url: mailto:accounting@harmonymovers.com
+        - text: accounting@
+        - text: harmonymovers.com
+    - paragraph:
+      - generic: "Web:"
+      - link "www.harmonymovers.com":
+        - /url: http://www.harmonymovers.com/
+    - paragraph: Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue
+    - paragraph:
+    - paragraph:
+      - generic: Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!
+    - paragraph:
+      - generic: Déménagement Martineau & EZ Move are now part of the Harmony Movers family!
+    - paragraph:
+      - generic: Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram
+    - paragraph:
+      - link "Icon Description automatically generated":
+        - /url: https://www.facebook.com/harmonymoversinc
+        - img "Icon Description automatically generated"
+      - link "Icon Description automatically generated":
+        - /url: https://www.instagram.com/harmonymovers_transportez/
+        - img "Icon Description automatically generated"
+    - paragraph:
+      - 'img "Title: Hexagon bar - Description: Hexagon bar"'
+    - paragraph
+    - paragraph:
+      - generic: "Confidentiality Warning :"
+      - generic: This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed. If you have received this message in error, please inform the sender via e-mail and destroy the message. If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part of this message is strictly prohibited.
+      - generic: "Information confidentielle:"
+      - generic: Ce message et toutes les pièces jointes qu'il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l'entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes pas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.
+    - paragraph
+    - paragraph
+    - paragraph:
+      - generic: "From:"
+      - text: Oeuf Déjeuner <
+      - link "ooeuf.ca@gmail.com":
+        - /url: mailto:ooeuf.ca@gmail.com
+      - text: ">"
+      - text: "Sent: June 14, 2025 8:59 AM"
+      - text: "To: Service @ Harmony Movers <"
+      - link "service@harmonymovers.com":
+        - /url: mailto:service@harmonymovers.com
+      - text: ">"
+      - text: "Cc: Accounting @ Harmony Movers <"
+      - link "accounting@harmonymovers.com":
+        - /url: mailto:accounting@harmonymovers.com
+      - text: ">"
+      - text: "Subject: Re: Re[2]: Situation de transport 12 Juin 2025"
+    - paragraph
+    - paragraph:
+      - text: Quadro Holding ltée c. Harmony Movers
+      - text: "Date de service : 12 juin 2025"
+      - text: "---"
+    - paragraph:
+      - generic: "Objet : Mise en demeure avec délai final – Livraison complète attendue avant le 13 juin 2025"
+    - paragraph:
+      - generic: Madame, Monsieur,
+    - paragraph:
+      - generic: "Nous faisons suite à vos courriels concernant le dossier #QT1076, et souhaitons vous fournir une position finale claire et sans équivoque."
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: 1. Contrat initial toujours en vigueur
+    - paragraph:
+      - text: Le contrat signé (QT1076) entre Quadro Holding ltée et Harmony Movers demeure pleinement en vigueur jusqu’à la signature d’un nouvel accord écrit et approuvé par le signataire officiel.
+      - text: Aucune modification verbale ou entente parallèle ne remplace le contrat signé.
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: 2. Exigence de livraison complète avant vendredi 13 juin 2025 à midi
+    - paragraph:
+      - generic: "Nous exigeons :"
+    - paragraph:
+      - text: "La livraison complète de tous les équipements conformément à l’adresse indiquée dans le contrat :"
+      - link "5007 rue Irwin":
+        - /url: https://www.google.com/maps/search/5007+rue+Irwin?entry=gmail&source=g
+    - paragraph:
+      - generic: Le vidage intégral de l’emplacement commercial, y compris les équipements lourds
+    - paragraph:
+      - generic: L’usage d’un véhicule adéquat pour finaliser le service sans report
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: 3. Paiement autorisé avec ajustement encadré
+    - paragraph:
+      - text: Nous confirmons notre volonté de régler un total de 1 842,50 $ CAD, basé sur 6,7 heures de travail réel.
+      - text: "Nous vous autorisons jusqu’à 3 heures additionnelles, au tarif horaire contractuel de 275 $/heure, si :"
+    - paragraph:
+      - generic: Le travail est intégralement complété dans le délai imparti
+    - paragraph:
+      - generic: Le camion requis est déployé sans délai
+    - paragraph:
+      - img "👉"
+      - generic: Ainsi, le total final autorisé pourra aller jusqu’à 2 667,50 $ CAD si la livraison complète est exécutée dans les règles.
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: 4. Acceptation des frais d’équipement à condition de livraison complète
+    - paragraph:
+      - generic: Les frais de surcharge d’équipement (ex. manutention lourde) pourront être ajoutés à la facture uniquement si tous les équipements sont livrés, comme convenu.
+    - paragraph:
+      - generic: "En revanche, nous rejetons catégoriquement :"
+    - paragraph:
+      - generic: Tout frais d’immobilisation
+    - paragraph:
+      - generic: Tout frais d’entreposage anticipé
+    - paragraph:
+      - generic: Tout coût de déchargement interne non prévu au contrat
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: 5. Retenue des biens = rapport de police déposé
+    - paragraph:
+      - generic: "La non-livraison du matériel, combinée à une déviation non autorisée du trajet prévu, a entraîné aujourd’hui le dépôt d’un rapport de police, pour :"
+    - paragraph:
+      - generic: Rétention non autorisée
+    - paragraph:
+      - generic: Appropriation temporaire sans droit
+    - paragraph:
+      - generic: Non-respect d’un contrat commercial signé
+    - paragraph:
+      - generic: Toutes les preuves, captures d’échanges et documents officiels ont été conservés pour usage juridique.
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: 6. Délai final
+    - paragraph:
+      - generic: "Vous avez jusqu’au vendredi 13 juin 2025 à 12 h 00 (midi) pour :"
+    - paragraph:
+      - generic: Livrer intégralement les équipements
+    - paragraph:
+      - generic: Respecter l’adresse et les termes contractuels
+    - paragraph:
+      - generic: Finaliser le service conformément au mandat signé
+    - paragraph:
+      - generic: Aucune négociation ne sera acceptée au-delà de ce cadre.
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - generic: Conclusion
+    - paragraph:
+      - text: Merci de considérer cette lettre comme mise en demeure ferme avec option de règlement équitable.
+      - text: Passé ce délai, nous n’assurerons plus notre disponibilité hors voie judiciaire.
+    - paragraph:
+      - generic: "---"
+    - paragraph:
+      - text: Quadro Holding ltée
+      - text: "Signataire autorisé : M. Pierre Lévesque"
+      - text: "Courriel :"
+      - link "ooeuf.ca@gmail.com":
+        - /url: mailto:ooeuf.ca@gmail.com
+    - paragraph
+    - paragraph:
+      - text: On Fri, Jun 13, 2025, 7:24 p.m. Service @ Harmony Movers <
+      - link "service@harmonymovers.com":
+        - /url: mailto:service@harmonymovers.com
+      - text: "> wrote:"
+    - blockquote:
+      - paragraph:
+        - generic: Bonjour Monsieur Lévesque
+      - paragraph
+      - paragraph:
+        - generic: Nous sommes navrés d'entendre que la situation semble se détériorer.
+      - paragraph
+      - paragraph:
+        - generic: "Dans votre courriel, vous mentionnez que Mathieu est une tierce partie qui n’a pas été autorisée à agir au nom de la société (voir pièce jointe). Cela complique considérablement les choses, car depuis le début de l’opération, c’est bel et bien Mathieu qui a été notre point de contact: c’est lui qui a initialement demandé une soumission (le 6 juin 2025), qui a communiqué à plusieurs reprises avec notre équipe d’opérations, et qui, encore ce matin, a téléphoné à nos bureaux pour obtenir une mise à jour sur le dossier."
+      - paragraph:
+        - generic: Si cette personne n’était pas autorisée à agir au nom de Quadro Holding, il s’agit d’une information dont nous n’avions absolument pas connaissance. Si cela avait été clairement indiqué dès le départ, nous n’aurions jamais procédé au service. C’est en effet cette même personne qui a guidé notre personnel sur le terrain, ce qui explique notamment les écarts entre la soumission initiale et la facture finale. C’est également avec lui qu’un accord verbal a été conclu au téléphone pour ajouter un quatrième homme au tarif horaire, avec une majoration de 85 $, suite à la recommandation d'Allen après avoir constaté l’ampleur du travail. Cette hausse a été acceptée.
+      - paragraph
+      - paragraph:
+        - text: La situation est d’autant plus confuse qu’en date du 9 juin 2025, Mathieu (au
+        - link "514-458-4587":
+          - /url: tel:(514)%20458-4587
+        - text: "- le numéro de téléphone qui figure sur la soumission signée) a contacté notre collègue Josée pour demander comment procéder au paiement des frais administratifs sur la soumission. Josée l’a alors guidé, et il semblait avoir accès au courriel où la soumission avait été envoyée, soit à la même adresse courriel que celle avec laquelle nous échangeons aujourd’hui."
+      - paragraph
+      - paragraph:
+        - generic: Cela étant dit, bien que seule la soumission ait été signée (le contrat complet ayant toutefois été envoyé et initialé, voir PJ), celle-ci stipule clairement que lorsqu’un taux fixe et un taux horaire sont présents, les deux s’appliquent. Cette même section ramène à notre page des termes & conditions complètes.
+      - paragraph
+      - paragraph:
+      - paragraph
+      - paragraph:
+        - generic: "Les-voici en Français:"
+        - link "https://harmonymovers.com/fr/modalites-conditions":
+          - /url: https://harmonymovers.com/fr/modalites-conditions
+          - text: https://harmonymovers.com/fr/
+          - text: modalites-conditions
+      - paragraph: "Concrètement, la soumission prévoyait:"
+      - list:
+        - generic: Un taux horaire de 275 $/h pour 3 hommes
+        - generic: Des frais fixes de transport de 375 $
+        - generic: Des frais de manutention pour équipement lourd de 1 475 $
+      - paragraph:
+        - generic: Cependant, en raison de la réalité du chantier, un quatrième homme a été suggéré, ce qui a porté le taux horaire à 360$/h pour 4 hommes, et ajusté les frais fixes de transport à 460$.
+      - paragraph
+      - paragraph:
+        - generic: Tout cela étant considéré, nous nous retrouvons visiblement dans une impasse, puisque vous indiquez que Mathieu n’avait pas les autorisations écrites nécessaires pour agir au nom de votre entreprise - un détail que nous ne pouvions deviner.
+      - paragraph
+      - paragraph:
+        - generic: En ce sens, si vous estimez avoir été lésé en raison d’un manque d’information quant au déroulement des opérations, nous vous proposons de régler la facture en cours et vous offrons la possibilité de récupérer vos biens moyennant uniquement un supplément correspondant à trois heures de travail, le temps nécessaire pour que notre équipe procède au déchargement du camion dans notre entrepôt. Par souci de collaboration, nous ne facturerons pas les 110 $/h habituellement appliqués pour la supervision d’un rechargement par une tierce compagnie que vous souhaiteriez mandater pour compléter le transport. Cette mesure est nécessaire puisque nous devons libérer le véhicule afin de poursuivre nos autres opérations. Cette option restera disponible jusqu’au lundi 18h.
+      - paragraph
+      - paragraph:
+        - generic: À défaut de mouvement de votre part d’ici là, nous serons dans l’obligation de facturer l’équivalent d’un mois complet d’entreposage à notre entrepôt, afin de vous permettre de trouver un transporteur disposé à compléter le reste du transport.
+      - paragraph
+      - paragraph:
+        - generic: Cela dit, nous devons vous informer qu’au vu des circonstances, nous avons perdu confiance dans la capacité de Quadro Holdings Limitée à désigner un représentant dûment autorisé pour agir au nom de l’entreprise. En conséquence, nous ne pourrons dorénavant prendre de décisions ni poursuivre aucun engagement, à moins qu’il ne soit conclu directement avec un représentant officiel de votre société, soit vous, Monsieur Lévesque.
+      - paragraph:
+        - generic: Dans l'attente de vous lire,
+      - link:
+        - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+      - paragraph:
+        - generic: Lev Jampolsky
+      - paragraph:
+        - generic: Directeur Administratif - Administrative Director
+        - generic: "Phone:"
+        - text: (514)
+        - link:
+          - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+        - text: 866-5550
+      - paragraph:
+        - link "1600 55e Avenue":
+          - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+      - paragraph:
+        - link "Lachine, QC H8T 3J5":
+          - /url: https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g
+      - paragraph:
+        - generic: "Email:"
+        - link "service@harmonymovers.com":
+          - /url: mailto:service@harmonymovers.com
+          - text: service@harmonymovers.
+          - text: com
+      - paragraph:
+        - generic: "Web:"
+        - link "www.harmonymovers.com":
+          - /url: http://www.harmonymovers.com/
+      - paragraph: Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue
+      - paragraph:
+      - paragraph: Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!
+      - paragraph: Déménagement Martineau & EZ Move are now part of the Harmony Movers family!
+      - paragraph: Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram
+      - paragraph:
+        - link "Icon Description automatically generated":
+          - /url: https://www.facebook.com/harmonymoversinc
+          - img "Icon Description automatically generated"
+        - link "Icon Description automatically generated":
+          - /url: https://www.instagram.com/harmonymovers_transportez/
+          - img "Icon Description automatically generated"
+      - paragraph:
+        - 'img "Title: Hexagon bar - Description: Hexagon bar"'
+      - paragraph
+      - paragraph:
+        - generic: "Confidentiality Warning :"
+        - generic: This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed. If you have received this message in error, please inform the sender via e-mail and destroy the message. If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part of this message is strictly prohibited.
+        - generic: "Information confidentielle:"
+        - generic: Ce message et toutes les pièces jointes qu'il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l'entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes pas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.
+      - paragraph
+      - paragraph
+      - paragraph: "------ Original Message ------"
+      - paragraph:
+        - text: From "Oeuf Déjeuner" <
+        - link "ooeuf.ca@gmail.com":
+          - /url: mailto:ooeuf.ca@gmail.com
+        - text: ">"
+      - paragraph:
+        - text: To "Service @ Harmony Movers" <
+        - link "service@harmonymovers.com":
+          - /url: mailto:service@harmonymovers.com
+        - text: ">"
+      - paragraph:
+        - text: Cc "Accounting @ Harmony Movers" <
+        - link "accounting@harmonymovers.com":
+          - /url: mailto:accounting@harmonymovers.com
+        - text: ">"
+      - paragraph:
+        - generic: Date 2025-06-13 9:17:52 AM
+      - paragraph:
+        - generic: "Subject Re: Situation de transport 12 Juin 2025"
+      - paragraph
+      - blockquote:
+        - paragraph:
+          - generic: "> Objet : Réponse officielle à votre message du [12/06/25] – Dossier #QT1076"
+        - paragraph:
+          - generic: Monsieur,
+        - paragraph:
+          - text: "Nous accusons réception de votre message concernant le dossier de déménagement #QT1076."
+          - text: Nous réitérons notre volonté de collaborer de bonne foi afin de clore ce dossier de manière professionnelle.
+        - paragraph:
+          - generic: Cependant, plusieurs éléments dans votre communication soulèvent des préoccupations majeures, que nous détaillons ci-dessous.
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: "1."
+          - img "🔒"
+          - generic: Modifications contractuelles non valides
+        - paragraph:
+          - text: Le contrat signé avec Quadro Holding ltée prévaut.
+          - text: Aucune modification (quantité d’items, changement de lieu, conditions) n’a été autorisée par écrit par le signataire du contrat.
+          - text: En conséquence, toute modification présumée initiée par un tiers sans autorisation légale est nulle et non avenue.
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: "2."
+          - img "📦"
+          - generic: Biens non livrés = inexécution contractuelle
+        - paragraph:
+          - text: Vous avez quitté les lieux à 15 h 45 avec un camion chargé, sans effectuer la livraison prévue à l'adresse désignée.
+          - text: Ce comportement constitue une violation claire du contrat, en vertu de l’article 1439 C.c.Q.
+          - text: Vous disposiez de l'information nécessaire et aviez été avertis de l'importance de respecter le canal de communication officiel par courriel, ce que vous avez négligé.
+          - text: Votre envoi d'un courriel à 17 h 53, sous prétexte d'attente comptable, est non recevable.
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: "3."
+          - img "💳"
+          - generic: Facturation abusive et rejet des frais supplémentaires
+        - paragraph:
+          - generic: "Nous refusons les frais suivants, jugés abusifs et non contractuels :"
+        - paragraph:
+          - generic: 450 $ d’immobilisation de camion
+        - paragraph:
+          - generic: 360 $/h pour déchargement unilatéral
+        - paragraph:
+          - generic: 850 $ d’entreposage anticipé
+        - paragraph:
+          - generic: Toute pénalité imposée sans entente écrite
+        - paragraph:
+          - generic: Conformément à l’article 1458 et 1884 C.c.Q., vous ne pouvez réclamer de telles sommes sans avoir complété les services.
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: "4."
+          - img "✅"
+          - generic: Offre de règlement équitable
+        - paragraph:
+          - generic: "Nous maintenons notre engagement à payer 1 842,50 $ (calculé à 6,7 h de travail), par carte de crédit, après que :"
+        - paragraph:
+          - generic: Tous les équipements soient livrés à l’adresse prévue
+        - paragraph:
+          - generic: Aucun frais additionnel ne soit appliqué
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: "5."
+          - img "🚨"
+          - generic: AVERTISSEMENT FINAL
+        - paragraph:
+          - generic: "À défaut de livraison complète avant aujourd’hui, [13/06/2025], à 11 h, nous procéderons immédiatement à :"
+        - paragraph:
+          - generic: Le dépôt d’un rapport de police pour rétention abusive de biens
+        - paragraph:
+          - generic: Le déclenchement d'une plainte formelle auprès de l'Office de la protection du consommateur
+        - paragraph:
+          - generic: Des démarches judiciaires pour inexécution contractuelle, dommage moral, et abus commercial
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: Nous espérons une résolution immédiate.
+          - text: Sans exécution conforme avant 11 h aujourd’hui, nous déclencherons les mesures ci-dessus sans autre avis.
+        - paragraph:
+          - generic: Veuillez agréer, Madame, Monsieur, l’expression de nos salutations distinguées.
+        - paragraph:
+          - generic: "---"
+        - paragraph:
+          - text: Quadro Holding ltée
+          - text: "Courriel :"
+          - link "ooeuf.ca@gmail.com":
+            - /url: mailto:ooeuf.ca@gmail.com
+          - text: Signataire Pierre Lévesque
+          - text: "Date : [13/06/25]"
+        - paragraph
+        - paragraph:
+          - text: On Thu, Jun 12, 2025, 8:15 p.m. Service @ Harmony Movers <
+          - link "service@harmonymovers.com":
+            - /url: mailto:service@harmonymovers.com
+          - text: "> wrote:"
+        - blockquote:
+          - paragraph: Bonjour M. Lévesque,
+          - paragraph: Avant toute chose, nous tenons à vous remercier pour votre collaboration jusqu’à présent et à souligner que nous sommes conscients que ce projet représente une logistique complexe. Notre objectif reste de vous offrir un service professionnel, tout en assurant la sécurité et le respect des capacités de notre équipe.
+          - paragraph: Nous avons confirmé avec Matt qu’aucun camion ne viendra récupérer les équipements ce soir.
+          - paragraph: Par ailleurs, Matt nous a informés qu’il envisageait d’entamer des démarches judiciaires. Dans ce contexte, nous souhaitons clarifier certains éléments essentiels -
+          - list:
+            - generic: Concernant le camion U-Haul, nos équipes nous ont confirmé qu’il ne s’agissait pas simplement de quelques articles supplémentaires, mais de plus de 15 pièces additionnelles, ajoutées au matériel initialement prévu. Ce décalage a eu un impact considérable sur la durée de l’intervention et la charge de travail.
+            - listitem: Au cours de l’intervention, Matt a également modifié à plusieurs reprises la liste des articles à transporter, ce qui a accru les écarts par rapport à la soumission initiale, engendrant des retards supplémentaires et une complexité logistique sur le terrain.
+            - listitem: Nos déménageurs, qui manipulent de l’équipement lourd, suivent des protocoles stricts pour garantir leur sécurité. Cela implique des pauses régulières pour éviter les risques de blessures. Toutefois, nos équipes rapportent avoir été soumis à une pression extérieure pour accélérer leur rythme, ce qui va à l’encontre de nos standards en matière de santé et sécurité au travail.
+            - listitem: Enfin, nous tenons à préciser que dans plusieurs communications, Matt nous a mentionné vouloir vous consulter ou obtenir votre approbation, sans toutefois partager vos coordonnées directes. Nous avons donc dû patienter afin d’éviter tout malentendu, ce qui a parfois ralenti la prise de décision et accentué la confusion. Notre objectif était précisément d’éviter ce que l’on appelle communément « le téléphone arabe ».
+          - paragraph: Ceci dit, afin de vous aider à mieux planifier la suite, voici un échéancier clair des prochaines étapes -
+          - separator
+          - paragraph:
+            - generic: Dès ce soir – Immobilisation du camion
+          - list:
+            - listitem: Des frais de 450$ s’appliqueront pour l’entreposage de nuit dans le camion.
+          - paragraph:
+            - generic: Jusqu’à vendredi 13 Juin 2025 midi
+          - list:
+            - listitem: Si les équipements sont récupérés avant midi vendredi, seuls des frais de transfert de 110 $/heure seront appliqués.
+          - paragraph:
+            - generic: Après vendredi midi – Déchargement obligatoire
+          - list:
+            - listitem: Une seconde nuitée de 250 $ sera facturée.
+            - listitem: En l’absence d’équipe disponible pour vous assister, nous devrons procéder nous-mêmes au déchargement dans notre entrepôt.
+            - listitem: Ce travail est estimé à 2 à 3 heures, au taux horaire de 360 $.
+          - paragraph:
+            - generic: Après samedi 17 h – Entreposage mensuel automatique
+          - list:
+            - listitem: Si les biens sont toujours entreposés chez nous après samedi 17 h, un mois complet d’entreposage au tarif de 850 $ sera automatiquement facturé et sera payable la journée même.
+            - listitem: Vous disposerez alors de 30 jours pour régler la situation et mettre en place une solution alternative, si vous le souhaitez. À défaut de réponse approchant l’échéance de ce délai, nous prendrons contact avec vous afin de vous informer des prochaines étapes.
+          - separator
+          - paragraph:
+            - generic: Important
+          - list:
+            - listitem: Tant que la facture actuelle demeure impayée, nous conservons le droit de retenir les biens.
+            - listitem: L’immobilisation du camion, en pleine haute saison, compromet notre capacité opérationnelle. Nous serons donc contraints d’envisager la location d’un camion de remplacement, ce qui génère des frais importants pour notre entreprise.
+            - listitem: Malgré cela, nous restons pleinement disponibles pour trouver une solution rapide, équitable et professionnelle à cette situation.
+          - paragraph
+          - paragraph
+          - paragraph: Merci de votre compréhension et de votre collaboration. Nous attendons votre retour rapidement.
+          - paragraph
+          - paragraph:
+            - generic: Elanchayan Siva (Allen)
+          - paragraph: Président
+          - paragraph:
+            - link:
+              - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+            - generic: "Phone:"
+            - text: (514)
+            - link:
+              - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+            - text: 866-5550
+          - paragraph:
+            - link "1600 55e Avenue":
+              - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+          - paragraph:
+            - link "Lachine, QC H8T 3J5":
+              - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+          - paragraph:
+            - generic: "Email:"
+            - link "service@harmonymovers.com":
+              - /url: mailto:service@harmonymovers.com
+              - text: service@harmonymovers.
+              - text: com
+          - paragraph:
+            - generic: "Web:"
+            - link "www.harmonymovers.com":
+              - /url: http://www.harmonymovers.com/
+          - paragraph: Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue
+          - paragraph:
+          - paragraph: Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!
+          - paragraph: Déménagement Martineau & EZ Move are now part of the Harmony Movers family!
+          - paragraph: Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram
+          - paragraph:
+            - link "Icon Description automatically generated":
+              - /url: https://www.facebook.com/harmonymoversinc
+              - img "Icon Description automatically generated"
+            - link "Icon Description automatically generated":
+              - /url: https://www.instagram.com/harmonymovers_transportez/
+              - img "Icon Description automatically generated"
+          - paragraph:
+            - 'img "Title: Hexagon bar - Description: Hexagon bar"'
+          - paragraph
+          - paragraph:
+            - generic: "Confidentiality Warning :"
+            - generic: This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed. If you have received this message in error, please inform the sender via e-mail and destroy the message. If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part of this message is strictly prohibited.
+            - generic: "Information confidentielle:"
+            - generic: Ce message et toutes les pièces jointes qu'il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l'entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes pas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.
+          - paragraph
+          - paragraph:
+            - generic: "From:"
+            - text: Service @ Harmony Movers
+            - text: "Sent: June 12, 2025 5:54 PM"
+            - text: "To:"
+            - link "ooeuf.ca@gmail.com":
+              - /url: mailto:ooeuf.ca@gmail.com
+            - generic: "Cc: Accounting @ Harmony Movers <"
+            - link "accounting@harmonymovers.com":
+              - /url: mailto:accounting@harmonymovers.com
+            - text: ">"
+            - text: "Subject: Situation de transport 12 Juin 2025"
+          - paragraph
+          - paragraph:
+            - generic: Bonjour M. Lévesque,
+          - paragraph:
+            - generic: Nous souhaitons faire un point sur la situation actuelle concernant le transport des équipements que votre collègue, Mathieu, nous a mandatés de déplacer (voir la soumission ci-jointe).
+          - paragraph: Équipements concernés
+          - list:
+            - listitem: 2 fours à pizza
+            - listitem: 1 four rotatif
+            - listitem: 1 machine à pâte
+            - listitem: 4 réfrigérateurs
+            - listitem: Friteuses
+            - listitem: 2 machines à shawarma
+            - generic: Équipement complet de pizzeria (étagères, accessoires, etc.)
+          - paragraph
+          - paragraph:
+            - generic: Ajustements opérationnels
+          - paragraph:
+            - generic: "En cours d’intervention, notre équipe a jugé nécessaire d’ajouter un quatrième homme afin d’assurer un déroulement plus rapide et sécuritaire du travail. Cette modification a été acceptée par votre collègue Mathieu, entraînant :"
+          - list:
+            - generic: Un tarif horaire ajusté à 360 $/heure
+    - text: …
+    - text: "[Message tronqué]"
+    - link "Afficher l'intégralité du message":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&view=lg&permmsgid=msg-f:1840534140759956211
+    - generic: 2 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes":
+    - tooltip: Télécharger toutes les pièces jointes
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe image001.jpg Prévisualiser la pièce jointe image001.jpg":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.9&permmsgid=msg-f:1840534140759956211&th=198ae40ca8f9daf3&view=att&zw&disp=safe
+      - generic: Prévisualiser la pièce jointe image001.jpg
+      - generic: Prévisualiser la pièce jointe image001.jpg
+      - generic: image001.jpg
+    - button "Télécharger la pièce jointe image001.jpg":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image001.jpg":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe Invoice-CWIQUWOL-0003.pdf Prévisualiser la pièce jointe Invoice-CWIQUWOL-0003.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-f:1840534140759956211&th=198ae40ca8f9daf3&view=att&zw&disp=inline
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0003.pdf
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0003.pdf
+      - generic: Invoice-CWIQUWOL-0003.pdf
+    - button "Télécharger la pièce jointe Invoice-CWIQUWOL-0003.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Invoice-CWIQUWOL-0003.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - table:
+      - rowgroup:
+        - row "Accounting @ Harmony Movers accounting@harmonymovers.com Pièces jointes ven. 15 août 2025 14 h 15 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+            - table:
+              - rowgroup:
+                - row "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                  - cell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                    - heading "Accounting @ Harmony Movers accounting@harmonymovers.com" [level=3]:
+                      - gridcell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                        - generic: Accounting @ Harmony Movers
+                        - generic: <accounting@harmonymovers.com>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 15 août 2025 14 h 15 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "ven. 15 août 2025 14 h 15"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à plevesquesmtl@gmail.com, moi, Service Afficher les détails":
+          - cell "à plevesquesmtl@gmail.com, moi, Service Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à plevesquesmtl@gmail.com, moi, Service Afficher les détails":
+                  - cell "à plevesquesmtl@gmail.com, moi, Service Afficher les détails":
+                    - generic: à plevesquesmtl@gmail.com, moi, Service
+                    - button "Afficher les détails"
+    - paragraph: Bonjour
+    - paragraph:
+      - generic: Comme l’entente initiale prévoyait l’entreposage jusqu’au 25 juillet et que nous n’avons pas reçu de nouvelles de votre part, malgré un suivi effectué par courriel, nous devons malheureusement vous facturer les frais liés à l’occupation de notre entrepôt.
+    - paragraph: En juin, nous vous avions informé d’un tarif de 850$/mois pour l’entreposage. Or, au 15 août 2025, aucun mois d’entreposage n’a encore été facturé sauf pour la nuitée dans le camion, qui ne constitue pas un entreposage normal. Mercredi prochain, soit le 20 août, correspond normalement à la facturation d’un troisième mois.
+    - paragraph: Dans un esprit de conciliation, nous vous proposons un montant forfaitaire de 1 000$ + taxes, alors que le montant régulier pour les deux mois durant lesquels vos biens sont demeurés dans notre entrepôt s’élèverait à environ 1 700$.
+    - paragraph: Cette offre constitue notre proposition finale et demeure valide jusqu’au 20 août. Passé cette date, nous serons dans l’obligation de facturer l’entièreté des opérations réalisées dans le cadre de cette intervention. Bien que nous ayons déjà prolongé gracieusement l’échéance jusqu’au 25 juillet, l’occupation de notre espace d’entreposage entraîne des coûts réels que nous ne pouvons assumer indéfiniment, et l’absence de réponse de votre part ne nous permet pas de retarder davantage cette facturation.
+    - paragraph
+    - paragraph:
+      - text: "Vous retrouverez la facture ajustée à ce lien et en pièce jointe:"
+      - link "https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db":
+        - /url: https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db
+        - text: https://invoice.stripe.com/i/
+        - text: acct_1QXRHoLXg3uKDkyS/live_
+        - text: YWNjdF8xUVhSSG9MWGczdUtEa3lTLF
+        - text: 9Tc0NNYmc4NERrQWg2b25pOWpnUWJm
+        - text: OFM4c3Y3U2xHLDE0NTgyMTkyNw0200
+        - text: d5xIRFrR?s=db
+    - paragraph
+    - paragraph:
+      - generic: De plus, sachez que ce montant additionnel n’inclut pas l’intervention de nos déménageurs dans le chargement de votre conteneur. Dans l’éventualité que vous voudriez contracter nos équipes afin de charger le conteneur à notre entrepôt, nous pourrions vous offrir ce service au montant fixe de 975$ + taxes.
+    - paragraph
+    - paragraph: Finalement, avant toute intervention, incluant celle d’AKA Moving, nous demandons le règlement intégral de la facture ci-jointe.
+    - paragraph
+    - paragraph: Nous restons à votre disposition pour toute question éventuelle
+    - paragraph
+    - paragraph:
+      - text: Bien à vous
+      - link:
+        - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - generic: Lev Jampolsky
+    - paragraph: Directeur Administratif - Administrative Director
+    - paragraph:
+      - generic: "Phone:"
+      - link "(514) 866-5550":
+        - /url: tel:(514)%20866-5550
+      - text: ext. 107
+    - paragraph:
+      - link "1600 55e Avenue":
+        - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - link "Lachine, QC H8T 3J5":
+        - /url: https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g
+    - paragraph:
+      - generic: "Email:"
+      - link "accounting@harmonymovers.com":
+        - /url: mailto:accounting@harmonymovers.com
+        - text: accounting@
+        - text: harmonymovers.com
+    - paragraph:
+      - generic: "Web:"
+      - link "www.harmonymovers.com":
+        - /url: http://www.harmonymovers.com/
+    - paragraph: Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue
+    - paragraph:
+    - paragraph: Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!
+    - paragraph: Déménagement Martineau & EZ Move are now part of the Harmony Movers family!
+    - paragraph: Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram
+    - paragraph:
+      - link "Icon Description automatically generated":
+        - /url: https://www.facebook.com/harmonymoversinc
+        - img "Icon Description automatically generated"
+      - link "Icon Description automatically generated":
+        - /url: https://www.instagram.com/harmonymovers_transportez/
+        - img "Icon Description automatically generated"
+    - paragraph:
+      - 'img "Title: Hexagon bar - Description: Hexagon bar"'
+    - paragraph
+    - paragraph:
+      - generic: "Confidentiality Warning :"
+      - generic: This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed. If you have received this message in error, please inform the sender via e-mail and destroy the message. If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part of this message is strictly prohibited.
+      - generic: "Information confidentielle:"
+      - generic: Ce message et toutes les pièces jointes qu'il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l'entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes pas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.
+    - paragraph
+    - paragraph
+    - text: …
+    - text: "[Message tronqué]"
+    - link "Afficher l'intégralité du message":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&view=lg&permmsgid=msg-f:1840546307402779962
+    - generic: 3 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes":
+    - tooltip: Télécharger toutes les pièces jointes
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe image006.jpg Prévisualiser la pièce jointe image006.jpg":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.5&permmsgid=msg-f:1840546307402779962&th=198aef1d6d664d3a&view=att&zw&disp=safe
+      - generic: Prévisualiser la pièce jointe image006.jpg
+      - generic: Prévisualiser la pièce jointe image006.jpg
+      - generic: image006.jpg
+    - button "Télécharger la pièce jointe image006.jpg":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image006.jpg":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - 'link "Prévisualiser la pièce jointe RE: Situation de transport 12 Juin 2025.eml Prévisualiser la pièce jointe RE: Situation de transport 12 Juin 2025.eml"':
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-f:1840546307402779962&th=198aef1d6d664d3a&view=att&zw&disp=safe
+      - generic: "Prévisualiser la pièce jointe RE: Situation de transport 12 Juin 2025.eml"
+      - generic: "Prévisualiser la pièce jointe RE: Situation de transport 12 Juin 2025.eml"
+      - generic: "RE: Situation de transport 12 Juin 2025.eml"
+    - 'button "Télécharger la pièce jointe RE: Situation de transport 12 Juin 2025.eml"':
+    - tooltip: Télécharger
+    - 'button "Ajouter une pièce jointe à Disque RE: Situation de transport 12 Juin 2025.eml"':
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-f:1840546307402779962&th=198aef1d6d664d3a&view=att&zw&disp=inline
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf
+      - generic: Invoice-CWIQUWOL-0004.pdf
+    - button "Télécharger la pièce jointe Invoice-CWIQUWOL-0004.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Invoice-CWIQUWOL-0004.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - table:
+      - rowgroup:
+        - row "Accounting @ Harmony Movers accounting@harmonymovers.com Pièces jointes ven. 15 août 2025 15 h 17 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+            - table:
+              - rowgroup:
+                - row "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                  - cell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                    - heading "Accounting @ Harmony Movers accounting@harmonymovers.com" [level=3]:
+                      - gridcell "Accounting @ Harmony Movers accounting@harmonymovers.com":
+                        - generic: Accounting @ Harmony Movers
+                        - generic: <accounting@harmonymovers.com>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 15 août 2025 15 h 17 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "ven. 15 août 2025 15 h 17"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à plevesquemtl@gmail.com, moi, Service Afficher les détails":
+          - cell "à plevesquemtl@gmail.com, moi, Service Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à plevesquemtl@gmail.com, moi, Service Afficher les détails":
+                  - cell "à plevesquemtl@gmail.com, moi, Service Afficher les détails":
+                    - text: à
+                    - generic: plevesquemtl@gmail.com
+                    - text: ", moi, Service"
+                    - button "Afficher les détails"
+    - button "Afficher le contenu abrégé":
+    - generic: "------ Original Message ------"
+    - text: From "Accounting @ Harmony Movers" <
+    - link "accounting@harmonymovers.com":
+      - /url: mailto:accounting@harmonymovers.com
+    - text: ">"
+    - text: To "
+    - link "plevesquesmtl@gmail.com":
+      - /url: mailto:plevesquesmtl@gmail.com
+    - text: "\" <"
+    - link "plevesquesmtl@gmail.com":
+      - /url: mailto:plevesquesmtl@gmail.com
+    - text: ">"
+    - text: Cc "Oeuf Déjeuner" <
+    - link "ooeuf.ca@gmail.com":
+      - /url: mailto:ooeuf.ca@gmail.com
+    - text: ">; \"Service @ Harmony Movers\" <"
+    - link "service@harmonymovers.com":
+      - /url: mailto:service@harmonymovers.com
+    - text: ">"
+    - generic: Date 2025-08-15 2:15:28 PM
+    - generic: "Subject RE: RE: Re[2]: Situation de transport 12 Juin 2025"
+    - text: …
+    - text: "[Message tronqué]"
+    - link "Afficher l'intégralité du message":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&view=lg&permmsgid=msg-f:1840550199704846796
+    - generic: 3 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes":
+    - tooltip: Télécharger toutes les pièces jointes
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe image006.jpg Prévisualiser la pièce jointe image006.jpg":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.9&permmsgid=msg-f:1840550199704846796&th=198af2a7acae81cc&view=att&zw&disp=safe
+      - generic: Prévisualiser la pièce jointe image006.jpg
+      - generic: Prévisualiser la pièce jointe image006.jpg
+      - generic: image006.jpg
+    - button "Télécharger la pièce jointe image006.jpg":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image006.jpg":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-f:1840550199704846796&th=198af2a7acae81cc&view=att&zw&disp=inline
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf
+      - generic: Invoice-CWIQUWOL-0004.pdf
+    - button "Télécharger la pièce jointe Invoice-CWIQUWOL-0004.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Invoice-CWIQUWOL-0004.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe noname Prévisualiser la pièce jointe noname":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-f:1840550199704846796&th=198af2a7acae81cc&view=att&zw&disp=safe
+      - generic: Prévisualiser la pièce jointe noname
+      - generic: Prévisualiser la pièce jointe noname
+      - generic: noname
+    - button "Télécharger la pièce jointe noname":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque noname":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mer. 27 mai 11 h 43 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 27 mai 11 h 43 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mer. 27 mai 11 h 43"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à dada Afficher les détails":
+          - cell "à dada Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à dada Afficher les détails":
+                  - cell "à dada Afficher les détails":
+                    - text: à
+                    - generic: dada
+                    - button "Afficher les détails"
+    - button "Afficher le contenu abrégé":
+    - generic: 11 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes":
+    - tooltip: Télécharger toutes les pièces jointes
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe 3ykqakn1.png Prévisualiser la pièce jointe 3ykqakn1.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.1&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e96ac6eaa741&zw
+      - generic: Prévisualiser la pièce jointe 3ykqakn1.png
+      - generic: Prévisualiser la pièce jointe 3ykqakn1.png
+      - generic: 3ykqakn1.png
+    - button "Télécharger la pièce jointe 3ykqakn1.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque 3ykqakn1.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe p4xmdkxq.png Prévisualiser la pièce jointe p4xmdkxq.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.2&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e96c301c3b42&zw
+      - generic: Prévisualiser la pièce jointe p4xmdkxq.png
+      - generic: Prévisualiser la pièce jointe p4xmdkxq.png
+      - generic: p4xmdkxq.png
+    - button "Télécharger la pièce jointe p4xmdkxq.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque p4xmdkxq.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe gqrdgcee.png Prévisualiser la pièce jointe gqrdgcee.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.3&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e96777d7c533&zw
+      - generic: Prévisualiser la pièce jointe gqrdgcee.png
+      - generic: Prévisualiser la pièce jointe gqrdgcee.png
+      - generic: gqrdgcee.png
+    - button "Télécharger la pièce jointe gqrdgcee.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque gqrdgcee.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe fyjpy3hy.png Prévisualiser la pièce jointe fyjpy3hy.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.4&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e96d0bd837f4&zw
+      - generic: Prévisualiser la pièce jointe fyjpy3hy.png
+      - generic: Prévisualiser la pièce jointe fyjpy3hy.png
+      - generic: fyjpy3hy.png
+    - button "Télécharger la pièce jointe fyjpy3hy.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque fyjpy3hy.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe image002.png Prévisualiser la pièce jointe image002.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.5&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e965b16b25&zw
+      - generic: Prévisualiser la pièce jointe image002.png
+      - generic: Prévisualiser la pièce jointe image002.png
+      - generic: image002.png
+    - button "Télécharger la pièce jointe image002.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image002.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe image003.png Prévisualiser la pièce jointe image003.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.6&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e96692e336&zw
+      - generic: Prévisualiser la pièce jointe image003.png
+      - generic: Prévisualiser la pièce jointe image003.png
+      - generic: image003.png
+    - button "Télécharger la pièce jointe image003.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image003.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe image004.png Prévisualiser la pièce jointe image004.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.7&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e967745b47&zw
+      - generic: Prévisualiser la pièce jointe image004.png
+      - generic: Prévisualiser la pièce jointe image004.png
+      - generic: image004.png
+    - button "Télécharger la pièce jointe image004.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image004.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe image005.png Prévisualiser la pièce jointe image005.png":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.0.8&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=ii_19e6a1b4e96855d358&zw
+      - generic: Prévisualiser la pièce jointe image005.png
+      - generic: Prévisualiser la pièce jointe image005.png
+      - generic: image005.png
+    - button "Télécharger la pièce jointe image005.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image005.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe image006.jpg Prévisualiser la pièce jointe image006.jpg":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=19e6a1b4e97935e6e9&zw
+      - generic: Prévisualiser la pièce jointe image006.jpg
+      - generic: Prévisualiser la pièce jointe image006.jpg
+      - generic: image006.jpg
+    - button "Télécharger la pièce jointe image006.jpg":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque image006.jpg":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=inline&realattid=19e6a1b4e97dec78c3aa&zw
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf
+      - generic: Prévisualiser la pièce jointe Invoice-CWIQUWOL-0004.pdf
+      - generic: Invoice-CWIQUWOL-0004.pdf
+    - button "Télécharger la pièce jointe Invoice-CWIQUWOL-0004.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Invoice-CWIQUWOL-0004.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe noname Prévisualiser la pièce jointe noname":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.3&permmsgid=msg-a:r6234633379477097539&th=19e6a1b7b6270031&view=att&disp=safe&realattid=19e6a1b4e97c204bfccb&zw
+      - generic: Prévisualiser la pièce jointe noname
+      - generic: Prévisualiser la pièce jointe noname
+      - generic: noname
+    - button "Télécharger la pièce jointe noname":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque noname":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+  - link "Répondre"
+  - link "Transférer"
+  - button "Ajouter une réaction":
+  - tooltip: Ajouter une réaction
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Affichage de PV_SIGNE.pdf en cours. Page 1 sur 1
+- generic: Suivant

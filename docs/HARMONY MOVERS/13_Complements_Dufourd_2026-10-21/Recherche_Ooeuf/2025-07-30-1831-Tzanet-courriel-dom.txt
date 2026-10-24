@@ -1,0 +1,119 @@
+URL: https://mail.google.com/mail/u/2/#advanced-search/subset=all&has=in%3Aanywhere+%7BTZANET+TEZANET+TESANET+1000026855+1000026854%7D&within=1d&sizeoperator=s_sl&sizeunit=s_smb&query=%2253640-196353%22/KtbxLthtFKhhCJtTPSXJFlxfkTqdWshZSq
+
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - heading "Demande de Remplacement d'équipement" [level=2]
+  - list:
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mer. 30 juill. 2025 18 h 31 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 30 juill. 2025 18 h 31 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mer. 30 juill. 2025 18 h 31"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à Joey Afficher les détails":
+          - cell "à Joey Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à Joey Afficher les détails":
+                  - cell "à Joey Afficher les détails":
+                    - generic: à Joey
+                    - button "Afficher les détails"
+    - text: Livraison de l’équipement de remplacement et mise à jour sur l’évaluation du four
+    - generic: Bonjour Monsieur Dubois
+    - generic: Nous vous informons que l’équipement de remplacement sera traité la semaine prochaine pour achat et de demande de service de livraison à notre adresse
+    - generic: Par ailleurs, le four a PIZZA MIDDLE BY MARSHALL PS360WB sers envoyé chez pour une évaluation externe réalisée par TORI Repair au 9780 Jeanne Mance H4N3E4 . Nous allons planifier le transport de l'équipement vers cette adresse vu que vous demandez une autre rapport d'expertise sur l'équipement. Veuillez prendre en considération les frais relier a cette expertise soit le transport et le démantèlement du gaz Nous devrions recevoir le rapport d’évaluation sous peu, et nous vous en transmettrons une copie dès que disponible. Vous pourrez alors décider si vous souhaitez procéder à la réparation de l’équipement selon les conclusions du rapport.
+    - generic: N’hésitez pas à nous contacter si vous avez besoin d’informations supplémentaires d’ici là.
+    - text: Pour les 2 four tim Hortons voici le rapport de l'expertise
+    - generic: TZANET
+    - text: .
+    - generic: Maintenant pour le comptoir refrigerator nous allons procéder a l'achat pour livraison a notre local.
+    - generic: 2 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes":
+    - tooltip: Télécharger toutes les pièces jointes
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe 1000026855.jpg Prévisualiser la pièce jointe 1000026855.jpg":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-a:r453183018787980113&th=1985d7690229b6ae&view=att&disp=safe&realattid=1985d7074eeeca6e2761&zw
+      - generic: Prévisualiser la pièce jointe 1000026855.jpg
+      - generic: Prévisualiser la pièce jointe 1000026855.jpg
+      - generic: 1000026855.jpg
+    - button "Télécharger la pièce jointe 1000026855.jpg":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque 1000026855.jpg":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - link "Prévisualiser la pièce jointe 1000026854.jpg Prévisualiser la pièce jointe 1000026854.jpg":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-a:r453183018787980113&th=1985d7690229b6ae&view=att&disp=safe&realattid=1985d7074eeec98caf52&zw
+      - generic: Prévisualiser la pièce jointe 1000026854.jpg
+      - generic: Prévisualiser la pièce jointe 1000026854.jpg
+      - generic: 1000026854.jpg
+    - button "Télécharger la pièce jointe 1000026854.jpg":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque 1000026854.jpg":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - 'region "Re: Demande de Remplacement d''équipement"':
+      - button "Type de réponse"
+      - generic: Joey Dubois
+      - button "Réponse dans une autre fenêtre"
+      - table:
+        - rowgroup:
+          - row "Afficher le contenu abrégé":
+            - cell "Afficher le contenu abrégé":
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell:
+                      - textbox "Zone du message" [active]
+              - button "Afficher le contenu abrégé":
+          - row:
+            - cell:
+              - rowgroup:
+                - row "Envoyer ‪(Ctrl-Enter)‬ Plus d'options d'envoi Options de mise en forme Joindre des fichiers Insérer un lien ‪(Ctrl-K)‬ Insérer un emoji ‪(Ctrl-Maj-2)‬ Insérer des fichiers à l'aide de Google Disque Insérer une photo Basculer en mode confidentiel Insérer une signature Autres options Supprimer le brouillon ‪(Ctrl-Maj-D)‬":
+                  - cell "Envoyer ‪(Ctrl-Enter)‬ Plus d'options d'envoi":
+                    - button "Envoyer ‪(Ctrl-Enter)‬": Envoyer
+                    - button "Plus d'options d'envoi"
+                  - cell "Options de mise en forme":
+                    - generic "Options de mise en forme":
+                      - button
+                  - cell "Joindre des fichiers Insérer un lien ‪(Ctrl-K)‬ Insérer un emoji ‪(Ctrl-Maj-2)‬ Insérer des fichiers à l'aide de Google Disque Insérer une photo Basculer en mode confidentiel Insérer une signature":
+                    - button "Joindre des fichiers"
+                    - button "Insérer un lien ‪(Ctrl-K)‬"
+                    - button "Insérer un emoji ‪(Ctrl-Maj-2)‬"
+                    - button "Insérer des fichiers à l'aide de Google Disque"
+                    - button "Insérer une photo"
+                    - button "Basculer en mode confidentiel"
+                    - button "Insérer une signature"
+                  - cell "Autres options":
+                    - button "Autres options"
+                  - cell "Supprimer le brouillon ‪(Ctrl-Maj-D)‬":
+                    - button "Supprimer le brouillon ‪(Ctrl-Maj-D)‬"
+- generic: Page 1 sur 2

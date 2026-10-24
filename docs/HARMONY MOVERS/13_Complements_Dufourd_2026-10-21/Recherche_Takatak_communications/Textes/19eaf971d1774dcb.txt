@@ -1,0 +1,12 @@
+Compte: takatak.ca@gmail.com
+Identifiant Gmail: 19eaf971d1774dcb
+Source: MIME/19eaf971d1774dcb.json
+from: Po Poulet Montreal <popoulet.ca@gmail.com>
+date: Tue, 9 Jun 2026 23:32:41 -0400
+message-id: <CANkG3sjL7pUz-8RoU+eMxf3Hr1S-+zKhsvJum7B3EV8A7BtYdQ@mail.gmail.com>
+subject: 
+to: "TAKATAK.CA" <takatak.ca@gmail.com>
+
+EXTRACTION TEXT/PLAIN DU MIME — ne remplace pas un EML brut
+
+

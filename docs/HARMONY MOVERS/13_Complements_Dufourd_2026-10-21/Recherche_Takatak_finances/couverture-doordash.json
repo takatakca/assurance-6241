@@ -1,0 +1,216 @@
+[
+  {
+    "commerce_id": "28040070",
+    "commerce": "PPP Pizzeria 24/7 Montréal-Nord (Bd Léger)",
+    "releves": 12,
+    "pages": 56,
+    "mois": [
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-06"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Bd Léger, Montréal-Nord, QC H1G 3P3, Canada"
+    ]
+  },
+  {
+    "commerce_id": "28108457",
+    "commerce": "Crémerie Bin molle & Bin Dure (Montréal-Nord)",
+    "releves": 16,
+    "pages": 63,
+    "mois": [
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Boul Léger, Montréal-Nord QC H1G 6K8, Canada"
+    ]
+  },
+  {
+    "commerce_id": "27982486",
+    "commerce": "Po-Poulet 24/7 (Montréal-Nord)",
+    "releves": 5,
+    "pages": 19,
+    "mois": [
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08"
+    ],
+    "adresses": [
+      "6241 Bd Léger, Montréal-Nord, QC H1G 3P3, Canada"
+    ]
+  },
+  {
+    "commerce_id": "27870472",
+    "commerce": "Dejeuner OEUF",
+    "releves": 13,
+    "pages": 46,
+    "mois": [
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-05"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Bd Léger, Montréal-Nord, QC H1G 3P3, Canada"
+    ]
+  },
+  {
+    "commerce_id": "27986352",
+    "commerce": "Pi Pita 24/7 Montréal Nord (Bd Léger)",
+    "releves": 17,
+    "pages": 60,
+    "mois": [
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Bd Léger, Montréal-Nord, QC H1G 3P3, Canada"
+    ]
+  },
+  {
+    "commerce_id": "27986646",
+    "commerce": "O'Crêpe 24/7 Montréal-Nord (Bd Léger)",
+    "releves": 16,
+    "pages": 66,
+    "mois": [
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Bd Léger, Montréal-Nord, QC H1G 3P3, Canada"
+    ]
+  },
+  {
+    "commerce_id": "30831269",
+    "commerce": "Cafe Bolon",
+    "releves": 11,
+    "pages": 41,
+    "mois": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Bd Léger, Montréal-Nord, QC H1G 3P3, Canada"
+    ]
+  },
+  {
+    "commerce_id": "30831008",
+    "commerce": "Taco Mexican (Bd Léger)",
+    "releves": 11,
+    "pages": 44,
+    "mois": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Boul Léger, Montréal-Nord QC H1G 6K8, Canada"
+    ]
+  },
+  {
+    "commerce_id": "32501513",
+    "commerce": "Mythos 2 Go",
+    "releves": 6,
+    "pages": 20,
+    "mois": [
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "adresses": [
+      "5837 Rue Jean-talon E, Saint-léonard, QC H1S 1M4, Canada",
+      "6241 Boul Léger, Montréal-Nord QC H1G 6K8, Canada"
+    ]
+  }
+]

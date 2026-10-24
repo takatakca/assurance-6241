@@ -1,0 +1,1901 @@
+[
+  {
+    "id": 3,
+    "demande": "Produire tout titre de propriété ou document d’acquisition établissant la propriété des équipements.",
+    "statut": "partiel",
+    "reponse_proposee": "Nous avons retrouvé une confirmation de commande Senville du 19 juin 2024 au nom de Quadro, ainsi que des documents de service et une estimation Choquette portant le nom de Quadro et l'adresse du 6241 Léger. La commande Senville concerne une thermopompe; son appartenance aux équipements du litige n'est pas établie. Ces pièces sont remises comme indices documentaires limités. Elles ne constituent pas une chaîne d'acquisition complète des équipements de l'annexe de saisie. Les factures d'achat ou actes de cession, et leur correspondance avec les marques, modèles et numéros de série, restent à compléter. Les informations financières compilées au 30 juin 2025 ajoutent une inscription globale de 209758 $ d’équipements. La soumission Tzanet 141455 est adressée à Quadro. Ni cette inscription globale ni un devis de remplacement ne remplacent les factures d’acquisition ou une chaîne de propriété par bien.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069210.jpg",
+        "repere": "Commande Senville 120714, 19 juin 2024 à 14 h 35; contrôle visuel effectué",
+        "apport": "Quadro à l'adresse du 6241 Léger; thermopompe SENDC 48 HF (15 K 16). Document de commande, non preuve générale de propriété de l'inventaire; montant non repris en raison de la mise en page.",
+        "nature": "original",
+        "sha256": "82a8fd942f1ede88852ac6c891da6d5b31c3b2bbfeb2015d796642304b1f7104",
+        "octets": 528995
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069214.jpg",
+        "repere": "Estimation Choquette CKS N 82145, 26 novembre 2024",
+        "apport": "Identifie Quadro et un four PS360WB. Devis/constat avec mentions de paiement; ne démontre pas l'achat ni la livraison d'un four de remplacement.",
+        "nature": "original",
+        "sha256": "7e7fbab87b25111dfa7ff72025f2da5efc128a27c4f0151ce553e95ec9cede9a",
+        "octets": 672284
+      },
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p. 2–3, annexes du PV du 17 décembre 2025",
+        "apport": "Liste matérielle utile au rapprochement des titres par appareil; la saisie et l'inscription à l'annexe ne sont pas, seules, une facture d'acquisition.",
+        "nature": "original",
+        "sha256": "24ecb2bf91d1f3c09406254ce6c388194f7867bbea114571fc268ee881a205c2",
+        "octets": 2152807
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "p. 29, 10:34:12–10:34:39",
+        "apport": "Demande et acceptation transcrites des titres/factures/crédit-bail; aucune production du titre dans ce passage.",
+        "nature": "declaration",
+        "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+        "octets": 423672
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf",
+        "repere": "5 pages : rapport p 2, résultats p 3, bilan p 4, immobilisations note 3 p 5.",
+        "apport": "Informations financières compilées au 30 juin 2025 : équipements 209758 $, ventes 77995 $, perte nette 112578 $. Rapport du 1 avril 2026, sans audit/examen/assurance; montant global, pas registre unitaire.",
+        "nature": "original",
+        "sha256": "12cae6c122d17b153eec9ca79d0b7beb3131d90063c1850dc13d7559d597dc03",
+        "octets": 1267448
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Sales Quotation - 141455.pdf",
+        "repere": "p 1 entière, client Quadro, devis 141455 du 28 juillet 2025.",
+        "apport": "Soumission commerciale de remplacement :90620 $ HT,104190,35 $ TTC, livraison exclue. Aucune preuve de paiement, propriété ou état mécanique.",
+        "nature": "original",
+        "sha256": "88382fecd7883913b083b075565e670939ebe21304e2e7a18816d9c1e222f04e",
+        "octets": 67569
+      }
+    ],
+    "manquants": [
+      "Facture d'achat, acte de cession ou crédit-bail de chaque équipement concerné, avec vendeur, acquéreur, date et désignation.",
+      "Rapprochement des titres avec chaque item de l'annexe du PV, ses numéros de série et, s'il y a lieu, les transferts entre entités.",
+      "Confirmation de la pertinence de la thermopompe Senville pour ce litige; preuve de livraison/installation si elle est invoquée."
+    ],
+    "demarches": [
+      "Rapprocher l'annexe du PV avec le registre des immobilisations et demander au détenteur des archives comptables les justificatifs d'achat ou de cession manquants.",
+      "Rechercher les originaux auprès des fournisseurs identifiés sur chaque appareil, à partir de leur numéro de série, sans attribuer un propriétaire à partir d'un seul document d'entretien."
+    ],
+    "controles": [
+      "Les factures de service et devis ne sont pas des titres d'acquisition.",
+      "Les PNG du dossier photos-assurance-2024 et les JPG A 24–A 40 du courriel Inventaire sont principalement des photographies de factures alimentaires; ils ne prouvent pas l'acquisition des équipements.",
+      "Aucun total d'achat n'est calculé; versions et copies photographiques ne sont pas additionnées."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+      "Premier audit, avant cette collecte complémentaire : Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+      "Premier audit, avant cette collecte complémentaire : Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J 02–J 04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+      "Premier audit, avant cette collecte complémentaire : Recherche propriété/acquisition/achat/Senville/Choquette/équipement et contrôle de la commande 120714, estimation N 82145, annexes du PV.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 4,
+    "demande": "Produire les états financiers de Quadro reflétant la valeur des équipements inscrite aux livres.",
+    "statut": "document_disponible",
+    "reponse_proposee": "Nous joignons les informations financières compilées de QUADRO HOLDINGS INC pour l’exercice clos le 30 juin 2025, avec le rapport de Tommaso Di Paola CPA daté du 1 avril 2026, les résultats, le bilan et les notes. Le bilan et la note 3 inscrivent 209758 $ d’équipements. Ce document répond à la demande écrite d’états financiers reflétant la valeur aux livres, sous les réserves suivantes : il s’agit d’une compilation sans audit ni examen, la valeur est globale au 30 juin 2025 et aucun tableau individuel d’immobilisations n’est joint. L’énoncé oral vise la valeur comptable nette avant le 12 juin 2025; le rapprochement à cette date et aux biens du litige reste à confirmer. Les versions du grand livre déjà remises ne sont pas additionnées.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/final.xls",
+        "repere": "Sheet 1, A 1:A 4 (identité et période); compte 4200, lignes 5–16; compte 5660 (amortissement), ligne 387; 750 lignes au total.",
+        "apport": "Grand livre intitulé QUADRO HOLDINGS INC., période affichée du 1er juillet 2024 au 30 juin 2025. Les comptes trouvés vont de 4200 à 5898. Les crédits de ventes du compte 4200, juillet 2024–avril 2025, totalisent 77 995,44 $ en I 16. Ce n’est ni un bénéfice net ni un registre individualisé des immobilisations.",
+        "nature": "original",
+        "sha256": "0cf4a4ba82143dc3328b798fefefa1581ed1d0bd48ef5ead44d78d6445995ad1",
+        "octets": 148992
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/19cb13a2879f146c__quadro excel sort.xls",
+        "repere": "Sheet 1, 717 lignes; A 1:A 4, compte 4200 lignes 5–16; ligne 717 « Generated On: 2026-02-27 ».",
+        "apport": "Autre version du même grand livre, transmise dans le fil du comptable; période affichée identique, sans registre individualisé des immobilisations.",
+        "nature": "original",
+        "sha256": "e386dc7f45362fdbe25055e37249c2a3bc27cac2150034c4715ae46085823d6e",
+        "octets": 139776
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/19cb1ecd4a7964a1__quadro excel sort.xls",
+        "repere": "Sheet 1, 750 lignes; A 1:A 4 et compte 4200 lignes 5–16.",
+        "apport": "Version distincte de même période, avec des lignes complémentaires annotées en fin de feuille; ne pas les intégrer automatiquement comme écritures comptables validées.",
+        "nature": "original",
+        "sha256": "691854e3b072407c88a9554a3d375db1147058d27a02779dc0b7fee4e66dae76",
+        "octets": 148992
+      },
+      {
+        "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/19cb13a2879f146c.txt",
+        "repere": "Courriel transféré le 2 mars 2026 à 20:04:50; message cité de Nick Cristiano, CPA/CMA, du 27 février 2026 à 14:11, objet « excel ».",
+        "apport": "Provenance du premier fichier transmis par le comptable, sous forme d’extraction de courriel.",
+        "nature": "extraction",
+        "sha256": "78f4af2b51b383d5737e2a9edd4327f8d373f7435b18ab66c8c412b2dbb18ce6",
+        "octets": 1757
+      },
+      {
+        "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/19cb1ecd4a7964a1.txt",
+        "repere": "Courriel du 2 mars 2026 à 23:20:16, fil « excel ».",
+        "apport": "Provenance de la version complémentaire du grand livre; extraction de courriel.",
+        "nature": "extraction",
+        "sha256": "5f5bac1f8628119714c305a13ba25f4b767c93896cf83d6ca158c5c9d359121d",
+        "octets": 1926
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf",
+        "repere": "5 pages : rapport p 2, résultats p 3, bilan p 4, immobilisations note 3 p 5.",
+        "apport": "Informations financières compilées au 30 juin 2025 : équipements 209758 $, ventes 77995 $, perte nette 112578 $. Rapport du 1 avril 2026, sans audit/examen/assurance; montant global, pas registre unitaire.",
+        "nature": "original",
+        "sha256": "12cae6c122d17b153eec9ca79d0b7beb3131d90063c1850dc13d7559d597dc03",
+        "octets": 1267448
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/etats-financiers-controle.json",
+        "repere": "Faits transcrits par page et contrôles arithmétiques.",
+        "apport": "Analyse des états 2025; l’original prévaut.",
+        "nature": "analyse",
+        "sha256": "569a34cb09e101707d8e286e743aac00aeeb0cdad602102fdb858468c3704c4b",
+        "octets": 2103
+      }
+    ],
+    "manquants": [
+      "Pour le rapprochement à la date orale avant le 12 juin 2025 : détail des mouvements du 12 au 30 juin et confirmation du comptable.",
+      "Registre individuel des équipements et amortissements, coût d’origine, propriétaire et lien avec les pièces d’acquisition; la note 3 ne donne qu’un montant global.",
+      "Balance de vérification et justification de l’écart de 1 $ entre la somme des résultats reportés imprimés et leur total; confirmation de la version finale du grand livre."
+    ],
+    "demarches": [
+      "Faire confirmer par le comptable le montant et les biens composant les 209758 $ et le rapprochement à la date demandée; aucun message envoyé."
+    ],
+    "controles": [
+      "Les trois empreintes de fichiers XLS sont différentes : aucune fusion ni addition de leurs totaux n’a été faite.",
+      "77 995,44 $ est le total des crédits de ventes du compte 4200, et non un bénéfice ni une valeur d’équipements.",
+      "La période d’en-tête va jusqu’au 30 juin 2025, mais les écritures de ventes repérées s’arrêtent en avril 2025; cette absence d’écriture ne prouve pas une absence d’activité.",
+      "L’existence du compte 5660 « Amortization Expense » ne permet pas de reconstituer, à elle seule, la valeur nette de chaque équipement.",
+      "77995 - 59975 - 130598 = -112578 : concordance du résultat imprimé.",
+      "-9644 - 112578 = -122222, contre -122221 imprimé : écart de 1 dollar, cause à confirmer (notamment arrondis); original non modifié.",
+      "Ventes 77995 arrondies à rapprocher des 77995.44 du grand livre, sans addition.",
+      "Au 30 juin 2025, et non à la date précédant le 12 juin 2025 demandée oralement (Fieldy p 29, 10:34:43–10:34:56).",
+      "Pas de comparatif 2024 : seule une ligne de résultats non répartis de l’exercice précédent est affichée.",
+      "La perte annuelle et la valeur comptable ne sont ni une évaluation de remplacement ni une perte de transport démontrée."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Lecture native des trois fichiers XLS (xlrd), vérification de l’identité, de la période, des plages de comptes et des lignes de ventes.",
+      "Premier audit, avant cette collecte complémentaire : Recherche locale dans les trois dossiers des noms « états financiers », « financial statements », « balance », « immobilisation », « grand livre » et « amortization »; le bilan demandé n’avait pas encore été acquis lors de cette première recherche; les états 2025 sont ajoutés dans le présent complément.",
+      "Premier audit, avant cette collecte complémentaire : Consultation des deux extractions de courriels pour la provenance; aucun document original modifié.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 5,
+    "demande": "Produire les factures, soumissions, déclarations d’experts et toute autre documentation concernant l’entretien et le service des équipements.",
+    "statut": "partiel",
+    "reponse_proposee": "Le lot d'entretien et de service identifié est disponible : quinze photographies de factures, devis ou feuillets techniques, neuf devis PDF Frigo-Spec et le document intitulé fac 265.pdf. Il comprend notamment A 315 du 22 septembre 2024, les documents SCC Auger et l'estimation Choquette CKS N 82145 du 26 novembre 2024. Nous les remettons dans leur état conservé, y compris les constats de problèmes antérieurs et les versions divergentes. La disponibilité de ce lot ne certifie ni son exhaustivité, ni l'exécution de tous les devis, ni le fonctionnement des équipements au 12 juin 2025. Les compléments Tzanet retrouvés consistent en une soumission commerciale de remplacement et une capture de courriel sur la disponibilité d’un modèle Tim Hortons. Nous les distinguons des rapports d’entretien et de diagnostic : ils ne démontrent ni une réparation exécutée ni le fonctionnement des appareils avant le déménagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069199.jpg",
+        "repere": "Facture A 320, 3 octobre 2024",
+        "apport": "Service du réfrigérateur de sous-sol; compresseur. Date et référence relevées dans l'OCR de cette photographie, à contrôler visuellement avant une saisie comptable.",
+        "nature": "original",
+        "sha256": "29c875b0a111962adaad40b25ab4c8556bfa87b7745672685a5cad6d2b73a846",
+        "octets": 439103
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069200.jpg",
+        "repere": "Facture A 315, 22 septembre 2024, contrôle visuel effectué",
+        "apport": "Four à pizza : soudure, souffleurs, pilotes, mise en route et ajustements; 9 083,03 $ affichés. Aucun numéro de série permettant à lui seul un rapprochement certain avec la saisie.",
+        "nature": "original",
+        "sha256": "c10067b7e62007b3698aa50334b85fde48e9e61b4517f7265890cce64826f7e2",
+        "octets": 444714
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069201.jpg",
+        "repere": "Facture A 281, 17 juillet 2024",
+        "apport": "Bunn CDS 2, contrôle électronique et agitateur. Référence/date relevées dans l'OCR; ne pas additionner automatiquement au devis 267 et à A 290.",
+        "nature": "original",
+        "sha256": "e62510927043f977fbc44985ccd4f13d0619cda33ca2b852576739c17a482faf",
+        "octets": 455803
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069202.jpg",
+        "repere": "Facture A 294, 29 juillet 2024",
+        "apport": "Machine à cocktail glacé Taylor, compresseur/moteur et main-d'œuvre. Référence/date relevées dans l'OCR.",
+        "nature": "original",
+        "sha256": "d789198bf2980bdacf4095d844f63249f4491bf25d968ec338ae5981bf695ea9",
+        "octets": 454765
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069203.jpg",
+        "repere": "En-tête portant A 290 et A 267, 13 juillet 2024",
+        "apport": "Chambre froide, compresseur CRD 1 0200. L'OCR relève deux numéros; aucune correction silencieuse ni création de deux factures.",
+        "nature": "original",
+        "sha256": "9bfdd8873eed95b6918e647d01935b49cd70a3c1c578f072ea17d89e59f48a90",
+        "octets": 449614
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069204.jpg",
+        "repere": "Facture A 290, 22 juillet 2024",
+        "apport": "Bunn, contrôle et moteur. Risque de recouvrement avec A 281, le devis 267 et l'autre document portant A 290; identification à vérifier avec le fournisseur.",
+        "nature": "original",
+        "sha256": "1155da25f14e1ca56403f74ab82b56d554d293fa566cd3a873f16b97fe885be3",
+        "octets": 455103
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069205.jpg",
+        "repere": "Facture A 245, 25 juin 2024",
+        "apport": "Installation de climatisation fournie par le client. Service, non preuve d'achat des équipements transportés; référence/date relevées dans l'OCR.",
+        "nature": "original",
+        "sha256": "dadf17e525f74506b035c8ea9f1f2cd34b4c8f5704bf0b21b22428b9cafb221b",
+        "octets": 458400
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069206.jpg",
+        "repere": "Facture A 280, 15 juillet 2024",
+        "apport": "Intervention compresseur côté gauche, machine Electro-Freeze selon l'OCR. Modèle et rattachement à l'inventaire à confirmer.",
+        "nature": "original",
+        "sha256": "291d8a049eee8330111f44aa60468b3b4469cc2a381044473195ae996648a0ee",
+        "octets": 490043
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069207.jpg",
+        "repere": "Facture A 266, 10 juillet 2024",
+        "apport": "Chambre de congélation, unité 2 HP; même document également photographié sous 1000036526.jpg, contrôlé visuellement. Une seule opération à rapprocher, non deux coûts.",
+        "nature": "original",
+        "sha256": "942357f7007ef21044d1a16c8123f4877b46284d6b6e6ae3ac8e7b679a1498d3",
+        "octets": 472977
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069208.jpg",
+        "repere": "Devis 260, 7 juillet 2024",
+        "apport": "Machine à café Curtis. Photographie du devis, non preuve de réalisation ou de paiement; PDF homonyme également conservé.",
+        "nature": "original",
+        "sha256": "d105ba8b2b226b94827e367c50ba2f66e96958a59af8af4eac57985b72cd5394",
+        "octets": 419266
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069209.jpg",
+        "repere": "Devis 259, 7 juillet 2024, version remplacement",
+        "apport": "Version distincte du devis PDF 259 proposant réparation du compresseur; conserver les deux versions sans additionner ni présumer laquelle fut acceptée.",
+        "nature": "original",
+        "sha256": "107aa336b25e9ce9472d62c991fe2ccdd59c77abc6de873b3102816cd4a750c9",
+        "octets": 458146
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069211.jpg",
+        "repere": "Facture SCC Auger 12786, 18 avril 2024",
+        "apport": "Four à pizza/mélangeur, main-d'œuvre et déplacement; référence/date issues de l'OCR. Lien exact avec le bon 17761 à faire confirmer.",
+        "nature": "original",
+        "sha256": "08f7569072d10d95a81ba663fecaf5be3f17f17d6979690ba43f6370b4834844",
+        "octets": 991470
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069213.jpg",
+        "repere": "Bon de travail SCC Auger 17761, contrôle visuel effectué",
+        "apport": "OOEUF Déjeuner, technicien William Boudreau; demande d'entretien et de mise en marche du deuxième four. Pas de date lisible sur cette page.",
+        "nature": "original",
+        "sha256": "3315a55bcf08b593ab49a6e0fab55243c41fbb4eda9611cf8c626dc9f847f216",
+        "octets": 392961
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069212.jpg",
+        "repere": "Feuillet de constat SCC Auger avec photos, contrôle visuel effectué",
+        "apport": "Chauffe et convoyeur défectueux, protections/panneaux manquants, pièces discontinuées. À conserver avec le bon de travail, sans attribuer une date ou un résultat de réparation non établi.",
+        "nature": "original",
+        "sha256": "878cafaf7db28e100453b4f8a15168c0543de84b2b9e605937ff6603dc37bd62",
+        "octets": 458691
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069214.jpg",
+        "repere": "Estimation Choquette CKS N 82145, 26 novembre 2024, contrôle visuel effectué",
+        "apport": "Quadro Holding Ltée, 6241 Léger, PS360WB; problèmes persistants malgré remplacement de certaines pièces, pièces discontinuées et recommandation de remplacement. Marquage PAYÉ et montants portés au document ne prouvent pas à eux seuls l'achat/livraison d'un appareil de remplacement.",
+        "nature": "original",
+        "sha256": "7e7fbab87b25111dfa7ff72025f2da5efc128a27c4f0151ce553e95ec9cede9a",
+        "octets": 672284
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 259.pdf",
+        "repere": "p. 1, devis 259, 7 juillet 2024; texte natif lu",
+        "apport": "Réparation IFI DDSG-6, remplacement compresseur R 22 par R 449; 3 006,60 $ proposés.",
+        "nature": "original",
+        "sha256": "985f811e148ab88ae016a27540074e4dc9d6d004b9a335afbd3501ae901d2a64",
+        "octets": 34558
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 260.pdf",
+        "repere": "p. 1, devis 260, 7 juillet 2024; texte natif lu",
+        "apport": "Machine à café Curtis, module/valve et main-d'œuvre; devis.",
+        "nature": "original",
+        "sha256": "29f82b3533a97778532c66a340f3334ce08fd3cd4ebd0b5beb5fec8dc0ebf091",
+        "octets": 34511
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 261.pdf",
+        "repere": "p. 1, devis 261, 7 juillet 2024; texte natif lu",
+        "apport": "Chambre de congélation, unité complète; devis.",
+        "nature": "original",
+        "sha256": "8b0f68bb970a4c0813e43a25aeb193221b662c45453f481b3f897797cf0dddaa",
+        "octets": 34708
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 262.pdf",
+        "repere": "p. 1, devis 262, 7 juillet 2024; texte natif lu",
+        "apport": "Réfrigérateur une porte de sous-sol; devis.",
+        "nature": "original",
+        "sha256": "c0eaf66fc132b38effacc4a11d1a7cb38253cfc6f3334b28b6db0a97a31cd38d",
+        "octets": 34202
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 263.pdf",
+        "repere": "p. 1, devis 263, 7 juillet 2024; texte natif lu",
+        "apport": "Four Tim Horton, deux sondes et deux cartes de contrôle; devis.",
+        "nature": "original",
+        "sha256": "51dbae5856326c5d24d15566a6166c8af3427b501e7aee2b1ef018f92bf43646",
+        "octets": 34433
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 264.pdf",
+        "repere": "p. 1, devis 264, 7 juillet 2024; texte natif lu",
+        "apport": "Electro-Freeze 88 tf, compresseur gauche et court-circuit; devis.",
+        "nature": "original",
+        "sha256": "b829b3820ee0b93d4b2a1723ec16ded701f0589cc4bc618501a9cfb75e8aa951",
+        "octets": 34969
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 266.pdf",
+        "repere": "p. 1, devis 266, 12 juillet 2024; texte natif lu",
+        "apport": "Machine à cocktail glacé Taylor; devis.",
+        "nature": "original",
+        "sha256": "f35769319067f7e9f805743d474d7b1fde63c9cf697d48e56cb272deea88bb47",
+        "octets": 34370
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 267.pdf",
+        "repere": "p. 1, devis 267, 12 juillet 2024; texte natif lu",
+        "apport": "Bunn CDS 2; devis, non nouvelle opération à additionner automatiquement aux factures apparentées.",
+        "nature": "original",
+        "sha256": "e2f29c689e5e9736b2d22225808c9f23c819af2943f90fdedf8a9a16c4c94919",
+        "octets": 34223
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Devis N� _ 268.pdf",
+        "repere": "p. 1, devis 268, 12 juillet 2024; texte natif lu",
+        "apport": "Chambre froide CRD 1 0200; devis.",
+        "nature": "original",
+        "sha256": "61e06b0a59f82c494e256bed0a713ad2318bbbb8b0315344334be3b6fa649f3e",
+        "octets": 33572
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/fac 265.pdf",
+        "repere": "p. 1; intitulé interne Devis 265, 11 juillet 2024, d'après l'extraction OCR existante",
+        "apport": "Reconditionnement de deux fours à pizza; malgré le nom fac 265.pdf, ne pas qualifier automatiquement ce document de facture payée.",
+        "nature": "original",
+        "sha256": "bc68073bdfda346ee433880f50c55e56a4227d4f0d124b8d181137b73c77ef0e",
+        "octets": 165340
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "p. 29–30, 10:35:32–10:36:31",
+        "apport": "Documentation d'entretien après le sinistre électrique antérieur évoquée; déclarations de disponibilité, non constat technique indépendant.",
+        "nature": "declaration",
+        "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+        "octets": 423672
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Sales Quotation - 141455.pdf",
+        "repere": "p 1 entière, client Quadro, devis 141455 du 28 juillet 2025.",
+        "apport": "Soumission commerciale de remplacement :90620 $ HT,104190,35 $ TTC, livraison exclue. Aucune preuve de paiement, propriété ou état mécanique.",
+        "nature": "original",
+        "sha256": "88382fecd7883913b083b075565e670939ebe21304e2e7a18816d9c1e222f04e",
+        "octets": 67569
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/1000026855.jpg",
+        "repere": "Capture complète, expéditeur Panos Liveris/Tzanet.",
+        "apport": "Explication commerciale concernant l’accès à un modèle Tim Hortons; aucun diagnostic ni rapport d’expertise. Date complète non visible sur l’image.",
+        "nature": "original",
+        "sha256": "b77d5fb20d666cfbf945e4eea5425c9c298dade5f5e83140e339d9da7ef6fbe2",
+        "octets": 399726
+      }
+    ],
+    "manquants": [
+      "L'exhaustivité du dossier de service reste à confirmer auprès des fournisseurs : rapports d'intervention finaux, essais et pièces effectivement remplacées correspondant aux devis.",
+      "Identification et numéros de série absents ou incomplets sur plusieurs documents; rattachement de chaque intervention à l'appareil litigieux à finaliser.",
+      "Les justificatifs bancaires de paiement et les éventuels rapports complémentaires ne sont pas démontrés par les seules mentions manuscrites ou tampons."
+    ],
+    "demarches": [
+      "Présenter le lot disponible au cabinet, puis compléter un tableau appareil/document/prestation/essai avec Frigo-Spec, SCC Auger et Choquette CKS.",
+      "Faire confirmer les numéros ambigus A 290/A 267, les versions de 259 et les relations entre devis et factures; demander les feuillets finaux manquants.",
+      "Contrôler visuellement les dates et références signalées comme issues de l'OCR avant toute nouvelle saisie comptable; ne pas en tirer un diagnostic fonctionnel."
+    ],
+    "controles": [
+      "Le statut signifie que le lot documentaire répondant à cette catégorie existe, pas qu'il a déjà été transmis ou accepté ni que chaque document demandé dans l'absolu a été retrouvé.",
+      "Quinze images et dix PDF constituent des fichiers, pas vingt-cinq dépenses indépendantes.",
+      "A 315 indique une mise en route; N 82145, plus tardif, rapporte des problèmes persistants. Ne pas conclure à un fonctionnement parfait juste avant le transport.",
+      "Choquette : le montant total, le dépôt et le solde marqué payé ne sont pas trois paiements distincts.",
+      "A 266/1000069207 existe aussi sous 1000036526; A 315/1000069200 sous 1000036527; devis 260 photographié et PDF; copies non additionnées.",
+      "Les deux versions de devis 259 diffèrent sur réparation/remplacement; les devis et factures Bunn apparentés doivent être rapprochés avant toute somme.",
+      "Le rapport Tezanet sollicité à la demande 17 n'est pas remplacé par ces devis Frigo-Spec. Le diagnostic et la causalité restent à une expertise appropriée."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+      "Premier audit, avant cette collecte complémentaire : Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+      "Premier audit, avant cette collecte complémentaire : Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J 02–J 04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+      "Premier audit, avant cette collecte complémentaire : Lecture des seize images du lot lectures-factures 2024 via texte/OCR et contrôles visuels ciblés; la commande Senville est rattachée à la demande 3, non présentée comme entretien.",
+      "Premier audit, avant cette collecte complémentaire : Lecture du texte natif des neuf devis PDF; contrôle des copies photos-reparations-janvier 2025 et photos-factures-aout 2025 et des divergences de versions.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 13,
+    "demande": "Produire les contrats conclus avec DoorDash, Uber Eats, Sky et Descheuse, ainsi que tous les relevés relatifs à ces entreprises.",
+    "statut": "partiel",
+    "reponse_proposee": "Aux classeurs de ventes 2024 déjà identifiés, nous ajoutons 107 relevés mensuels originaux DoorDash couvrant neuf identifiants de commerce :59 pour 2024 et 48 pour 2025, avec un registre des mois effectivement présents. Les 87 relevés portant 6241 Léger et les 20 portant 5837 Jean-Talon sont distingués; plusieurs identifiants conservent le même numéro lors du changement d’adresse imprimée en mai/juin 2025. Cela ne démontre pas, seul, les dates d’ouverture physique. Deux exports SKIP sont également joints : un CSV nommé mars–décembre 2024 et un XLSX nommé novembre 2024–avril 2025, mais l’adresse et l’identifiant du commerce ne figurent pas dans les cellules. Le courriel du XLSX le décrit comme les relevés du précédent local de Pizza Mambo 5; son rattachement au litige est à confirmer. Aucun contrat accepté ni ensemble complet Uber 2025 n’a été repéré dans cette recherche Takatak. Les contrats et périodes manquantes restent à compléter; « Sky et Descheuse » dans la liste écrite est rapproché de Skip the Dishes dans Fieldy, sous confirmation.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx",
+        "repere": "Onglet « Ventes total 2024 », C 7:C 16 (mars–décembre 2024), C 17; dix onglets mensuels de « Mars 24 » à « December 24 ».",
+        "apport": "Tableau de ventes : total inscrit 55 609,85 $. Ce classeur ne constitue pas un contrat de plateforme ni une preuve bancaire de tous les versements.",
+        "nature": "original",
+        "sha256": "1b214d9493c9ea09218ecb6f114fbbc1f9fb625a5466f330d1798f3a2ba1d715",
+        "octets": 178628
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx",
+        "repere": "Onglet « Ventes total 2024 », C 6:C 14 (avril–décembre 2024), C 15; neuf onglets mensuels d’avril à décembre 2024.",
+        "apport": "Tableau de ventes : total inscrit 22 774,34 $. Ce classeur ne constitue pas un contrat de plateforme ni une déclaration de TPS/TVQ déposée.",
+        "nature": "original",
+        "sha256": "070c4a83eb572ccd9f557c35c6291c544a85e117b173ceb39593843e51f2ca06",
+        "octets": 85694
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-mars24.xlsx",
+        "repere": "Onglet « 212 e 724 d-88 bd-4 b 14-a 89 f-5 f 144 dd », 257 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-02-25 au 2024-03-31.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "3b892e110d606b71f92d290b16c3b8d15c8a9f8de87a081988432a99f1f3a1b5",
+        "octets": 94196
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-avril24.xlsx",
+        "repere": "Onglet « Ventes Mars 2024 », 373 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-03-29 au 2024-04-30.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "658ca2b57f4e80e3078ab1a726d9c2f777220fd952f34cf127d8e193677fc277",
+        "octets": 134449
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-mai24.xlsx",
+        "repere": "Onglet « 971 ba 61 f-4 a 32-4 a 53-83 f 2-4 ec 8 bd 1 », 519 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-04-26 au 2024-05-31.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "96ccd758c6a62890f4a36520cb615a8f6c5eab487b9858be1eca2c854233a1e4",
+        "octets": 180722
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-juin24.xlsx",
+        "repere": "Onglet « 08 ddbc 82-964 f-46 ae-8228-8 dc 8 a 64 », 288 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-05-31 au 2024-06-30.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "b4d7ae5e88bff0a5a814a4917a2ceb2aa8b122c508cc14e1fbc48e255f309535",
+        "octets": 112421
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-juillet24.xlsx",
+        "repere": "Onglet « bae 411 d 8-4 fb 1-4367-b 2 b 3-d 3 f 842 d », 290 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-06-30 au 2024-07-31.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "1f982411bffd2d65d6792b36a3957a5e830df9b0d0f8ce2928fb6061f7778a0e",
+        "octets": 112742
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-aout24.xlsx",
+        "repere": "Onglet « 20112158-1713-4 f 2 e-a 21 a-3882396 », 507 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-07-29 au 2024-08-31.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "6d31f13d3c60eb85c6ef995607ff75a8af6f4123d59559449aaeacf2e8bdcc01",
+        "octets": 163610
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-sept24.xlsx",
+        "repere": "Onglet « 34 c 1 c 51 f-d 94 c-4 a 6 f-9 abd-56 e 38 e 0 », 602 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-08-27 au 2024-09-30.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "2b631a9679de98ba72e08a0b07a46302e7ae8275dffd5febf4d7cddb9dd971e5",
+        "octets": 187309
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-oct24.xlsx",
+        "repere": "Onglet « 3 cfb 573 a-cb 75-4 d 83-af 25-06 b 3374 », 617 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-09-28 au 2024-10-31.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "f3f3b5842a16327458e0429933e887213e2a8a0cf7ea8a856d37e48b2e2d2fa6",
+        "octets": 185965
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/data-vente-nov24.xlsx",
+        "repere": "Onglet « a 9244676-534 d-4701-b 0 a 8-c 45 faa 5 », 331 lignes et 76 colonnes; en-têtes ligne 2; colonne E « Order Date », dates valides du 2024-10-06 au 2024-11-30.",
+        "apport": "Export détaillé de ventes Uber : magasins/enseignes, identifiants de commandes, ventes, taxes, frais et versements. Les lignes de frais à date « 0000-12-31 » sont exclues de cette plage de dates; les périodes chevauchent d’autres exports.",
+        "nature": "original",
+        "sha256": "d8ca4a7dddd57e40c9c5a5f7a79625de7339f1749c8d9e5065aa22a36788a9b0",
+        "octets": 117743
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "Pages 39–40, repères 10:56:38–10:57:31.",
+        "apport": "Contexte oral transcrit relatif aux plateformes, dont Skip the Dishes, et à l’existence de contrats; les intervenants sont identifiés « Unknown » et l’audio n’a pas été vérifié.",
+        "nature": "declaration",
+        "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+        "octets": 423672
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/registre-doordash.csv",
+        "repere": "107 lignes; un identifiant de commerce et mois par ligne; adresse, résumé financier, chemin original et SHA.",
+        "apport": "Index des 107 relevés, dont 59 de 2024 et 48 de 2025; pas total de bénéfice.",
+        "nature": "analyse",
+        "sha256": "d99ade8e0a6a59bd8165d9a60fc1d140cf6ffbbd90526c31a79afccd66f1c4ee",
+        "octets": 59281
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/couverture-doordash.json",
+        "repere": "Neuf commerces, liste exacte des mois et adresses.",
+        "apport": "Couverture discontinue : les mois absents ne sont pas des mois d’activité nulle.",
+        "nature": "analyse",
+        "sha256": "6c99d634cf993f8a663c927e870a1853e2de3200b7a6c325ac7bd977df1e4e4b",
+        "octets": 4625
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/STORE-27870472-2024-04.pdf",
+        "repere": "p 1 résumé 2024-04; p 1–3 document complet.",
+        "apport": "DoorDash O'Oeuf Déjeuner 24/7 Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "6da0c9a795718a17b7dbf9f5f6c9cf7e8fc7556cf72a987d5ef9a31f35d0ef0d",
+        "octets": 27279
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/STORE-27870472-2024-05.pdf",
+        "repere": "p 1 résumé 2024-05; p 1–3 document complet.",
+        "apport": "DoorDash O'Oeuf Déjeuner 24/7 Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "e224fa8a78df6d423239d097c59d82ff46e6ea0a6161d8c3afeb2cf7ef7e3211",
+        "octets": 27455
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/STORE-27870472-2024-06.pdf",
+        "repere": "p 1 résumé 2024-06; p 1–3 document complet.",
+        "apport": "DoorDash O'Oeuf Déjeuner 24/7 Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0d185e3befebd8f22c9a8b3fa124aa3e8a6d74b6e70e32e80726a03e809f980d",
+        "octets": 27435
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/STORE-27870472-2024-07.pdf",
+        "repere": "p 1 résumé 2024-07; p 1–3 document complet.",
+        "apport": "DoorDash O'Oeuf Déjeuner 24/7 Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7ed324d533c91b65c3fb119eeb663250fbf4a9a62fde49d347cd1be95dba83ff",
+        "octets": 28033
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/STORE-27870472-2024-08.pdf",
+        "repere": "p 1 résumé 2024-08; p 1–3 document complet.",
+        "apport": "DoorDash O'Oeuf Déjeuner 24/7 Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0896689a375fb22583161b5f4c290f2e0b5325c7ea1ebccba5014c0063d14a1f",
+        "octets": 28093
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–4 document complet.",
+        "apport": "DoorDash O'Oeuf Déjeuner 24/7 Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "3db7184a507b7d64286467b626f269e5e1fc2f6b0686bf4378485c7339d7962b",
+        "octets": 31238
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–4 document complet.",
+        "apport": "DoorDash OOEUF Matin Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "46cefdd0624dae24529aeecd32eb13545590fcd3aa85f852e54ef3cb9afd8f82",
+        "octets": 31080
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–4 document complet.",
+        "apport": "DoorDash OOEUF Matin Montréal-Nord (Bd Léger) ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "f427f8c91f345a72721e0068bb885f120517faa6de49c06cf40c0e0c71bd148a",
+        "octets": 30739
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–4 document complet.",
+        "apport": "DoorDash Dejeuner OEUF ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "1ec974b166050b643191eca8814325bcff7b624e7072ede0308f6870aacb405c",
+        "octets": 30981
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–4 document complet.",
+        "apport": "DoorDash Dejeuner OEUF ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "5e0608ee351728875f914b6d25ed74bdbf87976eab3976f702f68dc056475d3b",
+        "octets": 31026
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–4 document complet.",
+        "apport": "DoorDash Dejeuner OEUF ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "f6ff9eff2c57f8d87a029062be1d450c3ce3e048ae2932b3534dfa3cef575b33",
+        "octets": 31140
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash Dejeuner OEUF ID 27870472; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "28539b40857686ab289b7e5a6b345ae3818d879c025821294d016948ae2f2954",
+        "octets": 30630
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e43b5e441f3/monthly-statement-generator-27870472-60211458-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–3 document complet.",
+        "apport": "DoorDash Dejeuner OEUF ID 27870472; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "d116fa180781943ba05f4754831eeaa16253cbda2f7100994d40d8f96cd91c39",
+        "octets": 28539
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4193e4e475/STORE-27982486-2024-04.pdf",
+        "repere": "p 1 résumé 2024-04; p 1–4 document complet.",
+        "apport": "DoorDash Po-Poulet 24/7 (Montréal-Nord) ID 27982486; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "6d3b37ca5644b4950253df78757ba97aa32dee6ba8423f55030c651f18e20a70",
+        "octets": 29721
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4193e4e475/STORE-27982486-2024-05.pdf",
+        "repere": "p 1 résumé 2024-05; p 1–4 document complet.",
+        "apport": "DoorDash Po-Poulet 24/7 (Montréal-Nord) ID 27982486; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "477f7d5b495e46c130f2429bc6fa46deed979775d820a35ec903ca426d337237",
+        "octets": 29596
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4193e4e475/STORE-27982486-2024-06.pdf",
+        "repere": "p 1 résumé 2024-06; p 1–3 document complet.",
+        "apport": "DoorDash Po-Poulet 24/7 (Montréal-Nord) ID 27982486; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "03d17a3a2d25841a675497f7bc5b9577f3dda037ca38fed812213e5f8ad3c3bc",
+        "octets": 27299
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4193e4e475/STORE-27982486-2024-07.pdf",
+        "repere": "p 1 résumé 2024-07; p 1–4 document complet.",
+        "apport": "DoorDash Po-Poulet 24/7 (Montréal-Nord) ID 27982486; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2fd6eed58befe5d661123438fd1dd50ba81e42e0dd14bace85624de7819e0710",
+        "octets": 30323
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4193e4e475/STORE-27982486-2024-08.pdf",
+        "repere": "p 1 résumé 2024-08; p 1–4 document complet.",
+        "apport": "DoorDash Po-Poulet 24/7 (Montréal-Nord) ID 27982486; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2a561feed86c44354c75293c3e91e8e1a294d367e137f8ad1b0df8f104ba1592",
+        "octets": 31178
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/STORE-27986352-2024-03.pdf",
+        "repere": "p 1 résumé 2024-03; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "14a80579a844c93011900e9801de91a9d390c17a5a1fc0c2cefa1845ba6f4214",
+        "octets": 27311
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/STORE-27986352-2024-04.pdf",
+        "repere": "p 1 résumé 2024-04; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7f9b2fbe8a39a46cf2a28a99925b6d78e2683b381782279f36918edb38d1f128",
+        "octets": 27449
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/STORE-27986352-2024-05.pdf",
+        "repere": "p 1 résumé 2024-05; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "765c2e07a19d5908d03c210b39c7445971b8f8c8960bd298782235480e84555e",
+        "octets": 29736
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/STORE-27986352-2024-06.pdf",
+        "repere": "p 1 résumé 2024-06; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2b3598e1c49bde61ea1cf188f5195ef7c74815e328797b40954c02817cd15e23",
+        "octets": 27302
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/STORE-27986352-2024-07.pdf",
+        "repere": "p 1 résumé 2024-07; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "3c02df14cc5babf5de15f4143228390b9da8f4538e2574dd7f7375ae6e25deef",
+        "octets": 30047
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/STORE-27986352-2024-08.pdf",
+        "repere": "p 1 résumé 2024-08; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "1c064bfdf75fe1eaf74678d60557244c4f035719d693bb0e9782107bbc01efcb",
+        "octets": 30789
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2aec05ffc5c69b28c6069723ca8734862433b4691538117903be21dd0932a580",
+        "octets": 31061
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "1fbd404f5e1c9f27fa95f3d7aa9a929c167da8297e00004c5c7ed2054a961cf6",
+        "octets": 31420
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "191240eeb172821cabc8351334ce8c2060bf43da890202b1735ee7fed070cfdd",
+        "octets": 30019
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "92e652588b92f3c9de60f7048d55b797e42ebd5d5d5a8095f8147ee997ef61b0",
+        "octets": 30493
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "4ff41332e620d82cdfb7495b2a9efbde9ace32f39d7c42ae7ed5dceef54c1284",
+        "octets": 27552
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "275b4d6048f9561384b4630a981ecc5aa53c90bd3d0784b4849e3c2af4f53557",
+        "octets": 27926
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "d1d551623d81de821403312b6dfbb3e0ee8c0a2cc4687931de4331f65f4dec0e",
+        "octets": 30648
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-4-2025.pdf",
+        "repere": "p 1 résumé 2025-04; p 1–4 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montréal Nord (Bd Léger) ID 27986352; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "9d2046b72939b322a921b14b1df418dd4918a486725938e850a9d97f41fdf44b",
+        "octets": 30534
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montreal ID 27986352; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0ed76b395cf6bae86c1377dde2a4827853a55299b0362c9bbdb3737bf9e90494",
+        "octets": 27925
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita 24/7 Montreal ID 27986352; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "1d1120e19999131192c2da2c7b10968821cf2ca199595d3d0bbdf01ba2bd82e3",
+        "octets": 29418
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e48eec9e6e8/monthly-statement-generator-27986352-60570112-7-2025.pdf",
+        "repere": "p 1 résumé 2025-07; p 1–3 document complet.",
+        "apport": "DoorDash Pi Pita Montréal ID 27986352; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7861904e46a4b668531910b5365fee135f79843cf321d6c211b6b9d27de5b189",
+        "octets": 29426
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/STORE-27986646-2024-04.pdf",
+        "repere": "p 1 résumé 2024-04; p 1–3 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "79157b4b51c1f16aad1c03c0afc1479dd0b82fc191d979db1367bda31f76517d",
+        "octets": 27226
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/STORE-27986646-2024-05.pdf",
+        "repere": "p 1 résumé 2024-05; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "dcc9329a1c70d00158c5408238584b7727a4faf307684f9c2d2b37bb449b0f7d",
+        "octets": 29636
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/STORE-27986646-2024-06.pdf",
+        "repere": "p 1 résumé 2024-06; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "726ec81d5efd93550028b8a4e1965e1e94899a2fcf101b38494c46e0ef434600",
+        "octets": 29807
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/STORE-27986646-2024-07.pdf",
+        "repere": "p 1 résumé 2024-07; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "c261911abe286eef23bf493b68537913c65efeb5ddcd42851fc473f9af90689a",
+        "octets": 30203
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-8-2024.pdf",
+        "repere": "p 1 résumé 2024-08; p 1–3 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0d304766dceceb5060d66d41a0a41d49b7ebcb85be6b5d836fa63e2b21fe08e6",
+        "octets": 27673
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0918119151ee2be145c11cb77470a337bf27e17fe65299289771aae0581beeb3",
+        "octets": 30276
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "f8ca8c2ff355be8949f38610469c371f4328615f70c52bd2818fcf74bfb11c43",
+        "octets": 30626
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "731c2dfadbfc2c401c197920434c720b5699f8151cfe57f942ff766dcb7ccad4",
+        "octets": 30165
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–5 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "d362fbca9aa6b3564cebb0462ee335f122abb5867f71f28d02a35e4ee31d330f",
+        "octets": 33233
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "07b008ab8db4d672859097549af0fce37b64bc0c8f0bd1ca7aed839160f20469",
+        "octets": 31365
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "a2eb4ce9620417966f57f438d175c82c51d39d8dc90972b035228596614ffbaa",
+        "octets": 31154
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "44cc3d969baa2a941ed2e3b45fb66a362936b88e825675c710c788eced1a4b17",
+        "octets": 30724
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-4-2025.pdf",
+        "repere": "p 1 résumé 2025-04; p 1–4 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 Montréal-Nord (Bd Léger) ID 27986646; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "e2587033c7f238bd06fcb5f0b35d5a231541627dcfac693b59667b6400396829",
+        "octets": 31342
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–5 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 ID 27986646; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "a547d718ff1ea1605943eed1eebc4f87015ccb19e669054ef353b1624b4c3d4d",
+        "octets": 33187
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–5 document complet.",
+        "apport": "DoorDash O'Crêpe 24/7 ID 27986646; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "8601813113423ba396a1bcd8619393b418c8914f515ec05a4e142e8c53a03898",
+        "octets": 34703
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4b593ecf2a/monthly-statement-generator-27986646-60570908-7-2025.pdf",
+        "repere": "p 1 résumé 2025-07; p 1–5 document complet.",
+        "apport": "DoorDash O'Crêpe Montréal ID 27986646; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "53c900864fa8545b5f3718a37d5fd92e8edb714e4b5cd5ef7e4ec3856872a77e",
+        "octets": 35641
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/STORE-28040070-2024-04.pdf",
+        "repere": "p 1 résumé 2024-04; p 1–3 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "095915b8d6d9ca390a7cd9cde4d35cacee4b85be19d5a2bd392347b7fec8f3d2",
+        "octets": 27481
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/STORE-28040070-2024-05.pdf",
+        "repere": "p 1 résumé 2024-05; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "6b5bffa89881d6debfa998cec527eb1ceeb016430df56680a91a841074330384",
+        "octets": 32737
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/STORE-28040070-2024-06.pdf",
+        "repere": "p 1 résumé 2024-06; p 1–4 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "a2af3ed8a02b7627d4ecaac951f00526683270359fa4184810e7d638ff852625",
+        "octets": 30579
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/STORE-28040070-2024-07.pdf",
+        "repere": "p 1 résumé 2024-07; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2b00078c1874ed17a1c5017f0470aabf0f4255d1c595870b451de5a3ba49596f",
+        "octets": 34458
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/STORE-28040070-2024-08.pdf",
+        "repere": "p 1 résumé 2024-08; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7add3b7e1bb66f9eb5eac2e2016673b80398b7772ec6420c27075909c2c4509b",
+        "octets": 33791
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–6 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "d05c0363113cddf4bce12f7803e32dcea85d3725ac81fc20e6c6735d6567699f",
+        "octets": 36196
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2b16c9cbd7d3fc63535d392c5c7e3d7de3af539363c3fff703009ea60a5fbdb1",
+        "octets": 33297
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0ae9381d2221caf065a39bbd9978b131807c5826377f58747b3cc981563dba3b",
+        "octets": 34392
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "ba467ae14075efb5a96a712528bb749837df2ec4e7a445a8983ed44ff159a6a4",
+        "octets": 33167
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–5 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "d9f2e13448241b149f9a478fe8a71eef3bb7cdf7cd8dea8306744ae773073b6f",
+        "octets": 33585
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–4 document complet.",
+        "apport": "DoorDash PPP Pizzeria 24/7 Montréal-Nord (Bd Léger) ID 28040070; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "045421b3cb06876987ebef322c40f112d91d8a508f47ffd779c4c33b3b45db3c",
+        "octets": 30245
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3908cbdd7b/monthly-statement-generator-28040070-60733148-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–4 document complet.",
+        "apport": "DoorDash PPP Pizzeria ID 28040070; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "964d83c6f0a55006341f3097b51b26eb7fbe72370f0f2e2e993a2a05d1b679c7",
+        "octets": 32079
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/STORE-28108457-2024-04.pdf",
+        "repere": "p 1 résumé 2024-04; p 1–3 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "bee59222cba1cd130b9ab5368fe2f274afa4c801b9bb40d3beee5ea89cc51486",
+        "octets": 27626
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/STORE-28108457-2024-05.pdf",
+        "repere": "p 1 résumé 2024-05; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "aa48c1fff1fbf8a36f187773da6f255f8fcae6178dc1009de9fd8e4f3d1ebc66",
+        "octets": 31251
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/STORE-28108457-2024-06.pdf",
+        "repere": "p 1 résumé 2024-06; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "4bce47a106426062dc8136c950daaf914b51c4044fd719ecbfee025793befef6",
+        "octets": 30869
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/STORE-28108457-2024-07.pdf",
+        "repere": "p 1 résumé 2024-07; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "14aa9d9db39dee9ba1e206db8009ee760da7ddc99b73d89c745f288d72b9a9b3",
+        "octets": 31793
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/STORE-28108457-2024-08.pdf",
+        "repere": "p 1 résumé 2024-08; p 1–5 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "65c6eb3b74dfeb75f459d0e21308435c06f359de2c381154efb9c3b2df117377",
+        "octets": 33775
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "df8e6061cef9de798a918435302a9241914ef51253d77f0ecce7c7c0ddee1f9e",
+        "octets": 31828
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–5 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "3bcea9d666fe6a79b999f5ca15f81ee619ef6f9c44f53f40bd037bce1346afab",
+        "octets": 33506
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "cc7c00a5e9d56720c6233a80f29225ca141499b0b16a940cb47eea82e1b444af",
+        "octets": 31397
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–5 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "99b65c54169a8e2a34c6fda5dbd5d621c7d8b6513b34deb73583dc537eba3d91",
+        "octets": 33447
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "454aa0b55873e86f613563fa8e1fbf47b0567b18072526b0bd196d9fb0152eb7",
+        "octets": 31759
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "61ea24092f1873db276d864a1a9e88b752d18f2a7a0f3be8e5e876e6dd05fda7",
+        "octets": 31004
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7668f06b8f2daeb52b84a2325625345ab263545d3b5a17f3a37c30b142d983da",
+        "octets": 31318
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-4-2025.pdf",
+        "repere": "p 1 résumé 2025-04; p 1–4 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure (Montréal-Nord) ID 28108457; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "5dcca8b1c26b7d891fb08b14d605f2159cc37c19830876dd14aa6b2ae270521b",
+        "octets": 31378
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–3 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure ID 28108457; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "ec6306819aa049afc3ac3aae5b0db8d8c04197e188cb4d7892a0e46a42fe661e",
+        "octets": 28165
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–3 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure ID 28108457; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "733f7a5d69df6839d896d8205fb383fb817d495fe078fed7f435274842a64283",
+        "octets": 29554
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e3ce0bdb6e5/monthly-statement-generator-28108457-60938528-7-2025.pdf",
+        "repere": "p 1 résumé 2025-07; p 1–3 document complet.",
+        "apport": "DoorDash Crémerie Bin molle & Bin Dure Montréal ID 28108457; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "9b886dd4c55e8fea54f45bd313db4b067a347fbc3f28afa1c02021b00bd5e9f4",
+        "octets": 29562
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "0edd81b8260c7938de1e0c0dca0adde96d781208db9f7c154d39dd254cf253f4",
+        "octets": 30806
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–5 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "828bbb91ec46822b521782ad4fa9b882f215d7da18b8612f2093dec946d51215",
+        "octets": 33497
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "23c13cff3c655f1c9bf5e0947cc5244adccaccafd8147bac99f75dc11cc68c43",
+        "octets": 31682
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "f38b0b8d19aec722df731a71ddaf06e7db1d488939942385b2b635ac016219d9",
+        "octets": 31636
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–5 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "2b2a637cd5ecb28c6f58740c2afb13c862b78c01f7ff09079480f6b7cb61fa27",
+        "octets": 33408
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "27abfb0a27857d575c0996f54037332c213324a228d515c2dd4ec46acb1d8610",
+        "octets": 31639
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "41acca16aead1ce805365ed78117781b31d219aa2f6e2ea63d1faec803f61711",
+        "octets": 31636
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-4-2025.pdf",
+        "repere": "p 1 résumé 2025-04; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican (Bd Léger) ID 30831008; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "e83918516137b052d4a0fe746636512fd9a4d7f57a8e31967881753aacf33ac0",
+        "octets": 31655
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–3 document complet.",
+        "apport": "DoorDash Taco Mexican ID 30831008; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "c8ba6aa1837cd1b7b240b6069e27bde742af77819fb0ed3ef41d4e2eb9effc1d",
+        "octets": 27838
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–3 document complet.",
+        "apport": "DoorDash Taco Mexican ID 30831008; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "427abd025d8d3d93fd60a209cb857a3260f4a68458bdbd19275d5066ca388484",
+        "octets": 29227
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e521a8576f8/monthly-statement-generator-30831008-62668460-7-2025.pdf",
+        "repere": "p 1 résumé 2025-07; p 1–4 document complet.",
+        "apport": "DoorDash Taco Mexican ID 30831008; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7b279644d2a5e7789da5838d818d142eb55225411039ff32080fc85dd5f60a18",
+        "octets": 31959
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-9-2024.pdf",
+        "repere": "p 1 résumé 2024-09; p 1–4 document complet.",
+        "apport": "DoorDash Cafe Bolon (Bd Léger) ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "5ff3be083087443edd60ff62617975172872393240aba4eaa6941c690c7cefdb",
+        "octets": 30557
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-10-2024.pdf",
+        "repere": "p 1 résumé 2024-10; p 1–4 document complet.",
+        "apport": "DoorDash Cafe Bolon (Bd Léger) ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "84f291e57b24acd3393bc7901b843411777af3d5d71574d140296e2f8b975fc6",
+        "octets": 30586
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-11-2024.pdf",
+        "repere": "p 1 résumé 2024-11; p 1–4 document complet.",
+        "apport": "DoorDash Cafe Bolon (Bd Léger) ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "d38ef09a4a9e3a7fa44eb10b3a3b552116110ee0ad0d58307a4cf23a3558ce84",
+        "octets": 29984
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-12-2024.pdf",
+        "repere": "p 1 résumé 2024-12; p 1–4 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "13157b8f2914a83a6039b10003a02e4bf63e0e38985bb1c66e9191a767620fda",
+        "octets": 31090
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-1-2025.pdf",
+        "repere": "p 1 résumé 2025-01; p 1–3 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "c71d075eab5afa004d2eb3e8ba92a8d3b3af60049f9c79815d014a043492fd30",
+        "octets": 27537
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–4 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7c1a87049ddb5935b986265331f67dc5dcebe25dd07dbc3495e0a5482d23ed3e",
+        "octets": 31494
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "25ac128221b3cf2dcc666cd6920666a0e21f000c0e89dbdc0f57ccd81f7c0fdd",
+        "octets": 31274
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-4-2025.pdf",
+        "repere": "p 1 résumé 2025-04; p 1–5 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 6241 Bd Léger, Montréal-Nord, QC H 1 G 3 P 3, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "8041e15d5a1b4069ab9cc9c38dc88e5f1ccd5cdea7d620ea40b638a86d76b701",
+        "octets": 33505
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–3 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "6b9060a5d352e1ba0232b4311b61d08151cae9e2707996a6018b23dd6a7411e3",
+        "octets": 28007
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–3 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "bc75394a58444b1b4fa9f19777ae951128722de6d6a3029241a37aae6c780e3d",
+        "octets": 29402
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e4db5062146/monthly-statement-generator-30831269-62668701-7-2025.pdf",
+        "repere": "p 1 résumé 2025-07; p 1–3 document complet.",
+        "apport": "DoorDash Cafe Bolon ID 30831269; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "f8160a8c9547b9264dab74ea2eb4e339278feca88b4588e24fe7892fa91c70b0",
+        "octets": 29420
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e556c199db2/monthly-statement-generator-32501513-65001347-2-2025.pdf",
+        "repere": "p 1 résumé 2025-02; p 1–3 document complet.",
+        "apport": "DoorDash Mythos 2 Go ID 32501513; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "aa15651fdaf8040b25d21c9e0dd8e544ebfca87b3a27b46177dc14e15fe9d555",
+        "octets": 27614
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e556c199db2/monthly-statement-generator-32501513-65001347-3-2025.pdf",
+        "repere": "p 1 résumé 2025-03; p 1–4 document complet.",
+        "apport": "DoorDash Mythos 2 Go ID 32501513; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "8e5714688e5edbba4fae5027e1ab58272baecaa223333af861d2794397c25d73",
+        "octets": 30345
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e556c199db2/monthly-statement-generator-32501513-65001347-4-2025.pdf",
+        "repere": "p 1 résumé 2025-04; p 1–4 document complet.",
+        "apport": "DoorDash Mythos 2 Go ID 32501513; adresse imprimée 6241 Boul Léger, Montréal-Nord QC H 1 G 6 K 8, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "8d10e4caaf70e707ac638ee8270a519ee11c3cdc113a07007ad4568a0636116f",
+        "octets": 31046
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e556c199db2/monthly-statement-generator-32501513-65001347-5-2025.pdf",
+        "repere": "p 1 résumé 2025-05; p 1–3 document complet.",
+        "apport": "DoorDash Mythos 2 Go ID 32501513; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "7be17dc229bc108dab9818593c611b5e4d009c564b256897b70707354d507122",
+        "octets": 27972
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e556c199db2/monthly-statement-generator-32501513-65001347-6-2025.pdf",
+        "repere": "p 1 résumé 2025-06; p 1–3 document complet.",
+        "apport": "DoorDash Mythos 2 Go ID 32501513; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "f3403b2a162b6dce529de86eca07a9aec9fc44fe15ce6d952a2bf68fc9ebbb76",
+        "octets": 29290
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Contenu_archives/198b2e556c199db2/monthly-statement-generator-32501513-65001347-7-2025.pdf",
+        "repere": "p 1 résumé 2025-07; p 1–3 document complet.",
+        "apport": "DoorDash Mythos 2 Go ID 32501513; adresse imprimée 5837 Rue Jean-talon E, Saint-léonard, QC H 1 S 1 M 4, Canada. Un relevé original du mois; ne pas additionner résumé et détails de périodes de paiement.",
+        "nature": "original",
+        "sha256": "1792cccde50a8c9bfeaf9f5fd53ddec3e0788131d443fa0a63d9c844ba9a7589",
+        "octets": 29474
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Pieces_jointes/1969182c9e125cfe__report_2024-11-01_2025-04-27.xlsx",
+        "repere": "report_2024-11-01_2025-04-27; 34 lignes avec en-têtes.",
+        "apport": "Export SKIP : 10 commandes; statuts {'Completed': 7, 'Rejected': 3}. Rattachement commercial à confirmer; pas contrat accepté.",
+        "nature": "original",
+        "sha256": "f56a15172e06a8b104676a146948a1be071a1de2ddba4ac3f6645dcc88f97c63",
+        "octets": 7374
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Pieces_jointes/198e84be7b461d4b__report_2024-03-01_2024-12-31 - report_2024-03-01_2024-12-31.csv",
+        "repere": "CSV, première ligne en-têtes; 64 lignes avec en-têtes.",
+        "apport": "Export SKIP : 19 commandes; statuts {'Cancelled': 2, 'Rejected': 8, 'Completed': 9}. Rattachement commercial à confirmer; pas contrat accepté.",
+        "nature": "original",
+        "sha256": "414c2d15224ec4d3a20ddaadaf4646a31e49c5dc3f2545626cb5a07a7c213841",
+        "octets": 7980
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Originaux_EML/1969182c9e125cfe.eml",
+        "repere": "Message RFC 2822 et chaîne citée.",
+        "apport": "Provenance de l’export SKIP; la demande d’activation ou l’annonce d’un accord envoyé ne démontre pas son acceptation.",
+        "nature": "original",
+        "sha256": "2e31a8bc599aee8433f3a81e8669d91bfd0325e9fbc76e8cc9b030ed829d66a4",
+        "octets": 19094
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/Originaux_EML/198e84be7b461d4b.eml",
+        "repere": "Message RFC 2822 et chaîne citée.",
+        "apport": "Provenance de l’export SKIP; la demande d’activation ou l’annonce d’un accord envoyé ne démontre pas son acceptation.",
+        "nature": "original",
+        "sha256": "4b792f2d432ae41da63f6b19f15adc563724c2e94176dbdbf722ffb49f92dedf",
+        "octets": 27852
+      }
+    ],
+    "manquants": [
+      "Contrats acceptés DoorDash, Uber Eats et Skip, avec titulaire, établissement, dates et avenants, ou attestation documentaire de leur acceptation.",
+      "Relevés manquants par commerce/mois et exports détaillés Uber 2025; la couverture exacte des 107 DoorDash est fournie, sans inférence d’absence d’activité.",
+      "Identifiant de commerce et titulaire des deux exports SKIP; confirmation du lien de Pizza Mambo 5 et du « previous location » avec Quadro.",
+      "Rapprochement commandes/versements/dépôts bancaires et explication des changements d’adresse; ne pas additionner anciens tableaux 2024 aux nouveaux relevés pour les mêmes ventes."
+    ],
+    "demarches": [
+      "Exporter depuis chaque compte marchand les contrats acceptés et relevés complets, avec les paramètres de période et les établissements inclus.",
+      "Faire confirmer si « Sky et Descheuse » vise une seule plateforme Skip the Dishes ou d’autres entreprises.",
+      "Rapprocher par « Order ID »/« Workflow ID » et par établissement; documenter les lignes de frais sans date de commande valide."
+    ],
+    "controles": [
+      "Les deux synthèses totalisent respectivement 55 609,85 $ et 22 774,34 $, mais ces nombres ne sont pas additionnés aux exports détaillés ou au grand livre.",
+      "Les exports mensuels incluent des commandes du mois précédent : l’étiquette du fichier n’est pas une période comptable fiable à elle seule.",
+      "L’onglet du fichier data-vente-avril24.xlsx s’intitule « Ventes Mars 2024 »; les dates de commandes consultées vont du 29 mars au 30 avril 2024.",
+      "Les colonnes de taxes et de versements ne constituent ni des déclarations fiscales déposées ni une confirmation du titulaire légal de chaque enseigne.",
+      "107 couples identifiant de commerce/mois distincts, sans doublon dans ce nouveau lot.",
+      "107 PDF /415 pages DoorDash extraites nativement; trois pages de résumé vérifiées visuellement (OEUF mars/mai 2025, PPP juin 2025). Les 415 pages n’ont pas toutes fait l’objet d’une revue visuelle.",
+      "Les totaux nets DoorDash sont des montants après frais de plateforme, non des bénéfices d’exploitation. Les pages de détail peuvent couvrir plusieurs mois : aucun cumul avec leur résumé.",
+      "Les relevés indiquent qu’ils ne constituent pas des factures fiscales; ne pas en déduire la récupération de taxes."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Lecture openpyxl en mode lecture seule des onze classeurs, inventaire des onglets, vérification des cellules de synthèse et des dates de commandes de la colonne E.",
+      "Premier audit, avant cette collecte complémentaire : Recherche de contrats, conditions acceptées, Uber, DoorDash, Sky/Skip et Descheuse dans les noms de pièces et textes locaux des trois dossiers.",
+      "Premier audit, avant cette collecte complémentaire : Lecture du passage Fieldy pages 39–40 pour signaler l’écart de désignation entre demande écrite et transcription.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 14,
+    "demande": "Produire les rapports de caisse ainsi que les déclarations de TPS et de TVQ pour les années 2024 et 2025.",
+    "statut": "partiel",
+    "reponse_proposee": "Nous joignons désormais la déclaration de TPS/TVQ de Quadro du 1 juillet au 30 septembre 2024 et son accusé de réception, qui indique une transmission réussie le 7 octobre 2024 par Élodie Simard. Elle déclare 27877,99 $ de fournitures,755,76 $ de TPS nette et 1507,73 $ de TVQ nette, soit 2263,49 $ à remettre. L’intention de payer affichée ne constitue pas une preuve de paiement. Les données coïncident avec le tableau trimestriel déjà identifié, mais l’écart de 2,61 $ avec le grand livre reste à expliquer. Les autres déclarations 2024–2025 et les rapports originaux de caisse demeurent à produire.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Ventes-juil-sept-2024.png",
+        "repere": "Image entière, tableau « Quadro », juillet–septembre 2024; lecture visuelle effectuée.",
+        "apport": "Tableau de calcul : ventes 27 877,99 $, TPS 1 393,90 $, TVQ 2 780,83 $, total 32 052,72 $. Aucun accusé de dépôt fiscal ou rapport de fermeture de caisse n’y figure.",
+        "nature": "original",
+        "sha256": "ca88a46a6e7fd67c7f2a579329b6c4f47bc6f5e1fee05b02b296ca29777566e4",
+        "octets": 113123
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/final.xls",
+        "repere": "Sheet 1, A 1:A 4 (identité et période); compte 4200, lignes 5–16; compte 5660 (amortissement), ligne 387; 750 lignes au total.",
+        "apport": "Grand livre intitulé QUADRO HOLDINGS INC., période affichée du 1er juillet 2024 au 30 juin 2025. Les comptes trouvés vont de 4200 à 5898. Les crédits de ventes du compte 4200, juillet 2024–avril 2025, totalisent 77 995,44 $ en I 16. Ce n’est ni un bénéfice net ni un registre individualisé des immobilisations.",
+        "nature": "original",
+        "sha256": "0cf4a4ba82143dc3328b798fefefa1581ed1d0bd48ef5ead44d78d6445995ad1",
+        "octets": 148992
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx",
+        "repere": "Onglet « Ventes total 2024 », C 7:C 16 (mars–décembre 2024), C 17; dix onglets mensuels de « Mars 24 » à « December 24 ».",
+        "apport": "Tableau de ventes : total inscrit 55 609,85 $. Ce classeur ne constitue pas un contrat de plateforme ni une preuve bancaire de tous les versements.",
+        "nature": "original",
+        "sha256": "1b214d9493c9ea09218ecb6f114fbbc1f9fb625a5466f330d1798f3a2ba1d715",
+        "octets": 178628
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx",
+        "repere": "Onglet « Ventes total 2024 », C 6:C 14 (avril–décembre 2024), C 15; neuf onglets mensuels d’avril à décembre 2024.",
+        "apport": "Tableau de ventes : total inscrit 22 774,34 $. Ce classeur ne constitue pas un contrat de plateforme ni une déclaration de TPS/TVQ déposée.",
+        "nature": "original",
+        "sha256": "070c4a83eb572ccd9f557c35c6291c544a85e117b173ceb39593843e51f2ca06",
+        "octets": 85694
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Declaration-TPS-TVQ-2024-09-30.pdf",
+        "repere": "p 1 période, accusé du 7 octobre 2024 et ligne 101; p 2 TPS/TVQ et intention de payer.",
+        "apport": "Déclaration QUADRO pour 1 juillet–30 septembre 2024; ventes 27877,99 $, taxes nettes à remettre 2263,49 $. Accusé de dépôt, pas preuve de paiement.",
+        "nature": "original",
+        "sha256": "3410b8f68f16600fb4e2634263c2da09621b00ff2b38b84e400ebc98058269da",
+        "octets": 193110
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/declaration-taxes-controle.json",
+        "repere": "Deux pages transcrites et contrôlées.",
+        "apport": "Montants, période et limites de l’accusé de dépôt.",
+        "nature": "analyse",
+        "sha256": "70c7a7e75885304a72a270b9f288d668eaf1dba8652341e7cf9964cf988f7575",
+        "octets": 1096
+      }
+    ],
+    "manquants": [
+      "Rapports de caisse/POS 2024–2025, clôtures, annulations, remboursements et ventilation comptant/carte par établissement.",
+      "Autres périodes de déclaration 2024–2025 et justificatifs de paiement/remboursement; seule la période juillet–septembre 2024 et son dépôt sont établis ici.",
+      "Rapprochements comptables, fiscaux et bancaires, notamment l’écart de 2,61 $ entre le grand livre et la déclaration trimestrielle."
+    ],
+    "demarches": [
+      "Demander au comptable ou télécharger depuis les comptes fiscaux autorisés les déclarations et accusés; aucun dépôt ni correction fiscale effectué ici.",
+      "Exporter les rapports natifs de caisse et les rapports de règlement des acquéreurs, en précisant la société et l’établissement concernés.",
+      "Rapprocher les périodes civiles demandées avec l’exercice comptable du 1er juillet au 30 juin, sans confondre ces deux découpages."
+    ],
+    "controles": [
+      "27 877,99 + 1 393,90 + 2 780,83 = 32 052,72 $ dans l’image; il s’agit d’un contrôle arithmétique, pas d’une validation fiscale.",
+      "Ventes juillet–septembre du grand livre : 9 907,70 + 9 927,52 + 8 040,16 = 27 875,38 $, soit 2,61 $ de moins que l’image.",
+      "Aucun montant de taxe figurant dans un classeur n’est traité comme taxe déclarée, remise ou remboursée.",
+      "Les pièces consultées ne couvrent pas intégralement les deux années demandées."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Lecture visuelle de Ventes-juil-sept-2024.png et rapprochement des trois lignes mensuelles du compte 4200.",
+      "Premier audit, avant cette collecte complémentaire : Recherches locales TPS, TVQ, GST, QST, déclaration, caisse/POS et rapports dans les trois dossiers; les mentions dans les demandes et analyses n’ont pas été assimilées à des déclarations déposées.",
+      "Premier audit, avant cette collecte complémentaire : Lecture des classeurs de ventes et de leurs colonnes fiscales; cette première lecture des classeurs est désormais complétée par le PDF fiscal portant un accusé de réception pour juillet–septembre 2024.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 17,
+    "demande": "Produire la documentation de Tezanet concernant l’évaluation des équipements.",
+    "statut": "partiel",
+    "reponse_proposee": "Nous joignons la soumission Tzanet 141455 du 28 juillet 2025, adressée à Quadro au 5837 Jean-Talon : deux fours convoyeurs PS 528 GNAT, une vitrine réfrigérée, deux fours à convection et un kit de conversion, pour 90620 $ avant taxes et 104190,35 $ taxes comprises, livraison exclue. Nous joignons aussi la capture 1000026855.jpg du courriel de Panos Liveris concernant l’indisponibilité d’un modèle réservé à Tim Hortons. Ces pièces apportent des prix et un renseignement commercial; elles ne constituent pas un diagnostic ni une évaluation documentée de tous les biens saisis. Le devis 141490 reçu dans le même fil est au nom de Les délice d’aden et reste exclu du montant Quadro. La seconde image 1000026854.jpg a aussi été récupérée : elle photographie le même devis 141455 et ne constitue ni un montant supplémentaire ni un rapport distinct. La provenance des deux images est rattachée au courriel Ooeuf du 30 juillet 2025. Tout rapport d’évaluation distinct demeure à obtenir s’il existe.",
+    "pieces": [
+      {
+        "path": "6241 Léger/04_Pieces_jointes/Reprise_2026-10-21/19e6a1c6483f8f5a__A06.pdf",
+        "repere": "p. 1, courriel du 30 juillet 2025 à 18 h 31; deuxième bloc marqué Draft à 18 h 49",
+        "apport": "Annonce d'un rapport TZANET pour deux fours Tim Hortons; noms des deux JPG annoncés. Le PDF est une reproduction de courriel, pas le rapport lui-même.",
+        "nature": "declaration",
+        "sha256": "e417911ed45ba662416842fd5f821c47e53bbc691f091753cedd7ef1acfae517",
+        "octets": 100087
+      },
+      {
+        "path": "6241 Léger/03_Courriels/Analyse_consolidee/Texte_et_OCR_reprise/19e6a1c6483f8f5a__A06.txt",
+        "repere": "PAGE 1, texte extrait du PDF correspondant",
+        "apport": "Facilite la recherche des annexes 1000026855.jpg (399 KB) et 1000026854.jpg (3 MB), du fournisseur et des équipements.",
+        "nature": "extraction",
+        "sha256": "c0893bec4199cd55064dc03bda13bba2514f1dd7cdcdd4b1b05aab89f12fe809",
+        "octets": 2904
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "p. 54–55, 11:23:42–11:24:30",
+        "apport": "Une estimation par comparables/numéros de série est évoquée, avec valeurs approximatives. Pas de rapport produit dans la transcription.",
+        "nature": "declaration",
+        "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+        "octets": 423672
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Sales Quotation - 141455.pdf",
+        "repere": "p 1 entière, client Quadro, devis 141455 du 28 juillet 2025.",
+        "apport": "Soumission commerciale de remplacement :90620 $ HT,104190,35 $ TTC, livraison exclue. Aucune preuve de paiement, propriété ou état mécanique.",
+        "nature": "original",
+        "sha256": "88382fecd7883913b083b075565e670939ebe21304e2e7a18816d9c1e222f04e",
+        "octets": 67569
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Sales Quotation - 141490.pdf",
+        "repere": "p 1 entière, client Les délice d’aden, devis 141490 du 28 juillet 2025.",
+        "apport": "Document distinct reçu dans le même fil, exclu du chiffrage Quadro. Sous-total 61368,99 et total 70559,01; taxes imprimées discordantes, option 18879,99 non portée à la colonne Total.",
+        "nature": "original",
+        "sha256": "aa4847783e0e9cf7f9ec129781ce0b09ab800df521a7760b437d40cae5fcd672",
+        "octets": 82002
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/1000026855.jpg",
+        "repere": "Capture complète, expéditeur Panos Liveris/Tzanet.",
+        "apport": "Explication commerciale concernant l’accès à un modèle Tim Hortons; aucun diagnostic ni rapport d’expertise. Date complète non visible sur l’image.",
+        "nature": "original",
+        "sha256": "b77d5fb20d666cfbf945e4eea5425c9c298dade5f5e83140e339d9da7ef6fbe2",
+        "octets": 399726
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Quotation-fil-visible.txt",
+        "repere": "Fil Quotation du compte Ooeuf; messages du 28 juillet 2025 et échanges suivants.",
+        "apport": "Provenance UI des devis; extraction de conversation, pas export MIME.",
+        "nature": "extraction",
+        "sha256": "861087c19d6fc769587ea3c401ddc2ec07da3c4f7344ed68c47003c68dc02b87",
+        "octets": 72021
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/tzanet-controle.json",
+        "repere": "Analyse séparée des devis et capture.",
+        "apport": "Montants source, limites et anomalie fiscale du devis 141490.",
+        "nature": "analyse",
+        "sha256": "9a3d7bdc7f1b2d4531cb0693144300a209b4566f36003f0244972d71410b144d",
+        "octets": 2850
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/1000026854.jpg",
+        "repere": "Photographie du devis 141455, une page, daté 28 juillet 2025.",
+        "apport": "Même devis Quadro que le PDF 141455 :90620 $ HT,104190,35 $ TTC. Version photographiée à ne pas additionner; pas expertise.",
+        "nature": "original",
+        "sha256": "0f12ec6841e9c3e19a242042a4bbadfa80a7b2c19e10215a01e7a6d214152a5a",
+        "octets": 2957100
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/2025-07-30-1831-Tzanet-courriel-dom.txt",
+        "repere": "Message Ooeuf du 30 juillet 2025 à 18 h 31; liste des deux pièces 1000026855.jpg et 1000026854.jpg.",
+        "apport": "Provenance des deux images annoncées à Joey Dubois, désormais récupérées; extraction UI, pas EML.",
+        "nature": "extraction",
+        "sha256": "69743b01549fe425f7629032b93354f51fd158c2e9a77b58ccc12c89a8bba517",
+        "octets": 7872
+      }
+    ],
+    "manquants": [
+      "Rapport d’évaluation ou d’expertise distinct, s’il existe, avec auteur, méthode, état/âge, modèles/numéros de série et correspondance aux équipements litigieux.",
+      "Confirmation du fournisseur sur l’adéquation des appareils proposés et la distinction entre remplacement, réparation et évaluation; justificatif d’achat si un devis a été accepté."
+    ],
+    "demarches": [
+      "Compléter au besoin la provenance par l’export EML du message Ooeuf du 30 juillet 2025; les deux images et les devis sont désormais disponibles, ainsi qu’une extraction UI du message.",
+      "Faire confirmer s’il existe un rapport d’évaluation distinct des deux devis de vente et de la capture concernant la disponibilité du modèle Tim Hortons.",
+      "Traiter séparément les projets TORI Repair et le comptoir réfrigéré : devis de remplacement et rapports techniques n’établissent pas les mêmes faits."
+    ],
+    "controles": [
+      "Un courriel annonçant un rapport ne démontre ni le contenu, ni la remise, ni la portée de ce rapport.",
+      "Le bloc Draft à 18 h 49 ne constitue pas un second envoi confirmé.",
+      "Frigo-Spec, Choquette et SCC Auger ne sont pas Tezanet; leurs devis ne remplacent pas le document demandé.",
+      "Les variantes Tzanet/Tezanet/Tesanet restent des pistes de recherche, non une correction de la source. Une valeur estimée n'est pas un achat ni une facture payée.",
+      "Devis 141455 : lignes 90620 + TPS 4531 + TVQ 9039,35 =104190,35.",
+      "Devis 141490 autre client : sous-total 61368,99; grand total 70559,01; taxes imprimées 4012,45 et 8004,84 discordantes. Option 18879,99 affichée avec tiret dans le total; aucune correction de l’original ni cumul avec 141455.",
+      "La capture 1000026855.jpg ne montre pas de date complète ni de conclusion technique; son auteur visible est Panos Liveris, représentant aux ventes Tzanet.",
+      "1000026854.jpg et Sales Quotation 141455.pdf sont deux représentations du même devis : une seule valeur.",
+      "Devis 141490 :61368,99 × 1,14975 arrondi =70559,00 contre 70559,01 imprimé, écart 0,01 $. Aucun chiffre original modifié."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+      "Premier audit, avant cette collecte complémentaire : Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+      "Premier audit, avant cette collecte complémentaire : Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J 02–J 04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+      "Premier audit, avant cette collecte complémentaire : Recherche locale tzanet|tezanet|tesanet|brindamour et noms 1000026855/1000026854.",
+      "Premier audit, avant cette collecte complémentaire : Gmail Takatak, lecture seule : {tzanet tezanet tesanet \"brindamour\"} (14 résultats); recherche des deux noms de pièces et sujets expertise/évaluation; recherche expéditeur/destinataire tzanet.com et sujets Tzanet/Tezanet/Tesanet (aucun résultat direct).",
+      "Premier audit, avant cette collecte complémentaire : Lecture intégrale du PDF A 06 et de son texte; les limites du compte Takatak ne prouvent pas une absence dans ooeuf.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 21,
+    "demande": "Produire une copie de la police d’assurance de QH couvrant les biens concernés.",
+    "statut": "partiel",
+    "reponse_proposee": "Nous joignons deux certificats/avenants d’assurance repérés pour le 6241 boulevard Léger et la lettre de réserve du 4 août 2026. Le certificat au nom de Quadro Holding Ltée affiche une période du 7 mai 2024 au 24 août 2025, le numéro RACIBM 1126 et une référence à la police 10266520. Un autre certificat vise 8697230 Canada Inc. et Quadro Holding Ltée du 20 juin au 24 août 2024. La lettre concernant les dommages allégués durant le déménagement et l’entreposage renvoie, elle, à la police 10043375. Ces pièces ne remplacent pas le contrat complet, ses conditions et ses avenants applicables aux biens et lieux concernés en juin 2025; aucune conclusion de couverture n’est tirée de ces seuls certificats.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/ASSURANCE-AVENANT-QUADRO.pdf",
+        "repere": "Page 1 : assuré, lieu, période, certificat RACIBM 1126; référence à la police 10266520.",
+        "apport": "Certificat au nom de Quadro Holding Ltée, 6241 boulevard Léger, période imprimée du 7 mai 2024 au 24 août 2025. Tableau de garanties de bris d’équipement; ce document d’une page ne contient pas toutes les conditions de police.",
+        "nature": "original",
+        "sha256": "66ac2a15030db7804853c0c54ee3a38502b126e461f3616c2e26119fa06a28e8",
+        "octets": 49054
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/ASSURANCE-AJOUT-JUIN2024.pdf",
+        "repere": "Page 1 : assuré, période et numéro de certificat.",
+        "apport": "Certificat au nom de 8697230 Canada Inc. et Quadro Holding Ltée, période imprimée du 20 juin au 24 août 2024, même certificat RACIBM 1126 et référence à la police 10266520.",
+        "nature": "original",
+        "sha256": "a8069731aefb7da60533a5990665cd6c4e5f7f8a1788eac1c7bedcc38c719f42",
+        "octets": 58706
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Collecte_2026-10-21/2026-08-04-Lettre-reserve-droits-SNB.pdf",
+        "repere": "Pages 1–2, notamment la référence à la police 10043375 en page 1.",
+        "apport": "Identifie la police à examiner pour la réclamation de déménagement/entreposage SNB et les assureurs mandatants; réserve expresse sans admission de couverture.",
+        "nature": "original",
+        "sha256": "540db2b92c77e02219eac6b2f1ce33b7435388cbae49d774b56ddb88db23625d",
+        "octets": 124896
+      }
+    ],
+    "manquants": [
+      "Police complète 10043375 et tous avenants en vigueur à la date du sinistre allégué, avec noms d’assurés, biens, lieux, dates et limites applicables.",
+      "Texte complet du programme/police 10266520 et du certificat RACIBM 1126, dont les conditions et exclusions, ainsi que la confirmation des périodes effectives par le courtier.",
+      "Documents établissant les biens effectivement déclarés et les lieux de transport/entreposage concernés; rattachement entre société propriétaire, assurée et bénéficiaire."
+    ],
+    "demarches": [
+      "Demander au courtier et à l’expert SNB la copie contractuelle intégrale des polices identifiées, avec avenants et état des lieux/biens déclarés.",
+      "Rapprocher les dates imprimées des certificats et les circonstances alléguées, sans assimiler le programme de bris d’équipement à une garantie automatiquement applicable au transport."
+    ],
+    "controles": [
+      "Le certificat mentionne une extension pour certains équipements portatifs hors lieux de 10 000 $; elle ne suffit pas à établir la garantie des biens déplacés.",
+      "La pièce NDG « TRANSMISSION_PREUVE_ASSURANCE_QUADRO_HOLDINGS_2026-09-10.pdf » a été consultée puis écartée des annexes utiles à la couverture de juin 2025 : pages 3–5, police Intact 383-1237, période du 8 septembre 2026 au 8 septembre 2027, destinataire Restaurent Montréal Hub, 6284 avenue Somerled.",
+      "Les montants oraux de garantie de l’interrogatoire ne sont pas substitués au contrat.",
+      "L’écart entre police 10043375 et référence 10266520 reste à expliquer; ces numéros ne sont pas assimilés."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Lecture native des deux certificats d’une page et de la lettre de réserve originale de deux pages.",
+      "Premier audit, avant cette collecte complémentaire : Contrôle de la pièce NDG de 62 pages et de son bloc identité/période pages 3–5 pour éviter de présenter une police de 2026 comme preuve de couverture en 2025.",
+      "Premier audit, avant cette collecte complémentaire : Recherche locale des numéros de police, certificats et avenants dans les trois dossiers; contrat intégral 10043375 non repéré.",
+      "Recherche Takatak supplémentaire in:anywhere par 10043375,10266520,RACIBM 1126; les certificats et transferts déjà connus ont été retrouvés, sans police complète ni nouvelle réponse finale de l’assureur. Aucun changement de statut.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 22,
+    "demande": "Produire le dossier transmis à l’assureur ainsi que la réponse de celui-ci.",
+    "statut": "partiel",
+    "reponse_proposee": "Nous joignons la lettre de réserve de droits d’IndemniPro du 4 août 2026 concernant le dossier 23910-009447 SNB ainsi que l’extraction locale du suivi documentaire. Cette lettre décrit des dommages allégués à des équipements après déménagement et entreposage, une date de perte du 9 juin 2025 et un lieu au 1600, 55 e Avenue à Lachine. Elle indique que l’enquête est toujours en cours et que les documents permettant d’établir la perte détaillée et le quantum ne sont pas tous reçus. Elle constitue une réponse retrouvée de l’assureur, sans admission de couverture ni décision finale. Le dossier complet effectivement transmis, avec ses pièces et accusés de réception, reste à reconstituer. Deux pièces du dossier antérieur Léger/Hadmo sont aussi identifiées pour contrôler les recoupements de biens et de montants, sans les présenter comme un règlement du sinistre de transport.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Collecte_2026-10-21/2026-08-04-Lettre-reserve-droits-SNB.pdf",
+        "repere": "Pages 1–2; lettre du 4 août 2026, référence 23910-009447 SNB, police 10043375.",
+        "apport": "Réponse originale retrouvée : enquête non concluante sur circonstances, cause, moment, responsables et étendue; preuve de perte et quantum encore incomplets; réserve de droits, sans admission de couverture.",
+        "nature": "original",
+        "sha256": "540db2b92c77e02219eac6b2f1ce33b7435388cbae49d774b56ddb88db23625d",
+        "octets": 124896
+      },
+      {
+        "path": "6241 Léger/03_Courriels/ooeuf.ca@gmail.com/001_soutien_documentaire.txt",
+        "repere": "Capture textuelle Gmail; passages des 6–8 octobre 2026 et message Oeuf à Sylvain Bernier du 20 octobre 2026 à 14:12.",
+        "apport": "Suivi documentaire du client et du cabinet; repère les références SNB et la lettre du 4 août. Il s’agit d’une extraction d’interface, non d’un original EML ni d’une preuve de toutes les pièces reçues par l’assureur.",
+        "nature": "extraction",
+        "sha256": "8672565990a1fd3480ed87ebe055fa5586ed8d5f979f1441a5ea4e9c89e66085",
+        "octets": 26148
+      },
+      {
+        "path": "6241 Léger/04_Pieces_jointes/Reprise_2026-10-21/19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf",
+        "repere": "Page 1, sommaire IndemniPro 24110-4833, assuré Hadmo.",
+        "apport": "Dossier antérieur distinct : équipement réclamé 40 318,16 $, alloué 408,66 $; marchandise réclamée 31 420,08 $, allouée 25 136,06 $; total réclamé 71 738,24 $, alloué 25 544,72 $. Utile pour rapprocher les biens déjà réclamés; ce n’est pas une preuve d’encaissement ou le règlement SNB.",
+        "nature": "original",
+        "sha256": "4f62c985c60ca566548d0c30dcf0dc764024f4295ca204875a46b8ade60abe7e",
+        "octets": 91284
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
+        "repere": "Feuil 1, ligne 63 F:K et ligne 73 H:K.",
+        "apport": "Tableau du dossier antérieur : F 63 réclamé 191 615,88 $, G 63 évalué 92 318,16 $, H 63 alloué 80 918,31 $; H 73 « Indenité no.3 » 18 494,09 $. Ces rubriques ne prouvent pas un versement bancaire et ne s’additionnent pas aux autres versions du sinistre.",
+        "nature": "original",
+        "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
+        "octets": 22799
+      }
+    ],
+    "manquants": [
+      "Bordereau exhaustif des documents effectivement transmis au dossier SNB avec originaux des courriels, pièces jointes et accusés de réception.",
+      "Preuve de perte détaillée par bien, devis/rapports, photographies, factures, chaîne de garde, dates et lieux, ainsi que tout complément transmis depuis la lettre du 4 août 2026.",
+      "Réponse finale ou position plus récente de l’assureur, si elle existe; justificatifs bancaires des indemnités réellement encaissées et ventilation par sinistre/bien/période.",
+      "Rapprochement documenté entre le dossier antérieur Léger/Hadmo, le dossier SNB et les biens réclamés contre Harmony."
+    ],
+    "demarches": [
+      "Compléter la collecte ciblée du fil du 4 août 2026 « Concernant la réclamation 53640-196353 - 8697230 Canada Inc. et Quadro Holding Ltée (23910-9447) » et conserver l’EML d’origine lorsque disponible.",
+      "Demander à l’expert SNB l’inventaire des pièces reçues, des manquants et de la position actuelle; aucun message envoyé par cet audit.",
+      "Construire une matrice par équipement et par sinistre pour distinguer réclamé, évalué, alloué, paiement annoncé et paiement encaissé."
+    ],
+    "controles": [
+      "La date de perte du 9 juin 2025 dans la lettre ne correspond pas à la date du déménagement alléguée le 12 juin 2025 dans la procédure; cet écart reste à éclaircir, sans correction automatique.",
+      "La lettre mentionne le contrat Lloyd’s 33140824 au corps de la page 1 et 3340824 dans la copie conforme page 2; conserver les deux graphies et demander confirmation.",
+      "Le refus ou l’absence de couverture ne peut pas être déduit d’une réserve de droits; inversement, l’ouverture d’une enquête n’est pas une admission de couverture.",
+      "Dans Exhibit 11, la ligne d’inspection Frimabec porte 408,16 $ réclamés et 408,66 $ alloués : l’écart source est conservé.",
+      "Les totaux Hadmo et l’indemnité no 3 sont des états/versions de l’ancien dossier; aucun cumul entre versions ou avec le dossier transport n’est effectué."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Lecture de la lettre originale récupérée depuis l’aperçu Gmail et de ses deux pages de texte natif.",
+      "Premier audit, avant cette collecte complémentaire : Consultation de l’extraction de suivi Gmail et recherche locale du dossier SNB, des références de réclamation et de la police.",
+      "Premier audit, avant cette collecte complémentaire : Lecture native du Claim Summary d’une page et du classeur Hadmo, avec contrôle des cellules de total et indemnité; distinction explicite entre dossier antérieur et transport.",
+      "Recherche Takatak supplémentaire in:anywhere par 10043375,10266520,RACIBM 1126; les certificats et transferts déjà connus ont été retrouvés, sans police complète ni nouvelle réponse finale de l’assureur. Aucun changement de statut.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  },
+  {
+    "id": 23,
+    "demande": "Produire tous les documents justifiant la perte d’exploitation réclamée.",
+    "statut": "partiel",
+    "reponse_proposee": "La prétention de 24000 $, soit quatre mois à 6000 $, reste celle de la procédure et n’est pas remplacée par un calcul vérifié. Nous ajoutons les états financiers compilés au 30 juin 2025 : ventes 77995 $, coût des ventes 59975 $, frais généraux et administratifs 130598 $, perte nette annuelle 112578 $. Cette perte annuelle ne mesure pas le dommage attribuable au déménagement ni le bénéfice qui aurait été réalisé sans celui-ci. Les nouveaux relevés DoorDash 2024–2025 et la déclaration fiscale trimestrielle complètent les données disponibles, mais ne suffisent pas à isoler les quatre mois, le bénéfice net attendu, les dépenses évitées et les causes concurrentes. La ventilation mensuelle et le rapprochement avec les indemnités effectives restent nécessaires.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/DII-JANVIER-12P-ORIGINAL.pdf",
+        "repere": "Pages 5–6, paragraphes 5 et 11, particulièrement 11(a) page 5; procédure datée du 26 janvier 2026.",
+        "apport": "Lecture visuelle du PDF numérisé : perte d’exploitation réclamée 4 mois × 6 000 $ = 24 000 $. La procédure expose des prétentions; elle ne constitue pas un jugement ou une attestation comptable.",
+        "nature": "original",
+        "sha256": "e6e3c59f5647379d240dad6ae8158303e01adacd1ff7cc6a5986031f5ec50f5c",
+        "octets": 302304
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/final.xls",
+        "repere": "Sheet 1, A 1:A 4 (identité et période); compte 4200, lignes 5–16; compte 5660 (amortissement), ligne 387; 750 lignes au total.",
+        "apport": "Grand livre intitulé QUADRO HOLDINGS INC., période affichée du 1er juillet 2024 au 30 juin 2025. Les comptes trouvés vont de 4200 à 5898. Les crédits de ventes du compte 4200, juillet 2024–avril 2025, totalisent 77 995,44 $ en I 16. Ce n’est ni un bénéfice net ni un registre individualisé des immobilisations.",
+        "nature": "original",
+        "sha256": "0cf4a4ba82143dc3328b798fefefa1581ed1d0bd48ef5ead44d78d6445995ad1",
+        "octets": 148992
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Uber-Ventes-2024- final.xlsx",
+        "repere": "Onglet « Ventes total 2024 », C 7:C 16 (mars–décembre 2024), C 17; dix onglets mensuels de « Mars 24 » à « December 24 ».",
+        "apport": "Tableau de ventes : total inscrit 55 609,85 $. Ce classeur ne constitue pas un contrat de plateforme ni une preuve bancaire de tous les versements.",
+        "nature": "original",
+        "sha256": "1b214d9493c9ea09218ecb6f114fbbc1f9fb625a5466f330d1798f3a2ba1d715",
+        "octets": 178628
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Doordash-ventes-2024-final.xlsx",
+        "repere": "Onglet « Ventes total 2024 », C 6:C 14 (avril–décembre 2024), C 15; neuf onglets mensuels d’avril à décembre 2024.",
+        "apport": "Tableau de ventes : total inscrit 22 774,34 $. Ce classeur ne constitue pas un contrat de plateforme ni une déclaration de TPS/TVQ déposée.",
+        "nature": "original",
+        "sha256": "070c4a83eb572ccd9f557c35c6291c544a85e117b173ceb39593843e51f2ca06",
+        "octets": 85694
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Archive_2026-10-05/comptabilite-ventes2024/Ventes-juil-sept-2024.png",
+        "repere": "Image entière, tableau « Quadro », juillet–septembre 2024; lecture visuelle effectuée.",
+        "apport": "Tableau de calcul : ventes 27 877,99 $, TPS 1 393,90 $, TVQ 2 780,83 $, total 32 052,72 $. Aucun accusé de dépôt fiscal ou rapport de fermeture de caisse n’y figure.",
+        "nature": "original",
+        "sha256": "ca88a46a6e7fd67c7f2a579329b6c4f47bc6f5e1fee05b02b296ca29777566e4",
+        "octets": 113123
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "Pages 57–58, repères 11:30:07–11:31:05.",
+        "apport": "Transcription de la discussion sur la perte de profits et le montant approximatif; ne remplace pas un calcul comptable ni l’identification certaine du locuteur. Source audio non vérifiée.",
+        "nature": "declaration",
+        "sha256": "a9a9458604d7119d9cbe0d57d42f42a08d9ac2025090540e0aead8125cdd81e6",
+        "octets": 423672
+      },
+      {
+        "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Collecte_2026-10-21/2026-08-04-Lettre-reserve-droits-SNB.pdf",
+        "repere": "Page 1, demande de preuve de perte détaillée et de documents établissant le quantum.",
+        "apport": "Corrobore le besoin documentaire exprimé par l’expert dans le dossier SNB, sans statuer sur l’évaluation du dommage contre Harmony.",
+        "nature": "original",
+        "sha256": "540db2b92c77e02219eac6b2f1ce33b7435388cbae49d774b56ddb88db23625d",
+        "octets": 124896
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf",
+        "repere": "5 pages : rapport p 2, résultats p 3, bilan p 4, immobilisations note 3 p 5.",
+        "apport": "Informations financières compilées au 30 juin 2025 : équipements 209758 $, ventes 77995 $, perte nette 112578 $. Rapport du 1 avril 2026, sans audit/examen/assurance; montant global, pas registre unitaire.",
+        "nature": "original",
+        "sha256": "12cae6c122d17b153eec9ca79d0b7beb3131d90063c1850dc13d7559d597dc03",
+        "octets": 1267448
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Declaration-TPS-TVQ-2024-09-30.pdf",
+        "repere": "p 1 période, accusé du 7 octobre 2024 et ligne 101; p 2 TPS/TVQ et intention de payer.",
+        "apport": "Déclaration QUADRO pour 1 juillet–30 septembre 2024; ventes 27877,99 $, taxes nettes à remettre 2263,49 $. Accusé de dépôt, pas preuve de paiement.",
+        "nature": "original",
+        "sha256": "3410b8f68f16600fb4e2634263c2da09621b00ff2b38b84e400ebc98058269da",
+        "octets": 193110
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Takatak_finances/registre-doordash.csv",
+        "repere": "Résumé par commerce/mois et chemin de chaque original.",
+        "apport": "Données historiques et 2025 à rapprocher des coûts et périodes; aucun bénéfice net de transport calculé.",
+        "nature": "analyse",
+        "sha256": "d99ade8e0a6a59bd8165d9a60fc1d140cf6ffbbd90526c31a79afccd66f1c4ee",
+        "octets": 59281
+      }
+    ],
+    "manquants": [
+      "Période exacte des quatre mois invoqués, dates d’interruption/reprise et preuve de l’effet des opérations de Harmony sur chaque mois et établissement.",
+      "Compte de résultats mensuel complet avant, pendant et après l’interruption, avec coût des marchandises, salaires, loyers, commissions, charges variables et dépenses évitées; pièces justificatives et méthode du comptable.",
+      "Calcul documenté du bénéfice net attendu et réalisé, avec saisonnalité, activité des autres établissements/enseignes et ventes reportées ou récupérées.",
+      "Ventilation par cause et par période séparant le sinistre électrique antérieur, le transport/entreposage et les autres obstacles d’exploitation.",
+      "État des indemnités/recouvrements réellement encaissés se rapportant aux mêmes pertes, avec preuves bancaires, pour éviter les doubles comptes."
+    ],
+    "demarches": [
+      "Faire établir par le comptable un tableau mensuel de calcul de perte nette, relié aux pièces et à la période effectivement invoquée.",
+      "Rapprocher les commandes des plateformes avec les ventes de caisse, les dépenses et les dépôts; retraiter les chevauchements de commandes avant toute synthèse.",
+      "Rapprocher les biens, périodes et montants avec les réclamations d’assurance antérieures et SNB; ne déduire que des recouvrements dont l’imputation est documentée."
+    ],
+    "controles": [
+      "6 000 × 4 = 24 000 $ est arithmétiquement exact, mais ni le montant de 6 000 $ ni le nombre de mois ne sont validés économiquement par les seules pièces disponibles.",
+      "Les 77 995,44 $ du grand livre, 55 609,85 $ Uber et 22 774,34 $ DoorDash couvrent des périmètres/périodes différents et ne sont pas trois pertes cumulables.",
+      "Les montants de valeur d’équipements, frais juridiques, déménagement, loyer et inconvénients de la procédure ne sont pas fusionnés avec la perte d’exploitation de 24 000 $.",
+      "Les analyses antérieures et tableaux produits par assistants restent des instruments de travail; leurs chiffres ne remplacent pas les sources primaires.",
+      "Aucune conclusion n’est tirée sur le bénéfice net total, la responsabilité ou la couverture.",
+      "Ne pas additionner la perte annuelle 112578, la prétention 24000, la valeur comptable 209758 et les devis de remplacement : natures et bases différentes.",
+      "Les mêmes ventes 2024 peuvent figurer au grand livre, dans les tableaux, la déclaration fiscale et les nouveaux relevés; aucune addition entre représentations."
+    ],
+    "recherche_effectuee": [
+      "Premier audit, avant cette collecte complémentaire : Rendu et lecture visuelle des pages 5–6 du PDF de procédure, dont les pages n’extraient pas de texte natif utile.",
+      "Premier audit, avant cette collecte complémentaire : Lecture native du grand livre et des synthèses de plateformes, contrôle de leurs périodes et catégories de montants.",
+      "Premier audit, avant cette collecte complémentaire : Lecture de la transcription Fieldy pages 57–58 et de la lettre SNB; recherche locale des rapports financiers et calculs détaillés de perte d’exploitation.",
+      "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur."
+    ],
+    "mise_a_jour": "Proposition de remplacement/complément à intégrer après coordination; anciens inputs et paquet12 inchangés."
+  }
+]

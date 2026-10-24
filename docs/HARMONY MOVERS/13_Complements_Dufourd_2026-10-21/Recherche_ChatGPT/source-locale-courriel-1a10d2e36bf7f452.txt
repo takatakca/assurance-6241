@@ -1,0 +1,24 @@
+Message Gmail : 1a10d2e36bf7f452
+Source : HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/lectures-004.json
+SHA256 source : 1b607c6331378c731b662ac5730850212a5b8e7d00cd33ba77fe1632faed36bc
+Méthode : Décodage des parties MIME text/plain, sans correction.
+Subject: Dossier Quadro – suivi du 5 octobre
+To: cdufourd@dufourdion.com
+From: takatak.ca@gmail.com
+Date: Mon, 5 Oct 2026 17:48:15 +0000
+Message-Id: <CAGN0CqjX6trkO6HstbL7eH56pg1kNHVHJ8fn5cm5DqWdEMg3pg@mail.gmail.com>
+
+Bonjour Me Dufourd,
+
+Plusieurs messages détaillés envoyés aujourd’hui ont fait l’objet d’avis de non-livraison lors de la redirection de votre adresse. Je regroupe donc la transmission dans ce seul message.
+
+Le dossier et ses pièces sont ici, avec accès en lecture seule accordé à votre adresse du cabinet :
+https://drive.google.com/file/d/1dvT8Og80pm380tumdW18eIK2WV_zIzEP/view
+
+Après téléchargement, extraire l’archive et ouvrir INDEX-ALBUMS.html. Les volets regroupent le dossier principal, les photos décrites, les factures et devis, les contrats et procédures, l’assurance et la comptabilité.
+
+La priorité après l’interrogatoire est de comparer l’état des mêmes biens avant Harmony, avant leur chargement lors de la récupération supervisée par le huissier, puis à leur arrivée chez le gardien. Les photos et vidéos originales du huissier restent à obtenir et à authentifier pour compléter cette comparaison.
+
+Merci de confirmer la réception et l’accès au dossier, ou de m’indiquer votre canal sécurisé de transmission préféré.
+
+Merci.

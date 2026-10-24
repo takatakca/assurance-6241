@@ -1,0 +1,49 @@
+{
+  "source": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf",
+  "sha256": "12cae6c122d17b153eec9ca79d0b7beb3131d90063c1850dc13d7559d597dc03",
+  "entite_imprimee": "QUADRO HOLDINGS INC",
+  "devise": "CAD",
+  "date_cloture": "2025-06-30",
+  "rapport": {
+    "page": 2,
+    "auteur": "Tommaso Di Paola CPA",
+    "date": "2026-04-01",
+    "nature": "compilation",
+    "reserve": "Informations fournies par la direction; aucun audit ou examen; aucune assurance sur ces informations."
+  },
+  "resultats_p3": {
+    "ventes": 77995,
+    "cout_ventes": 59975,
+    "frais_generaux_administratifs": 130598,
+    "resultat_net": -112578,
+    "resultat_reporte_anterieur": -9644,
+    "resultats_non_repartis_imprimes": -122221
+  },
+  "bilan_p4": {
+    "banque": 252,
+    "stocks": 56051,
+    "taxes_a_recevoir": 38659,
+    "actif_court_terme": 94962,
+    "immobilisations": 209758,
+    "actif_total": 304720,
+    "fournisseurs": 3000,
+    "du_actionnaire": 423841,
+    "passif_total": 426841,
+    "capital_actions": 100,
+    "resultats_non_repartis": -122221,
+    "capitaux_propres": -122121,
+    "passif_et_capitaux_propres": 304720
+  },
+  "note3_p5": {
+    "equipment": 209758,
+    "absence": "Aucun inventaire détaillé, numéro de série, coût par bien, amortissement cumulé ni valeur nette individuelle."
+  },
+  "controles": [
+    "77995 - 59975 - 130598 = -112578 : concordance du résultat imprimé.",
+    "-9644 - 112578 = -122222, contre -122221 imprimé : écart de 1 dollar, cause à confirmer (notamment arrondis); original non modifié.",
+    "Ventes 77995 arrondies à rapprocher des 77995.44 du grand livre, sans addition.",
+    "Au 30 juin 2025, et non à la date précédant le 12 juin 2025 demandée oralement (Fieldy p29, 10:34:43–10:34:56).",
+    "Pas de comparatif 2024 : seule une ligne de résultats non répartis de l’exercice précédent est affichée.",
+    "La perte annuelle et la valeur comptable ne sont ni une évaluation de remplacement ni une perte de transport démontrée."
+  ]
+}

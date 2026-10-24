@@ -3,7 +3,7 @@
 État du 21 octobre 2026. **Préparé, non envoyé.** Les 25 demandes ont une réponse documentaire individualisée, avec les pièces disponibles et les manquants précis. Le dossier ne certifie pas que tous les engagements sont satisfaits.
 
 1. Lire les [réponses en PDF](REPONSES-AUX-25-DEMANDES.pdf) ou la [version en ligne](REPONSES-AUX-25-DEMANDES.md).
-2. Consulter le [bordereau des 75 annexes](BORDEREAU-DES-ANNEXES.md), avec [empreintes et chemins sources CSV](BORDEREAU-DES-ANNEXES.csv).
+2. Consulter le [bordereau des 216 annexes](BORDEREAU-DES-ANNEXES.md), avec [empreintes et chemins sources CSV](BORDEREAU-DES-ANNEXES.csv).
 3. Compléter les [documents encore à obtenir](DOCUMENTS-A-OBTENIR.md) et suivre les [25 demandes dans le tableau CSV](SUIVI-DES-DEMANDES.csv).
 4. Relire et compléter le [projet de courriel de remise](PROJET-COURRIEL-DE-REMISE.md), notamment le nom et la qualité du signataire.
 
@@ -15,6 +15,8 @@ Les frais d’avocat et la gestion du mandat demeurent distincts de la réponse 
 
 ## Télécharger et remettre
 
-[Télécharger le dossier complet en ZIP](DOSSIER-DUFOURD-2026-10-21.zip). Décompresser ce fichier dans un dossier, puis ouvrir REPONSES-AUX-25-DEMANDES.pdf. Le dossier contient les 75 annexes avec leur bordereau, les réponses modifiables, les documents à obtenir et le projet de courriel. Les analyses initialement en Markdown sont conservées sous extension .txt, sans modification de leurs octets.
+[Télécharger le dossier complet en ZIP](DOSSIER-DUFOURD-2026-10-21.zip). Décompresser ce fichier dans un dossier, puis ouvrir REPONSES-AUX-25-DEMANDES.pdf. Le dossier contient les 216 annexes avec leur bordereau, les réponses modifiables, les documents à obtenir et le projet de courriel. Les analyses initialement en Markdown sont conservées sous extension .txt, sans modification de leurs octets.
 
-Le contrôle visuel porte sur les 57 pages du PDF final. Les 75 annexes correspondent aux empreintes des sources; les vérifications comptables ou documentaires restant ouvertes demeurent indiquées dans les réponses.
+Le contrôle visuel porte sur les 85 pages du PDF final. Les 216 annexes correspondent aux empreintes des sources; les vérifications comptables ou documentaires restant ouvertes demeurent indiquées dans les réponses.
+
+Version contrôlée et archive finalisée le 23 octobre 2026 à partir du corpus daté du 21 octobre 2026. Cette finalisation ne constitue pas une nouvelle recherche des messages reçus les 22 et 23 octobre.

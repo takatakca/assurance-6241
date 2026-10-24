@@ -1,0 +1,37 @@
+{
+  "id": 7,
+  "query": "in:anywhere (\"Remorquage\" OR \"Elite Transport\" OR \"Élite Transport\" OR \"Elite Moving\" OR \"Élite Moving\") (Quadro OR Harmony OR Irwin OR \"6241\" OR \"2025\") -category:promotions",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "1a10d5436a58b8f3",
+          "subject": "Fwd: Votre dossier - Dufourd, Dion Avocats",
+          "snippet": "---------- Forwarded message --------- From: <cdufourd@dufourdion.com> Date: Mon, Oct 5, 2026, 14:15 Subject: Votre dossier - Dufourd, Dion Avocats To: <ooeuf.ca@gmail.com> Bonjour, Voici",
+          "attachments": [
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19ab9262af969b05",
+          "subject": "RE: Reg : Checking the Samples invoice And Confirm.",
+          "snippet": "Hi Matt, I hope you are doing well. Thank you very much for sending the print artwork. Matt please let me know the dimension of print. Length = ? Width = ? I am waiting for your feedback soon. Have",
+          "attachments": []
+        },
+        {
+          "id": "19835958fe7439d3",
+          "subject": "Your song 'Respect dans le Remorquage' is ready!",
+          "snippet": "Your song is ready to listen! Great news! Your song 'Respect dans le Remorquage' has been successfully generated and is now ready for you to enjoy. Click the button below to listen to your",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "error": null
+}

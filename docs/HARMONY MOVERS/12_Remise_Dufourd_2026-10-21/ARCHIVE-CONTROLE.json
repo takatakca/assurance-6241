@@ -1,10 +1,11 @@
 {
+  "date_finalisation": "2026-10-23",
   "archive": "DOSSIER-DUFOURD-2026-10-21.zip",
-  "octets": 27804330,
-  "sha256": "73a39e2b950ad1aebc1657e00d6be556e8fd04dfbf0541bb57ba3e6ee61bf85c",
-  "fichiers": 86,
-  "annexes": 75,
+  "octets": 44752447,
+  "sha256": "35b81f6e0c98f1944d558668e18ff31cc416505ee45f95a8ba39a01181224734",
+  "fichiers": 227,
+  "annexes": 216,
   "controle_crc": "réussi",
-  "empreintes_annexes": "75 sur 75 conformes aux sources",
+  "empreintes_annexes": "216 sur 216 conformes aux sources",
   "transmission": "non effectuée"
 }

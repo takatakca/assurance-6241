@@ -1,0 +1,100 @@
+{
+  "id": 13,
+  "query": "in:anywhere (Elite OR Élite OR \"ÉLITE\") has:attachment after:2025/05/01 before:2026/01/01 -category:promotions -category:social",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "19ae4e5452578003",
+          "subject": "Fwd: Lettre de demande de soutien pour l’inscription de mes enfants à des activités",
+          "snippet": "---------- Forwarded message --------- From: Alex Lussier <alussier@sportjeunessequebec.ca> Date: Thu, Nov 27, 2025, 17:08 Subject: Re: Lettre de demande de soutien pour l'inscription de mes",
+          "attachments": [
+            {
+              "filename": "Information parents - bilingue 2025.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Critères d'admissibilité 2025.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19ac7699d9a38400",
+          "subject": "Fwd: Lettre de demande de soutien pour l’inscription de mes enfants à des activités",
+          "snippet": "---------- Forwarded message --------- From: Alex Lussier <alussier@sportjeunessequebec.ca> Date: Thu, Nov 27, 2025, 17:08 Subject: Re: Lettre de demande de soutien pour l'inscription de mes",
+          "attachments": [
+            {
+              "filename": "Information parents - bilingue 2025.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Critères d'admissibilité 2025.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19ac75c6ab4974d4",
+          "subject": "Re: Lettre de demande de soutien pour l’inscription de mes enfants à des activités",
+          "snippet": "Bonjour Matthieu, Je vous remercie d'avoir contacté Sport Jeunesse Québec. Vous trouverez ci-dessous toutes les réponses à vos questions. Tout d'abord, je dois malheureusement vous informer que",
+          "attachments": [
+            {
+              "filename": "Information parents - bilingue 2025.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Critères d'admissibilité 2025.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19a71df51d0daa5f",
+          "subject": "Reg : Price Quotations of UNISEX Jumpsuits",
+          "snippet": "Dear Matt, I hope you are doing well there. Please have a look my best prices based on 2 kinds of fabrics : 1. TOP SHELL : 100% cotton heavy Twill with brash peach finish. INNER LINING : 100% nylon",
+          "attachments": []
+        },
+        {
+          "id": "1988c8eadb92c6c2",
+          "subject": "New Support Ticket Message - XAD-403-57929 - domain availablity check",
+          "snippet": "Upmind You have received a new reply to your support ticket from Vira Ticket Reference: XAD-403-57929 Ticket Subject: domain availablity check --- Message: Yes, .ca will stay as the TLD for this",
+          "attachments": [
+            {
+              "filename": "Screenshot 2025-08-09 at 08.57.38.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1988c8a90f17fc3f",
+          "subject": "Re: New Support Ticket Message - XAD-403-57929 - domain availablity check",
+          "snippet": "i want to confirm is there posibility that those .ca will come with the domain name user type in the search bar the domain name they want to purchase example :- elite.ca, or mandate.com and so on On",
+          "attachments": []
+        },
+        {
+          "id": "1974170210238154",
+          "subject": "Re: Yellow Pages - All the listings on your Dashboard",
+          "snippet": "Hi Roy El Zahabi Media Account Consultant roy.elzahabi@yp.ca Tel. 844.686.6269 Ext. 0185 To unsubscribe from our promotional email communications, click here. From: Roy Elzahabi <roy.elzahabi@yp.ca",
+          "attachments": []
+        },
+        {
+          "id": "1973c1073fbf9bcb",
+          "subject": "Yellow Pages - All the listings on your Dashboard",
+          "snippet": "Hey Mathew, hope all is well. As agreed, I will go over all the listings making sure they were spelled correctly. Note, when you try logging into your dashboard, most the features are locked since",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "error": null
+}

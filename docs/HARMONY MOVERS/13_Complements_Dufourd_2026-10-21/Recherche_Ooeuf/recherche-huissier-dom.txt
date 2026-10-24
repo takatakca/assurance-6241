@@ -1,0 +1,402 @@
+URL: https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%7B%22gaucherhuissier.com%22+%22huissierdejustice.ca%22+%22Kronis%22+%22Kostas%22%7D
+
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Est non lu":
+      - generic: Est non lu
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 11
+    - text: sur 11
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "moi, (aucun objet), contient une pièce jointe, 10 juill., .":
+        - gridcell
+        - gridcell "moi, (aucun objet), contient une pièce jointe, 10 juill., .":
+          - checkbox "moi, (aucun objet), contient une pièce jointe, 10 juill., ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) Pièce jointe : 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes (aucun objet)":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+          - generic "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF":
+            - generic: "Pièce jointe :"
+            - generic: 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF
+        - gridcell
+        - gridcell "ven. 10 juill. 2026 19 h 19":
+          - generic "ven. 10 juill. 2026 19 h 19": 10 juill.
+        - gridcell
+      - 'row "marquée d''une étoile, alexand. .. catheri. 5, FW: Quadro Holdings Ltée c. 9205-2471 Québec inc. / 500-17-136442-251 (N/D: 2762-22580), contient une pièce jointe, 11 juin, www.huissierdejustice.ca/notre-equipe Je vous souhaite une bonne journée. CD Me Christian Dufourd Avocat cdufourd."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, alexand. .. catheri. 5, FW: Quadro Holdings Ltée c. 9205-2471 Québec inc. / 500-17-136442-251 (N/D: 2762-22580), contient une pièce jointe, 11 juin, www.huissierdejustice.ca/notre-equipe Je vous souhaite une bonne journée. CD Me Christian Dufourd Avocat cdufourd."':
+          - 'checkbox "marquée d''une étoile, alexand. .. catheri. 5, FW: Quadro Holdings Ltée c. 9205-2471 Québec inc. / 500-17-136442-251 (N/D: 2762-22580), contient une pièce jointe, 11 juin, www.huissierdejustice.ca/notre-equipe Je vous souhaite une bonne journée. CD Me Christian Dufourd Avocat cdufourd."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "alexand. .. catheri. 5":
+          - generic: alexand. .. catheri.
+          - generic: "5"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes FW: Quadro Holdings Ltée c. 9205-2471 Québec inc. / 500-17-136442-251 (N/D: 2762-22580) - www.huissierdejustice.ca/notre-equipe Je vous souhaite une bonne journée. CD Me Christian Dufourd Avocat cdufourd Pièce jointe : 2026-05-26 Projet de protocole de l''instance.docx Pièce jointe : 2026-04-20 Projet de protocole de l''instance.docx"':
+          - 'link "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes FW: Quadro Holdings Ltée c. 9205-2471 Québec inc. / 500-17-136442-251 (N/D: 2762-22580) - www.huissierdejustice.ca/notre-equipe Je vous souhaite une bonne journée. CD Me Christian Dufourd Avocat cdufourd"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "FW: Quadro Holdings Ltée c. 9205-2471 Québec inc. / 500-17-136442-251 (N/D: 2762-22580)"
+            - generic: "-"
+            - text: www.huissierdejustice.ca/notre-equipe Je vous souhaite une bonne journée. CD Me Christian Dufourd Avocat cdufourd
+          - generic "2026-05-26 Projet de protocole de l'instance.docx":
+            - generic: "Pièce jointe :"
+            - generic: 2026-05-26 Projet de protocole de l'instance.docx
+          - generic "2026-04-20 Projet de protocole de l'instance.docx":
+            - generic: "Pièce jointe :"
+            - generic: 2026-04-20 Projet de protocole de l'instance.docx
+        - gridcell
+        - gridcell "jeu. 11 juin 2026 15 h 49":
+          - generic "jeu. 11 juin 2026 15 h 49": 11 juin
+        - gridcell
+      - 'row "marquée d''une étoile, yromanowski, moi 4, Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860], contient une pièce jointe, 27 mai, dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, yromanowski, moi 4, Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860], contient une pièce jointe, 27 mai, dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel."':
+          - 'checkbox "marquée d''une étoile, yromanowski, moi 4, Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860], contient une pièce jointe, 27 mai, dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "yromanowski, moi 4":
+          - generic: yromanowski, moi
+          - generic: "4"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860] - dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel Pièce jointe : 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF 2 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860] - dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860]"
+            - generic: "-"
+            - text: "dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel"
+          - generic "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF":
+            - generic: "Pièce jointe :"
+            - generic: 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 40":
+          - generic "mer. 27 mai 2026 11 h 40": 27 mai
+        - gridcell
+      - row "non lue, Chamidae from Lonel., Summer in Greece? Groundbreaking, 13 mai, , from Kostas or Prodorpio . For dinner, stop byManari , an edgy taverna serving elevated, traditional Greek fare orPharaoh.":
+        - gridcell
+        - gridcell "non lue, Chamidae from Lonel., Summer in Greece? Groundbreaking, 13 mai, , from Kostas or Prodorpio . For dinner, stop byManari , an edgy taverna serving elevated, traditional Greek fare orPharaoh.":
+          - checkbox "non lue, Chamidae from Lonel., Summer in Greece? Groundbreaking, 13 mai, , from Kostas or Prodorpio . For dinner, stop byManari , an edgy taverna serving elevated, traditional Greek fare orPharaoh."
+        - gridcell "Corbeille":
+          - img "Corbeille"
+        - gridcell "Chamidae from Lonel.":
+          - generic: Chamidae from Lonel.
+        - gridcell "Corbeille 🔎 Ancien tri 9 (à véri… Summer in Greece? Groundbreaking - , from Kostas or Prodorpio . For dinner, stop byManari , an edgy taverna serving elevated, traditional Greek fare orPharaoh":
+          - link "Corbeille 🔎 Ancien tri 9 (à véri… Summer in Greece? Groundbreaking - , from Kostas or Prodorpio . For dinner, stop byManari , an edgy taverna serving elevated, traditional Greek fare orPharaoh":
+            - generic "Corbeille":
+              - generic: Corbeille
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Summer in Greece? Groundbreaking
+            - generic: "-"
+            - text: ", from Kostas or Prodorpio . For dinner, stop byManari , an edgy taverna serving elevated, traditional Greek fare orPharaoh"
+        - gridcell
+        - gridcell "mer. 13 mai 2026 15 h 00":
+          - generic "mer. 13 mai 2026 15 h 00": 13 mai
+        - gridcell
+      - row "marquée d'une étoile, Saj, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 1 mai, google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm.":
+        - gridcell
+        - gridcell "marquée d'une étoile, Saj, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 1 mai, google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm.":
+          - checkbox "marquée d'une étoile, Saj, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 1 mai, google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Saj":
+          - generic: Saj
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes MANDAT COMPLÉTÉ / Informations pour saisie avant jugement - google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm Pièce jointe : image001.png Pièce jointe : image002.png Pièce jointe : Facture_8695.pdf 2 autres pièces jointes"':
+          - link "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes MANDAT COMPLÉTÉ / Informations pour saisie avant jugement - google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: MANDAT COMPLÉTÉ / Informations pour saisie avant jugement
+            - generic: "-"
+            - text: google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "image002.png":
+            - generic: "Pièce jointe :"
+            - generic: image002.png
+          - generic "Facture_8695.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Facture_8695.pdf
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "ven. 1 mai 2026 15 h 24":
+          - generic "ven. 1 mai 2026 15 h 24": 1 mai
+        - gridcell
+      - row "marquée d'une étoile, Information .. Saj 14, Informations pour saisie avant jugement, contient une pièce jointe, 22 avr., google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm.":
+        - gridcell
+        - gridcell "marquée d'une étoile, Information .. Saj 14, Informations pour saisie avant jugement, contient une pièce jointe, 22 avr., google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm.":
+          - checkbox "marquée d'une étoile, Information .. Saj 14, Informations pour saisie avant jugement, contient une pièce jointe, 22 avr., google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Information .. Saj 14":
+          - generic: Information .. Saj
+          - generic: "14"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Informations pour saisie avant jugement - google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm Pièce jointe : image001.png Pièce jointe : image002.png Pièce jointe : image001.png 4 autres pièces jointes"':
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Informations pour saisie avant jugement - google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Informations pour saisie avant jugement
+            - generic: "-"
+            - text: google.com /mail/?ui=2&ik=a255966123&attid=0.4&th=19db677c3e8e1e23&view=fimg&fur=ip&rm
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "image002.png":
+            - generic: "Pièce jointe :"
+            - generic: image002.png
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "mer. 22 avr. 2026 14 h 49":
+          - generic "mer. 22 avr. 2026 14 h 49": 22 avr.
+        - gridcell
+      - 'row "Turbide, Marie-Josée, NOTIFICATION Nouvel avis de présentation de la Demande en rejet / Quadro Holdings Ltée c. 9205-2471 Québec inc. et al. / 500-17-136442-251 / 0291331.0002 [MTDMS-LEGAL.FID13993531], contient une pièce jointe, 3 mars, millerthomson.com destinataire Nom : Cabinet : Adresse : Tél. : Télécopieur : Courriel : Quadro Holdings Ltée 6241, boul."':
+        - gridcell
+        - 'gridcell "Turbide, Marie-Josée, NOTIFICATION Nouvel avis de présentation de la Demande en rejet / Quadro Holdings Ltée c. 9205-2471 Québec inc. et al. / 500-17-136442-251 / 0291331.0002 [MTDMS-LEGAL.FID13993531], contient une pièce jointe, 3 mars, millerthomson.com destinataire Nom : Cabinet : Adresse : Tél. : Télécopieur : Courriel : Quadro Holdings Ltée 6241, boul."':
+          - 'checkbox "Turbide, Marie-Josée, NOTIFICATION Nouvel avis de présentation de la Demande en rejet / Quadro Holdings Ltée c. 9205-2471 Québec inc. et al. / 500-17-136442-251 / 0291331.0002 [MTDMS-LEGAL.FID13993531], contient une pièce jointe, 3 mars, millerthomson.com destinataire Nom : Cabinet : Adresse : Tél. : Télécopieur : Courriel : Quadro Holdings Ltée 6241, boul."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Turbide, Marie-Josée":
+          - generic: Turbide, Marie-Josée
+        - 'gridcell "🏛️ Gouvernement & Impô… 📎 Pièces jointes NOTIFICATION Nouvel avis de présentation de la Demande en rejet / Quadro Holdings Ltée c. 9205-2471 Québec inc. et al. / 500-17-136442-251 / 0291331.0002 [MTDMS-LEGAL.FID13993531] - millerthomson.com destinataire Nom : Cabinet : Adresse : Tél. : Télécopieur : Courriel : Quadro Holdings Ltée 6241, boul Pièce jointe : 2026-03-03 - Nouvel avis de présentation - Demande pour rejet de la DII avec saj(91478608.1).pdf"':
+          - 'link "🏛️ Gouvernement & Impô… 📎 Pièces jointes NOTIFICATION Nouvel avis de présentation de la Demande en rejet / Quadro Holdings Ltée c. 9205-2471 Québec inc. et al. / 500-17-136442-251 / 0291331.0002 [MTDMS-LEGAL.FID13993531] - millerthomson.com destinataire Nom : Cabinet : Adresse : Tél. : Télécopieur : Courriel : Quadro Holdings Ltée 6241, boul"':
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: NOTIFICATION Nouvel avis de présentation de la Demande en rejet / Quadro Holdings Ltée c. 9205-2471 Québec inc. et al. / 500-17-136442-251 / 0291331.0002 [MTDMS-LEGAL.FID13993531]
+            - generic: "-"
+            - text: "millerthomson.com destinataire Nom : Cabinet : Adresse : Tél. : Télécopieur : Courriel : Quadro Holdings Ltée 6241, boul"
+          - generic "2026-03-03 - Nouvel avis de présentation - Demande pour rejet de la DII avec saj(91478608.1).pdf":
+            - generic: "Pièce jointe :"
+            - generic: 2026-03-03 - Nouvel avis de présentation - Demande pour rejet de la DII avec saj(91478608.1).pdf
+        - gridcell
+        - gridcell "mar. 3 mars 2026 14 h 58":
+          - generic "mar. 3 mars 2026 14 h 58": 3 mars
+        - gridcell
+      - row "Paiement, moi 2, Avis de dépôt, contient une pièce jointe, 2025-12-29, ooeuf.ca@gmail.com Bonjour, Nous vous confirmons que nous avons bien reçu le 2000.00$ le 18-12-25. Bonne journée et Joyeuses.":
+        - gridcell
+        - gridcell "Paiement, moi 2, Avis de dépôt, contient une pièce jointe, 2025-12-29, ooeuf.ca@gmail.com Bonjour, Nous vous confirmons que nous avons bien reçu le 2000.00$ le 18-12-25. Bonne journée et Joyeuses.":
+          - checkbox "Paiement, moi 2, Avis de dépôt, contient une pièce jointe, 2025-12-29, ooeuf.ca@gmail.com Bonjour, Nous vous confirmons que nous avons bien reçu le 2000.00$ le 18-12-25. Bonne journée et Joyeuses."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Paiement, moi 2":
+          - generic: Paiement, moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes Avis de dépôt - ooeuf.ca@gmail.com Bonjour, Nous vous confirmons que nous avons bien reçu le 2000.00$ le 18-12-25. Bonne journée et Joyeuses Pièce jointe : image001.png"':
+          - link "✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes Avis de dépôt - ooeuf.ca@gmail.com Bonjour, Nous vous confirmons que nous avons bien reçu le 2000.00$ le 18-12-25. Bonne journée et Joyeuses":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Avis de dépôt
+            - generic: "-"
+            - text: ooeuf.ca@gmail.com Bonjour, Nous vous confirmons que nous avons bien reçu le 2000.00$ le 18-12-25. Bonne journée et Joyeuses
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+        - gridcell
+        - gridcell "lun. 29 déc. 2025 08 h 27":
+          - generic "lun. 29 déc. 2025 08 h 27": 2025-12-29
+        - gridcell
+      - row "moi, (aucun objet), contient une pièce jointe, 2025-12-01, .":
+        - gridcell
+        - gridcell "moi, (aucun objet), contient une pièce jointe, 2025-12-01, .":
+          - checkbox "moi, (aucun objet), contient une pièce jointe, 2025-12-01, ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) Pièce jointe : 1000063057.jpg Pièce jointe : 1000063066.jpg Pièce jointe : 1000063054.jpg 1 autre pièce jointe"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes (aucun objet)":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+          - generic "1000063057.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000063057.jpg
+          - generic "1000063066.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000063066.jpg
+          - generic "1000063054.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000063054.jpg
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "lun. 1 déc. 2025 15 h 23":
+          - generic "lun. 1 déc. 2025 15 h 23": 2025-12-01
+        - gridcell
+      - row "Brouillon, (aucun objet), contient une pièce jointe, 2025-12-01, .":
+        - gridcell
+        - gridcell "Brouillon, (aucun objet), contient une pièce jointe, 2025-12-01, .":
+          - checkbox "Brouillon, (aucun objet), contient une pièce jointe, 2025-12-01, ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Brouillon":
+          - generic: Brouillon
+        - 'gridcell "(aucun objet) Pièce jointe : 1000063054.jpg Pièce jointe : 1000063064.jpg Pièce jointe : 1000063057.jpg 1 autre pièce jointe"':
+          - link "(aucun objet)":
+            - generic: (aucun objet)
+          - generic "1000063054.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000063054.jpg
+          - generic "1000063064.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000063064.jpg
+          - generic "1000063057.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000063057.jpg
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "lun. 1 déc. 2025 15 h 23":
+          - generic "lun. 1 déc. 2025 15 h 23": 2025-12-01
+        - gridcell
+      - 'row "marquée d''une étoile, moi, Saj 3, Quadro holding ltee, contient une pièce jointe, 2025-11-28, saj@huissierdejustice.ca> wrote: Bonjour Me Romanoswki, Concernant ce dossier, nous avons besoin d''un bordereau."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi, Saj 3, Quadro holding ltee, contient une pièce jointe, 2025-11-28, saj@huissierdejustice.ca> wrote: Bonjour Me Romanoswki, Concernant ce dossier, nous avons besoin d''un bordereau."':
+          - 'checkbox "marquée d''une étoile, moi, Saj 3, Quadro holding ltee, contient une pièce jointe, 2025-11-28, saj@huissierdejustice.ca> wrote: Bonjour Me Romanoswki, Concernant ce dossier, nous avons besoin d''un bordereau."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi, Saj 3":
+          - generic: moi, Saj
+          - generic: "3"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Quadro holding ltee - saj@huissierdejustice.ca> wrote: Bonjour Me Romanoswki, Concernant ce dossier, nous avons besoin d''un bordereau Pièce jointe : image001.png Pièce jointe : BORDEREAU D''INSTRUCTIONS.pdf Pièce jointe : 1000058513.jpg 7 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Quadro holding ltee - saj@huissierdejustice.ca> wrote: Bonjour Me Romanoswki, Concernant ce dossier, nous avons besoin d''un bordereau"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Quadro holding ltee
+            - generic: "-"
+            - text: "saj@huissierdejustice.ca> wrote: Bonjour Me Romanoswki, Concernant ce dossier, nous avons besoin d'un bordereau"
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "BORDEREAU D'INSTRUCTIONS.pdf":
+            - generic: "Pièce jointe :"
+            - generic: BORDEREAU D'INSTRUCTIONS.pdf
+          - generic "1000058513.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000058513.jpg
+          - generic "7 autres pièces jointes":
+            - button "7 autres pièces jointes": "+7"
+        - gridcell
+        - gridcell "ven. 28 nov. 2025 10 h 20":
+          - generic "ven. 28 nov. 2025 10 h 20": 2025-11-28
+        - gridcell
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Menu principal
+- generic: Page 1 sur 5

@@ -1,0 +1,387 @@
+
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - heading "MANDAT COMPLÉTÉ / Informations pour saisie avant jugement" [active] [level=2]
+  - button "Recherchez tous les messages avec l'étiquette Boîte de réception": Boîte de réception
+  - tooltip: Recherchez tous les messages avec l'étiquette Boîte de réception
+  - button "Retirez l'étiquette Boîte de réception de cette conversation": ×
+  - tooltip: Retirez l'étiquette Boîte de réception de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 🏛️ Gouvernement & Impôts":
+    - img "🏛️"
+    - text: Gouvernement & Impôts
+  - tooltip: Recherchez tous les messages avec l'étiquette 🏛️ Gouvernement & Impôts
+  - button "Retirez l'étiquette 🏛️ Gouvernement & Impôts de cette conversation": ×
+  - tooltip: Retirez l'étiquette 🏛️ Gouvernement & Impôts de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📌 Reste dans la boîte":
+    - img "📌"
+    - text: Reste dans la boîte
+  - tooltip: Recherchez tous les messages avec l'étiquette 📌 Reste dans la boîte
+  - button "Retirez l'étiquette 📌 Reste dans la boîte de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📌 Reste dans la boîte de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📎 Pièces jointes":
+    - img "📎"
+    - text: Pièces jointes
+  - tooltip: Recherchez tous les messages avec l'étiquette 📎 Pièces jointes
+  - button "Retirez l'étiquette 📎 Pièces jointes de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📎 Pièces jointes de cette conversation
+  - button "Résumer ce courriel":
+    - generic: Résumer ce courriel
+  - list:
+    - table:
+      - rowgroup:
+        - row "Saj saj@huissierdejustice.ca Pièces jointes ven. 1 mai 15 h 24 Favoris Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Saj saj@huissierdejustice.ca":
+            - table:
+              - rowgroup:
+                - row "Saj saj@huissierdejustice.ca":
+                  - cell "Saj saj@huissierdejustice.ca":
+                    - heading "Saj saj@huissierdejustice.ca" [level=3]:
+                      - gridcell "Saj saj@huissierdejustice.ca":
+                        - generic: Saj
+                        - generic: <saj@huissierdejustice.ca>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 1 mai 15 h 24 Favoris":
+            - img "Pièces jointes"
+            - gridcell "ven. 1 mai 15 h 24"
+            - checkbox "Favoris" [checked]
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à moi, romanowskiyan@gmail.com Afficher les détails":
+          - cell "à moi, romanowskiyan@gmail.com Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à moi, romanowskiyan@gmail.com Afficher les détails":
+                  - cell "à moi, romanowskiyan@gmail.com Afficher les détails":
+                    - generic: à moi, romanowskiyan@gmail.com
+                    - button "Afficher les détails"
+    - paragraph:
+      - generic: Bonjour Mathieu,
+    - paragraph
+    - paragraph:
+      - generic: Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer de 622,97$
+    - paragraph
+    - paragraph:
+      - generic: Vous trouverez également le PV de saisie ainsi que les déboursés pour ce dossier.
+    - paragraph
+    - paragraph:
+      - generic: En vous remerciant cordialement
+    - paragraph
+    - paragraph
+    - paragraph
+    - paragraph:
+      - button "Télécharger la pièce jointe image002.png":
+      - tooltip: Analyse antivirus en cours...
+      - button "Ajouter une pièce jointe à Disque image002.png":
+      - tooltip: Ajouter à Google Disque
+      - button "Enregistrer dans Photos":
+      - tooltip: Enregistrer dans Photos
+    - paragraph
+    - paragraph
+    - paragraph
+    - paragraph
+    - paragraph:
+      - generic: "De :"
+      - text: Oeuf Déjeuner <
+      - link "ooeuf.ca@gmail.com":
+        - /url: mailto:ooeuf.ca@gmail.com
+      - text: ">"
+      - text: "Envoyé : 22 avril 2026 14:37"
+      - text: "À : Saj <"
+      - link "saj@huissierdejustice.ca":
+        - /url: mailto:saj@huissierdejustice.ca
+      - text: ">"
+      - text: "Objet : Re: Informations pour saisie avant jugement"
+    - paragraph
+    - paragraph:
+      - generic: Magnifique !
+      - button "Télécharger la pièce jointe image001.png":
+      - tooltip: Analyse antivirus en cours...
+      - button "Ajouter une pièce jointe à Disque image001.png":
+      - tooltip: Ajouter à Google Disque
+      - button "Enregistrer dans Photos":
+      - tooltip: Enregistrer dans Photos
+    - paragraph
+    - paragraph:
+      - text: On Wed, Apr 22, 2026, 14:24 Saj <
+      - link "saj@huissierdejustice.ca":
+        - /url: mailto:saj@huissierdejustice.ca
+        - generic: saj@huissierdejustice.ca
+      - generic: "> wrote:"
+    - blockquote:
+      - paragraph: Bonjour Mathieu,
+      - paragraph
+      - paragraph: Tel que discuté au téléphone le, PV de saisie à signer (J’ai mis un X ou vous devez signer)
+      - paragraph
+      - paragraph: Je serai en attente du PV signé,
+      - paragraph
+      - paragraph: Merci et bonne journée
+      - paragraph
+      - paragraph
+      - paragraph
+      - paragraph:
+      - paragraph
+      - paragraph
+      - paragraph
+      - paragraph
+      - paragraph
+      - paragraph:
+        - generic: "De :"
+        - text: Oeuf Déjeuner <
+        - link "ooeuf.ca@gmail.com":
+          - /url: mailto:ooeuf.ca@gmail.com
+          - generic: ooeuf.ca@gmail.com
+        - text: ">"
+        - text: "Envoyé : 26 décembre 2025 15:19"
+        - text: "À : Saj <"
+        - link "saj@huissierdejustice.ca":
+          - /url: mailto:saj@huissierdejustice.ca
+          - generic: saj@huissierdejustice.ca
+        - text: ">"
+        - text: "Objet : Re: Informations pour saisie avant jugement"
+      - paragraph
+      - paragraph: Salut je n'est pas recu la facture du depot
+      - paragraph:
+        - link "514 4584587":
+          - /url: tel:(514)%20458-4587
+        - text: merci joyeux Noël a toi et l'équipe
+      - paragraph
+      - paragraph:
+        - text: On Tue, Dec 16, 2025, 16:30 Saj <
+        - link "saj@huissierdejustice.ca":
+          - /url: mailto:saj@huissierdejustice.ca
+          - generic: saj@huissierdejustice.ca
+        - generic: "> wrote:"
+      - blockquote:
+        - paragraph: Bonjour,
+        - paragraph
+        - paragraph: "Tel que discuté, svp nous transmettre par virement interac la somme de 2000$ à :"
+        - paragraph:
+          - text: "Courriel :"
+          - link "paiement@huissierdejustice.ca":
+            - /url: mailto:paiement@huissierdejustice.ca
+        - paragraph: "Mot de passe : [SECRET DE PAIEMENT MASQUÉ]"
+        - paragraph
+        - paragraph: Mettre comme référence Quadro Holdings Ltée
+        - paragraph
+        - paragraph: Merci
+        - paragraph
+        - paragraph
+        - paragraph:
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph:
+          - generic: "De :"
+          - text: Oeuf Déjeuner <
+          - link "ooeuf.ca@gmail.com":
+            - /url: mailto:ooeuf.ca@gmail.com
+            - generic: ooeuf.ca@gmail.com
+          - text: ">"
+          - text: "Envoyé : 6 novembre 2025 14:44"
+          - text: "À : Saj <"
+          - link "saj@huissierdejustice.ca":
+            - /url: mailto:saj@huissierdejustice.ca
+            - generic: saj@huissierdejustice.ca
+          - text: ">"
+          - text: "Objet : Fwd: Informations pour saisie avant jugement"
+        - paragraph
+        - paragraph
+        - paragraph:
+          - text: "---------- Forwarded message ---------"
+          - text: "From:"
+          - strong: Oeuf Déjeuner
+          - text: <
+          - link "ooeuf.ca@gmail.com":
+            - /url: mailto:ooeuf.ca@gmail.com
+          - text: ">"
+          - text: "Date: Wed, Nov 5, 2025, 23:32"
+          - text: "Subject: Fwd: Informations pour saisie avant jugement"
+          - text: "To:"
+          - link "infos@etudemacera.com":
+            - /url: mailto:infos@etudemacera.com
+          - text: <
+          - link "infos@etudemacera.com":
+            - /url: mailto:infos@etudemacera.com
+          - text: ">"
+        - paragraph
+        - paragraph
+        - paragraph:
+          - text: "---------- Forwarded message ---------"
+          - text: "From:"
+          - strong: Oeuf Déjeuner
+          - text: <
+          - link "ooeuf.ca@gmail.com":
+            - /url: mailto:ooeuf.ca@gmail.com
+          - text: ">"
+          - text: "Date: Wed, Nov 5, 2025, 17:52"
+          - text: "Subject: Re: Informations pour saisie avant jugement"
+          - text: "To: yan romanowski <"
+          - link "romanowskiyan@gmail.com":
+            - /url: mailto:romanowskiyan@gmail.com
+          - text: ">"
+        - paragraph
+        - paragraph
+        - paragraph:
+          - text: On Wed, Nov 5, 2025, 17:52 Oeuf Déjeuner <
+          - link "ooeuf.ca@gmail.com":
+            - /url: mailto:ooeuf.ca@gmail.com
+            - generic: ooeuf.ca@gmail.com
+          - generic: "> wrote:"
+        - blockquote:
+          - paragraph
+          - paragraph:
+            - text: On Wed, Nov 5, 2025, 16:19 Oeuf Déjeuner <
+            - link "ooeuf.ca@gmail.com":
+              - /url: mailto:ooeuf.ca@gmail.com
+              - generic: ooeuf.ca@gmail.com
+            - generic: "> wrote:"
+          - blockquote:
+            - paragraph
+            - paragraph:
+              - text: "---------- Forwarded message ---------"
+              - text: "From:"
+              - strong: Information
+              - text: <
+              - link "Infos@etudemacera.com":
+                - /url: mailto:Infos@etudemacera.com
+                - generic: Infos@etudemacera.com
+              - text: ">"
+              - text: "Date: Wed, Nov 5, 2025, 16:12"
+              - text: "Subject: Informations pour saisie avant jugement"
+              - text: "To:"
+              - link "OOEUF.CA@GMAIL.COM":
+                - /url: mailto:OOEUF.CA@GMAIL.COM
+                - generic: OOEUF.CA@GMAIL.COM
+              - text: <
+              - link "OOEUF.CA@gmail.com":
+                - /url: mailto:OOEUF.CA@gmail.com
+                - generic: OOEUF.CA@gmail.com
+              - generic: ">"
+            - paragraph
+            - paragraph: Bonjour,
+            - paragraph
+            - paragraph: Après discussion avec M Pietro Macera, nous sommes en attente de vos documents afin de les examiner,
+            - paragraph
+            - paragraph: Merci,
+            - paragraph
+            - link:
+              - /url: https://www.google.com/maps/search/530+boulevard+Saint-Laurent+%0D%0A+Montr%C3%A9al,+QC+%0D%0A+H2Y+2Y9?entry=gmail&source=g
+            - link:
+              - /url: https://www.google.com/maps/search/530+boulevard+Saint-Laurent+%0D%0A+Montr%C3%A9al,+QC+%0D%0A+H2Y+2Y9?entry=gmail&source=g
+            - paragraph:
+              - generic: Massimo Macera
+            - paragraph:
+              - generic: Huissier de Justice,
+            - paragraph
+            - paragraph:
+              - generic: ÉTUDE PIETRO MACERA Inc.
+            - paragraph:
+              - link "530 boulevard Saint-Laurent":
+                - /url: https://www.google.com/maps/search/530+boulevard+Saint-Laurent+%0D%0A+Montr%C3%A9al,+QC+H2Y+2Y9?entry=gmail&source=g
+            - paragraph:
+              - link "Montréal, QC":
+                - /url: https://www.google.com/maps/search/530+boulevard+Saint-Laurent+%0D%0A+Montr%C3%A9al,+QC+H2Y+2Y9?entry=gmail&source=g
+              - link "H2Y 2Y9":
+                - /url: https://www.google.com/maps/search/530+boulevard+Saint-Laurent+%0D%0A+Montr%C3%A9al,+QC+H2Y+2Y9?entry=gmail&source=g
+            - paragraph:
+              - text: T.
+              - link "514.848.0979":
+                - /url: tel:(514)%20848-0979
+              - text: F.
+              - link "514.848.7016":
+                - /url: tel:(514)%20848-7016
+            - paragraph
+            - paragraph: Le présent courriel est confidentiel et peut contenir de l’information visée par le secret professionnel. Si vous n’en êtes pas le destinataire, veuillez supprimer ce message et nous prévenir immédiatement. Toute utilisation ou communication non autorisée est interdite.
+            - paragraph: This e-mail is confidential and may contain privileged information. If you are not the intended recipient, please delete this e-mail and notify us immediately. Any unauthorized use or disclosure is prohibited.
+            - paragraph
+            - paragraph:
+              - generic: AVERTISSEMENT |
+              - text: De temps à autre, notre filtre de "SPAM" supprime des courriels légitimes de nos clients. Si votre courriel comprend des instructions importantes, veuillez vous assurer que nous accusions réception de ces instructions.
+            - paragraph:
+              - generic: WARNING |
+              - text: From time to time, our spam scanners eliminate legitimate e-mails from clients. If your e-mail contains important instructions, please ensure that we acknowledge receipt of those instructions.
+            - paragraph:
+              - generic: AVERTISSEMENT CONCERNANT LA CONFIDENTIALITE |
+              - text: Les informations contenues aux présentes sont privilégiées et confidentielles. Elles ne peuvent être utilisées que par la personne ou l’entité dont le nom paraît ci-dessus. Si le lecteur du présent message n’est pas le destinataire prévu, il est par les présentes prié de noter qu’il est strictement interdit de divulguer, de distribuer ou de copier ce message. Si ce message vous a été transmis par mégarde, veuillez nous en aviser immédiatement par téléphone et détruire immédiatement le présent document.
+            - paragraph:
+              - generic: WARNING CONCERNING CONFIDENTIALITY |
+              - text: This message is intended only for the use of the individual to whom or the entity to which it is addressed and may contain information which is confidential and privileged. If you are not the intended recipient or the person responsible for delivering it to the intended recipient, please notify us by telephone and destroy this message immediately. Any distribution, reproduction or other use of this message by an unintended recipient is prohibited.
+            - paragraph:
+              - generic: P
+              - generic: Est-ce nécessaire d’imprimer ce courriel ? / Do you really need to print this email
+            - paragraph
+            - paragraph
+    - text: …
+    - text: "[Message tronqué]"
+    - link "Afficher l'intégralité du message":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&view=lg&permmsgid=msg-f:1864015263548549514
+    - generic: 3 pièces jointes
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Télécharger toutes les pièces jointes":
+    - tooltip: Télécharger toutes les pièces jointes
+    - button "Tout ajouter à Disque":
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Facture_8695.pdf Prévisualiser la pièce jointe Facture_8695.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.1&permmsgid=msg-f:1864015263548549514&th=19de500197b7a98a&view=att&zw&disp=inline
+      - generic: Prévisualiser la pièce jointe Facture_8695.pdf
+      - generic: Prévisualiser la pièce jointe Facture_8695.pdf
+      - generic: Facture_8695.pdf
+    - button "Télécharger la pièce jointe Facture_8695.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Facture_8695.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe RAPPORT_F.pdf Prévisualiser la pièce jointe RAPPORT_F.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.2&permmsgid=msg-f:1864015263548549514&th=19de500197b7a98a&view=att&zw&disp=inline
+      - generic: Prévisualiser la pièce jointe RAPPORT_F.pdf
+      - generic: Prévisualiser la pièce jointe RAPPORT_F.pdf
+      - generic: RAPPORT_F.pdf
+    - button "Télécharger la pièce jointe RAPPORT_F.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque RAPPORT_F.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - link "Prévisualiser la pièce jointe PV_SIGNE.pdf Prévisualiser la pièce jointe PV_SIGNE.pdf":
+      - /url: https://mail.google.com/mail/u/2?ui=2&ik=a255966123&attid=0.3&permmsgid=msg-f:1864015263548549514&th=19de500197b7a98a&view=att&zw&disp=inline
+      - generic: Prévisualiser la pièce jointe PV_SIGNE.pdf
+      - generic: Prévisualiser la pièce jointe PV_SIGNE.pdf
+      - generic: PV_SIGNE.pdf
+    - button "Télécharger la pièce jointe PV_SIGNE.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque PV_SIGNE.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - toolbar "Réponses suggérées":
+      - 'button "Réponse suggérée : Parfait, merci !"':
+        - generic: Parfait, merci !
+      - 'button "Réponse suggérée : Merci pour le suivi."':
+        - generic: Merci pour le suivi.
+      - 'button "Réponse suggérée : Virement fait !"':
+        - generic: Virement fait !
+  - link "Répondre"
+  - link "Répondre à tous"
+  - link "Transférer"
+  - button "Ajouter une réaction":
+  - tooltip: Ajouter une réaction
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Page 1 sur 5
+
+Extraction de consultation : secret de paiement Interac masqué. Courriel source inchangé.

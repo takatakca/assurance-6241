@@ -1,0 +1,922 @@
+URL : https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%7B%225837%22+%225839%22%7D+%7Bbail+convention+occupation+lease%7D+-from%3Atoogoodtogo.com+-from%3Adoordash.com
+
+  - toolbar "affiner la recherche":
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 23
+    - text: sur 23
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., contrat de bail relatif à l'entreposage des équipements ainsi que le contrat relatif à l'utilisation du chariot.":
+        - gridcell
+        - gridcell "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., contrat de bail relatif à l'entreposage des équipements ainsi que le contrat relatif à l'utilisation du chariot.":
+          - checkbox "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., contrat de bail relatif à l'entreposage des équipements ainsi que le contrat relatif à l'utilisation du chariot."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "cdufourd, moi 2":
+          - generic: cdufourd, moi
+          - generic: "2"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - contrat de bail relatif à l'entreposage des équipements ainsi que le contrat relatif à l'utilisation du chariot":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - contrat de bail relatif à l'entreposage des équipements ainsi que le contrat relatif à l'utilisation du chariot":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Votre dossier - Dufourd, Dion Avocats
+            - generic: "-"
+            - text: contrat de bail relatif à l'entreposage des équipements ainsi que le contrat relatif à l'utilisation du chariot
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "lun. 5 oct. 2026 14 h 29":
+          - generic "lun. 5 oct. 2026 14 h 29": 5 oct.
+        - gridcell
+      - 'row "Kathya, moi 14, Too Good To Go: Account Termination, contient une pièce jointe, 29 sept., Why you canceling orders? I have been using too good to go since 2023. This is the first time i even."':
+        - gridcell
+        - 'gridcell "Kathya, moi 14, Too Good To Go: Account Termination, contient une pièce jointe, 29 sept., Why you canceling orders? I have been using too good to go since 2023. This is the first time i even."':
+          - 'checkbox "Kathya, moi 14, Too Good To Go: Account Termination, contient une pièce jointe, 29 sept., Why you canceling orders? I have been using too good to go since 2023. This is the first time i even."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Kathya, moi 14":
+          - generic: Kathya, moi
+          - generic: "14"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plate…/Too Good To Go 📎 Pièces jointes Too Good To Go: Account Termination - Why you canceling orders? I have been using too good to go since 2023. This is the first time i even Pièce jointe : 1000146383.jpg Pièce jointe : 1000146500.jpg Pièce jointe : 1000146501.jpg 9 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plate…/Too Good To Go 📎 Pièces jointes Too Good To Go: Account Termination - Why you canceling orders? I have been using too good to go since 2023. This is the first time i even"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Too Good To Go: Account Termination"
+            - generic: "-"
+            - text: Why you canceling orders? I have been using too good to go since 2023. This is the first time i even
+          - generic "1000146383.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000146383.jpg
+          - generic "1000146500.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000146500.jpg
+          - generic "1000146501.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000146501.jpg
+          - generic "9 autres pièces jointes":
+            - button "9 autres pièces jointes": "+9"
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 13 h 00":
+          - generic "mar. 29 sept. 2026 13 h 00": 29 sept.
+        - gridcell
+      - 'row "moi, Subject: Request for Review — Director / Business Information Mismatch , contient une pièce jointe, 6 juill., Hi Glenn, I hope you are doing well. After reviewing the information shown in the DoorDash portal,."':
+        - gridcell
+        - 'gridcell "moi, Subject: Request for Review — Director / Business Information Mismatch , contient une pièce jointe, 6 juill., Hi Glenn, I hope you are doing well. After reviewing the information shown in the DoorDash portal,."':
+          - 'checkbox "moi, Subject: Request for Review — Director / Business Information Mismatch , contient une pièce jointe, 6 juill., Hi Glenn, I hope you are doing well. After reviewing the information shown in the DoorDash portal,."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes Subject: Request for Review — Director / Business Information Mismatch - Hi Glenn, I hope you are doing well. After reviewing the information shown in the DoorDash portal, Pièce jointe : 1000121706.jpg Pièce jointe : 1000121713.jpg Pièce jointe : 1000121711.jpg 2 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes Subject: Request for Review — Director / Business Information Mismatch - Hi Glenn, I hope you are doing well. After reviewing the information shown in the DoorDash portal,"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Subject: Request for Review — Director / Business Information Mismatch"
+            - generic: "-"
+            - text: Hi Glenn, I hope you are doing well. After reviewing the information shown in the DoorDash portal,
+          - generic "1000121706.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000121706.jpg
+          - generic "1000121713.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000121713.jpg
+          - generic "1000121711.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000121711.jpg
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "lun. 6 juill. 2026 13 h 18":
+          - generic "lun. 6 juill. 2026 13 h 18": 6 juill.
+        - gridcell
+      - row "marquée d'une étoile, support@doo., moi 9, Verification Required [Action Needed], contient une pièce jointe, 6 juill., Good morning Glenn, I just wanted to let you know that we have sent the documents you requested..":
+        - gridcell
+        - gridcell "marquée d'une étoile, support@doo., moi 9, Verification Required [Action Needed], contient une pièce jointe, 6 juill., Good morning Glenn, I just wanted to let you know that we have sent the documents you requested..":
+          - checkbox "marquée d'une étoile, support@doo., moi 9, Verification Required [Action Needed], contient une pièce jointe, 6 juill., Good morning Glenn, I just wanted to let you know that we have sent the documents you requested.."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "support@doo., moi 9":
+          - generic: support@doo., moi
+          - generic: "9"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes print resto Verification Required [Action Needed] - Good morning Glenn, I just wanted to let you know that we have sent the documents you requested. Pièce jointe : 1000114422.jpg Pièce jointe : 1000114793.jpg Pièce jointe : 1000114423.jpg 9 autres pièces jointes"':
+          - link "Boîte de réception ✉️ J'ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes print resto Verification Required [Action Needed] - Good morning Glenn, I just wanted to let you know that we have sent the documents you requested.":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Verification Required [Action Needed]
+            - generic: "-"
+            - text: Good morning Glenn, I just wanted to let you know that we have sent the documents you requested.
+          - generic "1000114422.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114422.jpg
+          - generic "1000114793.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114793.jpg
+          - generic "1000114423.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114423.jpg
+          - generic "9 autres pièces jointes":
+            - button "9 autres pièces jointes": "+9"
+        - gridcell:
+          - toolbar:
+        - gridcell
+      - 'row "support@doo., moi 4, Mythos 2 Go - 3583 Rue Sainte-catherine E - Reactivation - Activations - Mx, contient une pièce jointe, 6 juill., On Fri, Jul 3, 2026, 12:24 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >."':
+        - gridcell
+        - 'gridcell "support@doo., moi 4, Mythos 2 Go - 3583 Rue Sainte-catherine E - Reactivation - Activations - Mx, contient une pièce jointe, 6 juill., On Fri, Jul 3, 2026, 12:24 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >."':
+          - 'checkbox "support@doo., moi 4, Mythos 2 Go - 3583 Rue Sainte-catherine E - Reactivation - Activations - Mx, contient une pièce jointe, 6 juill., On Fri, Jul 3, 2026, 12:24 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doo., moi 4":
+          - generic: support@doo., moi
+          - generic: "4"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Mythos 2 Go - 3583 Rue Sainte-catherine E - Reactivation - Activations - Mx - On Fri, Jul 3, 2026, 12:24 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > > Pièce jointe : 1000120304.jpg Pièce jointe : 1000114422.jpg Pièce jointe : 1000114425.jpg 4 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Mythos 2 Go - 3583 Rue Sainte-catherine E - Reactivation - Activations - Mx - On Fri, Jul 3, 2026, 12:24 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Mythos 2 Go - 3583 Rue Sainte-catherine E - Reactivation - Activations - Mx
+            - generic: "-"
+            - text: "On Fri, Jul 3, 2026, 12:24 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >"
+          - generic "1000120304.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000120304.jpg
+          - generic "1000114422.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114422.jpg
+          - generic "1000114425.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114425.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "lun. 6 juill. 2026 12 h 07":
+          - generic "lun. 6 juill. 2026 12 h 07": 6 juill.
+        - gridcell
+      - 'row "marquée d''une étoile, support@doo., moi 2, Verification Required [Action Needed], contient une pièce jointe, 3 juill., On Fri, Jul 3, 2026, 12:25 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, support@doo., moi 2, Verification Required [Action Needed], contient une pièce jointe, 3 juill., On Fri, Jul 3, 2026, 12:25 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >."':
+          - 'checkbox "marquée d''une étoile, support@doo., moi 2, Verification Required [Action Needed], contient une pièce jointe, 3 juill., On Fri, Jul 3, 2026, 12:25 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "support@doo., moi 2":
+          - generic: support@doo., moi
+          - generic: "2"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes Verification Required [Action Needed] - On Fri, Jul 3, 2026, 12:25 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > > Pièce jointe : 1000120304.jpg Pièce jointe : 1000114426.jpg Pièce jointe : 1000114425.jpg 4 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes Verification Required [Action Needed] - On Fri, Jul 3, 2026, 12:25 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Verification Required [Action Needed]
+            - generic: "-"
+            - text: "On Fri, Jul 3, 2026, 12:25 support@doordash.com wrote: > Hi Mythos 2 Go HOCHELAGA team, > >"
+          - generic "1000120304.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000120304.jpg
+          - generic "1000114426.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114426.jpg
+          - generic "1000114425.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114425.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "ven. 3 juill. 2026 16 h 20":
+          - generic "ven. 3 juill. 2026 16 h 20": 3 juill.
+        - gridcell
+      - row "marquée d'une étoile, DoorDash, moi 12, PLACE AFRIQUE NDG - Reactivation Request - DoorDash, contient une pièce jointe, 16 juin, I didnt received your call and i had sent the document over to you On Mon, Jun 15, 2026, 14:37.":
+        - gridcell
+        - gridcell "marquée d'une étoile, DoorDash, moi 12, PLACE AFRIQUE NDG - Reactivation Request - DoorDash, contient une pièce jointe, 16 juin, I didnt received your call and i had sent the document over to you On Mon, Jun 15, 2026, 14:37.":
+          - checkbox "marquée d'une étoile, DoorDash, moi 12, PLACE AFRIQUE NDG - Reactivation Request - DoorDash, contient une pièce jointe, 16 juin, I didnt received your call and i had sent the document over to you On Mon, Jun 15, 2026, 14:37."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "DoorDash, moi 12":
+          - generic: DoorDash, moi
+          - generic: "12"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes print resto PLACE AFRIQUE NDG - Reactivation Request - DoorDash - I didnt received your call and i had sent the document over to you On Mon, Jun 15, 2026, 14:37 Pièce jointe : 1000116245.jpg Pièce jointe : 1000116247.jpg Pièce jointe : 1000116249.jpg 25 autres pièces jointes"':
+          - link "Boîte de réception ✉️ J'ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes print resto PLACE AFRIQUE NDG - Reactivation Request - DoorDash - I didnt received your call and i had sent the document over to you On Mon, Jun 15, 2026, 14:37":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: PLACE AFRIQUE NDG - Reactivation Request - DoorDash
+            - generic: "-"
+            - text: I didnt received your call and i had sent the document over to you On Mon, Jun 15, 2026, 14:37
+          - generic "1000116245.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000116245.jpg
+          - generic "1000116247.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000116247.jpg
+          - generic "1000116249.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000116249.jpg
+          - generic "25 autres pièces jointes":
+            - button "25 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mar. 16 juin 2026 14 h 33":
+          - generic "mar. 16 juin 2026 14 h 33": 16 juin
+        - gridcell
+      - row "DoorDash, moi 5, Verification Required [Action Needed], contient une pièce jointe, 15 juin, On Wed, Jun 10, 2026, 12:17 DoorDash Merchant Experience Partner Support < mxpsupport@doordash.com.":
+        - gridcell
+        - gridcell "DoorDash, moi 5, Verification Required [Action Needed], contient une pièce jointe, 15 juin, On Wed, Jun 10, 2026, 12:17 DoorDash Merchant Experience Partner Support < mxpsupport@doordash.com.":
+          - checkbox "DoorDash, moi 5, Verification Required [Action Needed], contient une pièce jointe, 15 juin, On Wed, Jun 10, 2026, 12:17 DoorDash Merchant Experience Partner Support < mxpsupport@doordash.com."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash, moi 5":
+          - generic: DoorDash, moi
+          - generic: "5"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Verification Required [Action Needed] - On Wed, Jun 10, 2026, 12:17 DoorDash Merchant Experience Partner Support < mxpsupport@doordash.com Pièce jointe : 1000115948.jpg Pièce jointe : 1000115947.jpg Pièce jointe : 1000114418.jpg 7 autres pièces jointes"':
+          - link "✉️ J'ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Verification Required [Action Needed] - On Wed, Jun 10, 2026, 12:17 DoorDash Merchant Experience Partner Support < mxpsupport@doordash.com":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Verification Required [Action Needed]
+            - generic: "-"
+            - text: On Wed, Jun 10, 2026, 12:17 DoorDash Merchant Experience Partner Support < mxpsupport@doordash.com
+          - generic "1000115948.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000115948.jpg
+          - generic "1000115947.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000115947.jpg
+          - generic "1000114418.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114418.jpg
+          - generic "7 autres pièces jointes":
+            - button "7 autres pièces jointes": "+7"
+        - gridcell
+        - gridcell "lun. 15 juin 2026 13 h 05":
+          - generic "lun. 15 juin 2026 13 h 05": 15 juin
+        - gridcell
+      - row "DoorDash, moi 2, Verification Required [Action Needed], contient une pièce jointe, 9 juin, Your form didnt do anything then say completed On Tue, Jun 9, 2026, 13:33 DoorDash Merchant.":
+        - gridcell
+        - gridcell "DoorDash, moi 2, Verification Required [Action Needed], contient une pièce jointe, 9 juin, Your form didnt do anything then say completed On Tue, Jun 9, 2026, 13:33 DoorDash Merchant.":
+          - checkbox "DoorDash, moi 2, Verification Required [Action Needed], contient une pièce jointe, 9 juin, Your form didnt do anything then say completed On Tue, Jun 9, 2026, 13:33 DoorDash Merchant."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash, moi 2":
+          - generic: DoorDash, moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Verification Required [Action Needed] - Your form didnt do anything then say completed On Tue, Jun 9, 2026, 13:33 DoorDash Merchant Pièce jointe : 1000114124.jpg Pièce jointe : 1000114055.jpg Pièce jointe : État des renseignements - Revenu Québec(29).PDF"':
+          - link "✉️ J'ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Verification Required [Action Needed] - Your form didnt do anything then say completed On Tue, Jun 9, 2026, 13:33 DoorDash Merchant":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Verification Required [Action Needed]
+            - generic: "-"
+            - text: Your form didnt do anything then say completed On Tue, Jun 9, 2026, 13:33 DoorDash Merchant
+          - generic "1000114124.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114124.jpg
+          - generic "1000114055.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000114055.jpg
+          - generic "État des renseignements - Revenu Québec(29).PDF":
+            - generic: "Pièce jointe :"
+            - generic: État des renseignements - Revenu Québec(29).PDF
+        - gridcell
+        - gridcell "mar. 9 juin 2026 15 h 19":
+          - generic "mar. 9 juin 2026 15 h 19": 9 juin
+        - gridcell
+      - 'row "marquée d''une étoile, DoorDash, moi 9, DoorDash - Store Deactivation, contient une pièce jointe, 26 mai, On Mon, May 25, 2026, 20:54 Oeuf Déjeuner wrote: > > I really dont understand what is happening."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, DoorDash, moi 9, DoorDash - Store Deactivation, contient une pièce jointe, 26 mai, On Mon, May 25, 2026, 20:54 Oeuf Déjeuner wrote: > > I really dont understand what is happening."':
+          - 'checkbox "marquée d''une étoile, DoorDash, moi 9, DoorDash - Store Deactivation, contient une pièce jointe, 26 mai, On Mon, May 25, 2026, 20:54 Oeuf Déjeuner wrote: > > I really dont understand what is happening."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "DoorDash, moi 9":
+          - generic: DoorDash, moi
+          - generic: "9"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes print resto DoorDash - Store Deactivation - On Mon, May 25, 2026, 20:54 Oeuf Déjeuner wrote: > > I really dont understand what is happening Pièce jointe : 1000108425.jpg Pièce jointe : 1000108717.jpg Pièce jointe : 1000108642.jpg 13 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes print resto DoorDash - Store Deactivation - On Mon, May 25, 2026, 20:54 Oeuf Déjeuner wrote: > > I really dont understand what is happening"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: DoorDash - Store Deactivation
+            - generic: "-"
+            - text: "On Mon, May 25, 2026, 20:54 Oeuf Déjeuner wrote: > > I really dont understand what is happening"
+          - generic "1000108425.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000108425.jpg
+          - generic "1000108717.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000108717.jpg
+          - generic "1000108642.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000108642.jpg
+          - generic "13 autres pièces jointes":
+            - button "13 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mar. 26 mai 2026 12 h 22":
+          - generic "mar. 26 mai 2026 12 h 22": 26 mai
+        - gridcell
+      - row "marquée d'une étoile, DoorDash .. moi 6, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 26 mai, Thank you for the update. On Wed, Apr 22, 2026, 12:43 DoorDash Merchant Experience Partner Support.":
+        - gridcell
+        - gridcell "marquée d'une étoile, DoorDash .. moi 6, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 26 mai, Thank you for the update. On Wed, Apr 22, 2026, 12:43 DoorDash Merchant Experience Partner Support.":
+          - checkbox "marquée d'une étoile, DoorDash .. moi 6, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 26 mai, Thank you for the update. On Wed, Apr 22, 2026, 12:43 DoorDash Merchant Experience Partner Support."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "DoorDash .. moi 6":
+          - generic: DoorDash .. moi
+          - generic: "6"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes print resto Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - Thank you for the update. On Wed, Apr 22, 2026, 12:43 DoorDash Merchant Experience Partner Support Pièce jointe : 1000102325.jpg Pièce jointe : 1000102323.jpg Pièce jointe : 1000102321.jpg 6 autres pièces jointes"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes print resto Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - Thank you for the update. On Wed, Apr 22, 2026, 12:43 DoorDash Merchant Experience Partner Support":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!
+            - generic: "-"
+            - text: Thank you for the update. On Wed, Apr 22, 2026, 12:43 DoorDash Merchant Experience Partner Support
+          - generic "1000102325.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102325.jpg
+          - generic "1000102323.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102323.jpg
+          - generic "1000102321.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102321.jpg
+          - generic "6 autres pièces jointes":
+            - button "6 autres pièces jointes": "+6"
+        - gridcell
+        - gridcell "mar. 26 mai 2026 12 h 14":
+          - generic "mar. 26 mai 2026 12 h 14": 26 mai
+        - gridcell
+      - 'row "support@doo., moi 10, Pi Pita Montréal Nord - 27986352 - Reactivate Request - Stop or Start Receiving Orders - MX, contient une pièce jointe, 28 avr., Pleasecall me back 1514 458 4587 On Fri, Apr 24, 2026, 13:18 support@doordash.com wrote: > Hello."':
+        - gridcell
+        - 'gridcell "support@doo., moi 10, Pi Pita Montréal Nord - 27986352 - Reactivate Request - Stop or Start Receiving Orders - MX, contient une pièce jointe, 28 avr., Pleasecall me back 1514 458 4587 On Fri, Apr 24, 2026, 13:18 support@doordash.com wrote: > Hello."':
+          - 'checkbox "support@doo., moi 10, Pi Pita Montréal Nord - 27986352 - Reactivate Request - Stop or Start Receiving Orders - MX, contient une pièce jointe, 28 avr., Pleasecall me back 1514 458 4587 On Fri, Apr 24, 2026, 13:18 support@doordash.com wrote: > Hello."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doo., moi 10":
+          - generic: support@doo., moi
+          - generic: "10"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Pi Pita Montréal Nord - 27986352 - Reactivate Request - Stop or Start Receiving Orders - MX - Pleasecall me back 1514 458 4587 On Fri, Apr 24, 2026, 13:18 support@doordash.com wrote: > Hello Pièce jointe : 1000102281.jpg Pièce jointe : 1000102283.jpg Pièce jointe : 1000102284.jpg 4 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Pi Pita Montréal Nord - 27986352 - Reactivate Request - Stop or Start Receiving Orders - MX - Pleasecall me back 1514 458 4587 On Fri, Apr 24, 2026, 13:18 support@doordash.com wrote: > Hello"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Pi Pita Montréal Nord - 27986352 - Reactivate Request - Stop or Start Receiving Orders - MX
+            - generic: "-"
+            - text: "Pleasecall me back 1514 458 4587 On Fri, Apr 24, 2026, 13:18 support@doordash.com wrote: > Hello"
+          - generic "1000102281.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102281.jpg
+          - generic "1000102283.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102283.jpg
+          - generic "1000102284.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102284.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "mar. 28 avr. 2026 19 h 19":
+          - generic "mar. 28 avr. 2026 19 h 19": 28 avr.
+        - gridcell
+      - 'row "support@doo., moi 8, Nutrition (ST-LEONARD) - Reactivate Request - Stop or Start Receiving Orders - MX, contient une pièce jointe, 27 avr., On Fri, Apr 24, 2026, 13:20 support@doordash.com wrote: > Hello Matthew, > > This is Will."':
+        - gridcell
+        - 'gridcell "support@doo., moi 8, Nutrition (ST-LEONARD) - Reactivate Request - Stop or Start Receiving Orders - MX, contient une pièce jointe, 27 avr., On Fri, Apr 24, 2026, 13:20 support@doordash.com wrote: > Hello Matthew, > > This is Will."':
+          - 'checkbox "support@doo., moi 8, Nutrition (ST-LEONARD) - Reactivate Request - Stop or Start Receiving Orders - MX, contient une pièce jointe, 27 avr., On Fri, Apr 24, 2026, 13:20 support@doordash.com wrote: > Hello Matthew, > > This is Will."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doo., moi 8":
+          - generic: support@doo., moi
+          - generic: "8"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nutrition (ST-LEONARD) - Reactivate Request - Stop or Start Receiving Orders - MX - On Fri, Apr 24, 2026, 13:20 support@doordash.com wrote: > Hello Matthew, > > This is Will Pièce jointe : 1000102281.jpg Pièce jointe : 1000102283.jpg Pièce jointe : 1000102284.jpg 4 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nutrition (ST-LEONARD) - Reactivate Request - Stop or Start Receiving Orders - MX - On Fri, Apr 24, 2026, 13:20 support@doordash.com wrote: > Hello Matthew, > > This is Will"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Nutrition (ST-LEONARD) - Reactivate Request - Stop or Start Receiving Orders - MX
+            - generic: "-"
+            - text: "On Fri, Apr 24, 2026, 13:20 support@doordash.com wrote: > Hello Matthew, > > This is Will"
+          - generic "1000102281.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102281.jpg
+          - generic "1000102283.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102283.jpg
+          - generic "1000102284.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102284.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "lun. 27 avr. 2026 20 h 03":
+          - generic "lun. 27 avr. 2026 20 h 03": 27 avr.
+        - gridcell
+      - 'row "support@doo., moi 8, stores reactivation request, contient une pièce jointe, 27 avr., Updated version Registration entreprise québéc On Wed, Apr 22, 2026, 12:14 Oeuf Déjeuner wrote: >."':
+        - gridcell
+        - 'gridcell "support@doo., moi 8, stores reactivation request, contient une pièce jointe, 27 avr., Updated version Registration entreprise québéc On Wed, Apr 22, 2026, 12:14 Oeuf Déjeuner wrote: >."':
+          - 'checkbox "support@doo., moi 8, stores reactivation request, contient une pièce jointe, 27 avr., Updated version Registration entreprise québéc On Wed, Apr 22, 2026, 12:14 Oeuf Déjeuner wrote: >."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doo., moi 8":
+          - generic: support@doo., moi
+          - generic: "8"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes stores reactivation request - Updated version Registration entreprise québéc On Wed, Apr 22, 2026, 12:14 Oeuf Déjeuner wrote: > Pièce jointe : 1000102321.jpg Pièce jointe : gmail_images20260422_123616.png Pièce jointe : ConfirmationRevenuQuébec_20260427_093745_0000.pdf 14 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes stores reactivation request - Updated version Registration entreprise québéc On Wed, Apr 22, 2026, 12:14 Oeuf Déjeuner wrote: >"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: stores reactivation request
+            - generic: "-"
+            - text: "Updated version Registration entreprise québéc On Wed, Apr 22, 2026, 12:14 Oeuf Déjeuner wrote: >"
+          - generic "1000102321.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102321.jpg
+          - generic "gmail_images20260422_123616.png":
+            - generic: "Pièce jointe :"
+            - generic: gmail_images20260422_123616.png
+          - generic "ConfirmationRevenuQuébec_20260427_093745_0000.pdf":
+            - generic: "Pièce jointe :"
+            - generic: ConfirmationRevenuQuébec_20260427_093745_0000.pdf
+          - generic "14 autres pièces jointes":
+            - button "14 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "lun. 27 avr. 2026 09 h 39":
+          - generic "lun. 27 avr. 2026 09 h 39": 27 avr.
+        - gridcell
+      - row "marquée d'une étoile, support@doo., moi 2, DoorDash Inquiry, contient une pièce jointe, 24 avr., Nord - 5837 Rue Jean-talon E > > , > > Hi Matthieu, as we discussed on our call, could you please send over the >.":
+        - gridcell
+        - gridcell "marquée d'une étoile, support@doo., moi 2, DoorDash Inquiry, contient une pièce jointe, 24 avr., Nord - 5837 Rue Jean-talon E > > , > > Hi Matthieu, as we discussed on our call, could you please send over the >.":
+          - checkbox "marquée d'une étoile, support@doo., moi 2, DoorDash Inquiry, contient une pièce jointe, 24 avr., Nord - 5837 Rue Jean-talon E > > , > > Hi Matthieu, as we discussed on our call, could you please send over the >."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "support@doo., moi 2":
+          - generic: support@doo., moi
+          - generic: "2"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes DoorDash Inquiry - Nord - 5837 Rue Jean-talon E > > , > > Hi Matthieu, as we discussed on our call, could you please send over the > Pièce jointe : 1000102283.jpg Pièce jointe : 1000102282.jpg Pièce jointe : 1000102281.jpg 3 autres pièces jointes"':
+          - link "Boîte de réception ✉️ J'ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes DoorDash Inquiry - Nord - 5837 Rue Jean-talon E > > , > > Hi Matthieu, as we discussed on our call, could you please send over the >":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: DoorDash Inquiry
+            - generic: "-"
+            - text: Nord - 5837 Rue Jean-talon E > > , > > Hi Matthieu, as we discussed on our call, could you please send over the >
+          - generic "1000102283.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102283.jpg
+          - generic "1000102282.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102282.jpg
+          - generic "1000102281.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102281.jpg
+          - generic "3 autres pièces jointes":
+            - button "3 autres pièces jointes": "+3"
+        - gridcell
+        - gridcell "ven. 24 avr. 2026 23 h 31":
+          - generic "ven. 24 avr. 2026 23 h 31": 24 avr.
+        - gridcell
+      - 'row "DoorDash, moi 7, Crèmerie Bin Molle Bin Dure ST LÉONARD - 5837 Rue Jean-talon E - Update Account Details - Account Settings - MX, contient une pièce jointe, 22 avr., On Wed, Apr 22, 2026, 14:40 Oeuf Déjeuner wrote: > > On Wed, Apr 22, 2026, 14:38 Oeuf Déjeuner."':
+        - gridcell
+        - 'gridcell "DoorDash, moi 7, Crèmerie Bin Molle Bin Dure ST LÉONARD - 5837 Rue Jean-talon E - Update Account Details - Account Settings - MX, contient une pièce jointe, 22 avr., On Wed, Apr 22, 2026, 14:40 Oeuf Déjeuner wrote: > > On Wed, Apr 22, 2026, 14:38 Oeuf Déjeuner."':
+          - 'checkbox "DoorDash, moi 7, Crèmerie Bin Molle Bin Dure ST LÉONARD - 5837 Rue Jean-talon E - Update Account Details - Account Settings - MX, contient une pièce jointe, 22 avr., On Wed, Apr 22, 2026, 14:40 Oeuf Déjeuner wrote: > > On Wed, Apr 22, 2026, 14:38 Oeuf Déjeuner."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash, moi 7":
+          - generic: DoorDash, moi
+          - generic: "7"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Crèmerie Bin Molle Bin Dure ST LÉONARD - 5837 Rue Jean-talon E - Update Account Details - Account Settings - MX - On Wed, Apr 22, 2026, 14:40 Oeuf Déjeuner wrote: > > On Wed, Apr 22, 2026, 14:38 Oeuf Déjeuner Pièce jointe : 1000102349.jpg Pièce jointe : 1000102281.jpg Pièce jointe : 1000102283.jpg 9 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Crèmerie Bin Molle Bin Dure ST LÉONARD - 5837 Rue Jean-talon E - Update Account Details - Account Settings - MX - On Wed, Apr 22, 2026, 14:40 Oeuf Déjeuner wrote: > > On Wed, Apr 22, 2026, 14:38 Oeuf Déjeuner"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Crèmerie Bin Molle Bin Dure ST LÉONARD - 5837 Rue Jean-talon E - Update Account Details - Account Settings - MX
+            - generic: "-"
+            - text: "On Wed, Apr 22, 2026, 14:40 Oeuf Déjeuner wrote: > > On Wed, Apr 22, 2026, 14:38 Oeuf Déjeuner"
+          - generic "1000102349.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102349.jpg
+          - generic "1000102281.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102281.jpg
+          - generic "1000102283.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000102283.jpg
+          - generic "9 autres pièces jointes":
+            - button "9 autres pièces jointes": "+9"
+        - gridcell
+        - gridcell "mer. 22 avr. 2026 17 h 11":
+          - generic "mer. 22 avr. 2026 17 h 11": 22 avr.
+        - gridcell
+      - row "DoorDash .. moi 13, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 21 avr., >> 5837 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 >>> >>> *SECOND LOCATION * >>>.":
+        - gridcell
+        - gridcell "DoorDash .. moi 13, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 21 avr., >> 5837 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 >>> >>> *SECOND LOCATION * >>>.":
+          - checkbox "DoorDash .. moi 13, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 21 avr., >> 5837 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 >>> >>> *SECOND LOCATION * >>>."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash .. moi 13":
+          - generic: DoorDash .. moi
+          - generic: "13"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - >> 5837 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 >>> >>> *SECOND LOCATION * >>> Pièce jointe : 1000091035.jpg Pièce jointe : 1000091031.jpg Pièce jointe : 1000091041.jpg 2 autres pièces jointes"':
+          - link "✉️ J'ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - >> 5837 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 >>> >>> *SECOND LOCATION * >>>":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!
+            - generic: "-"
+            - text: ">> 5837 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4 >>> >>> *SECOND LOCATION * >>>"
+          - generic "1000091035.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091035.jpg
+          - generic "1000091031.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091031.jpg
+          - generic "1000091041.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091041.jpg
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "mar. 21 avr. 2026 18 h 35":
+          - generic "mar. 21 avr. 2026 18 h 35": 21 avr.
+        - gridcell
+      - 'row "Louis, moi 13, DoorDash, contient une pièce jointe, 18 mars, On Wed, Mar 18, 2026, 17:10 Oeuf Déjeuner wrote: > > > > On Wed, Mar 18, 2026, 17:06 Oeuf."':
+        - gridcell
+        - 'gridcell "Louis, moi 13, DoorDash, contient une pièce jointe, 18 mars, On Wed, Mar 18, 2026, 17:10 Oeuf Déjeuner wrote: > > > > On Wed, Mar 18, 2026, 17:06 Oeuf."':
+          - 'checkbox "Louis, moi 13, DoorDash, contient une pièce jointe, 18 mars, On Wed, Mar 18, 2026, 17:10 Oeuf Déjeuner wrote: > > > > On Wed, Mar 18, 2026, 17:06 Oeuf."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Louis, moi 13":
+          - generic: Louis, moi
+          - generic: "13"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes DoorDash - On Wed, Mar 18, 2026, 17:10 Oeuf Déjeuner wrote: > > > > On Wed, Mar 18, 2026, 17:06 Oeuf Pièce jointe : 1000094156.jpg Pièce jointe : 1000094189.jpg Pièce jointe : 1000094201.jpg 19 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes DoorDash - On Wed, Mar 18, 2026, 17:10 Oeuf Déjeuner wrote: > > > > On Wed, Mar 18, 2026, 17:06 Oeuf"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: DoorDash
+            - generic: "-"
+            - text: "On Wed, Mar 18, 2026, 17:10 Oeuf Déjeuner wrote: > > > > On Wed, Mar 18, 2026, 17:06 Oeuf"
+          - generic "1000094156.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000094156.jpg
+          - generic "1000094189.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000094189.jpg
+          - generic "1000094201.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000094201.jpg
+          - generic "19 autres pièces jointes":
+            - button "19 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mer. 18 mars 2026 18 h 52":
+          - generic "mer. 18 mars 2026 18 h 52": 18 mars
+        - gridcell
+      - row "DoorDash .. DoorDash 18, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 16 mars, > and 5837 Rue Jean-talon E, Saint-l >>>>>>>>> >>>>>>>>.":
+        - gridcell
+        - gridcell "DoorDash .. DoorDash 18, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 16 mars, > and 5837 Rue Jean-talon E, Saint-l >>>>>>>>> >>>>>>>>.":
+          - checkbox "DoorDash .. DoorDash 18, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 16 mars, > and 5837 Rue Jean-talon E, Saint-l >>>>>>>>> >>>>>>>>."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash .. DoorDash 18":
+          - generic: DoorDash .. DoorDash
+          - generic: "18"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - > and 5837 Rue Jean-talon E, Saint-l >>>>>>>>> >>>>>>>> Pièce jointe : 1000091058.jpg Pièce jointe : 1000091051.jpg Pièce jointe : 1000091049.jpg 10 autres pièces jointes"':
+          - link "✉️ J'ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - > and 5837 Rue Jean-talon E, Saint-l >>>>>>>>> >>>>>>>>":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!
+            - generic: "-"
+            - text: "> and 5837 Rue Jean-talon E, Saint-l >>>>>>>>> >>>>>>>>"
+          - generic "1000091058.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091058.jpg
+          - generic "1000091051.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091051.jpg
+          - generic "1000091049.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091049.jpg
+          - generic "10 autres pièces jointes":
+            - button "10 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "lun. 16 mars 2026 09 h 22":
+          - generic "lun. 16 mars 2026 09 h 22": 16 mars
+        - gridcell
+      - row "DoorDash .. DoorDash 4, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 13 mars, What it usually includes in Québec To be considered “licensed” or legal, a business normally must:.":
+        - gridcell
+        - gridcell "DoorDash .. DoorDash 4, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 13 mars, What it usually includes in Québec To be considered “licensed” or legal, a business normally must:.":
+          - checkbox "DoorDash .. DoorDash 4, Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!, contient une pièce jointe, 13 mars, What it usually includes in Québec To be considered “licensed” or legal, a business normally must:."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash .. DoorDash 4":
+          - generic: DoorDash .. DoorDash
+          - generic: "4"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - What it usually includes in Québec To be considered “licensed” or legal, a business normally must: Pièce jointe : 1000091874.jpg Pièce jointe : 1000091872.jpg Pièce jointe : 1000091870.jpg 2 autres pièces jointes"':
+          - link "✉️ J'ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request! - What it usually includes in Québec To be considered “licensed” or legal, a business normally must:":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Nous avons reçu votre demande de support DoorDash ! / We’ve Received Your DoorDash Support Request!
+            - generic: "-"
+            - text: "What it usually includes in Québec To be considered “licensed” or legal, a business normally must:"
+          - generic "1000091874.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091874.jpg
+          - generic "1000091872.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091872.jpg
+          - generic "1000091870.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000091870.jpg
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "ven. 13 mars 2026 12 h 12":
+          - generic "ven. 13 mars 2026 12 h 12": 13 mars
+        - gridcell
+      - 'row "marquée d''une étoile, DoorDash, moi 21, Subject: DoorDash - Request to Update Store Information [ACTION NEEDED], contient une pièce jointe, 3 mars, >> 5837 rue Jean-Talon Est >>> (Québec) Canada >>> Numéro de l''entreprise (NEQ) >>."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, DoorDash, moi 21, Subject: DoorDash - Request to Update Store Information [ACTION NEEDED], contient une pièce jointe, 3 mars, >> 5837 rue Jean-Talon Est >>> (Québec) Canada >>> Numéro de l''entreprise (NEQ) >>."':
+          - 'checkbox "marquée d''une étoile, DoorDash, moi 21, Subject: DoorDash - Request to Update Store Information [ACTION NEEDED], contient une pièce jointe, 3 mars, >> 5837 rue Jean-Talon Est >>> (Québec) Canada >>> Numéro de l''entreprise (NEQ) >>."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "DoorDash, moi 21":
+          - generic: DoorDash, moi
+          - generic: "21"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes Subject: DoorDash - Request to Update Store Information [ACTION NEEDED] - >> 5837 rue Jean-Talon Est >>> (Québec) Canada >>> Numéro de l''entreprise (NEQ) >> Pièce jointe : 1000079182.jpg Pièce jointe : 1000079185.jpg Pièce jointe : 1000079187.jpg 8 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🍔 Plateformes/DoorDash 📌 Reste dans la boîte 📎 Pièces jointes Subject: DoorDash - Request to Update Store Information [ACTION NEEDED] - >> 5837 rue Jean-Talon Est >>> (Québec) Canada >>> Numéro de l''entreprise (NEQ) >>"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Subject: DoorDash - Request to Update Store Information [ACTION NEEDED]"
+            - generic: "-"
+            - text: ">> 5837 rue Jean-Talon Est >>> (Québec) Canada >>> Numéro de l'entreprise (NEQ) >>"
+          - generic "1000079182.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000079182.jpg
+          - generic "1000079185.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000079185.jpg
+          - generic "1000079187.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000079187.jpg
+          - generic "8 autres pièces jointes":
+            - button "8 autres pièces jointes": "+8"
+        - gridcell
+        - gridcell "mar. 3 mars 2026 01 h 35":
+          - generic "mar. 3 mars 2026 01 h 35": 3 mars
+        - gridcell
+      - row "DoorDash, moi 15, DoorDash - Request to Update Store Information [ACTION NEEDED], contient une pièce jointe, 3 mars, located at 5837 Rue Jean-Talon >>>>> E, Saint-L >>>>> >>>>> éonard.":
+        - gridcell
+        - gridcell "DoorDash, moi 15, DoorDash - Request to Update Store Information [ACTION NEEDED], contient une pièce jointe, 3 mars, located at 5837 Rue Jean-Talon >>>>> E, Saint-L >>>>> >>>>> éonard.":
+          - checkbox "DoorDash, moi 15, DoorDash - Request to Update Store Information [ACTION NEEDED], contient une pièce jointe, 3 mars, located at 5837 Rue Jean-Talon >>>>> E, Saint-L >>>>> >>>>> éonard."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "DoorDash, moi 15":
+          - generic: DoorDash, moi
+          - generic: "15"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes DoorDash - Request to Update Store Information [ACTION NEEDED] - located at 5837 Rue Jean-Talon >>>>> E, Saint-L >>>>> >>>>> éonard Pièce jointe : 1000079185.jpg Pièce jointe : 1000079187.jpg Pièce jointe : 1000079182.jpg 11 autres pièces jointes"':
+          - link "✉️ J'ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes DoorDash - Request to Update Store Information [ACTION NEEDED] - located at 5837 Rue Jean-Talon >>>>> E, Saint-L >>>>> >>>>> éonard":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: DoorDash - Request to Update Store Information [ACTION NEEDED]
+            - generic: "-"
+            - text: located at 5837 Rue Jean-Talon >>>>> E, Saint-L >>>>> >>>>> éonard
+          - generic "1000079185.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000079185.jpg
+          - generic "1000079187.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000079187.jpg
+          - generic "1000079182.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000079182.jpg
+          - generic "11 autres pièces jointes":
+            - button "11 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mar. 3 mars 2026 01 h 34":
+          - generic "mar. 3 mars 2026 01 h 34": 3 mars
+        - gridcell
+      - 'row "moi, Objet : Réponse formelle à votre offre de règlement(ASSURANCE), contient une pièce jointe, 2025-09-24, renouvellement du bail. Janvier a Juillet 2025, Payement de 4700$/MOIS *Des honoraires d''avocats et frais judiciaires."':
+        - gridcell
+        - 'gridcell "moi, Objet : Réponse formelle à votre offre de règlement(ASSURANCE), contient une pièce jointe, 2025-09-24, renouvellement du bail. Janvier a Juillet 2025, Payement de 4700$/MOIS *Des honoraires d''avocats et frais judiciaires."':
+          - 'checkbox "moi, Objet : Réponse formelle à votre offre de règlement(ASSURANCE), contient une pièce jointe, 2025-09-24, renouvellement du bail. Janvier a Juillet 2025, Payement de 4700$/MOIS *Des honoraires d''avocats et frais judiciaires."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "Objet : Réponse formelle à votre offre de règlement(ASSURANCE) - renouvellement du bail. Janvier a Juillet 2025, Payement de 4700$/MOIS *Des honoraires d''avocats et frais judiciaires Pièce jointe : 1000042559.jpg Pièce jointe : 1000042557.jpg Pièce jointe : 1000042561.jpg 2 autres pièces jointes"':
+          - 'link "Objet : Réponse formelle à votre offre de règlement(ASSURANCE) - renouvellement du bail. Janvier a Juillet 2025, Payement de 4700$/MOIS *Des honoraires d''avocats et frais judiciaires"':
+            - generic: "Objet : Réponse formelle à votre offre de règlement(ASSURANCE)"
+            - generic: "-"
+            - text: renouvellement du bail. Janvier a Juillet 2025, Payement de 4700$/MOIS *Des honoraires d'avocats et frais judiciaires
+          - generic "1000042559.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000042559.jpg
+          - generic "1000042557.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000042557.jpg
+          - generic "1000042561.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000042561.jpg
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "mer. 24 sept. 2025 01 h 22":
+          - generic "mer. 24 sept. 2025 01 h 22": 2025-09-24
+        - gridcell
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Affichage de PV_SIGNE.pdf en cours. Page 1 sur 1
+- generic: Suivant

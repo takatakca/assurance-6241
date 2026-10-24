@@ -1,0 +1,19 @@
+{
+  "id": 5,
+  "query": "in:anywhere (\"curriculum vitae\" OR filename:cv OR subject:CV OR filename:resume) -category:promotions -category:social",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "19ccf529d4d54a09",
+          "subject": "Prix Vimy Beaverbrook /Beaverbrook Vimy Prize",
+          "snippet": "Date limite de dépôt des candidatures : 17 mars / Application deadline: March 17 View this email in your browser Mariella , Mathieu & parent, English text follows. PRIX VIMY BEAVERBROOK Club Zone",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "error": null
+}

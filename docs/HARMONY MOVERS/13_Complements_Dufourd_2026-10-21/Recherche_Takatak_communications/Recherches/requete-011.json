@@ -1,0 +1,25 @@
+{
+  "id": 10,
+  "query": "in:anywhere (chariot OR forklift OR \"lift truck\" OR \"lift-truck\") (Quadro OR Irwin OR Herwin OR Cintec OR Harmony OR conteneur)",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "1a10d5436a58b8f3",
+          "subject": "Fwd: Votre dossier - Dufourd, Dion Avocats",
+          "snippet": "---------- Forwarded message --------- From: <cdufourd@dufourdion.com> Date: Mon, Oct 5, 2026, 14:15 Subject: Votre dossier - Dufourd, Dion Avocats To: <ooeuf.ca@gmail.com> Bonjour, Voici",
+          "attachments": [
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "error": null
+}

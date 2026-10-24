@@ -1,0 +1,121 @@
+[
+  {
+    "id": 10,
+    "statut_issu_de_ce_lot": "partiel",
+    "apport_nouveau": "Déclaration datée du client au 29 décembre 2025 sur le 5505 Rue Irwin et les deux conteneurs; distinction renforcée entre ce repère historique et l'emplacement actuel.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/19e6a1c109d4b84b.txt",
+        "repere": "Courriel Ooeuf cité du 29 décembre 2025 à 02 h 29, objet Question; transfert du 27 mai 2026",
+        "nature": "declaration",
+        "apport": "Adresse déclarée 5505 Rue Irwin, LaSalle; deux conteneurs dans un lieu d'entreposage, déclarés chauffés. Ne confirme pas le lieu actuel."
+      },
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/OPPOSITION-ORIGINAL.pdf",
+        "repere": "Pages physiques 12 à 16; versos 13 et 15 contrôlés visuellement",
+        "nature": "original",
+        "apport": "Version du PV comportant deux versos supplémentaires par rapport au PDF séparé; dates manuscrites 17 décembre 2025 à 17 h 30 et 18 h 00, Michel Gaucher 284."
+      }
+    ],
+    "manquants": [
+      "Confirmation actuelle et datée de l'adresse physique, des conteneurs et de l'inventaire présent; historique des déplacements éventuels depuis les repères de décembre 2025."
+    ],
+    "controle": "Ni le transfert de mai 2026 ni le récit de décembre 2025 ne permettent d'actualiser l'adresse par supposition.",
+    "complement_posterieur": "patch-demandes-10-16-18-huissier.json",
+    "nouveaux_originaux_acquis": [
+      "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+      "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf"
+    ]
+  },
+  {
+    "id": 16,
+    "statut_issu_de_ce_lot": "partiel",
+    "apport_nouveau": "PV signé relatif à la garde désormais acquis, avec signature et qualité du signataire à confirmer; convention actuelle détaillée distincte non repérée. Voir le patch complet.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/OPPOSITION-ORIGINAL.pdf",
+        "repere": "Page physique 1, désignation Kostas Kronis; pages 12 à 16, PV",
+        "nature": "original",
+        "apport": "Identification historique du tiers gardien et de l'opération; ce n'est pas le contrat demandé."
+      },
+      {
+        "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/19e6a182f595e448.txt",
+        "repere": "Mario Taoutel, 25 décembre 2025 à 10 h 49 min 09 s −05:00; cité dans un transfert du 27 mai 2026",
+        "nature": "declaration",
+        "apport": "Le correspondant dit ne pas avoir pu localiser le tiers gardien à cette date; affirmation de correspondance à conserver avec sa portée limitée."
+      }
+    ],
+    "manquants": [
+      "Convention et annexes, ou confirmation écrite qu'il n'existe pas de contrat écrit; parties, période, modalités et lieu actuel."
+    ],
+    "controle": "Un PV, une adresse ou une affirmation de correspondance ne remplace pas le contrat du gardien.",
+    "complement_posterieur": "patch-demandes-10-16-18-huissier.json",
+    "nouveaux_originaux_acquis": [
+      "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+      "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf"
+    ]
+  },
+  {
+    "id": 18,
+    "statut_issu_de_ce_lot": "non_repere",
+    "apport_nouveau": "Rapports et PV signé désormais acquis; aucune photo d'équipement ou vidéo parmi les 13 pages. Piste WhatsApp et adresses de l'huissier restent à exploiter pour les médias.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/1a0b7cf80510d416__Facture_8695_QUADRO HOLDINGS LTÉE.pdf",
+        "repere": "Page 1, facture du 1er mai 2026",
+        "nature": "original",
+        "apport": "Références 25-08196-19008, 26-08196-19337, 26-08196-19397 et 26-08196-24696; rapports à rechercher, non médias joints."
+      },
+      {
+        "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/1a0b7cf80510d416.txt",
+        "repere": "Message cité de Karina Charlebois, 15 septembre 2026 à 15 h 15 min 03 s −04:00",
+        "nature": "extraction",
+        "apport": "karina.charlebois@gaucherhuissier.com, sujet TR: Facture 8695 en souffrance; domaine supplémentaire de recherche."
+      },
+      {
+        "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/19e6a1ba7854b14c.txt",
+        "repere": "Yan Romanowski, 29 décembre 2025 à 08 h 31, cité dans le transfert du 27 mai 2026",
+        "nature": "declaration",
+        "apport": "Demande d'obtenir les rapports de l'huissier et mention de vidéos; aucune réception démontrée."
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/source-locale-courriel-1a10d1182b2319b2.txt",
+        "repere": "En-tête du 5 octobre 2026 à 19 h 16 min 54 s +02:00, texte dérivé du MIME HTML conservé",
+        "nature": "analyse",
+        "apport": "Texte de préparation administrative du client mentionnant les originaux WhatsApp du huissier restant à obtenir; piste, pas export WhatsApp ni preuve de remise."
+      }
+    ],
+    "manquants": [
+      "Photos et vidéos natives prises par l'huissier, en possession de Quadro, avec provenance et métadonnées; confirmation séparée des supports détenus par des tiers."
+    ],
+    "controle": "179 entrées dans ALBUMS-AVOCAT.zip, sans extension vidéo usuelle repérée. Rapport de production ne signifie pas production télévisée. Aucun montant de la facture 8695 n'est additionné de nouveau.",
+    "complement_posterieur": "patch-demandes-10-16-18-huissier.json",
+    "nouveaux_originaux_acquis": [
+      "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+      "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf"
+    ]
+  },
+  {
+    "id": 20,
+    "statut_issu_de_ce_lot": "non_repere",
+    "apport_nouveau": "Contrôle d'un faux positif : les autorisations d'accès à un lieu mentionnées dans la facture 8695 ne sont pas l'autorisation d'obtenir le rapport de police.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/sources/image006.jpg",
+        "repere": "Carte de police déjà contrôlée visuellement",
+        "nature": "original",
+        "apport": "MTLEV2500487177; disponible pour la demande 19, pas un formulaire signé répondant à la demande 20."
+      },
+      {
+        "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/1a0b7cf80510d416__Facture_8695_QUADRO HOLDINGS LTÉE.pdf",
+        "repere": "Page 1, lignes des rapports d'autorisation",
+        "nature": "original",
+        "apport": "Objet différent de l'accès au rapport de police; ne pas substituer ces lignes au formulaire demandé."
+      }
+    ],
+    "manquants": [
+      "Formulaire approprié, rempli et signé par la personne habilitée, permettant au cabinet d'obtenir le rapport visé."
+    ],
+    "controle": "Aucune signature créée, aucun formulaire envoyé et aucun statut de pièce signée attribué à un accord oral ou à la carte de police."
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "query": "in:anywhere (\"U-Haul\" OR Uhaul OR from:uhaul.com OR to:uhaul.com) after:2025/05/01 before:2026/02/01",
+    "pages": 1,
+    "results": 11,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 2,
+    "query": "in:anywhere (\"U-Haul\" OR Uhaul) (Quadro OR Harmony OR Irwin OR Herwin OR Constantino OR \"12 juin\")",
+    "pages": 1,
+    "results": 24,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 3,
+    "query": "in:anywhere (Constantino OR Konstantino OR Constantin OR Kronis OR Cronis) -from:wordpress -subject:Wordfence",
+    "pages": 1,
+    "results": 5,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 4,
+    "query": "in:anywhere (\"5837\" OR \"5839\") (bail OR lease OR loyer OR \"sous-location\" OR occupation OR location)",
+    "pages": 1,
+    "results": 46,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 5,
+    "query": "in:anywhere (\"5007\" OR \"5505\") (Irwin OR Herwin OR entreposage OR container OR conteneur OR chariot)",
+    "pages": 2,
+    "results": 104,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 6,
+    "query": "in:anywhere (\"curriculum vitae\" OR filename:cv OR subject:CV OR filename:resume) -category:promotions -category:social",
+    "pages": 1,
+    "results": 1,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 7,
+    "query": "in:anywhere ((\"remorquage\" OR towing OR \"tow truck\") (Elite OR Élite))",
+    "pages": 1,
+    "results": 1,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 8,
+    "query": "in:anywhere (\"Remorquage\" OR \"Elite Transport\" OR \"Élite Transport\" OR \"Elite Moving\" OR \"Élite Moving\") (Quadro OR Harmony OR Irwin OR \"6241\" OR \"2025\") -category:promotions",
+    "pages": 1,
+    "results": 3,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 9,
+    "query": "in:anywhere (from:harmonymovers.com OR to:harmonymovers.com OR \"AKA Moving\" OR \"ak amoving\" OR \"Kostas\")",
+    "pages": 1,
+    "results": 10,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 10,
+    "query": "in:anywhere (from:mwb130890@gmail.com OR from:plevesquemtl@gmail.com) (CV OR curriculum OR resume OR bail OR Uhaul OR \"U-Haul\" OR chariot OR forklift OR entreposage)",
+    "pages": 1,
+    "results": 2,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 11,
+    "query": "in:anywhere (chariot OR forklift OR \"lift truck\" OR \"lift-truck\") (Quadro OR Irwin OR Herwin OR Cintec OR Harmony OR conteneur)",
+    "pages": 1,
+    "results": 1,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 12,
+    "query": "in:anywhere (from:cintec.ca OR to:cintec.ca) (bail OR convention OR location OR conteneur OR chariot)",
+    "pages": 1,
+    "results": 3,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 13,
+    "query": "in:anywhere (\"curriculum\" OR \"curriculum vitae\" OR \"mon cv\" OR filename:cv.pdf OR filename:cv.docx OR filename:resume.pdf) (Pierre OR Levesque OR Lévesque OR Quadro OR mwb130890)",
+    "pages": 1,
+    "results": 1,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 14,
+    "query": "in:anywhere (Elite OR Élite OR \"ÉLITE\") has:attachment after:2025/05/01 before:2026/01/01 -category:promotions -category:social",
+    "pages": 1,
+    "results": 8,
+    "pagination_exhausted": true
+  },
+  {
+    "id": 15,
+    "query": "in:anywhere (\"U-Haul\" OR Uhaul OR \"12 juin\") (inventaire OR équipements OR equipments OR equipment OR liste OR inventory) -category:promotions -category:social",
+    "pages": 2,
+    "results": 113,
+    "pagination_exhausted": true
+  }
+]

@@ -1,0 +1,72 @@
+﻿[
+    {
+        "id":  "convention-2023",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\convention-2023-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  667,
+        "error":  null
+    },
+    {
+        "id":  "convention-2024",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\convention-2024-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  1439,
+        "error":  null
+    },
+    {
+        "id":  "avis-cintec-2025",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\avis-cintec-2025-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  1449,
+        "error":  null
+    },
+    {
+        "id":  "IMG_9888",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\IMG_9888-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  64,
+        "error":  null
+    },
+    {
+        "id":  "IMG_9889",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\IMG_9889-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  79,
+        "error":  null
+    },
+    {
+        "id":  "IMG_9890",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\IMG_9890-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  70,
+        "error":  null
+    },
+    {
+        "id":  "IMG_9891",
+        "page":  1,
+        "method":  "Windows OCR",
+        "language":  "en-US",
+        "output":  "C:\\Users\\fansh\\OneDrive\\Documents\\ChatGPT\\ASSURANCE 6241\\HARMONY MOVERS\\13_Complements_Dufourd_2026-10-21\\Recherche_Takatak_communications\\Extraits\\IMG_9891-ocr.txt",
+        "status":  "OCR automatique Ã  contrÃ´ler visuellement",
+        "characters":  73,
+        "error":  null
+    }
+]

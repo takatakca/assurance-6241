@@ -1,0 +1,87 @@
+{
+  "id": 9,
+  "query": "in:anywhere (from:mwb130890@gmail.com OR from:plevesquemtl@gmail.com) (CV OR curriculum OR resume OR bail OR Uhaul OR \"U-Haul\" OR chariot OR forklift OR entreposage)",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "19a037ccd5540733",
+          "subject": "Fwd: Re[5]: Situation de transport 12 Juin 2025",
+          "snippet": "---------- Forwarded message --------- From: Accounting @ Harmony Movers <accounting@harmonymovers.com> Date: Fri, Aug 15, 2025, 15:17 Subject: Re[5]: Situation de transport 12 Juin 2025 To:",
+          "attachments": [
+            {
+              "filename": "noname",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image006.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image005.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "fyjpy3hy.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "gqrdgcee.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "p4xmdkxq.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "3ykqakn1.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "197fec78a27b3735",
+          "subject": "(No Subject)",
+          "snippet": "",
+          "attachments": [
+            {
+              "filename": "releves (3).zip",
+              "mime_type": "application/zip",
+              "read_attachment_supported": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "error": null
+}

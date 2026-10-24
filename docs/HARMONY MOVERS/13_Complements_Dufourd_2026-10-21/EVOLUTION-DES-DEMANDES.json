@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "avant": {
+    "non_repere": 11,
+    "partiel": 13,
+    "document_disponible": 1
+  },
+  "apres": {
+    "non_repere": 8,
+    "partiel": 15,
+    "document_disponible": 2
+  },
+  "statuts_modifies": [
+    {
+      "demande": 11,
+      "avant": "non_repere",
+      "apres": "partiel"
+    },
+    {
+      "demande": 16,
+      "avant": "non_repere",
+      "apres": "partiel"
+    },
+    {
+      "demande": 17,
+      "avant": "non_repere",
+      "apres": "partiel"
+    },
+    {
+      "demande": 4,
+      "avant": "partiel",
+      "apres": "document_disponible"
+    }
+  ],
+  "pieces_jointes_ooeuf": 12,
+  "envoi_effectue": false
+}

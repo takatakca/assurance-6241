@@ -1,0 +1,12 @@
+Compte: takatak.ca@gmail.com
+Identifiant Gmail: 197fec78a27b3735
+Source: MIME/197fec78a27b3735.json
+from: "Matthieu W. B." <mwb130890@gmail.com>
+date: Sat, 12 Jul 2025 09:16:06 -0400
+message-id: <CA+phM6Z_fdWuhk3YuBO4Xef3qcFDypGO0O2sW_7K-6RM+F2Ufg@mail.gmail.com>
+subject: 
+to: takatak.ca@gmail.com
+
+EXTRACTION TEXT/PLAIN DU MIME — ne remplace pas un EML brut
+
+

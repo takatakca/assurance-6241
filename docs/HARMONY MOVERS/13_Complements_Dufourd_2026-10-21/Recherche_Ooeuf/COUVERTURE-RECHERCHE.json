@@ -1,0 +1,32 @@
+{
+  "date_locale": "2026-10-21",
+  "compte": "ooeuf.ca@gmail.com",
+  "recherches": {
+    "tzanet": {
+      "query": "in:anywhere {TZANET TEZANET TESANET 1000026855 1000026854}",
+      "conversations_affichees": 18,
+      "journal": "recherche-tzanet-dom.txt"
+    },
+    "huissier": {
+      "query": "in:anywhere {\"gaucherhuissier.com\" \"huissierdejustice.ca\" \"Kronis\" \"Kostas\"}",
+      "conversations_affichees": 11,
+      "journal": "recherche-huissier-dom.txt"
+    },
+    "uhaul_elite": {
+      "query": "in:anywhere {\"U-Haul\" \"UHaul\" \"Remorquage Elite\" \"Remorquage Élite\"}",
+      "conversations_affichees": 23,
+      "journal": "recherche-uhaul-elite-dom.txt"
+    },
+    "occupation": {
+      "query": "in:anywhere {\"5837\" \"5839\"} {bail convention occupation lease} -from:toogoodtogo.com -from:doordash.com",
+      "conversations_affichees": 23,
+      "journal": "recherche-jeantalon-bail-dom.txt"
+    },
+    "cv_police": {
+      "query": "in:anywhere {\"curriculum vitae\" \"autorisation police\" \"autorisation SPVM\" \"rapport de police\"}",
+      "conversations_affichees": 16,
+      "journal": "recherche-cv-police-dom.txt"
+    }
+  },
+  "limite": "Recherches ciblées et lecture des candidats pertinents. Aucune certification de fouille exhaustive de la boîte ou de toutes les pièces de tous les fils. Les doublons de fil ne sont pas des communications nouvelles."
+}

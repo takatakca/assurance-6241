@@ -1,0 +1,114 @@
+{
+  "id": "199a50e2c1c3c53e",
+  "thread_id": "19885baf828ad815",
+  "label_ids": [
+    "SENT"
+  ],
+  "snippet": "Subject: Payment Confirmation Good morning, Fernando, I just want to confirm that you have received the checks and that you are able to cash the funds. The funds have been available in the account",
+  "history_id": "3754487",
+  "internal_date": "1759410793000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/alternative",
+    "filename": "",
+    "headers": [
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "Date",
+        "value": "Thu, 2 Oct 2025 09:13:13 -0400"
+      },
+      {
+        "name": "References",
+        "value": "<000d01dc07c6$ab42c0f0$01c842d0$@ca>"
+      },
+      {
+        "name": "In-Reply-To",
+        "value": "<000d01dc07c6$ab42c0f0$01c842d0$@ca>"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<CAGN0CqjsgW85r6sTO-LgyxtgP=62K_8fww1H5TfVM8JK1v94RA@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "Re: nouvelle convention  et résiliation de la convention 2023"
+      },
+      {
+        "name": "From",
+        "value": "takatak ca <takatak.ca@gmail.com>"
+      },
+      {
+        "name": "To",
+        "value": "Marc Desroches <mdesroches@cintec.ca>"
+      },
+      {
+        "name": "Cc",
+        "value": "Fernando Pasquale <fpasquale@cintec.ca>"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/alternative; boundary=\"00000000000060cfd106402cbf1a\""
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "text/plain",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/plain; charset=\"UTF-8\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "quoted-printable"
+          }
+        ],
+        "body": {
+          "size": 954,
+          "base64_url_content": null,
+          "content": "Subject: Payment Confirmation\r\n\r\nGood morning, Fernando,\r\n\r\nI just want to confirm that you have received the checks and that you are\r\nable to cash the funds. The funds have been available in the account since\r\nyesterday, yet I see the transaction has not been completed and you\r\ndeclined the email transfer.\r\n\r\nPlease note that I have records and proof of all payments issued to you.\r\nHopefully, there are no issues on your end or mine.\r\n\r\nKindly confirm that you received this message regarding your payment, as\r\nthe payment has indeed been issued.\r\n\r\nThank you very much, and I wish you a great day.\r\n\r\nBest regards,\r\nMatthieu Wallace Barnard\r\n\r\nOn Thu, Aug 7, 2025, 14:11 Marc Desroches <mdesroches@cintec.ca> wrote:\r\n\r\n> Salut Mathieu,\r\n>\r\n>\r\n>\r\n>\r\n>\r\n> Voici les documents demandés.\r\n>\r\n> En espérant que la convention te conviendra et que tu puisses rester comme\r\n> locataire.\r\n>\r\n>\r\n>\r\n>\r\n>\r\n> Salutations,\r\n>\r\n>\r\n>\r\n>\r\n>\r\n> Marc Desroches\r\n>\r\n",
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": null
+      },
+      {
+        "part_id": "1",
+        "mime_type": "text/html",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/html; charset=\"UTF-8\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "quoted-printable"
+          }
+        ],
+        "body": {
+          "size": 2063,
+          "base64_url_content": null,
+          "content": "<div dir=\"auto\">Subject: Payment Confirmation<div dir=\"auto\"><br></div><div dir=\"auto\">Good morning, Fernando,</div><div dir=\"auto\"><br></div><div dir=\"auto\">I just want to confirm that you have received the checks and that you are able to cash the funds. The funds have been available in the account since yesterday, yet I see the transaction has not been completed and you declined the email transfer.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Please note that I have records and proof of all payments issued to you. Hopefully, there are no issues on your end or mine.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Kindly confirm that you received this message regarding your payment, as the payment has indeed been issued.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Thank you very much, and I wish you a great day.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Best regards,</div><div dir=\"auto\">Matthieu Wallace Barnard </div></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Aug 7, 2025, 14:11 Marc Desroches &lt;<a href=\"mailto:mdesroches@cintec.ca\">mdesroches@cintec.ca</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div lang=\"FR-CA\" link=\"blue\" vlink=\"purple\">\r\n\r\n<div class=\"m_3752250540120561450Section1\">\r\n\r\n<p class=\"MsoNormal\">Salut Mathieu,<u></u><u></u></p>\r\n\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n\r\n<p class=\"MsoNormal\">Voici les documents demandés.<u></u><u></u></p>\r\n\r\n<p class=\"MsoNormal\">En espérant que la convention te conviendra et que tu puisses\r\nrester comme locataire.<u></u><u></u></p>\r\n\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n\r\n<p class=\"MsoNormal\">Salutations,<u></u><u></u></p>\r\n\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n\r\n<p class=\"MsoNormal\">Marc Desroches<u></u><u></u></p>\r\n\r\n</div>\r\n\r\n</div>\r\n\r\n\r\n</blockquote></div>\r\n",
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 4022,
+  "classification_label_values": null
+}

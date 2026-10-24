@@ -1,0 +1,196 @@
+{
+  "id": "19a084e3347fb239",
+  "thread_id": "19a084dac1c2d6c5",
+  "label_ids": [
+    "SENT"
+  ],
+  "snippet": "---------- Forwarded message --------- From: takatak ca &lt;takatak.ca@gmail.com&gt; Date: Tue, Oct 21, 2025, 15:45 Subject: To: takatak ca &lt;takatak.ca@gmail.com&gt;",
+  "history_id": "3420452",
+  "internal_date": "1761075933000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "Date",
+        "value": "Tue, 21 Oct 2025 15:45:33 -0400"
+      },
+      {
+        "name": "References",
+        "value": "<CAGN0Cqi0jk_60R2UGrxEeKK5EdR1cnQZk3Kp==Muf+6a=Fj7FQ@mail.gmail.com>"
+      },
+      {
+        "name": "In-Reply-To",
+        "value": "<CAGN0Cqi0jk_60R2UGrxEeKK5EdR1cnQZk3Kp==Muf+6a=Fj7FQ@mail.gmail.com>"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<CAGN0CqjAeLsP0sgg2Ev2vENMgG2k4JX7beSN4kWb846is1rDjA@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "Fwd:"
+      },
+      {
+        "name": "From",
+        "value": "takatak ca <takatak.ca@gmail.com>"
+      },
+      {
+        "name": "To",
+        "value": "staplesmobile@printme.com"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary=\"0000000000007724e20641b07124\""
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "multipart/alternative",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/alternative; boundary=\"0000000000007724e10641b07122\""
+          }
+        ],
+        "body": {
+          "size": 0,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": [
+          {
+            "part_id": "0.0",
+            "mime_type": "text/plain",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/plain; charset=\"UTF-8\""
+              }
+            ],
+            "body": {
+              "size": 162,
+              "base64_url_content": null,
+              "content": "---------- Forwarded message ---------\r\nFrom: takatak ca <takatak.ca@gmail.com>\r\nDate: Tue, Oct 21, 2025, 15:45\r\nSubject:\r\nTo: takatak ca <takatak.ca@gmail.com>\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          },
+          {
+            "part_id": "0.1",
+            "mime_type": "text/html",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=\"UTF-8\""
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "quoted-printable"
+              }
+            ],
+            "body": {
+              "size": 499,
+              "base64_url_content": null,
+              "content": "<div dir=\"auto\"></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">takatak ca</strong> <span dir=\"auto\">&lt;<a href=\"mailto:takatak.ca@gmail.com\">takatak.ca@gmail.com</a>&gt;</span><br>Date: Tue, Oct 21, 2025, 15:45<br>Subject: <br>To: takatak ca &lt;<a href=\"mailto:takatak.ca@gmail.com\">takatak.ca@gmail.com</a>&gt;<br></div><br><br><div dir=\"auto\"></div>\r\n</div>\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          }
+        ]
+      },
+      {
+        "part_id": "1",
+        "mime_type": "application/pdf",
+        "filename": "Invoice_43_2025-07-14.pdf",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/pdf; name=\"Invoice_43_2025-07-14.pdf\""
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"Invoice_43_2025-07-14.pdf\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "X-Attachment-Id",
+            "value": "19a084daaa2dd0a346f1"
+          },
+          {
+            "name": "Content-ID",
+            "value": "<19a084daaa2dd0a346f1>"
+          }
+        ],
+        "body": {
+          "size": 106133,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ9REWbZPFCaQPkkiTbDWRGJDK8t5NwxGXNp_vzW7OBscS60gyysccnUwpH11pEkDdzIEKvN4jHYFkY5lqN7blX9d89h989S7roqosQFW29mutLoHjzVxhFQMLznfDEklYZNcjOtjRhvixj-5nUSSlidxti2-HcbHSLlEhfjmKxllKuBc8C71Z2COwtUZxAxLeFz1VgJ406LzViLfRbQEJ9hNTxPE1tRQo5DgQW3fNVa93WqldSUt_jZeUVuqcPkFQgfnkmL-bdm8l_6wvzz39ls2hrAyMn4g49uxFIG3p3YsCa3iCGT_gdZSPk"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      },
+      {
+        "part_id": "2",
+        "mime_type": "application/pdf",
+        "filename": "Invoice_45_2025-07-28 (1).pdf",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/pdf; name=\"Invoice_45_2025-07-28 (1).pdf\""
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"Invoice_45_2025-07-28 (1).pdf\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "X-Attachment-Id",
+            "value": "19a084e0d40562df8f01"
+          },
+          {
+            "name": "Content-ID",
+            "value": "<19a084e0d40562df8f01>"
+          }
+        ],
+        "body": {
+          "size": 134000,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ9Bk6VZ7nu7gF6REJu8flqv-IqWiKvfkWfSfg3lYj-KxCqd60y4zIb47oxnZKJNy9HViY31VL3I9JZ2pZ3_eoBHOqrQ2xb90_K1O4IcDn2pDWJiuhPpklUoQ_Y7RE2DKsuuC4OEqROzJYHwYLo4GlkDVLPifK7-xbgQ6MLiWrCaTtB5QLaG65eKPPCqNY9gPha5mvy68D6tPQTalA6-i-mGA8F4JLANtZdlrr2NfGjkaGVOGBXbFv7jm8wPypQuI50TjEGyqAbIN3W6Rg9-ZVOgQ_uilFyUrV5bmpuMgztS6JaaiF7QbJUfdyo"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 330720,
+  "classification_label_values": null
+}

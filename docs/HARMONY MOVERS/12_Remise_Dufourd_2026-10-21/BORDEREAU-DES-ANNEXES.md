@@ -79,3 +79,144 @@ Les cotes sont internes au dossier de remise. Les empreintes complètes et les e
 | A073 | [19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf](ANNEXES/A073__19789799f5f09a5c__Exhibit%2011%20-%20Claim%20Summary.pdf) | original | 22 |
 | A074 | [Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx](ANNEXES/A074__Copi%20Hadmo_3621dc63-820c-4470-95be-cdb7f345317c%20oeuf%2022%20avril%202025.xlsx) | original | 22 |
 | A075 | [DII-JANVIER-12P-ORIGINAL.pdf](ANNEXES/A075__DII-JANVIER-12P-ORIGINAL.pdf) | original | 23 |
+| A076 | [BILAN-DE-LA-RECHERCHE.md](ANNEXES/A076__BILAN-DE-LA-RECHERCHE.txt) | analyse | Contexte |
+| A077 | [PROVENANCE-OOEUF.json](ANNEXES/A077__PROVENANCE-OOEUF.json) | analyse | Contexte |
+| A078 | [ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md](ANNEXES/A078__ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.txt) | analyse | Contexte |
+| A079 | [Situation-transport-fil-Ooeuf.txt](ANNEXES/A079__Situation-transport-fil-Ooeuf.txt) | extraction | 2, 8, 25 |
+| A080 | [Scan2026-04-03_120155.pdf](ANNEXES/A080__Scan2026-04-03_120155.pdf) | original | 3, 4, 23 |
+| A081 | [Sales Quotation - 141455.pdf](ANNEXES/A081__Sales%20Quotation%20-%20141455.pdf) | original | 3, 5, 17 |
+| A082 | [etats-financiers-controle.json](ANNEXES/A082__etats-financiers-controle.json) | analyse | 4 |
+| A083 | [1000026855.jpg](ANNEXES/A083__1000026855.jpg) | original | 5, 17 |
+| A084 | [RAPPORT_F.pdf](ANNEXES/A084__RAPPORT_F.pdf) | original | 10, 16, 18 |
+| A085 | [PV_SIGNE.pdf](ANNEXES/A085__PV_SIGNE.pdf) | original | 10, 16, 18 |
+| A086 | [1994ef80e86fca11__1000041195.jpg](ANNEXES/A086__1994ef80e86fca11__1000041195.jpg) | original | 11 |
+| A087 | [1994ef80e86fca11__1000041194.jpg](ANNEXES/A087__1994ef80e86fca11__1000041194.jpg) | original | 11 |
+| A088 | [19885baf828ad815__Contrat de bail terrain revdFP July18_2025 clean-REV-22 JUIL-MD.PDF](ANNEXES/A088__19885baf828ad815__Contrat%20de%20bail%20terrain%20revdFP%20July18_2025%20clean.pdf) | original | 11 |
+| A089 | [19885baf828ad815__Résiliation de la convention de location sans bail- VER 24 juillet.pdf](ANNEXES/A089__19885baf828ad815__R%C3%A9siliation%20de%20la%20convention%20de%20location%20sans%20ba.pdf) | original | 11 |
+| A090 | [198b078c40d0aaf8__Avis de non-renouvellement et résiliation de la convention de location.pdf](ANNEXES/A090__198b078c40d0aaf8__Avis%20de%20non-renouvellement%20et%20r%C3%A9siliation%20de%20la%20.pdf) | original | 11 |
+| A091 | [199a50e2c1c3c53e.json](ANNEXES/A091__199a50e2c1c3c53e.json) | declaration | 11 |
+| A092 | [19eaf971d1774dcb__May 29, 2026.PDF](ANNEXES/A092__19eaf971d1774dcb__May%2029_%202026.pdf) | original | 12 |
+| A093 | [Etat-renseignements-Quadro-2026-04-24.pdf](ANNEXES/A093__Etat-renseignements-Quadro-2026-04-24.pdf) | original | 12 |
+| A094 | [Quadro-confirm-Jean-Talon-20260424.pdf](ANNEXES/A094__Quadro-confirm-Jean-Talon-20260424.pdf) | original | 12 |
+| A095 | [Declaration-TPS-TVQ-2024-09-30.pdf](ANNEXES/A095__Declaration-TPS-TVQ-2024-09-30.pdf) | original | 12, 14, 23 |
+| A096 | [DoorDash-Inquiry-2026-04-24.txt](ANNEXES/A096__DoorDash-Inquiry-2026-04-24.txt) | extraction | 12 |
+| A097 | [registre-doordash.csv](ANNEXES/A097__registre-doordash.csv) | analyse | 13, 23 |
+| A098 | [couverture-doordash.json](ANNEXES/A098__couverture-doordash.json) | analyse | 13 |
+| A099 | [STORE-27870472-2024-04.pdf](ANNEXES/A099__STORE-27870472-2024-04.pdf) | original | 13 |
+| A100 | [STORE-27870472-2024-05.pdf](ANNEXES/A100__STORE-27870472-2024-05.pdf) | original | 13 |
+| A101 | [STORE-27870472-2024-06.pdf](ANNEXES/A101__STORE-27870472-2024-06.pdf) | original | 13 |
+| A102 | [STORE-27870472-2024-07.pdf](ANNEXES/A102__STORE-27870472-2024-07.pdf) | original | 13 |
+| A103 | [STORE-27870472-2024-08.pdf](ANNEXES/A103__STORE-27870472-2024-08.pdf) | original | 13 |
+| A104 | [monthly-statement-generator-27870472-60211458-9-2024.pdf](ANNEXES/A104__monthly-statement-generator-27870472-60211458-9-2024.pdf) | original | 13 |
+| A105 | [monthly-statement-generator-27870472-60211458-10-2024.pdf](ANNEXES/A105__monthly-statement-generator-27870472-60211458-10-2024.pdf) | original | 13 |
+| A106 | [monthly-statement-generator-27870472-60211458-11-2024.pdf](ANNEXES/A106__monthly-statement-generator-27870472-60211458-11-2024.pdf) | original | 13 |
+| A107 | [monthly-statement-generator-27870472-60211458-12-2024.pdf](ANNEXES/A107__monthly-statement-generator-27870472-60211458-12-2024.pdf) | original | 13 |
+| A108 | [monthly-statement-generator-27870472-60211458-1-2025.pdf](ANNEXES/A108__monthly-statement-generator-27870472-60211458-1-2025.pdf) | original | 13 |
+| A109 | [monthly-statement-generator-27870472-60211458-2-2025.pdf](ANNEXES/A109__monthly-statement-generator-27870472-60211458-2-2025.pdf) | original | 13 |
+| A110 | [monthly-statement-generator-27870472-60211458-3-2025.pdf](ANNEXES/A110__monthly-statement-generator-27870472-60211458-3-2025.pdf) | original | 13 |
+| A111 | [monthly-statement-generator-27870472-60211458-5-2025.pdf](ANNEXES/A111__monthly-statement-generator-27870472-60211458-5-2025.pdf) | original | 13 |
+| A112 | [STORE-27982486-2024-04.pdf](ANNEXES/A112__STORE-27982486-2024-04.pdf) | original | 13 |
+| A113 | [STORE-27982486-2024-05.pdf](ANNEXES/A113__STORE-27982486-2024-05.pdf) | original | 13 |
+| A114 | [STORE-27982486-2024-06.pdf](ANNEXES/A114__STORE-27982486-2024-06.pdf) | original | 13 |
+| A115 | [STORE-27982486-2024-07.pdf](ANNEXES/A115__STORE-27982486-2024-07.pdf) | original | 13 |
+| A116 | [STORE-27982486-2024-08.pdf](ANNEXES/A116__STORE-27982486-2024-08.pdf) | original | 13 |
+| A117 | [STORE-27986352-2024-03.pdf](ANNEXES/A117__STORE-27986352-2024-03.pdf) | original | 13 |
+| A118 | [STORE-27986352-2024-04.pdf](ANNEXES/A118__STORE-27986352-2024-04.pdf) | original | 13 |
+| A119 | [STORE-27986352-2024-05.pdf](ANNEXES/A119__STORE-27986352-2024-05.pdf) | original | 13 |
+| A120 | [STORE-27986352-2024-06.pdf](ANNEXES/A120__STORE-27986352-2024-06.pdf) | original | 13 |
+| A121 | [STORE-27986352-2024-07.pdf](ANNEXES/A121__STORE-27986352-2024-07.pdf) | original | 13 |
+| A122 | [STORE-27986352-2024-08.pdf](ANNEXES/A122__STORE-27986352-2024-08.pdf) | original | 13 |
+| A123 | [monthly-statement-generator-27986352-60570112-9-2024.pdf](ANNEXES/A123__monthly-statement-generator-27986352-60570112-9-2024.pdf) | original | 13 |
+| A124 | [monthly-statement-generator-27986352-60570112-10-2024.pdf](ANNEXES/A124__monthly-statement-generator-27986352-60570112-10-2024.pdf) | original | 13 |
+| A125 | [monthly-statement-generator-27986352-60570112-11-2024.pdf](ANNEXES/A125__monthly-statement-generator-27986352-60570112-11-2024.pdf) | original | 13 |
+| A126 | [monthly-statement-generator-27986352-60570112-12-2024.pdf](ANNEXES/A126__monthly-statement-generator-27986352-60570112-12-2024.pdf) | original | 13 |
+| A127 | [monthly-statement-generator-27986352-60570112-1-2025.pdf](ANNEXES/A127__monthly-statement-generator-27986352-60570112-1-2025.pdf) | original | 13 |
+| A128 | [monthly-statement-generator-27986352-60570112-2-2025.pdf](ANNEXES/A128__monthly-statement-generator-27986352-60570112-2-2025.pdf) | original | 13 |
+| A129 | [monthly-statement-generator-27986352-60570112-3-2025.pdf](ANNEXES/A129__monthly-statement-generator-27986352-60570112-3-2025.pdf) | original | 13 |
+| A130 | [monthly-statement-generator-27986352-60570112-4-2025.pdf](ANNEXES/A130__monthly-statement-generator-27986352-60570112-4-2025.pdf) | original | 13 |
+| A131 | [monthly-statement-generator-27986352-60570112-5-2025.pdf](ANNEXES/A131__monthly-statement-generator-27986352-60570112-5-2025.pdf) | original | 13 |
+| A132 | [monthly-statement-generator-27986352-60570112-6-2025.pdf](ANNEXES/A132__monthly-statement-generator-27986352-60570112-6-2025.pdf) | original | 13 |
+| A133 | [monthly-statement-generator-27986352-60570112-7-2025.pdf](ANNEXES/A133__monthly-statement-generator-27986352-60570112-7-2025.pdf) | original | 13 |
+| A134 | [STORE-27986646-2024-04.pdf](ANNEXES/A134__STORE-27986646-2024-04.pdf) | original | 13 |
+| A135 | [STORE-27986646-2024-05.pdf](ANNEXES/A135__STORE-27986646-2024-05.pdf) | original | 13 |
+| A136 | [STORE-27986646-2024-06.pdf](ANNEXES/A136__STORE-27986646-2024-06.pdf) | original | 13 |
+| A137 | [STORE-27986646-2024-07.pdf](ANNEXES/A137__STORE-27986646-2024-07.pdf) | original | 13 |
+| A138 | [monthly-statement-generator-27986646-60570908-8-2024.pdf](ANNEXES/A138__monthly-statement-generator-27986646-60570908-8-2024.pdf) | original | 13 |
+| A139 | [monthly-statement-generator-27986646-60570908-9-2024.pdf](ANNEXES/A139__monthly-statement-generator-27986646-60570908-9-2024.pdf) | original | 13 |
+| A140 | [monthly-statement-generator-27986646-60570908-10-2024.pdf](ANNEXES/A140__monthly-statement-generator-27986646-60570908-10-2024.pdf) | original | 13 |
+| A141 | [monthly-statement-generator-27986646-60570908-11-2024.pdf](ANNEXES/A141__monthly-statement-generator-27986646-60570908-11-2024.pdf) | original | 13 |
+| A142 | [monthly-statement-generator-27986646-60570908-12-2024.pdf](ANNEXES/A142__monthly-statement-generator-27986646-60570908-12-2024.pdf) | original | 13 |
+| A143 | [monthly-statement-generator-27986646-60570908-1-2025.pdf](ANNEXES/A143__monthly-statement-generator-27986646-60570908-1-2025.pdf) | original | 13 |
+| A144 | [monthly-statement-generator-27986646-60570908-2-2025.pdf](ANNEXES/A144__monthly-statement-generator-27986646-60570908-2-2025.pdf) | original | 13 |
+| A145 | [monthly-statement-generator-27986646-60570908-3-2025.pdf](ANNEXES/A145__monthly-statement-generator-27986646-60570908-3-2025.pdf) | original | 13 |
+| A146 | [monthly-statement-generator-27986646-60570908-4-2025.pdf](ANNEXES/A146__monthly-statement-generator-27986646-60570908-4-2025.pdf) | original | 13 |
+| A147 | [monthly-statement-generator-27986646-60570908-5-2025.pdf](ANNEXES/A147__monthly-statement-generator-27986646-60570908-5-2025.pdf) | original | 13 |
+| A148 | [monthly-statement-generator-27986646-60570908-6-2025.pdf](ANNEXES/A148__monthly-statement-generator-27986646-60570908-6-2025.pdf) | original | 13 |
+| A149 | [monthly-statement-generator-27986646-60570908-7-2025.pdf](ANNEXES/A149__monthly-statement-generator-27986646-60570908-7-2025.pdf) | original | 13 |
+| A150 | [STORE-28040070-2024-04.pdf](ANNEXES/A150__STORE-28040070-2024-04.pdf) | original | 13 |
+| A151 | [STORE-28040070-2024-05.pdf](ANNEXES/A151__STORE-28040070-2024-05.pdf) | original | 13 |
+| A152 | [STORE-28040070-2024-06.pdf](ANNEXES/A152__STORE-28040070-2024-06.pdf) | original | 13 |
+| A153 | [STORE-28040070-2024-07.pdf](ANNEXES/A153__STORE-28040070-2024-07.pdf) | original | 13 |
+| A154 | [STORE-28040070-2024-08.pdf](ANNEXES/A154__STORE-28040070-2024-08.pdf) | original | 13 |
+| A155 | [monthly-statement-generator-28040070-60733148-9-2024.pdf](ANNEXES/A155__monthly-statement-generator-28040070-60733148-9-2024.pdf) | original | 13 |
+| A156 | [monthly-statement-generator-28040070-60733148-10-2024.pdf](ANNEXES/A156__monthly-statement-generator-28040070-60733148-10-2024.pdf) | original | 13 |
+| A157 | [monthly-statement-generator-28040070-60733148-11-2024.pdf](ANNEXES/A157__monthly-statement-generator-28040070-60733148-11-2024.pdf) | original | 13 |
+| A158 | [monthly-statement-generator-28040070-60733148-12-2024.pdf](ANNEXES/A158__monthly-statement-generator-28040070-60733148-12-2024.pdf) | original | 13 |
+| A159 | [monthly-statement-generator-28040070-60733148-1-2025.pdf](ANNEXES/A159__monthly-statement-generator-28040070-60733148-1-2025.pdf) | original | 13 |
+| A160 | [monthly-statement-generator-28040070-60733148-2-2025.pdf](ANNEXES/A160__monthly-statement-generator-28040070-60733148-2-2025.pdf) | original | 13 |
+| A161 | [monthly-statement-generator-28040070-60733148-6-2025.pdf](ANNEXES/A161__monthly-statement-generator-28040070-60733148-6-2025.pdf) | original | 13 |
+| A162 | [STORE-28108457-2024-04.pdf](ANNEXES/A162__STORE-28108457-2024-04.pdf) | original | 13 |
+| A163 | [STORE-28108457-2024-05.pdf](ANNEXES/A163__STORE-28108457-2024-05.pdf) | original | 13 |
+| A164 | [STORE-28108457-2024-06.pdf](ANNEXES/A164__STORE-28108457-2024-06.pdf) | original | 13 |
+| A165 | [STORE-28108457-2024-07.pdf](ANNEXES/A165__STORE-28108457-2024-07.pdf) | original | 13 |
+| A166 | [STORE-28108457-2024-08.pdf](ANNEXES/A166__STORE-28108457-2024-08.pdf) | original | 13 |
+| A167 | [monthly-statement-generator-28108457-60938528-9-2024.pdf](ANNEXES/A167__monthly-statement-generator-28108457-60938528-9-2024.pdf) | original | 13 |
+| A168 | [monthly-statement-generator-28108457-60938528-10-2024.pdf](ANNEXES/A168__monthly-statement-generator-28108457-60938528-10-2024.pdf) | original | 13 |
+| A169 | [monthly-statement-generator-28108457-60938528-11-2024.pdf](ANNEXES/A169__monthly-statement-generator-28108457-60938528-11-2024.pdf) | original | 13 |
+| A170 | [monthly-statement-generator-28108457-60938528-12-2024.pdf](ANNEXES/A170__monthly-statement-generator-28108457-60938528-12-2024.pdf) | original | 13 |
+| A171 | [monthly-statement-generator-28108457-60938528-1-2025.pdf](ANNEXES/A171__monthly-statement-generator-28108457-60938528-1-2025.pdf) | original | 13 |
+| A172 | [monthly-statement-generator-28108457-60938528-2-2025.pdf](ANNEXES/A172__monthly-statement-generator-28108457-60938528-2-2025.pdf) | original | 13 |
+| A173 | [monthly-statement-generator-28108457-60938528-3-2025.pdf](ANNEXES/A173__monthly-statement-generator-28108457-60938528-3-2025.pdf) | original | 13 |
+| A174 | [monthly-statement-generator-28108457-60938528-4-2025.pdf](ANNEXES/A174__monthly-statement-generator-28108457-60938528-4-2025.pdf) | original | 13 |
+| A175 | [monthly-statement-generator-28108457-60938528-5-2025.pdf](ANNEXES/A175__monthly-statement-generator-28108457-60938528-5-2025.pdf) | original | 13 |
+| A176 | [monthly-statement-generator-28108457-60938528-6-2025.pdf](ANNEXES/A176__monthly-statement-generator-28108457-60938528-6-2025.pdf) | original | 13 |
+| A177 | [monthly-statement-generator-28108457-60938528-7-2025.pdf](ANNEXES/A177__monthly-statement-generator-28108457-60938528-7-2025.pdf) | original | 13 |
+| A178 | [monthly-statement-generator-30831008-62668460-9-2024.pdf](ANNEXES/A178__monthly-statement-generator-30831008-62668460-9-2024.pdf) | original | 13 |
+| A179 | [monthly-statement-generator-30831008-62668460-10-2024.pdf](ANNEXES/A179__monthly-statement-generator-30831008-62668460-10-2024.pdf) | original | 13 |
+| A180 | [monthly-statement-generator-30831008-62668460-11-2024.pdf](ANNEXES/A180__monthly-statement-generator-30831008-62668460-11-2024.pdf) | original | 13 |
+| A181 | [monthly-statement-generator-30831008-62668460-12-2024.pdf](ANNEXES/A181__monthly-statement-generator-30831008-62668460-12-2024.pdf) | original | 13 |
+| A182 | [monthly-statement-generator-30831008-62668460-1-2025.pdf](ANNEXES/A182__monthly-statement-generator-30831008-62668460-1-2025.pdf) | original | 13 |
+| A183 | [monthly-statement-generator-30831008-62668460-2-2025.pdf](ANNEXES/A183__monthly-statement-generator-30831008-62668460-2-2025.pdf) | original | 13 |
+| A184 | [monthly-statement-generator-30831008-62668460-3-2025.pdf](ANNEXES/A184__monthly-statement-generator-30831008-62668460-3-2025.pdf) | original | 13 |
+| A185 | [monthly-statement-generator-30831008-62668460-4-2025.pdf](ANNEXES/A185__monthly-statement-generator-30831008-62668460-4-2025.pdf) | original | 13 |
+| A186 | [monthly-statement-generator-30831008-62668460-5-2025.pdf](ANNEXES/A186__monthly-statement-generator-30831008-62668460-5-2025.pdf) | original | 13 |
+| A187 | [monthly-statement-generator-30831008-62668460-6-2025.pdf](ANNEXES/A187__monthly-statement-generator-30831008-62668460-6-2025.pdf) | original | 13 |
+| A188 | [monthly-statement-generator-30831008-62668460-7-2025.pdf](ANNEXES/A188__monthly-statement-generator-30831008-62668460-7-2025.pdf) | original | 13 |
+| A189 | [monthly-statement-generator-30831269-62668701-9-2024.pdf](ANNEXES/A189__monthly-statement-generator-30831269-62668701-9-2024.pdf) | original | 13 |
+| A190 | [monthly-statement-generator-30831269-62668701-10-2024.pdf](ANNEXES/A190__monthly-statement-generator-30831269-62668701-10-2024.pdf) | original | 13 |
+| A191 | [monthly-statement-generator-30831269-62668701-11-2024.pdf](ANNEXES/A191__monthly-statement-generator-30831269-62668701-11-2024.pdf) | original | 13 |
+| A192 | [monthly-statement-generator-30831269-62668701-12-2024.pdf](ANNEXES/A192__monthly-statement-generator-30831269-62668701-12-2024.pdf) | original | 13 |
+| A193 | [monthly-statement-generator-30831269-62668701-1-2025.pdf](ANNEXES/A193__monthly-statement-generator-30831269-62668701-1-2025.pdf) | original | 13 |
+| A194 | [monthly-statement-generator-30831269-62668701-2-2025.pdf](ANNEXES/A194__monthly-statement-generator-30831269-62668701-2-2025.pdf) | original | 13 |
+| A195 | [monthly-statement-generator-30831269-62668701-3-2025.pdf](ANNEXES/A195__monthly-statement-generator-30831269-62668701-3-2025.pdf) | original | 13 |
+| A196 | [monthly-statement-generator-30831269-62668701-4-2025.pdf](ANNEXES/A196__monthly-statement-generator-30831269-62668701-4-2025.pdf) | original | 13 |
+| A197 | [monthly-statement-generator-30831269-62668701-5-2025.pdf](ANNEXES/A197__monthly-statement-generator-30831269-62668701-5-2025.pdf) | original | 13 |
+| A198 | [monthly-statement-generator-30831269-62668701-6-2025.pdf](ANNEXES/A198__monthly-statement-generator-30831269-62668701-6-2025.pdf) | original | 13 |
+| A199 | [monthly-statement-generator-30831269-62668701-7-2025.pdf](ANNEXES/A199__monthly-statement-generator-30831269-62668701-7-2025.pdf) | original | 13 |
+| A200 | [monthly-statement-generator-32501513-65001347-2-2025.pdf](ANNEXES/A200__monthly-statement-generator-32501513-65001347-2-2025.pdf) | original | 13 |
+| A201 | [monthly-statement-generator-32501513-65001347-3-2025.pdf](ANNEXES/A201__monthly-statement-generator-32501513-65001347-3-2025.pdf) | original | 13 |
+| A202 | [monthly-statement-generator-32501513-65001347-4-2025.pdf](ANNEXES/A202__monthly-statement-generator-32501513-65001347-4-2025.pdf) | original | 13 |
+| A203 | [monthly-statement-generator-32501513-65001347-5-2025.pdf](ANNEXES/A203__monthly-statement-generator-32501513-65001347-5-2025.pdf) | original | 13 |
+| A204 | [monthly-statement-generator-32501513-65001347-6-2025.pdf](ANNEXES/A204__monthly-statement-generator-32501513-65001347-6-2025.pdf) | original | 13 |
+| A205 | [monthly-statement-generator-32501513-65001347-7-2025.pdf](ANNEXES/A205__monthly-statement-generator-32501513-65001347-7-2025.pdf) | original | 13 |
+| A206 | [1969182c9e125cfe__report_2024-11-01_2025-04-27.xlsx](ANNEXES/A206__1969182c9e125cfe__report_2024-11-01_2025-04-27.xlsx) | original | 13 |
+| A207 | [198e84be7b461d4b__report_2024-03-01_2024-12-31 - report_2024-03-01_2024-12-31.csv](ANNEXES/A207__198e84be7b461d4b__report_2024-03-01_2024-12-31%20-%20report_2024-03-01.csv) | original | 13 |
+| A208 | [1969182c9e125cfe.eml](ANNEXES/A208__1969182c9e125cfe.eml) | original | 13 |
+| A209 | [198e84be7b461d4b.eml](ANNEXES/A209__198e84be7b461d4b.eml) | original | 13 |
+| A210 | [declaration-taxes-controle.json](ANNEXES/A210__declaration-taxes-controle.json) | analyse | 14 |
+| A211 | [Sales Quotation - 141490.pdf](ANNEXES/A211__Sales%20Quotation%20-%20141490.pdf) | original | 17 |
+| A212 | [Quotation-fil-visible.txt](ANNEXES/A212__Quotation-fil-visible.txt) | extraction | 17 |
+| A213 | [tzanet-controle.json](ANNEXES/A213__tzanet-controle.json) | analyse | 17 |
+| A214 | [1000026854.jpg](ANNEXES/A214__1000026854.jpg) | original | 17 |
+| A215 | [2025-07-30-1831-Tzanet-courriel-dom.txt](ANNEXES/A215__2025-07-30-1831-Tzanet-courriel-dom.txt) | extraction | 17 |
+| A216 | [1a0b7cf80510d416__Facture_8695_QUADRO HOLDINGS LTÉE.pdf](ANNEXES/A216__1a0b7cf80510d416__Facture_8695_QUADRO%20HOLDINGS%20LT%C3%89E.pdf) | original | 20 |

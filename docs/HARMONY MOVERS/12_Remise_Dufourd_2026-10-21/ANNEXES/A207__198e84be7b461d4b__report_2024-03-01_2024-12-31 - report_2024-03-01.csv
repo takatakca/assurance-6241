@@ -1,0 +1,71 @@
+Order Number,Status,Type,Order Placement Time,Order Collection Time,Payment Method,Food & Beverage Subtotal,Food & Beverage QST,Food & Beverage GST,Gross Earnings From Skip,Free delivery subsidy,Adjustment Details,Adjustments,Courier Delay Time,Courier Delay Time Contribution,Network Access Contribution
+630806970,Cancelled,Delivery,2024-07-01 16:25:01,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,1) Restaurant will be reimbursed half item retail cost of prepped food $12.42,$12.42,,$0.00,$0.00
+620747785,Rejected,Delivery,2024-05-15 19:20:53,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,,$0.00,,$0.00,$0.00
+666427631,Cancelled,Delivery,2024-12-26 14:58:28,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,1) Refunding order item costs: Order #666427631,$12.23,,$0.00,$0.00
+641569771,Rejected,Delivery,2024-08-24 09:23:22,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,"1) Restaurant will be charged discretionary credits paid to the customer $5.00
+2) Restaurant Refund
+Refund restaurant for discretionary credit charge $5.00",$0.00,,$0.00,$0.00
+643159514,Rejected,Delivery,2024-09-01 07:40:31,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,1) Restaurant will be charged discretionary credits paid to the customer $5.00,-$5.00,,$0.00,$0.00
+618027057,Rejected,Delivery,2024-05-02 21:48:49,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,,$0.00,,$0.00,$0.00
+630070687,Completed,Delivery,2024-06-28 09:15:48,2024-06-28 09:46:54,Online (Credit Card),$21.49,$2.14,$1.07,$24.70,$0.00,,$0.00,06:43,$0.00,$5.37
+654321837,Rejected,Delivery,2024-10-28 02:40:54,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,1) Restaurant will be charged discretionary credits paid to the customer $5.00,-$5.00,,$0.00,$0.00
+618938613,Rejected,Delivery,2024-05-06 21:20:42,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,,$0.00,,$0.00,$0.00
+622583470,Completed,Delivery,2024-05-24 08:23:13,2024-05-24 08:37:45,Online (Credit Card),$12.68,$1.26,$0.63,$14.57,$0.00,,$0.00,00:00,$0.00,$3.17
+623095802,Completed,Delivery,2024-05-26 10:35:55,2024-05-26 11:01:40,Online (Credit Card),$55.79,$5.57,$2.79,$64.15,$0.00,,$0.00,10:03,$0.00,$13.95
+662160705,Completed,Delivery,2024-12-06 00:09:56,2024-12-06 00:35:37,Online (Credit Card),$24.27,$2.42,$1.21,$27.90,$0.00,"1) Missing order item reported by customer on Combo Wrap Matin
+Restaurant covered customer handling contribution: $15.87
+2) Incorrect order item reported by customer on Lait Frappe
+Restaurant covered customer handling contribution: $12.03",-$27.90,02:03,$0.00,$6.07
+625024194,Completed,Delivery,2024-06-04 07:59:37,2024-06-04 08:20:43,Online (Credit Card),$33.29,$3.32,$1.66,$38.27,$0.00,,$0.00,01:28,$0.00,$8.32
+632150230,Completed,Delivery,2024-07-07 23:23:53,2024-07-08 00:09:02,Online (Credit Card),$21.05,$2.10,$1.05,$24.20,$0.00,,$0.00,19:36,$0.00,$5.26
+619036969,Rejected,Delivery,2024-05-07 15:55:29,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,,$0.00,,$0.00,$0.00
+637040779,Completed,Delivery,2024-08-01 08:46:48,2024-08-01 09:07:05,Online (Credit Card),$16.04,$1.60,$0.80,$18.44,$0.00,"1) Incorrect order item reported by customer on Croissant Oeuf
+Restaurant covered customer handling contribution: $10.98",-$10.98,00:15,$0.00,$4.01
+639584244,Rejected,Delivery,2024-08-14 13:09:07,,Online (Credit Card),$0.00,$0.00,$0.00,$0.00,$0.00,1) Restaurant will be charged discretionary credits paid to the customer $5.00,-$5.00,,$0.00,$0.00
+620611871,Completed,Delivery,2024-05-14 23:07:24,2024-05-14 23:41:48,Online (Credit Card),$39.43,$3.93,$1.97,$45.33,$0.00,,$0.00,17:27,$0.00,$9.86
+629474492,Completed,Delivery,2024-06-25 11:51:20,2024-06-25 12:41:22,Online (Credit Card),$47.20,$4.71,$2.36,$54.27,$0.00,"1) Incorrect order item reported by customer on Combo déjeuner classique pour 2 personnes
+Restaurant covered customer handling contribution: $26.77",-$26.77,17:53,$0.00,$11.80
+-,-,-,2024-03-04 06:00:00,2024-03-04 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-03-11 07:00:00,2024-03-11 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-03-18 07:00:00,2024-03-18 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-03-25 07:00:00,2024-03-25 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-04-01 07:00:00,2024-04-01 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-04-08 07:00:00,2024-04-08 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-04-15 07:00:00,2024-04-15 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-04-22 07:00:00,2024-04-22 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-04-29 07:00:00,2024-04-29 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-05-06 07:00:00,2024-05-06 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-05-13 07:00:00,2024-05-13 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-05-20 07:00:00,2024-05-20 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-05-27 07:00:00,2024-05-27 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-06-03 07:00:00,2024-06-03 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-06-10 07:00:00,2024-06-10 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-06-17 07:00:00,2024-06-17 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-06-24 07:00:00,2024-06-24 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-07-01 07:00:00,2024-07-01 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-07-08 07:00:00,2024-07-08 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-07-15 07:00:00,2024-07-15 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-07-22 07:00:00,2024-07-22 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-07-29 07:00:00,2024-07-29 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-08-05 07:00:00,2024-08-05 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-08-12 07:00:00,2024-08-12 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-08-19 07:00:00,2024-08-19 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-08-26 07:00:00,2024-08-26 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-09-02 07:00:00,2024-09-02 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-09-09 07:00:00,2024-09-09 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-09-16 07:00:00,2024-09-16 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-09-23 07:00:00,2024-09-23 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-09-30 07:00:00,2024-09-30 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-10-07 07:00:00,2024-10-07 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-10-14 07:00:00,2024-10-14 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-10-21 07:00:00,2024-10-21 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-10-28 07:00:00,2024-10-28 07:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-11-04 06:00:00,2024-11-04 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-11-11 06:00:00,2024-11-11 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-11-18 06:00:00,2024-11-18 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-11-25 06:00:00,2024-11-25 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-12-02 06:00:00,2024-12-02 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-12-09 06:00:00,2024-12-09 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-12-16 06:00:00,2024-12-16 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-12-23 06:00:00,2024-12-23 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-
+-,-,-,2024-12-30 06:00:00,2024-12-30 06:00:00,-,-,-,-,-,-,Courier Retention Fee,-,-,$0.00,-

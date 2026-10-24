@@ -1,0 +1,285 @@
+{
+  "id": "19885baf828ad815",
+  "thread_id": "19885baf828ad815",
+  "label_ids": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Salut Mathieu, Voici les documents demandés. En espérant que la convention te conviendra et que tu puisses rester comme locataire. Salutations, Marc Desroches",
+  "history_id": "3418246",
+  "internal_date": "1754590276000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "takatak.ca@gmail.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a05:6638:c2e1:b0:50a:5f2c:e146 with SMTP id 1csp1051174jan;        Thu, 7 Aug 2025 11:11:21 -0700 (PDT)"
+      },
+      {
+        "name": "X-Google-Smtp-Source",
+        "value": "AGHT+IE40N2JlsDutoUoVxI0T2/HC5vNVlu+gRl4B6Bhq9KbfyhsoD4LpyNGpVrb0pRqe57RFhfh"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a05:620a:a35a:b0:7e8:74d:fdf0 with SMTP id af79cd13be357-7e82c731cc3mr10470885a.41.1754590280128;        Thu, 07 Aug 2025 11:11:20 -0700 (PDT)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1754590280; cv=none;        d=google.com; s=arc-20240605;        b=iJp3pHNg5Q+EjjdkDXQIpe97z8AJDb7XjVBM+xRVOkUmWwrTU0QeHhHKNMMvFQZtNi         oNcdkkluBneTZt+y3SYKNwVTDQc3i9IVk0a3FGKdaneVoTbiZjWqVV6yfAH8cbp1o54A         NSC8QASGWkx1q/Llb1iGB6d0J7ablG0HhbGSp4Tt0BDavxYS+rqVaV7a+uBRCf1WBfD0         91IIKstql0L0ailV7U5ocQDTd2deuuaPl9mYpOduo2iaKzDgKa77wqt+iqMm5ZAqfKha         0usnmSp40jaxt3MSZPGIPedZsJicKVC/CG7wHAoCxjKco0xDVAScXgls9WvtAVFuEdt3         Jrng=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=content-language:thread-index:mime-version:message-id:date:subject         :cc:to:from:dkim-signature;        bh=dGHYCji5BV/amil1ZwlRAZ1DEiFWWJIKIxE8piSP7EY=;        fh=slz1LmJLHZKbdrMY6+1XV9j1LDMUHOOCOQ5uRxCVdzM=;        b=ZQjBgLIK9ZQytZPl1fqxCAKA4kvFTe1PogUSlD1rWC8stpFS2wH5kjTca9ivsEYEPa         nDHy3CYCpbyECA4R/Ph6pHk7QY9iADmdprrNvnZjzfdYI64XAXHCPIZCd6uVCbvnQ2mC         KRPuAQEl57gjQHtpxx2m+SJDOZvXenRJSrtdIg3W6VZvh8UApbJnzKw+SPs7AbpnpAXD         yl7CxZwG2nTncLJRWC4a4+2hUcmmJ1fV/xSu9o4gYKCfh7jscULiC7LbqnT+/ZKPNl07         lsvxhB14ECNE5K6Di3q/YhMK5onNR9Kevqjjlg0fZCfcoyCoqNU4+wiScWnF2fZdjhye         yvsw==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com;       dkim=pass header.i=@cintec.ca header.s=default header.b=gu9Z2Yaw;       spf=pass (google.com: domain of mdesroches@cintec.ca designates 192.99.63.193 as permitted sender) smtp.mailfrom=mdesroches@cintec.ca;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cintec.ca"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<mdesroches@cintec.ca>"
+      },
+      {
+        "name": "Received",
+        "value": "from cpanel1.msz.ca (cpanel1.msz.ca. [192.99.63.193])        by mx.google.com with ESMTPS id af79cd13be357-7e696776380si647868485a.403.2025.08.07.11.11.19        for <takatak.ca@gmail.com>        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);        Thu, 07 Aug 2025 11:11:19 -0700 (PDT)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of mdesroches@cintec.ca designates 192.99.63.193 as permitted sender) client-ip=192.99.63.193;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@cintec.ca header.s=default header.b=gu9Z2Yaw;       spf=pass (google.com: domain of mdesroches@cintec.ca designates 192.99.63.193 as permitted sender) smtp.mailfrom=mdesroches@cintec.ca;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cintec.ca"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=cintec.ca; s=default; h=Content-Type:MIME-Version:Message-ID:Date:Subject:Cc:To:From: Sender:Reply-To:Content-Transfer-Encoding:Content-ID:Content-Description: Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID: In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe: List-Post:List-Owner:List-Archive; bh=dGHYCji5BV/amil1ZwlRAZ1DEiFWWJIKIxE8piSP7EY=; b=gu9Z2YawfsQBg+C+1GIFLBoc8T w8WBu4FdJeI880ph/WisJlRGyD4MHjZOv3p5EceHlCcUMeVeISlSvehEt0nrI8JX25plA5XGt1rVq xtEvk+8k4HgzFFs57Ev2WT+LWcCsqLoEVUtpwLVz5RDjDBYIRJUXioekTFIkZkx8dsFResbr96X8W cTHwbA2Q0Q5Hznuc5q7lxcu9OqIuU2xXGrH/tmtbOi05IiLT4ae2w3+CYi4YJ14czqhqlFUAdE2Bw /6+GnoT9NfEh/itNY9wJN1KUwyl8M8aQUanPfl/lSEGSBdxBNxLYnnvS6C9gl+t1aEhGSbMSLlW7J zoHHgszw==;"
+      },
+      {
+        "name": "Received",
+        "value": "from [144.172.131.55] (port=51970 helo=Marc) by cpanel1.msz.ca with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (Exim 4.98.2) (envelope-from <mdesroches@cintec.ca>) id 1uk55D-00000007lxr-40sj; Thu, 07 Aug 2025 14:11:18 -0400"
+      },
+      {
+        "name": "From",
+        "value": "Marc Desroches <mdesroches@cintec.ca>"
+      },
+      {
+        "name": "To",
+        "value": "<takatak.ca@gmail.com>"
+      },
+      {
+        "name": "Cc",
+        "value": "<fpasquale@cintec.ca>"
+      },
+      {
+        "name": "Subject",
+        "value": "nouvelle convention  et résiliation de la convention 2023"
+      },
+      {
+        "name": "Date",
+        "value": "Thu, 7 Aug 2025 14:11:16 -0400"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<000d01dc07c6$ab42c0f0$01c842d0$@ca>"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary=\"----=_NextPart_000_000E_01DC07A5.243120F0\""
+      },
+      {
+        "name": "X-Mailer",
+        "value": "Microsoft Office Outlook 12.0"
+      },
+      {
+        "name": "Thread-Index",
+        "value": "AdwHxqcU3u+JfG16RMeK4VkOrymLHQ=="
+      },
+      {
+        "name": "Content-Language",
+        "value": "fr-ca"
+      },
+      {
+        "name": "X-AntiAbuse",
+        "value": "This header was added to track abuse, please include it with any abuse report"
+      },
+      {
+        "name": "X-AntiAbuse",
+        "value": "Primary Hostname - cpanel1.msz.ca"
+      },
+      {
+        "name": "X-AntiAbuse",
+        "value": "Original Domain - gmail.com"
+      },
+      {
+        "name": "X-AntiAbuse",
+        "value": "Originator/Caller UID/GID - [47 12] / [47 12]"
+      },
+      {
+        "name": "X-AntiAbuse",
+        "value": "Sender Address Domain - cintec.ca"
+      },
+      {
+        "name": "X-Get-Message-Sender-Via",
+        "value": "cpanel1.msz.ca: authenticated_id: mdesroches@cintec.ca"
+      },
+      {
+        "name": "X-Authenticated-Sender",
+        "value": "cpanel1.msz.ca: mdesroches@cintec.ca"
+      },
+      {
+        "name": "X-Source",
+        "value": ""
+      },
+      {
+        "name": "X-Source-Args",
+        "value": ""
+      },
+      {
+        "name": "X-Source-Dir",
+        "value": ""
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "multipart/alternative",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/alternative; boundary=\"----=_NextPart_001_000F_01DC07A5.243120F0\""
+          }
+        ],
+        "body": {
+          "size": 0,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": [
+          {
+            "part_id": "0.0",
+            "mime_type": "text/plain",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/plain; charset=\"iso-8859-1\""
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "quoted-printable"
+              }
+            ],
+            "body": {
+              "size": 205,
+              "base64_url_content": null,
+              "content": "Salut Mathieu,\r\n\r\n \r\n\r\n \r\n\r\nVoici les documents demandÃ©s.\r\n\r\nEn espÃ©rant que la convention te conviendra et que tu puisses rester comme\r\nlocataire.\r\n\r\n \r\n\r\n \r\n\r\nSalutations,\r\n\r\n \r\n\r\n \r\n\r\nMarc Desroches\r\n\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          },
+          {
+            "part_id": "0.1",
+            "mime_type": "text/html",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=\"iso-8859-1\""
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "quoted-printable"
+              }
+            ],
+            "body": {
+              "size": 2303,
+              "base64_url_content": null,
+              "content": "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">\r\n\r\n<head>\r\n<meta http-equiv=Content-Type content=\"text/html; charset=iso-8859-1\">\r\n<meta name=Generator content=\"Microsoft Word 12 (filtered medium)\">\r\n<style>\r\n<!--\r\n /* Font Definitions */\r\n @font-face\r\n\t{font-family:PMingLiU;\r\n\tpanose-1:2 1 6 1 0 1 1 1 1 1;}\r\n@font-face\r\n\t{font-family:\"Cambria Math\";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\r\n@font-face\r\n\t{font-family:\"\\@PMingLiU\";}\r\n /* Style Definitions */\r\n p.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";}\r\na:link, span.MsoHyperlink\r\n\t{mso-style-priority:99;\r\n\tcolor:blue;\r\n\ttext-decoration:underline;}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{mso-style-priority:99;\r\n\tcolor:purple;\r\n\ttext-decoration:underline;}\r\nspan.EmailStyle17\r\n\t{mso-style-type:personal-compose;\r\n\tfont-family:\"Calibri\",\"sans-serif\";\r\n\tcolor:windowtext;}\r\n.MsoChpDefault\r\n\t{mso-style-type:export-only;}\r\n@page Section1\r\n\t{size:612.0pt 792.0pt;\r\n\tmargin:72.0pt 90.0pt 72.0pt 90.0pt;}\r\ndiv.Section1\r\n\t{page:Section1;}\r\n-->\r\n</style>\r\n<!--[if gte mso 9]><xml>\r\n <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" />\r\n</xml><![endif]--><!--[if gte mso 9]><xml>\r\n <o:shapelayout v:ext=\"edit\">\r\n  <o:idmap v:ext=\"edit\" data=\"1\" />\r\n </o:shapelayout></xml><![endif]-->\r\n</head>\r\n\r\n<body lang=FR-CA link=blue vlink=purple>\r\n\r\n<div class=Section1>\r\n\r\n<p class=MsoNormal>Salut Mathieu,<o:p></o:p></p>\r\n\r\n<p class=MsoNormal><o:p>&nbsp;</o:p></p>\r\n\r\n<p class=MsoNormal><o:p>&nbsp;</o:p></p>\r\n\r\n<p class=MsoNormal>Voici les documents demandÃ©s.<o:p></o:p></p>\r\n\r\n<p class=MsoNormal>En espÃ©rant que la convention te conviendra et que tu puisses\r\nrester comme locataire.<o:p></o:p></p>\r\n\r\n<p class=MsoNormal><o:p>&nbsp;</o:p></p>\r\n\r\n<p class=MsoNormal><o:p>&nbsp;</o:p></p>\r\n\r\n<p class=MsoNormal>Salutations,<o:p></o:p></p>\r\n\r\n<p class=MsoNormal><o:p>&nbsp;</o:p></p>\r\n\r\n<p class=MsoNormal><o:p>&nbsp;</o:p></p>\r\n\r\n<p class=MsoNormal>Marc Desroches<o:p></o:p></p>\r\n\r\n</div>\r\n\r\n</body>\r\n\r\n</html>\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          }
+        ]
+      },
+      {
+        "part_id": "1",
+        "mime_type": "application/pdf",
+        "filename": "Contrat de bail terrain revdFP July18_2025 clean-REV-22 JUIL-MD.PDF",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/pdf; name=\"Contrat de bail terrain revdFP July18_2025 clean-REV-22 JUIL-MD.PDF\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"Contrat de bail terrain revdFP July18_2025 clean-REV-22 JUIL-MD.PDF\""
+          }
+        ],
+        "body": {
+          "size": 622308,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ_5z2Ai-0gHcgotLaUw3b3dw4Y9SfxaOOapS2vjKMEcGkND-FdwT3KxOPHqskh9XzJVm1HRT3o4Y43xLy10I-Y3lBqNmsQvRDyoFth6IEwjLd2Vpo5u5BeIqyRQhPNKPtO_bJfGSUJA2EyM5CJvs1DkvMknZNsA_0HNVlK9__Qa-7j-aoZ-7X2Kz3KuRA_LRvF4ILv_-ukna8GrRVrzx5hgCvrn2bJMGRCdOLfHONnaSr5KcC8lVa_hnFsGkcct4vGRV97-0v_mQoWtyN6VphYclYDc3YSzfWUFtl4TtNDZ1-POWiGQNsMNs5H_TC0uwuOF0PzjF24PA5E5DHg97QZFSnM89O8Kz63IMmt7RngA5ORo4Br35qEuo8mcTrKSpa9xOM9QCXQl_DG1"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      },
+      {
+        "part_id": "2",
+        "mime_type": "application/pdf",
+        "filename": "Résiliation de la convention de location sans bail- VER 24 juillet.pdf",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/pdf; name=\"Résiliation de la convention de location sans bail- VER 24 juillet.pdf\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"Résiliation de la convention de location sans bail- VER 24 juillet.pdf\""
+          }
+        ],
+        "body": {
+          "size": 591815,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ8etNxUvFmR9uCWlYcH1WfZ3WflmTihPZlkeaS7ZslCzvcnKNq4wz_gZL8vIPcs0enfncQtSdKcQF6nzsfAX60K4lyGXMXyRPKNLDgcrBioIHSYfq38JheIfOsJHywGEeIPEuOPZi9GzlStPxGyhDw7UoxGVm6vVtsqe7-L2iMyAtfvgpu4OlO5nKwWddPhj7P3hMXzB-_9nvZiHyidhu-lPyNRzA1qOCd44w5U-aIXMv5tYkZaW0P2Q11V-cerP2T-vWpsTEMTSsxzVhT2Th9YXgUmNVTEbWYWLzrBX4A_0Z913bEGMnALb8RpJqEERbW_kh33h6ktBKff0JnIoG6URstYZOnrkN_2n-mmFGNFZvgKtu-0OJmDpq62o_iuNtiM6831v4SdPOlqIghtgtsrBk9ZNnnLcXvtOw"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 1670236,
+  "classification_label_values": null
+}

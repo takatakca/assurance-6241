@@ -1,0 +1,220 @@
+{
+  "id": "197fec78a27b3735",
+  "thread_id": "197fec78a27b3735",
+  "label_ids": [
+    "YELLOW_STAR",
+    "STARRED",
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "",
+  "history_id": "3417592",
+  "internal_date": "1752326166000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "takatak.ca@gmail.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a05:6638:25cb:b0:500:ec3f:77fb with SMTP id u11csp433982jat;        Sat, 12 Jul 2025 06:16:20 -0700 (PDT)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a17:907:3f27:b0:ae6:ddc2:f9f7 with SMTP id a640c23a62f3a-ae6fbfa638cmr639269266b.18.1752326179792;        Sat, 12 Jul 2025 06:16:19 -0700 (PDT)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1752326179; cv=none;        d=google.com; s=arc-20240605;        b=T+l3oZlNhR38CMuKoEIYI6T35Fn7rjwrQocspeUMOd6gatpF+nWHNwKEkjZ79YFdKG         wYhQ53aA7ps+gMgAe4iIoQZRJB4WIo3fVW2PfMVP2xf0BCd/RGApsUXNRvbY5JUL0gTR         786BtdHgJziwcnMLdVhrodBj1atQ2u+oxMkDkm2ghLnKvMPbX9+e05UT1GcuSNLPR/1W         /IxleLvnN5yvl0tpAt3wbUSlVEYaQ8nSrq2p3WOfft5wewO0wISz6Po9tzxYd5/Rpvc+         mXpuIeziBpQzWHXf9JOMDAxVYxV1gT+ltlr+y/eJB/b99TVSpGai8WViPyAzVEnRefPT         TnJA=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=y1U11C8Ply9nRA8pBACRFrukyexEW4j1ktStnX/vbLY=;        fh=axKVI9wSXeZYXwf1r1n4oTve1/fCbrJQchhoSktsqNY=;        b=Eioj9IpkRm3TANXhr6xXtz6fDQPhsOouqBDGS0f6H1Mdn3RiZZJshU+EsKoILAN1MB         uxGnphWD3Rp2/hfgi33mS22Zjm6UjOfSrb82eYqZg80KjJbdL4RQ3zNGYtnw4Vcdzpcr         lOJHkhZjbz/XFLqc7Yj9+jCyAPeG7N4bnKmCHODYjdM2Q3CNXwFRZGEx3aKHJxtIrKW8         EmYWtA6bG8LmJ17C+OBPmvqbdN09JqAWZZBbZ6jh/S6E0epeVFHOourfHXO7Nkq9IMJx         5oW7CAAz9fGNkkk84bzyO/27B1fAY9swlQwfCY74ZeaGYrccnPai7XibPDaQD7M4K21I         fg7g==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=NbBkFhJn;       spf=pass (google.com: domain of mwb130890@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=mwb130890@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<mwb130890@gmail.com>"
+      },
+      {
+        "name": "Received",
+        "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id a640c23a62f3a-ae6e7f392e9sor283348166b.8.2025.07.12.06.16.19        for <takatak.ca@gmail.com>        (Google Transport Security);        Sat, 12 Jul 2025 06:16:19 -0700 (PDT)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of mwb130890@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=NbBkFhJn;       spf=pass (google.com: domain of mwb130890@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=mwb130890@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20230601; t=1752326178; x=1752930978; dara=google.com;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=y1U11C8Ply9nRA8pBACRFrukyexEW4j1ktStnX/vbLY=;        b=NbBkFhJnKxPYxPyDD3lurkY+kq6V9YAlmb+GsH/aV/KwWdel8TZ344iM1Vpb1C+kcz         spXd2QjzyIAO+DSF+BJ3yIKDWz8efvSMVswLcu63LptS0A+LYVdbSxsQRqxsZUzNMUYB         hu8gTko/RpM4lBCB67ZcWKfjW7boVkIfh1EVf/MPPxsG0RUDCCCTD5j0HaCZmAohuB9m         RluOFwF5KqK0UHvJ6vT+yGX76+kme8tjAhM5KbyW3SQZPlJJgom1gc5LN4Xgd8QXH0Si         WZVBrJIvv5MQmd27thz6Jmq88W/L+xUtWmzyajUDxjLk3nRRAMSoFqco/zTvD7ehtXE6         xtWw=="
+      },
+      {
+        "name": "X-Google-DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1752326178; x=1752930978;        h=to:subject:message-id:date:from:mime-version:x-gm-message-state         :from:to:cc:subject:date:message-id:reply-to;        bh=y1U11C8Ply9nRA8pBACRFrukyexEW4j1ktStnX/vbLY=;        b=twc76nmiHQe9R5ymR71WQv09riSDuROMHP05KHjEOmuaMdDndsBo7vsB/jDcIHZXJ4         18FNYrbmcPA5y5rsEyyPKB1kSc8p9Y0vHAS+zuC6+Wq86v1aV+gkDj4VbU2tTuCJXqc6         F7Zs7MxXQxI0FRKHheX9jNag4qttjObm1rIvV1wM1Li5+R5VIe8yZfLaA0XJMuwLT+bR         y7+SS70iPtXNX6zXkoHcL/3lIfnBPMmDyW4Kw+lW1E20tt5fTunDWSl/yUJElcdeUyq3         mcYo2BxfiR/N3qpUSH55uFAC1uzdWi1MIGngRYQQc82IPj2hOMdDafA9fgH8mp9C3Ip0         RvzA=="
+      },
+      {
+        "name": "X-Gm-Message-State",
+        "value": "AOJu0YzC5S17ODPdo/J4IdQOsO5JPPWbD7b/bhRaqet0TPEVvDGgJeiA B3zFbIe/Oibn4D2WnBq0cJmRSY34+y0O7YLAwWDl6rt65ylZREP0hh4IAIbolm5nqqKUOYv6jKv /2L7K1JGTexPqiNp/Hs6E/2/TfgEVbF/JPw=="
+      },
+      {
+        "name": "X-Gm-Gg",
+        "value": "ASbGnct63TQiTtf8pI/qeeiQeZPj0mctYreBjjF8zgMrvXy0mhGuF3osmKqbGK8yc0A 1R0kD0wN/DOtVhHVLfEAPxU0PolFR6SjtzHC5jvAhXIvtzFYIu2cJ4K4O8oIGI+o7TQhBKDrzZm JUZtXW3yjE9QTplNMxKE+WQ3SEG0E0SF/QxZoGQMi1AUQLLJKl6M1XVY65Pb/VeoDtjpazX+DEO 7uycqzHF79NUw/e6sCcaSa9CS48YSmBQuQ5YQ=="
+      },
+      {
+        "name": "X-Google-Smtp-Source",
+        "value": "AGHT+IGVKNpuHAVFhJVZV69BccsVRLe5q8zonwPxSjwAAVKgoeWJn0HIWdL0lQOuUFGczPDgGiuYr1p+nRE3qZ7jDb8="
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a17:906:fd57:b0:ae0:a351:61ff with SMTP id a640c23a62f3a-ae6fc200bdamr529774066b.32.1752326178058; Sat, 12 Jul 2025 06:16:18 -0700 (PDT)"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "From",
+        "value": "\"Matthieu W. B.\" <mwb130890@gmail.com>"
+      },
+      {
+        "name": "Date",
+        "value": "Sat, 12 Jul 2025 09:16:06 -0400"
+      },
+      {
+        "name": "X-Gm-Features",
+        "value": "Ac12FXzfG0WOKKhKpdax34SXedlHVg-M5xo_yPUOKIOWlbakbJIbSiwoMotCCuA"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<CA+phM6Z_fdWuhk3YuBO4Xef3qcFDypGO0O2sW_7K-6RM+F2Ufg@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": ""
+      },
+      {
+        "name": "To",
+        "value": "takatak.ca@gmail.com"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary=\"000000000000600a5a0639bb3baf\""
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "multipart/alternative",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/alternative; boundary=\"000000000000600a570639bb3bad\""
+          }
+        ],
+        "body": {
+          "size": 0,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": [
+          {
+            "part_id": "0.0",
+            "mime_type": "text/plain",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/plain; charset=\"UTF-8\""
+              }
+            ],
+            "body": {
+              "size": 2,
+              "base64_url_content": null,
+              "content": "\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          },
+          {
+            "part_id": "0.1",
+            "mime_type": "text/html",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=\"UTF-8\""
+              }
+            ],
+            "body": {
+              "size": 24,
+              "base64_url_content": null,
+              "content": "<div dir=\"auto\"></div>\r\n",
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": null
+          }
+        ]
+      },
+      {
+        "part_id": "1",
+        "mime_type": "application/zip",
+        "filename": "releves (3).zip",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/zip; name=\"releves (3).zip\""
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"releves (3).zip\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "Content-ID",
+            "value": "<197fec74e36ff3346c91>"
+          },
+          {
+            "name": "X-Attachment-Id",
+            "value": "197fec74e36ff3346c91"
+          }
+        ],
+        "body": {
+          "size": 64889,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ9M61P-d6YBzDMTaz8WA9vFKnHRVlYCZIZ53vX2Fpy5UccxS4n8v0knr7jyfgwfpnT2pNDV1kunRpcMGSe61hyAtnrBRvl7Ua_udQbzEIXcyI70zo0goU02YC0sGtOWCiilQyxa5r6nKycnDVyCglYHCBINYfDiUlw90bv_OSBz_o7ivGkznKyeYQ9VBZdRSKPClbUDV-Ftb7BUvQ5wnHV_zrGe0e5I1xmpsOtgssQFDsuA97nmmCZwExJLfghUyIfcBUTOY8TomUcRR7zcgAIPJGcHh8mr_zjJJtmGO4FXcqQHkLCESEuh6BNKesXh71aQWuylHkYwgdg9bzJZJuTPOWmIESodj6_3QwV5XGcYAhtd3Ld0HgSryAzkOxkFPErfpPpgzuEA4C4P"
+        },
+        "read_attachment_supported": false,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 94759,
+  "classification_label_values": null
+}

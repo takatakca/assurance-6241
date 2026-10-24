@@ -1,0 +1,812 @@
+{
+  "id": 1,
+  "query": "in:anywhere (\"U-Haul\" OR Uhaul) (Quadro OR Harmony OR Irwin OR Herwin OR Constantino OR \"12 juin\")",
+  "pages": [
+    {
+      "page": 1,
+      "next_page_token": null,
+      "emails": [
+        {
+          "id": "1a10d5436a58b8f3",
+          "subject": "Fwd: Votre dossier - Dufourd, Dion Avocats",
+          "snippet": "---------- Forwarded message --------- From: <cdufourd@dufourdion.com> Date: Mon, Oct 5, 2026, 14:15 Subject: Votre dossier - Dufourd, Dion Avocats To: <ooeuf.ca@gmail.com> Bonjour, Voici",
+          "attachments": [
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a10d11afbf7805b",
+          "subject": "QUADRO / Harmony — 7/7 — Comptabilité, revenus et vérifications à finaliser",
+          "snippet": "Bonjour Me Dufourd, Dans l'archive, ouvrir « Comptabilité » et « Contrôles et repères ». Le grand livre final.xls et ses extractions sont conservés pour permettre votre vérification avec le",
+          "attachments": []
+        },
+        {
+          "id": "1a10d08a7feddb4a",
+          "subject": "QUADRO / Harmony — 1/7 — Suivi urgent de l’interrogatoire du 5 octobre : origine des dommages",
+          "snippet": "Bonjour Me Dufourd, À ma demande, voici le premier volet du dossier préparé pour votre examen après l'interrogatoire de ce matin. Je vous transmets séparément les volets photos, réparations,",
+          "attachments": []
+        },
+        {
+          "id": "1a0ef2b0bf6454d2",
+          "subject": "DOSSIER COMPLET 3/3 — QUADRO c. HARMONY — Opposition à la saisie avant jugement et pièces",
+          "snippet": "Bonjour Me Dufourd, ENVOI 3 DE 3 — OPPOSITION À LA SAISIE AVANT JUGEMENT Je vous transmets séparément, en raison de la taille du fichier, la demande en opposition à une saisie avant jugement du 22",
+          "attachments": [
+            {
+              "filename": "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0ef2ad6a978b96",
+          "subject": "DOSSIER COMPLET 2/3 — QUADRO c. HARMONY — Échanges, mises en demeure et procédures",
+          "snippet": "Bonjour Me Dufourd, ENVOI 2 DE 3 — ÉCHANGES HARMONY / QUADRO ET PROCÉDURES Je vous transmets ici les communications et procédures actuellement regroupées : - chaîne complète « Situation de transport 12",
+          "attachments": [
+            {
+              "filename": "ANNEXE_A_Quadro_Holding.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "2026-01-26 DII Amendée Quadro.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Injonction_Quadro_Holding_vs_Harmony_Movers.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Requete_Saisie_Avant_Jugement_Quadro_Holding.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Demande_Introductive_Instance_Quadro_Holding_V2.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re[2]_ Situation de transport 12 Juin 2025.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "CT 2500078 Transport Services Contract for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "QT 1076 Transport Services Quote for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re: Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0ef2a9ed8ebc7d",
+          "subject": "DOSSIER COMPLET 1/3 — QUADRO c. HARMONY — Factures, soumissions, rapports et échanges",
+          "snippet": "Bonjour Me Dufourd, Je vous retransmets directement à votre adresse professionnelle l'ensemble des pièces actuellement regroupées concernant QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. (Harmony",
+          "attachments": [
+            {
+              "filename": "DOC091225-09122025113745.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0003 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (5).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image006.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (2).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RE_ Situation de transport 12 Juin 2025.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (7).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (6).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (5).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0001 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Transport Services Quote for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0003 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0005 (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "DOC090825-09082025203544(1).PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (7).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Rapport court 18757-1-1-1.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0ef03adebb748d",
+          "subject": "COMPLÉMENT URGENT — Échanges Harmony Movers, mises en demeure/procédures et saisie — 500-17-136442-251",
+          "snippet": "Bonjour Me Dufourd, Complément urgent à mon envoi précédent concernant QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. (Harmony Movers), dossier 500-17-136442-251. Je vous transmets ici les",
+          "attachments": [
+            {
+              "filename": "QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RE_ Situation de transport 12 Juin 2025.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "ANNEXE_A_Quadro_Holding.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "2026-01-26 DII Amendée Quadro.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Injonction_Quadro_Holding_vs_Harmony_Movers.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Requete_Saisie_Avant_Jugement_Quadro_Holding.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Demande_Introductive_Instance_Quadro_Holding_V2.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re[2]_ Situation de transport 12 Juin 2025.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "CT 2500078 Transport Services Contract for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "QT 1076 Transport Services Quote for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re: Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0ef0158f7c54fb",
+          "subject": "URGENT — Dossier complet QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. (Harmony Movers) — 500-17-136442-251",
+          "snippet": "Bonjour Me Dufourd, À la suite de nos échanges et en vue de notre rendez-vous, je vous transmets les documents actuellement regroupés concernant le dossier QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC.",
+          "attachments": [
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (7).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "DOC091225-09122025113745.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0003 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (5).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image006.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (2).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0003 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "RE_ Situation de transport 12 Juin 2025.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (7).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (6).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (5).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0001 (4).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0002 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Transport Services Quote for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0003 (3).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0005 (1).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "DOC090825-09082025203544(1).PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Invoice-CWIQUWOL-0004 (7).pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Rapport court 18757-1-1-1.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1a0d04110ea9aabb",
+          "subject": "Re: LOCAL 6280 — Dossier complet Quadro Holdings c. Bar Sora — faits, pièces et règlement recherché",
+          "snippet": "La lettre d'avocat n'empêcherait pas l'utilisation d'un médiateur. MAIS il faut que toute entente soit CLAIREMENT détaillé par écrit . Le jeu. 24 sept. 2026 à 05:49, yan romanowski <",
+          "attachments": []
+        },
+        {
+          "id": "1a0d03eb4874c84a",
+          "subject": "Re: LOCAL 6280 — Dossier complet Quadro Holdings c. Bar Sora — faits, pièces et règlement recherché",
+          "snippet": "300$ c'est peu pour une mise en demeure par un avocat. Et va démontré que s'il le faut tu es prêt à aller à la guerre . Moi je trouve que c'est un bon investissement . En quoi cela nuirait",
+          "attachments": []
+        },
+        {
+          "id": "1a0d034bcb239873",
+          "subject": "Re: LOCAL 6280 — Dossier complet Quadro Holdings c. Bar Sora — faits, pièces et règlement recherché",
+          "snippet": "T'es meuble cest réglé Donne moi access et je vais bouger les biens just la facture du uhaul (gaz) moi le reste je m'en occupe. Pour le dossier Quadro Holding Ltée Pour l'instant cest",
+          "attachments": []
+        },
+        {
+          "id": "19e6a35f2d87fe68",
+          "subject": "Re: Objet : Réponse formelle à votre offre de règlement",
+          "snippet": "Mathieu, J'ai dû suspendre mon travail du dossier hier matin car nous déménageons demain et disons que ma BOSS trouvait que je ne mettais pas mes priorités au bon endroit !!! Je vais reprendre",
+          "attachments": []
+        },
+        {
+          "id": "19e6a25fd74917a2",
+          "subject": "Objet : Réponse formelle à votre offre de règlement",
+          "snippet": "Dossier assurance. Voici la réponse de monsieur dubois Bonjour M. DuBois, Après mûre réflexion, nous devons vous informer que si le montant que vous proposez est effectivement destiné à constituer un",
+          "attachments": [
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "yugcuenh.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "vhjbnpul.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "q3rnisua.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "0tdjholj.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "e0upibho.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "swvdh5ky.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "2rwh1bji.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19e6a1c06da498f5",
+          "subject": "Fwd: Objet : Clarification concernant les obligations contractuelles et la responsabilité",
+          "snippet": "---------- Forwarded message --------- From: Oeuf Déjeuner <ooeuf.ca@gmail.com> Date: Mon, Oct 20, 2025, 19:47 Subject: Objet : Clarification concernant les obligations contractuelles et la",
+          "attachments": []
+        },
+        {
+          "id": "19e6a1b95482f1c8",
+          "subject": "Fwd: Échange concernant la quittance lors de cette réunion",
+          "snippet": "---------- Forwarded message --------- From: Oeuf Déjeuner <ooeuf.ca@gmail.com> Date: Mon, Oct 20, 2025, 19:48 Subject: Re: Échange concernant la quittance lors de cette réunion To: yan",
+          "attachments": []
+        },
+        {
+          "id": "19e6a182f595e448",
+          "subject": "Fwd: Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860]",
+          "snippet": "---------- Forwarded message --------- From: <yromanowski@romanowskiavocats.com> Date: Thu, Apr 16, 2026, 16:54 Subject: Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471",
+          "attachments": [
+            {
+              "filename": "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image863418.PNG",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "~WRD000.jpg",
+              "mime_type": "image/jpeg",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19e6a17a01a2a5f7",
+          "subject": "Fwd: Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers",
+          "snippet": "---------- Forwarded message --------- From: <yromanowski@romanowskiavocats.com> Date: Thu, Apr 16, 2026, 16:50 Subject: Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers To: cdufourd@",
+          "attachments": [
+            {
+              "filename": "Invoice-CWIQUWOL-0005.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re: Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re[2]_ Situation de transport 12 Juin 2025.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "CT 2500078 Transport Services Contract for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "QT 1076 Transport Services Quote for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Re: Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image004.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image003.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image002.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "image001.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Urgent Confirmation Needed – Kitchen Move Scope and Additional Requirements.eml",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "unknown",
+              "mime_type": "message/rfc822",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "CT 2500078 Transport Services Contract for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "QT 1076 Transport Services Quote for Quadro holding ltee.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "hqr0jdm5.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "x0vdlwbz.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "swvdh5ky.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "2rwh1bji.png",
+              "mime_type": "image/png",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1994ddc573602ad2",
+          "subject": "Fwd: nouvelle convention et résiliation de la convention 2023",
+          "snippet": "---------- Forwarded message --------- From: Marc Desroches <mdesroches@cintec.ca> Date: Thu, Aug 7, 2025, 2:11 pm Subject: nouvelle convention et résiliation de la convention 2023 To: <",
+          "attachments": [
+            {
+              "filename": "Résiliation de la convention de location sans bail- VER 24 juillet.pdf",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            },
+            {
+              "filename": "Contrat de bail terrain revdFP July18_2025 clean-REV-22 JUIL-MD.PDF",
+              "mime_type": "application/pdf",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "1953d7dca66df348",
+          "subject": "Dealer 57789 camions non transfer in",
+          "snippet": "Bonjour groupe takatak Votre numéro sur uhaul.com ne marche pas ? Comment voulez-vous recevoir des appels de clients d'Uhaul? Je ne te comprends pas, tu me demandes un camion de 20 pieds, je t'",
+          "attachments": []
+        },
+        {
+          "id": "1939f0da25f96557",
+          "subject": "Returned ACH Debits for Dealer 057789",
+          "snippet": "email.sendMail",
+          "attachments": [
+            {
+              "filename": "ddrp102_057789.txt",
+              "mime_type": "text/plain",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "19356f80510ecfde",
+          "subject": "Returned ACH Debits for Dealer 057789",
+          "snippet": "email.sendMail",
+          "attachments": [
+            {
+              "filename": "ddrp102_057789.doc",
+              "mime_type": "application/octet-stream",
+              "read_attachment_supported": false
+            }
+          ]
+        },
+        {
+          "id": "192eacb8ed57a91b",
+          "subject": "Returned ACH Debits for Dealer 057789",
+          "snippet": "**************************************************************** NOTICE OF RETURNED ACH **************************************************************** 11-01-2024 MCO 844 ROUTE 3 DISTRICT 32 Groupe",
+          "attachments": [
+            {
+              "filename": "ddrp102_057789.doc",
+              "mime_type": "text/plain",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "18ec044527e78c77",
+          "subject": "Start Withdraw for Dealer 057789",
+          "snippet": "**************************************************************** START WITHDRAWAL DATE NOTIFICATION **************************************************************** 04-08-2024 MCO 844 ROUTE 3 DISTRICT",
+          "attachments": [
+            {
+              "filename": "ddrp103_057789.txt",
+              "mime_type": "text/plain",
+              "read_attachment_supported": true
+            }
+          ]
+        },
+        {
+          "id": "18ea65bf62b3857f",
+          "subject": "U-Haul Introductory Letter for Dealer 57789",
+          "snippet": "04-03-2024 Dealer No 57789 Groupe Takatak Inc 5505 Rue Irwin La Salle QC H8N1A1 Dear Valued U-Haul Dealer: We are committed to making it easier for you to better serve our U-Haul customers. Anything",
+          "attachments": [
+            {
+              "filename": "ddrp152_57789.txt",
+              "mime_type": "text/plain",
+              "read_attachment_supported": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "error": null
+}

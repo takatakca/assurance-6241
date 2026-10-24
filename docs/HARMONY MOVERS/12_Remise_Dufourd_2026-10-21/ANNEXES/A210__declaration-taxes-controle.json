@@ -1,0 +1,31 @@
+{
+  "source": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Declaration-TPS-TVQ-2024-09-30.pdf",
+  "sha256": "3410b8f68f16600fb4e2634263c2da09621b00ff2b38b84e400ebc98058269da",
+  "pages_lues": [
+    1,
+    2
+  ],
+  "entite": "QUADRO HOLDINGS LTEE",
+  "periode": [
+    "2024-07-01",
+    "2024-09-30"
+  ],
+  "transmission_accusee": "2024-10-07 15:52:41 HAE",
+  "declarant": "Élodie Simard",
+  "reference_accuse": "010700112412425",
+  "montants": {
+    "fournitures_ligne101": 27877.99,
+    "TPS_exigible_ligne103": 1393.9,
+    "CTI_ligne106": 638.14,
+    "TPS_nette": 755.76,
+    "TVQ_exigible_ligne203": 2780.83,
+    "RTI_ligne206": 1273.1,
+    "TVQ_nette": 1507.73,
+    "total_a_remettre": 2263.49
+  },
+  "controles": [
+    "Accusé de réception de déclaration, non reçu de paiement : intention de payer affichée Oui.",
+    "27877.99 correspond au tableau Ventes-juil-sept-2024; écart de 2.61 avec 27875.38 du grand livre sur ces mois à expliquer.",
+    "Une seule période fiscale; ne couvre pas toutes les périodes 2024–2025."
+  ]
+}

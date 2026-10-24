@@ -2,6 +2,8 @@
 
 Mise à jour : 21 octobre 2026. Dossier judiciaire mentionné dans les actes : **500-17-136442-251**, Cour supérieure, district de Montréal. Défenderesse désignée : **9205-2471 Québec inc.** Le présent portrait organise les pièces disponibles; une demande judiciaire, une facture ou une affirmation dans un courriel ne constitue pas une conclusion du tribunal.
 
+La dernière collecte est résumée dans le [bilan des compléments](../13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md) et intégrée aux [25 réponses documentaires](../12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md). Elle ajoute notamment les états compilés au 30 juin 2025 (équipements inscrits pour 209 758 $, perte annuelle de 112 578 $), une déclaration TPS/TVQ, 107 relevés DoorDash et les pièces Tzanet. Ces valeurs comptables, données de ventes et prix de remplacement ne sont pas additionnés aux dommages réclamés; la ventilation causale et les manquants restent indiqués dans chaque réponse.
+
 ## Situation actuelle directement documentée
 
 Le 20 octobre 2026 à 14 h 20, **Me Christian Dufourd** confirme que le dépôt initial de **3 000 $** a été comptabilisé, demande les documents de préparation et le paiement des honoraires dans les **dix jours suivant la réception de son courriel**. Il estime les travaux futurs à **au moins 15 000 $** pour la mise en état, puis **20 000 $ à 30 000 $ supplémentaires** pour la préparation et un procès d'environ trois jours. Il indique attendre la facture de sténographie. Ce sont des demandes et estimations du cabinet, pas des montants accordés par un tribunal. [Courriel original et texte](../03_Courriels/Originaux_ooeuf_2026-10-20/2026-10-20_1420_Christian_Dufourd_honoraires.txt).

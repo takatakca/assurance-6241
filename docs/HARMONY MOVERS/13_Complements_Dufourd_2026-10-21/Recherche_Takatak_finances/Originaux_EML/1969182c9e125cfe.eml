@@ -1,0 +1,312 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a02:384c:0:b0:4f8:8938:e6f4 with SMTP id v12csp566701jae;
+        Fri, 2 May 2025 07:59:49 -0700 (PDT)
+X-Received: by 2002:a05:620a:1913:b0:7c5:5d4b:e63b with SMTP id af79cd13be357-7cad5b9f11dmr425994585a.38.1746197989441;
+        Fri, 02 May 2025 07:59:49 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1746197989; cv=none;
+        d=google.com; s=arc-20240605;
+        b=CI5oJeY91y6Du/NsBaCnagCTmlqeLB3gyfFo/zPTR2kwZIKMxyiuat3Lq6Zpuro6Ii
+         Nr6TRsM9sqO5a+q9sjY0WLHElqRsWYfKNY4E2GKO72kgp430NRXwZFdDL7B0XdqD4BhS
+         YnI9I+IMcQYemkXPYvvCs5RdbG1oMGJWZwjjYzhaAP+/wbWV3jBEpZUBLqqapfnYb8yk
+         T/wb23eTVozJ9sfA5bxz9uEcCQpGmhtnmioLVi+VVizXovrUa7Rn6jnocw1tanOWdT/H
+         Eo9s6NahfYjiFVN1LCOcCmHALifZNJydxfH8WPdm602wsvKN1cFHJbhDiuc3OQzL1APp
+         +zEw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=JmWL6aDy0Yvvnon6hVXkbaEmcu6PCNFjcjrtCzy3tuk=;
+        fh=xU/5uRDcKzq25whTgSg6IA+cCzKigzZ75uDJO7GO9gY=;
+        b=Ltg/zNBaWjREnjTmP+o/3i/EtoLDZgN+wDOa+e+3ZM32k8waIlhS5YLjMceEf45DpH
+         1Y6ToItk700lCs9t7yd67KHZhJtPLkxxYAqEt/kn7BMGdllkueNqcr1ZX4AXmCvTs7Vz
+         JhSemPRR+UA8OPKix+QNJjhY0NtkzLX0OZSW3EbEHCEJWqJJvo9e55w/xq4wBYWHHiwq
+         xfK+BmzhT0DqPa0QfeF3zrW1Vlvml8b6MP5mXWwu6hTEUpYyc0meC0cybICEh/l1t1wj
+         3x1HidpvmJxfAOKR/C5iSAeaLLcu6ubrv3YwDo4c3R44wsby8JpxuLjk6jouhHTD2KYJ
+         sjew==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=UxKfpXMQ;
+       spf=pass (google.com: domain of pizzamambo5.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=pizzamambo5.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <pizzamambo5.ca@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id af79cd13be357-7cad2441531sor432467185a.17.2025.05.02.07.59.49
+        for <takatak.ca@gmail.com>
+        (Google Transport Security);
+        Fri, 02 May 2025 07:59:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pizzamambo5.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=UxKfpXMQ;
+       spf=pass (google.com: domain of pizzamambo5.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=pizzamambo5.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1746197989; x=1746802789; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=JmWL6aDy0Yvvnon6hVXkbaEmcu6PCNFjcjrtCzy3tuk=;
+        b=UxKfpXMQpzmp4qrM4mXxpqQqt3YWsJAJurMuIW9f2AnIQnnzH8OVJzSSOWx8kZ8YwK
+         zjbeL7C+clIOgAwp8fWpI6Osu9Y55erIko/TBrCU88Nv0KHJ2SvEtYV6c6kyp6UKmXQh
+         zAmOOeCCagWYcAG/I+aN9PvJfTx5CX0Y09OKibNpmrpNebT1IDIiRDhIr//MK8uPceqR
+         o6bzzcfnig+OyjJpz45BG/MlznOGTAv3p6hgRVG1C8rHIEgjaswZCIe8QtJJsPhJ3zda
+         vfC1tbsxqsKrulIY2RYmz5aAaefWjx2WwnEntbju7w7g4PEhaorgdAlmeqDTt1g2GmJB
+         NuwA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1746197989; x=1746802789;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=JmWL6aDy0Yvvnon6hVXkbaEmcu6PCNFjcjrtCzy3tuk=;
+        b=HgjGrPSHwkmkS1W53ahnO4/ByVkBL/vXyRwxuiRxy9EO6kGRCVwWL6pRfXIbiNjaIH
+         mdbyfC6YgKn052X/Sw3AVbDGEBW3VsI4YWPOxFjXPKxccHnppdLp8bcXtO2zYxE6Gebh
+         CABWWyXH+5ks72AIbrwR6pndRNbsDCR0MaZ77rrkJkHgrFrl0AFAv6taKc6X1lce+aH/
+         zELKH7bE9EhOUggddXsTgrZDLvQxPbXzfr4fghH34boRZgATGrjVttNAFnzndBbwSoe9
+         zNn+1FfxY2NNKw7nCz2rQP7w6Wcur3tQ8/OYiZIFqX/+R6VczvPazkgj7LWWfebMfn76
+         HkwA==
+X-Gm-Message-State: AOJu0Yy8S+Mv3kbDp8n9ejym1eEWNb5ngRjfk2L6Twhv4LNJs+hJ1RRn
+	pALOZcyMQhH0BJ1focZUs4BnuiSJ4Ubaq429JU6fk/rinlSwdoTCP1i9T5XunvUsYmClWcfCoVs
+	ApyGrSXuJr7STcBsgc2G3xzZZD04ugA==
+X-Gm-Gg: ASbGnctgGZvu1pVF5372Gur4N2qMJeHwQLq8TPcLRWToXPRBrr+fYUFA1iLaTSRYbc2
+	Hdv7hy7WlC2tJkK9BzNFbzbMJcIFrLQDmb5kInY7vnwYJFnRIVdNInwN/XJ4MoTTQzoqP8deYve
+	AVc5jw1xc5DQwZKdqRFhu/zIFbWNpNIJj5L0Ydx8KiirU0vyTkEQHPBts=
+X-Google-Smtp-Source: AGHT+IH1yuVPAOj8aGEtgDDW13TPh6ltk15a8I5jnSJyXOsSuhsUmpV07cxreeQVP+sGjSmedyGFLRXfea7MrARPIyo=
+X-Received: by 2002:ad4:5ba2:0:b0:6e8:f470:2b11 with SMTP id
+ 6a1803df08f44-6f51538e0aamr62165986d6.23.1746197988703; Fri, 02 May 2025
+ 07:59:48 -0700 (PDT)
+MIME-Version: 1.0
+References: <5BMSZ000000000000000000000000000000000000000000000SVN1MC00pjw-RD5ET3qXJG17oJJMPw@sfdc.net>
+In-Reply-To: <5BMSZ000000000000000000000000000000000000000000000SVN1MC00pjw-RD5ET3qXJG17oJJMPw@sfdc.net>
+From: Pizza Mambo 5 Restaurant <pizzamambo5.ca@gmail.com>
+Date: Fri, 2 May 2025 10:59:37 -0400
+X-Gm-Features: ATxdqUFRlH-8wFlpyI-cfgFu95bzkQuRmZb5rcLzD-w_qEUQuVzdyvbyDYHWOmU
+Message-ID: <CAC-dJaWaNCGgWOA7Evzp9n45-Ccih0bBUOaz1sEevgMT2gPgjw@mail.gmail.com>
+Subject: Fwd:
+To: "TAKATAK.CA" <takatak.ca@gmail.com>
+Content-Type: multipart/mixed; boundary="000000000000d31d0d0634286667"
+
+--000000000000d31d0d0634286667
+Content-Type: multipart/alternative; boundary="000000000000d31d0b0634286665"
+
+--000000000000d31d0b0634286665
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Ravikesh Gunesh <ravikesh.gunesh@justeattakeaway.com>
+Date: Fri, May 2, 2025, 10:30=E2=80=AFa.m.
+Subject:
+To: pizzamambo5.ca@gmail.com <pizzamambo5.ca@gmail.com>
+Cc: chowdhuryshafi07@gmail.com <chowdhuryshafi07@gmail.com>,
+mwb130890@gmail.com <mwb130890@gmail.com>
+
+
+Hello there,
+
+It was a pleasure talking with Matthew. As discussed, the agreement has
+been sent. Please provide us with the menu so we can have it programmed on
+our end.
+
+Additionally, please find attached the statements for the previous
+location.
+
+We will also send a new tablet and book a photoshoot once the agreement has
+been completed.
+
+Reminder: Please send the details about the Miramar en Folie location.
+
+
+Regards,
+
+Ravi G.
+
+Account Support
+
+Restaurant Success Team - Skip
+
+--000000000000d31d0b0634286665
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote gmail_quote_container=
+"><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ------=
+---<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">Ravikesh Gunes=
+h</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:ravikesh.gunesh@justeat=
+takeaway.com">ravikesh.gunesh@justeattakeaway.com</a>&gt;</span><br>Date: F=
+ri, May 2, 2025, 10:30=E2=80=AFa.m.<br>Subject: <br>To: <a href=3D"mailto:p=
+izzamambo5.ca@gmail.com">pizzamambo5.ca@gmail.com</a> &lt;<a href=3D"mailto=
+:pizzamambo5.ca@gmail.com">pizzamambo5.ca@gmail.com</a>&gt;<br>Cc: <a href=
+=3D"mailto:chowdhuryshafi07@gmail.com">chowdhuryshafi07@gmail.com</a> &lt;<=
+a href=3D"mailto:chowdhuryshafi07@gmail.com">chowdhuryshafi07@gmail.com</a>=
+&gt;, <a href=3D"mailto:mwb130890@gmail.com">mwb130890@gmail.com</a> &lt;<a=
+ href=3D"mailto:mwb130890@gmail.com">mwb130890@gmail.com</a>&gt;<br></div><=
+br><br>
+
+=09
+
+<div style=3D"height:auto;min-height:auto">Hello there,<br>
+<br>
+It was a pleasure talking with Matthew. As discussed, the agreement has bee=
+n sent. Please provide us with the menu so we can have it programmed on our=
+ end.<br>
+<br>
+Additionally, please find attached the statements for the previous location=
+.=C2=A0<br>
+<br>
+We will also send a new tablet and book a photoshoot once the agreement has=
+ been completed.<br>
+<br>
+Reminder: Please send the details about the Miramar en Folie location.<br>
+<br>
+<br>
+Regards,<br>
+<br>
+Ravi G.<br>
+<br>
+Account Support<br>
+<br>
+Restaurant Success Team - Skip</div>
+<div>=C2=A0</div>
+<img alt=3D"" src=3D"https://skipthedishes.my.salesforce.com/servlet/servle=
+t.ImageServer?oid=3D00DF00000006zWK&amp;esid=3D018OI00000GbFBp&amp;from=3De=
+xt"></div>
+
+--000000000000d31d0b0634286665--
+--000000000000d31d0d0634286667
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; 
+	name="report_2024-11-01_2025-04-27.xlsx"
+Content-Disposition: attachment; 
+	filename="report_2024-11-01_2025-04-27.xlsx"
+Content-Transfer-Encoding: base64
+Content-ID: <19691828a361f9ddb521>
+X-Attachment-Id: 19691828a361f9ddb521
+
+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
+SwUGAAAAAAoACgCaAgAAHhoAAAAA
+--000000000000d31d0d0634286667--

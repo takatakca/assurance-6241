@@ -1,0 +1,182 @@
+[
+  {
+    "id": 10,
+    "demande": "Indiquer le lieu d’entreposage des équipements.",
+    "statut": "partiel",
+    "reponse_proposee": "Le rapport de saisie 26-08196-19337, portant le 17 décembre 2025 à 19 h 00, certifie le transport des biens vers le lieu du gardien judiciaire au 5505, rue Irwin, LaSalle, Québec H8N 1A1, a/s KOSTAS KRONIS (RAPPORT_F, pages 5–6). Le PV signé mentionne également Kostas Kronis et cette adresse. Ces pièces documentent la destination après la saisie, distincte du 5007 rue Herwin prévu initialement au devis. Elles sont jointes pour répondre sur le lieu historiquement documenté. Une confirmation actuelle, datée, de l'emplacement physique des équipements, des conteneurs et de l'inventaire présent reste à obtenir, ainsi que les éventuels déplacements intervenus depuis.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/02_Contrats/Archive_2026-10-05/sources/QT 1076 Transport Services Quote for Quadro holding ltee (1).pdf",
+        "repere": "p. 1, préparé le 9 juin 2025 pour le transport du 12 juin 2025",
+        "apport": "Destination prévue : 5007 rue Herwin, LaSalle, Storage Container. Conserver l'orthographe du document.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/02_Contrats/Collecte_Gmail_2026-10-21/1a0ef2ad6a978b96__CT 2500078 Transport Services Contract for Quadro holding ltee.pdf",
+        "repere": "p. 1, CT2500078",
+        "apport": "Adresse de destination et liste contractuelle; élément historique distinct de la garde après saisie.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p. 1, 17 décembre 2025; contrôle visuel effectué",
+        "apport": "Lieu d'opération 1600, 55e Avenue, Lachine; gardien Kostas Kronis et 5505 Irwin, LaSalle, manuscrits.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "p. 34–37, notamment 10:45:28–10:45:58 et 10:48:55–10:49:05; p. 52–53",
+        "apport": "Destination et lieu actuel évoqués avec hésitations/corrections; pas de validation indépendante d'une adresse actuelle.",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "Pages physiques 5–6, rapport 26-08196-19337; page 11, rapport 26-08196-24097; contrôle visuel réalisé",
+        "apport": "Rapport de saisie du 17 décembre 2025 avec transport certifié vers le 5505 rue Irwin, LaSalle H8N 1A1, a/s KOSTAS KRONIS; notification du PV à KOSTA KRONIS, via Ooeuf, le 22 avril 2026 à 14 h 25, réception indiquée à 14 h 35. Repères historiques, sans confirmation actuelle du lieu.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf",
+        "repere": "Page 1, PV manuscrit portant le 17 décembre 2025; contrôle visuel réalisé",
+        "apport": "Version avec une signature à la rubrique « le gardien », désignation manuscrite Kostas Kronis et 5505 Irwin, LaSalle. Identité de la personne ayant signé et date de signature à confirmer; aucune convention détaillée distincte fournie.",
+        "nature": "original"
+      }
+    ],
+    "manquants": [
+      "Confirmation actuelle, datée, de l'adresse physique exacte, du numéro de conteneur ou local, de l'identité du détenteur et des équipements présents.",
+      "Historique des déplacements postérieurs au PV s'il y en a eu; distinction entre l'adresse du gardien et le lieu physique des biens."
+    ],
+    "demarches": [
+      "Faire confirmer par le gardien désigné ou par l'huissier le lieu physique actuel et la date du dernier déplacement, avec inventaire et référence au PV.",
+      "Rapprocher Herwin/Irwin et les trois adresses dans une chronologie sans les harmoniser artificiellement."
+    ],
+    "controles": [
+      "Le procès-verbal et le contrat se rapportent à des moments distincts; aucune contradiction n'est résolue par supposition.",
+      "Les captures H01 et H02 rangées dans 02_Contrats sont des courriels de Mario Taoutel/Miller Thomson; elles ne prouvent pas une location de conteneur.",
+      "Le nom manuscrit Kronis doit être rapproché des signatures et des variantes épelées dans Fieldy; aucune identité commerciale n'est déduite.",
+      "Le rapport de notification page 11 vise KOSTA KRONIS à l'adresse Ooeuf le 22 avril 2026; il ne confirme pas à lui seul l'emplacement physique des biens en octobre.",
+      "Les heures de trajet de la page 6 ne sont pas assimilées à une heure de livraison au gardien. La date manuscrite du PV ne date pas automatiquement l'apposition de la signature noire."
+    ],
+    "recherche_effectuee": [
+      "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+      "Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+      "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+      "Termes entreposage, gardien, 5505, 5007, Irwin, Herwin, Lachine, LaSalle; lecture du QT1076, CT2500078, PV complet et inspection des captures H01/H02.",
+      "Complément du 21 octobre : lecture native et contrôle visuel des 12 pages de RAPPORT_F, de la page de PV_SIGNE et de la facture 8695 récupérés dans Ooeuf depuis le courriel MANDAT COMPLÉTÉ du 1er mai 2026. Empreintes et réserves dans 13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md."
+    ]
+  },
+  {
+    "id": 16,
+    "demande": "Produire le contrat conclu avec le gardien relativement à l’entreposage actuel des équipements.",
+    "statut": "partiel",
+    "reponse_proposee": "Nous produisons la version signée du procès-verbal de saisie et les rapports de l'huissier relatifs à la garde. PV_SIGNE comporte une signature à la rubrique « le gardien » et désigne manuscritement Kostas Kronis, 5505 Irwin, LaSalle. L'identité et la qualité de la personne ayant apposé cette signature, ainsi que sa date, restent à confirmer. Le rapport 26-08196-24097 indique la notification du PV à « KOSTA KRONIS, gardien judiciaire », via ooeuf.ca@gmail.com, le 22 avril 2026 à 14 h 25, avec un accusé de réception déclaré à 14 h 35. Ces documents ne comportent pas une convention actuelle détaillée d'entreposage avec sa durée, son prix et ses annexes. Nous demandons au cabinet de préciser la portée du PV signé et de confirmer si une convention distincte existe; si oui, cette convention reste à obtenir.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p. 1, rubrique gardien; contrôle visuel effectué",
+        "apport": "Désignation manuscrite Kostas Kronis, 5505 Irwin, LaSalle. Source pour identifier le détenteur historique, non convention de garde actuelle.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "p. 52, 11:20:16–11:21:03",
+        "apport": "Gardien choisi selon une réponse par Pierre et l'huissier; contrat demandé. Déclaration sans contrat reproduit.",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf",
+        "repere": "Page 1, PV manuscrit portant le 17 décembre 2025; contrôle visuel réalisé",
+        "apport": "Version avec une signature à la rubrique « le gardien », désignation manuscrite Kostas Kronis et 5505 Irwin, LaSalle. Identité de la personne ayant signé et date de signature à confirmer; aucune convention détaillée distincte fournie.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "Pages physiques 5–6, rapport 26-08196-19337; page 11, rapport 26-08196-24097; contrôle visuel réalisé",
+        "apport": "Rapport de saisie du 17 décembre 2025 avec transport certifié vers le 5505 rue Irwin, LaSalle H8N 1A1, a/s KOSTAS KRONIS; notification du PV à KOSTA KRONIS, via Ooeuf, le 22 avril 2026 à 14 h 25, réception indiquée à 14 h 35. Repères historiques, sans confirmation actuelle du lieu.",
+        "nature": "original"
+      }
+    ],
+    "manquants": [
+      "Convention de garde ou d'entreposage actuelle et ses annexes si un écrit distinct existe; à défaut, confirmation précise de l'absence d'un tel écrit et des modalités convenues.",
+      "Identification de la personne ayant signé à la rubrique « le gardien », de sa qualité et de la date de signature; chaîne d'envoi et de retour du PV.",
+      "Confirmation actuelle du détenteur, du lieu physique, de la période et des conditions de garde."
+    ],
+    "demarches": [
+      "Retrouver le courriel de notification du PV envoyé par saj@huissierdejustice.ca à Ooeuf le 22 avril 2026 à 14 h 25, et la réponse indiquée à 14 h 35, puis rapprocher leur pièce jointe de PV_SIGNE.",
+      "Faire confirmer par l'huissier et le détenteur désigné l'identité et la qualité du signataire, les modalités de garde et l'existence éventuelle d'une convention distincte.",
+      "Soumettre le PV signé au cabinet pour apprécier sa portée exacte; ne pas le rebaptiser contrat ni le substituer sans examen à la pièce demandée."
+    ],
+    "controles": [
+      "Signature visible à la rubrique « le gardien », sans attribution automatique à Kostas Kronis. L'adresse Ooeuf utilisée pour la notification ne prouve pas l'identité du lecteur ou du signataire.",
+      "Conserver KOSTAS (page 6) et KOSTA (page 11) tels qu'ils sont écrits, sans correction silencieuse.",
+      "Le PV signé ne comporte pas de durée ou de prix d'entreposage; la version d'une page ne remplace pas les autres annexes d'inventaire du PV déjà acquises.",
+      "Les captures H01/H02 restent des courriels procéduraux et ne deviennent pas des contrats de conteneur."
+    ],
+    "recherche_effectuee": [
+      "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+      "Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+      "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+      "Termes gardien, garde, contrat, entreposage, Kronis/Cronis, Irwin/Herwin; lecture PV et documents contractuels disponibles, inspection H01/H02.",
+      "Complément du 21 octobre : lecture native et contrôle visuel des 12 pages de RAPPORT_F, de la page de PV_SIGNE et de la facture 8695 récupérés dans Ooeuf depuis le courriel MANDAT COMPLÉTÉ du 1er mai 2026. Empreintes et réserves dans 13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md."
+    ]
+  },
+  {
+    "id": 18,
+    "demande": "Produire les vidéos et les photos prises par l’huissier, dans la mesure où elles sont en votre possession.",
+    "statut": "non_repere",
+    "reponse_proposee": "Les rapports de l'huissier et le PV signé sont maintenant disponibles et joints comme pièces de contexte. Les 12 pages de RAPPORT_F et la page de PV_SIGNE ont été contrôlées visuellement : elles ne contiennent aucune photo d'équipement ni vidéo. Le rapport de production 26-08196-24696, page 12, vise le dépôt de procédures au greffe le 1er mai 2026 et ne concerne pas les images d'une production télévisée. Aucun lot acquis ne peut encore être identifié avec certitude comme les photos ou vidéos prises par l'huissier et détenues par Quadro. Les originaux WhatsApp et vidéos évoqués dans les correspondances restent une piste de récupération, sans preuve de réception des médias.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p. 1–3, huissier Michel Gaucher, matricule 284, 17 décembre 2025",
+        "apport": "Identifie l'opération et l'huissier à partir desquels rechercher le lot média. Pièce de contexte, non photos/vidéos.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+        "repere": "p. 55, 11:25:36–11:25:59; p. 74–78 après Recording stop",
+        "apport": "Demande des médias en possession; réserve sur les vidéos de production; déclarations d'envoi de photos après la séance, sans réception démontrée.",
+        "nature": "declaration"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "Toutes les 12 pages vues; notamment page 12, rapport 26-08196-24696 du 1er mai 2026 à 13 h 15",
+        "apport": "Rapports procéduraux sans photo d'équipement. Le « rapport de production » concerne le dépôt au greffe et ne constitue pas une livraison de médias.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf",
+        "repere": "Page 1, PV manuscrit portant le 17 décembre 2025; contrôle visuel réalisé",
+        "apport": "Version avec une signature à la rubrique « le gardien », désignation manuscrite Kostas Kronis et 5505 Irwin, LaSalle. Identité de la personne ayant signé et date de signature à confirmer; aucune convention détaillée distincte fournie.",
+        "nature": "original"
+      }
+    ],
+    "manquants": [
+      "Photos/vidéos natives effectivement prises par l'huissier et actuellement détenues, avec auteur, date et lien au PV.",
+      "Preuve de réception/transfert des supports; distinction avec les fichiers de la production télévisée et les images prises par d'autres personnes.",
+      "Confirmation de ce qui est réellement en possession de Quadro et de ce qui reste détenu par un tiers."
+    ],
+    "demarches": [
+      "Inventorier les supports détenus par les participants et les éventuels liens Drive, avec noms de fichiers et origine, avant de déclarer la possession.",
+      "À partir du PV, demander le bordereau ou les copies du lot de l'huissier; identifier séparément la production si ses images sont recherchées.",
+      "Conserver les originaux et leurs métadonnées; n'attribuer ni date de saisie, ni auteur, ni causalité sur la seule apparence d'une image.",
+      "Élargir la recherche aux adresses du domaine gaucherhuissier.com, notamment la chaîne de Karina Charlebois relative à la facture 8695, ainsi qu'aux échanges saj@huissierdejustice.ca; rechercher séparément les exports WhatsApp annoncés."
+    ],
+    "controles": [
+      "Contrôle visuel des six fichiers I01 à I06 de photos-drive : même vitrine ronde au verre cassé, emballage VEVOR, aucune attribution à l'huissier établie; champs date/auteur EXIF contrôlés non renseignés.",
+      "Ces six photos ne sont pas jointes comme si elles satisfaisaient la demande; elles restent conservées dans leur catégorie d'origine.",
+      "L'annexe du PV comporte des biens d'abord non représentés puis retrouvés; ne pas associer des médias à une disparition définitive à partir d'une ligne rayée.",
+      "Les pages après Recording stop ne sont pas qualifiées automatiquement de témoignage formel.",
+      "Les rapports de l'huissier sont désormais acquis; leur disponibilité ne suffit pas à déclarer les médias récupérés.",
+      "Les montants ventilés dans RAPPORT_F et les deux versions de la facture 8695 décrivent les mêmes prestations; ils ne doivent pas être additionnés comme charges supplémentaires."
+    ],
+    "recherche_effectuee": [
+      "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+      "Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+      "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+      "Recherche photos, vidéos, huissier, Michel Gaucher, saisie, production, Brindamour; contrôle visuel de I01–I06.",
+      "Gmail Takatak : {from:huissierdejustice.ca to:huissierdejustice.ca} {Quadro Harmony \"136442\"} sans résultat; ce résultat limité ne prouve pas l'absence d'autres adresses ou supports.",
+      "Complément du 21 octobre : lecture native et contrôle visuel des 12 pages de RAPPORT_F, de la page de PV_SIGNE et de la facture 8695 récupérés dans Ooeuf depuis le courriel MANDAT COMPLÉTÉ du 1er mai 2026. Empreintes et réserves dans 13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md."
+    ]
+  }
+]

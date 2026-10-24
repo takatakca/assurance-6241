@@ -1,0 +1,20 @@
+Message Gmail : 1a10d119b71c4554
+Source : HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/lectures-003.json
+SHA256 source : 8390381b644258391d0a878eb425a726a82dd226de5e08c28de16986c13c46b3
+Méthode : Texte dérivé du HTML avec HTMLParser; HTML et en-têtes conservés dans la sélection JSON.
+Subject: QUADRO / Harmony — 5/7 — Contrats, saisie, huissier et garde des biens
+To: cdufourd@dufourdion.com
+From: takatak.ca@gmail.com
+Date: Mon, 5 Oct 2026 19:17:00 +0200
+Message-Id: <CAGN0CqiX0czhnK3NiwUUBJ=QJjaxpgzEAFs_yu8sP0O4TxJv5Q@mail.gmail.com>
+
+
+Bonjour Me Dufourd,
+Dans l’archive, ouvrir « Contrats, assurance et procédures ». Le procès-verbal, l’opposition et les demandes retrouvées permettent d’organiser la chronologie, mais les conclusions demandées dans une procédure ne doivent pas être prises pour une ordonnance rendue.
+Le procès-verbal récupéré situe la saisie au 1600, 55e avenue, Lachine, et mentionne le gardien Kostas Kronis au 5505 Irwin, LaSalle. Merci de vérifier la date, les biens effectivement saisis, les objets retrouvés ultérieurement et les conditions de garde contre les originaux.
+Merci également de vérifier l’ordonnance actuellement applicable et les autorisations nécessaires avant déplacement, branchement ou essais. Les règles sur la garde ne constituent pas automatiquement une permission générale de tester les appareils.
+Pour isoler la responsabilité alléguée, les pièces prioritaires sont : mandat et facture du transporteur de récupération; inventaire de chargement; observations du huissier avant chaque manutention; photos/vidéos originales; reçu d’arrivée et contrat de garde; identité et observations des personnes présentes. Le nom « Mike » et les noms du transporteur transcrits par Fieldy restent à confirmer.
+Les faits que je rapporte concernant menaces, rétention, pièces manquantes et manutention doivent être rattachés aux messages ou constats précis, sans être présentés comme déjà jugés.
+Pièces : Télécharger l’archive ALBUMS-AVOCAT.zip. Accès accordé à votre adresse en lecture seule. Extraire l’archive et ouvrir INDEX-ALBUMS.html pour accéder aux pièces par volet.
+Ces explications sont une préparation administrative pour votre examen; les originaux et votre analyse juridique priment.
+Merci.

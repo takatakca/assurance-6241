@@ -1,0 +1,19 @@
+Message Gmail : 1a10d1182b2319b2
+Source : HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/lectures-003.json
+SHA256 source : 8390381b644258391d0a878eb425a726a82dd226de5e08c28de16986c13c46b3
+Méthode : Texte dérivé du HTML avec HTMLParser; HTML et en-têtes conservés dans la sélection JSON.
+Subject: QUADRO / Harmony — 3/7 — Photos, descriptions et comparaison avant / saisie / après
+To: cdufourd@dufourdion.com
+From: takatak.ca@gmail.com
+Date: Mon, 5 Oct 2026 19:16:54 +0200
+Message-Id: <CAGN0CqhG2V+8M3K7tNpKQVXM1mNKPpqC6w7O8ZA6EKF2KGCsHg@mail.gmail.com>
+
+
+Bonjour Me Dufourd,
+Dans l’archive, ouvrir « Photos et factures photographiées » et CATALOGUE-IMAGES.md. Les images sont indexées et décrites; les copies orientées ou destinées à l’affichage sont distinguées des fichiers récupérés.
+Limite importante : cet album regroupe les images effectivement retrouvées. Il ne constitue pas encore une série complète et authentifiée des photos avant le déménagement, chez Harmony avant la récupération, puis après l’arrivée. Les originaux WhatsApp du huissier et les vidéos de manutention doivent encore être obtenus et rapprochés des mêmes appareils.
+Les six photos de vitrine cylindrique et carton VEVOR sont conservées à ma demande, mais leur lien avec Harmony et la date de prise de vue ne sont pas établis. Les captures de cuisine ne doivent pas être présentées comme des photos du huissier sans identification. La date d’ajout dans Drive n’est pas la date de prise de vue.
+Pour répondre à la théorie adverse, je propose votre examen d’un tableau : appareil / état avant Harmony / état constaté avant chargement de récupération / état à destination / témoin / original horodaté. Un défaut déjà photographié avant le chargement de récupération serait particulièrement pertinent, sous réserve de l’authentification.
+Pièces : Télécharger l’archive ALBUMS-AVOCAT.zip. Accès accordé à votre adresse en lecture seule. Extraire l’archive et ouvrir INDEX-ALBUMS.html pour accéder aux pièces par volet.
+Ces explications sont une préparation administrative pour votre examen; les originaux et votre analyse juridique priment.
+Merci.

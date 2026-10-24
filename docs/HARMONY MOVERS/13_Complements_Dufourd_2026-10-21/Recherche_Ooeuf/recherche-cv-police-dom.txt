@@ -1,0 +1,522 @@
+URL : https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%7B%22curriculum+vitae%22+%22autorisation+police%22+%22autorisation+SPVM%22+%22rapport+de+police%22%7D
+
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 16
+    - text: sur 16
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - 'row "catherine.r. .. moi 6, TR: Quadro Holdings – soutien documentaire de Groupe Takatak, contient une pièce jointe, 20 oct., notre dossier de réclamation 23910-009447 SNB, relatif aux dommages subis par nos équipements de restauration à la suite."':
+        - gridcell
+        - 'gridcell "catherine.r. .. moi 6, TR: Quadro Holdings – soutien documentaire de Groupe Takatak, contient une pièce jointe, 20 oct., notre dossier de réclamation 23910-009447 SNB, relatif aux dommages subis par nos équipements de restauration à la suite."':
+          - 'checkbox "catherine.r. .. moi 6, TR: Quadro Holdings – soutien documentaire de Groupe Takatak, contient une pièce jointe, 20 oct., notre dossier de réclamation 23910-009447 SNB, relatif aux dommages subis par nos équipements de restauration à la suite."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "catherine.r. .. moi 6":
+          - generic: catherine.r. .. moi
+          - generic: "6"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes TR: Quadro Holdings – soutien documentaire de Groupe Takatak - notre dossier de réclamation 23910-009447 SNB, relatif aux dommages subis par nos équipements de restauration à la suite Pièce jointe : QC - Lettre - Assuré - Réserve de droits.pdf 1 autre pièce jointe"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes TR: Quadro Holdings – soutien documentaire de Groupe Takatak - notre dossier de réclamation 23910-009447 SNB, relatif aux dommages subis par nos équipements de restauration à la suite"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "TR: Quadro Holdings – soutien documentaire de Groupe Takatak"
+            - generic: "-"
+            - text: notre dossier de réclamation 23910-009447 SNB, relatif aux dommages subis par nos équipements de restauration à la suite
+          - generic "QC - Lettre - Assuré - Réserve de droits.pdf":
+            - generic: "Pièce jointe :"
+            - generic: QC - Lettre - Assuré - Réserve de droits.pdf
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "mar. 20 oct. 2026 14 h 12":
+          - generic "mar. 20 oct. 2026 14 h 12": 20 oct.
+        - gridcell
+      - row "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., la liste de vos engagements. Merci de me les communiquer dès que possible. 1. Produire une copie de votre curriculum vitae.":
+        - gridcell
+        - gridcell "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., la liste de vos engagements. Merci de me les communiquer dès que possible. 1. Produire une copie de votre curriculum vitae.":
+          - checkbox "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., la liste de vos engagements. Merci de me les communiquer dès que possible. 1. Produire une copie de votre curriculum vitae."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "cdufourd, moi 2":
+          - generic: cdufourd, moi
+          - generic: "2"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - la liste de vos engagements. Merci de me les communiquer dès que possible. 1. Produire une copie de votre curriculum vitae":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - la liste de vos engagements. Merci de me les communiquer dès que possible. 1. Produire une copie de votre curriculum vitae":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Votre dossier - Dufourd, Dion Avocats
+            - generic: "-"
+            - text: la liste de vos engagements. Merci de me les communiquer dès que possible. 1. Produire une copie de votre curriculum vitae
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "lun. 5 oct. 2026 14 h 29":
+          - generic "lun. 5 oct. 2026 14 h 29": 5 oct.
+        - gridcell
+      - 'row "marquée d''une étoile, moi, Sylvain 8, Rapport de police, contient une pièce jointe, 30 juin, Re: Rapport de police To: Sylvain Bernier Bonjour Sylvain nous attendons votre retour d''appel. On Thu, Apr 16, 2026."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi, Sylvain 8, Rapport de police, contient une pièce jointe, 30 juin, Re: Rapport de police To: Sylvain Bernier Bonjour Sylvain nous attendons votre retour d''appel. On Thu, Apr 16, 2026."':
+          - 'checkbox "marquée d''une étoile, moi, Sylvain 8, Rapport de police, contient une pièce jointe, 30 juin, Re: Rapport de police To: Sylvain Bernier Bonjour Sylvain nous attendons votre retour d''appel. On Thu, Apr 16, 2026."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi, Sylvain 8":
+          - generic: moi, Sylvain
+          - generic: "8"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Rapport de police - Re: Rapport de police To: Sylvain Bernier Bonjour Sylvain nous attendons votre retour d''appel. On Thu, Apr 16, 2026 Pièce jointe : image001.jpg Pièce jointe : 1000101128.jpg 2 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Rapport de police - Re: Rapport de police To: Sylvain Bernier Bonjour Sylvain nous attendons votre retour d''appel. On Thu, Apr 16, 2026"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Rapport de police
+            - generic: "-"
+            - text: "Re: Rapport de police To: Sylvain Bernier Bonjour Sylvain nous attendons votre retour d'appel. On Thu, Apr 16, 2026"
+          - generic "image001.jpg":
+            - generic: "Pièce jointe :"
+            - generic: image001.jpg
+          - generic "1000101128.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000101128.jpg
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "mar. 30 juin 2026 22 h 44":
+          - generic "mar. 30 juin 2026 22 h 44": 30 juin
+        - gridcell
+      - 'row "marquée d''une étoile, moi, yan 8, Objet : Réponse formelle à votre offre de règlement, contient une pièce jointe, 30 mai, : > De toute évidence Pierre et moi n''avons pas les mêmes moyens financiers. > Moi je ne peux pas me permettre de."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi, yan 8, Objet : Réponse formelle à votre offre de règlement, contient une pièce jointe, 30 mai, : > De toute évidence Pierre et moi n''avons pas les mêmes moyens financiers. > Moi je ne peux pas me permettre de."':
+          - 'checkbox "marquée d''une étoile, moi, yan 8, Objet : Réponse formelle à votre offre de règlement, contient une pièce jointe, 30 mai, : > De toute évidence Pierre et moi n''avons pas les mêmes moyens financiers. > Moi je ne peux pas me permettre de."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi, yan 8":
+          - generic: moi, yan
+          - generic: "8"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… Objet : Réponse formelle à votre offre de règlement - : > De toute évidence Pierre et moi n''avons pas les mêmes moyens financiers. > Moi je ne peux pas me permettre de Pièce jointe : swvdh5ky.png Pièce jointe : yugcuenh.png Pièce jointe : 2rwh1bji.png 8 autres pièces jointes"':
+          - 'link "Boîte de réception 🏛️ Gouvernement & Impô… Objet : Réponse formelle à votre offre de règlement - : > De toute évidence Pierre et moi n''avons pas les mêmes moyens financiers. > Moi je ne peux pas me permettre de"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic: "Objet : Réponse formelle à votre offre de règlement"
+            - generic: "-"
+            - text: ": > De toute évidence Pierre et moi n'avons pas les mêmes moyens financiers. > Moi je ne peux pas me permettre de"
+          - generic "swvdh5ky.png":
+            - generic: "Pièce jointe :"
+            - generic: swvdh5ky.png
+          - generic "yugcuenh.png":
+            - generic: "Pièce jointe :"
+            - generic: yugcuenh.png
+          - generic "2rwh1bji.png":
+            - generic: "Pièce jointe :"
+            - generic: 2rwh1bji.png
+          - generic "8 autres pièces jointes":
+            - button "8 autres pièces jointes": "+8"
+        - gridcell
+        - gridcell "sam. 30 mai 2026 14 h 43":
+          - generic "sam. 30 mai 2026 14 h 43": 30 mai
+        - gridcell
+      - row "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, un sommaire de tous les échanges courriel qui etais enregistrer. Chatgpt a faite le trie. Si il y a des informations que tu.":
+        - gridcell
+        - gridcell "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, un sommaire de tous les échanges courriel qui etais enregistrer. Chatgpt a faite le trie. Si il y a des informations que tu.":
+          - checkbox "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, un sommaire de tous les échanges courriel qui etais enregistrer. Chatgpt a faite le trie. Si il y a des informations que tu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - gridcell "✉️ J'ai répondu Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers - un sommaire de tous les échanges courriel qui etais enregistrer. Chatgpt a faite le trie. Si il y a des informations que tu":
+          - link "✉️ J'ai répondu Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers - un sommaire de tous les échanges courriel qui etais enregistrer. Chatgpt a faite le trie. Si il y a des informations que tu":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers
+            - generic: "-"
+            - text: un sommaire de tous les échanges courriel qui etais enregistrer. Chatgpt a faite le trie. Si il y a des informations que tu
+        - gridcell
+        - gridcell "jeu. 28 mai 2026 17 h 08":
+          - generic "jeu. 28 mai 2026 17 h 08": 28 mai
+        - gridcell
+      - 'row "moi 2, Objet : Clarification concernant les obligations contractuelles et la responsabilité , contient une pièce jointe, 27 mai, ''équipement de nos locaux, avec ses propres employés, ses propres équipements et sa propre assurance. Dès qu''."':
+        - gridcell
+        - 'gridcell "moi 2, Objet : Clarification concernant les obligations contractuelles et la responsabilité , contient une pièce jointe, 27 mai, ''équipement de nos locaux, avec ses propres employés, ses propres équipements et sa propre assurance. Dès qu''."':
+          - 'checkbox "moi 2, Objet : Clarification concernant les obligations contractuelles et la responsabilité , contient une pièce jointe, 27 mai, ''équipement de nos locaux, avec ses propres employés, ses propres équipements et sa propre assurance. Dès qu''."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes Objet : Clarification concernant les obligations contractuelles et la responsabilité - ''équipement de nos locaux, avec ses propres employés, ses propres équipements et sa propre assurance. Dès qu'' Pièce jointe : image005.png Pièce jointe : image002.png"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes Objet : Clarification concernant les obligations contractuelles et la responsabilité - ''équipement de nos locaux, avec ses propres employés, ses propres équipements et sa propre assurance. Dès qu''"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Objet : Clarification concernant les obligations contractuelles et la responsabilité"
+            - generic: "-"
+            - text: "'équipement de nos locaux, avec ses propres employés, ses propres équipements et sa propre assurance. Dès qu'"
+          - generic "image005.png":
+            - generic: "Pièce jointe :"
+            - generic: image005.png
+          - generic "image002.png":
+            - generic: "Pièce jointe :"
+            - generic: image002.png
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "moi 2, ÉTAPE 1 — REQUÊTE EN INJONCTION PROVISOIRE, 27 mai, Montréal No de dossier : ___________________ PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO."':
+        - gridcell
+        - 'gridcell "moi 2, ÉTAPE 1 — REQUÊTE EN INJONCTION PROVISOIRE, 27 mai, Montréal No de dossier : ___________________ PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO."':
+          - 'checkbox "moi 2, ÉTAPE 1 — REQUÊTE EN INJONCTION PROVISOIRE, 27 mai, Montréal No de dossier : ___________________ PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu ÉTAPE 1 — REQUÊTE EN INJONCTION PROVISOIRE - Montréal No de dossier : ___________________ PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO"':
+          - 'link "✉️ J''ai répondu ÉTAPE 1 — REQUÊTE EN INJONCTION PROVISOIRE - Montréal No de dossier : ___________________ PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: ÉTAPE 1 — REQUÊTE EN INJONCTION PROVISOIRE
+            - generic: "-"
+            - text: "Montréal No de dossier : ___________________ PIERRE LÉVESQUE, ès-qualités de représentant dûment autorisé de QUADRO"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, : Situation de transport 12 Juin 2025 To: plevesquemtl@gmail.com Cc: Oeuf Déjeuner , Service @ Harmony Movers < service."':
+        - gridcell
+        - 'gridcell "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, : Situation de transport 12 Juin 2025 To: plevesquemtl@gmail.com Cc: Oeuf Déjeuner , Service @ Harmony Movers < service."':
+          - 'checkbox "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, : Situation de transport 12 Juin 2025 To: plevesquemtl@gmail.com Cc: Oeuf Déjeuner , Service @ Harmony Movers < service."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Accounting, moi 4":
+          - generic: Accounting, moi
+          - generic: "4"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes Fw: RE: Re[2]: Situation de transport 12 Juin 2025 - : Situation de transport 12 Juin 2025 To: plevesquemtl@gmail.com Cc: Oeuf Déjeuner , Service @ Harmony Movers < service"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes Fw: RE: Re[2]: Situation de transport 12 Juin 2025 - : Situation de transport 12 Juin 2025 To: plevesquemtl@gmail.com Cc: Oeuf Déjeuner , Service @ Harmony Movers < service"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: RE: Re[2]: Situation de transport 12 Juin 2025"
+            - generic: "-"
+            - text: ": Situation de transport 12 Juin 2025 To: plevesquemtl@gmail.com Cc: Oeuf Déjeuner , Service @ Harmony Movers < service"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "moi 2, ÉTAPE 3 — LETTRE DE TRANSMISSION AU GREFFE, 27 mai, — LETTRE DE TRANSMISSION AU GREFFE To: Date : ______ juin 2025 À l''attention du Greffe Palais de justice de Montréal 1."':
+        - gridcell
+        - 'gridcell "moi 2, ÉTAPE 3 — LETTRE DE TRANSMISSION AU GREFFE, 27 mai, — LETTRE DE TRANSMISSION AU GREFFE To: Date : ______ juin 2025 À l''attention du Greffe Palais de justice de Montréal 1."':
+          - 'checkbox "moi 2, ÉTAPE 3 — LETTRE DE TRANSMISSION AU GREFFE, 27 mai, — LETTRE DE TRANSMISSION AU GREFFE To: Date : ______ juin 2025 À l''attention du Greffe Palais de justice de Montréal 1."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu ÉTAPE 3 — LETTRE DE TRANSMISSION AU GREFFE - — LETTRE DE TRANSMISSION AU GREFFE To: Date : ______ juin 2025 À l''attention du Greffe Palais de justice de Montréal 1"':
+          - 'link "✉️ J''ai répondu ÉTAPE 3 — LETTRE DE TRANSMISSION AU GREFFE - — LETTRE DE TRANSMISSION AU GREFFE To: Date : ______ juin 2025 À l''attention du Greffe Palais de justice de Montréal 1"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: ÉTAPE 3 — LETTRE DE TRANSMISSION AU GREFFE
+            - generic: "-"
+            - text: "— LETTRE DE TRANSMISSION AU GREFFE To: Date : ______ juin 2025 À l'attention du Greffe Palais de justice de Montréal 1"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "moi, yan 5, Échange concernant la quittance lors de cette réunion , contient une pièce jointe, 27 mai, quittance lors de cette réunion To: yan romanowski Par ailleurs, nous devons souligner un élément crucial : la facturation."':
+        - gridcell
+        - 'gridcell "moi, yan 5, Échange concernant la quittance lors de cette réunion , contient une pièce jointe, 27 mai, quittance lors de cette réunion To: yan romanowski Par ailleurs, nous devons souligner un élément crucial : la facturation."':
+          - 'checkbox "moi, yan 5, Échange concernant la quittance lors de cette réunion , contient une pièce jointe, 27 mai, quittance lors de cette réunion To: yan romanowski Par ailleurs, nous devons souligner un élément crucial : la facturation."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi, yan 5":
+          - generic: moi, yan
+          - generic: "5"
+        - 'gridcell "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes Échange concernant la quittance lors de cette réunion - quittance lors de cette réunion To: yan romanowski Par ailleurs, nous devons souligner un élément crucial : la facturation Pièce jointe : image005.png Pièce jointe : image002.png Pièce jointe : image001.jpg 3 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes Échange concernant la quittance lors de cette réunion - quittance lors de cette réunion To: yan romanowski Par ailleurs, nous devons souligner un élément crucial : la facturation"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Échange concernant la quittance lors de cette réunion
+            - generic: "-"
+            - text: "quittance lors de cette réunion To: yan romanowski Par ailleurs, nous devons souligner un élément crucial : la facturation"
+          - generic "image005.png":
+            - generic: "Pièce jointe :"
+            - generic: image005.png
+          - generic "image002.png":
+            - generic: "Pièce jointe :"
+            - generic: image002.png
+          - generic "image001.jpg":
+            - generic: "Pièce jointe :"
+            - generic: image001.jpg
+          - generic "3 autres pièces jointes":
+            - button "3 autres pièces jointes": "+3"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 43":
+          - generic "mer. 27 mai 2026 11 h 43": 27 mai
+        - gridcell
+      - row "moi 2, ÉTAPE 2 — AFFIDAVIT DÉTAILLÉ , 27 mai, et administrateur de Quadro Holding ltée (« Quadro »), entreprise inscrite au registre des entreprises du Québec, dont.":
+        - gridcell
+        - gridcell "moi 2, ÉTAPE 2 — AFFIDAVIT DÉTAILLÉ , 27 mai, et administrateur de Quadro Holding ltée (« Quadro »), entreprise inscrite au registre des entreprises du Québec, dont.":
+          - checkbox "moi 2, ÉTAPE 2 — AFFIDAVIT DÉTAILLÉ , 27 mai, et administrateur de Quadro Holding ltée (« Quadro »), entreprise inscrite au registre des entreprises du Québec, dont."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - gridcell "✉️ J'ai répondu ÉTAPE 2 — AFFIDAVIT DÉTAILLÉ - et administrateur de Quadro Holding ltée (« Quadro »), entreprise inscrite au registre des entreprises du Québec, dont":
+          - link "✉️ J'ai répondu ÉTAPE 2 — AFFIDAVIT DÉTAILLÉ - et administrateur de Quadro Holding ltée (« Quadro »), entreprise inscrite au registre des entreprises du Québec, dont":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: ÉTAPE 2 — AFFIDAVIT DÉTAILLÉ
+            - generic: "-"
+            - text: et administrateur de Quadro Holding ltée (« Quadro »), entreprise inscrite au registre des entreprises du Québec, dont
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 43":
+          - generic "mer. 27 mai 2026 11 h 43": 27 mai
+        - gridcell
+      - row "moi 2, ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES, 27 mai, 4 Courriels de “modifications” unilatérales Quatre courriels datés 12-14 juin par Harmony Movers imposant frais ou conditions.":
+        - gridcell
+        - gridcell "moi 2, ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES, 27 mai, 4 Courriels de “modifications” unilatérales Quatre courriels datés 12-14 juin par Harmony Movers imposant frais ou conditions.":
+          - checkbox "moi 2, ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES, 27 mai, 4 Courriels de “modifications” unilatérales Quatre courriels datés 12-14 juin par Harmony Movers imposant frais ou conditions."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - gridcell "✉️ J'ai répondu ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES - 4 Courriels de “modifications” unilatérales Quatre courriels datés 12-14 juin par Harmony Movers imposant frais ou conditions":
+          - link "✉️ J'ai répondu ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES - 4 Courriels de “modifications” unilatérales Quatre courriels datés 12-14 juin par Harmony Movers imposant frais ou conditions":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: ÉTAPE 4 — LISTE DÉTAILLÉE DES PIÈCES JUSTIFICATIVES
+            - generic: "-"
+            - text: 4 Courriels de “modifications” unilatérales Quatre courriels datés 12-14 juin par Harmony Movers imposant frais ou conditions
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 43":
+          - generic "mer. 27 mai 2026 11 h 43": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, yromanowski, moi 7, Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860], contient une pièce jointe, 27 mai, -- De : Date : 2026-02-13T22:11:32.000-05:00 Sujet : Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, yromanowski, moi 7, Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860], contient une pièce jointe, 27 mai, -- De : Date : 2026-02-13T22:11:32.000-05:00 Sujet : Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860."':
+          - 'checkbox "marquée d''une étoile, yromanowski, moi 7, Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860], contient une pièce jointe, 27 mai, -- De : Date : 2026-02-13T22:11:32.000-05:00 Sujet : Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "yromanowski, moi 7":
+          - generic: yromanowski, moi
+          - generic: "7"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860] - -- De : Date : 2026-02-13T22:11:32.000-05:00 Sujet : Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860 Pièce jointe : Annexe_division_de_Montreal_-_4_declaration_commune_pour_fixation_d_une_audience (1)(90004563.1).doc 1 autre pièce jointe"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860] - -- De : Date : 2026-02-13T22:11:32.000-05:00 Sujet : Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860]"
+            - generic: "-"
+            - text: "-- De : Date : 2026-02-13T22:11:32.000-05:00 Sujet : Fw: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. [MTDMS-LEGAL.FID13991860"
+          - generic "Annexe_division_de_Montreal_-_4_declaration_commune_pour_fixation_d_une_audience (1)(90004563.1).doc":
+            - generic: "Pièce jointe :"
+            - generic: Annexe_division_de_Montreal_-_4_declaration_commune_pour_fixation_d_une_audience (1)(90004563.1).doc
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 41":
+          - generic "mer. 27 mai 2026 11 h 41": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Accounting .. moi 5, RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, : Situation de transport 12 Juin 2025 To: Oeuf Déjeuner La mise en demeure a été envoyé par courriel à 15:46 Le ven. 12 sept.."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Accounting .. moi 5, RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, : Situation de transport 12 Juin 2025 To: Oeuf Déjeuner La mise en demeure a été envoyé par courriel à 15:46 Le ven. 12 sept.."':
+          - 'checkbox "marquée d''une étoile, Accounting .. moi 5, RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, : Situation de transport 12 Juin 2025 To: Oeuf Déjeuner La mise en demeure a été envoyé par courriel à 15:46 Le ven. 12 sept.."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Accounting .. moi 5":
+          - generic: Accounting .. moi
+          - generic: "5"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes RE: Re[2]: Situation de transport 12 Juin 2025 - : Situation de transport 12 Juin 2025 To: Oeuf Déjeuner La mise en demeure a été envoyé par courriel à 15:46 Le ven. 12 sept."':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes RE: Re[2]: Situation de transport 12 Juin 2025 - : Situation de transport 12 Juin 2025 To: Oeuf Déjeuner La mise en demeure a été envoyé par courriel à 15:46 Le ven. 12 sept."':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "RE: Re[2]: Situation de transport 12 Juin 2025"
+            - generic: "-"
+            - text: ": Situation de transport 12 Juin 2025 To: Oeuf Déjeuner La mise en demeure a été envoyé par courriel à 15:46 Le ven. 12 sept."
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 41":
+          - generic "mer. 27 mai 2026 11 h 41": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, yromanowski .. moi 7, Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers, contient une pièce jointe, 27 mai, -- De : Lev @ Harmony Movers Date : 2025-09-19T15:34:26.000-04:00 Sujet : Re: URGENT: Quatro Holdings Ltée c Harmony Movers."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, yromanowski .. moi 7, Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers, contient une pièce jointe, 27 mai, -- De : Lev @ Harmony Movers Date : 2025-09-19T15:34:26.000-04:00 Sujet : Re: URGENT: Quatro Holdings Ltée c Harmony Movers."':
+          - 'checkbox "marquée d''une étoile, yromanowski .. moi 7, Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers, contient une pièce jointe, 27 mai, -- De : Lev @ Harmony Movers Date : 2025-09-19T15:34:26.000-04:00 Sujet : Re: URGENT: Quatro Holdings Ltée c Harmony Movers."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "yromanowski .. moi 7":
+          - generic: yromanowski .. moi
+          - generic: "7"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers - -- De : Lev @ Harmony Movers Date : 2025-09-19T15:34:26.000-04:00 Sujet : Re: URGENT: Quatro Holdings Ltée c Harmony Movers Pièce jointe : 2rwh1bji.png Pièce jointe : swvdh5ky.png Pièce jointe : image001.png 21 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers - -- De : Lev @ Harmony Movers Date : 2025-09-19T15:34:26.000-04:00 Sujet : Re: URGENT: Quatro Holdings Ltée c Harmony Movers"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: Re: URGENT: Quatro Holdings Ltée c Harmony Movers"
+            - generic: "-"
+            - text: "-- De : Lev @ Harmony Movers Date : 2025-09-19T15:34:26.000-04:00 Sujet : Re: URGENT: Quatro Holdings Ltée c Harmony Movers"
+          - generic "2rwh1bji.png":
+            - generic: "Pièce jointe :"
+            - generic: 2rwh1bji.png
+          - generic "swvdh5ky.png":
+            - generic: "Pièce jointe :"
+            - generic: swvdh5ky.png
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "21 autres pièces jointes":
+            - button "21 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 39":
+          - generic "mer. 27 mai 2026 11 h 39": 27 mai
+        - gridcell
+      - row "moi, Daniel 3, Mise en demeure finale à envoyer à Harmony Movers, 2025-07-16, ai besoin de la procédure telle que déposée. > > > D. > > _____________________ > *Daniel Atudorei, Avocat.":
+        - gridcell
+        - gridcell "moi, Daniel 3, Mise en demeure finale à envoyer à Harmony Movers, 2025-07-16, ai besoin de la procédure telle que déposée. > > > D. > > _____________________ > *Daniel Atudorei, Avocat.":
+          - checkbox "moi, Daniel 3, Mise en demeure finale à envoyer à Harmony Movers, 2025-07-16, ai besoin de la procédure telle que déposée. > > > D. > > _____________________ > *Daniel Atudorei, Avocat."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi, Daniel 3":
+          - generic: moi, Daniel
+          - generic: "3"
+        - gridcell "Boîte de réception ✉️ J'ai répondu Mise en demeure finale à envoyer à Harmony Movers - ai besoin de la procédure telle que déposée. > > > D. > > _____________________ > *Daniel Atudorei, Avocat":
+          - link "Boîte de réception ✉️ J'ai répondu Mise en demeure finale à envoyer à Harmony Movers - ai besoin de la procédure telle que déposée. > > > D. > > _____________________ > *Daniel Atudorei, Avocat":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Mise en demeure finale à envoyer à Harmony Movers
+            - generic: "-"
+            - text: ai besoin de la procédure telle que déposée. > > > D. > > _____________________ > *Daniel Atudorei, Avocat
+        - gridcell
+        - gridcell "mer. 16 juill. 2025 17 h 59":
+          - generic "mer. 16 juill. 2025 17 h 59": 2025-07-16
+        - gridcell
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Menu principal
+- generic: Affichage de État des renseignements - Revenu Québec(25).PDF en cours. Page 1 sur 13
+- generic: Suivant

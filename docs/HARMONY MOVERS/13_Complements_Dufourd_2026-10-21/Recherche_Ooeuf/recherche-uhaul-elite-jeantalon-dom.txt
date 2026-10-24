@@ -1,0 +1,1115 @@
+URL : https://mail.google.com/mail/u/2/#search/in%3Aanywhere+%7B%22U-Haul%22+%22UHaul%22+%22Remorquage+Elite%22+%22Remorquage+%C3%89lite%22+%22Jean-Talon%22+%225837%22%7D+%7Bcontrat+bail+convention+location+facture+paiement%7D
+
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Est non lu":
+      - generic: Est non lu
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 50
+    - text: sur un grand nombre
+  - button "Suivant" [disabled]
+  - button "Précédent"
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "non lue, Too Good To Go, Une commande a été remboursée (dqkng93fek3k1), 10 h 55, remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (dqkng93fek3k1), 10 h 55, remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (dqkng93fek3k1), 10 h 55, remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (dqkng93fek3k1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (dqkng93fek3k1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (dqkng93fek3k1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mer. 21 oct. 2026 10 h 55":
+          - generic "mer. 21 oct. 2026 10 h 55": 10 h 55
+        - gridcell
+      - row "marquée d'une étoile, Alexandra, moi 3, 4518-1 / QUADRO HOLDINGS LTÉE / IMPORTANT, contient une pièce jointe, 20 oct., situé au 5837, rue Jean-Talon Est. Cette réflexion ne date pas d'hier. Compte tenu des difficultés accumulées au cours.":
+        - gridcell
+        - gridcell "marquée d'une étoile, Alexandra, moi 3, 4518-1 / QUADRO HOLDINGS LTÉE / IMPORTANT, contient une pièce jointe, 20 oct., situé au 5837, rue Jean-Talon Est. Cette réflexion ne date pas d'hier. Compte tenu des difficultés accumulées au cours.":
+          - checkbox "marquée d'une étoile, Alexandra, moi 3, 4518-1 / QUADRO HOLDINGS LTÉE / IMPORTANT, contient une pièce jointe, 20 oct., situé au 5837, rue Jean-Talon Est. Cette réflexion ne date pas d'hier. Compte tenu des difficultés accumulées au cours."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Alexandra, moi 3":
+          - generic: Alexandra, moi
+          - generic: "3"
+        - 'gridcell "Boîte de réception 4518-1 / QUADRO HOLDINGS LTÉE / IMPORTANT - situé au 5837, rue Jean-Talon Est. Cette réflexion ne date pas d''hier. Compte tenu des difficultés accumulées au cours Pièce jointe : Facture No 27905 au 20-10-2026.pdf 1 autre pièce jointe"':
+          - link "Boîte de réception 4518-1 / QUADRO HOLDINGS LTÉE / IMPORTANT - situé au 5837, rue Jean-Talon Est. Cette réflexion ne date pas d'hier. Compte tenu des difficultés accumulées au cours":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: 4518-1 / QUADRO HOLDINGS LTÉE / IMPORTANT
+            - generic: "-"
+            - text: situé au 5837, rue Jean-Talon Est. Cette réflexion ne date pas d'hier. Compte tenu des difficultés accumulées au cours
+          - generic "Facture No 27905 au 20-10-2026.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Facture No 27905 au 20-10-2026.pdf
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "mar. 20 oct. 2026 14 h 02":
+          - generic "mar. 20 oct. 2026 14 h 02": 20 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (tvf7c4en0fe41), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (tvf7c4en0fe41), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (tvf7c4en0fe41), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (tvf7c4en0fe41) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (tvf7c4en0fe41) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (tvf7c4en0fe41)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "mar. 20 oct. 2026 09 h 46":
+          - generic "mar. 20 oct. 2026 09 h 46": 20 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (vvs5p2reysbc1), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (vvs5p2reysbc1), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (vvs5p2reysbc1), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (vvs5p2reysbc1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (vvs5p2reysbc1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (vvs5p2reysbc1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "mar. 20 oct. 2026 09 h 46":
+          - generic "mar. 20 oct. 2026 09 h 46": 20 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (yeykvgxzcygt1), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (yeykvgxzcygt1), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (yeykvgxzcygt1), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (yeykvgxzcygt1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (yeykvgxzcygt1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (yeykvgxzcygt1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "mar. 20 oct. 2026 09 h 46":
+          - generic "mar. 20 oct. 2026 09 h 46": 20 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (hc8p51ymf8b11), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (hc8p51ymf8b11), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (hc8p51ymf8b11), 20 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (hc8p51ymf8b11) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (hc8p51ymf8b11) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (hc8p51ymf8b11)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell:
+          - toolbar:
+        - gridcell
+      - 'row "marquée d''une étoile, takatak, moi, Too 8, Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS, contient une pièce jointe, 19 oct., 5839 Rue Jean-Talon E (Saint-Leonard) What I need: 1. Verification: please have someone call me back so we can fix the verification."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, takatak, moi, Too 8, Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS, contient une pièce jointe, 19 oct., 5839 Rue Jean-Talon E (Saint-Leonard) What I need: 1. Verification: please have someone call me back so we can fix the verification."':
+          - 'checkbox "marquée d''une étoile, takatak, moi, Too 8, Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS, contient une pièce jointe, 19 oct., 5839 Rue Jean-Talon E (Saint-Leonard) What I need: 1. Verification: please have someone call me back so we can fix the verification."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "takatak, moi, Too 8":
+          - generic: takatak, moi, Too
+          - generic: "8"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte 📎 Pièces jointes Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS - 5839 Rue Jean-Talon E (Saint-Leonard) What I need: 1. Verification: please have someone call me back so we can fix the verification Pièce jointe : 1000149317.jpg"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte 📎 Pièces jointes Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS - 5839 Rue Jean-Talon E (Saint-Leonard) What I need: 1. Verification: please have someone call me back so we can fix the verification"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Re: [TGTG] Re: Canadian merchant integration request — TAKATAK FoodHub → Clover POS"
+            - generic: "-"
+            - text: "5839 Rue Jean-Talon E (Saint-Leonard) What I need: 1. Verification: please have someone call me back so we can fix the verification"
+          - generic "1000149317.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000149317.jpg
+        - gridcell
+        - gridcell "lun. 19 oct. 2026 02 h 11":
+          - generic "lun. 19 oct. 2026 02 h 11": 19 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (m3at7rvdka9q1), 18 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (m3at7rvdka9q1), 18 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (m3at7rvdka9q1), 18 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (m3at7rvdka9q1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (m3at7rvdka9q1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (m3at7rvdka9q1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "dim. 18 oct. 2026 19 h 49":
+          - generic "dim. 18 oct. 2026 19 h 49": 18 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (mpy4v0xsxyx11), 18 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (mpy4v0xsxyx11), 18 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (mpy4v0xsxyx11), 18 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (mpy4v0xsxyx11) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (mpy4v0xsxyx11) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (mpy4v0xsxyx11)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "dim. 18 oct. 2026 14 h 27":
+          - generic "dim. 18 oct. 2026 14 h 27": 18 oct.
+        - gridcell
+      - row "marquée d'une étoile, support@doo., moi 7, OOEUF SUPREME - Other - Point of Sale, contient une pièce jointe, 15 oct., 5839 Rue Jean-Talon E -INACTIVE 41887344 PPP Pizzeria 6280 Av Somerled -INACTIVE They all have been switched to order protocol.":
+        - gridcell
+        - gridcell "marquée d'une étoile, support@doo., moi 7, OOEUF SUPREME - Other - Point of Sale, contient une pièce jointe, 15 oct., 5839 Rue Jean-Talon E -INACTIVE 41887344 PPP Pizzeria 6280 Av Somerled -INACTIVE They all have been switched to order protocol.":
+          - checkbox "marquée d'une étoile, support@doo., moi 7, OOEUF SUPREME - Other - Point of Sale, contient une pièce jointe, 15 oct., 5839 Rue Jean-Talon E -INACTIVE 41887344 PPP Pizzeria 6280 Av Somerled -INACTIVE They all have been switched to order protocol."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "support@doo., moi 7":
+          - generic: support@doo., moi
+          - generic: "7"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📌 Reste dans la boîte 📎 Pièces jointes OOEUF SUPREME - Other - Point of Sale - 5839 Rue Jean-Talon E -INACTIVE 41887344 PPP Pizzeria 6280 Av Somerled -INACTIVE They all have been switched to order protocol Pièce jointe : Quadro_DoorDash_stores_full.xlsx"':
+          - link "Boîte de réception ✉️ J'ai répondu 📌 Reste dans la boîte 📎 Pièces jointes OOEUF SUPREME - Other - Point of Sale - 5839 Rue Jean-Talon E -INACTIVE 41887344 PPP Pizzeria 6280 Av Somerled -INACTIVE They all have been switched to order protocol":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: OOEUF SUPREME - Other - Point of Sale
+            - generic: "-"
+            - text: 5839 Rue Jean-Talon E -INACTIVE 41887344 PPP Pizzeria 6280 Av Somerled -INACTIVE They all have been switched to order protocol
+          - generic "Quadro_DoorDash_stores_full.xlsx":
+            - generic: "Pièce jointe :"
+            - generic: Quadro_DoorDash_stores_full.xlsx
+        - gridcell "Reçu il y a 6 jours. Répondre?":
+          - generic: Reçu il y a 6 jours. Répondre?
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (m65s1d52j5tb1), 17 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (m65s1d52j5tb1), 17 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (m65s1d52j5tb1), 17 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (m65s1d52j5tb1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (m65s1d52j5tb1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (m65s1d52j5tb1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "sam. 17 oct. 2026 12 h 25":
+          - generic "sam. 17 oct. 2026 12 h 25": 17 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (wj7g3xvd97v01), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la qualité de son Panier Surprise.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (wj7g3xvd97v01), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la qualité de son Panier Surprise.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (wj7g3xvd97v01), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la qualité de son Panier Surprise."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (wj7g3xvd97v01) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la qualité de son Panier Surprise":
+          - link "Boîte de réception Une commande a été remboursée (wj7g3xvd97v01) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la qualité de son Panier Surprise":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (wj7g3xvd97v01)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la qualité de son Panier Surprise
+        - gridcell
+        - gridcell "ven. 16 oct. 2026 19 h 35":
+          - generic "ven. 16 oct. 2026 19 h 35": 16 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (pprcmqps5rk91), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (pprcmqps5rk91), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (pprcmqps5rk91), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (pprcmqps5rk91) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (pprcmqps5rk91) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (pprcmqps5rk91)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "ven. 16 oct. 2026 13 h 04":
+          - generic "ven. 16 oct. 2026 13 h 04": 16 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (z0gacnat3gpt1), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (z0gacnat3gpt1), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (z0gacnat3gpt1), 16 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (z0gacnat3gpt1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception Une commande a été remboursée (z0gacnat3gpt1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (z0gacnat3gpt1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "ven. 16 oct. 2026 12 h 28":
+          - generic "ven. 16 oct. 2026 12 h 28": 16 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (vxdw9q3vndm01), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (vxdw9q3vndm01), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (vxdw9q3vndm01), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (vxdw9q3vndm01) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (vxdw9q3vndm01) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (vxdw9q3vndm01)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "mer. 14 oct. 2026 22 h 18":
+          - generic "mer. 14 oct. 2026 22 h 18": 14 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (7mcq8j12gckv1), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (7mcq8j12gckv1), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (7mcq8j12gckv1), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (7mcq8j12gckv1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "Boîte de réception Une commande a été remboursée (7mcq8j12gckv1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (7mcq8j12gckv1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "mer. 14 oct. 2026 20 h 02":
+          - generic "mer. 14 oct. 2026 20 h 02": 14 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (jdszntf5rs031), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (jdszntf5rs031), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (jdszntf5rs031), 14 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (jdszntf5rs031) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "Boîte de réception Une commande a été remboursée (jdszntf5rs031) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (jdszntf5rs031)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "mer. 14 oct. 2026 15 h 57":
+          - generic "mer. 14 oct. 2026 15 h 57": 14 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (km782myv175g1), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (km782myv175g1), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (km782myv175g1), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (km782myv175g1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "Boîte de réception Une commande a été remboursée (km782myv175g1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (km782myv175g1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "lun. 12 oct. 2026 18 h 31":
+          - generic "lun. 12 oct. 2026 18 h 31": 12 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (5bn7fsvq0nd31), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (5bn7fsvq0nd31), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (5bn7fsvq0nd31), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (5bn7fsvq0nd31) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (5bn7fsvq0nd31) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (5bn7fsvq0nd31)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "lun. 12 oct. 2026 17 h 27":
+          - generic "lun. 12 oct. 2026 17 h 27": 12 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (tx520dd7v5pj1), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (tx520dd7v5pj1), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (tx520dd7v5pj1), 12 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (tx520dd7v5pj1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (tx520dd7v5pj1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (tx520dd7v5pj1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "lun. 12 oct. 2026 14 h 06":
+          - generic "lun. 12 oct. 2026 14 h 06": 12 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (q3t6n04wzttz1), 11 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (q3t6n04wzttz1), 11 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (q3t6n04wzttz1), 11 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (q3t6n04wzttz1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (q3t6n04wzttz1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (q3t6n04wzttz1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "dim. 11 oct. 2026 11 h 20":
+          - generic "dim. 11 oct. 2026 11 h 20": 11 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (6ggcb67v5get1), 10 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (6ggcb67v5get1), 10 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (6ggcb67v5get1), 10 oct., remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception Une commande a été remboursée (6ggcb67v5get1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+          - link "Boîte de réception Une commande a été remboursée (6ggcb67v5get1) - remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Une commande a été remboursée (6ggcb67v5get1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé ne pas être satisfait de la quantité de produits de son Panier
+        - gridcell
+        - gridcell "sam. 10 oct. 2026 13 h 47":
+          - generic "sam. 10 oct. 2026 13 h 47": 10 oct.
+        - gridcell
+      - row "marquée d'une étoile, support@doordash.com 2, Taco Mexican - 5839 Rue Jean-Talon E - Integration Request - Point of Sale, 9 oct., 5839 Rue Jean-Talon E, This is Savannah your DoorDash Merchant Eperience Partner for Taco Mexican - 5839 Rue Jean-Talon.":
+        - gridcell
+        - gridcell "marquée d'une étoile, support@doordash.com 2, Taco Mexican - 5839 Rue Jean-Talon E - Integration Request - Point of Sale, 9 oct., 5839 Rue Jean-Talon E, This is Savannah your DoorDash Merchant Eperience Partner for Taco Mexican - 5839 Rue Jean-Talon.":
+          - checkbox "marquée d'une étoile, support@doordash.com 2, Taco Mexican - 5839 Rue Jean-Talon E - Integration Request - Point of Sale, 9 oct., 5839 Rue Jean-Talon E, This is Savannah your DoorDash Merchant Eperience Partner for Taco Mexican - 5839 Rue Jean-Talon."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "support@doordash.com 2":
+          - generic: support@doordash.com
+          - generic: "2"
+        - gridcell "Boîte de réception Taco Mexican - 5839 Rue Jean-Talon E - Integration Request - Point of Sale - 5839 Rue Jean-Talon E, This is Savannah your DoorDash Merchant Eperience Partner for Taco Mexican - 5839 Rue Jean-Talon":
+          - link "Boîte de réception Taco Mexican - 5839 Rue Jean-Talon E - Integration Request - Point of Sale - 5839 Rue Jean-Talon E, This is Savannah your DoorDash Merchant Eperience Partner for Taco Mexican - 5839 Rue Jean-Talon":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Taco Mexican - 5839 Rue Jean-Talon E - Integration Request - Point of Sale
+            - generic: "-"
+            - text: 5839 Rue Jean-Talon E, This is Savannah your DoorDash Merchant Eperience Partner for Taco Mexican - 5839 Rue Jean-Talon
+        - gridcell
+        - gridcell "ven. 9 oct. 2026 13 h 22":
+          - generic "ven. 9 oct. 2026 13 h 22": 9 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (8cdy71n2qdec1), 7 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (8cdy71n2qdec1), 7 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (8cdy71n2qdec1), 7 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception 📌 Reste dans la boîte Une commande a été remboursée (8cdy71n2qdec1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception 📌 Reste dans la boîte Une commande a été remboursée (8cdy71n2qdec1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic: Une commande a été remboursée (8cdy71n2qdec1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mer. 7 oct. 2026 18 h 00":
+          - generic "mer. 7 oct. 2026 18 h 00": 7 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (gvz6rrwrzzbt1), 5 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (gvz6rrwrzzbt1), 5 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (gvz6rrwrzzbt1), 5 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte Une commande a été remboursée (gvz6rrwrzzbt1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte Une commande a été remboursée (gvz6rrwrzzbt1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic: Une commande a été remboursée (gvz6rrwrzzbt1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "lun. 5 oct. 2026 17 h 29":
+          - generic "lun. 5 oct. 2026 17 h 29": 5 oct.
+        - gridcell
+      - row "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., Produire les factures, soumissions, déclarations d'experts et toute autre documentation concernant l'entretien.":
+        - gridcell
+        - gridcell "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., Produire les factures, soumissions, déclarations d'experts et toute autre documentation concernant l'entretien.":
+          - checkbox "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., Produire les factures, soumissions, déclarations d'experts et toute autre documentation concernant l'entretien."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "cdufourd, moi 2":
+          - generic: cdufourd, moi
+          - generic: "2"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - Produire les factures, soumissions, déclarations d'experts et toute autre documentation concernant l'entretien":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - Produire les factures, soumissions, déclarations d'experts et toute autre documentation concernant l'entretien":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Votre dossier - Dufourd, Dion Avocats
+            - generic: "-"
+            - text: Produire les factures, soumissions, déclarations d'experts et toute autre documentation concernant l'entretien
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "lun. 5 oct. 2026 14 h 29":
+          - generic "lun. 5 oct. 2026 14 h 29": 5 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (00h9amxc2h061), 4 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (00h9amxc2h061), 4 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (00h9amxc2h061), 4 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte Une commande a été remboursée (00h9amxc2h061) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte Une commande a été remboursée (00h9amxc2h061) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic: Une commande a été remboursée (00h9amxc2h061)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "dim. 4 oct. 2026 19 h 34":
+          - generic "dim. 4 oct. 2026 19 h 34": 4 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (3d0msxg9d0sd1), 4 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (3d0msxg9d0sd1), 4 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (3d0msxg9d0sd1), 4 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "Boîte de réception 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte Une commande a été remboursée (3d0msxg9d0sd1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "Boîte de réception 🍔 Plate…/Too Good To Go 📌 Reste dans la boîte Une commande a été remboursée (3d0msxg9d0sd1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic: Une commande a été remboursée (3d0msxg9d0sd1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "dim. 4 oct. 2026 14 h 33":
+          - generic "dim. 4 oct. 2026 14 h 33": 4 oct.
+        - gridcell
+      - 'row "non lue, Restaurants10, OOEUF Montréal -Hochelaga-: recent activity review for Montreal, 3 oct., Dear OOEUF Montréal -Hochelaga-, We are reaching out to let you know about recent activity on."':
+        - gridcell
+        - 'gridcell "non lue, Restaurants10, OOEUF Montréal -Hochelaga-: recent activity review for Montreal, 3 oct., Dear OOEUF Montréal -Hochelaga-, We are reaching out to let you know about recent activity on."':
+          - 'checkbox "non lue, Restaurants10, OOEUF Montréal -Hochelaga-: recent activity review for Montreal, 3 oct., Dear OOEUF Montréal -Hochelaga-, We are reaching out to let you know about recent activity on."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Restaurants10":
+          - generic: Restaurants10
+        - 'gridcell "Pourriel OOEUF Montréal -Hochelaga-: recent activity review for Montreal - Dear OOEUF Montréal -Hochelaga-, We are reaching out to let you know about recent activity on"':
+          - 'link "Pourriel OOEUF Montréal -Hochelaga-: recent activity review for Montreal - Dear OOEUF Montréal -Hochelaga-, We are reaching out to let you know about recent activity on"':
+            - generic "Pourriel":
+              - generic: Pourriel
+            - generic: "OOEUF Montréal -Hochelaga-: recent activity review for Montreal"
+            - generic: "-"
+            - text: Dear OOEUF Montréal -Hochelaga-, We are reaching out to let you know about recent activity on
+        - gridcell
+        - gridcell "sam. 3 oct. 2026 11 h 30":
+          - generic "sam. 3 oct. 2026 11 h 30": 3 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (fg7j0dtsb70q1), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (fg7j0dtsb70q1), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (fg7j0dtsb70q1), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (fg7j0dtsb70q1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (fg7j0dtsb70q1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (fg7j0dtsb70q1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "ven. 2 oct. 2026 22 h 41":
+          - generic "ven. 2 oct. 2026 22 h 41": 2 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (xhgs9m6wjgk31), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (xhgs9m6wjgk31), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (xhgs9m6wjgk31), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (xhgs9m6wjgk31) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (xhgs9m6wjgk31) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (xhgs9m6wjgk31)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "ven. 2 oct. 2026 22 h 39":
+          - generic "ven. 2 oct. 2026 22 h 39": 2 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (5x3nwgt7e3wt1), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (5x3nwgt7e3wt1), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (5x3nwgt7e3wt1), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (5x3nwgt7e3wt1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (5x3nwgt7e3wt1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (5x3nwgt7e3wt1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "ven. 2 oct. 2026 22 h 17":
+          - generic "ven. 2 oct. 2026 22 h 17": 2 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (b5xfpaqh8x851), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (b5xfpaqh8x851), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (b5xfpaqh8x851), 2 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (b5xfpaqh8x851) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (b5xfpaqh8x851) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (b5xfpaqh8x851)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "ven. 2 oct. 2026 22 h 09":
+          - generic "ven. 2 oct. 2026 22 h 09": 2 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (gaz0qkp9szas1), 1 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (gaz0qkp9szas1), 1 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (gaz0qkp9szas1), 1 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (gaz0qkp9szas1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (gaz0qkp9szas1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (gaz0qkp9szas1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "jeu. 1 oct. 2026 22 h 51":
+          - generic "jeu. 1 oct. 2026 22 h 51": 1 oct.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (zgc04hz1scg11), 1 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (zgc04hz1scg11), 1 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (zgc04hz1scg11), 1 oct., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (zgc04hz1scg11) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (zgc04hz1scg11) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (zgc04hz1scg11)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "jeu. 1 oct. 2026 19 h 14":
+          - generic "jeu. 1 oct. 2026 19 h 14": 1 oct.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (k1zmqzgmdzbb1), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (k1zmqzgmdzbb1), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (k1zmqzgmdzbb1), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (k1zmqzgmdzbb1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (k1zmqzgmdzbb1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (k1zmqzgmdzbb1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mer. 30 sept. 2026 22 h 47":
+          - generic "mer. 30 sept. 2026 22 h 47": 30 sept.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (gc08rfhm10ak1), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (gc08rfhm10ak1), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (gc08rfhm10ak1), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (gc08rfhm10ak1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (gc08rfhm10ak1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (gc08rfhm10ak1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mer. 30 sept. 2026 12 h 14":
+          - generic "mer. 30 sept. 2026 12 h 14": 30 sept.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (zdyvn30cmyy31), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (zdyvn30cmyy31), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (zdyvn30cmyy31), 30 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (zdyvn30cmyy31) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (zdyvn30cmyy31) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (zdyvn30cmyy31)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "mer. 30 sept. 2026 05 h 40":
+          - generic "mer. 30 sept. 2026 05 h 40": 30 sept.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (saf6785xzf511), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (saf6785xzf511), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (saf6785xzf511), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (saf6785xzf511) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (saf6785xzf511) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (saf6785xzf511)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 21 h 09":
+          - generic "mar. 29 sept. 2026 21 h 09": 29 sept.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (0bhf9hk28h7a1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (0bhf9hk28h7a1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (0bhf9hk28h7a1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (0bhf9hk28h7a1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (0bhf9hk28h7a1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (0bhf9hk28h7a1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 19 h 18":
+          - generic "mar. 29 sept. 2026 19 h 18": 29 sept.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (dsg7882p0g6b1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (dsg7882p0g6b1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (dsg7882p0g6b1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (dsg7882p0g6b1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (dsg7882p0g6b1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (dsg7882p0g6b1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 18 h 11":
+          - generic "mar. 29 sept. 2026 18 h 11": 29 sept.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (t6rgghb99reb1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (t6rgghb99reb1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (t6rgghb99reb1), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (t6rgghb99reb1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (t6rgghb99reb1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (t6rgghb99reb1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 18 h 09":
+          - generic "mar. 29 sept. 2026 18 h 09": 29 sept.
+        - gridcell
+      - 'row "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+        - gridcell
+        - 'gridcell "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+          - 'checkbox "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To Pièce jointe : Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf Pièce jointe : final (1).xls Pièce jointe : Scan2026-04-03_120155.pdf"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"
+          - generic "Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+            - generic: "Pièce jointe :"
+            - generic: Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+          - generic "final (1).xls":
+            - generic: "Pièce jointe :"
+            - generic: final (1).xls
+          - generic "Scan2026-04-03_120155.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Scan2026-04-03_120155.pdf
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 17 h 54":
+          - generic "mar. 29 sept. 2026 17 h 54": 29 sept.
+        - gridcell
+      - 'row "Kathya, moi 14, Too Good To Go: Account Termination, contient une pièce jointe, 29 sept., or 2 location >>>>> >>>>> On Mon, Sep 28, 2026, 17:00 Kathya Avila >>>>>."':
+        - gridcell
+        - 'gridcell "Kathya, moi 14, Too Good To Go: Account Termination, contient une pièce jointe, 29 sept., or 2 location >>>>> >>>>> On Mon, Sep 28, 2026, 17:00 Kathya Avila >>>>>."':
+          - 'checkbox "Kathya, moi 14, Too Good To Go: Account Termination, contient une pièce jointe, 29 sept., or 2 location >>>>> >>>>> On Mon, Sep 28, 2026, 17:00 Kathya Avila >>>>>."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Kathya, moi 14":
+          - generic: Kathya, moi
+          - generic: "14"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plate…/Too Good To Go 📎 Pièces jointes Too Good To Go: Account Termination - or 2 location >>>>> >>>>> On Mon, Sep 28, 2026, 17:00 Kathya Avila >>>>> Pièce jointe : 1000146383.jpg Pièce jointe : 1000146500.jpg Pièce jointe : 1000146501.jpg 9 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plate…/Too Good To Go 📎 Pièces jointes Too Good To Go: Account Termination - or 2 location >>>>> >>>>> On Mon, Sep 28, 2026, 17:00 Kathya Avila >>>>>"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Too Good To Go: Account Termination"
+            - generic: "-"
+            - text: or 2 location >>>>> >>>>> On Mon, Sep 28, 2026, 17:00 Kathya Avila >>>>>
+          - generic "1000146383.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000146383.jpg
+          - generic "1000146500.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000146500.jpg
+          - generic "1000146501.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000146501.jpg
+          - generic "9 autres pièces jointes":
+            - button "9 autres pièces jointes": "+9"
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 13 h 00":
+          - generic "mar. 29 sept. 2026 13 h 00": 29 sept.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (tax4nz6wxxx61), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (tax4nz6wxxx61), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (tax4nz6wxxx61), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (tax4nz6wxxx61) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (tax4nz6wxxx61) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (tax4nz6wxxx61)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 00 h 12":
+          - generic "mar. 29 sept. 2026 00 h 12": 29 sept.
+        - gridcell
+      - row "non lue, Too Good To Go, Une commande a été remboursée (vs04rzaax0061), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "non lue, Too Good To Go, Une commande a été remboursée (vs04rzaax0061), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "non lue, Too Good To Go, Une commande a été remboursée (vs04rzaax0061), 29 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (vs04rzaax0061) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (vs04rzaax0061) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (vs04rzaax0061)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 00 h 11":
+          - generic "mar. 29 sept. 2026 00 h 11": 29 sept.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (8dzqpetsgzd21), 28 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (8dzqpetsgzd21), 28 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (8dzqpetsgzd21), 28 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (8dzqpetsgzd21) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (8dzqpetsgzd21) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (8dzqpetsgzd21)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "lun. 28 sept. 2026 13 h 15":
+          - generic "lun. 28 sept. 2026 13 h 15": 28 sept.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (34wtkhgjkwfc1), 28 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (34wtkhgjkwfc1), 28 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (34wtkhgjkwfc1), 28 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (34wtkhgjkwfc1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (34wtkhgjkwfc1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (34wtkhgjkwfc1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "lun. 28 sept. 2026 12 h 46":
+          - generic "lun. 28 sept. 2026 12 h 46": 28 sept.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (brhs8b2hjhej1), 27 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (brhs8b2hjhej1), 27 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (brhs8b2hjhej1), 27 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (brhs8b2hjhej1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (brhs8b2hjhej1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (brhs8b2hjhej1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce était fermé pendant les heures de collecte
+        - gridcell
+        - gridcell "dim. 27 sept. 2026 22 h 15":
+          - generic "dim. 27 sept. 2026 22 h 15": 27 sept.
+        - gridcell
+      - row "Too Good To Go, Une commande a été remboursée (m89x0espp9sg1), 27 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+        - gridcell
+        - gridcell "Too Good To Go, Une commande a été remboursée (m89x0espp9sg1), 27 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu.":
+          - checkbox "Too Good To Go, Une commande a été remboursée (m89x0espp9sg1), 27 sept., remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Too Good To Go":
+          - generic: Too Good To Go
+        - gridcell "🍔 Plate…/Too Good To Go Une commande a été remboursée (m89x0espp9sg1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+          - link "🍔 Plate…/Too Good To Go Une commande a été remboursée (m89x0espp9sg1) - remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu":
+            - generic "🍔 Plateformes/Too Good To Go":
+              - img "🍔"
+              - text: Plate…/Too Good To Go
+            - generic: Une commande a été remboursée (m89x0espp9sg1)
+            - generic: "-"
+            - text: remboursé le paiement d'un utilisateur. Il nous a signalé que votre commerce n'avait plus d'invendus lorsqu
+        - gridcell
+        - gridcell "dim. 27 sept. 2026 20 h 13":
+          - generic "dim. 27 sept. 2026 20 h 13": 27 sept.
+        - gridcell
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Affichage de PV_SIGNE.pdf en cours. Page 1 sur 1
+- generic: Suivant

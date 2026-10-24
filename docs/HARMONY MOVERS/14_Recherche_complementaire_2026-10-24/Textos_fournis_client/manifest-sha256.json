@@ -1,0 +1,152 @@
+[
+  {
+    "path": "analyser_textos.py",
+    "bytes": 19198,
+    "sha256": "272455df9b3cdb828c18a7fe7e1d1393e32226e41a531a4af9f47273b6aca468"
+  },
+  {
+    "path": "controle-provenance.json",
+    "bytes": 605,
+    "sha256": "6d32ce001c0f615eadb07fb05ba4406676e1e6028d0e7502c0401ac9beeaaf90"
+  },
+  {
+    "path": "courriel-dom.txt",
+    "bytes": 15303,
+    "sha256": "6e0409fffc233afa1b646079a0691f62ebea2771cbc154e8c85de232c2d7bfde"
+  },
+  {
+    "path": "EML/1a16c2b6913d6e9a.eml",
+    "bytes": 11798,
+    "sha256": "acde69588660981c9894fe7c1f0ee86916e743b0f88f1526c1ce5927758e34be"
+  },
+  {
+    "path": "index-lecture-visuelle.json",
+    "bytes": 11119,
+    "sha256": "b7eac1347ee546b06dfc92fbd9fc82cdbc4b02188d35ca67f5861ee53925c748"
+  },
+  {
+    "path": "manifest-originaux.json",
+    "bytes": 2936,
+    "sha256": "6bc4ca73a77e1ac92a26e6c7a6c41a72a8bb751ce18e8086d085c8df485c6853"
+  },
+  {
+    "path": "MIME/1a16c2b6913d6e9a.json",
+    "bytes": 14810,
+    "sha256": "92dbeb60d34747472e2e0fb03329d30b51537174b6ee329f3a70629c8123c4b3"
+  },
+  {
+    "path": "MIME/1a16c3433dd4857c.json",
+    "bytes": 29328,
+    "sha256": "b768fd641d3ce9b4b530e3e8c930883ffb00415aa7ed1b17f441d0b8392e0063"
+  },
+  {
+    "path": "ocr-jobs.json",
+    "bytes": 5439,
+    "sha256": "6ddde5d7a45ce0b7534399f2a20d117950d0b402fb50f8734bae0462af78dc98"
+  },
+  {
+    "path": "ocr-resultats.json",
+    "bytes": 6339,
+    "sha256": "9f608511fd84183980ba60589a17106f7066f8e02ab531ce8ab360417fd3d080"
+  },
+  {
+    "path": "Originaux/1000155462.jpg",
+    "bytes": 524781,
+    "sha256": "6d59cf446b75aa7676b969819a3d3cafdc9b08442f18ff9440087cc8ae473955"
+  },
+  {
+    "path": "Originaux/1000155464.jpg",
+    "bytes": 407742,
+    "sha256": "4e6e336a1b8d05ec3a6c9751fce5f6e7788f47f14195293c43abf696e14e2ebf"
+  },
+  {
+    "path": "Originaux/1000155466.jpg",
+    "bytes": 409166,
+    "sha256": "e6236ab20bc6307674ed23d698948be0b1db775546e0eb5b1a5685c9532271c8"
+  },
+  {
+    "path": "Originaux/1000155468.jpg",
+    "bytes": 413841,
+    "sha256": "0610a3456069dbca63486ef8b4e96b81ffc89b740c49b8d87d2afaba1355c3f8"
+  },
+  {
+    "path": "Originaux/1000155470.jpg",
+    "bytes": 489214,
+    "sha256": "ce09be8c76e91e19371b9fd5df7e6a6305645febb65cc49dd5512ffbc47e2e96"
+  },
+  {
+    "path": "Originaux/1000155472.jpg",
+    "bytes": 340490,
+    "sha256": "762432de7a0925f9c24b15c5a2ab692f578410bb0471ef6a827adc24cc3189e8"
+  },
+  {
+    "path": "Originaux/1000155474.jpg",
+    "bytes": 308220,
+    "sha256": "036a9cc84e5aed0538d7dcaf693f2e8152eb38aacf3331ee435ca7c94cbf64cf"
+  },
+  {
+    "path": "Originaux/1000155476.jpg",
+    "bytes": 348997,
+    "sha256": "a7658feb20ecce70ace01f7b0d60aec1ea5f182705f6fa687edc038fd2675445"
+  },
+  {
+    "path": "Originaux/1000155478.jpg",
+    "bytes": 364276,
+    "sha256": "af2afa85b66eea4ba3141cf72d8ea7b767a298a6ab69e887f6e17da19a5efdc1"
+  },
+  {
+    "path": "Originaux/1000155480.jpg",
+    "bytes": 593568,
+    "sha256": "80e99432c764ad933a049a77efbca8b9fcd0e23d25b0e4b2f84535898c776682"
+  },
+  {
+    "path": "Originaux/1000155482.jpg",
+    "bytes": 896562,
+    "sha256": "607f6e9ef5207381b68c4d9583861036b95aafa9eb33051cb559e0f037ef3504"
+  },
+  {
+    "path": "Originaux/1000155485.jpg",
+    "bytes": 793973,
+    "sha256": "8905152ed03a81ccc80324233a537e7929140853567b5af14b3438666ce33aa0"
+  },
+  {
+    "path": "Originaux/1000155486.jpg",
+    "bytes": 658371,
+    "sha256": "ed1548ab8850c9aad4e9f6bbb92447c6aaee0c045675d4654a5b0b559ad67a13"
+  },
+  {
+    "path": "patch-incremental.json",
+    "bytes": 21667,
+    "sha256": "7fc046caee8011c5f071099ee5640b670922ff787b98855ec90ae41530e17a5d"
+  },
+  {
+    "path": "rapport.md",
+    "bytes": 11111,
+    "sha256": "6cda0d65e387a3772d47bbdd6f37f88c7740ca471556c89a0d6aa5e05ab5b58b"
+  },
+  {
+    "path": "recherches.json",
+    "bytes": 843,
+    "sha256": "da1067941d1900e84a8d275c57ee8281630cb189f9e903f45e113cfdc0ae644d"
+  },
+  {
+    "path": "relocalisation-extrait.txt",
+    "bytes": 1399,
+    "sha256": "076e55a04f37ae68b26d92ec480e7ad9c95f52a2da056182d2544353a322a1f9"
+  },
+  {
+    "path": "relocalisation-rapport.md",
+    "bytes": 1396,
+    "sha256": "079092fa4f26aef4f5f49cc27fffce53884f6f21665961d0dbb46a6dbac32ad7"
+  },
+  {
+    "path": "relocalisation-raw.json",
+    "bytes": 16252,
+    "sha256": "19fcb622b8408b1db4c1a2411be6304ef626de69f80b5bce8d64cabd3151e072"
+  },
+  {
+    "path": "Textos-Harmony-13-images.zip",
+    "bytes": 6005423,
+    "sha256": "490b0de82a0fa3bb2df7d50c90ecd691a8bc0d1e5d056ac9bd2d897079e29cc1"
+  }
+]

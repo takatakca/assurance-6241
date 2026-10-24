@@ -1,0 +1,188 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - button "Tout réduire":
+  - tooltip: Tout réduire
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - heading "Activation de nouveau compte" [active] [level=2]:
+    - generic: Activation
+    - generic: de
+    - generic: nouveau
+    - generic: compte
+  - button "Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu":
+    - img "✉️"
+    - text: J'ai répondu
+  - tooltip: Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu
+  - button "Retirez l'étiquette ✉️ J'ai répondu de cette conversation": ×
+  - tooltip: Retirez l'étiquette ✉️ J'ai répondu de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📎 Pièces jointes":
+    - img "📎"
+    - text: Pièces jointes
+  - tooltip: Recherchez tous les messages avec l'étiquette 📎 Pièces jointes
+  - button "Retirez l'étiquette 📎 Pièces jointes de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📎 Pièces jointes de cette conversation
+  - list:
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mer. 16 juill. 2025 11 h 59 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 16 juill. 2025 11 h 59 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mer. 16 juill. 2025 11 h 59"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à bnoisy Afficher les détails":
+          - cell "à bnoisy Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à bnoisy Afficher les détails":
+                  - cell "à bnoisy Afficher les détails":
+                    - generic: à bnoisy
+                    - button "Afficher les détails"
+    - text: Crèmerie Bin Molle Bin Dure
+    - generic: Gateau et viennoise
+    - generic: PPP Pizzeria
+    - generic: Po Poulet
+    - generic: O'OEUF Déjeuner
+    - generic: Pi Pita
+    - generic: Nutrition Shake
+    - generic: O'Crêpe
+    - generic: Café Bolon
+    - generic: Taco Mexican
+    - generic: Mythos & Go
+    - generic: Place D'Afrique
+    - generic: Pizza INNTIME 24/7
+    - generic: Pita Libanais 24/7
+    - generic: Déjeuner 24/7
+    - generic: Poulet 24/7 Inscription
+    - generic: Propriétaire
+    - generic: Pierre Lévesque
+    - generic: Compagnie Quadro Holding ltée
+    - generic: "*Restaurant*"
+    - text: "Numéro téléphone:"
+    - link "(450)999-4999":
+      - /url: tel:(450)%20999-4999
+    - generic: Crèmerie Bin Molle Bin Dure St Leonard
+    - link "www.bmbd.ca":
+
+    - generic: Gateau et viennoise St Leonard
+    - link "www.viennoise.ca":
+
+    - generic: PPP Pizzeria St Leonard
+    - link "www.pppmtl.com":
+
+    - generic: Po Poulet St Leonard
+    - link "www.popoulet.ca":
+
+    - generic: O'OEUF Déjeuner St Leonard
+    - link "www.ooeuf.ca":
+
+    - generic: Pi Pita St Leonard
+    - link "www.pipita.ca":
+
+    - generic: Nutrition Shake St Leonard
+    - link "www.nutrishake.ca":
+
+    - generic: O'Crêpe St Leonard
+    - link "www.ocrepe.ca":
+
+    - generic: Café Bolon
+    - link "www.bolon.ca":
+
+    - generic: Taco Mexican St Leonard
+    - link "www.tacomontreal.ca":
+
+    - generic: Mythos & Go St Leonard
+    - link "www.mythos2go.ca":
+
+    - generic: Place D'Afrique St Leonard
+    - link "www.placedafrique.ca":
+
+    - generic: "****GHOST KITCHEN 24/7********"
+    - generic: Pizza INNTIME 24/7
+    - link "www.inntime.ca":
+
+    - generic: Pita Libanais 24/7
+    - link "www.pipita.ca":
+
+    - generic: Déjeuner 24/7
+    - link "www.ooeuf.ca":
+
+    - generic: Poulet 24/7
+    - link "www.popoulet.ca":
+
+    - generic: Une pièce jointe
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Ajouter à Disque":
+      - generic: Ajouter à Disque
+    - link "Prévisualiser la pièce jointe Quadro_Holding_Lettre_UberEats_FR_Clean.pdf Prévisualiser la pièce jointe Quadro_Holding_Lettre_UberEats_FR_Clean.pdf":
+
+      - generic: Prévisualiser la pièce jointe Quadro_Holding_Lettre_UberEats_FR_Clean.pdf
+      - generic: Prévisualiser la pièce jointe Quadro_Holding_Lettre_UberEats_FR_Clean.pdf
+      - generic: Quadro_Holding_Lettre_UberEats_FR_Clean.pdf
+    - button "Télécharger la pièce jointe Quadro_Holding_Lettre_UberEats_FR_Clean.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Quadro_Holding_Lettre_UberEats_FR_Clean.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com mer. 16 juill. 2025 12 h 01 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "mer. 16 juill. 2025 12 h 01 Non marqué d'une étoile":
+            - gridcell "mer. 16 juill. 2025 12 h 01"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à bnoisy Afficher les détails":
+          - cell "à bnoisy Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à bnoisy Afficher les détails":
+                  - cell "à bnoisy Afficher les détails":
+                    - generic: à bnoisy
+                    - button "Afficher les détails"
+    - generic: 5839 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4
+    - button "Afficher le contenu abrégé":
+  - link "Répondre"
+  - link "Transférer"
+  - button "Ajouter une réaction":
+  - tooltip: Ajouter une réaction

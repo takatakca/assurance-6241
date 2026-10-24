@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-24",
+  "statuts": {
+    "1": "document_disponible",
+    "2": "partiel",
+    "3": "partiel",
+    "4": "document_disponible",
+    "5": "partiel",
+    "6": "partiel",
+    "7": "partiel",
+    "8": "partiel",
+    "9": "partiel",
+    "10": "partiel",
+    "11": "partiel",
+    "12": "non_repere",
+    "13": "partiel",
+    "14": "partiel",
+    "15": "partiel",
+    "16": "partiel",
+    "17": "document_disponible",
+    "18": "non_repere",
+    "19": "document_disponible",
+    "20": "partiel",
+    "21": "document_disponible",
+    "22": "partiel",
+    "23": "partiel",
+    "24": "non_repere",
+    "25": "partiel"
+  },
+  "comptes_statuts": {
+    "document_disponible": 5,
+    "non_repere": 3,
+    "partiel": 17
+  },
+  "demandes": 25,
+  "envoi": false,
+  "patches_complementaires_integres": [
+    "Daniel_Simard",
+    "Racine_Chamberland"
+  ],
+  "inputs": [
+    {
+      "path": "scripts/.build-livrables/remise-baseline-2026-10-24/audits/audit-communications.json",
+      "sha256": "a7d6cd8cfef2ea9a82ccea4455879e40ccc0d1e419996c40cb4445bee902577b"
+    },
+    {
+      "path": "scripts/.build-livrables/remise-baseline-2026-10-24/audits/audit-pieces.json",
+      "sha256": "6ce223655be99d5a932039593fb225c9a16bf8adc0b99520614df0b6a4fe498c"
+    },
+    {
+      "path": "scripts/.build-livrables/remise-baseline-2026-10-24/audits/audit-finances.json",
+      "sha256": "e6dfaea9fd90d09f146c90609ff3411edce5d649e668a484ce196841fcab423b"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/patch-incremental.json",
+      "sha256": "7fc046caee8011c5f071099ee5640b670922ff787b98855ec90ae41530e17a5d"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/patch-incremental.json",
+      "sha256": "2e5a7cb2edb786b47aac12847cd3541e04d7a9264b40c287a40e8ce4e852ac16"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/patch-incremental.json",
+      "sha256": "9767ebc3e1576078fa0a1b5b1b26bf9f7376b8061b4f5630c7687558eb22a74f"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/patch-incremental.json",
+      "sha256": "64ea517644339837f35566f161e2591d136f8a951f15d69ddccbfc4550a41f51"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/patch-incremental.json",
+      "sha256": "53d224a5d8368307d0232d32aaad471f3d85e3abe72f34e4ea323df98f009824"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/INTEGRATION-PROPOSEE.json",
+      "sha256": "0501897bec23bc8631cee205eb579a9fc5089adf5b3f0d98fd48033da7d257e6"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/patch-incremental.json",
+      "sha256": "4c2629530b9bec28679c76e433811e84c3da84eae56de643a2394906bba5794f"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/patch-incremental.json",
+      "sha256": "06e0ca6750010c1ec746984b2ae6e6b042bcb1dfae3dde05c1bed8e3eb216653"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/PROPOSITION-DEMANDE-20.json",
+      "sha256": "6469d5ef4869bb282fdb20b130bc0a2af9f766433cba49681fc69ab0f9e6e5f6"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/PROPOSITION-DEMANDE-21.json",
+      "sha256": "e3dc016ff770abb2b00165a83c344553a143f3061e3887fb5d6869a9a0cae4d0"
+    }
+  ],
+  "controles": {
+    "anciennes_pieces_conservees": true,
+    "chemins_pieces_existants": true,
+    "doublons_de_chemin_par_demande": 0,
+    "statuts_verifies_sur_25_demandes": true
+  }
+}

@@ -1,0 +1,654 @@
+[
+  {
+    "id": "197327136902b30b",
+    "thread_id": "197327136902b30b",
+    "label_ids": [
+      "CATEGORY_UPDATES",
+      "INBOX"
+    ],
+    "snippet": "Hi Matthieu, Thanks for giving us the opportunity to consider you for the Bilingual Client Success Specialist role. Although your resume was impressive, we have decided to move forward with other",
+    "history_id": "3416946",
+    "internal_date": "1748897968000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/alternative",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a05:6638:c101:b0:4fd:bfe7:a293 with SMTP id t1csp2050629jaa;        Mon, 2 Jun 2025 13:59:30 -0700 (PDT)"
+        },
+        {
+          "name": "X-Google-Smtp-Source",
+          "value": "AGHT+IHUXpoj477Z8KfpysVQZRZM5mmsWKWo7Vt/imyACsKsHY8AIUN2qiHHznFE6Yn8ZJsut7wK"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a05:690c:81:b0:70e:4d8:5cab with SMTP id 00721157ae682-710c9c9d227mr352037b3.2.1748897969780;        Mon, 02 Jun 2025 13:59:29 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1748897969; cv=none;        d=google.com; s=arc-20240605;        b=aWGfhIa10wSLfdYCcW0eN9baK2PmedlgoKSPI/1cEENimSWOoXguFtbz9HRhysOplN         +mN6SMXrxKWmisGTyDNEJBfbDFgSEyHo+wWg9eq7O3f0y1psyTT7dqmHw1VhDJdf4Ipo         VTWV4AQ0UtxMI0ADiDuPwiPKAmuduYgasw/oI5jiv1oM76or4DMgs4kp+UAs4D3g5k25         CKh3oR8eLa85m9r1RadQcxQiiI9SCneI7O6j8Skw7RHZWO3zObxAy9R6Ynv+i34CsY41         ipwwdz27AZjVMeWqs0DtH6qMKmi1I3QtRBS980/C9U7woUa/7A4To2O+zDldTlUabsUl         wR7A=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=list-id:list-unsubscribe-post:list-unsubscribe:precedence         :mime-version:subject:message-id:to:reply-to:from:date         :dkim-signature;        bh=I8B+7u8RzI0YLelgF0VCEoA1k3TsRgOQQgk+kjf0uPg=;        fh=axKVI9wSXeZYXwf1r1n4oTve1/fCbrJQchhoSktsqNY=;        b=bk1/iR5Zj8o2dDA+onJfuf8IOA3hHtAHotfa+xO0AAlPNFTK7XjMX4dHSRa26JQqPU         Jb9jYVV1qWsEJn8uhwKP/th3BuBiQvHC95YPJLf6C2yjbtD5PvLtGSAZwsHukbs9z5wd         m2Fnv/PYsGiS28RUrtw6oAFMTO6dPGV8YmCOjaE6p6XLvGs8NKW6wheiSskYJb7ugDdQ         z8yplgoO/kMGVe8azmJ2d8anQtx1mT5xc1QWPMeW5Pdcy0sueyx2uvLhlxzAZFhlgmKy         6DTtxZgWxraGy05n3SSxhhthIkHuVuxCdSI0Y7scqxDz5806DGqWIPF684X8x9olMbMr         MGxA==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com;       dkim=pass header.i=@talent.icims.com header.s=scph1117 header.b=EmuiuhH9;       spf=pass (google.com: domain of msprvs1=20248ejsanj2g=bounces-131558-5398@bounces.icims.com designates 162.247.166.130 as permitted sender) smtp.mailfrom=\"msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com\";       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=talent.icims.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from icims-talentplatform-166130.email.icims.tools (icims-talentplatform-166130.email.icims.tools. [162.247.166.130])        by mx.google.com with ESMTPS id 00721157ae682-70f96b2106fsi91375057b3.216.2025.06.02.13.59.29        for <takatak.ca@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Mon, 02 Jun 2025 13:59:29 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of msprvs1=20248ejsanj2g=bounces-131558-5398@bounces.icims.com designates 162.247.166.130 as permitted sender) client-ip=162.247.166.130;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@talent.icims.com header.s=scph1117 header.b=EmuiuhH9;       spf=pass (google.com: domain of msprvs1=20248ejsanj2g=bounces-131558-5398@bounces.icims.com designates 162.247.166.130 as permitted sender) smtp.mailfrom=\"msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com\";       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=talent.icims.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com>"
+        },
+        {
+          "name": "X-MSFBL",
+          "value": "Q7M63mRlBxvjJqmjffSVoEa0uIc5xAGCyQyUQ0RGL9o=|eyJzdWJhY2NvdW50X2l kIjoiNTM5OCIsIm1lc3NhZ2VfaWQiOiI2ODNkYjAxMDNlNjhkYzg4NjI1YiIsImN 1c3RvbWVyX2lkIjoiMTMxNTU4IiwiciI6InRha2F0YWsuY2FAZ21haWwuY29tIiw idGVuYW50X2lkIjoic3BjIn0="
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=talent.icims.com; s=scph1117; t=1748897968; i=@talent.icims.com; bh=I8B+7u8RzI0YLelgF0VCEoA1k3TsRgOQQgk+kjf0uPg=; h=Date:From:To:Message-ID:Subject:Content-Type:X-CSA-Complaints:\t List-Unsubscribe:List-Unsubscribe-Post:From:To:Cc:Subject; b=EmuiuhH9BKb8Gy572POSl6Q6lYlK3YoSp1wW8mk6aeMhdP7HmZ35sMbRpUhofq+OR\t Z/VXLf4xG+pV3yCYagWydlh+DasbySjNZ5W07nwK2B9i6yx/p5i/UT7YECk+Ks/bcL\t sCegUka5WdvEw6/FFTG6sjI6BPFqnBMFdx1Rq+Fk="
+        },
+        {
+          "name": "Received",
+          "value": "from [10.90.24.18] ([10.90.24.18]) by i-04c9f90d4495e38a4.mta1vrest.sd.prd.sparkpost (ecelerity 5.0.0.74447 r(msys-ecelerity:tags/5.0.0.4)) with REST id B5/26-57945-0B01E386; Mon, 02 Jun 2025 20:59:28 +0000"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 2 Jun 2025 16:59:28 -0400 (EDT)"
+        },
+        {
+          "name": "From",
+          "value": "Do Not Reply at Uber <uber+email+2zizk-f27b8b770c@talent.icims.com>"
+        },
+        {
+          "name": "Reply-To",
+          "value": "Do Not Reply at Uber <uber+email+2zizk-f27b8b770c@talent.icims.com>"
+        },
+        {
+          "name": "To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<1385491864.27168.1748897968518@ip-10-47-161-56.ec2.internal>"
+        },
+        {
+          "name": "Subject",
+          "value": "Thank you for your application -  Bilingual Client Success Specialist"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/alternative; boundary=\"----=_Part_27166_227992905.1748897968514\""
+        },
+        {
+          "name": "X-iRecruiter-Type",
+          "value": "ME"
+        },
+        {
+          "name": "X-iCIMS-Type",
+          "value": "ME"
+        },
+        {
+          "name": "X-iCIMS-Priority",
+          "value": "Bulk"
+        },
+        {
+          "name": "Precedence",
+          "value": "bulk"
+        },
+        {
+          "name": "X-iRecruiter-Source",
+          "value": "uber"
+        },
+        {
+          "name": "X-iCIMS-Message-Id",
+          "value": "14071573.sn5ObPgw6xS+QbeGz0dj/FDzTaBkRR0LsVT2VNy9KTQ="
+        },
+        {
+          "name": "X-CSA-Complaints",
+          "value": "csa-complaints@eco.de"
+        },
+        {
+          "name": "X-MSYS-API",
+          "value": "{ \"options\" : { \"open_tracking\" : true, \"click_tracking\" : true, \"transactional\": false, \"ip_pool\": \"prd_us_bulk\" } }"
+        },
+        {
+          "name": "List-Unsubscribe",
+          "value": "<mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:tLuYgffEIbI45Y6sisVhjcKfTiBUtfMVHsEmxmLJUPA~|eyAicmNwdF90byI6ICJ0YWthdGFrLmNhQGdtYWlsLmNvbSIsICJ0ZW5hbnRfaWQiOiAic3BjIiwgImN1c3RvbWVyX2lkIjogIjEzMTU1OCIsICJzdWJhY2NvdW50X2lkIjogIjUzOTgiLCAibWVzc2FnZV9pZCI6ICI2ODNkYjAxMDNlNjhkYzg4NjI1YiIgfQ~~>,<https://unsubscribe.spmta.com/u/8UUrkSIrrIPfWHq5V-TGQQ~~/AAIB5hA~/pl_ot6hqpF1b6984M9Qoy_TloBVulCQUqYrD2K2E_spiywWe-dcoFRBzDTx1xCR3DC_wLbHAaYcKTKzY0QdA4w~~>"
+        },
+        {
+          "name": "List-Unsubscribe-Post",
+          "value": "List-Unsubscribe=One-Click"
+        },
+        {
+          "name": "List-Id",
+          "value": "<spc.131558.5398.sparkpostmail.com>"
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "text/plain",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain; charset=\"UTF-8\""
+            }
+          ],
+          "body": {
+            "size": 1588,
+            "base64_url_content": null,
+            "content": " \r\n \r\n \r\n \r\n \r\n \r\nHi Matthieu,\r\n \r\nThanks for giving us the opportunity to consider you for the\r\nBilingual Client Success Specialist role. Although your resume was impressive, we have decided to move forward with other candidates whose skills are a closer match to what we're looking for right now.\r\n\r\nWe really appreciate your interest in Uber and hope you’ll apply again in the future if you see a role suited to your background. We encourage you to visit our Uber Careers website to explore future opportunities that may interest you.\r\n\r\nBest,\r\nUber Talent Acquisition\r\n \r\nUber takes your privacy seriously. Please note by agreeing to engage with Uber Recruiting, you are consenting on the collection and use of your candidate information. To learn how we collect and use your information, and learn about your rights under GDPR, please visit our Privacy Statement.\r\n \r\n \r\n \r\n \r\n  \r\n \r\n \r\n \r\n \r\n \r\n \r\n  \r\nGet help  Privacy  Terms  \r\n \r\nCommunity \r\n \r\n \r\n \r\n  \r\n \r\n   \r\n \r\n \r\n \r\nUber Technologies \r\n1725 3rd Street, San Francisco 94158\r\nUber.com \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n\r\n\r\n**************************************************\r\nThis message was sent to takatak.ca@gmail.com. If you don't want to receive these emails from this company in the future, please go to:\r\nhttps://tracking.icims.com/f/a/edy5yVAgN2_3PYkBAAE38g~~/AAIB5hA~/BVPMmZ050sfedlVG8ksHVYt2LkJJsGALXhpOxeDwsWV5M7ejVfnXvQNGasImY4ecaZteo0jODnRL0jOVrU5c_tiVDYweNnyDnYG61pgZ1xJKzjQhaWnR7n9E-2ZlHOLnCprg3SXVsU6pWr37s0ssw3fmXOu9L5IQNWSemLID83U~ \r\n/n &#169; Uber, 1455 Market Street San Francisco CA 94103 USA/n\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        },
+        {
+          "part_id": "1",
+          "mime_type": "text/html",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=\"UTF-8\""
+            }
+          ],
+          "body": {
+            "size": 21033,
+            "base64_url_content": null,
+            "content": "<p style=\"margin: 0px;\">&nbsp;</p><div dir=\"ltr\" style=\"background-color: #d6d6d5; margin: 0; min-width: 100%; padding: 0; width: 100%;\"><table style=\"background-color: #d6d6d5; border: 0; border-collapse: collapse; border-spacing: 0;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=\"#d6d6d5\"><tbody><tr><td style=\"display: block;\" align=\"center\"><table style=\"border: 0; border-collapse: collapse; border-spacing: 0; max-width: 700px;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"background-color: #ffffff;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"background-color: #000000; padding: 0px 14px 0px 14px; direction: ltr; text-align: left;\" align=\"left\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"direction: ltr; text-align: left;\"><table style=\"margin: 0 auto; border: none; border-collapse: collapse; border-spacing: 0; max-width: 560px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"><tbody><tr><td style=\"padding-left: 12px; padding-right: 12px; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"direction: ltr; text-align: left;\"><img style=\"clear: both; display: block; max-width: 100%; outline: none; text-decoration: none;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/logos/uber-logo_75x75_2x_white.png\" width=\"75\" height=\"75\" /></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style=\"padding: 0px 14px 0px 14px; direction: ltr; text-align: left;\" align=\"left\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"padding-top: 25px; padding-bottom: 25px; direction: ltr; text-align: left;\"><table style=\"margin: 0 auto; border: none; border-collapse: collapse; border-spacing: 0; max-width: 560px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"><tbody><tr><td style=\"padding-left: 12px; padding-right: 12px; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"padding-top: 5px; padding-bottom: 4px; direction: ltr; text-align: left;\"><img class=\"CToWUd a6T\" tabindex=\"0\" src=\"https://lh7-us.googleusercontent.com/43v18jrzLtw3s0BXkOc2Rh5762xXwm84g4GbfqnVtf1aCQ0v2APDSIv6PaGaB2Jjl-bwgwQVVBxpTVyXF1M1Bj8XfFm4jiG2aJBv3e1IX2AE47ClWSn0Qm6GKXJpqtnyetP32dyinJoeu5S7MTMYmN4\" width=\"533\" height=\"182\" crossorigin=\"\" data-bit=\"iit\" /></td></tr><tr><td style=\"color: #000000; font-family: Helvetica; font-size: 16px; line-height: 26px; padding-bottom: 7px; padding-top: 7px; direction: ltr; text-align: left;\"><p style=\"margin: 0px;\"><span style=\"font-family: helvetica;\"><span style=\"font-size: 12pt;\">Hi Matthieu,</span></span></p><p style=\"margin: 0px;\">&nbsp;</p><p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-family: helvetica;\"><span style=\"font-size: 12pt;\"><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\">Thanks for giving us the opportunity to consider you for the</span><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\"><br /></span><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\">Bilingual Client Success Specialist role. Although your resume was impressive, we have decided to move forward with other candidates whose skills are a closer match to what we're looking for right now.</span></span></span></p><p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-family: helvetica;\"><span style=\"font-size: 12pt;\"><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\"><br /></span><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\">We really appreciate your interest in Uber and hope you’ll apply again in the future if you see a role suited to your background. We encourage you to visit our </span><a href=\"https://tracking.icims.com/f/a/HCvv9YQsA2kKQ_aBOxS70w~~/AAIB5hA~/M8z35M0zz25AjwMvvf7iscPKf_47QdYaDyIO2e5aQgTxGJl_mWWsoNpfmM19le5OdQrYkPQAc40V8joUS-xx8aDTjKXBruGmDxd8robQAtY~\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: Arial, sans-serif; color: #1155cc; font-weight: 400;\">Uber Careers</span></a><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\"> website to explore future opportunities that may interest you.</span><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\"><br /></span><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\"><br /></span><span style=\"font-family: Arial, sans-serif; color: #000000; font-weight: 400;\">Best,</span></span></span></p><p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-family: helvetica;\"><span style=\"font-size: 12pt; font-family: Arial, sans-serif; color: #000000; font-weight: 400;\">Uber Talent Acquisition</span></span></p></td></tr><tr><td style=\"direction: ltr; text-align: left; padding-top: 20px; padding-bottom: 15px;\"><span style=\"font-size: 10pt;\"><em><span style=\"font-size: 10pt; font-family: Arial,sans-serif; color: #000000; font-weight: 400;\">Uber takes your privacy seriously. Please note by agreeing to engage with Uber Recruiting, you are consenting on the collection and use of your candidate information. To learn how we collect and use your information, and learn about your rights under GDPR, please visit our</span><a href=\"https://tracking.icims.com/f/a/lCQNgVX0wg2dBUMJkc6dXA~~/AAIB5hA~/3BMbggu4ZJBd_Za6diIxE1tZiW9KQON3cXlps7FaRmrVQ-6y6_2iEekDM05HK3ft2s6-mDSYwFxCXPgEQ9gpsBazvo5U-MQQY_olzfzicJoan-aHle0AuRXMkwEYe9z-Sn-PXNrupPMACxQjOqZgWPFFlQbSxpxsnGoAsATx3Ks~\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 10pt; font-family: Arial,sans-serif; color: #1155cc; font-weight: 400;\"> Privacy Statement</span></a><span style=\"font-size: 10pt; font-family: Arial,sans-serif; color: #000000; font-weight: 400;\">.</span><br /></em></span></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table style=\"border: 0; border-collapse: collapse; border-spacing: 0; margin: auto; max-width: 700px;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td align=\"center\"><table style=\"background-color: #fff; border: 0; border-collapse: collapse; border-spacing: 0; margin: auto;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\"><tbody><tr><td align=\"center\"><table style=\"border: 0; border-collapse: collapse; border-spacing: 0;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"background-color: #ffffff;\" align=\"center\"><table style=\"border: 0; border-collapse: collapse; border-spacing: 0;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td><table style=\"border: 0; border-collapse: collapse; border-spacing: 0;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td><table style=\"border: 0; border-collapse: collapse; border-spacing: 0;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\"><tbody><tr><td style=\"padding: 0px 14px 0px 14px; direction: ltr; text-align: left;\" align=\"left\">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table style=\"background-color: #000000; border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"padding: 0px 14px 0px 14px; direction: ltr; text-align: left;\" align=\"left\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 560px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"><tbody><tr><td style=\"font-size: 1px; height: 1px; line-height: 1px; padding-left: 0px!important; padding-right: 0px!important; direction: ltr; text-align: left;\">&nbsp;</td></tr><tr><td style=\"font-size: 1px; height: 1px; line-height: 1px; padding-left: 0px!important; padding-right: 0px!important; padding-top: 30px; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 268px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"padding-bottom: 20px; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"color: #ffffff; display: inline-block; font-family: 'UberMoveText-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-size: 10px; line-height: 16px; padding-left: 12px; padding-right: 12px; text-align: center; width: 64px; direction: ltr;\"><a href=\"https://tracking.icims.com/f/a/FKRABoEnPw4Ir0mVGFczZw~~/AAIB5hA~/ZdDASVNuLAXecb6DatlpX6FxB4J8V29-W9ldl5_9ptt1VL3Qmbq3QuB1B0scrTCnvq-zSDLzDxecRwrKJsT_lOyRri3JlF6Bn2ld8ZAFSOxiNIYOo7bTuKk_GNIMr4VyvEUTffAhCvmZp8BYxBqG0Or9-wpaZ9Za9CKhY_-JGxgvf8Ypd8GvSrd5sIICQkMkNYX3gnshEoh8uZipn030GU63OgN0exuw_B1zQxKFEe-pizCmWJZR730owxEnmAL29rSqWajpQ17WA8i8yAr7RIHmwPWDrlkAOntEnnaWhzQ~\" target=\"_blank\" style=\"color: #ffffff; text-decoration: none;\" rel=\"noopener\">Get help</a></td><td style=\"width: 1px; display: inline-block;\" align=\"center\" width=\"1\"><img style=\"clear: both; display: block; height: auto; max-height: 16px; max-width: 1px; outline: none; text-decoration: none; width: 100%;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/borders/Line.png\" width=\"1\" height=\"\" border=\"0\" /></td><td style=\"color: #ffffff; display: inline-block; font-family: 'UberMoveText-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-size: 10px; line-height: 16px; padding-left: 12px; padding-right: 12px; text-align: center; width: 64px; direction: ltr;\"><a href=\"https://tracking.icims.com/f/a/HgxjKl6uj0gzZ_O1baXOBA~~/AAIB5hA~/Sa_TA6sTynCnii6wEMyRtWEJgs1aUM-PvFGKpSCooZWKcsDg-MNxQwLxDcRLx_FPmD67Waqlr1vT_t-lq7ZroirJb3ie1xPmJGo7wRuuIvGG4pvvNUPWhQ8RBHdZIypoDFh2YhJzphYZEhXt3VnUVTXOiMoQbkXVaO6GGhai9LadE6Xawrk3gs_-cMzpQb6wBb6iRyi94c7aL0eb1P1TAqELpHYHQ5b4A5_y-V-J2B5A6MNz3jRLZleDItpwg6Ja6-myYKAUODsDjeCC2buAvHY7ppOX71v9i5vAa-tj6jguWk1df5ua-bJHdR5H4GCU\" target=\"_blank\" style=\"color: #ffffff; text-decoration: none;\" rel=\"noopener\">Privacy</a></td><td style=\"width: 1px; display: inline-block;\" align=\"center\" width=\"1\"><img style=\"clear: both; display: block; height: auto; max-height: 16px; max-width: 1px; outline: none; text-decoration: none; width: 100%;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/borders/Line.png\" width=\"1\" height=\"\" border=\"0\" /></td><td style=\"color: #ffffff; display: inline-block; font-family: 'UberMoveText-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-size: 10px; line-height: 16px; padding-left: 12px; padding-right: 12px; text-align: center; width: 63px; direction: ltr;\"><a href=\"https://tracking.icims.com/f/a/zYhKGvdL0zzdWg1nIav41A~~/AAIB5hA~/Bu7-Z2AK3w6ZpDDY4KwXtVLMrsNhpVPnWl_BibBthVIgZ-BTLXiR8pikwDDjyAB4g77hlFWrxRkaxE2qRrA9gPZ9skUKXhHGtxPmw-2FxSj4SY55W2FhCfhl6q00AyYJh83HWIkhDfQfrsyvDaxLSSM7fEuu8g4CRJWrodIMg2wI5jPajpLUBh3vQhjHcp4V8PiojTzduflppd5tKC5h5fcXyzmbUH2qJnqpId9QznkYJ77MI-0StLN3THrY_4kKDjOZdO04r2alRvLCZ1pYgEE_bm5kYaGVyEQSD-mN54w~\" target=\"_blank\" style=\"color: #ffffff; text-decoration: none;\" rel=\"noopener\">Terms</a></td><td style=\"width: 1px; display: inline-block;\" align=\"center\" width=\"1\"><img style=\"clear: both; display: block; height: auto; max-height: 16px; max-width: 1px; outline: none; text-decoration: none; width: 100%;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/borders/Line.png\" width=\"1\" height=\"\" border=\"0\" /></td></tr></tbody></table></td></tr></tbody></table><table style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 268px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"padding-bottom: 20px; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"color: #ffffff; display: inline-block; font-family: 'UberMoveText-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-size: 10px; line-height: 16px; padding-left: 12px; padding-right: 12px; text-align: center; width: 64px; direction: ltr;\"><a href=\"https://tracking.icims.com/f/a/g0GafE_vheCFIcDaxH-Pjw~~/AAIB5hA~/WzszIzYsV8yM8znldcH5hj_m6nnsVtlhoz26C6Jsy09i321OHxcqCzusoPKZBgf4M6wGuQfq1XCnMbh2hInMq83Lhq3HEH6EBfhXVI1FIwmrvMTwJhP8VubqabRvtojzg2yO6E76pB2xQb8UyqZZ2EPgDMcKdZE13kIJjCv67EeOPieR5KRO17a0my0ZoWJbyy_5i0PGfme8RK5ZxjIz3vrlBAN_dRziUJCnKi_4eSr4r8BvFfiywE7nwdJqO_BqD6izvPV3exYo4Y2K2jjW6VYEcidWsavbjCsLSrudbR5GQ3xHfwV5LFQ-mtRUwBlCLIkLPkkqeZ7KKjYME8n2tA~~\" target=\"_blank\" style=\"color: #ffffff; text-decoration: none;\" rel=\"noopener\">Community</a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style=\"font-size: 1px; height: 1px; line-height: 1px; padding-left: 0px!important; padding-right: 0px!important; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td dir=\"rtl\" style=\"font-size: 0; text-align: left; direction: rtl;\"><table dir=\"ltr\" style=\"border: none; border-collapse: collapse; border-spacing: 0; display: inline-block; max-width: 224px; vertical-align: middle; width: 100%;\"><tbody><tr><td style=\"padding-left: 12px; padding-right: 12px; padding-top: 20px; width: 100%; direction: ltr; text-align: left;\" align=\"right\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; text-align: right; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"right\"><tbody><tr><td style=\"direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 56px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"font-size: 1px; height: 1px; line-height: 1px; padding-left: 0px!important; padding-right: 0px!important; direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"font-size: 1px; line-height: 1px; direction: ltr; text-align: left;\">&nbsp;</td></tr></tbody></table></td></tr></tbody></table><table style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 112px; width: 100%;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"direction: ltr; text-align: left;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\"><tbody><tr><td style=\"direction: ltr; text-align: left;\" align=\"right\"><a href=\"https://tracking.icims.com/f/a/0GDLAbG45L2ucJao2nbmcQ~~/AAIB5hA~/yTpGlUznpx6owF-NDD6p9I2FfcJPXRA2DPDmi3VIIkGnHLykU5PEJJ3p_8r8vUrbZpm8wE_jnKJPFIskuFKL4hSz9E3du2Zqr_wqGCqe4pgeHk4xHdiX0XvKq3MeQA-xA_GZTxo8GocX8N5SCvl357nP20bjyeaJeOCzne76jYykW0hyLC6zdLmGQ_9fztbIdyQ8uOr3GIkUDhtCI8qKjS8VRROsjzFT8Dl312ks6H1l8_oyjlm_gtNUKBT2D08V1ZQeApS7o2oOlh04PWUmulb1PTpRUbJ3yjYa5Nymrwg~\" target=\"_blank\" rel=\"noopener\"> <img style=\"clear: both; display: block; height: auto; max-height: 17px; max-width: 13px; outline: none; text-decoration: none; width: 100%;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/icons/08_28_18facebook.png\" width=\"13\" height=\"\" border=\"0\" /> </a></td><td style=\"direction: ltr; text-align: left;\" align=\"right\"><a href=\"https://tracking.icims.com/f/a/xAMcM-0gIaQgfYJJ5Ha8hA~~/AAIB5hA~/ZdDASVNuLAXecb6DatlpX6FxB4J8V29-W9ldl5_9ptuXLOHAFEsYc7jBn1MQIuifrChxm8_pkCFeAn8sGvhrptylS4nwWvVh2kRtbc_yB921rJayAlX8-55lUXkYjg8yzNIzOWbcXzS3PqfyqLMBbOU7PD02ZKP7N-GQWWZHq3sGA0te9Gx7KvcWQ8rOR0YjvRaUCcBg3l6bSITOBqoW_9rYQa1wvDjLdBDo8_tiRQpUaS6ECES3Z5_2PqPgnPK5FC2a9Lux16a7SUGGRtBMEirtOeMVvlExwgyNIR3F-eA~\" target=\"_blank\" rel=\"noopener\"> <img style=\"clear: both; display: block; height: auto; max-height: 17px; max-width: 19px; outline: none; text-decoration: none; width: 100%;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/icons/08_28_18twitter.png\" width=\"19\" height=\"\" border=\"0\" /> </a></td><td style=\"direction: ltr; text-align: left;\" align=\"right\"><a href=\"https://tracking.icims.com/f/a/oui1ph4EQ_QbFci9_2CNNg~~/AAIB5hA~/SZcuylp2BgPOhZyvB4Zm1xOPF5XXupLgbeHUY6GjfW3rM3II0CuRX9OaJxH24xGCAk_bbYUZ-oCUUN92owD_-7WGtVpiOqx99S8CUL1baWgdwheFqGz_ABwBmdt8zQw1tvWDnWnbSZ1lWF8F1PXylN9_QHc79zlesmxHPHrNgxknHygKCAkOB5mOADcDcxyDa93V8w5c0pBs7MqnqxyggXr0HurnMw253X7FevhWG00HJs0geBxFiwWHMQxHXqD0nMk0MHmLmnmI2EttCQ2Tylxjn74ndde14J5BJQBBYx0~\" target=\"_blank\" rel=\"noopener\"> <img style=\"clear: both; display: block; height: auto; max-height: 17px; max-width: 16px; outline: none; text-decoration: none; width: 100%;\" src=\"https://s3.amazonaws.com/uber-static/emails/2018/global/icons/08_28_18instagram.png\" width=\"16\" height=\"\" border=\"0\" /> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table dir=\"ltr\" style=\"border: none; border-collapse: collapse; border-spacing: 0; display: inline-block; max-width: 336px; vertical-align: top; width: 100%;\"><tbody><tr><td style=\"padding-left: 12px; padding-right: 12px; text-align: left; direction: ltr;\"><table style=\"border: none; border-collapse: collapse; border-spacing: 0; width: 100%;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td style=\"color: #e5e5e5; font-family: 'UberMoveText-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-size: 10px; line-height: 16px; padding-bottom: 20px; padding-top: 10px; direction: ltr; text-align: left;\">Uber Technologies <br />1725 3rd Street, San Francisco 94158<br /><a href=\"https://tracking.icims.com/f/a/ocH0eHdIlHgW0gIfAZIljw~~/AAIB5hA~/4VsZjau3MU19A9hBogI_OtBbc97ZVdDwDJPgOi61rf94qrpkVcYAWCtL64eo6P_wMdRmBThSgyr63_wV5XMi4Qwj6YYmpbiBnOj-l1FYOFZAG6WG90V9G2l5gDWtqPA8QER5WfzbkcTd810mAclo_ytVifWH6btWJMUdxo6S0mmP5XBnLJYsN6J1bzJ0secsbQ2cqnzwK70oxQvm7hngAhh86jjh_4wy1bwx4JOAQ_Vd90FiMlvk0gQCCeBq2nkAkWMwwEaIB5LHWH0FnWzvFQ~~\" target=\"_blank\" style=\"text-decoration: none; color: #e5e5e5;\" rel=\"noopener\">Uber.com</a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><img src=\"https://click.uber.com/q/dvdNMXL9rjTzEFR9LG-TOg~~/AAAAAQA~/RgRdgsMfPlcEdWJlckIKAACfj6FbhGdkulINd2lzZUB1YmVyLmNvbVgEAAAAAA~~\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" /></div><p style=\"margin: 0px;\">&nbsp;</p><p style=\"margin: 0px;\">&nbsp;</p><p style=\"margin: 0px;\">&nbsp;</p><br><hr>This message was sent to takatak.ca@gmail.com. If you don't want to receive these emails from this company in the future, please go to:<br><a data-notracking=\"1\" href=\"https://tracking.icims.com/f/a/edy5yVAgN2_3PYkBAAE38g~~/AAIB5hA~/BVPMmZ050sfedlVG8ksHVYt2LkJJsGALXhpOxeDwsWV5M7ejVfnXvQNGasImY4ecaZteo0jODnRL0jOVrU5c_tiVDYweNnyDnYG61pgZ1xJKzjQhaWnR7n9E-2ZlHOLnCprg3SXVsU6pWr37s0ssw3fmXOu9L5IQNWSemLID83U~\">https://uber.icims.com/icims2/?r=909A8091411&contactId=14071573</a>\r\n<br><br><center> &#169; Uber, 1455 Market Street San Francisco CA 94103 USA</center>\r\n<img border=\"0\" width=\"1\" height=\"1\" alt=\"\" src=\"https://tracking.icims.com/q/M9b7Z8b3A9TLsmZgTaprcg~~/AAIB5hA~/yxujNuKSYLx-0Rb70qHJnbIAvPpY0iukADMQ8TTfhszIx1uawJ0U6kn2yrKAjN7tJHv-RJzVbz7v72LsU6HSSg~~\">\r\n\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 30561,
+    "classification_label_values": null
+  },
+  {
+    "id": "1a10d119b71c4554",
+    "thread_id": "1a10d119b71c4554",
+    "label_ids": [
+      "Label_10",
+      "SENT"
+    ],
+    "snippet": "Bonjour Me Dufourd, Dans l&#39;archive, ouvrir « Contrats, assurance et procédures ». Le procès-verbal, l&#39;opposition et les demandes retrouvées permettent d&#39;organiser la chronologie, mais les",
+    "history_id": "4373881",
+    "internal_date": "1791220620000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "text/html",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 19:17:00 +0200"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 19:17:00 +0200"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=\"UTF-8\""
+        },
+        {
+          "name": "Content-Transfer-Encoding",
+          "value": "base64"
+        },
+        {
+          "name": "Subject",
+          "value": "QUADRO / Harmony — 5/7 — Contrats, saisie, huissier et garde des biens"
+        },
+        {
+          "name": "To",
+          "value": "cdufourd@dufourdion.com"
+        },
+        {
+          "name": "From",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 5 Oct 2026 19:17:00 +0200"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0CqiX0czhnK3NiwUUBJ=QJjaxpgzEAFs_yu8sP0O4TxJv5Q@mail.gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 1917,
+        "base64_url_content": null,
+        "content": "<p>Bonjour Me Dufourd,</p><p>Dans l’archive, ouvrir « Contrats, assurance et procédures ». Le procès-verbal, l’opposition et les demandes retrouvées permettent d’organiser la chronologie, mais les conclusions demandées dans une procédure ne doivent pas être prises pour une ordonnance rendue.</p><p>Le procès-verbal récupéré situe la saisie au 1600, 55e avenue, Lachine, et mentionne le gardien Kostas Kronis au 5505 Irwin, LaSalle. Merci de vérifier la date, les biens effectivement saisis, les objets retrouvés ultérieurement et les conditions de garde contre les originaux.</p><p>Merci également de vérifier l’ordonnance actuellement applicable et les autorisations nécessaires avant déplacement, branchement ou essais. Les règles sur la garde ne constituent pas automatiquement une permission générale de tester les appareils.</p><p>Pour isoler la responsabilité alléguée, les pièces prioritaires sont : mandat et facture du transporteur de récupération; inventaire de chargement; observations du huissier avant chaque manutention; photos/vidéos originales; reçu d’arrivée et contrat de garde; identité et observations des personnes présentes. Le nom « Mike » et les noms du transporteur transcrits par Fieldy restent à confirmer.</p><p>Les faits que je rapporte concernant menaces, rétention, pièces manquantes et manutention doivent être rattachés aux messages ou constats précis, sans être présentés comme déjà jugés.</p><p><b>Pièces :</b> <a href=\"https://drive.google.com/file/d/1dvT8Og80pm380tumdW18eIK2WV_zIzEP/view\">Télécharger l’archive ALBUMS-AVOCAT.zip</a>. Accès accordé à votre adresse en lecture seule. Extraire l’archive et ouvrir INDEX-ALBUMS.html pour accéder aux pièces par volet.</p><p>Ces explications sont une préparation administrative pour votre examen; les originaux et votre analyse juridique priment.</p><p>Merci.</p>",
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": null
+    },
+    "size_estimate": 3207,
+    "classification_label_values": null
+  },
+  {
+    "id": "1a10d1182b2319b2",
+    "thread_id": "1a10d1182b2319b2",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "Bonjour Me Dufourd, Dans l&#39;archive, ouvrir « Photos et factures photographiées » et CATALOGUE-IMAGES.md. Les images sont indexées et décrites; les copies orientées ou destinées à l&#39;affichage",
+    "history_id": "4373877",
+    "internal_date": "1791220614000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "text/html",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 19:16:54 +0200"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 19:16:54 +0200"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=\"UTF-8\""
+        },
+        {
+          "name": "Content-Transfer-Encoding",
+          "value": "base64"
+        },
+        {
+          "name": "Subject",
+          "value": "QUADRO / Harmony — 3/7 — Photos, descriptions et comparaison avant / saisie / après"
+        },
+        {
+          "name": "To",
+          "value": "cdufourd@dufourdion.com"
+        },
+        {
+          "name": "From",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 5 Oct 2026 19:16:54 +0200"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0CqhG2V+8M3K7tNpKQVXM1mNKPpqC6w7O8ZA6EKF2KGCsHg@mail.gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 1791,
+        "base64_url_content": null,
+        "content": "<p>Bonjour Me Dufourd,</p><p>Dans l’archive, ouvrir « Photos et factures photographiées » et CATALOGUE-IMAGES.md. Les images sont indexées et décrites; les copies orientées ou destinées à l’affichage sont distinguées des fichiers récupérés.</p><p><b>Limite importante :</b> cet album regroupe les images effectivement retrouvées. Il ne constitue pas encore une série complète et authentifiée des photos avant le déménagement, chez Harmony avant la récupération, puis après l’arrivée. Les originaux WhatsApp du huissier et les vidéos de manutention doivent encore être obtenus et rapprochés des mêmes appareils.</p><p>Les six photos de vitrine cylindrique et carton VEVOR sont conservées à ma demande, mais leur lien avec Harmony et la date de prise de vue ne sont pas établis. Les captures de cuisine ne doivent pas être présentées comme des photos du huissier sans identification. La date d’ajout dans Drive n’est pas la date de prise de vue.</p><p>Pour répondre à la théorie adverse, je propose votre examen d’un tableau : appareil / état avant Harmony / état constaté avant chargement de récupération / état à destination / témoin / original horodaté. Un défaut déjà photographié avant le chargement de récupération serait particulièrement pertinent, sous réserve de l’authentification.</p><p><b>Pièces :</b> <a href=\"https://drive.google.com/file/d/1dvT8Og80pm380tumdW18eIK2WV_zIzEP/view\">Télécharger l’archive ALBUMS-AVOCAT.zip</a>. Accès accordé à votre adresse en lecture seule. Extraire l’archive et ouvrir INDEX-ALBUMS.html pour accéder aux pièces par volet.</p><p>Ces explications sont une préparation administrative pour votre examen; les originaux et votre analyse juridique priment.</p><p>Merci.</p>",
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": null
+    },
+    "size_estimate": 3067,
+    "classification_label_values": null
+  },
+  {
+    "id": "1a10d2e36bf7f452",
+    "thread_id": "1a10d2e36bf7f452",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "Bonjour Me Dufourd, Plusieurs messages détaillés envoyés aujourd&#39;hui ont fait l&#39;objet d&#39;avis de non-livraison lors de la redirection de votre adresse. Je regroupe donc la transmission dans",
+    "history_id": "4373887",
+    "internal_date": "1791222495000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "text/plain",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 17:48:15 +0000"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 17:48:15 +0000"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain; charset=\"UTF-8\""
+        },
+        {
+          "name": "Content-Transfer-Encoding",
+          "value": "base64"
+        },
+        {
+          "name": "Subject",
+          "value": "Dossier Quadro – suivi du 5 octobre"
+        },
+        {
+          "name": "To",
+          "value": "cdufourd@dufourdion.com"
+        },
+        {
+          "name": "From",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 5 Oct 2026 17:48:15 +0000"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0CqjX6trkO6HstbL7eH56pg1kNHVHJ8fn5cm5DqWdEMg3pg@mail.gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 1090,
+        "base64_url_content": null,
+        "content": "Bonjour Me Dufourd,\n\nPlusieurs messages détaillés envoyés aujourd’hui ont fait l’objet d’avis de non-livraison lors de la redirection de votre adresse. Je regroupe donc la transmission dans ce seul message.\n\nLe dossier et ses pièces sont ici, avec accès en lecture seule accordé à votre adresse du cabinet :\nhttps://drive.google.com/file/d/1dvT8Og80pm380tumdW18eIK2WV_zIzEP/view\n\nAprès téléchargement, extraire l’archive et ouvrir INDEX-ALBUMS.html. Les volets regroupent le dossier principal, les photos décrites, les factures et devis, les contrats et procédures, l’assurance et la comptabilité.\n\nLa priorité après l’interrogatoire est de comparer l’état des mêmes biens avant Harmony, avant leur chargement lors de la récupération supervisée par le huissier, puis à leur arrivée chez le gardien. Les photos et vidéos originales du huissier restent à obtenir et à authentifier pour compléter cette comparaison.\n\nMerci de confirmer la réception et l’accès au dossier, ou de m’indiquer votre canal sécurisé de transmission préféré.\n\nMerci.",
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": null
+    },
+    "size_estimate": 2051,
+    "classification_label_values": null
+  },
+  {
+    "id": "1a10d08a7feddb4a",
+    "thread_id": "1a10d08a7feddb4a",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "Bonjour Me Dufourd, À ma demande, voici le premier volet du dossier préparé pour votre examen après l&#39;interrogatoire de ce matin. Je vous transmets séparément les volets photos, réparations,",
+    "history_id": "4373873",
+    "internal_date": "1791220033000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "text/html",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 12:07:13 -0500"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 12:07:13 -0500"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=\"UTF-8\""
+        },
+        {
+          "name": "Content-Transfer-Encoding",
+          "value": "base64"
+        },
+        {
+          "name": "Subject",
+          "value": "QUADRO / Harmony — 1/7 — Suivi urgent de l’interrogatoire du 5 octobre : origine des dommages"
+        },
+        {
+          "name": "To",
+          "value": "cdufourd@dufourdion.com"
+        },
+        {
+          "name": "From",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 5 Oct 2026 12:07:13 -0500"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0Cqhe2uD_r-AbPd+QF2cqPOZNwdaHi504+0C3___0xJUS4Q@mail.gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 2872,
+        "base64_url_content": null,
+        "content": "<p>Bonjour Me Dufourd,</p><p>À ma demande, voici le premier volet du dossier préparé pour votre examen après l’interrogatoire de ce matin. Je vous transmets séparément les volets photos, réparations, procédures, assurance et comptabilité.</p><p>Ma préoccupation principale : je rapporte que la partie adverse tente d’attribuer les dommages à la récupération des biens plutôt qu’au transport et à l’entreposage par Harmony. Je souhaite que la réponse repose sur la chronologie et les pièces originales, équipement par équipement.</p><ol><li><b>Avant Harmony :</b> rapprocher les photos envoyées par courriel, les factures et les interventions des techniciens des numéros de série. Une réparation facturée ne suffit pas, à elle seule, à établir l’état exact au jour du déménagement.</li><li><b>Chez Harmony, avant le chargement de récupération :</b> obtenir du huissier les photos et vidéos originales horodatées, son procès-verbal et ses observations sur les portes, carcasses, fils, compresseurs, pièces manquantes et position des appareils.</li><li><b>Récupération :</b> identifier précisément le transporteur, son mandat, les biens chargés, les manutentions, les témoins et l’heure de chaque étape. Distinguer ce transport de mon utilisation d’un U-Haul; les noms transcrits automatiquement restent à confirmer.</li><li><b>Après récupération :</b> comparer les mêmes appareils à l’arrivée chez le gardien, puis lors des visites subséquentes. Toute lacune documentaire doit rester explicite.</li></ol><p>Le procès-verbal récupéré mentionne une intervention le 17 décembre, le lieu de saisie au 1600, 55e avenue, Lachine, et le gardien Kostas Kronis au 5505 Irwin, LaSalle. Il faut vérifier ces indications contre les originaux et les ordonnances applicables. La dimension du conteneur est également à contrôler : certains documents évoquent 53 pieds, tandis que j’ai parlé de 43 pieds.</p><p><b>Priorités proposées pour votre examen :</b> conservation des originaux du huissier et des transporteurs; tableau de chaîne de garde; examen technique contradictoire sous les autorisations nécessaires; vérification des engagements de l’interrogatoire, notamment la liste des biens transportés dans le U-Haul (repère automatique « E10 »).</p><p>L’enregistrement Fieldy de ce matin est disponible dans mon compte. Sa transcription est automatique, tous les intervenants sont identifiés « Unknown » : elle doit être vérifiée avec l’audio et la transcription officielle avant toute citation ou attribution.</p><p>Ces notes constituent une préparation administrative à valider par votre cabinet. Elles n’établissent pas à elles seules la responsabilité d’une personne ou d’une entreprise. Je reste disponible pour vos demandes de pièces et corrections.</p><p>Merci.</p>",
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": null
+    },
+    "size_estimate": 4551,
+    "classification_label_values": null
+  },
+  {
+    "id": "196ca059ffc78199",
+    "thread_id": "196ca059ffc78199",
+    "label_ids": [
+      "UNREAD",
+      "CATEGORY_UPDATES",
+      "INBOX"
+    ],
+    "snippet": "Hey Matthieu, Thank you for applying to Uber! We have received your application for the Bilingual Client Success Specialist opportunity. What happens next? We will review your application and contact",
+    "history_id": "3416612",
+    "internal_date": "1747146085000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/alternative",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a05:6638:c2e6:b0:4fa:3b7e:eea4 with SMTP id 6csp783504jan;        Tue, 13 May 2025 07:21:28 -0700 (PDT)"
+        },
+        {
+          "name": "X-Google-Smtp-Source",
+          "value": "AGHT+IELBGoEH5xVN9+mYNRshXQ5cAL54jtWDj9UeVjlWpB9TwTZnBGLXgk9p0TCv3drn3Ch/5MB"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a05:6902:e05:b0:e78:e283:9432 with SMTP id 3f1490d57ef6-e78fdd4da18mr23963119276.39.1747146087981;        Tue, 13 May 2025 07:21:27 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1747146087; cv=none;        d=google.com; s=arc-20240605;        b=C0WkUPhtUkY2wRc9sM+Mb8Wv6uSonKTehAgHZijjXCU4rf8US7nVDAzvjXGkW8An4N         3A3lGjqUfvhnDD7pj/jSgQBb+o3M6t/iM12X1Pw+lkLbgV/fbyt7FiGrNk77I+J5OHtN         lNLOIHeW8SPLaDiRR6Uf3MS5BW5DBHjHSvOwOaMFEVRHee/2EBALNMq/XlfzwZcsfo5J         6F8TTtd66XurIJCn26GpqDMbNMi00WOfkVGKq9nMLd1CSusUdjjm+8Jy7oiElD58JgFJ         7qJb7RD/YsXpAwh4otyhfYiw7FEed9aR8jB7AwgqDvjd8ynASfnD4ROFFk5BUzrqTT0r         /1rw=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=reply-to:message-id:from:subject:to:mime-version:date         :dkim-signature;        bh=339KwX1UwQUz6aa2wqs6YlDUt5VxbhDZSR8oQu56lLI=;        fh=phnjVg3lKcReZnYI+Lrm1cl2LYWdbkvx0IJd01QzP+0=;        b=FbvNrXHDK9uJfH18Nfk1hZRuDsskaVilKeNcfS1+ENTSVdw8F4NKwglaSEE1w1x5xv         m70cCVtJtjPxhbUph84WuiBCUoG60NHDjiULwyQT/4L0CWhhnWjBCoL8yYFCAKEbATns         IlYMJQ00hEFPvNLLiS89d95QJVFxn/Qp+6Ob0F68n8pW+43lPtP21dQR4KAQXi+rxVYl         6d+YkClTHYZP/5oZ28RTPs1+L7RgP5w9M0tjAGwkMZTcFOezkAROkRJjxfvdade7mDVP         aHtLXQmYW/v9ep7osLKWubiLog+LbgVT2wGQAIjLPAYoo0NLlqi6Zxkj1SOvqJdvrilX         i+dQ==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com;       dkim=pass header.i=@sptrans.uber.com header.s=scph header.b=oL5gj2qT;       spf=pass (google.com: domain of bounce@sptrans.uber.com designates 147.253.216.75 as permitted sender) smtp.mailfrom=bounce@sptrans.uber.com;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=uber.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<bounce@sptrans.uber.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from mta-253-216-75.uber.com.sparkpostmail.com (mta-253-216-75.uber.com.sparkpostmail.com. [147.253.216.75])        by mx.google.com with ESMTPS id 3f1490d57ef6-e78fd5bc9ffsi9467319276.79.2025.05.13.07.21.27        for <takatak.ca@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Tue, 13 May 2025 07:21:27 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of bounce@sptrans.uber.com designates 147.253.216.75 as permitted sender) client-ip=147.253.216.75;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@sptrans.uber.com header.s=scph header.b=oL5gj2qT;       spf=pass (google.com: domain of bounce@sptrans.uber.com designates 147.253.216.75 as permitted sender) smtp.mailfrom=bounce@sptrans.uber.com;       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=uber.com"
+        },
+        {
+          "name": "X-MSFBL",
+          "value": "+WaD8RMEgrTpeG8Ykgrx9iepywjoJNZwwS7u9tAb9ng=|eyJzdWJhY2NvdW50X2l kIjoiMCIsInIiOiJ0YWthdGFrLmNhQGdtYWlsLmNvbSIsImN1c3RvbWVyX2lkIjo iMSIsInRlbmFudF9pZCI6InViZXIiLCJtZXNzYWdlX2lkIjoiNjgxYTY1NTUyMzY 4MDgyNjE0YWQifQ=="
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sptrans.uber.com; s=scph; t=1747146085; i=@sptrans.uber.com; bh=339KwX1UwQUz6aa2wqs6YlDUt5VxbhDZSR8oQu56lLI=; h=Date:To:Subject:Content-Type:From:Message-Id:From:To:Cc:Subject; b=oL5gj2qT469QhglNJVsSaoYxInhNQPHXST3MK/akiOgEtsWWweHNy9b3JIk65DtH1\t 6vC2wPa9AZJv3SVSxZhjvfodZ52xoQCibpCIXd11n78P6Ckv5UpikOSe84Z9c49GRz\t av66O1vrNoX6XrZlVWg+kNzFV0Tcvv0LpuxWhuA8="
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "i-0c3261b559ce3cf29.mta2vsmtp.sd.prd.sparkpost smtp.user=<hidden>; auth=pass (PLAIN)"
+        },
+        {
+          "name": "Received",
+          "value": "from [104.36.192.63] ([104.36.192.63:45088] helo=localhost) by i-0c3261b559ce3cf29.mta2vsmtp.sd.prd.sparkpost (envelope-from <bounce@sptrans.uber.com>) (ecelerity 4.8.0.74368 r(msys-ecelerity:tags/4.8.0.17)) with ESMTPSA (cipher=AES-128-GCM) id DA/41-14724-56553286; Tue, 13 May 2025 14:21:25 +0000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 13 May 2025 14:21:25 +0000"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "To",
+          "value": "<takatak.ca@gmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Uber Careers: Thank you for your application for Bilingual Client Success Specialist"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/alternative; boundary=\"5c4d9f2ca5875f88a53f85e7171769be74878cc4210317c00f0acf3e35bd\""
+        },
+        {
+          "name": "From",
+          "value": "<noreply@uber.com>"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<ce2a3d1d-96df-47a5-bd32-a4ede9b0969d@mail.uber.com>"
+        },
+        {
+          "name": "X-Uber-Id",
+          "value": "ce2a3d1d-96df-47a5-bd32-a4ede9b0969d"
+        },
+        {
+          "name": "Reply-To",
+          "value": "<no-reply@replies.uber.com>"
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "text/plain",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "7bit"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain; charset=\"utf-8\""
+            }
+          ],
+          "body": {
+            "size": 1168,
+            "base64_url_content": null,
+            "content": "Hey Matthieu,\r\nThank you for applying to Uber! We have received your application for the Bilingual Client Success Specialist opportunity.\r\n\r\nWhat happens next? We will review your application and contact you if there is a good match.\r\n\r\nPlease note by agreeing to engage with Uber Recruiting, you are consenting to the collection and use of your candidate information.\r\n\r\nTo learn how we collect and use your information and learn about your rights, please visit our Candidate Privacy Statement https://click.uber.com/f/a/g8W4x17ZTXYfVZgxhSKY4A~~/AAAAARA~/FEaa6UQimO7t5daSTM-5Sz2ZQn1xUFDckTtlwyrcYdgYpVS7cPvjmnv-UaMtleJrs1oWp_B1phypf_Y1VcPrLDf8Q95uC3FJxdrWLou0xS87n_L3RBAgM2y1jZGqSnt69anGTIrfVrhDCv0xItMExXWEgB4-27he5W5VHtFWwUM~.\r\n\r\nIn the meantime, you can learn more about our company, culture, and interview process through LinkedIn and Glassdoor.\r\n\r\nSincerely,\r\nUber Recruiting Team\r\n\r\nCheck Application Status https://click.uber.com/f/a/-DK5vZgnLWIceCindhHpVg~~/AAAAARA~/cP7y2BhK3RUv7OOdarw91PJsGoOWXk4FgZ4Qj1ouFkiEwJRVd_tnz6a8zaN3dvfqRXo1YPRYwyxhfsu9-Ww_lj8oAIPIRg1lRpsZYrN8BC_-ZumlCt7Vi36GzGjZFj_cFn6qA7w0T1SywDOS4QQpJSrhjqHWLa91amKiPd_LTUUVHN_jAw6HClfWIRJbC9t1",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        },
+        {
+          "part_id": "1",
+          "mime_type": "text/html",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=\"utf-8\""
+            }
+          ],
+          "body": {
+            "size": 47962,
+            "base64_url_content": null,
+            "content": "<html>\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width\">\r\n    \r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    \r\n    <title>Uber</title>\r\n\r\n\r\n\r\n\r\n    <style type=\"text/css\">\r\n        @media screen and (max-width:699px) {\r\n            .t1of12, .t2of12, .t3of12, .t4of12, .t5of12, .t6of12, .t7of12, .t8of12, .t9of12, .t10of12, .t11of12, .t12of12, .full {\r\n                width: 100% !important;\r\n                max-width: none !important\r\n            }\r\n            a[x-apple-data-detectors] {\r\n                color: inherit !important;\r\n                text-decoration: none !important;\r\n                font-size: inherit !important;\r\n                font-family: inherit !important;\r\n                font-weight: inherit !important;\r\n                line-height: inherit !important\r\n            }\r\n        }\r\n        @media screen and (-webkit-min-device-pixel-ratio:1) {\r\n            .arrow {\r\n                vertical-align: 6%;\r\n                line-height: 20px !important\r\n            }\r\n        }\r\n        @media screen {\r\n            @font-face {\r\n                font-family: 'ClanPro-Thin';\r\n                src: url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Thin.woff') format('woff'), url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Thin.ttf') format('truetype');\r\n                font-weight: normal !important;\r\n                font-style: normal !important;\r\n                mso-font-alt: 'Arial'\r\n            }\r\n            @font-face {\r\n                font-family: 'ClanPro-Book';\r\n                src: url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Book.woff') format('woff'), url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Book.ttf') format('truetype');\r\n                font-weight: normal !important;\r\n                font-style: normal !important;\r\n                mso-font-alt: 'Arial'\r\n            }\r\n            @font-face {\r\n                font-family: 'ClanPro-News';\r\n                src: url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-News.woff') format('woff'), url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-News.ttf') format('truetype');\r\n                font-weight: normal !important;\r\n                font-style: normal !important;\r\n                mso-font-alt: 'Arial'\r\n            }\r\n            @font-face {\r\n                font-family: 'ClanPro-Medium';\r\n                src: url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Medium.woff') format('woff'), url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Medium.ttf') format('truetype');\r\n                font-weight: normal !important;\r\n                font-style: normal !important;\r\n                mso-font-alt: 'Arial'\r\n            }\r\n        }\r\n        .btn a:hover, * [lang=x-btn] a:hover {\r\n            background-color: #007279 !important;\r\n            border-color: #007279 !important\r\n        }\r\n        .textcta a:hover, * [lang=x-textcta] a:hover {\r\n            color: #007279 !important\r\n        }\r\n        a[x-apple-data-detectors] {\r\n            color: inherit !important;\r\n            text-decoration: none !important;\r\n            font-size: inherit !important;\r\n            font-family: inherit !important;\r\n            font-weight: inherit !important;\r\n            line-height: inherit !important\r\n        }\r\n    </style>\r\n</head>\r\n<body style=\"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #d6d6d5; margin: 0; min-width: 100%; padding: 0; width: 100%;\">\r\n<table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #d6d6d5; border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" bgcolor=\"#d6d6d5\" class=\"\">\r\n    <tr>\r\n        <td align=\"center\">\r\n\r\n            <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                <tr>\r\n                    <td style=\"background-color:#ffffff;\" align=\"center\"> \r\n                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                            <tr>\r\n                                <td bgcolor=\"#62CEAD\" valign=\"bottom\" background=\"https://uber-static.s3.amazonaws.com/emails/2016/global/pattern/global-aqua-05.jpg\" style=\"-webkit-background-size: cover;\r\n      -moz-background-size: cover;\r\n      -o-background-size: cover;\r\n      background-size: cover; background-image: url('https://uber-static.s3.amazonaws.com/emails/2016/global/pattern/global-aqua-05.jpg'); \" align=\"center\">\r\n                                    \r\n                                    <div>\r\n                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                            <tr>\r\n                                                <td style=\"padding:0;margin:0;width:81%;\" align=\"center\"></td>\r\n                                                <td style=\"padding:0;margin:0;width:13%;\" align=\"center\" valign=\"bottom\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/03/bitTop96x96.png\" width=\"96\" height=\"\" border=\"0\" class=\"bitTop\" style=\"-ms-interpolation-mode: bicubic; clear: both; display: block; height: auto; max-height: 60px; max-width: 96px; min-width: 65px; outline: none; text-decoration: none; width: 100%;\"></td>\r\n                                                <td style=\"padding:0;margin:0;width:6%;min-width:15px;\" align=\"center\"></td>\r\n                                            </tr>\r\n                                        </table>\r\n                                    </div>\r\n                                    \r\n                                </td>\r\n                            </tr>\r\n                        </table>\r\n                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; margin: 0 auto; max-width: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                            <tr>\r\n                                <td style=\"padding:0;margin:0;background-color:#ffffff;\" align=\"center\">\r\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                        <tr>\r\n                                            <td style=\"padding:0;margin:0;width:81%;\" align=\"center\"></td>\r\n                                            <td style=\"padding:0;margin:0;width:13%;\" align=\"center\">\r\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                    <tr>\r\n                                                        <td style=\"background-color:#000000;\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/03/bitBottom96x96.png\" width=\"96\" height=\"\" border=\"0\" class=\"bitBottom\" style=\"-ms-interpolation-mode: bicubic; clear: both; display: block; height: auto; max-height: 90px; max-width: 96px; min-width: 65px; outline: none; text-decoration: none; width: 100%;\"></td>\r\n                                                    </tr>\r\n                                                </table>\r\n                                            </td>\r\n                                            <td style=\"padding:0;margin:0;width:6%;min-width:15px;\" align=\"center\"></td>\r\n                                        </tr>\r\n                                    </table>\r\n                                </td>\r\n                            </tr>\r\n                        </table>\r\n                        \r\n                        <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; margin: auto; max-width: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"tron\">\r\n                            <tr>\r\n                                <td align=\"center\"><table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #ffffff; border: none; border-collapse: collapse; border-spacing: 0; margin: auto; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" bgcolor=\"#ffffff\" class=\"basetable\">\r\n                                    <tr>\r\n                                        <td align=\"center\">\r\n\r\n                                            <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                <tr>\r\n                                                    <td align=\"center\" style=\"background-color:#ffffff;\">\r\n                                                        \r\n\r\n                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"basetable\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                            <tr>\r\n                                                                <td>\r\n\r\n                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"basetable\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                        <tr>\r\n                                                                            <td>\r\n                                                                                \r\n\r\n                                                                                \r\n\r\n                                                                                <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                                    <tr>\r\n                                                                                        <td class=\"outsidegutter\" align=\"left\" style=\"padding: 0 14px 0 14px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                                                            <tr>\r\n                                                                                                <td>\r\n\r\n                                                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"t1of12 layout\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 56px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                                                        <tr>\r\n                                                                                                            <td style=\"font-size: 12px; line-height: 1px; padding-left: 0px; padding-right: 0px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                                                                <tr>\r\n                                                                                                                    <td>&nbsp;</td>\r\n                                                                                                                </tr>\r\n                                                                                                            </table></td>\r\n                                                                                                        </tr>\r\n                                                                                                    </table>\r\n\r\n                                                                                                    \r\n                                                                                                    \r\n                                                                                                    \r\n                                                                                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"t10of12 basetable\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 560px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                                                                    <tr>\r\n                                                                                                                        <td style=\"padding-left: 12px; padding-right: 12px;\">\r\n\r\n                                                                                                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" width=\"100%\" class=\"\">\r\n                                                                                                                                <tr>\r\n                                                                                                                                    <td class=\"lhreset\" style=\"font-size: 0px; line-height: 0px; padding-bottom: 20px;\">&nbsp;</td>\r\n                                                                                                                                </tr>\r\n                                                                                                                            </table>\r\n\r\n                                                                                                                            </td>\r\n                                                                                                                    </tr>\r\n                                                                                                                    <tr>\r\n                                                                                                                        <td style=\"padding-left: 12px; padding-right: 12px;\">\r\n                                                                                                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                                                                                <tr>\r\n                                                                                                                                    <td class=\"p1\" style=\"color: #717172; font-family: 'ClanPro-Book', 'HelveticaNeue-Light', 'Helvetica Neue Light', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 28px;\">Hey Matthieu, <br/><br/>Thank you for applying to Uber! We have received your application for the Bilingual Client Success Specialist opportunity.<br/><br/>What happens next? We will review your application and contact you if there is a good match.<br/><br/>Please note by agreeing to engage with Uber Recruiting, you are consenting to the collection and use of your candidate information.<br/><br/>To learn how we collect and use your information and learn about your rights, please visit our <a href=\"https://click.uber.com/f/a/g8W4x17ZTXYfVZgxhSKY4A~~/AAAAARA~/FEaa6UQimO7t5daSTM-5Sz2ZQn1xUFDckTtlwyrcYdgYpVS7cPvjmnv-UaMtleJrs1oWp_B1phypf_Y1VcPrLDf8Q95uC3FJxdrWLou0xS87n_L3RBAgM2y1jZGqSnt69anGTIrfVrhDCv0xItMExXWEgB4-27he5W5VHtFWwUM~\">Candidate Privacy Statement</a>.<br/><br/>In the meantime, you can learn more about our company, culture, and interview process through LinkedIn and Glassdoor.<br/><br/>Sincerely,<br/>Uber Recruiting Team<br/><br/></td>\r\n                                                                                                                                </tr>\r\n                                                                                                                                <tr>\r\n                                                                                                                                    <td align=\"left\" style=\"padding-bottom: 25px;\">\r\n                                                                                                                                        <div class=\"btn cta\" lang=\"x-btn\" style=\"font-family: 'ClanPro-Medium', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-transform: uppercase;\">\r\n                                                                                                                                            <a href=\"https://click.uber.com/f/a/-DK5vZgnLWIceCindhHpVg~~/AAAAARA~/cP7y2BhK3RUv7OOdarw91PJsGoOWXk4FgZ4Qj1ouFkiEwJRVd_tnz6a8zaN3dvfqRXo1YPRYwyxhfsu9-Ww_lj8oAIPIRg1lRpsZYrN8BC_-ZumlCt7Vi36GzGjZFj_cFn6qA7w0T1SywDOS4QQpJSrhjqHWLa91amKiPd_LTUUVHN_jAw6HClfWIRJbC9t1\" style=\"background-color: #57ad57; background-color:#57AD57; border-color: #57ad57; border-color:#57AD57; border-radius: 0px; border-style: solid; border-width: 13px 16px; color: #ffffff; display: inline-block; letter-spacing: 1px; max-width: 300px; min-width: 150px; text-align: center; text-decoration: none; text-transform: uppercase; transition: all 0.2s ease-in;\"> <span style=\"float:left;text-align:left;\">Check Application Status</span>\r\n                                                                                                                                                <span style=\"float:right;padding-top:2px; display:inline-block;\"> <img src=\"https://uber-static.s3.amazonaws.com/emails/2016/01/011116_arrow.png\" width=\"16\" height=\"12\" style=\"-ms-interpolation-mode: bicubic; Margin-left: 16px; border: none; clear: both; display: block; margin-top: 2px; max-width: 100%; outline: none; text-decoration: none; width: auto;\" alt=\"\" class=\"\"></span>\r\n                                                                                                                                            </a>\r\n                                                                                                                                        </div>\r\n                                                                                                                                    </td>\r\n                                                                                                                                </tr>\r\n                                                                                                                                <tr>\r\n                                                                                                                                    <td>\r\n\r\n                                                                                                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" width=\"100%\" class=\"\">\r\n                                                                                                                                            <tr>\r\n                                                                                                                                                <td class=\"p1-noLH lhreset\" style=\"font-size: 0px; line-height: 0px; padding-bottom: 28px;\">&nbsp;</td>\r\n                                                                                                                                            </tr>\r\n                                                                                                                                        </table>\r\n\r\n                                                                                                                                        \r\n                                                                                                                                    </td>\r\n                                                                                                                                </tr>\r\n                                                                                                                            </table>\r\n                                                                                                                        </td>\r\n                                                                                                                    </tr>\r\n                                                                                                                </table>\r\n\r\n                                                                                                    \r\n                                                                                                    \r\n                                                                                                    \r\n\r\n                                                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"t1of12 layout\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 56px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                                                        <tr>\r\n                                                                                                            <td style=\"font-size: 12px; line-height: 1px; padding-left: 0px; padding-right: 0px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                                                                <tr>\r\n                                                                                                                    <td>&nbsp;</td>\r\n                                                                                                                </tr>\r\n                                                                                                            </table></td>\r\n                                                                                                        </tr>\r\n                                                                                                    </table>\r\n\r\n                                                                                                    </td>\r\n                                                                                            </tr>\r\n                                                                                        </table></td>\r\n                                                                                    </tr>\r\n                                                                                </table>\r\n\r\n                                                                                \r\n                                                                                \r\n                                                                                </td>\r\n                                                                        </tr>\r\n                                                                    </table>\r\n\r\n                                                                    </td>\r\n                                                            </tr>\r\n                                                        </table>\r\n\r\n                                                        </td>\r\n                                                </tr>\r\n                                            </table>\r\n\r\n                                            </td>\r\n                                    </tr>\r\n                                </table></td>\r\n                            </tr>\r\n                        </table>\r\n\r\n                        \r\n                        \r\n\r\n                        <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n\r\n                            <td align=\"center\" style=\"background-color:#000000;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                <tr>\r\n                                    <td align=\"center\"><table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                        <tr>\r\n                                            <td style=\"padding:0 26px;\">\r\n\r\n                                                <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 648px; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\" class=\"\">\r\n                                                    <tr>\r\n                                                        <td style=\"font-size:0px; line-height:0px; padding-top:20px;\">&nbsp;</td>\r\n                                                    </tr>\r\n                                                    <tr>\r\n                                                        <td><table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                            <tr>\r\n                                                                <td align=\"left\">\r\n\r\n                                                                    \r\n\r\n                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 335px; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                        <tr>\r\n                                                                            <td style=\"padding-top:40px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                                <tr>\r\n                                                                                    <td align=\"left\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_logo.png\" width=\"90\" height=\"20\" style=\"-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;\" alt=\"\" class=\"\"></td>\r\n                                                                                </tr>\r\n                                                                            </table></td>\r\n                                                                        </tr>\r\n                                                                    </table>\r\n\r\n                                                                    \r\n                                                                    \r\n                                                                    \r\n\r\n                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 213px; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                        <tr>\r\n                                                                            <td style=\"padding-top:40px;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                                <tr>\r\n                                                                                    <td style=\"padding-right:20px;\"><table width=\"9\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                                                        <tr>\r\n                                                                                            <td><a href=\"https://click.uber.com/f/a/spHbtvLVDwJ0Ov-ITFJFKg~~/AAAAARA~/rOd1rPaDggbog1ZB1M36UrGE7ffi2KnLNJuqRvoyoNN0sxKU-9q5yvye7VB1TiVTdycTiNmkFtqFXUydDVbz9DMiYXPO7SAdI5TV0QLfZ29AK-34ELnXJgUFVlFrEq5BpC6Ti1wLQP2BwnX-l547JVxjbEytF2PZVO-aDGjdy9LRuMwgUPaSemgfYbaUeH44Mp0rAk8w9EwOrS0l2MiwP_ZqCmSalLYeUcpi11bbs1fksbxVyV7Yo4UOcxu3_e4lV-2RuimaouY0G-jo-6IPTSI14s1zyJIaqq9yVZwEGuMZVFu6LQIKgrJYZl298MyNC0mlM92DMS_7etvbKw-p2bv-NNPBAB5kmE78icGWUkfp_3gWJPD4qPfIWccmSHKejiqJAzorWG1oAqPgf4WmPBSWE4eg4-VGsMlDw3EmnoFpzTZGWKYxcOffQphhLIcuf05OZsko2xrJZ-VNfgTqQp3hoCktMdn0QiXPd1ONGjbLvtfhHdNT1LI-VmAYRLrTCThVDBzGk_t9ZGlrNwdFINztlL7gpZ_q9o2XyjWd-szlYAovjG0socZkk8vXZSDKot8jST-rFkHXxHblAteFFN7g0OVkqGuC8DHBCHRjBY1UAIHIILUDlujIQXX1lt5PZxAkfKvXVxHEV9JbvCm5fUfm_FzI0g9eTwI_XhqW6LrFXRm-jU4QnRq-cSDXyJAh\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_social_facebook.png\" style=\"-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; height: 19px; max-width: 100%; outline: none; text-decoration: none; width: 9px;\" alt=\"\" class=\"\" width=\"9\" height=\"19\"></a></td>\r\n                                                                                        </tr>\r\n                                                                                    </table></td>\r\n                                                                                    <td style=\"padding-right:20px; padding-left:20px; \"><table width=\"25\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                                                        <tr>\r\n                                                                                            <td><a href=\"https://click.uber.com/f/a/Q2fGD6_NRffnnrLZMA2wmA~~/AAAAARA~/rOd1rPaDggbog1ZB1M36UrGE7ffi2KnLNJuqRvoyoNPtiaA-2H_hIKsc2snJJAk__qIrQN3DCEl8k_Fa_Z1w7XALnASR800bO5h31B5GX4lENNw9kRutxicdn7ys9RynAWRysW3rhKU3Zo3qIbN5CLT-ZpE2NWiLqNMfV7Pzd-AB32rr2dIhQ-u9jB-caRhKoPo7nfXYUd-p79EKGrrXmBKIkJoKQ1p5IqtXyiBT0D37WMSzg0vMJaVLssAd7oO4cXRr0AgC8RarbWHwCfqz-lpQH6dr2JNQk6UKV6Rej6CuBfxZB3qWj_h0LZdMaUBdMwkIiO6aunqHxEkp_B6o39FWa3jEGfUIj1pBfF4i5is57x4dP3ZHWlYOetEwr2x-W27kzqZoQhEw7b7HcrooHi73mqu0gcupGa5XC8cSF3q8R1tv9UnOtWAHSQbtEnbhpecjUHz9_eGctFSNetEQJFuPOaemy9DIllTLrpsXZB5lgNpmQhYQxfP1aRT6g5Sy_kgnCKp_HQx8xE4v2Yk-50fZyIx20PVa0NWEs-PE-p_SZAONP-e8pGof5ocDVT2lMDNfBPCRSKkCDw31vCqXL5orpLhrMVL8ajmdfZ4lgmeoXHuG7xbhqDKdh6RPfMQ8JSFZWsBVjtJkuS0mEuJeIOuK6oSmtHotutzPUWytrXKoE24bGU0a3fR2i2BQisLb\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_social_twitter.png\" style=\"-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; height: 19px; max-width: 100%; outline: none; text-decoration: none; width: 25px;\" width=\"25\" height=\"19\" alt=\"\" class=\"\"></a></td>\r\n                                                                                        </tr>\r\n                                                                                    </table></td>\r\n                                                                                    <td style=\"padding-right:20px; padding-left:20px;\"><table width=\"20\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                                                        <tr>\r\n                                                                                            <td><a href=\"https://click.uber.com/f/a/G5K82gMCr01OZlAmvIDB8Q~~/AAAAARA~/tfOTvmSlayXOFuZ4yEzGYtQiGJugVdjIQSAIO4L1RC09ueVomhQPYn88GOpKWhqhfAAV9dd6_zMHC3ZPg_qgv0D9vcl-uV05i4--wxhRs7knQsyZKdAJH1ZFb4kOqW6musQ5VPYNvkN1LtFTQo29ETrXOhemXyvvZGKqun2pGAseWj-TQPfwy1KD8igeOVN8wXmnOnSZLD4-VhjDfSV0psJDifRu--zzPhLt_UWKFqxJX35FQNVDe_3fAjwyEJC1ZzQMd1qmx7UfKKCWJ8a2Hu8pz8CB232LmtAD9U9WTn7gRbjTlNP4z_vSFC9hswoMPGssRAhM_lx06AlcC5FxxDeNj42hYrrqkv1mg_h5FF7FhZ5kd6K9038c5uruYzxiXduqizAWoRgot6lJwmLohzA_livPY9IHTl3peBWB-Nhc6r6UWkNbPe8FiKg3ZP9VCv-hPuklXAjmmBRSArehYhbjMnUlHG3FTFTGyc9W8Fcf60uys8ljWccaOAs_PlEEBDhY7q5AF6Ho3WRHceA7djFV9t8c9gWKz7ZcGYgL3qLnSijrvr9oZbDj1VJHUVwOfklAqDRKG8nsITJG0alQMF_Gq8Z2dnsZ-jyTdyPzj98oyZ5_oLtKIFy00JvvhqCJhpyTU3n2O46WktIWg8lymJ0BSfA1JX5bsTAEPQZuHS8y6xwq7CTyRClmANdxkpwd\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_social_instagram.png\" style=\"-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; height: 19px; max-width: 100%; outline: none; text-decoration: none; width: 20px;\" width=\"20\" height=\"19\" alt=\"\" class=\"\"></a></td>\r\n                                                                                        </tr>\r\n                                                                                    </table></td>\r\n                                                                                    <td style=\"padding-right:20px; padding-left:20px;\"><table width=\"19\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                                                        <tr>\r\n                                                                                            <td><a href=\"https://click.uber.com/f/a/Tl2cmKZWZ_lol5oYgqIkNg~~/AAAAARA~/ocGnsdZKM6Drj3p1dLNizFnKOX1fTBVb2v0buPWgLTKeblA6a6n7R_vKfksBtmmWE42x2gLmc04QQ41OlBdNh8K9hkXp798prAl2hgm4q4L9plU6V9zQx3KuSk5xAxGtZtolpOi4CBu5Ql-x0BnJlkfpCabj6K4dYqLN0gPUcGHdya8Cq71u_NUwS2uyY52plah4102DHk7q1YBSXHn6KN0jIw6pxCj1xiTQfPeV2WuSIeaRFm1E9HzsEIRoYXXjktW9bvoG2B_VOtonCa9aBMO_axNm_OTWECfsY8eNJ2z_30NDSFhFiwOhMOKAHpPDXuLtO_kqO23FVycpoyPKwMXz-Sm3WcMyxsM0Ut5CQbna73ocTOgFTUi_8sHMIHN_YkOZltmjOwE9Lumkw7UC7x4WwJIrY1WBSGuzJlkSgEDLbwJnAmW4Ha-xbkA2pocAoWfaFGdbe1x4lB8gIXbzBUpT-1kWBaCIVOSDfG88khe3vx1oc0bLrn5r8O6Qdm7-DWZBaSndT_eVNibvQ40H67i467apvasaAkY9F8a08VWyg6q0cKxtkkPPuHwH1g9WR2WB6ZrVUard2zWeSfwwFxTGSE4znwg0GguxXJcqbFCl94aQtYMd7Zjn0NSicfcaLmCQQrcHhWwJ8W0CKzwHQ1Q0ZC15mq_Xvty8kybqcQZ6ThTdm7mPb959z1lY7pS340ydFDCLy_pRROOvENGRfw~~\"><img src=\"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_social_linkedin.png\" style=\"-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; height: 19px; max-width: 100%; outline: none; text-decoration: none; width: 19px;\" width=\"19\" height=\"19\" alt=\"\" class=\"\"></a></td>\r\n                                                                                        </tr>\r\n                                                                                    </table></td>\r\n                                                                                </tr>\r\n                                                                            </table></td>\r\n                                                                        </tr>\r\n                                                                    </table>\r\n\r\n                                                                    \r\n\r\n                                                                    </td>\r\n                                                            </tr>\r\n                                                        </table></td>\r\n                                                    </tr>\r\n                                                    <tr>\r\n                                                        <td style=\"padding:40px 0 0 0;\"><table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                            \r\n                                                            <tr>\r\n                                                                <td height=\"1\" style=\"font-size:0px;line-height:0px;background:#333333;\">&nbsp;</td>\r\n                                                            </tr>\r\n                                                            \r\n                                                        </table></td>\r\n                                                    </tr>\r\n                                                    <tr>\r\n                                                        <td><table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\" class=\"\">\r\n                                                            <tr>\r\n                                                                <td style=\"vertical-align:top;\" valign=\"top\">\r\n\r\n                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 335px; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                        <tr>\r\n                                                                            <td style=\"padding-top:30px;vertical-align:top;\" valign=\"top\" align=\"left\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                                <tr>\r\n                                                                                    <td class=\"p2\" style=\"color: #ffffff; font-family: 'ClanPro-News', 'HelveticaNeue-Light', 'Helvetica Neue Light', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px;\" align=\"left\"><a href=\"https://click.uber.com/f/a/o9BEennK5fL9DjGP4_x7oQ~~/AAAAARA~/bxhwBVEti55YSb1pxqOBN5YTTOzWr697I6NW2FpWDiJGpJBNNroHqcbIypxFuT6SJSC7AGKo1SI2LBYVIXlxfbS6rG1azkNJv1SVKtWMG1JwXOt8CGvuybRHfU2kZtvf_GdHQQh7q6bJcQOaeb_UrvmgifHTS6zVvKCIsFKT0wZxfL8ZpWodV7wCYqARJ8ME8GeVaIB-3VmRn3tzqxolb-ZEVu864JBMijI3k2VO6ZxYZwresA2zujsb1bx0ynWmAANFdQixGtP9Nbv0GBsoOmhmvq6T5NdUymEgBaVcvoBkvVYmjqHPUuAPMGSl5EjDH1O49Z4T2uYmMauj8RngynuwsKJdA4Pg-SFM0oWmcprUVrI-eYGQpFb1jIi_8GyTmaDizbKL-a9AFLXWx6t-ZWgyYYQSNZiw6ZCCpG8cpyei1gGABMpnKNCzsPXeMOsZs-LzTLro7RAWMq00tDSQaIWXhMzagXVsomiD9kxJo4-W3xjB5Nr-RjI-VRKFxzky_SROJA2EUm6ItoYXUo5eDqADCCVjrsKPqxP5Buni94ENHK-9Xb978LftcSLghQCJBTIDQTtwcve6w5Q-Qc1F9qviAySpXf236lhPGC3gKbPb6VGDnYie8TN55dRO2L6LSEKMIDIYL0MEntCJJrhmswOjCvt_rWs-G0RUKBwrIPg~\" style=\"color:#ffffff; text-decoration:none;\">Get Help</a></td>\r\n                                                                                </tr>\r\n                                                                            </table></td>\r\n                                                                        </tr>\r\n                                                                    </table>\r\n\r\n                                                                    \r\n                                                                    \r\n                                                                    \r\n\r\n                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 313px; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                        <tr>\r\n                                                                            <td><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" width=\"100%\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;\">\r\n                                                                                <tr>\r\n                                                                                    <td align=\"left\">\r\n\r\n                                                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"basetable\" align=\"left\" style=\"border: none; border-collapse: collapse; border-spacing: 0; max-width: 185px; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;\">\r\n                                                                                            <tr>\r\n                                                                                                <td style=\"color: #9d9da3; font-family: 'ClanPro-Medium', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; padding-right: 10px; padding-top: 30px;\" class=\"p3\" align=\"left\">Uber Technologies<br>1455 Market St<br>San Francisco, CA 94103</td>\r\n                                                                                            </tr>\r\n                                                                                            <tr>\r\n                                                                                                <td style=\"color: #9d9da3; font-family: 'ClanPro-Medium', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 26px; padding-top: 6px;\" class=\"p3\" align=\"left\"><a href=\"https://click.uber.com/f/a/el4dX8IUzLU39Dmekq3Dqw~~/AAAAARA~/ocGnsdZKM6Drj3p1dLNizFnKOX1fTBVb2v0buPWgLTIoXggfTNrT9MRXLT5mqRiQZS8hCUhG59dyH4qPFJgI4vf_bvjUhX6H2WwgLLAGmYsThK6tYri_hg6gYBr_DCLhj-O-rjcTrt4uy8Ynp64kKJdMjV5JE7SXM4EuYihrRDrhbNaUtQJrX_NlxV1CgqsLTBf090mA57JBdAcNm5C0H2Ct1mPxgK7iJGNgJkGLXr7Zs-pbfYfIARXOQm0zEhCXL3dLERMtKvqAn2gTeHHgBrKIbBFuCqQ7AfgEOe8HCJJYHbWRZYWowx3JPVuEufpG1SNtwdJRj-sKMn2TZn5Hc0k-Wkv0exOeNirmDkbgKMUwuakU2KVmBmeF0VU24mp5Qlih21emxmRIh7r37xNHU_fC0YtFZyA4Wn7SWNIx91e1JMYe0ocE4lsVEmddsMfv9s96p2gW0bKxxR2KgN68981umTQQoJRIg7SxYTiRh2oCFUwtbPPzRwzq8PhpwGlTSvAKHPl2YATb6tHflkTGBev3CtWoKagTXwJC15mkzj4ii-9grZXJsLCzt8qJ4A9zp1iYm45lhOHPFjkvL0JXYu2PPWpSuygZje-T3Dbs29OtLawzH1g1oOzgCml1F29QshN78r92gD4QTk_hpCSNqW1INIliY3dUK-T9agyIeoR3amiA-Qs71va6rAy0q6NhyAx6imQdnXBqikAamK3VYA~~\" style=\"color:#ffffff; text-decoration:none;\">Privacy</a> <br>\r\n                                                                                                    <a href=\"https://click.uber.com/f/a/yGUydvyEZ6TZpaS8eZ1-hA~~/AAAAARA~/tfOTvmSlayXOFuZ4yEzGYtQiGJugVdjIQSAIO4L1RC2jVEHoHM06dYyEM9WLwLiHpfxWdfRduulykVrLO4slhG-hQM6OG-rKYdd-T6tVACqRE6hRYe6rH5FejGU-u-J1bOn7Yo_Tgeo3Y0HDX1eelKqgsqsk6uqp8v7Mub7DfmBoOg4P7L3QHt4cF0QncCfMSHsDzn_Nqzo0rnn7rj1dB18AYG453ZlbP714EufkiwnSaZMFcG5Zhute7MV4S-sjNB1kt4MOnE4neJtPACIVUR3taNvNOytUeJtdRXN_hagy7ETvkHYrbeG_4tkz-5z9DI7JyxfPUvzdcq8-cK7whfb9cDWw2gRH-6SCdtLaw6vpGfUxHe_b806TfWBKTgMgBTIiz62Slyijy7fBLZbze6ETCsRH6L_MdYMqV2Hmuwxwkyfi3YXLuh7xLHS-Ma61-jBgeouAhJjJrTspNmngk5RJrSHC684mq9dI9rHYv4S1vhLy-eIjSv8RmjvBcPL9TUwS0eOQDM_ei-XUjSm2RQjblEfF9wA7bD0VyCU9av7FYUS2oWoNYib94tuG8tfG_DR0yNwMY2PNlj7pgNjN8PCV34BrYanhG0oXe4jZfEMrkaj_qbk3HZwiAjHvAO6Ev5WTCjBcDwANAdzBxWFHu2IZsFwhzbc1kMVYxL3ZbB6neeT7m_XJp9JHZnjmRSol\" style=\"color:#ffffff; text-decoration:none;\"> Terms </a></td>\r\n                                                                                            </tr>\r\n                                                                                        </table></td>\r\n                                                                                </tr>\r\n                                                                            </table></td>\r\n                                                                        </tr>\r\n                                                                    </table>\r\n\r\n                                                                    </td>\r\n                                                            </tr>\r\n                                                        </table></td>\r\n                                                    </tr>\r\n                                                    <tr>\r\n                                                        <td style=\"font-size:0px; line-height:0px; padding-top:60px;\">&nbsp;</td>\r\n                                                    </tr>\r\n                                                </table>\r\n\r\n                                                </td>\r\n                                        </tr>\r\n                                    </table></td>\r\n                                </tr>\r\n                            </table></td>\r\n                        </table></td></tr>\r\n            </table>\r\n\r\n            </td>\r\n    </tr>\r\n</table>\r\n\r\n\r\n\r\n\r\n\r\n<img border=\"0\" width=\"1\" height=\"1\" alt=\"\" src=\"https://click.uber.com/q/_sB60xZ6vPsOZUMfqN0eAA~~/AAAAAQA~/RgRa4gzlPkEIAKx2gWq4dv1XBHViZXJYBAAAAABIF2FyY2hfZm9yZ290X3Bhc3N3b3JkLXYxQgoAAmXZAFk_cO6AUg5jcGlrZUB1YmVyLmNvbQlRBAAAAABHs3sibWVzc2FnZV91dWlkIjoiOTcxMGM1MmYtZmE1NC00ODU4LWE4NDgtMDBlOTM4YTk3NWIwIiwiZnJvbV9lbWFpbCI6IlViZXIgPHViZXJAdWJlci5jb20-IiwidW5pcXVlX2lkIjoiOTM4NGI1YjQtNTI3NC00YzQ5LTg1MTQtNTM5ZDdjOTk4ZWYzIiwiY2F0ZWdvcnkiOiJhcmNoX2ZvcmdvdF9wYXNzd29yZC12MSJ9\">\r\n\r\n<img border=\"0\" width=\"1\" height=\"1\" alt=\"\" src=\"https://click.uber.com/q/9vCKU7YrwQb-33jS1nfH8Q~~/AAAAARA~/7Jj68qKM9TSYdnTiGHcJXeEDxEqk5DMzhusi0VD6UM_i2YBv0vGp3NBIsLwugPfth1BreAmThJ_9uSXrL443iA~~\">\r\n</body>\r\n</html>\r\n\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 58436,
+    "classification_label_values": null
+  }
+]

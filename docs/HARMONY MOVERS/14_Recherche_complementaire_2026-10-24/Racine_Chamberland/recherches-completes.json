@@ -1,0 +1,125 @@
+[
+  {
+    "query": "in:anywhere {from:racinechamberland.com to:racinechamberland.com cc:racinechamberland.com bcc:racinechamberland.com}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere {\"racinechamberland.com\" \"Racine Chamberland\" \"Maude Robidoux\"}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [
+      "1a16c2b6913d6e9a",
+      "19e84837989f40a5",
+      "19e8482d1cdc9ffb",
+      "19e8482baed8a2b5",
+      "19e847d2d23a5444",
+      "19e847d203e73434",
+      "19e847ca0d6579ce",
+      "19e6a1c6483f8f5a",
+      "19cd99af93d29791",
+      "19cd99acc0b82917",
+      "199f0125325ee98b"
+    ],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere {Dubois snb \"expert en sinistre\" \"expert en sinistres\"} {Dufourd Dufour Dufault}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere after:2026/08/01 {from:racinechamberland.com from:snb.ca from:snbei.com \"Joey Dubois\" \"Christian Dufourd\"}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [
+      "1a10d5436a58b8f3",
+      "1a10d314d309b571"
+    ],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere {from:indemnipro.ca to:indemnipro.ca cc:indemnipro.ca} after:2026/08/01",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere {\"dufourdion.com\" \"christiandufourd@gmail.com\" \"Christian Dufourd\"} {assurance assureur sinistre SNB Dubois indemnipro}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [
+      "1a10d5436a58b8f3",
+      "1a10d3a32b73f4ea",
+      "1a10d39e73c88fb9",
+      "1a10d2e36bf7f452",
+      "1a10d11afbf7805b",
+      "1a10d11a5159b3ff",
+      "1a10d119b71c4554",
+      "1a10d08a7feddb4a",
+      "1a0ef2ad6a978b96",
+      "1a0ef03adebb748d",
+      "19e6a17a01a2a5f7",
+      "19e6a179335276e5"
+    ],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere after:2026/08/01 {snbei \"SNB\" \"Cedric\" \"Cédric\" \"Joey Dubois\" \"indemnipro.ca\"}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere {\"53640-196353\" \"23910-9447\" \"lorraine.lamarche@indemnipro.ca\"}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [],
+    "next_page_token": null,
+    "status": "fulfilled"
+  },
+  {
+    "query": "in:anywhere {\"Racine\" \"Chamberland\" \"mrobidoux\"}",
+    "page": 1,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "message_ids": [
+      "1a16c2b6913d6e9a",
+      "19e84834f80f78eb",
+      "19e8482d1cdc9ffb",
+      "19e847d203e73434",
+      "19e847cd361839d1",
+      "19e847ccb9e47466",
+      "19e6a1eed65a4009",
+      "19e6a1c6483f8f5a",
+      "19d72e0957c61133",
+      "19cd99af93d29791",
+      "19cd99acc0b82917",
+      "199f0125325ee98b",
+      "18a94bb52dc46595"
+    ],
+    "next_page_token": null,
+    "status": "fulfilled"
+  }
+]

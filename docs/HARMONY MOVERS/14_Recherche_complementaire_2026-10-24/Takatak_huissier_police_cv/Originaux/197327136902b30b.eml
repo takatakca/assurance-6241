@@ -1,0 +1,406 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a05:6638:c101:b0:4fd:bfe7:a293 with SMTP id t1csp2050629jaa;
+        Mon, 2 Jun 2025 13:59:30 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHUXpoj477Z8KfpysVQZRZM5mmsWKWo7Vt/imyACsKsHY8AIUN2qiHHznFE6Yn8ZJsut7wK
+X-Received: by 2002:a05:690c:81:b0:70e:4d8:5cab with SMTP id 00721157ae682-710c9c9d227mr352037b3.2.1748897969780;
+        Mon, 02 Jun 2025 13:59:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1748897969; cv=none;
+        d=google.com; s=arc-20240605;
+        b=aWGfhIa10wSLfdYCcW0eN9baK2PmedlgoKSPI/1cEENimSWOoXguFtbz9HRhysOplN
+         +mN6SMXrxKWmisGTyDNEJBfbDFgSEyHo+wWg9eq7O3f0y1psyTT7dqmHw1VhDJdf4Ipo
+         VTWV4AQ0UtxMI0ADiDuPwiPKAmuduYgasw/oI5jiv1oM76or4DMgs4kp+UAs4D3g5k25
+         CKh3oR8eLa85m9r1RadQcxQiiI9SCneI7O6j8Skw7RHZWO3zObxAy9R6Ynv+i34CsY41
+         ipwwdz27AZjVMeWqs0DtH6qMKmi1I3QtRBS980/C9U7woUa/7A4To2O+zDldTlUabsUl
+         wR7A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-id:list-unsubscribe-post:list-unsubscribe:precedence
+         :mime-version:subject:message-id:to:reply-to:from:date
+         :dkim-signature;
+        bh=I8B+7u8RzI0YLelgF0VCEoA1k3TsRgOQQgk+kjf0uPg=;
+        fh=axKVI9wSXeZYXwf1r1n4oTve1/fCbrJQchhoSktsqNY=;
+        b=bk1/iR5Zj8o2dDA+onJfuf8IOA3hHtAHotfa+xO0AAlPNFTK7XjMX4dHSRa26JQqPU
+         Jb9jYVV1qWsEJn8uhwKP/th3BuBiQvHC95YPJLf6C2yjbtD5PvLtGSAZwsHukbs9z5wd
+         m2Fnv/PYsGiS28RUrtw6oAFMTO6dPGV8YmCOjaE6p6XLvGs8NKW6wheiSskYJb7ugDdQ
+         z8yplgoO/kMGVe8azmJ2d8anQtx1mT5xc1QWPMeW5Pdcy0sueyx2uvLhlxzAZFhlgmKy
+         6DTtxZgWxraGy05n3SSxhhthIkHuVuxCdSI0Y7scqxDz5806DGqWIPF684X8x9olMbMr
+         MGxA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@talent.icims.com header.s=scph1117 header.b=EmuiuhH9;
+       spf=pass (google.com: domain of msprvs1=20248ejsanj2g=bounces-131558-5398@bounces.icims.com designates 162.247.166.130 as permitted sender) smtp.mailfrom="msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=talent.icims.com
+Return-Path: <msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com>
+Received: from icims-talentplatform-166130.email.icims.tools (icims-talentplatform-166130.email.icims.tools. [162.247.166.130])
+        by mx.google.com with ESMTPS id 00721157ae682-70f96b2106fsi91375057b3.216.2025.06.02.13.59.29
+        for <takatak.ca@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Jun 2025 13:59:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of msprvs1=20248ejsanj2g=bounces-131558-5398@bounces.icims.com designates 162.247.166.130 as permitted sender) client-ip=162.247.166.130;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@talent.icims.com header.s=scph1117 header.b=EmuiuhH9;
+       spf=pass (google.com: domain of msprvs1=20248ejsanj2g=bounces-131558-5398@bounces.icims.com designates 162.247.166.130 as permitted sender) smtp.mailfrom="msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=talent.icims.com
+Return-Path: <msprvs1=20248eJsanJ2G=bounces-131558-5398@bounces.icims.com>
+X-MSFBL: Q7M63mRlBxvjJqmjffSVoEa0uIc5xAGCyQyUQ0RGL9o=|eyJzdWJhY2NvdW50X2l
+	kIjoiNTM5OCIsIm1lc3NhZ2VfaWQiOiI2ODNkYjAxMDNlNjhkYzg4NjI1YiIsImN
+	1c3RvbWVyX2lkIjoiMTMxNTU4IiwiciI6InRha2F0YWsuY2FAZ21haWwuY29tIiw
+	idGVuYW50X2lkIjoic3BjIn0=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=talent.icims.com;
+	s=scph1117; t=1748897968; i=@talent.icims.com;
+	bh=I8B+7u8RzI0YLelgF0VCEoA1k3TsRgOQQgk+kjf0uPg=;
+	h=Date:From:To:Message-ID:Subject:Content-Type:X-CSA-Complaints:
+	 List-Unsubscribe:List-Unsubscribe-Post:From:To:Cc:Subject;
+	b=EmuiuhH9BKb8Gy572POSl6Q6lYlK3YoSp1wW8mk6aeMhdP7HmZ35sMbRpUhofq+OR
+	 Z/VXLf4xG+pV3yCYagWydlh+DasbySjNZ5W07nwK2B9i6yx/p5i/UT7YECk+Ks/bcL
+	 sCegUka5WdvEw6/FFTG6sjI6BPFqnBMFdx1Rq+Fk=
+Received: from [10.90.24.18] ([10.90.24.18])
+	by i-04c9f90d4495e38a4.mta1vrest.sd.prd.sparkpost (ecelerity 5.0.0.74447 r(msys-ecelerity:tags/5.0.0.4)) with REST
+	id B5/26-57945-0B01E386; Mon, 02 Jun 2025 20:59:28 +0000
+Date: Mon, 2 Jun 2025 16:59:28 -0400 (EDT)
+From: Do Not Reply at Uber <uber+email+2zizk-f27b8b770c@talent.icims.com>
+Reply-To: 
+	Do Not Reply at Uber <uber+email+2zizk-f27b8b770c@talent.icims.com>
+To: takatak.ca@gmail.com
+Message-ID: <1385491864.27168.1748897968518@ip-10-47-161-56.ec2.internal>
+Subject: Thank you for your application -  Bilingual Client Success
+ Specialist
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_27166_227992905.1748897968514"
+X-iRecruiter-Type: ME
+X-iCIMS-Type: ME
+X-iCIMS-Priority: Bulk
+Precedence: bulk
+X-iRecruiter-Source: uber
+X-iCIMS-Message-Id: 14071573.sn5ObPgw6xS+QbeGz0dj/FDzTaBkRR0LsVT2VNy9KTQ=
+X-CSA-Complaints: csa-complaints@eco.de
+X-MSYS-API: { "options" : { "open_tracking" : true, "click_tracking" : true, "transactional": false, "ip_pool": "prd_us_bulk" } }
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:tLuYgffEIbI45Y6sisVhjcKfTiBUtfMVHsEmxmLJUPA~|eyAicmNwdF90byI6ICJ0YWthdGFrLmNhQGdtYWlsLmNvbSIsICJ0ZW5hbnRfaWQiOiAic3BjIiwgImN1c3RvbWVyX2lkIjogIjEzMTU1OCIsICJzdWJhY2NvdW50X2lkIjogIjUzOTgiLCAibWVzc2FnZV9pZCI6ICI2ODNkYjAxMDNlNjhkYzg4NjI1YiIgfQ~~>,<https://unsubscribe.spmta.com/u/8UUrkSIrrIPfWHq5V-TGQQ~~/AAIB5hA~/pl_ot6hqpF1b6984M9Qoy_TloBVulCQUqYrD2K2E_spiywWe-dcoFRBzDTx1xCR3DC_wLbHAaYcKTKzY0QdA4w~~>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Id: <spc.131558.5398.sparkpostmail.com>
+
+------=_Part_27166_227992905.1748897968514
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+=C2=A0=0D=0A =0D=0A =0D=0A =0D=0A =0D=0A =0D=0AHi Matthieu,=0D=0A=C2=A0=0D=
+=0AThanks for giving us the opportunity to consider you for the=0D=0ABiling=
+ual Client Success Specialist role. Although your resume was impressive, we=
+ have decided to move forward with other candidates whose skills are a clos=
+er match to what we're looking for right now.=0D=0A=0D=0AWe really apprecia=
+te your interest in Uber and hope you=E2=80=99ll apply again in the future =
+if you see a role suited to your background. We encourage you to visit our =
+Uber Careers website to explore future opportunities that may interest you.=
+=0D=0A=0D=0ABest,=0D=0AUber Talent Acquisition=0D=0A =0D=0AUber takes your =
+privacy seriously. Please note by agreeing to engage with Uber Recruiting, =
+you are consenting on the collection and use of your candidate information.=
+ To learn how we collect and use your information, and learn about your rig=
+hts under GDPR, please visit our Privacy Statement.=0D=0A =0D=0A =0D=0A =0D=
+=0A =0D=0A=C2=A0 =0D=0A =0D=0A =0D=0A =0D=0A =0D=0A =0D=0A =0D=0A=C2=A0 =0D=
+=0AGet help  Privacy  Terms  =0D=0A =0D=0ACommunity =0D=0A =0D=0A =0D=0A =
+=0D=0A=C2=A0 =0D=0A =0D=0A   =0D=0A =0D=0A =0D=0A =0D=0AUber Technologies =
+=0D=0A1725 3rd Street, San Francisco 94158=0D=0AUber.com =0D=0A =0D=0A =0D=
+=0A =0D=0A =0D=0A =0D=0A =0D=0A =0D=0A=C2=A0=0D=0A=C2=A0=0D=0A=C2=A0=0D=0A=
+=0D=0A=0D=0A**************************************************=0D=0AThis me=
+ssage was sent to takatak.ca@gmail.com. If you don't want to receive these =
+emails from this company in the future, please go to:=0D=0Ahttps://tracking=
+.icims.com/f/a/edy5yVAgN2_3PYkBAAE38g~~/AAIB5hA~/BVPMmZ050sfedlVG8ksHVYt2L=
+kJJsGALXhpOxeDwsWV5M7ejVfnXvQNGasImY4ecaZteo0jODnRL0jOVrU5c_tiVDYweNnyDnYG6=
+1pgZ1xJKzjQhaWnR7n9E-2ZlHOLnCprg3SXVsU6pWr37s0ssw3fmXOu9L5IQNWSemLID83U~ =
+=0D=0A/n &#169; Uber, 1455 Market Street San Francisco CA 94103 USA/n=0D=0A
+------=_Part_27166_227992905.1748897968514
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<p style=3D"margin: 0px;">&nbsp;</p><div dir=3D"ltr" style=3D"background-co=
+lor: #d6d6d5; margin: 0; min-width: 100%; padding: 0; width: 100%;"><table =
+style=3D"background-color: #d6d6d5; border: 0; border-collapse: collapse; b=
+order-spacing: 0;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" bgcolor=3D"#d6d6d5"><tbody><tr><td style=3D"display: block;" align=
+=3D"center"><table style=3D"border: 0; border-collapse: collapse; border-sp=
+acing: 0; max-width: 700px;" border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0"><tbody><tr><td style=3D"background-color: #ffffff;"><tabl=
+e style=3D"border: none; border-collapse: collapse; border-spacing: 0; widt=
+h: 100%;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"><=
+tbody><tr><td style=3D"background-color: #000000; padding: 0px 14px 0px 14p=
+x; direction: ltr; text-align: left;" align=3D"left"><table style=3D"border=
+: none; border-collapse: collapse; border-spacing: 0; width: 100%;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"directio=
+n: ltr; text-align: left;"><table style=3D"margin: 0 auto; border: none; bo=
+rder-collapse: collapse; border-spacing: 0; max-width: 560px; width: 100%;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tbody><=
+tr><td style=3D"padding-left: 12px; padding-right: 12px; direction: ltr; te=
+xt-align: left;"><table style=3D"border: none; border-collapse: collapse; b=
+order-spacing: 0; table-layout: fixed; width: 100%;" border=3D"0" width=3D"=
+100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"left"><tbody><tr><td sty=
+le=3D"direction: ltr; text-align: left;"><img style=3D"clear: both; display=
+: block; max-width: 100%; outline: none; text-decoration: none;" src=3D"htt=
+ps://s3.amazonaws.com/uber-static/emails/2018/global/logos/uber-logo_75x75_=
+2x_white.png" width=3D"75" height=3D"75" /></td></tr></tbody></table></td><=
+/tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style=3D"pa=
+dding: 0px 14px 0px 14px; direction: ltr; text-align: left;" align=3D"left"=
+><table style=3D"border: none; border-collapse: collapse; border-spacing: 0=
+; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr=
+><td style=3D"padding-top: 25px; padding-bottom: 25px; direction: ltr; text=
+-align: left;"><table style=3D"margin: 0 auto; border: none; border-collaps=
+e: collapse; border-spacing: 0; max-width: 560px; width: 100%;" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tbody><tr><td style=
+=3D"padding-left: 12px; padding-right: 12px; direction: ltr; text-align: le=
+ft;"><table style=3D"border: none; border-collapse: collapse; border-spacin=
+g: 0; table-layout: fixed; width: 100%;" border=3D"0" width=3D"100%" cellsp=
+acing=3D"0" cellpadding=3D"0" align=3D"left"><tbody><tr><td style=3D"paddin=
+g-top: 5px; padding-bottom: 4px; direction: ltr; text-align: left;"><img cl=
+ass=3D"CToWUd a6T" tabindex=3D"0" src=3D"https://lh7-us.googleusercontent.c=
+om/43v18jrzLtw3s0BXkOc2Rh5762xXwm84g4GbfqnVtf1aCQ0v2APDSIv6PaGaB2Jjl-bwgwQV=
+VBxpTVyXF1M1Bj8XfFm4jiG2aJBv3e1IX2AE47ClWSn0Qm6GKXJpqtnyetP32dyinJoeu5S7MTM=
+YmN4" width=3D"533" height=3D"182" crossorigin=3D"" data-bit=3D"iit" /></td=
+></tr><tr><td style=3D"color: #000000; font-family: Helvetica; font-size: 1=
+6px; line-height: 26px; padding-bottom: 7px; padding-top: 7px; direction: l=
+tr; text-align: left;"><p style=3D"margin: 0px;"><span style=3D"font-family=
+: helvetica;"><span style=3D"font-size: 12pt;">Hi Matthieu,</span></span></=
+p><p style=3D"margin: 0px;">&nbsp;</p><p style=3D"margin-top: 0pt; margin-b=
+ottom: 0pt;"><span style=3D"font-family: helvetica;"><span style=3D"font-si=
+ze: 12pt;"><span style=3D"font-family: Arial, sans-serif; color: #000000; f=
+ont-weight: 400;">Thanks for giving us the opportunity to consider you for =
+the</span><span style=3D"font-family: Arial, sans-serif; color: #000000; fo=
+nt-weight: 400;"><br /></span><span style=3D"font-family: Arial, sans-serif=
+; color: #000000; font-weight: 400;">Bilingual Client Success Specialist ro=
+le. Although your resume was impressive, we have decided to move forward wi=
+th other candidates whose skills are a closer match to what we're looking f=
+or right now.</span></span></span></p><p style=3D"margin-top: 0pt; margin-b=
+ottom: 0pt;"><span style=3D"font-family: helvetica;"><span style=3D"font-si=
+ze: 12pt;"><span style=3D"font-family: Arial, sans-serif; color: #000000; f=
+ont-weight: 400;"><br /></span><span style=3D"font-family: Arial, sans-seri=
+f; color: #000000; font-weight: 400;">We really appreciate your interest in=
+ Uber and hope you=E2=80=99ll apply again in the future if you see a role s=
+uited to your background. We encourage you to visit our </span><a href=3D"h=
+ttps://tracking.icims.com/f/a/HCvv9YQsA2kKQ_aBOxS70w~~/AAIB5hA~/M8z35M0zz25=
+AjwMvvf7iscPKf_47QdYaDyIO2e5aQgTxGJl_mWWsoNpfmM19le5OdQrYkPQAc40V8joUS-xx8a=
+DTjKXBruGmDxd8robQAtY~" target=3D"_blank" rel=3D"noopener"><span style=3D"f=
+ont-family: Arial, sans-serif; color: #1155cc; font-weight: 400;">Uber Care=
+ers</span></a><span style=3D"font-family: Arial, sans-serif; color: #000000=
+; font-weight: 400;"> website to explore future opportunities that may inte=
+rest you.</span><span style=3D"font-family: Arial, sans-serif; color: #0000=
+00; font-weight: 400;"><br /></span><span style=3D"font-family: Arial, sans=
+-serif; color: #000000; font-weight: 400;"><br /></span><span style=3D"font=
+-family: Arial, sans-serif; color: #000000; font-weight: 400;">Best,</span>=
+</span></span></p><p style=3D"margin-top: 0pt; margin-bottom: 0pt;"><span s=
+tyle=3D"font-family: helvetica;"><span style=3D"font-size: 12pt; font-famil=
+y: Arial, sans-serif; color: #000000; font-weight: 400;">Uber Talent Acquis=
+ition</span></span></p></td></tr><tr><td style=3D"direction: ltr; text-alig=
+n: left; padding-top: 20px; padding-bottom: 15px;"><span style=3D"font-size=
+: 10pt;"><em><span style=3D"font-size: 10pt; font-family: Arial,sans-serif;=
+ color: #000000; font-weight: 400;">Uber takes your privacy seriously. Plea=
+se note by agreeing to engage with Uber Recruiting, you are consenting on t=
+he collection and use of your candidate information. To learn how we collec=
+t and use your information, and learn about your rights under GDPR, please =
+visit our</span><a href=3D"https://tracking.icims.com/f/a/lCQNgVX0wg2dBUMJk=
+c6dXA~~/AAIB5hA~/3BMbggu4ZJBd_Za6diIxE1tZiW9KQON3cXlps7FaRmrVQ-6y6_2iEekDM0=
+5HK3ft2s6-mDSYwFxCXPgEQ9gpsBazvo5U-MQQY_olzfzicJoan-aHle0AuRXMkwEYe9z-Sn-PX=
+NrupPMACxQjOqZgWPFFlQbSxpxsnGoAsATx3Ks~" target=3D"_blank" rel=3D"noopener"=
+><span style=3D"font-size: 10pt; font-family: Arial,sans-serif; color: #115=
+5cc; font-weight: 400;"> Privacy Statement</span></a><span style=3D"font-si=
+ze: 10pt; font-family: Arial,sans-serif; color: #000000; font-weight: 400;"=
+>.</span><br /></em></span></td></tr></tbody></table></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr></tbody></table><table style=3D"bor=
+der: 0; border-collapse: collapse; border-spacing: 0; margin: auto; max-wid=
+th: 700px;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+><tbody><tr><td align=3D"center"><table style=3D"background-color: #fff; bo=
+rder: 0; border-collapse: collapse; border-spacing: 0; margin: auto;" borde=
+r=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffff=
+ff"><tbody><tr><td align=3D"center"><table style=3D"border: 0; border-colla=
+pse: collapse; border-spacing: 0;" border=3D"0" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"background-color: #ffffff;=
+" align=3D"center"><table style=3D"border: 0; border-collapse: collapse; bo=
+rder-spacing: 0;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td><table style=3D"border: 0; border-collapse: collapse;=
+ border-spacing: 0;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0"><tbody><tr><td><table style=3D"border: 0; border-collapse: collap=
+se; border-spacing: 0;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellp=
+adding=3D"0"><tbody><tr><td><table style=3D"border: none; border-collapse: =
+collapse; border-spacing: 0; width: 100%;" border=3D"0" width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" bgcolor=3D"#ffffff"><tbody><tr><td style=3D=
+"padding: 0px 14px 0px 14px; direction: ltr; text-align: left;" align=3D"le=
+ft">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></t=
+body></table></td></tr></tbody></table></td></tr></tbody></table></td></tr>=
+</tbody></table></td></tr></tbody></table><table style=3D"background-color:=
+ #000000; border: none; border-collapse: collapse; border-spacing: 0; width=
+: 100%;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"><t=
+body><tr><td style=3D"padding: 0px 14px 0px 14px; direction: ltr; text-alig=
+n: left;" align=3D"left"><table style=3D"border: none; border-collapse: col=
+lapse; border-spacing: 0; width: 100%;" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0"><tbody><tr><td style=3D"direction: ltr; text-align: left;"><t=
+able style=3D"border: none; border-collapse: collapse; border-spacing: 0; m=
+ax-width: 560px; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center"><tbody><tr><td style=3D"font-size: 1px; height: 1px=
+; line-height: 1px; padding-left: 0px!important; padding-right: 0px!importa=
+nt; direction: ltr; text-align: left;">&nbsp;</td></tr><tr><td style=3D"fon=
+t-size: 1px; height: 1px; line-height: 1px; padding-left: 0px!important; pa=
+dding-right: 0px!important; padding-top: 30px; direction: ltr; text-align: =
+left;"><table style=3D"border: none; border-collapse: collapse; border-spac=
+ing: 0; width: 100%;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr><td style=3D"direction: ltr; text-align: left;"><tabl=
+e style=3D"border: none; border-collapse: collapse; border-spacing: 0; max-=
+width: 268px; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"left"><tbody><tr><td style=3D"padding-bottom: 20px; direction: l=
+tr; text-align: left;"><table style=3D"border: none; border-collapse: colla=
+pse; border-spacing: 0; table-layout: fixed; width: 100%;" border=3D"0" wid=
+th=3D"100%" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"col=
+or: #ffffff; display: inline-block; font-family: 'UberMoveText-Regular','He=
+lveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-=
+size: 10px; line-height: 16px; padding-left: 12px; padding-right: 12px; tex=
+t-align: center; width: 64px; direction: ltr;"><a href=3D"https://tracking.=
+icims.com/f/a/FKRABoEnPw4Ir0mVGFczZw~~/AAIB5hA~/ZdDASVNuLAXecb6DatlpX6FxB4J=
+8V29-W9ldl5_9ptt1VL3Qmbq3QuB1B0scrTCnvq-zSDLzDxecRwrKJsT_lOyRri3JlF6Bn2ld8Z=
+AFSOxiNIYOo7bTuKk_GNIMr4VyvEUTffAhCvmZp8BYxBqG0Or9-wpaZ9Za9CKhY_-JGxgvf8Ypd=
+8GvSrd5sIICQkMkNYX3gnshEoh8uZipn030GU63OgN0exuw_B1zQxKFEe-pizCmWJZR730owxEn=
+mAL29rSqWajpQ17WA8i8yAr7RIHmwPWDrlkAOntEnnaWhzQ~" target=3D"_blank" style=
+=3D"color: #ffffff; text-decoration: none;" rel=3D"noopener">Get help</a></=
+td><td style=3D"width: 1px; display: inline-block;" align=3D"center" width=
+=3D"1"><img style=3D"clear: both; display: block; height: auto; max-height:=
+ 16px; max-width: 1px; outline: none; text-decoration: none; width: 100%;" =
+src=3D"https://s3.amazonaws.com/uber-static/emails/2018/global/borders/Line=
+.png" width=3D"1" height=3D"" border=3D"0" /></td><td style=3D"color: #fff=
+fff; display: inline-block; font-family: 'UberMoveText-Regular','HelveticaN=
+eue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-size: 10=
+px; line-height: 16px; padding-left: 12px; padding-right: 12px; text-align:=
+ center; width: 64px; direction: ltr;"><a href=3D"https://tracking.icims.co=
+m/f/a/HgxjKl6uj0gzZ_O1baXOBA~~/AAIB5hA~/Sa_TA6sTynCnii6wEMyRtWEJgs1aUM-PvFG=
+KpSCooZWKcsDg-MNxQwLxDcRLx_FPmD67Waqlr1vT_t-lq7ZroirJb3ie1xPmJGo7wRuuIvGG4p=
+vvNUPWhQ8RBHdZIypoDFh2YhJzphYZEhXt3VnUVTXOiMoQbkXVaO6GGhai9LadE6Xawrk3gs_-c=
+MzpQb6wBb6iRyi94c7aL0eb1P1TAqELpHYHQ5b4A5_y-V-J2B5A6MNz3jRLZleDItpwg6Ja6-my=
+YKAUODsDjeCC2buAvHY7ppOX71v9i5vAa-tj6jguWk1df5ua-bJHdR5H4GCU" target=3D"_bl=
+ank" style=3D"color: #ffffff; text-decoration: none;" rel=3D"noopener">Priv=
+acy</a></td><td style=3D"width: 1px; display: inline-block;" align=3D"cente=
+r" width=3D"1"><img style=3D"clear: both; display: block; height: auto; max=
+-height: 16px; max-width: 1px; outline: none; text-decoration: none; width:=
+ 100%;" src=3D"https://s3.amazonaws.com/uber-static/emails/2018/global/bord=
+ers/Line.png" width=3D"1" height=3D"" border=3D"0" /></td><td style=3D"colo=
+r: #ffffff; display: inline-block; font-family: 'UberMoveText-Regular','Hel=
+veticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sans-serif; font-s=
+ize: 10px; line-height: 16px; padding-left: 12px; padding-right: 12px; text=
+-align: center; width: 63px; direction: ltr;"><a href=3D"https://tracking.i=
+cims.com/f/a/zYhKGvdL0zzdWg1nIav41A~~/AAIB5hA~/Bu7-Z2AK3w6ZpDDY4KwXtVLMrsNh=
+pVPnWl_BibBthVIgZ-BTLXiR8pikwDDjyAB4g77hlFWrxRkaxE2qRrA9gPZ9skUKXhHGtxPmw-2=
+FxSj4SY55W2FhCfhl6q00AyYJh83HWIkhDfQfrsyvDaxLSSM7fEuu8g4CRJWrodIMg2wI5jPajp=
+LUBh3vQhjHcp4V8PiojTzduflppd5tKC5h5fcXyzmbUH2qJnqpId9QznkYJ77MI-0StLN3THrY_=
+4kKDjOZdO04r2alRvLCZ1pYgEE_bm5kYaGVyEQSD-mN54w~" target=3D"_blank" style=3D=
+"color: #ffffff; text-decoration: none;" rel=3D"noopener">Terms</a></td><td=
+ style=3D"width: 1px; display: inline-block;" align=3D"center" width=3D"1">=
+<img style=3D"clear: both; display: block; height: auto; max-height: 16px; =
+max-width: 1px; outline: none; text-decoration: none; width: 100%;" src=3D"=
+https://s3.amazonaws.com/uber-static/emails/2018/global/borders/Line.png" w=
+idth=3D"1" height=3D"" border=3D"0" /></td></tr></tbody></table></td></tr><=
+/tbody></table><table style=3D"border: none; border-collapse: collapse; bor=
+der-spacing: 0; max-width: 268px; width: 100%;" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" align=3D"left"><tbody><tr><td style=3D"padding-bottom=
+: 20px; direction: ltr; text-align: left;"><table style=3D"border: none; bo=
+rder-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100=
+%;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"><tbody>=
+<tr><td style=3D"color: #ffffff; display: inline-block; font-family: 'UberM=
+oveText-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Ari=
+al,sans-serif; font-size: 10px; line-height: 16px; padding-left: 12px; padd=
+ing-right: 12px; text-align: center; width: 64px; direction: ltr;"><a href=
+=3D"https://tracking.icims.com/f/a/g0GafE_vheCFIcDaxH-Pjw~~/AAIB5hA~/WzszIz=
+YsV8yM8znldcH5hj_m6nnsVtlhoz26C6Jsy09i321OHxcqCzusoPKZBgf4M6wGuQfq1XCnMbh2h=
+InMq83Lhq3HEH6EBfhXVI1FIwmrvMTwJhP8VubqabRvtojzg2yO6E76pB2xQb8UyqZZ2EPgDMcK=
+dZE13kIJjCv67EeOPieR5KRO17a0my0ZoWJbyy_5i0PGfme8RK5ZxjIz3vrlBAN_dRziUJCnKi_=
+4eSr4r8BvFfiywE7nwdJqO_BqD6izvPV3exYo4Y2K2jjW6VYEcidWsavbjCsLSrudbR5GQ3xHfw=
+V5LFQ-mtRUwBlCLIkLPkkqeZ7KKjYME8n2tA~~" target=3D"_blank" style=3D"color: #=
+ffffff; text-decoration: none;" rel=3D"noopener">Community</a></td></tr></t=
+body></table></td></tr></tbody></table></td></tr></tbody></table></td></tr>=
+<tr><td style=3D"font-size: 1px; height: 1px; line-height: 1px; padding-lef=
+t: 0px!important; padding-right: 0px!important; direction: ltr; text-align:=
+ left;"><table style=3D"border: none; border-collapse: collapse; border-spa=
+cing: 0; width: 100%;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpa=
+dding=3D"0"><tbody><tr><td dir=3D"rtl" style=3D"font-size: 0; text-align: l=
+eft; direction: rtl;"><table dir=3D"ltr" style=3D"border: none; border-coll=
+apse: collapse; border-spacing: 0; display: inline-block; max-width: 224px;=
+ vertical-align: middle; width: 100%;"><tbody><tr><td style=3D"padding-left=
+: 12px; padding-right: 12px; padding-top: 20px; width: 100%; direction: ltr=
+; text-align: left;" align=3D"right"><table style=3D"border: none; border-c=
+ollapse: collapse; border-spacing: 0; table-layout: fixed; text-align: righ=
+t; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"=
+right"><tbody><tr><td style=3D"direction: ltr; text-align: left;"><table st=
+yle=3D"border: none; border-collapse: collapse; border-spacing: 0; max-widt=
+h: 56px; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"left"><tbody><tr><td style=3D"font-size: 1px; height: 1px; line-heigh=
+t: 1px; padding-left: 0px!important; padding-right: 0px!important; directio=
+n: ltr; text-align: left;"><table style=3D"border: none; border-collapse: c=
+ollapse; border-spacing: 0; table-layout: fixed; width: 100%;" border=3D"0"=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"left"><tbody><=
+tr><td style=3D"font-size: 1px; line-height: 1px; direction: ltr; text-alig=
+n: left;">&nbsp;</td></tr></tbody></table></td></tr></tbody></table><table =
+style=3D"border: none; border-collapse: collapse; border-spacing: 0; max-wi=
+dth: 112px; width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+align=3D"left"><tbody><tr><td style=3D"direction: ltr; text-align: left;"><=
+table style=3D"border: none; border-collapse: collapse; border-spacing: 0; =
+table-layout: fixed; width: 100%;" border=3D"0" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"left"><tbody><tr><td style=3D"direction: =
+ltr; text-align: left;" align=3D"right"><a href=3D"https://tracking.icims.c=
+om/f/a/0GDLAbG45L2ucJao2nbmcQ~~/AAIB5hA~/yTpGlUznpx6owF-NDD6p9I2FfcJPXRA2DP=
+Dmi3VIIkGnHLykU5PEJJ3p_8r8vUrbZpm8wE_jnKJPFIskuFKL4hSz9E3du2Zqr_wqGCqe4pgeH=
+k4xHdiX0XvKq3MeQA-xA_GZTxo8GocX8N5SCvl357nP20bjyeaJeOCzne76jYykW0hyLC6zdLmG=
+Q_9fztbIdyQ8uOr3GIkUDhtCI8qKjS8VRROsjzFT8Dl312ks6H1l8_oyjlm_gtNUKBT2D08V1ZQ=
+eApS7o2oOlh04PWUmulb1PTpRUbJ3yjYa5Nymrwg~" target=3D"_blank" rel=3D"noopene=
+r"> <img style=3D"clear: both; display: block; height: auto; max-height: 17=
+px; max-width: 13px; outline: none; text-decoration: none; width: 100%;" sr=
+c=3D"https://s3.amazonaws.com/uber-static/emails/2018/global/icons/08_28_18=
+facebook.png" width=3D"13" height=3D"" border=3D"0" /> </a></td><td style=
+=3D"direction: ltr; text-align: left;" align=3D"right"><a href=3D"https://t=
+racking.icims.com/f/a/xAMcM-0gIaQgfYJJ5Ha8hA~~/AAIB5hA~/ZdDASVNuLAXecb6Datl=
+pX6FxB4J8V29-W9ldl5_9ptuXLOHAFEsYc7jBn1MQIuifrChxm8_pkCFeAn8sGvhrptylS4nwWv=
+Vh2kRtbc_yB921rJayAlX8-55lUXkYjg8yzNIzOWbcXzS3PqfyqLMBbOU7PD02ZKP7N-GQWWZHq=
+3sGA0te9Gx7KvcWQ8rOR0YjvRaUCcBg3l6bSITOBqoW_9rYQa1wvDjLdBDo8_tiRQpUaS6ECES3=
+Z5_2PqPgnPK5FC2a9Lux16a7SUGGRtBMEirtOeMVvlExwgyNIR3F-eA~" target=3D"_blank"=
+ rel=3D"noopener"> <img style=3D"clear: both; display: block; height: auto;=
+ max-height: 17px; max-width: 19px; outline: none; text-decoration: none; w=
+idth: 100%;" src=3D"https://s3.amazonaws.com/uber-static/emails/2018/global=
+/icons/08_28_18twitter.png" width=3D"19" height=3D"" border=3D"0" /> </a></=
+td><td style=3D"direction: ltr; text-align: left;" align=3D"right"><a href=
+=3D"https://tracking.icims.com/f/a/oui1ph4EQ_QbFci9_2CNNg~~/AAIB5hA~/SZcuyl=
+p2BgPOhZyvB4Zm1xOPF5XXupLgbeHUY6GjfW3rM3II0CuRX9OaJxH24xGCAk_bbYUZ-oCUUN92o=
+wD_-7WGtVpiOqx99S8CUL1baWgdwheFqGz_ABwBmdt8zQw1tvWDnWnbSZ1lWF8F1PXylN9_QHc7=
+9zlesmxHPHrNgxknHygKCAkOB5mOADcDcxyDa93V8w5c0pBs7MqnqxyggXr0HurnMw253X7Fevh=
+WG00HJs0geBxFiwWHMQxHXqD0nMk0MHmLmnmI2EttCQ2Tylxjn74ndde14J5BJQBBYx0~" targ=
+et=3D"_blank" rel=3D"noopener"> <img style=3D"clear: both; display: block; =
+height: auto; max-height: 17px; max-width: 16px; outline: none; text-decora=
+tion: none; width: 100%;" src=3D"https://s3.amazonaws.com/uber-static/email=
+s/2018/global/icons/08_28_18instagram.png" width=3D"16" height=3D"" border=
+=3D"0" /> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr=
+></tbody></table></td></tr></tbody></table><table dir=3D"ltr" style=3D"bord=
+er: none; border-collapse: collapse; border-spacing: 0; display: inline-blo=
+ck; max-width: 336px; vertical-align: top; width: 100%;"><tbody><tr><td sty=
+le=3D"padding-left: 12px; padding-right: 12px; text-align: left; direction:=
+ ltr;"><table style=3D"border: none; border-collapse: collapse; border-spac=
+ing: 0; width: 100%;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr><td style=3D"color: #e5e5e5; font-family: 'UberMoveTe=
+xt-Regular','HelveticaNeue-Light','Helvetica Neue Light',Helvetica,Arial,sa=
+ns-serif; font-size: 10px; line-height: 16px; padding-bottom: 20px; padding=
+-top: 10px; direction: ltr; text-align: left;">Uber Technologies <br />1725=
+ 3rd Street, San Francisco 94158<br /><a href=3D"https://tracking.icims.com=
+/f/a/ocH0eHdIlHgW0gIfAZIljw~~/AAIB5hA~/4VsZjau3MU19A9hBogI_OtBbc97ZVdDwDJPg=
+Oi61rf94qrpkVcYAWCtL64eo6P_wMdRmBThSgyr63_wV5XMi4Qwj6YYmpbiBnOj-l1FYOFZAG6W=
+G90V9G2l5gDWtqPA8QER5WfzbkcTd810mAclo_ytVifWH6btWJMUdxo6S0mmP5XBnLJYsN6J1bz=
+J0secsbQ2cqnzwK70oxQvm7hngAhh86jjh_4wy1bwx4JOAQ_Vd90FiMlvk0gQCCeBq2nkAkWMww=
+EaIB5LHWH0FnWzvFQ~~" target=3D"_blank" style=3D"text-decoration: none; colo=
+r: #e5e5e5;" rel=3D"noopener">Uber.com</a></td></tr></tbody></table></td></=
+tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td=
+></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><=
+/td></tr></tbody></table><img src=3D"https://click.uber.com/q/dvdNMXL9rjTzE=
+FR9LG-TOg~~/AAAAAQA~/RgRdgsMfPlcEdWJlckIKAACfj6FbhGdkulINd2lzZUB1YmVyLmNvbV=
+gEAAAAAA~~" alt=3D"" width=3D"1" height=3D"1" border=3D"0" /></div><p style=
+=3D"margin: 0px;">&nbsp;</p><p style=3D"margin: 0px;">&nbsp;</p><p style=3D=
+"margin: 0px;">&nbsp;</p><br><hr>This message was sent to takatak.ca@gmail.=
+com. If you don't want to receive these emails from this company in the fut=
+ure, please go to:<br><a data-notracking=3D"1" href=3D"https://tracking.ici=
+ms.com/f/a/edy5yVAgN2_3PYkBAAE38g~~/AAIB5hA~/BVPMmZ050sfedlVG8ksHVYt2LkJJsG=
+ALXhpOxeDwsWV5M7ejVfnXvQNGasImY4ecaZteo0jODnRL0jOVrU5c_tiVDYweNnyDnYG61pgZ1=
+xJKzjQhaWnR7n9E-2ZlHOLnCprg3SXVsU6pWr37s0ssw3fmXOu9L5IQNWSemLID83U~">https:=
+//uber.icims.com/icims2/=3Fr=3D909A8091411&contactId=3D14071573</a>=0D=0A<b=
+r><br><center> &#169; Uber, 1455 Market Street San Francisco CA 94103 USA</=
+center>=0D=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"htt=
+ps://tracking.icims.com/q/M9b7Z8b3A9TLsmZgTaprcg~~/AAIB5hA~/yxujNuKSYLx-0Rb=
+70qHJnbIAvPpY0iukADMQ8TTfhszIx1uawJ0U6kn2yrKAjN7tJHv-RJzVbz7v72LsU6HSSg~~">=
+=0D=0A=0D=0A
+------=_Part_27166_227992905.1748897968514--

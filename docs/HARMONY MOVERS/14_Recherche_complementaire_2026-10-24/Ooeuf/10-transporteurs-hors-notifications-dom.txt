@@ -1,0 +1,498 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - toolbar "affiner la recherche":
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "Exclure les mises à jour d'agenda":
+      - generic: Exclure les mises à jour d'agenda
+    - button "À":
+      - generic: À
+    - button "Est non lu":
+      - generic: Est non lu
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 16
+    - text: sur 16
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant.":
+        - gridcell
+        - gridcell "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant.":
+          - checkbox "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "cdufourd, moi 2":
+          - generic: cdufourd, moi
+          - generic: "2"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Votre dossier - Dufourd, Dion Avocats
+            - generic: "-"
+            - text: vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "lun. 5 oct. 2026 14 h 29":
+          - generic "lun. 5 oct. 2026 14 h 29": 5 oct.
+        - gridcell
+      - 'row "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+        - gridcell
+        - 'gridcell "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+          - 'checkbox "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To Pièce jointe : Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf Pièce jointe : final (1).xls Pièce jointe : Scan2026-04-03_120155.pdf"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"
+          - generic "Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+            - generic: "Pièce jointe :"
+            - generic: Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+          - generic "final (1).xls":
+            - generic: "Pièce jointe :"
+            - generic: final (1).xls
+          - generic "Scan2026-04-03_120155.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Scan2026-04-03_120155.pdf
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 17 h 54":
+          - generic "mar. 29 sept. 2026 17 h 54": 29 sept.
+        - gridcell
+      - row "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à.":
+        - gridcell
+        - gridcell "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à.":
+          - checkbox "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - gridcell "✉️ J'ai répondu Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers - -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à":
+          - link "✉️ J'ai répondu Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers - -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers
+            - generic: "-"
+            - text: "-251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à"
+        - gridcell
+        - gridcell "jeu. 28 mai 2026 17 h 08":
+          - generic "jeu. 28 mai 2026 17 h 08": 28 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date."':
+          - 'checkbox "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Nick, takatak, moi 6":
+          - generic: Nick, takatak, moi
+          - generic: "6"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes excel - , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date Pièce jointe : final.xls Pièce jointe : quadro excel sort.xls Pièce jointe : quadro excel sort.xls"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes excel - , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: excel
+            - generic: "-"
+            - text: ", Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date"
+          - generic "final.xls":
+            - generic: "Pièce jointe :"
+            - generic: final.xls
+          - generic "quadro excel sort.xls":
+            - generic: "Pièce jointe :"
+            - generic: quadro excel sort.xls
+          - generic "quadro excel sort.xls":
+            - generic: "Pièce jointe :"
+            - generic: quadro excel sort.xls
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 45":
+          - generic "mer. 27 mai 2026 11 h 45": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."':
+          - 'checkbox "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Nick, moi 8":
+          - generic: Nick, moi
+          - generic: "8"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Financials - Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax Pièce jointe : 1000100361.jpg Pièce jointe : 1000100365.jpg Pièce jointe : 1000100367.jpg 4 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Financials - Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Financials
+            - generic: "-"
+            - text: "Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax"
+          - generic "1000100361.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100361.jpg
+          - generic "1000100365.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100365.jpg
+          - generic "1000100367.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100367.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour."':
+        - gridcell
+        - 'gridcell "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour."':
+          - 'checkbox "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Accounting, moi 4":
+          - generic: Accounting, moi
+          - generic: "4"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes Fw: RE: Re[2]: Situation de transport 12 Juin 2025 - d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes Fw: RE: Re[2]: Situation de transport 12 Juin 2025 - d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: RE: Re[2]: Situation de transport 12 Juin 2025"
+            - generic: "-"
+            - text: d'AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - row "Setmore Notificatio., Review your experience at Rapide 2 Nette, 2025-11-09, ‌ ‌ Rapide 2 Nette Share your feedback Hi Matthieu, How was your experience at Rapide 2 Nette? Please write a review to tell.":
+        - gridcell
+        - gridcell "Setmore Notificatio., Review your experience at Rapide 2 Nette, 2025-11-09, ‌ ‌ Rapide 2 Nette Share your feedback Hi Matthieu, How was your experience at Rapide 2 Nette? Please write a review to tell.":
+          - checkbox "Setmore Notificatio., Review your experience at Rapide 2 Nette, 2025-11-09, ‌ ‌ Rapide 2 Nette Share your feedback Hi Matthieu, How was your experience at Rapide 2 Nette? Please write a review to tell."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Setmore Notificatio.":
+          - generic: Setmore Notificatio.
+        - gridcell "🌐 Web & Hébergement Review your experience at Rapide 2 Nette - ‌ ‌ Rapide 2 Nette Share your feedback Hi Matthieu, How was your experience at Rapide 2 Nette? Please write a review to tell":
+          - link "🌐 Web & Hébergement Review your experience at Rapide 2 Nette - ‌ ‌ Rapide 2 Nette Share your feedback Hi Matthieu, How was your experience at Rapide 2 Nette? Please write a review to tell":
+            - generic "🌐 Web & Hébergement":
+              - img "🌐"
+              - text: Web & Hébergement
+            - generic: Review your experience at Rapide 2 Nette
+            - generic: "-"
+            - text: ‌ ‌ Rapide 2 Nette Share your feedback Hi Matthieu, How was your experience at Rapide 2 Nette? Please write a review to tell
+        - gridcell
+        - gridcell "dim. 9 nov. 2025 16 h 03":
+          - generic "dim. 9 nov. 2025 16 h 03": 2025-11-09
+        - gridcell
+      - 'row "non lue, Rapide 2 Nette, Appointment scheduled for Sun 9 Nov, 2025 3:00 pm (EST) with Rapide 2 Nette (Montreal , Laval), contient une pièce jointe, 2025-11-09, booked with Rapide 2 Nette. When: Sun 9 Nov, 2025 3:00 pm (EST) Cleaning Service: PROMOTION 4HRS HEBDOMADAIRE Location:."':
+        - gridcell
+        - 'gridcell "non lue, Rapide 2 Nette, Appointment scheduled for Sun 9 Nov, 2025 3:00 pm (EST) with Rapide 2 Nette (Montreal , Laval), contient une pièce jointe, 2025-11-09, booked with Rapide 2 Nette. When: Sun 9 Nov, 2025 3:00 pm (EST) Cleaning Service: PROMOTION 4HRS HEBDOMADAIRE Location:."':
+          - 'checkbox "non lue, Rapide 2 Nette, Appointment scheduled for Sun 9 Nov, 2025 3:00 pm (EST) with Rapide 2 Nette (Montreal , Laval), contient une pièce jointe, 2025-11-09, booked with Rapide 2 Nette. When: Sun 9 Nov, 2025 3:00 pm (EST) Cleaning Service: PROMOTION 4HRS HEBDOMADAIRE Location:."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Rapide 2 Nette":
+          - generic: Rapide 2 Nette
+        - 'gridcell "🌐 Web & Hébergement 📎 Pièces jointes Appointment scheduled for Sun 9 Nov, 2025 3:00 pm (EST) with Rapide 2 Nette (Montreal , Laval) - booked with Rapide 2 Nette. When: Sun 9 Nov, 2025 3:00 pm (EST) Cleaning Service: PROMOTION 4HRS HEBDOMADAIRE Location:"':
+          - 'link "🌐 Web & Hébergement 📎 Pièces jointes Appointment scheduled for Sun 9 Nov, 2025 3:00 pm (EST) with Rapide 2 Nette (Montreal , Laval) - booked with Rapide 2 Nette. When: Sun 9 Nov, 2025 3:00 pm (EST) Cleaning Service: PROMOTION 4HRS HEBDOMADAIRE Location:"':
+            - generic "🌐 Web & Hébergement":
+              - img "🌐"
+              - text: Web & Hébergement
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Appointment scheduled for Sun 9 Nov, 2025 3:00 pm (EST) with Rapide 2 Nette (Montreal , Laval)
+            - generic: "-"
+            - text: "booked with Rapide 2 Nette. When: Sun 9 Nov, 2025 3:00 pm (EST) Cleaning Service: PROMOTION 4HRS HEBDOMADAIRE Location:"
+        - gridcell "Événement d'agenda":
+          - img "Événement d'agenda"
+        - gridcell "dim. 9 nov. 2025 13 h 39":
+          - generic "dim. 9 nov. 2025 13 h 39": 2025-11-09
+        - gridcell
+      - 'row "Matthew, moi 5, 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee, contient une pièce jointe, 2025-10-21, : 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee To: Matthew Dacar 4 hours service, restauration équipements On Tue, Jun."':
+        - gridcell
+        - 'gridcell "Matthew, moi 5, 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee, contient une pièce jointe, 2025-10-21, : 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee To: Matthew Dacar 4 hours service, restauration équipements On Tue, Jun."':
+          - 'checkbox "Matthew, moi 5, 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee, contient une pièce jointe, 2025-10-21, : 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee To: Matthew Dacar 4 hours service, restauration équipements On Tue, Jun."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Matthew, moi 5":
+          - generic: Matthew, moi
+          - generic: "5"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee - : 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee To: Matthew Dacar 4 hours service, restauration équipements On Tue, Jun"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee - : 🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee To: Matthew Dacar 4 hours service, restauration équipements On Tue, Jun"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - img "🏠"
+            - text: AKA Moving Estimation
+            - img "🚚"
+            - text: Qualdro Holdings Ltee
+            - generic: "-"
+            - text: ":"
+            - img "🏠"
+            - text: AKA Moving Estimation
+            - img "🚚"
+            - text: "Qualdro Holdings Ltee To: Matthew Dacar 4 hours service, restauration équipements On Tue, Jun"
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "mar. 21 oct. 2025 09 h 15":
+          - generic "mar. 21 oct. 2025 09 h 15": 2025-10-21
+        - gridcell
+      - row "moi, (aucun objet), contient une pièce jointe, 2025-10-20, .":
+        - gridcell
+        - gridcell "moi, (aucun objet), contient une pièce jointe, 2025-10-20, .":
+          - checkbox "moi, (aucun objet), contient une pièce jointe, 2025-10-20, ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) Pièce jointe : Invoice_43_2025-07-14.pdf"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes (aucun objet)":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+          - generic "Invoice_43_2025-07-14.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_43_2025-07-14.pdf
+        - gridcell
+        - gridcell "lun. 20 oct. 2025 17 h 33":
+          - generic "lun. 20 oct. 2025 17 h 33": 2025-10-20
+        - gridcell
+      - row "moi, (aucun objet), contient une pièce jointe, 2025-10-20, .":
+        - gridcell
+        - gridcell "moi, (aucun objet), contient une pièce jointe, 2025-10-20, .":
+          - checkbox "moi, (aucun objet), contient une pièce jointe, 2025-10-20, ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) Pièce jointe : Invoice_45_2025-07-28.pdf"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes (aucun objet)":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+          - generic "Invoice_45_2025-07-28.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_45_2025-07-28.pdf
+        - gridcell
+        - gridcell "lun. 20 oct. 2025 17 h 29":
+          - generic "lun. 20 oct. 2025 17 h 29": 2025-10-20
+        - gridcell
+      - 'row "moi 2, (aucun objet), contient une pièce jointe, 2025-08-29, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Wed, Aug 27, 2025, 2:48 pm Subject: To: dada daad."':
+        - gridcell
+        - 'gridcell "moi 2, (aucun objet), contient une pièce jointe, 2025-08-29, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Wed, Aug 27, 2025, 2:48 pm Subject: To: dada daad."':
+          - 'checkbox "moi 2, (aucun objet), contient une pièce jointe, 2025-08-29, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Wed, Aug 27, 2025, 2:48 pm Subject: To: dada daad."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Wed, Aug 27, 2025, 2:48 pm Subject: To: dada daad Pièce jointe : 1000037533.jpg Pièce jointe : Invoice_45_2025-07-28.pdf"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Wed, Aug 27, 2025, 2:48 pm Subject: To: dada daad"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Wed, Aug 27, 2025, 2:48 pm Subject: To: dada daad"
+          - generic "1000037533.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000037533.jpg
+          - generic "Invoice_45_2025-07-28.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_45_2025-07-28.pdf
+        - gridcell
+        - gridcell "ven. 29 août 2025 00 h 01":
+          - generic "ven. 29 août 2025 00 h 01": 2025-08-29
+        - gridcell
+      - row "AKA Moving 2, Invoice 1026 from AKA Moving, contient une pièce jointe, 2025-08-27, INVOICE 1026 DETAILS AKA Moving DUE 20/08/2025 $1077.90.":
+        - gridcell
+        - gridcell "AKA Moving 2, Invoice 1026 from AKA Moving, contient une pièce jointe, 2025-08-27, INVOICE 1026 DETAILS AKA Moving DUE 20/08/2025 $1077.90.":
+          - checkbox "AKA Moving 2, Invoice 1026 from AKA Moving, contient une pièce jointe, 2025-08-27, INVOICE 1026 DETAILS AKA Moving DUE 20/08/2025 $1077.90."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "AKA Moving 2":
+          - generic: AKA Moving
+          - generic: "2"
+        - 'gridcell "🏦 Banque & Finances 📎 Pièces jointes Invoice 1026 from AKA Moving - INVOICE 1026 DETAILS AKA Moving DUE 20/08/2025 $1077.90 Pièce jointe : Invoice_1026_from_AKA_Moving.pdf Pièce jointe : Invoice_1026_from_AKA_Moving.pdf"':
+          - link "🏦 Banque & Finances 📎 Pièces jointes Invoice 1026 from AKA Moving - INVOICE 1026 DETAILS AKA Moving DUE 20/08/2025 $1077.90":
+            - generic "🏦 Banque & Finances":
+              - img "🏦"
+              - text: Banque & Finances
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Invoice 1026 from AKA Moving
+            - generic: "-"
+            - text: INVOICE 1026 DETAILS AKA Moving DUE 20/08/2025 $1077.90
+          - generic "Invoice_1026_from_AKA_Moving.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_1026_from_AKA_Moving.pdf
+          - generic "Invoice_1026_from_AKA_Moving.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_1026_from_AKA_Moving.pdf
+        - gridcell
+        - gridcell "mer. 27 août 2025 09 h 33":
+          - generic "mer. 27 août 2025 09 h 33": 2025-08-27
+        - gridcell
+      - row "AKA Moving, Invoice 1026 from AKA Moving, contient une pièce jointe, 2025-08-20, INVOICE 1026 DETAILS AKA Moving DUE 19/09/2025 $689.85.":
+        - gridcell
+        - gridcell "AKA Moving, Invoice 1026 from AKA Moving, contient une pièce jointe, 2025-08-20, INVOICE 1026 DETAILS AKA Moving DUE 19/09/2025 $689.85.":
+          - checkbox "AKA Moving, Invoice 1026 from AKA Moving, contient une pièce jointe, 2025-08-20, INVOICE 1026 DETAILS AKA Moving DUE 19/09/2025 $689.85."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "AKA Moving":
+          - generic: AKA Moving
+        - 'gridcell "🏦 Banque & Finances 📎 Pièces jointes Invoice 1026 from AKA Moving - INVOICE 1026 DETAILS AKA Moving DUE 19/09/2025 $689.85 Pièce jointe : Invoice_1026_from_AKA_Moving.pdf"':
+          - link "🏦 Banque & Finances 📎 Pièces jointes Invoice 1026 from AKA Moving - INVOICE 1026 DETAILS AKA Moving DUE 19/09/2025 $689.85":
+            - generic "🏦 Banque & Finances":
+              - img "🏦"
+              - text: Banque & Finances
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Invoice 1026 from AKA Moving
+            - generic: "-"
+            - text: INVOICE 1026 DETAILS AKA Moving DUE 19/09/2025 $689.85
+          - generic "Invoice_1026_from_AKA_Moving.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_1026_from_AKA_Moving.pdf
+        - gridcell
+        - gridcell "mer. 20 août 2025 09 h 24":
+          - generic "mer. 20 août 2025 09 h 24": 2025-08-20
+        - gridcell
+      - row "AKA Moving, Invoice 1020 from AKA Moving, contient une pièce jointe, 2025-06-11, INVOICE 1020 DETAILS AKA Moving DUE 11/06/2025 $689.85.":
+        - gridcell
+        - gridcell "AKA Moving, Invoice 1020 from AKA Moving, contient une pièce jointe, 2025-06-11, INVOICE 1020 DETAILS AKA Moving DUE 11/06/2025 $689.85.":
+          - checkbox "AKA Moving, Invoice 1020 from AKA Moving, contient une pièce jointe, 2025-06-11, INVOICE 1020 DETAILS AKA Moving DUE 11/06/2025 $689.85."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "AKA Moving":
+          - generic: AKA Moving
+        - 'gridcell "📎 Pièces jointes print resto Invoice 1020 from AKA Moving - INVOICE 1020 DETAILS AKA Moving DUE 11/06/2025 $689.85 Pièce jointe : Invoice_1020_from_AKA_Moving.pdf"':
+          - link "📎 Pièces jointes print resto Invoice 1020 from AKA Moving - INVOICE 1020 DETAILS AKA Moving DUE 11/06/2025 $689.85":
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Invoice 1020 from AKA Moving
+            - generic: "-"
+            - text: INVOICE 1020 DETAILS AKA Moving DUE 11/06/2025 $689.85
+          - generic "Invoice_1020_from_AKA_Moving.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Invoice_1020_from_AKA_Moving.pdf
+        - gridcell
+        - gridcell "mer. 11 juin 2025 09 h 39":
+          - generic "mer. 11 juin 2025 09 h 39": 2025-06-11
+        - gridcell
+      - row "moi, Commis 3, Réclamation dodge journey , contient une pièce jointe, 2024-02-26, Frais de remorquage si joint Je vous envoie les frais au entreposage dans un autre courriel..":
+        - gridcell
+        - gridcell "moi, Commis 3, Réclamation dodge journey , contient une pièce jointe, 2024-02-26, Frais de remorquage si joint Je vous envoie les frais au entreposage dans un autre courriel..":
+          - checkbox "moi, Commis 3, Réclamation dodge journey , contient une pièce jointe, 2024-02-26, Frais de remorquage si joint Je vous envoie les frais au entreposage dans un autre courriel.."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi, Commis 3":
+          - generic: moi, Commis
+          - generic: "3"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes print resto Réclamation dodge journey - Frais de remorquage si joint Je vous envoie les frais au entreposage dans un autre courriel. Pièce jointe : remorquageelitetowing_invoice_890 (1).pdf"':
+          - link "Boîte de réception ✉️ J'ai répondu 📎 Pièces jointes print resto Réclamation dodge journey - Frais de remorquage si joint Je vous envoie les frais au entreposage dans un autre courriel.":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Réclamation dodge journey
+            - generic: "-"
+            - text: Frais de remorquage si joint Je vous envoie les frais au entreposage dans un autre courriel.
+          - generic "remorquageelitetowing_invoice_890 (1).pdf":
+            - generic: "Pièce jointe :"
+            - generic: remorquageelitetowing_invoice_890 (1).pdf
+        - gridcell
+        - gridcell "lun. 26 févr. 2024 13 h 49":
+          - generic "lun. 26 févr. 2024 13 h 49": 2024-02-26
+        - gridcell

@@ -1,0 +1,20 @@
+[
+  {
+    "message_id": "1a10d08a7feddb4a",
+    "representation": "RFC 2822 issue de Gmail raw",
+    "path": "EML/1a10d08a7feddb4a.eml",
+    "sha256": "7d092785649e467a25e1da65cc78c604bdf80f1f2d863420ac55cc01e24cd616",
+    "bytes": 4551,
+    "date_acquisition": "2026-10-24",
+    "apport": "Copie source de communication administrative existante; pas une pièce répondant au document demandé."
+  },
+  {
+    "message_id": "1a10d11afbf7805b",
+    "representation": "RFC 2822 issue de Gmail raw",
+    "path": "EML/1a10d11afbf7805b.eml",
+    "sha256": "0b7bfd3d133f7e84d8cfb97070985450a91538bc76a11d0df5fe405b6717cf91",
+    "bytes": 3281,
+    "date_acquisition": "2026-10-24",
+    "apport": "Copie source de communication administrative existante; pas une pièce répondant au document demandé."
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "1a10d08a7feddb4a",
+    "thread_id": "1a10d08a7feddb4a",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "Bonjour Me Dufourd, À ma demande, voici le premier volet du dossier préparé pour votre examen après l&#39;interrogatoire de ce matin. Je vous transmets séparément les volets photos, réparations,",
+    "history_id": "4373873",
+    "internal_date": "1791220033000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "text/html",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 12:07:13 -0500"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 12:07:13 -0500"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=\"UTF-8\""
+        },
+        {
+          "name": "Content-Transfer-Encoding",
+          "value": "base64"
+        },
+        {
+          "name": "Subject",
+          "value": "QUADRO / Harmony — 1/7 — Suivi urgent de l’interrogatoire du 5 octobre : origine des dommages"
+        },
+        {
+          "name": "To",
+          "value": "cdufourd@dufourdion.com"
+        },
+        {
+          "name": "From",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 5 Oct 2026 12:07:13 -0500"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0Cqhe2uD_r-AbPd+QF2cqPOZNwdaHi504+0C3___0xJUS4Q@mail.gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 2872,
+        "base64_url_content": null,
+        "content": "<p>Bonjour Me Dufourd,</p><p>À ma demande, voici le premier volet du dossier préparé pour votre examen après l’interrogatoire de ce matin. Je vous transmets séparément les volets photos, réparations, procédures, assurance et comptabilité.</p><p>Ma préoccupation principale : je rapporte que la partie adverse tente d’attribuer les dommages à la récupération des biens plutôt qu’au transport et à l’entreposage par Harmony. Je souhaite que la réponse repose sur la chronologie et les pièces originales, équipement par équipement.</p><ol><li><b>Avant Harmony :</b> rapprocher les photos envoyées par courriel, les factures et les interventions des techniciens des numéros de série. Une réparation facturée ne suffit pas, à elle seule, à établir l’état exact au jour du déménagement.</li><li><b>Chez Harmony, avant le chargement de récupération :</b> obtenir du huissier les photos et vidéos originales horodatées, son procès-verbal et ses observations sur les portes, carcasses, fils, compresseurs, pièces manquantes et position des appareils.</li><li><b>Récupération :</b> identifier précisément le transporteur, son mandat, les biens chargés, les manutentions, les témoins et l’heure de chaque étape. Distinguer ce transport de mon utilisation d’un U-Haul; les noms transcrits automatiquement restent à confirmer.</li><li><b>Après récupération :</b> comparer les mêmes appareils à l’arrivée chez le gardien, puis lors des visites subséquentes. Toute lacune documentaire doit rester explicite.</li></ol><p>Le procès-verbal récupéré mentionne une intervention le 17 décembre, le lieu de saisie au 1600, 55e avenue, Lachine, et le gardien Kostas Kronis au 5505 Irwin, LaSalle. Il faut vérifier ces indications contre les originaux et les ordonnances applicables. La dimension du conteneur est également à contrôler : certains documents évoquent 53 pieds, tandis que j’ai parlé de 43 pieds.</p><p><b>Priorités proposées pour votre examen :</b> conservation des originaux du huissier et des transporteurs; tableau de chaîne de garde; examen technique contradictoire sous les autorisations nécessaires; vérification des engagements de l’interrogatoire, notamment la liste des biens transportés dans le U-Haul (repère automatique « E10 »).</p><p>L’enregistrement Fieldy de ce matin est disponible dans mon compte. Sa transcription est automatique, tous les intervenants sont identifiés « Unknown » : elle doit être vérifiée avec l’audio et la transcription officielle avant toute citation ou attribution.</p><p>Ces notes constituent une préparation administrative à valider par votre cabinet. Elles n’établissent pas à elles seules la responsabilité d’une personne ou d’une entreprise. Je reste disponible pour vos demandes de pièces et corrections.</p><p>Merci.</p>",
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": null
+    },
+    "size_estimate": 4551,
+    "classification_label_values": null
+  }
+}

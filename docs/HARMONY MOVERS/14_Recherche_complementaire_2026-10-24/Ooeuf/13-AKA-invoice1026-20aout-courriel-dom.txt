@@ -1,0 +1,295 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - heading "Invoice 1026 from AKA Moving" [level=2]:
+    - generic: Invoice
+    - generic: "1026"
+    - generic: from
+    - generic: AKA
+    - generic: Moving
+  - button "Recherchez tous les messages avec l'étiquette 🏦 Banque & Finances":
+    - img "🏦"
+    - text: Banque & Finances
+  - tooltip: Recherchez tous les messages avec l'étiquette 🏦 Banque & Finances
+  - button "Retirez l'étiquette 🏦 Banque & Finances de cette conversation": ×
+  - tooltip: Retirez l'étiquette 🏦 Banque & Finances de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📎 Pièces jointes":
+    - img "📎"
+    - text: Pièces jointes
+  - tooltip: Recherchez tous les messages avec l'étiquette 📎 Pièces jointes
+  - button "Retirez l'étiquette 📎 Pièces jointes de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📎 Pièces jointes de cette conversation
+  - generic: Facture de AKA Moving
+  - generic: $689.85
+  - generic: À payer d'ici le 19 sept.
+  - button "Me le rappeler":
+    - generic: Me le rappeler
+  - generic: D'après ce courriel
+  - generic: Correcte?
+  - button "Oui":
+  - tooltip
+  - button "Non":
+  - tooltip
+  - list:
+    - table:
+      - rowgroup:
+        - row "AKA Moving quickbooks@notification.intuit.com Pièces jointes mer. 20 août 2025 09 h 24 Non marqué d'une étoile Vous ne pouvez pas réagir avec un émoji dans un groupe Répondre Plus d'options pour le message":
+          - cell "AKA Moving quickbooks@notification.intuit.com":
+            - table:
+              - rowgroup:
+                - row "AKA Moving quickbooks@notification.intuit.com":
+                  - cell "AKA Moving quickbooks@notification.intuit.com":
+                    - heading "AKA Moving quickbooks@notification.intuit.com" [level=3]:
+                      - gridcell "AKA Moving quickbooks@notification.intuit.com":
+                        - generic: AKA Moving
+                        - generic: <quickbooks@notification.intuit.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 20 août 2025 09 h 24 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mer. 20 août 2025 09 h 24"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Vous ne pouvez pas réagir avec un émoji dans un groupe Répondre Plus d'options pour le message":
+            - button "Vous ne pouvez pas réagir avec un émoji dans un groupe" [disabled]:
+            - tooltip: Vous ne pouvez pas réagir avec un émoji dans un groupe
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à moi Afficher les détails":
+          - cell "à moi Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à moi Afficher les détails":
+                  - cell "à moi Afficher les détails":
+                    - generic: à moi
+                    - button "Afficher les détails"
+    - generic: Il semble que ce message soit en anglais
+    - button "Traduire en français":
+      - generic: Traduire en français
+    - button "Fermer":
+    - table:
+      - rowgroup:
+        - row:
+          - cell
+          - cell:
+            - table:
+              - rowgroup:
+                - row:
+                  - cell:
+                    - generic: INVOICE 1026 DETAILS
+                    - table:
+                      - rowgroup:
+                        - row "AKA Moving":
+                          - cell "AKA Moving"
+                    - table:
+                      - rowgroup:
+                        - row "DUE 19/09/2025 $689.85 Print or save Powered by QuickBooks":
+                          - cell "DUE 19/09/2025 $689.85 Print or save Powered by QuickBooks":
+                            - table:
+                              - rowgroup:
+                                - row "DUE 19/09/2025":
+                                  - cell "DUE 19/09/2025"
+                                - row "$689.85":
+                                  - cell "$689.85"
+                                - row "Print or save":
+                                  - cell "Print or save":
+                                    - table:
+                                      - rowgroup:
+                                        - row "Print or save":
+                                          - cell "Print or save":
+                                            - link "Print or save":
+
+                                - row "Powered by QuickBooks":
+                                  - cell "Powered by QuickBooks"
+                    - paragraph:
+                      - text: Dear Quadro Holdings Ltee,
+                      - text: We appreciate your business. Please find your invoice details here. Feel free to contact us if you have any questions.
+                      - text: please e transfer
+                      - link "akamovingcompany@gmail.com":
+                        - /url: mailto:akamovingcompany@gmail.com
+                      - text: Have a great day!
+                      - text: AKA Moving
+                    - table:
+                      - rowgroup:
+                        - row "Bill to Quadro Holdings Ltee Terms Net 30":
+                          - cell "Bill to Quadro Holdings Ltee Terms Net 30":
+                            - table:
+                              - rowgroup:
+                                - row "Bill to Quadro Holdings Ltee":
+                                  - cell "Bill to Quadro Holdings Ltee":
+                                    - table:
+                                      - rowgroup:
+                                        - row "Bill to Quadro Holdings Ltee":
+                                          - cell "Bill to":
+                                            - generic: Bill to
+                                          - cell "Quadro Holdings Ltee":
+                                            - generic: Quadro Holdings Ltee
+                                - row "Terms Net 30":
+                                  - cell "Terms Net 30":
+                                    - table:
+                                      - rowgroup:
+                                        - row "Terms Net 30":
+                                          - cell "Terms Net 30":
+                                            - table:
+                                              - rowgroup:
+                                                - row "Terms Net 30":
+                                                  - cell "Terms":
+                                                    - generic: Terms
+                                                  - cell "Net 30":
+                                                    - generic: Net 30
+                    - table:
+                      - rowgroup:
+                        - row "20/08/2025 Commercial Moving $600.00 3 workers = 4 hours total 4 X $150.00 GST/QST QC - 9.975":
+                          - cell "20/08/2025 Commercial Moving $600.00 3 workers = 4 hours total 4 X $150.00 GST/QST QC - 9.975":
+                            - table:
+                              - rowgroup:
+                                - row "20/08/2025 Commercial Moving $600.00 3 workers = 4 hours total 4 X $150.00 GST/QST QC - 9.975":
+                                  - cell "20/08/2025 Commercial Moving $600.00 3 workers = 4 hours total 4 X $150.00 GST/QST QC - 9.975":
+                                    - table:
+                                      - rowgroup:
+                                        - row "20/08/2025 Commercial Moving $600.00 3 workers = 4 hours total 4 X $150.00 GST/QST QC - 9.975":
+                                          - cell "20/08/2025 Commercial Moving $600.00 3 workers = 4 hours total 4 X $150.00 GST/QST QC - 9.975":
+                                            - table:
+                                              - rowgroup:
+                                                - row "20/08/2025":
+                                                  - cell "20/08/2025"
+                                                - row "Commercial Moving $600.00":
+                                                  - cell "Commercial Moving":
+                                                    - generic: Commercial Moving
+                                                  - cell "$600.00":
+                                                    - generic: $600.00
+                                            - table:
+                                              - rowgroup:
+                                                - row "3 workers = 4 hours total":
+                                                  - cell "3 workers = 4 hours total":
+                                                    - generic: 3 workers = 4 hours total
+                                            - table:
+                                              - rowgroup:
+                                                - row "4 X $150.00 GST/QST QC - 9.975":
+                                                  - cell "4 X $150.00 GST/QST QC - 9.975":
+                                                    - table:
+                                                      - rowgroup:
+                                                        - row "4 X $150.00 GST/QST QC - 9.975":
+                                                          - cell "4 X $150.00"
+                                                          - cell "GST/QST QC - 9.975"
+                    - table:
+                      - rowgroup:
+                        - row "Subtotal $600.00 GST @ 5% $30.00 Qst @ 9.975% $59.85 Total $689.85 Balance due $689.85":
+                          - cell "Subtotal $600.00 GST @ 5% $30.00 Qst @ 9.975% $59.85 Total $689.85 Balance due $689.85":
+                            - table:
+                              - rowgroup:
+                                - row "Subtotal $600.00":
+                                  - cell "Subtotal"
+                                  - cell "$600.00"
+                                - row "GST @ 5% $30.00":
+                                  - cell "GST @ 5%"
+                                  - cell "$30.00"
+                                - row "Qst @ 9.975% $59.85":
+                                  - cell "Qst @ 9.975%"
+                                  - cell "$59.85"
+                                - row "Total $689.85":
+                                  - cell "Total"
+                                  - cell "$689.85"
+                                - row "Balance due $689.85":
+                                  - cell "Balance due"
+                                  - cell "$689.85"
+                    - table:
+                      - rowgroup:
+                        - row "Tax summary GST @ 5% Net 600.00 $30.00 QST @ 9.975% Net 600.00 $59.85":
+                          - cell "Tax summary GST @ 5% Net 600.00 $30.00 QST @ 9.975% Net 600.00 $59.85":
+                            - table:
+                              - rowgroup:
+                                - row "Tax summary":
+                                  - cell "Tax summary"
+                                - row "GST @ 5% Net 600.00 $30.00":
+                                  - cell "GST @ 5% Net 600.00 $30.00":
+                                    - table:
+                                      - rowgroup:
+                                        - row "GST @ 5%":
+                                          - cell "GST @ 5%"
+                                        - row "Net 600.00 $30.00":
+                                          - cell "Net 600.00"
+                                          - cell "$30.00"
+                                - row "QST @ 9.975% Net 600.00 $59.85":
+                                  - cell "QST @ 9.975% Net 600.00 $59.85":
+                                    - table:
+                                      - rowgroup:
+                                        - row "QST @ 9.975%":
+                                          - cell "QST @ 9.975%"
+                                        - row "Net 600.00 $59.85":
+                                          - cell "Net 600.00"
+                                          - cell "$59.85"
+                    - table:
+                      - rowgroup:
+                        - row "please e transfer akamovingcompany@gmail.com":
+                          - cell "please e transfer akamovingcompany@gmail.com":
+                            - text: please e transfer
+                            - link "akamovingcompany@gmail.com":
+                              - /url: mailto:akamovingcompany@gmail.com
+                    - table:
+                      - rowgroup:
+                        - row "Print or save":
+                          - cell "Print or save":
+                            - table:
+                              - rowgroup:
+                                - row "Print or save":
+                                  - cell "Print or save":
+                                    - link "Print or save":
+
+                    - table:
+                      - rowgroup:
+                        - row "AKA Moving 124 10500 Chemin de la Côte-de-Liesse Montréal QC H8T 1A4 akamovingcompany@gmail.com":
+                          - cell "AKA Moving 124 10500 Chemin de la Côte-de-Liesse Montréal QC H8T 1A4 akamovingcompany@gmail.com":
+                            - generic: AKA Moving
+                            - text: "124"
+                            - link "10500 Chemin de la Côte-de-Liesse Montréal QC H8T 1A4":
+
+                            - link "akamovingcompany@gmail.com":
+                              - /url: mailto:akamovingcompany@gmail.com
+                    - table:
+                      - rowgroup:
+                        - row "If you receive an email that seems fraudulent, please check with the business owner before paying.":
+                          - cell "If you receive an email that seems fraudulent, please check with the business owner before paying.":
+                            - generic: If you receive an email that seems fraudulent, please check with the business owner before paying.
+                    - link:
+
+                    - generic: © Intuit, Inc. All rights reserved.
+                    - link "Privacy":
+
+                    - text: "|"
+                    - link "Security":
+
+                    - text: "|"
+                    - link "Terms of Service":
+
+          - cell
+    - text: …
+    - text: "[Message tronqué]"
+    - link "Afficher l'intégralité du message":
+
+    - generic: Une pièce jointe
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Ajouter à Disque":
+      - generic: Ajouter à Disque
+    - link "Prévisualiser la pièce jointe Invoice_1026_from_AKA_Moving.pdf Prévisualiser la pièce jointe Invoice_1026_from_AKA_Moving.pdf":
+
+      - generic: Prévisualiser la pièce jointe Invoice_1026_from_AKA_Moving.pdf
+      - generic: Prévisualiser la pièce jointe Invoice_1026_from_AKA_Moving.pdf
+      - generic: Invoice_1026_from_AKA_Moving.pdf
+    - button "Télécharger la pièce jointe Invoice_1026_from_AKA_Moving.pdf":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque Invoice_1026_from_AKA_Moving.pdf":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+  - link "Répondre"
+  - link "Transférer"
+  - button "Vous ne pouvez pas réagir avec un émoji dans un groupe" [disabled]:
+  - tooltip: Vous ne pouvez pas réagir avec un émoji dans un groupe

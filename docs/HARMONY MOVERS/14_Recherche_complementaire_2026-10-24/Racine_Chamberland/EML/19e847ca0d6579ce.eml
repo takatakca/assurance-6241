@@ -1,0 +1,4184 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a02:c88d:0:b0:5de:5681:102a with SMTP id m13csp709901jao;
+        Mon, 1 Jun 2026 11:40:21 -0700 (PDT)
+X-Received: by 2002:a17:907:1c0f:b0:bec:228e:26ea with SMTP id a640c23a62f3a-bec228e2c86mr447976966b.13.1780339220925;
+        Mon, 01 Jun 2026 11:40:20 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1780339220; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=ha4fSusZcK2u3x5fZaGSHi922+7eXwho0JUdBXMRAaBHNp6/iX4+imjiKmGtroJOQm
+         z7H2ODEC4LrxyrEXFbwU9Pyu8XjcV6MUdxMM41A6dptVkAhGEplCZ+X3QyG9SE9DH3+Z
+         qlW2IcuAS7qbF14N0zgasXPDlMhjO2G5na9MIBE7ZxPaQfo7JukECNKl4ryAxCSXp6Wc
+         wImKO1Ktqcj/JKf+zTA6AiUEmkNFS6GuTI0E5J/4ea5O71Sv+w7IDTq9pVDeBAsaBkxO
+         tPYlQ0hJ16tqP0HANndGtq7rRwaaYb78dzWTcPQzWmN+xFy1/zNmTiGkgLqafI2eK0VH
+         E5mQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=awCSQC7q6Uhuo9Yx3o6qzxLJAiOQLWJv+6ivtuGGbKA=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=PaP91HE/UF+4u112H63I7lKgzqYiGm1EEsgsqpdbtHFz5h6TVxlz+ovseKVCzlLy9+
+         BfEp6KeS+bpkJtxRhsTlJYmPYOzdMuzSzoovdDxrwbadpWDyldnYTwmymnrsG6YKFwt8
+         PvWDHhCzVN7BoK8cjA1t3DJ/eOtE+AI9yPoAC67Pj5XjfRwljKlaUemella3WfaiQ3lY
+         XLuV11XPuGuBBCF6sdSTxdBMYwJ8MTLhf27WMfyZQoDYzxQSo4KHmdEq6RYXur1cNWj2
+         cSxjukGboXlBC70HcvH0kxOpkvCsTsj2nKPDVR0uztQDMO2mB/PoNkh11xvarIO1j2XS
+         soQA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=NCrEmhau;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <ooeuf.ca@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-be9d2ee5eebsor251092266b.2.2026.06.01.11.40.20
+        for <takatak.ca@gmail.com>
+        (Google Transport Security);
+        Mon, 01 Jun 2026 11:40:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=NCrEmhau;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1780339220; cv=none;
+        d=google.com; s=arc-20240605;
+        b=YwUiYxrJnEe+odVh4p72r+QhIuG4cImulJZ3z/oSQc9RbfXTeToc6PhoL5D4zpF4rz
+         ABHwsAqCuT47GkvD4xwLdb/LmodyUgajolQC2S2Dm+78I2pf3v8B4ns0BjJ+sNQKGEE2
+         Msy/jW5p3ibDK+lxpwL+mWS+0k8lOL/BAn+Sl+MWnjDjoxgncVHsH26lv21N5FLmYcBI
+         aJnyFcforbME4vEv0JncPQ8MH2KIiI1EqUBdM6Ih8JHDWVxV/LeMiaHnbKZNjDx1WCFU
+         wp89zP8TLoGEO1ZBJgbWAgyP+VfrWg60R8WZE3ogfMXKVXj22FAdn45ZTTYEjccxEjQ4
+         fi4w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=awCSQC7q6Uhuo9Yx3o6qzxLJAiOQLWJv+6ivtuGGbKA=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=CsILdxC1hRseKg37SufIzHydlAVLXNLbTFz91uX9w0/Y8iUy7uZf4NTmI4x0YyUBty
+         Bo6KaqDgS7S1POn/THmP3Q8QdqNLoHEaE4ZIKtsdmP7SEUN/b0N3MSNG0YoCeobSi37e
+         quDwUt/jEZ0p23pH/SN18wAdQZNhHh0xtYP/4I3h3zZmoD7zG7M6G4XGHAxYCjjpq7Bt
+         wF923FVflQgaC89fS+DpKFgT3Ti/PKmM81YfdfAKLwbQIY7qBgQXQJ4Z6I/gWvaZKrPV
+         bq4Q4sA3UGaIukod4QQCEOx4460L6Ck6tGDTW/QU9NPG9kCjunMt98Q6p6s9+8CagOCW
+         u6sA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1780339220; x=1780944020; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=awCSQC7q6Uhuo9Yx3o6qzxLJAiOQLWJv+6ivtuGGbKA=;
+        b=NCrEmhaupfokBOKYEcEQfWp1LCIKU57rvnUNStPygYQnjNlSu4QTbw4sV2WfnR2Pn7
+         YygutbEhQpHnHeX7TYQ5Y0O/gFf8wrhYhubKp1oqeqe0pKVkcvqijIoEjyQbdDBNli7c
+         txXFkMs0z3hk6JLXHJoLYK/f8F1fBaywdneE0b+AQXeWRClz9YN9+b4VfPOGXBgF0/30
+         zwbwoQHTlsR+bsE/FcQTJEGdCOT6cciAWX6v/oQ+5ByVmu4WiE9rasWv7twSQK6IQgfG
+         83nEopbrxrNhBZK/v3FKUWUHMyx5cYa/r9tQCRy1dK80Ov4qrdziXKpx4gy1lHmtffEI
+         nEVw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1780339220; x=1780944020;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=awCSQC7q6Uhuo9Yx3o6qzxLJAiOQLWJv+6ivtuGGbKA=;
+        b=gubvNY0mXxsSx5fUypz9HXxOXVsSpgB8wSAAfyrV8mxuLtRhezho6L5vuxWRVuyuaV
+         l9M04wCE0jSGHXuDn8WV3JAlc+m8ZRwtsyn3CfAk0iy816BynPRZLhPDJyaKD7j0jqGN
+         wIpNugC2pl5jzR8eJEtt6TqLgwPr0VBV5Dg98riLDdsrj/sSl5UoFf1cTcVbBIy0ohjK
+         qzTvy0QG1V9SiSbVRiWEz5+jMXBqonQmoQxvqiEP4/0oM5xLD/1nCjB2yo8WEUhYB7/G
+         PdsprLguf6H4nPqfW3MPWfywWWjZxbdOFn/37qlRQieYQb7fL56zHvHQQm5+ILgel8Sq
+         /Wcg==
+X-Gm-Message-State: AOJu0YyDfxq8TRD8QPoSDxGpl4BN81yQFbq7Vbyda0IY8yiPkQ8DyNpH
+	pmP9po+qIzeqDnRfETtZ6GaGerPk96awaURoPhPga9rfSy1N7CSpzgtESaS9f0rWuB/RB9tLqhM
+	eXv8gmWqXo8HPL07tavH//PU+HK4MFfxksEJFXdQ=
+X-Gm-Gg: Acq92OHE6UsdzZtC3tL2Ug6mKJJKyQDly+b1OhQFwLqyla3TOrNUTJ4Co4Du0CSaExF
+	BwFRubZ9DwkS/o53OdM+ADKhEiQv9SnAvMYiu5nQ9NgAqBATkQN7it0DOZvsZ7ndRoeZqmYc269
+	EOIFbAFkvxTB3kuNzcj0TRVtZ5He7UnO5hc6KU0jxTQBK5sMKWXjmE4A46kotW/4G9YFxY6AcKh
+	dROeDH2nqbzpS8bHHfOZhBA45vlz+xNZCr7XFeTLrHB+Npf/dRmJPfMHyMdGKAzWl9PZdWRN1Lk
+	ahTuUglC4VNyv2TAhBu6uqFspmzDPF5ur2WGZzQq08HqhUeAMoLP4r5TffphlQ==
+X-Received: by 2002:a17:906:6a08:b0:bec:f0bb:66f5 with SMTP id
+ a640c23a62f3a-becf0bb6adfmr393313566b.30.1780339219764; Mon, 01 Jun 2026
+ 11:40:19 -0700 (PDT)
+MIME-Version: 1.0
+References: <YQXPR01MB3960AA311053FCB8B4F06BDEE6772@YQXPR01MB3960.CANPRD01.PROD.OUTLOOK.COM>
+In-Reply-To: <YQXPR01MB3960AA311053FCB8B4F06BDEE6772@YQXPR01MB3960.CANPRD01.PROD.OUTLOOK.COM>
+From: =?UTF-8?Q?Oeuf_D=C3=A9jeuner?= <ooeuf.ca@gmail.com>
+Date: Mon, 1 Jun 2026 14:40:06 -0400
+X-Gm-Features: AVHnY4Jf1hjDWYVcO2y5AJikXG4qw_dPz3tCn690qczLGyrbgwoVe4acd-LBwv4
+Message-ID: <CALsRj=SQyU7fo1rG4xyF69B0gbyJ4-+JpazbkeeKV6jQ2LtHjA@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_24110=2D4833RE=3A_Reclamation_6241_blvd_L=C3=A9ger_Mont?=
+	=?UTF-8?Q?r=C3=A9al_Nord_Appel_514_458_4587?=
+To: dada daad <takatak.ca@gmail.com>
+Content-Type: multipart/mixed; boundary="000000000000c6646306533586c0"
+
+--000000000000c6646306533586c0
+Content-Type: multipart/related; boundary="000000000000c6646306533586bf"
+
+--000000000000c6646306533586bf
+Content-Type: multipart/alternative; boundary="000000000000c6646106533586be"
+
+--000000000000c6646106533586be
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Joey Dubois <joey.dubois@indemnipro.ca>
+Date: Tue, Oct 1, 2024, 08:46
+Subject: 24110-4833RE: Reclamation 6241 blvd L=C3=A9ger Montr=C3=A9al Nord =
+Appel 514
+458 4587
+To: Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+
+
+
+
+
+
+_____________________________________________
+[image: IndemniPro Logo] <https://indemnipro.ca/?e=3D1>
+Joey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B ,  B. Sc., PAA/CIP
+Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=C3=
+=A9ciaux
+joey.dubois@indemnipro.ca
+Ligne directe
+ (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+Sans frais
+ :
+ :
+514-789-8888
+888=E2=80=91485=E2=80=915252   x2572
+IndemniPro Division des risques sp=C3=A9ciaux
+ =E2=80=93
+indemnipro.ca <https://indemnipro.ca/?e=3D1>
+Cabinet d'expertise en r=C3=A8glement de sinistres
+3400
+<https://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ boul.
+<https://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ De
+<https://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ Maisonneuve
+<https://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ ouest
+<https://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+, #910 ,  Montr=C3=A9al ,  QC
+H3Z 3B8
+Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'enti=
+t=C3=A9 =C3=A0 laquelle
+il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personne =
+ou une
+entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est inte=
+rdite. Si vous
+recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9dite=
+ur et
+supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9di=
+atement.=E2=80=8B
+=E2=80=8B
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to
+which it is addressed and may contain confidential and/or privileged
+information. Any use of this information by persons or entities other than
+the intended recipient is prohibited. If you received this in error, please
+contact the sender and delete the email and all copies (electronic or
+otherwise) immediately.
+
+*De :* Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+*Envoy=C3=A9 :* October 1, 2024 8:29 AM
+*=C3=80 :* Joey Dubois <joey.dubois@indemnipro.ca>
+*Cc :* SCM Attach <attach@scm.ca>; daniel simard <simard.danielbio@gmail.co=
+m
+>
+*Objet :* Re: 24110-4833RE: Reclamation 6241 blvd L=C3=A9ger Montr=C3=A9al =
+Nord
+<https://www.google.com/maps/search/6241+blvd+L%C3%A9ger+Montr%C3%A9al+Nord=
+?entry=3Dgmail&source=3Dg>
+
+
+
+*CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+
+Bonjour Monsieur Dubois,
+
+
+
+Je vous =C3=A9cris pour vous informer que, malheureusement, Daniel Simard e=
+st
+d=C3=A9c=C3=A9d=C3=A9. Je suis maintenant la personne responsable du dossie=
+r concernant le
+restaurant situ=C3=A9 au 6241 Boulevard L=C3=A9ger, Montr=C3=A9al-Nord, H1G=
+ 6K8
+<https://www.google.com/maps/search/6241+Boulevard+L%C3%A9ger,+Montr%C3%A9a=
+l-Nord,+H1G+6K8?entry=3Dgmail&source=3Dg>.
+Si vous le souhaitez, vous pouvez contacter mon agente, Maude Robidoux, qui
+pourra vous fournir plus d'informations =C3=A0 mon sujet.
+
+
+
+La lettre du technicien en r=C3=A9paration vous sera transmise dans les
+prochaines heures. Toutefois, il serait grandement appr=C3=A9ci=C3=A9 que v=
+ous me
+contactiez afin que nous puissions faire un bilan des dommages caus=C3=A9s =
+lors
+de l'=C3=A9v=C3=A9nement survenu en juin 2024.
+
+
+
+Je vous remercie d'avance et reste =C3=A0 votre disposition pour toute ques=
+tion.
+
+
+
+Cordialement,
+
+Matthieu Wallace
+
+
+
+On Tue, Oct 1, 2024, 7:09=E2=80=AFa.m. Joey Dubois <joey.dubois@indemnipro.=
+ca>
+wrote:
+
+Bonjour,
+
+
+
+J=E2=80=99ai envoy=C3=A9 plusieurs courriels =C3=A0 votre confr=C3=A8re san=
+s retour. Je vais =C3=AAtre
+un bureau demain. Il est pr=C3=A9f=C3=A9rable de fixer un appel pour demain=
+ PM si
+possible. Veuillez me donner votre heure de pr=C3=A9f=C3=A9rence. Je vais v=
+ous
+communiquer par la suite.
+
+
+
+Le dossier n=E2=80=99avance pas car nous avons besoin une note de service d=
+e votre
+r=C3=A9parateur des =C3=A9quipements commentant la cause des bris.
+
+
+
+Mes salutations,
+
+
+
+[image: Image supprim=C3=A9e par l'exp=C3=A9diteur. IndemniPro Logo]
+<https://indemnipro.ca/?e=3D1>
+
+*Joey Dubois**=E2=80=8B**=E2=80=8B**=E2=80=8B**=E2=80=8B*
+
+,
+
+B. Sc., PAA/CIP
+
+Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=C3=
+=A9ciaux
+
+joey.dubois@indemnipro.ca
+
+*Ligne directe*
+
+ (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+
+*Sans frais *
+
+ :
+
+ :
+
+514-789-8888
+
+888=E2=80=91485=E2=80=915252
+
+
+
+x2572
+
+*IndemniPro Division des risques sp=C3=A9ciaux*
+
+ =E2=80=93
+
+indemnipro.ca <https://indemnipro.ca/?e=3D1>
+
+Cabinet d'expertise en r=C3=A8glement de sinistres
+
+3400 boul. De Maisonneuve [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul.*=
+de*Maisonneuve*Ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2=
+T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l=
+9pnM$>
+ ouest [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*boul.*D=
+e*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T=
+2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8f=
+L1E$>
+, #910
+
+,
+
+Montr=C3=A9al
+
+,
+
+QC
+
+
+
+H3Z 3B8
+
+Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'enti=
+t=C3=A9 =C3=A0 laquelle
+il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personne =
+ou une
+entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est inte=
+rdite. Si vous
+recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9dite=
+ur et
+supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9di=
+atement.=E2=80=8B
+=E2=80=8B
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to
+which it is addressed and may contain confidential and/or privileged
+information. Any use of this information by persons or entities other than
+the intended recipient is prohibited. If you received this in error, please
+contact the sende [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul.*=
+de*Maisonneuve*Ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2=
+T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l=
+9pnM$>r
+and delete the email and all copies (electronic or otherwise) immediately.
+
+*De :* Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+*Envoy=C3=A9 :* September 20, 2024 11:14 AM
+*=C3=80 :* Joey Dubois <joey.dubois@indemnipro.ca>
+*Objet :* Reclamation 6241 blvd L=C3=A9ger Montr=C3=A9al Nord [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/6241*blvd*L*=
+*Ager*Montr**Aal*Nord?entry=3Dgmail&source=3Dg__;KyvDqSvDqSs!!AyxJxhHs7Q!Y8=
+btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-=
+FiPIqUePbg$>
+
+
+
+*CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+
+Bonjour mon nom est Matthieu jaimerais avoir un retour d'appel au 514 458
+4587,  plusieur message que je vous laisse et je n'est pas de retour
+d'appel de votre part
+
+
+
+
+---------- Forwarded message ----------
+From: Joey Dubois <joey.dubois@indemnipro.ca>
+To: "simard.danielbio@gmail.com" <simard.danielbio@gmail.com>
+Cc: SCM Attach <attach@scm.ca>
+Bcc:
+Date: Wed, 18 Sep 2024 21:37:51 +0000
+Subject: Re: 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241
+Boul. L=C3=A9ger, Montr=C3=A9al-Nord [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/6241*Boul.*L=
+**Ager,*Montr**Aal-Nord?entry=3Dgmail&source=3Dg__;KyvDqSvDqQ!!AyxJxhHs7Q!Y=
+8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY=
+-FiPDhxPTtU$>
+
+Je suis en vacances =C3=A0 partir de demain 13:00 de retour le 1er oct. si =
+je
+n=E2=80=99ai pas des nouvelles on se parle lors de mon retour.
+
+
+
+Salutations
+
+Sent from my iPhone
+
+
+
+On Sep 18, 2024, at 11:24, Joey Dubois <joey.dubois@indemnipro.ca> wrote:
+
+=EF=BB=BF
+
+Bonjour,
+
+
+
+Je faisais un suivi. Avez-vous le rapport du technicien?
+
+
+
+Aussi, j=E2=80=99ai eu deux appels (le premier incompr=C3=A9hensible) d=E2=
+=80=99un M. Wallace
+Bernard. Qui est ce Monsieur?  Il m=E2=80=99a seulement laiss=C3=A9 un mess=
+age en me
+disant que c=E2=80=99=C3=A9tait le dossier sur le boul. [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul.*=
+de*Maisonneuve*Ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2=
+T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l=
+9pnM$>
+L=C3=A9ger!  Je suis en r=C3=A9union pour la journ=C3=A9e, mais je vais reg=
+arder mes
+courriels.
+
+
+
+J=E2=80=99attends de vos nouvelles,
+
+
+
+
+
+Mes salutations,
+
+
+
+
+
+
+
+*De :* Joey Dubois
+*Envoy=C3=A9 :* August 27, 2024 5:06 PM
+*=C3=80 :* simard.danielbio@gmail.com
+*Cc :* SCM Attach <attach@scm.ca>
+*Objet :* 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.
+L=C3=A9ger, Montr=C3=A9al-Nord [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/6241*Boul.*L=
+**Ager,*Montr**Aal-Nord?entry=3Dgmail&source=3Dg__;KyvDqSvDqQ!!AyxJxhHs7Q!Y=
+8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY=
+-FiPDhxPTtU$>
+
+
+
+Bonjour,
+
+
+
+Je fais un suivi.
+
+
+
+*Pour les r=C3=A9parations (voir notre sommaire), nous avons besoin d=E2=80=
+=99un =C3=A9crit
+de Frigo Spec expliquant pourquoi qu=E2=80=99il y a eu bris des =C3=A9quipe=
+ments en
+question(important).*
+
+
+
+J=E2=80=99attends le rapport en question.
+
+
+
+Merci
+
+
+
+
+
+*De :* Alyssa Procopio <alyssa.procopio@indemnipro.ca>
+*Envoy=C3=A9 :* August 8, 2024 10:38 AM
+*=C3=80 :* SCM Attach <attach@scm.ca>
+*Objet :* 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.
+L=C3=A9ger, Montr=C3=A9al-Nord [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/6241*Boul.*L=
+**Ager,*Montr**Aal-Nord?entry=3Dgmail&source=3Dg__;KyvDqSvDqQ!!AyxJxhHs7Q!Y=
+8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY=
+-FiPDhxPTtU$>
+
+
+
+<image001.jpg>
+
+*Alyssa Procopio**=E2=80=8B**=E2=80=8B**=E2=80=8B**=E2=80=8B*
+
+Adjointe administrative
+
+alyssa.procopio@indemnipro.ca
+
+*Ligne directe*
+
+ (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+
+*Sans frais *
+
+ :
+
+ :
+
+514-789-8911
+
+800=E2=80=91263=E2=80=915361
+
+
+
+x2574
+
+*IndemniPro*
+
+ =E2=80=93
+
+indemnipro.ca <https://indemnipro.ca/?e=3D1>
+
+Cabinet d'expertise en r=C3=A8glement de sinistres
+
+3400 [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*boul.*D=
+e*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T=
+2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8f=
+L1E$>
+, boul. [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*boul.*D=
+e*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T=
+2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8f=
+L1E$>
+ de Maisonneuve [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*boul.*D=
+e*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T=
+2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8f=
+L1E$>
+ Ouest [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul.*=
+de*Maisonneuve*Ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2=
+T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l=
+9pnM$>
+, Suite 910
+
+,
+
+Montr=C3=A9al
+
+,
+
+QC
+
+
+
+H3Z 3B8
+
+Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'enti=
+t=C3=A9 =C3=A0 laquelle
+il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personne =
+ou une
+entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est inte=
+rdite. Si vous
+recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9dite=
+ur et
+supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9di=
+atement.=E2=80=8B
+=E2=80=8B
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to
+which it is addressed and may contain confidential and/or privileged
+information. Any use of this information by persons or entities other than
+the intended recipient is prohibited. If you received this in error, please
+contact the sender and delete the email and all copies (electronic or
+otherwise) immediately.
+
+*De [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*boul.*D=
+e*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T=
+2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8f=
+L1E$>
+:*
+daniel simard <simard.danielbio@gmail.com>
+*Envoy=C3=A9 :* August 7, 2024 9:45 PM
+*=C3=80 :* Joey Dubois <joey.dubois@indemnipro.ca>
+*Objet :* Re: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241
+Boul. L=C3=A9ger, Montr=C3=A9al-Nord [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/6241*Boul.*L=
+**Ager,*Montr**Aal-Nord?entry=3Dgmail&source=3Dg__;KyvDqSvDqQ!!AyxJxhHs7Q!Y=
+8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY=
+-FiPDhxPTtU$>
+
+
+
+*CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+
+Pi=C3=A8ces jointes disponibles jusqu=E2=80=99au 6 sept. 2024
+
+VOICI DE INFO POUR LA RECLAMATION PRODUIT PERISSABLE
+
+SI IL VOUS MANQUE AUTRE INFO LAISSE MOI SAVOIR
+
+MERCI
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FAS__OXVoSGKsN17kevUoUmW_M2c7ASP_40BiCH7=
+izo6sFeCZEtKWfM_j*2F*24*7Bf*7D*3Fo*3DAjfk9W6Ddy89UTcZb8e6ApvD9-3s-Tjp-XxnZp=
+dRat42*26v*3D1*26x*3D3*26a*3DCAogroyHfaYc7mE6afgT46JwWpZ7A1f81faw2Xa4iR3o1S=
+oSeBC08aP9kjIYtIGf0ZwyIgEAKgkC6AMA_wN8T3dSBL8zZztaBJZ8z-NqJjYprK0GSeN34ypXm=
+jm6SzR_nSteyOZ1h4zeTcU8SEaNVDoVK_bcciZouFgMgXmeElKpAergMToyk6pTh3yEO0D8MfPw=
+2iRjjsgUETz1Xw*26e*3D1725673488*26fl*3D*26r*3DB313D630-6498-4492-B23B-D4603=
+9CC156E-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3Dodx4s-MKoqgOD416QWAtUb_NuZo=
+&uk=3DEDi5cmJX2RmSLNiPnFGteA&f=3Dfact*201581.pdf&sz=3D11641609__;JSUlJSUlJS=
+UlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ=
+1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4_LsH1KO6=
+g$>
+
+fact 1581.pdf
+
+11,6 Mo
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FAZlew5JNfh4DX49pnW2fscSwZBCuAauTLUMFq_F=
+X6nuZWCv-xJ5n5dBM*2F*24*7Bf*7D*3Fo*3DAhI0_ra3lI9PKWlihQJoRp36Lm1UDkHrK5uo_J=
+q7bRfU*26v*3D1*26x*3D3*26a*3DCAogPzxKQpFMnT4ak-vBOSTCU54Op1oX_Z28xD-y070UOa=
+0SeBCq8KP9kjIYqoCf0ZwyIgEAKgkC6AMA_ykWDghSBLBkEK5aBGfl0ExqJjsWdeeUUYJEsGW8K=
+oENj0frNSMZxQbVitGvnqJtaFYGa-Ug_4BYcibpTQid8BeTSurZiBZ1i_S--EFUfDF5z5J9oGpa=
+pMhzZIgqi5SoVQ*26e*3D1725673488*26fl*3D*26r*3DE482938C-2722-4509-B138-60A16=
+98E0793-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DVRNe9qiBJCO8nlg_CkKCp0vBWb8=
+&uk=3Dc4SAKRmqFrCwt1tx_dmmRA&f=3Dfact*202070.pdf&sz=3D8269463__;JSUlJSUlJSU=
+lJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ1=
+uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4_Lq4OfAqg=
+$>
+
+fact 2070.pdf
+
+8,3 Mo
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FATkVtfEgJpgk3CYAaTvOwHEOdF1KAaJ4uztAU1q=
+4oM8KAk0MqRPQUxKI*2F*24*7Bf*7D*3Fo*3DAh_ftgFFefkB3knMrsxS8nTMyLB2h5nEV-peBf=
+iJ0t6Z*26v*3D1*26x*3D3*26a*3DCAogEDunQouJzH2Aj8_2Iu4YhJphlC-ICIONotAjrAvq8m=
+oSeBCS76P9kjIYkv-e0ZwyIgEAKgkC6AMA_ybKeHFSBA50XUpaBNBTEohqJkL_cD_W4FL7y6r-2=
+pJRLBj2xHoKCco2h9x2zCsZXyx0w8vW_4XBcibrE1pqVGwMWfSPaZyCS6NyU0vfHLlpTYir4bXK=
+semUmPLtsoD2WQ*26e*3D1725673488*26fl*3D*26r*3DA7ED10D5-C134-4B9A-8752-2E5F3=
+5EDF634-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DEMySBuKv2uO1DijY_qddEsTEbMI=
+&uk=3D4H6Hs1fEDWBHyUXnekNVqw&f=3Dfact*205969.pdf&sz=3D9232249__;JSUlJSUlJSU=
+lJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ1=
+uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4_JaUSHPww=
+$>
+
+fact 5969.pdf
+
+9,2 Mo
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FAQVYZuXu7fCdhBr5rOC9DIa-BRToASzRPwXwA2o=
+RF84Uyk-e3wQ6G0sZ*2F*24*7Bf*7D*3Fo*3DAu7I1OtFxDo6_tEvQDQP-EmNEOpTDXMMX8aBPh=
+9bO5RE*26v*3D1*26x*3D3*26a*3DCAogUQntbXpY51AtbNKzZy6QBzM-alaHpkKOMPvXjqjyA3=
+YSeBD19aP9kjIY9YWf0ZwyIgEAKgkC6AMA_2twWBxSBL4FFOhaBDobSxlqJtRUj3On3bvspz4S1=
+2uKC-j9urel3IEL4FE03yx2RDh5oSZifIP7ciZYYm05y-Jzg7zYU0BMWG-5QVSk-Rz2ReVM-FmV=
+jUQJMIWwzL4v8w*26e*3D1725673489*26fl*3D*26r*3DF5AB033F-C620-4584-ABC5-B916B=
+BD5960F-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DORvtigahi72wkutzQ-EOzA3vVm8=
+&uk=3DsUzZ9onixXjyiKIhwxMGTg&f=3Dfact*207977.pdf&sz=3D5001281__;JSUlJSUlJSU=
+lJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ1=
+uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4_KxJJPlyg=
+$>
+
+fact 7977.pdf
+
+5 Mo
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FAa7r8KXF06wNAhkUC36qk_NTGZUfAXP7P8XXttN=
+soWAqp3sGJ7TcTY-J*2F*24*7Bf*7D*3Fo*3DAte7NNpfICljZk3vVcmjq2Y6rUq6Rj1sgsHVZW=
+iKmCLY*26v*3D1*26x*3D3*26a*3DCAogVJwcdFPp7x-_599RgAm7_iyPbIYvpuvoFBowS7_JNO=
+oSeBDf96P9kjIY34ef0ZwyIgEAKgkC6AMA_3abpztSBFMZlR9aBNxNj4lqJmB-WWFXLiukIqLow=
+ZgkZD3_rD4FYGdxKGHa-6R0NbL61lWFMWIsciYmfsfcsFT1IaBqEcFfqQVrtUytMk6Qx8KwF3zF=
+2DlfdPCnVZvFnA*26e*3D1725673489*26fl*3D*26r*3D33F468A7-90CC-4E56-9DAC-022AA=
+564D71F-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DxtmWSwjQb8iEvlpZ6boylSybwGY=
+&uk=3DmZiRdddxDQsWOLBuuv7kGA&f=3Dfact*207978.pdf&sz=3D5473974__;JSUlJSUlJSU=
+lJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ1=
+uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4_Kz50cIwA=
+$>
+
+fact 7978.pdf
+
+5,5 Mo
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FAVoC-XkOnfQNznPIUesNLM0Sy9vSATeUdYQ5WgB=
+1pcYu2biNQvRFtp21*2F*24*7Bf*7D*3Fo*3DAnx_qnmu1erNeHyUe3rQnQCkw9J9PLmD2doqw2=
+BpPiSB*26v*3D1*26x*3D3*26a*3DCAogm18MVaMX_9ylLG6I5cC1Ry6x_I_SrGaYRDEXdusutI=
+ISeBDp9qP9kjIY6Yaf0ZwyIgEAKgkC6AMA_zsKRFdSBBLL29JaBEW2nbVqJuxSPde7B4lBtjbb2=
+fNrsxq4gQmyAof6kNGTak2toXRb9bKAsMY0cibayv6R7U1yAFOC21YG95u9wrTlWY1Oure047aQ=
+ylWsVETcC8FQcg*26e*3D1725673489*26fl*3D*26r*3DF67066F6-12DA-44CD-AF86-432E6=
+88A1B28-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3Dyr6MPTF0NsYTGYtB_DRWTzrk_9o=
+&uk=3Dh-3025eAyUJ9JjYZ4Q6WnA&f=3Dfact*207979.pdf&sz=3D7622084__;JSUlJSUlJSU=
+lJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ1=
+uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4_JExoJ5Rg=
+$>
+
+fact 7979.pdf
+
+7,6 Mo
+
+Cliquer pour t=C3=A9l=C3=A9charger [icloud.com]
+<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhttps*3A=
+*2F*2Fcvws.icloud-content.com*2FB*2FAY2wfbrgQcgeGGMeglzl30Wf024ZAVFFCyX2ma_=
+9LiHxQ0i_gK0zDFQz*2F*24*7Bf*7D*3Fo*3DAjoDWxnyff3SsbZ5xUcfJaDc--hi1iP6BXTnsj=
+buyfom*26v*3D1*26x*3D3*26a*3DCAogNYNH79LSKs2wWt8sBvJzloN7c0uYH89_ZKSUFzc598=
+kSeBCH-6P9kjIYh4uf0ZwyIgEAKgkC6AMA_y1PuoxSBJ_TbhlaBDMMVDNqJgT6SEMvO4ZK8ojRc=
+e8u-hTz9y4f6-XUDKulTRJ0a3jdxF2Aye2cciYcxjV_RZv-2KUPXOlrO289wLmsVJ8eWA0qN886=
+Ip_-iqPyv-TGxA*26e*3D1725673489*26fl*3D*26r*3D999DC8C2-E1EB-46F2-8E49-C683B=
+BABDD4A-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26ckz*3D9F679=
+F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DoWCvi7mG9c-8EwM8aMNSgkI5OTE=
+&uk=3Dud8-TqQjKSwtp6t8ld72Tw&f=3DLISTE*20PERTE*20RESTO.pdf&sz=3D12324__;JSU=
+lJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSU!!AyxJxhHs7Q!bZva9UVLL9p7QG=
+t-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3V4=
+_K470bPAw$>
+
+LISTE PERTE RESTO.pdf
+
+12 ko
+
+
+
+
+
+Le 6 ao=C3=BBt 2024 =C3=A0 13:32, Joey Dubois <joey.dubois@indemnipro.ca> a=
+ =C3=A9crit :
+
+
+
+Bonjour M. Simard,
+
+
+
+Je suis de retour de mes vacances ce matin et j=E2=80=99apprends que vous a=
+vez
+laiss=C3=A9 un message =C3=A0 l=E2=80=99assureur. Pourtant de n=E2=80=99ai =
+pas re=C3=A7u les informations
+demand=C3=A9es dans mon courriel du 25 juillet.
+
+
+
+*Pour les r=C3=A9parations (voir notre sommaire), nous avons besoin d=E2=80=
+=99un =C3=A9crit
+de Frigo Spec expliquant pourquoi qu=E2=80=99il y a eu bris des =C3=A9quipe=
+ments en
+question(important).*
+
+
+
+*-Pour la marchandise, il s=E2=80=99agit des factures d=E2=80=99achat. Il y=
+ a surement eu
+des marchandises vendues depuis et d=E2=80=99autres qui ne sont pas p=C3=A9=
+rissables
+(comme des bouteilles d=E2=80=99eau, pailles etc). Nous avons besoin une li=
+ste de
+votre part d=C3=A9crivant les items r=C3=A9clam=C3=A9s, les quantit=C3=A9s =
+et le montant
+r=C3=A9clam=C3=A9.*
+
+
+
+
+
+J=E2=80=99ai absolument besoin de ces informations pour =C3=A9tablir si la =
+r=C3=A9clamation
+est recevable au niveau de votre police et pour =C3=A9valuer votre r=C3=A9c=
+lamation.
+
+
+
+
+
+Si vous voulez en discuter veuillez de transmettre vos disponibilit=C3=A9s =
+*via
+courriel* pour *demain ou jeudi apr=C3=A8s-midi.*
+
+
+
+
+
+Veuillez toujours communiquer avec moi concernant votre dossier.
+
+
+
+
+
+Mes salutations,
+
+
+
+
+
+<image001.jpg>
+
+*Joey Dubois**=E2=80=8B**=E2=80=8B**=E2=80=8B**=E2=80=8B*
+
+,
+
+B. Sc., PAA/CIP
+
+Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=C3=
+=A9ciaux
+
+joey.dubois@indemnipro.ca
+
+*Ligne directe*
+
+ (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+
+*Sans frais *
+
+ :
+
+ :
+
+514-789-8888
+
+888=E2=80=91485=E2=80=915252
+
+
+
+x2572
+
+*IndemniPro Division des risques sp=C3=A9ciaux*
+
+ =E2=80=93
+
+indemnipro.ca <https://indemnipro.ca/?e=3D1>
+
+Cabinet d'expertise en r=C3=A8glement de sinistres
+
+3400 boul. De Maisonneuve ouest, #910
+
+,
+
+Montr=C3=A9al
+
+,
+
+QC
+
+
+
+H3Z 3B8
+
+Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'enti=
+t=C3=A9 =C3=A0 laquelle
+il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personne =
+ou une
+entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est inte=
+rdite. Si vous
+recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9dite=
+ur et
+supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9di=
+atement.=E2=80=8B
+=E2=80=8B
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to
+which it is addressed and may contain confidential and/or privileged
+information. Any use of this information by persons or entities other than
+the intended recipient is prohibited. If you received this in error, please
+contact the sender and delete the email and all copies (electronic or
+otherwise) immediately.
+
+*De
+<https://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+:* Joey
+Dubois
+*Envoy=C3=A9 :* July 25, 2024 11:48 AM
+*=C3=80 :* simard.danielbio@gmail.com
+*Cc :* SCM Attach <attach@scm.ca>
+*Objet :* 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.
+L=C3=A9ger, Montr=C3=A9al-Nord
+<https://www.google.com/maps/search/6241+Boul.+L%C3%A9ger,+Montr%C3%A9al-No=
+rd?entry=3Dgmail&source=3Dg>
+*Importance :* Haute
+
+
+
+Bonjour,
+
+
+
+Je repr=C3=A9sente votre assureur bris des =C3=A9quipements soit HSB-BI&I. =
+Je vais
+g=C3=A9rer votre dossier de r=C3=A9clamation dor=C3=A9navant.
+
+
+
+Faisant suite =C3=A0 la r=C3=A9vision du dossier, j=E2=80=99aurais besoin q=
+uelques
+informations additionnelles.
+
+
+
+-L=E2=80=99acquisition du commerce date de quand? Les =C3=A9quipements =C3=
+=A9taient incl.
+lors de l=E2=80=99achat?
+
+
+
+-Pour les *r=C3=A9parations* (voir notre sommaire), nous avons besoin d=E2=
+=80=99un =C3=A9crit
+de Frigo Spec expliquant pourquoi qu=E2=80=99il y a eu bris des =C3=A9quipe=
+ments en
+question*(important*).
+
+
+
+-Pour la *marchandise*, il s=E2=80=99agit des factures d=E2=80=99achat. Il =
+y a surement eu
+des marchandises vendues depuis et d=E2=80=99autres qui ne sont pas p=C3=A9=
+rissables
+(comme des bouteilles d=E2=80=99eau, pailles etc). Nous avons besoin une li=
+ste de
+votre part d=C3=A9crivant les items r=C3=A9clam=C3=A9s, les quantit=C3=A9s =
+et le montant
+r=C3=A9clam=C3=A9.
+
+
+
+=C3=80 la r=C3=A9ception des informations, je vais =C3=AAtre en mesure de v=
+ous revenait au
+sujet de votre r=C3=A9clamation.
+
+
+
+Si vous voulez en discuter, veuillez m=E2=80=99aviser quand vous serez disp=
+onible
+demain matin.
+
+
+
+
+
+Mes salutations,
+
+
+
+
+
+
+
+
+
+Mes salutations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*From:* daniel simard <simard.danielbio@gmail.com>
+*Sent:* Thursday, July 25, 2024 9:44 AM
+*To:* Houle-Dixon Ayisha - Montreal-HSB <AHoule-dixon@hsb.ca>
+*Subject:* suite
+
+
+
+le fichier a pas suivi  voici Daniel Simard Cell: 514 265 8465 Fax: 514 313
+5678 1649 Fleury est [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/313*5678*164=
+9*Fleury*est?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6Jj=
+QLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPrmIVqH4$>
+bureau 201 Montr=C3=A9al Qu=C3=A9bec H2C 1S9 =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D
+
+
+
+le fichier a pas suivi
+
+voici
+
+Daniel Simard
+
+Cell: 514 265 8465
+
+Fax: 514 313 5678
+
+1649 Fleury est [google.com]
+<https://urldefense.com/v3/__https:/www.google.com/maps/search/1649*Fleury*=
+est?entry=3Dgmail&source=3Dg__;Kys!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iL=
+NTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPxAqn39k$>
+bureau 201
+
+Montr=C3=A9al Qu=C3=A9bec H2C 1S9
+
+
+
+
+------------------------------
+
+
+IMPORTANT NOTICE:
+
+--000000000000c6646106533586be
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote gmail_quote_container=
+"><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ------=
+---<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">Joey Dubois</s=
+trong> <span dir=3D"auto">&lt;<a href=3D"mailto:joey.dubois@indemnipro.ca">=
+joey.dubois@indemnipro.ca</a>&gt;</span><br>Date: Tue, Oct 1, 2024, 08:46<b=
+r>Subject: 24110-4833RE: Reclamation 6241 blvd L=C3=A9ger Montr=C3=A9al Nor=
+d Appel 514 458 4587<br>To: Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.=
+ca@gmail.com">ooeuf.ca@gmail.com</a>&gt;<br></div><br><br>
+
+
+
+
+
+<div lang=3D"FR-CA" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:break=
+-word">
+<div class=3D"m_-5567389109123867734WordSection1">
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span lang=3D"FR">__________________________________=
+___________<div dir=3D"ltr" style=3D"font-size:1px;direction:ltr"><table di=
+r=3D"ltr" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:1=
+00%;direction:ltr;border-collapse:collapse;font-size:1px"><tr style=3D"font=
+-size:0"><td align=3D"left" style=3D"vertical-align:top"><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;border-collapse:=
+collapse;font-size:0"><tr style=3D"font-size:0"><td align=3D"center" style=
+=3D"padding:0;border-top:none;border-right:dotted 1px #cacaca;border-bottom=
+:none;border-left:none;vertical-align:middle"><table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size:0;li=
+ne-height:normal"><tr style=3D"font-size:0"><td align=3D"center" style=3D"p=
+adding:0 10px 10px;vertical-align:middle"><a href=3D"https://indemnipro.ca/=
+?e=3D1" id=3D"m_-5567389109123867734LPlnk689713" style=3D"text-decoration:n=
+one" target=3D"_blank" rel=3D"noreferrer"><img src=3D"https://scm.ca/esig_l=
+ogos/SRD%20-%20All%20Logos_CCI%20FR.png" width=3D"150" border=3D"0" title=
+=3D"IndemniPro Logo" alt=3D"IndemniPro Logo" style=3D"width:150px;min-width=
+:150px;max-width:150px;font-size:12px"></a></td></tr></table></td><td align=
+=3D"left" style=3D"padding:10px 0 10px 10px;vertical-align:top"><table cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:colla=
+pse;font-size:0;color:#7d7d7d;font-style:normal;font-weight:400;white-space=
+:nowrap"><tr style=3D"font-size:0"><td align=3D"left" style=3D"vertical-ali=
+gn:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bo=
+rder-collapse:collapse;font-size:0;color:#7d7d7d;font-style:normal;font-wei=
+ght:400;white-space:nowrap"><tr style=3D"font-size:13.33px"><td align=3D"le=
+ft" style=3D"vertical-align:top;color:#807f83;font-family:Verdana;font-weig=
+ht:700">Joey=C2=A0Dubois<span style=3D"font-family:remialcxesans;font-size:=
+1px;color:#ffffff;line-height:1px">=E2=80=8B<span style=3D"font-family:&#39=
+;template-hMgY3lQsEeqpTAAD_7TDWA&#39;">=E2=80=8B</span><span style=3D"font-=
+family:&#39;zone-1&#39;">=E2=80=8B</span><span style=3D"font-family:&#39;zo=
+nes-AQ&#39;">=E2=80=8B</span></span></td><td align=3D"left" style=3D"vertic=
+al-align:top;font-family:Verdana">,=C2=A0</td><td align=3D"left" style=3D"v=
+ertical-align:top;font-family:Verdana">B.=C2=A0Sc.,=C2=A0PAA/CIP</td></tr><=
+/table></td></tr><tr style=3D"font-size:13.33px"><td align=3D"left" style=
+=3D"vertical-align:top;font-family:Verdana">Expert=C2=A0en=C2=A0sinistre,=
+=C2=A0Vice=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=A0Risques=C2=
+=A0Sp=C3=A9ciaux</td></tr><tr style=3D"font-size:13.33px"><td align=3D"left=
+" style=3D"vertical-align:top;font-family:Verdana"><a href=3D"mailto:joey.d=
+ubois@indemnipro.ca" id=3D"m_-5567389109123867734LPlnk689713" style=3D"text=
+-decoration:none;color:#7d7d7d" target=3D"_blank" rel=3D"noreferrer">joey.d=
+ubois@indemnipro.ca</a></td></tr><tr style=3D"font-size:0"><td align=3D"lef=
+t" style=3D"vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" style=3D"border-collapse:collapse;font-size:0"><tr style=3D"fo=
+nt-size:0"><td align=3D"left" style=3D"padding:0;vertical-align:top"><table=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:=
+collapse;font-size:0;color:#7d7d7d;font-style:normal;font-weight:700;white-=
+space:nowrap"><tr style=3D"font-size:0"><td align=3D"left" style=3D"vertica=
+l-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"border-collapse:collapse;font-size:0;color:#7d7d7d;font-style:normal;fo=
+nt-weight:700;white-space:nowrap"><tr style=3D"font-size:13.33px"><td align=
+=3D"left" style=3D"vertical-align:top;font-family:Verdana">Ligne=C2=A0direc=
+te</td><td align=3D"left" style=3D"vertical-align:top;font-size:0"><table c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"white-space:nowrap=
+;color:#7d7d7d;font-size:13.33px;font-family:Verdana;font-weight:400;font-s=
+tyle:normal;text-align:left;line-height:18.67px;border-collapse:collapse"><=
+tr style=3D"font-size:10px"><td style=3D"font-family:Verdana">=C2=A0(T=C3=
+=A9l./Texto/T=C3=A9l=C3=A9c.)</td></tr></table></td></tr></table></td></tr>=
+<tr style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertical-align:=
+top;font-family:Verdana">Sans=C2=A0frais=C2=A0</td></tr></table></td><td al=
+ign=3D"left" style=3D"padding:0;vertical-align:top"><table cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-siz=
+e:0;color:#7d7d7d;font-style:normal;font-weight:400;white-space:nowrap"><tr=
+ style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertical-align:top=
+;font-family:Verdana">=C2=A0:=C2=A0<br></td></tr><tr style=3D"font-size:13.=
+33px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">=
+=C2=A0:=C2=A0<br></td></tr></table></td><td align=3D"left" style=3D"padding=
+:0;vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" style=3D"border-collapse:collapse;font-size:0;color:#7d7d7d;font-style:=
+normal;font-weight:400;white-space:nowrap"><tr style=3D"font-size:13.33px">=
+<td align=3D"left" style=3D"vertical-align:bottom;font-family:Verdana"><a h=
+ref=3D"tel:514-789-8888" id=3D"m_-5567389109123867734LPlnk689713" style=3D"=
+text-decoration:none;color:#7d7d7d" target=3D"_blank" rel=3D"noreferrer">51=
+4-789-8888</a></td></tr><tr style=3D"font-size:0"><td align=3D"left" style=
+=3D"vertical-align:bottom"><table cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"border-collapse:collapse;font-size:0;color:#7d7d7d;font-st=
+yle:normal;font-weight:400;white-space:nowrap"><tr style=3D"font-size:13.33=
+px"><td align=3D"left" style=3D"vertical-align:bottom;font-family:Verdana">=
+888=E2=80=91485=E2=80=915252</td><td align=3D"left" style=3D"vertical-align=
+:top;font-family:Verdana">=C2=A0</td><td align=3D"left" style=3D"vertical-a=
+lign:top;font-family:Verdana">x2572</td></tr></table></td></tr></table></td=
+></tr></table></td></tr></table></td></tr><tr style=3D"font-size:0"><td col=
+span=3D"2" align=3D"left" style=3D"padding:5px;border-top:solid 1px #cacaca=
+;border-right:none;border-bottom:solid 1px #cacaca;border-left:none;vertica=
+l-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"border-collapse:collapse;font-size:0"><tr style=3D"font-size:0"><td ali=
+gn=3D"left" style=3D"padding:0;vertical-align:top"><table cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size=
+:0;color:#7d7d7d;font-style:normal;font-weight:400;white-space:nowrap"><tr =
+style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertical-align:top;=
+font-family:Verdana;font-weight:700">IndemniPro=C2=A0Division=C2=A0des=C2=
+=A0risques=C2=A0sp=C3=A9ciaux<br></td><td align=3D"left" style=3D"vertical-=
+align:top;font-family:Verdana">=C2=A0=E2=80=93=C2=A0<br></td><td align=3D"l=
+eft" style=3D"vertical-align:top;font-family:Verdana"><a href=3D"https://in=
+demnipro.ca/?e=3D1" id=3D"m_-5567389109123867734LPlnk689713" style=3D"text-=
+decoration:none;color:#807f83" target=3D"_blank" rel=3D"noreferrer">indemni=
+pro.ca</a></td></tr></table></td></tr><tr style=3D"font-size:13.33px;color:=
+#7d7d7d;font-style:normal;font-weight:400;white-space:nowrap"><td align=3D"=
+left" style=3D"padding:0;vertical-align:top;font-family:Verdana">Cabinet=C2=
+=A0d&#39;expertise=C2=A0en=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres<br></=
+td></tr><tr style=3D"font-size:0"><td align=3D"left" style=3D"padding:0;ver=
+tical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" st=
+yle=3D"border-collapse:collapse;font-size:0"><tr style=3D"font-size:0"><td =
+align=3D"left" style=3D"vertical-align:top"><table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size:0;colo=
+r:#7d7d7d;font-style:normal;font-weight:400;white-space:nowrap"><tr style=
+=3D"font-size:13.33px"><td align=3D"left" style=3D"vertical-align:top;font-=
+family:Verdana"><a href=3D"https://www.google.com/maps/search/3400+boul.+De=
++Maisonneuve+ouest?entry=3Dgmail&amp;source=3Dg">3400</a>=C2=A0<a href=3D"h=
+ttps://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=3Dg=
+mail&amp;source=3Dg">boul.</a>=C2=A0<a href=3D"https://www.google.com/maps/=
+search/3400+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;source=3Dg">De</a>=
+=C2=A0<a href=3D"https://www.google.com/maps/search/3400+boul.+De+Maisonneu=
+ve+ouest?entry=3Dgmail&amp;source=3Dg">Maisonneuve</a>=C2=A0<a href=3D"http=
+s://www.google.com/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=3Dgmai=
+l&amp;source=3Dg">ouest</a>,=C2=A0#910</td><td align=3D"left" style=3D"vert=
+ical-align:top;font-family:Verdana">,=C2=A0</td><td align=3D"left" style=3D=
+"vertical-align:top;font-family:Verdana">Montr=C3=A9al</td><td align=3D"lef=
+t" style=3D"vertical-align:top;font-family:Verdana">,=C2=A0</td><td align=
+=3D"left" style=3D"vertical-align:top;font-family:Verdana">QC</td><td align=
+=3D"left" style=3D"vertical-align:top;font-family:Verdana">=C2=A0<br></td><=
+td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">H3Z=C2=
+=A03B8</td></tr></table></td></tr><tr style=3D"font-size:0"><td align=3D"le=
+ft" style=3D"vertical-align:top"></td></tr></table></td></tr></table></td><=
+/tr><tr style=3D"font-size:9px;color:#7d7d7d;font-style:normal;font-weight:=
+400;white-space:normal"><td colspan=3D"2" align=3D"left" style=3D"padding:5=
+px 0 0;vertical-align:top;font-family:Verdana">Ce courriel est destin=C3=A9=
+ uniquement =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle =
+il est envoy=C3=A9 et peut contenir de l&#39;information confidentielle ou =
+privil=C3=A9gi=C3=A9e. Toute utilisation de l&#39;information par une perso=
+nne ou une entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=
+=A9e est interdite. Si vous recevez ce courriel par erreur, veuillez commun=
+iquer avec son exp=C3=A9diteur et supprimer ce courriel et toute copie (=C3=
+=A9lectronique ou non) imm=C3=A9diatement.=E2=80=8B<br>=E2=80=8B<br>=E2=80=
+=8BThis email communication is intended only for the person or entity to wh=
+ich it is addressed and may contain confidential and/or privileged informat=
+ion. Any use of this information by persons or entities other than the inte=
+nded recipient is prohibited. If you received this in error, please contact=
+ the sender and delete the email and all copies (electronic or otherwise) i=
+mmediately.<br></td></tr></table></td></tr></table></div><br>
+<b>De=C2=A0:</b> Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.co=
+m" target=3D"_blank" rel=3D"noreferrer">ooeuf.ca@gmail.com</a>&gt;
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> October 1, 2024 8:29 AM<br>
+<b>=C3=80=C2=A0:</b> Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnip=
+ro.ca" target=3D"_blank" rel=3D"noreferrer">joey.dubois@indemnipro.ca</a>&g=
+t;<br>
+<b>Cc=C2=A0:</b> SCM Attach &lt;<a href=3D"mailto:attach@scm.ca" target=3D"=
+_blank" rel=3D"noreferrer">attach@scm.ca</a>&gt;; daniel simard &lt;<a href=
+=3D"mailto:simard.danielbio@gmail.com" target=3D"_blank" rel=3D"noreferrer"=
+>simard.danielbio@gmail.com</a>&gt;<br>
+<b>Objet=C2=A0:</b> Re: 24110-4833RE: Reclamation <a href=3D"https://www.go=
+ogle.com/maps/search/6241+blvd+L%C3%A9ger+Montr%C3%A9al+Nord?entry=3Dgmail&=
+amp;source=3Dg">6241 blvd L=C3=A9ger Montr=C3=A9al Nord</a><u></u><u></u></=
+span></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<table border=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width:100.0%;=
+background:black">
+<tbody>
+<tr>
+<td style=3D"background:#ff9e00;padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"background:#e4ff00;padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Arial Bold&quot;,serif;color:=
+black">CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE</span></b><u=
+></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<p>Bonjour Monsieur Dubois,<u></u><u></u></p>
+<p><u></u>=C2=A0<u></u></p>
+<p>Je vous =C3=A9cris pour vous informer que, malheureusement, Daniel Simar=
+d est d=C3=A9c=C3=A9d=C3=A9. Je suis maintenant la personne responsable du =
+dossier concernant le restaurant situ=C3=A9 au <a href=3D"https://www.googl=
+e.com/maps/search/6241+Boulevard+L%C3%A9ger,+Montr%C3%A9al-Nord,+H1G+6K8?en=
+try=3Dgmail&amp;source=3Dg">6241 Boulevard L=C3=A9ger, Montr=C3=A9al-Nord, =
+H1G 6K8</a>. Si vous le souhaitez, vous pouvez contacter
+ mon agente, Maude Robidoux, qui pourra vous fournir plus d&#39;information=
+s =C3=A0 mon sujet.<u></u><u></u></p>
+<p><u></u>=C2=A0<u></u></p>
+<p>La lettre du technicien en r=C3=A9paration vous sera transmise dans les =
+prochaines heures. Toutefois, il serait grandement appr=C3=A9ci=C3=A9 que v=
+ous me contactiez afin que nous puissions faire un bilan des dommages caus=
+=C3=A9s lors de l&#39;=C3=A9v=C3=A9nement survenu en juin 2024.<u></u><u></=
+u></p>
+<p><u></u>=C2=A0<u></u></p>
+<p>Je vous remercie d&#39;avance et reste =C3=A0 votre disposition pour tou=
+te question.<u></u><u></u></p>
+<p><u></u>=C2=A0<u></u></p>
+<p>Cordialement,=C2=A0=C2=A0<u></u><u></u></p>
+<p>Matthieu Wallace=C2=A0<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Oct 1, 2024, 7:09=E2=80=AFa.m. Joey Dubois &=
+lt;<a href=3D"mailto:joey.dubois@indemnipro.ca" target=3D"_blank" rel=3D"no=
+referrer">joey.dubois@indemnipro.ca</a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0c=
+m 0cm 0cm 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0cm;margin-=
+bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">Bonjour,<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">J=E2=80=99ai envoy=C3=A9 plusieurs courriels =C3=A0 =
+votre confr=C3=A8re sans retour. Je vais =C3=AAtre un bureau demain. Il est=
+ pr=C3=A9f=C3=A9rable de fixer un appel pour demain PM si possible. Veuille=
+z me donner votre
+ heure de pr=C3=A9f=C3=A9rence. Je vais vous communiquer par la suite.<u></=
+u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Le dossier n=E2=80=99avance pas car nous avons besoi=
+n une note de service de votre r=C3=A9parateur des =C3=A9quipements comment=
+ant la cause des bris.<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Mes salutations,<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"width:100.0%;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=
+=3D"width:450.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"border:none;border-right:dotted #cacaca 1.0pt;padding:0cm 0cm =
+0cm 0cm">
+<div align=3D"center">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 7.5pt 7.5pt 7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><a href=
+=3D"https://indemnipro.ca/?e=3D1" target=3D"_blank" rel=3D"noreferrer"><spa=
+n style=3D"font-size:1.0pt;border:solid windowtext 1.0pt;padding:0cm;text-d=
+ecoration:none"><img border=3D"0" width=3D"150" height=3D"150" style=3D"wid=
+th:1.5625in;height:1.5625in" id=3D"m_-5567389109123867734Image_x0020_1" src=
+=3D"cid:~WRD3334.jpg" alt=3D"Image supprim=C3=A9e par l&#39;exp=C3=A9diteur=
+. IndemniPro Logo"></span></a><span style=3D"font-size:1.0pt"><u></u><u></u=
+></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td valign=3D"top" style=3D"padding:7.5pt 0cm 7.5pt 7.5pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#807f83">Joey=C2=A0Dubois</span></b><b><spa=
+n style=3D"font-size:1.0pt;font-family:&quot;remialcxesans&quot;,serif;colo=
+r:white">=E2=80=8B</span></b><b><span style=3D"font-size:1.0pt;font-family:=
+&quot;template-hMgY3lQsEeqpTAAD_7TDWA&quot;,serif;color:white">=E2=80=8B</s=
+pan></b><b><span style=3D"font-size:1.0pt;font-family:&quot;zone-1&quot;,se=
+rif;color:white">=E2=80=8B</span></b><b><span style=3D"font-size:1.0pt;font=
+-family:&quot;zones-AQ&quot;,serif;color:white">=E2=80=8B</span></b><b><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;colo=
+r:#807f83"><u></u><u></u></span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">B.=C2=A0Sc.,=C2=A0PAA/CIP<u></u><u></=
+u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Expert=C2=A0en=C2=A0sinistre,=C2=A0Vi=
+ce=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=A0Risques=C2=A0Sp=C3=
+=A9ciaux<u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"mailto:joey.dubois@indemni=
+pro.ca" target=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#7d7d7d;t=
+ext-decoration:none">joey.dubois@indemnipro.ca</span></a><u></u><u></u></sp=
+an></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">Ligne=C2=A0directe<u></u><u></u></=
+span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt"><span style=3D"font-siz=
+e:7.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">=C2=A0(T=
+=C3=A9l./Texto/T=C3=A9l=C3=A9c.)<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">Sans=C2=A0frais=C2=A0<u></u><u></u=
+></span></b></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0<u></u><u></u></span></p=
+>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0<u></u><u></u></span></p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"tel:514-789-8888" target=
+=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#7d7d7d;text-decoration=
+:none">514-789-8888</span></a><u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">888=E2=80=91485=E2=80=915252<u></u><u=
+></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">x2572<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"border-top:solid #cacaca 1.0pt;bo=
+rder-left:none;border-bottom:solid #cacaca 1.0pt;border-right:none;padding:=
+3.75pt 3.75pt 3.75pt 3.75pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">IndemniPro=C2=A0Division=C2=A0des=
+=C2=A0risques=C2=A0sp=C3=A9ciaux<u></u><u></u></span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0=E2=80=93=C2=A0<u></u><u></u></=
+span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://indemnipro.ca/?e=
+=3D1" target=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#807f83;tex=
+t-decoration:none">indemnipro.ca</span></a><u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Cabinet=C2=A0d&#39;expertise=C2=A0en=
+=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres<u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">3400=C2=A0boul.=C2=A0De=C2=A0<a href=
+=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*bou=
+l.*de*Maisonneuve*Ouest?entry=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!Y=
+8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY=
+-FiPQ_l9pnM$" target=3D"_blank" rel=3D"noreferrer">Maisonneuve
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sour=
+ce=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON=
+92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$" target=3D"_blank" rel=3D"norefer=
+rer">ouest
+ [google.com]</a>,=C2=A0#910<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Montr=C3=A9al<u></u><u></u></span></p=
+>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">QC<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">H3Z=C2=A03B8<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"padding:3.75pt 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:7.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#7d7d7d">Ce courriel est destin=C3=A9 uniquemen=
+t =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il est env=
+oy=C3=A9 et peut contenir de l&#39;information confidentielle ou privil=C3=
+=A9gi=C3=A9e. Toute
+ utilisation de l&#39;information par une personne ou une entit=C3=A9 autre=
+ que celle =C3=A0 laquelle elle est destin=C3=A9e est interdite. Si vous re=
+cevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9diteur=
+ et supprimer ce courriel et toute copie (=C3=A9lectronique ou
+ non) imm=C3=A9diatement.</span><span style=3D"font-size:7.0pt;font-family:=
+&quot;Arial&quot;,sans-serif;color:#7d7d7d">=E2=80=8B</span><span style=3D"=
+font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><=
+br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">This email communication i=
+s intended only for the person or entity to which it is addressed
+ and may contain confidential and/or privileged information. Any use of thi=
+s information by persons or entities other than the intended recipient is p=
+rohibited. If you received this in error, please contact the sen<a href=3D"=
+https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul.*d=
+e*Maisonneuve*Ouest?entry=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btO=
+SE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiP=
+Q_l9pnM$" target=3D"_blank" rel=3D"noreferrer">de
+ [google.com]</a>r and delete the email and all copies (electronic or other=
+wise) immediately.<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"FR">De=C2=A0:</span></b><span lang=
+=3D"FR"> Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" targe=
+t=3D"_blank" rel=3D"noreferrer">ooeuf.ca@gmail.com</a>&gt;
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> September 20, 2024 11:14 AM<br>
+<b>=C3=80=C2=A0:</b> Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnip=
+ro.ca" target=3D"_blank" rel=3D"noreferrer">joey.dubois@indemnipro.ca</a>&g=
+t;<br>
+<b>Objet=C2=A0:</b> Reclamation <a href=3D"https://urldefense.com/v3/__http=
+s:/www.google.com/maps/search/6241*blvd*L**Ager*Montr**Aal*Nord?entry=3Dgma=
+il&amp;source=3Dg__;KyvDqSvDqSs!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV=
+3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPIqUePbg$" target=3D"_blank=
+" rel=3D"noreferrer">
+6241 blvd L=C3=A9ger Montr=C3=A9al Nord [google.com]</a></span><u></u><u></=
+u></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<table border=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width:100.0%;=
+background:black">
+<tbody>
+<tr>
+<td style=3D"background:#ff9e00;padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"background:#e4ff00;padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial Bold&quot;,serif=
+;color:black">CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE</span=
+></b><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<p class=3D"MsoNormal">Bonjour mon nom est Matthieu jaimerais avoir un reto=
+ur d&#39;appel au 514 458 4587,=C2=A0 plusieur message que je vous laisse e=
+t je n&#39;est pas de retour d&#39;appel de votre part<u></u><u></u></p>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><br>
+<br>
+<br>
+---------- Forwarded message ----------<br>
+From:=C2=A0Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnipro.ca" tar=
+get=3D"_blank" rel=3D"noreferrer">joey.dubois@indemnipro.ca</a>&gt;<br>
+To:=C2=A0&quot;<a href=3D"mailto:simard.danielbio@gmail.com" target=3D"_bla=
+nk" rel=3D"noreferrer">simard.danielbio@gmail.com</a>&quot; &lt;<a href=3D"=
+mailto:simard.danielbio@gmail.com" target=3D"_blank" rel=3D"noreferrer">sim=
+ard.danielbio@gmail.com</a>&gt;<br>
+Cc:=C2=A0SCM Attach &lt;<a href=3D"mailto:attach@scm.ca" target=3D"_blank" =
+rel=3D"noreferrer">attach@scm.ca</a>&gt;<br>
+Bcc:=C2=A0<br>
+Date:=C2=A0Wed, 18 Sep 2024 21:37:51 +0000<br>
+Subject:=C2=A0Re: 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 <a=
+ href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search/6241=
+*Boul.*L**Ager,*Montr**Aal-Nord?entry=3Dgmail&amp;source=3Dg__;KyvDqSvDqQ!!=
+AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acu=
+aJPCCPhESPtY-FiPDhxPTtU$" target=3D"_blank" rel=3D"noreferrer">
+6241 Boul. L=C3=A9ger, Montr=C3=A9al-Nord [google.com]</a><u></u><u></u></p=
+>
+<div>
+<p class=3D"MsoNormal">Je suis en vacances =C3=A0 partir de demain 13:00 de=
+ retour le 1er oct. si je n=E2=80=99ai pas des nouvelles on se parle lors d=
+e mon retour.
+<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Salutations=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Sent from my iPhone<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><u></u>=C2=A0<u></u><=
+/p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On Sep 18, 2024, at 1=
+1:24, Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnipro.ca" target=
+=3D"_blank" rel=3D"noreferrer">joey.dubois@indemnipro.ca</a>&gt; wrote:<u><=
+/u><u></u></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF <u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Bonjour,<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Je faisais un suivi. Avez-vous le rapport du technic=
+ien?<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Aussi, j=E2=80=99ai eu deux appels (le premier incom=
+pr=C3=A9hensible) d=E2=80=99un M. Wallace Bernard. Qui est ce Monsieur?=C2=
+=A0 Il m=E2=80=99a seulement laiss=C3=A9 un message en me disant que c=E2=
+=80=99=C3=A9tait le dossier sur
+ le <a href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/searc=
+h/3400,*boul.*de*Maisonneuve*Ouest?entry=3Dgmail&amp;source=3Dg__;KysrKw!!A=
+yxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acua=
+JPCCPhESPtY-FiPQ_l9pnM$" target=3D"_blank" rel=3D"noreferrer">
+boul. [google.com]</a> L=C3=A9ger!=C2=A0 Je suis en r=C3=A9union pour la jo=
+urn=C3=A9e, mais je vais regarder mes courriels.<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">J=E2=80=99attends de vos nouvelles,<u></u><u></u></p=
+>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Mes salutations,<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"FR">De=C2=A0:</span></b><span lang=
+=3D"FR"> Joey Dubois
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> August 27, 2024 5:06 PM<br>
+<b>=C3=80=C2=A0:</b> <a href=3D"mailto:simard.danielbio@gmail.com" target=
+=3D"_blank" rel=3D"noreferrer">simard.danielbio@gmail.com</a><br>
+<b>Cc=C2=A0:</b> SCM Attach &lt;<a href=3D"mailto:attach@scm.ca" target=3D"=
+_blank" rel=3D"noreferrer">attach@scm.ca</a>&gt;<br>
+<b>Objet=C2=A0:</b> 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 =
+<a href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search/62=
+41*Boul.*L**Ager,*Montr**Aal-Nord?entry=3Dgmail&amp;source=3Dg__;KyvDqSvDqQ=
+!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9a=
+cuaJPCCPhESPtY-FiPDhxPTtU$" target=3D"_blank" rel=3D"noreferrer">
+6241 Boul. L=C3=A9ger, Montr=C3=A9al-Nord [google.com]</a></span><u></u><u>=
+</u></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Bonjour,<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Je fais un suivi.<u></u><u></u></p>
+<p class=3D"MsoNormal"><i>=C2=A0</i><u></u><u></u></p>
+<p class=3D"MsoNormal"><i>Pour les=C2=A0<u>r=C3=A9parations</u>=C2=A0(voir =
+notre sommaire), nous avons besoin d=E2=80=99un =C3=A9crit de Frigo Spec ex=
+pliquant pourquoi qu=E2=80=99il y a eu bris des =C3=A9quipements en questio=
+n<u>(important</u>).</i><u></u><u></u></p>
+<p class=3D"MsoNormal"><i>=C2=A0</i><u></u><u></u></p>
+<p class=3D"MsoNormal">J=E2=80=99attends le rapport en question.<u></u><u><=
+/u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Merci<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"FR">De=C2=A0:</span></b><span lang=
+=3D"FR"> Alyssa Procopio &lt;<a href=3D"mailto:alyssa.procopio@indemnipro.c=
+a" target=3D"_blank" rel=3D"noreferrer">alyssa.procopio@indemnipro.ca</a>&g=
+t;
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> August 8, 2024 10:38 AM<br>
+<b>=C3=80=C2=A0:</b> SCM Attach &lt;<a href=3D"mailto:attach@scm.ca" target=
+=3D"_blank" rel=3D"noreferrer">attach@scm.ca</a>&gt;<br>
+<b>Objet=C2=A0:</b> 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 =
+<a href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search/62=
+41*Boul.*L**Ager,*Montr**Aal-Nord?entry=3Dgmail&amp;source=3Dg__;KyvDqSvDqQ=
+!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9a=
+cuaJPCCPhESPtY-FiPDhxPTtU$" target=3D"_blank" rel=3D"noreferrer">
+6241 Boul. L=C3=A9ger, Montr=C3=A9al-Nord [google.com]</a></span><u></u><u>=
+</u></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"width:100.0%;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=
+=3D"width:450.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"border:none;border-right:dotted #cacaca 1.0pt;padding:0cm 0cm =
+0cm 0cm">
+<div align=3D"center">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 7.5pt 7.5pt 7.5pt">
+<div>
+<p class=3D"MsoNormal">&lt;image001.jpg&gt;<u></u><u></u></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td valign=3D"top" style=3D"padding:7.5pt 0cm 7.5pt 7.5pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#00539b">Alyssa=C2=A0Procopio</span></b><b>=
+<span style=3D"font-size:1.0pt;font-family:&quot;remialcxesans&quot;,serif;=
+color:white">=E2=80=8B</span></b><b><span style=3D"font-size:1.0pt;font-fam=
+ily:&quot;template-2RvomDKTEeqhzAAD_7TBRQ&quot;,serif;color:white">=E2=80=
+=8B</span></b><b><span style=3D"font-size:1.0pt;font-family:&quot;zone-1&qu=
+ot;,serif;color:white">=E2=80=8B</span></b><b><span style=3D"font-size:1.0p=
+t;font-family:&quot;zones-AQ&quot;,serif;color:white">=E2=80=8B</span></b><=
+u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Adjointe=C2=A0administrative</span><u=
+></u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#00539b"><a href=3D"mailto:alyssa.procopio@ind=
+emnipro.ca" target=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#0053=
+9b;text-decoration:none">alyssa.procopio@indemnipro.ca</span></a></span><u>=
+</u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">Ligne=C2=A0directe</span></b><u></=
+u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt">
+<span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,sans-serif;c=
+olor:#7d7d7d">=C2=A0(T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)</span><u></u><u></u>=
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">Sans=C2=A0frais=C2=A0</span></b><u=
+></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0</span><u></u><u></u></p=
+>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0</span><u></u><u></u></p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"tel:514-789-8911" target=
+=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#7d7d7d;text-decoration=
+:none">514-789-8911</span></a></span><u></u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">800=E2=80=91263=E2=80=915361</span><u=
+></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">x2574</span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"border-top:solid #cacaca 1.0pt;bo=
+rder-left:none;border-bottom:solid #cacaca 1.0pt;border-right:none;padding:=
+3.75pt 3.75pt 3.75pt 3.75pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">IndemniPro</span></b><u></u><u></u=
+></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0=E2=80=93=C2=A0</span><u></u><u=
+></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://indemnipro.ca/?e=
+=3D1" target=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#00539b;tex=
+t-decoration:none">indemnipro.ca</span></a></span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Cabinet=C2=A0d&#39;expertise=C2=A0en=
+=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres</span><u></u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://urldefense.com/v3/=
+__https:/www.google.com/maps/search/3400*boul.*De*Maisonneuve*ouest?entry=
+=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNT=
+V3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$" target=3D"_blan=
+k" rel=3D"noreferrer">3400
+ [google.com]</a>,=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.g=
+oogle.com/maps/search/3400*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4O=
+N92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$" target=3D"_blank" rel=3D"norefe=
+rrer">boul.
+ [google.com]</a>=C2=A0de=C2=A0<a href=3D"https://urldefense.com/v3/__https=
+:/www.google.com/maps/search/3400*boul.*De*Maisonneuve*ouest?entry=3Dgmail&=
+amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo=
+5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$" target=3D"_blank" rel=3D=
+"noreferrer">Maisonneuve
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*de*Maisonneuve*Ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4O=
+N92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l9pnM$" target=3D"_blank" rel=3D"norefe=
+rrer">Ouest
+ [google.com]</a>,=C2=A0Suite=C2=A0910</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Montr=C3=A9al</span><u></u><u></u></p=
+>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">QC</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">H3Z=C2=A03B8</span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"padding:3.75pt 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:7.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#7d7d7d">Ce courriel est destin=C3=A9 uniquemen=
+t =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il est env=
+oy=C3=A9 et peut contenir
+ de l&#39;information confidentielle ou privil=C3=A9gi=C3=A9e. Toute utilis=
+ation de l&#39;information par une personne ou une entit=C3=A9 autre que ce=
+lle =C3=A0 laquelle elle est destin=C3=A9e est interdite. Si vous recevez c=
+e courriel par erreur, veuillez communiquer avec son exp=C3=A9diteur et
+ supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9d=
+iatement.</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot=
+;,sans-serif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;=
+font-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">This email communication i=
+s intended only for the person or entity to which it is addressed
+ and may contain confidential and/or privileged information. Any use of thi=
+s information by persons or entities other than the intended recipient is p=
+rohibited. If you received this in error, please contact the sender and del=
+ete the email and all copies (electronic
+ or otherwise) immediately.</span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"FR"><a href=3D"https://urldefense.c=
+om/v3/__https:/www.google.com/maps/search/3400*boul.*De*Maisonneuve*ouest?e=
+ntry=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0=
+iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$" target=3D"_=
+blank" rel=3D"noreferrer">De
+ [google.com]</a>=C2=A0:</span></b><span lang=3D"FR"> daniel simard &lt;<a =
+href=3D"mailto:simard.danielbio@gmail.com" target=3D"_blank" rel=3D"norefer=
+rer">simard.danielbio@gmail.com</a>&gt;
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> August 7, 2024 9:45 PM<br>
+<b>=C3=80=C2=A0:</b> Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnip=
+ro.ca" target=3D"_blank" rel=3D"noreferrer">joey.dubois@indemnipro.ca</a>&g=
+t;<br>
+<b>Objet=C2=A0:</b> Re: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 20=
+24 <a href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search=
+/6241*Boul.*L**Ager,*Montr**Aal-Nord?entry=3Dgmail&amp;source=3Dg__;KyvDqSv=
+DqQ!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6O=
+T9acuaJPCCPhESPtY-FiPDhxPTtU$" target=3D"_blank" rel=3D"noreferrer">
+6241 Boul. L=C3=A9ger, Montr=C3=A9al-Nord [google.com]</a></span><u></u><u>=
+</u></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<table border=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width:100.0%;=
+background:black">
+<tbody>
+<tr>
+<td style=3D"background:#1500ff;padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"background:#26a1d7;padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial Bold&quot;,serif=
+;color:white">CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE</span=
+></b><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<div style=3D"margin-top:9.75pt;margin-right:46.5pt;float:left">
+<div>
+<p class=3D"MsoNormal" style=3D"vertical-align:bottom">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:gray">Pi=C3=A8ces jointes disponibles jusqu=E2=80=99au 6 sept. 2024</sp=
+an><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">VOICI DE INFO POUR LA RECLAMATION PRODUIT PERISSABLE=
+<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">SI IL VOUS MANQUE AUTRE INFO LAISSE MOI SAVOIR<u></u=
+><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">MERCI<u></u><u></u></p>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAS__OXVoSGKsN17kevUoUmW_=
+M2c7ASP_40BiCH7izo6sFeCZEtKWfM_j*2F*24*7Bf*7D*3Fo*3DAjfk9W6Ddy89UTcZb8e6Apv=
+D9-3s-Tjp-XxnZpdRat42*26v*3D1*26x*3D3*26a*3DCAogroyHfaYc7mE6afgT46JwWpZ7A1f=
+81faw2Xa4iR3o1SoSeBC08aP9kjIYtIGf0ZwyIgEAKgkC6AMA_wN8T3dSBL8zZztaBJZ8z-NqJj=
+YprK0GSeN34ypXmjm6SzR_nSteyOZ1h4zeTcU8SEaNVDoVK_bcciZouFgMgXmeElKpAergMToyk=
+6pTh3yEO0D8MfPw2iRjjsgUETz1Xw*26e*3D1725673488*26fl*3D*26r*3DB313D630-6498-=
+4492-B23B-D46039CC156E-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3Dodx4s-MKoqgO=
+D416QWAtUb_NuZo&amp;uk=3DEDi5cmJX2RmSLNiPnFGteA&amp;f=3Dfact*201581.pdf&amp=
+;sz=3D11641609__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxh=
+Hs7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvo=
+zG9ooPoAq0OMdzRK3V4_LsH1KO6g$" target=3D"_blank" rel=3D"noreferrer"><span s=
+tyle=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Cliquer
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">fact 1581.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">11,6 Mo</span><u></u><u></u></p>
+</div>
+</div>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAZlew5JNfh4DX49pnW2fscSw=
+ZBCuAauTLUMFq_FX6nuZWCv-xJ5n5dBM*2F*24*7Bf*7D*3Fo*3DAhI0_ra3lI9PKWlihQJoRp3=
+6Lm1UDkHrK5uo_Jq7bRfU*26v*3D1*26x*3D3*26a*3DCAogPzxKQpFMnT4ak-vBOSTCU54Op1o=
+X_Z28xD-y070UOa0SeBCq8KP9kjIYqoCf0ZwyIgEAKgkC6AMA_ykWDghSBLBkEK5aBGfl0ExqJj=
+sWdeeUUYJEsGW8KoENj0frNSMZxQbVitGvnqJtaFYGa-Ug_4BYcibpTQid8BeTSurZiBZ1i_S--=
+EFUfDF5z5J9oGpapMhzZIgqi5SoVQ*26e*3D1725673488*26fl*3D*26r*3DE482938C-2722-=
+4509-B138-60A1698E0793-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DVRNe9qiBJCO8=
+nlg_CkKCp0vBWb8&amp;uk=3Dc4SAKRmqFrCwt1tx_dmmRA&amp;f=3Dfact*202070.pdf&amp=
+;sz=3D8269463__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhH=
+s7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvoz=
+G9ooPoAq0OMdzRK3V4_Lq4OfAqg$" target=3D"_blank" rel=3D"noreferrer"><span st=
+yle=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Cliquer
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">fact 2070.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">8,3 Mo</span><u></u><u></u></p>
+</div>
+</div>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FATkVtfEgJpgk3CYAaTvOwHEO=
+dF1KAaJ4uztAU1q4oM8KAk0MqRPQUxKI*2F*24*7Bf*7D*3Fo*3DAh_ftgFFefkB3knMrsxS8nT=
+MyLB2h5nEV-peBfiJ0t6Z*26v*3D1*26x*3D3*26a*3DCAogEDunQouJzH2Aj8_2Iu4YhJphlC-=
+ICIONotAjrAvq8moSeBCS76P9kjIYkv-e0ZwyIgEAKgkC6AMA_ybKeHFSBA50XUpaBNBTEohqJk=
+L_cD_W4FL7y6r-2pJRLBj2xHoKCco2h9x2zCsZXyx0w8vW_4XBcibrE1pqVGwMWfSPaZyCS6NyU=
+0vfHLlpTYir4bXKsemUmPLtsoD2WQ*26e*3D1725673488*26fl*3D*26r*3DA7ED10D5-C134-=
+4B9A-8752-2E5F35EDF634-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DEMySBuKv2uO1=
+DijY_qddEsTEbMI&amp;uk=3D4H6Hs1fEDWBHyUXnekNVqw&amp;f=3Dfact*205969.pdf&amp=
+;sz=3D9232249__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhH=
+s7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvoz=
+G9ooPoAq0OMdzRK3V4_JaUSHPww$" target=3D"_blank" rel=3D"noreferrer"><span st=
+yle=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Cliquer
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">fact 5969.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">9,2 Mo</span><u></u><u></u></p>
+</div>
+</div>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAQVYZuXu7fCdhBr5rOC9DIa-=
+BRToASzRPwXwA2oRF84Uyk-e3wQ6G0sZ*2F*24*7Bf*7D*3Fo*3DAu7I1OtFxDo6_tEvQDQP-Em=
+NEOpTDXMMX8aBPh9bO5RE*26v*3D1*26x*3D3*26a*3DCAogUQntbXpY51AtbNKzZy6QBzM-ala=
+HpkKOMPvXjqjyA3YSeBD19aP9kjIY9YWf0ZwyIgEAKgkC6AMA_2twWBxSBL4FFOhaBDobSxlqJt=
+RUj3On3bvspz4S12uKC-j9urel3IEL4FE03yx2RDh5oSZifIP7ciZYYm05y-Jzg7zYU0BMWG-5Q=
+VSk-Rz2ReVM-FmVjUQJMIWwzL4v8w*26e*3D1725673489*26fl*3D*26r*3DF5AB033F-C620-=
+4584-ABC5-B916BBD5960F-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DORvtigahi72w=
+kutzQ-EOzA3vVm8&amp;uk=3DsUzZ9onixXjyiKIhwxMGTg&amp;f=3Dfact*207977.pdf&amp=
+;sz=3D5001281__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhH=
+s7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvoz=
+G9ooPoAq0OMdzRK3V4_KxJJPlyg$" target=3D"_blank" rel=3D"noreferrer"><span st=
+yle=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Cliquer
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">fact 7977.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">5 Mo</span><u></u><u></u></p>
+</div>
+</div>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAa7r8KXF06wNAhkUC36qk_NT=
+GZUfAXP7P8XXttNsoWAqp3sGJ7TcTY-J*2F*24*7Bf*7D*3Fo*3DAte7NNpfICljZk3vVcmjq2Y=
+6rUq6Rj1sgsHVZWiKmCLY*26v*3D1*26x*3D3*26a*3DCAogVJwcdFPp7x-_599RgAm7_iyPbIY=
+vpuvoFBowS7_JNOoSeBDf96P9kjIY34ef0ZwyIgEAKgkC6AMA_3abpztSBFMZlR9aBNxNj4lqJm=
+B-WWFXLiukIqLowZgkZD3_rD4FYGdxKGHa-6R0NbL61lWFMWIsciYmfsfcsFT1IaBqEcFfqQVrt=
+UytMk6Qx8KwF3zF2DlfdPCnVZvFnA*26e*3D1725673489*26fl*3D*26r*3D33F468A7-90CC-=
+4E56-9DAC-022AA564D71F-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DxtmWSwjQb8iE=
+vlpZ6boylSybwGY&amp;uk=3DmZiRdddxDQsWOLBuuv7kGA&amp;f=3Dfact*207978.pdf&amp=
+;sz=3D5473974__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhH=
+s7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvoz=
+G9ooPoAq0OMdzRK3V4_Kz50cIwA$" target=3D"_blank" rel=3D"noreferrer"><span st=
+yle=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Cliquer
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">fact 7978.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">5,5 Mo</span><u></u><u></u></p>
+</div>
+</div>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAVoC-XkOnfQNznPIUesNLM0S=
+y9vSATeUdYQ5WgB1pcYu2biNQvRFtp21*2F*24*7Bf*7D*3Fo*3DAnx_qnmu1erNeHyUe3rQnQC=
+kw9J9PLmD2doqw2BpPiSB*26v*3D1*26x*3D3*26a*3DCAogm18MVaMX_9ylLG6I5cC1Ry6x_I_=
+SrGaYRDEXdusutIISeBDp9qP9kjIY6Yaf0ZwyIgEAKgkC6AMA_zsKRFdSBBLL29JaBEW2nbVqJu=
+xSPde7B4lBtjbb2fNrsxq4gQmyAof6kNGTak2toXRb9bKAsMY0cibayv6R7U1yAFOC21YG95u9w=
+rTlWY1Oure047aQylWsVETcC8FQcg*26e*3D1725673489*26fl*3D*26r*3DF67066F6-12DA-=
+44CD-AF86-432E688A1B28-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3Dyr6MPTF0NsYT=
+GYtB_DRWTzrk_9o&amp;uk=3Dh-3025eAyUJ9JjYZ4Q6WnA&amp;f=3Dfact*207979.pdf&amp=
+;sz=3D7622084__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhH=
+s7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvoz=
+G9ooPoAq0OMdzRK3V4_JExoJ5Rg$" target=3D"_blank" rel=3D"noreferrer"><span st=
+yle=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Cliquer
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">fact 7979.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">7,6 Mo</span><u></u><u></u></p>
+</div>
+</div>
+<div style=3D"border:solid #cacaca 1.0pt;padding:0cm 0cm 0cm 0cm;margin-lef=
+t:11.25pt;margin-top:11.25pt;margin-right:11.25pt;margin-bottom:11.25pt;bor=
+der-radius:15px;display:inline-block;min-width:159px">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"https://urldefense.com/v3/__https:/www.icloud.com/attachmen=
+t/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAY2wfbrgQcgeGGMeglzl30Wf=
+024ZAVFFCyX2ma_9LiHxQ0i_gK0zDFQz*2F*24*7Bf*7D*3Fo*3DAjoDWxnyff3SsbZ5xUcfJaD=
+c--hi1iP6BXTnsjbuyfom*26v*3D1*26x*3D3*26a*3DCAogNYNH79LSKs2wWt8sBvJzloN7c0u=
+YH89_ZKSUFzc598kSeBCH-6P9kjIYh4uf0ZwyIgEAKgkC6AMA_y1PuoxSBJ_TbhlaBDMMVDNqJg=
+T6SEMvO4ZK8ojRce8u-hTz9y4f6-XUDKulTRJ0a3jdxF2Aye2cciYcxjV_RZv-2KUPXOlrO289w=
+LmsVJ8eWA0qN886Ip_-iqPyv-TGxA*26e*3D1725673489*26fl*3D*26r*3D999DC8C2-E1EB-=
+46F2-8E49-C683BBABDD4A-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachmen=
+t*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DoWCvi7mG9c-8=
+EwM8aMNSgkI5OTE&amp;uk=3Dud8-TqQjKSwtp6t8ld72Tw&amp;f=3DLISTE*20PERTE*20RES=
+TO.pdf&amp;sz=3D12324__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSU=
+!!AyxJxhHs7Q!bZva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3Pl=
+OuXlokvozG9ooPoAq0OMdzRK3V4_K470bPAw$" target=3D"_blank" rel=3D"noreferrer"=
+><span style=3D"font-size:10.5pt;color:#007aff;text-decoration:none">Clique=
+r
+ pour t=C3=A9l=C3=A9charger [icloud.com]</span></a></span><u></u><u></u></p=
+>
+<div style=3D"margin-left:7.5pt;margin-top:3.0pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">LISTE PERTE RESTO.pdf</span><u></u><u></u></p>
+</div>
+<div style=3D"margin-left:7.5pt;margin-top:2.25pt;margin-right:7.5pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:gray">12 ko</span><u></u><u></u></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">=C2=A0<u></u><u></u><=
+/p>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">Le 6 ao=C3=BBt 2024 =C3=A0 13:32, Joey Dubois &lt;<a=
+ href=3D"mailto:joey.dubois@indemnipro.ca" target=3D"_blank" rel=3D"norefer=
+rer">joey.dubois@indemnipro.ca</a>&gt; a =C3=A9crit :<u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">Bonjour M. Simard,<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Je suis de retour de mes vacances ce matin et j=E2=
+=80=99apprends que vous avez laiss=C3=A9 un message =C3=A0 l=E2=80=99assure=
+ur. Pourtant de n=E2=80=99ai pas re=C3=A7u les informations demand=C3=A9es =
+dans mon courriel du
+ 25 juillet.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><i>Pour les=C2=A0<u>r=C3=A9parations</u>=C2=A0(voir =
+notre sommaire), nous avons besoin d=E2=80=99un =C3=A9crit de Frigo Spec ex=
+pliquant pourquoi qu=E2=80=99il y a eu bris des =C3=A9quipements en questio=
+n<u>(important</u>).</i><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><i>=C2=A0</i><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><i>-Pour la=C2=A0<u>marchandise</u>, il s=E2=80=99ag=
+it des factures d=E2=80=99achat. Il y a surement eu des marchandises vendue=
+s depuis et d=E2=80=99autres qui ne sont pas p=C3=A9rissables (comme des bo=
+uteilles
+ d=E2=80=99eau, pailles etc). Nous avons besoin une liste de votre part d=
+=C3=A9crivant les items r=C3=A9clam=C3=A9s, les quantit=C3=A9s et le montan=
+t r=C3=A9clam=C3=A9.</i><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">J=E2=80=99ai absolument besoin de ces informations p=
+our =C3=A9tablir si la r=C3=A9clamation est recevable au niveau de votre po=
+lice et pour =C3=A9valuer votre r=C3=A9clamation.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Si vous voulez en discuter veuillez de transmettre v=
+os disponibilit=C3=A9s=C2=A0<u>via courriel</u>=C2=A0pour=C2=A0<u>demain ou=
+ jeudi apr=C3=A8s-midi.</u><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Veuillez toujours communiquer avec moi concernant vo=
+tre dossier.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Mes salutations,<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"1068" styl=
+e=3D"width:801.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm;border-color:currentcol=
+or rgb(202,202,202) currentcolor currentcolor">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=
+=3D"width:450.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"border:none;border-right:dotted windowtext 1.0pt;padding:0cm 0=
+cm 0cm 0cm">
+<div align=3D"center">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 7.5pt 7.5pt 7.5pt">
+<div>
+<p class=3D"MsoNormal">&lt;image001.jpg&gt;<u></u><u></u></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td valign=3D"top" style=3D"padding:7.5pt 0cm 7.5pt 7.5pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#807f83">Joey=C2=A0Dubois</span></b><b><spa=
+n style=3D"font-size:1.0pt;font-family:&quot;remialcxesans&quot;,serif;colo=
+r:white">=E2=80=8B</span></b><b><span style=3D"font-size:1.0pt;font-family:=
+&quot;template-hMgY3lQsEeqpTAAD_7TDWA&quot;,serif;color:white">=E2=80=8B</s=
+pan></b><b><span style=3D"font-size:1.0pt;font-family:&quot;zone-1&quot;,se=
+rif;color:white">=E2=80=8B</span></b><b><span style=3D"font-size:1.0pt;font=
+-family:&quot;zones-AQ&quot;,serif;color:white">=E2=80=8B</span></b><u></u>=
+<u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">B.=C2=A0Sc.,=C2=A0PAA/CIP</span><u></=
+u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Expert=C2=A0en=C2=A0sinistre,=C2=A0Vi=
+ce=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=A0Risques=C2=A0Sp=C3=
+=A9ciaux</span><u></u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"mailto:joey.dubois@indemni=
+pro.ca" target=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#7d7d7d;t=
+ext-decoration:none">joey.dubois@indemnipro.ca</span></a></span><u></u><u><=
+/u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">Ligne=C2=A0directe</span></b><u></=
+u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt">
+<span style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,sans-serif;c=
+olor:#7d7d7d">=C2=A0(T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)</span><u></u><u></u>=
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">Sans=C2=A0frais=C2=A0</span></b><u=
+></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0</span><u></u><u></u></p=
+>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0</span><u></u><u></u></p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"tel:514-789-8888" target=
+=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#7d7d7d;text-decoration=
+:none">514-789-8888</span></a></span><u></u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">888=E2=80=91485=E2=80=915252</span><u=
+></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">x2572</span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"border-top:solid windowtext 1.0pt=
+;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;pa=
+dding:3.75pt 3.75pt 3.75pt 3.75pt;border-color:currentcolor">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Verdana&quot;,sans-serif;color:#7d7d7d">IndemniPro=C2=A0Division=C2=A0des=
+=C2=A0risques=C2=A0sp=C3=A9ciaux</span></b><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0=E2=80=93=C2=A0</span><u></u><u=
+></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://indemnipro.ca/?e=
+=3D1" target=3D"_blank" rel=3D"noreferrer"><span style=3D"color:#807f83;tex=
+t-decoration:none">indemnipro.ca</span></a></span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Cabinet=C2=A0d&#39;expertise=C2=A0en=
+=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres</span><u></u><u></u></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">3400=C2=A0boul.=C2=A0De=C2=A0Maisonne=
+uve=C2=A0ouest,=C2=A0#910</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Montr=C3=A9al</span><u></u><u></u></p=
+>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">QC</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">=C2=A0</span><u></u><u></u></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">H3Z=C2=A03B8</span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"padding:3.75pt 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:7.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#7d7d7d">Ce courriel est destin=C3=A9 uniquemen=
+t =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il est env=
+oy=C3=A9 et peut contenir
+ de l&#39;information confidentielle ou privil=C3=A9gi=C3=A9e. Toute utilis=
+ation de l&#39;information par une personne ou une entit=C3=A9 autre que ce=
+lle =C3=A0 laquelle elle est destin=C3=A9e est interdite. Si vous recevez c=
+e courriel par erreur, veuillez communiquer avec son exp=C3=A9diteur et
+ supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9d=
+iatement.</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot=
+;,sans-serif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;=
+font-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">This email communication i=
+s intended only for the person or entity to which it is addressed
+ and may contain confidential and/or privileged information. Any use of thi=
+s information by persons or entities other than the intended recipient is p=
+rohibited. If you received this in error, please contact the sender and del=
+ete the email and all copies (electronic
+ or otherwise) immediately.</span><u></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style=3D"border:none;border-top:solid windowtext 1.0pt;padding:3.0pt 0=
+cm 0cm 0cm;border-color:currentcolor currentcolor">
+<div>
+<p class=3D"MsoNormal"><b><span lang=3D"FR"><a href=3D"https://www.google.c=
+om/maps/search/3400+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;source=3Dg=
+">De</a>=C2=A0:</span></b><span lang=3D"FR">=C2=A0Joey Dubois<br>
+<b>Envoy=C3=A9=C2=A0:</b>=C2=A0July 25, 2024 11:48 AM<br>
+<b>=C3=80=C2=A0:</b>=C2=A0<a href=3D"mailto:simard.danielbio@gmail.com" tar=
+get=3D"_blank" rel=3D"noreferrer">simard.danielbio@gmail.com</a><br>
+<b>Cc=C2=A0:</b>=C2=A0SCM Attach &lt;<a href=3D"mailto:attach@scm.ca" targe=
+t=3D"_blank" rel=3D"noreferrer">attach@scm.ca</a>&gt;<br>
+<b>Objet=C2=A0:</b>=C2=A024110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2=
+024 <a href=3D"https://www.google.com/maps/search/6241+Boul.+L%C3%A9ger,+Mo=
+ntr%C3%A9al-Nord?entry=3Dgmail&amp;source=3Dg">6241 Boul. L=C3=A9ger, Montr=
+=C3=A9al-Nord</a><br>
+<b>Importance=C2=A0:</b>=C2=A0Haute</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ap=
+tos&quot;,sans-serif">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Bonjour,<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Je repr=C3=A9sente votre assureur bris des =C3=A9qui=
+pements soit HSB-BI&amp;I. Je vais g=C3=A9rer votre dossier de r=C3=A9clama=
+tion dor=C3=A9navant.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Faisant suite =C3=A0 la r=C3=A9vision du dossier, j=
+=E2=80=99aurais besoin quelques informations additionnelles.<u></u><u></u><=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">-L=E2=80=99acquisition du commerce date de quand? Le=
+s =C3=A9quipements =C3=A9taient incl. lors de l=E2=80=99achat?<u></u><u></u=
+></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">-Pour les=C2=A0<u>r=C3=A9parations</u>=C2=A0(voir no=
+tre sommaire), nous avons besoin d=E2=80=99un =C3=A9crit de Frigo Spec expl=
+iquant pourquoi qu=E2=80=99il y a eu bris des =C3=A9quipements en question<=
+u>(important</u>).<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">-Pour la=C2=A0<u>marchandise</u>, il s=E2=80=99agit =
+des factures d=E2=80=99achat. Il y a surement eu des marchandises vendues d=
+epuis et d=E2=80=99autres qui ne sont pas p=C3=A9rissables (comme des boute=
+illes d=E2=80=99eau,
+ pailles etc). Nous avons besoin une liste de votre part d=C3=A9crivant les=
+ items r=C3=A9clam=C3=A9s, les quantit=C3=A9s et le montant r=C3=A9clam=C3=
+=A9.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C3=80 la r=C3=A9ception des informations, je vais =
+=C3=AAtre en mesure de vous revenait au sujet de votre r=C3=A9clamation.<u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Si vous voulez en discuter, veuillez m=E2=80=99avise=
+r quand vous serez disponible demain matin.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Mes salutations,<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Mes salutations<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div style=3D"border:none;border-top:solid windowtext 1.0pt;padding:3.0pt 0=
+cm 0cm 0cm;border-color:currentcolor currentcolor">
+<div>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-CA">From:</span></b><span lang=
+=3D"EN-CA">=C2=A0daniel simard &lt;</span><span lang=3D"FR"><a href=3D"mail=
+to:simard.danielbio@gmail.com" target=3D"_blank" rel=3D"noreferrer"><span l=
+ang=3D"EN-CA">simard.danielbio@gmail.com</span></a></span><span lang=3D"EN-=
+CA">&gt;<br>
+<b>Sent:</b>=C2=A0Thursday, July 25, 2024 9:44 AM<br>
+<b>To:</b>=C2=A0Houle-Dixon Ayisha - Montreal-HSB &lt;</span><span lang=3D"=
+FR"><a href=3D"mailto:AHoule-dixon@hsb.ca" target=3D"_blank" rel=3D"norefer=
+rer"><span lang=3D"EN-CA">AHoule-dixon@hsb.ca</span></a></span><span lang=
+=3D"EN-CA">&gt;<br>
+<b>Subject:</b>=C2=A0suite</span><u></u><u></u></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:12.0pt;font-=
+family:&quot;Aptos&quot;,sans-serif">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt"><span lang=3D"EN-US" =
+style=3D"font-size:1.0pt;font-family:&quot;Aptos&quot;,sans-serif;color:whi=
+te">le fichier a pas suivi=C2=A0 voici Daniel Simard Cell: 514 265 8465 Fax=
+: 514
+<a href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search/31=
+3*5678*1649*Fleury*est?entry=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!Y8=
+btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-=
+FiPrmIVqH4$" target=3D"_blank" rel=3D"noreferrer">
+313 5678 1649 Fleury est [google.com]</a> bureau 201 Montr=C3=A9al Qu=C3=A9=
+bec H2C 1S9 =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =
+=E2=80=8D =E2=80=8D =E2=80=8D
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt"><span lang=3D"EN-US" =
+style=3D"font-size:1.0pt;font-family:&quot;Aptos&quot;,sans-serif;color:whi=
+te">=C2=A0</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">le fichier a pas suivi=C2=A0</span><u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">voici<br clear=3D"all">
+</span><u></u><u></u></p>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">Daniel Simard</span><u></u><u></u></p>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">Cell: 514 265 8465</span><u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">Fax: 514 313 5678</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif"><a href=3D"https://urldefense.com/v3/__https:/www.google.com/=
+maps/search/1649*Fleury*est?entry=3Dgmail&amp;source=3Dg__;Kys!!AyxJxhHs7Q!=
+Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPt=
+Y-FiPxAqn39k$" target=3D"_blank" rel=3D"noreferrer">1649
+ Fleury est [google.com]</a> bureau 201</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">Montr=C3=A9al Qu=C3=A9bec H2C 1S9</span><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:13.2pt">
+<span lang=3D"EN-US" style=3D"font-size:12.0pt;font-family:&quot;Aptos&quot=
+;,sans-serif">=C2=A0</span><u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">=C2=A0</span><u></u><u></u></p>
+</div>
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ lang=3D"EN-US">
+<hr size=3D"2" width=3D"100%" align=3D"center">
+</span></div>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:7.5pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:gray"><br>
+IMPORTANT NOTICE:</span><u></u><u></u></p>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+
+</div>
+
+--000000000000c6646106533586be
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: quoted-printable
+
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=3DYEARLY;INTERVAL=3D1;BYDAY=3D1SU;BYMONTH=3D11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=3DYEARLY;INTERVAL=3D1;BYDAY=3D2SU;BYMONTH=3D3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=3DJoey Dubois:mailto:joey.dubois@indemnipro.ca
+ATTENDEE;ROLE=3DREQ-PARTICIPANT;PARTSTAT=3DNEEDS-ACTION;RSVP=3DTRUE;CN=3DOe=
+uf D=C3=A9je
+ uner:mailto:ooeuf.ca@gmail.com
+ATTACH:CID:~WRD3334.jpg
+DESCRIPTION;LANGUAGE=3Dfr-FR:\n\n__________________________________________=
+__
+ _\nDe : Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com<mailto:ooeuf.ca@gmail.com>>=
+\nEn
+ voy=C3=A9 : October 1\, 2024 8:29 AM\n=C3=80 : Joey Dubois <joey.dubois@in=
+demnipro
+ .ca<mailto:joey.dubois@indemnipro.ca>>\nCc : SCM Attach <attach@scm.ca<mai
+ lto:attach@scm.ca>>\; daniel simard <simard.danielbio@gmail.com<mailto:sim
+ ard.danielbio@gmail.com>>\nObjet : Re: 24110-4833RE: Reclamation 6241 blvd
+  L=C3=A9ger Montr=C3=A9al Nord\n\nCAUTION - EXTERNAL EMAIL / ATTENTION - C=
+OURRIEL=20
+ EXTERNE\n\nBonjour Monsieur Dubois\,\n\n\n\nJe vous =C3=A9cris pour vous i=
+nfor
+ mer que\, malheureusement\, Daniel Simard est d=C3=A9c=C3=A9d=C3=A9. Je su=
+is maintenan
+ t la personne responsable du dossier concernant le restaurant situ=C3=A9 a=
+u 62
+ 41 Boulevard L=C3=A9ger\, Montr=C3=A9al-Nord\, H1G 6K8. Si vous le souhait=
+ez\, vou
+ s pouvez contacter mon agente\, Maude Robidoux\, qui pourra vous fournir p
+ lus d'informations =C3=A0 mon sujet.\n\n\n\nLa lettre du technicien en r=
+=C3=A9para
+ tion vous sera transmise dans les prochaines heures. Toutefois\, il serait
+  grandement appr=C3=A9ci=C3=A9 que vous me contactiez afin que nous puissi=
+ons fair
+ e un bilan des dommages caus=C3=A9s lors de l'=C3=A9v=C3=A9nement survenu =
+en juin 2024
+ .\n\n\n\nJe vous remercie d'avance et reste =C3=A0 votre disposition pour =
+tout
+ e question.\n\n\n\nCordialement\,\n\nMatthieu Wallace\n\nOn Tue\, Oct 1\,=
+=20
+ 2024\, 7:09=E2=80=AFa.m. Joey Dubois <joey.dubois@indemnipro.ca<mailto:joe=
+y.dubo
+ is@indemnipro.ca>> wrote:\nBonjour\,\n\nJ=E2=80=99ai envoy=C3=A9 plusieurs=
+ courriels
+  =C3=A0 votre confr=C3=A8re sans retour. Je vais =C3=AAtre un bureau demai=
+n. Il est pr
+ =C3=A9f=C3=A9rable de fixer un appel pour demain PM si possible. Veuillez =
+me donne
+ r votre heure de pr=C3=A9f=C3=A9rence. Je vais vous communiquer par la sui=
+te.\n\nL
+ e dossier n=E2=80=99avance pas car nous avons besoin une note de service d=
+e votr
+ e r=C3=A9parateur des =C3=A9quipements commentant la cause des bris.\n\nMe=
+s saluta
+ tions\,\n\n[Image supprim=C3=A9e par l'exp=C3=A9diteur. IndemniPro Logo]<h=
+ttps://i
+ ndemnipro.ca/?e=3D1>\nJoey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B\n\,\=
+nB. Sc.\, PAA/CIP\nExpert=20
+ en sinistre\, Vice=E2=80=91Pr=C3=A9sident\, Division des Risques Sp=C3=A9c=
+iaux\njoey.dub
+ ois@indemnipro.ca<mailto:joey.dubois@indemnipro.ca>\nLigne directe\n (T=C3=
+=A9l
+ ./Texto/T=C3=A9l=C3=A9c.)\nSans frais\n :\n :\n514-789-8888<tel:514-789-88=
+88>\n888
+ =E2=80=91485=E2=80=915252\n\nx2572\nIndemniPro Division des risques sp=C3=
+=A9ciaux\n =E2=80=93\ni
+ ndemnipro.ca<https://indemnipro.ca/?e=3D1>\nCabinet d'expertise en r=C3=A8=
+glemen
+ t de sinistres\n3400 boul. De Maisonneuve [google.com]<https://urldefense.
+ com/v3/__https:/www.google.com/maps/search/3400\,*boul.*de*Maisonneuve*Oue
+ st?entry=3Dgmail&source=3Dg__\;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvX=
+U0iL
+ NTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l9pnM$> ouest [googl
+ e.com]<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*
+ boul.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__\;KysrKw!!AyxJxhHs7Q!=
+Y8bt
+ OSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-F
+ iPpT8fL1E$>\, #910\n\,\nMontr=C3=A9al\n\,\nQC\n\nH3Z 3B8\nCe courriel est =
+dest
+ in=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'entit=C3=A9 =C3=A0 laqu=
+elle il est envoy=C3=A9=20
+ et peut contenir de l'information confidentielle ou privil=C3=A9gi=C3=A9e.=
+ Toute u
+ tilisation de l'information par une personne ou une entit=C3=A9 autre que =
+cell
+ e =C3=A0 laquelle elle est destin=C3=A9e est interdite. Si vous recevez ce=
+ courrie
+ l par erreur\, veuillez communiquer avec son exp=C3=A9diteur et supprimer =
+ce c
+ ourriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9diatement.=E2=
+=80=8B\n=E2=80=8B\n=E2=80=8B
+ This email communication is intended only for the person or entity to whic
+ h it is addressed and may contain confidential and/or privileged informati
+ on. Any use of this information by persons or entities other than the inte
+ nded recipient is prohibited. If you received this in error\, please conta
+ ct the sende [google.com]<https://urldefense.com/v3/__https:/www.google.co
+ m/maps/search/3400\,*boul.*de*Maisonneuve*Ouest?entry=3Dgmail&source=3Dg__=
+\;Ky
+ srKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS
+ 6OT9acuaJPCCPhESPtY-FiPQ_l9pnM$>r and delete the email and all copies (ele
+ ctronic or otherwise) immediately.\nDe : Oeuf D=C3=A9jeuner <ooeuf.ca@gmai=
+l.co
+ m<mailto:ooeuf.ca@gmail.com>>\nEnvoy=C3=A9 : September 20\, 2024 11:14 AM\=
+n=C3=80=20
+ : Joey Dubois <joey.dubois@indemnipro.ca<mailto:joey.dubois@indemnipro.ca>
+ >\nObjet : Reclamation 6241 blvd L=C3=A9ger Montr=C3=A9al Nord [google.com=
+]<https:
+ //urldefense.com/v3/__https:/www.google.com/maps/search/6241*blvd*L**Ager*
+ Montr**Aal*Nord?entry=3Dgmail&source=3Dg__\;KyvDqSvDqSs!!AyxJxhHs7Q!Y8btOS=
+E2T2
+ -eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPIqUe
+ Pbg$>\n\nCAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE\nBonjour=
+=20
+ mon nom est Matthieu jaimerais avoir un retour d'appel au 514 458 4587\, =
+=20
+ plusieur message que je vous laisse et je n'est pas de retour d'appel de v
+ otre part\n\n\n\n---------- Forwarded message ----------\nFrom: Joey Duboi
+ s <joey.dubois@indemnipro.ca<mailto:joey.dubois@indemnipro.ca>>\nTo: "sima
+ rd.danielbio@gmail.com<mailto:simard.danielbio@gmail.com>" <simard.danielb
+ io@gmail.com<mailto:simard.danielbio@gmail.com>>\nCc: SCM Attach <attach@s
+ cm.ca<mailto:attach@scm.ca>>\nBcc:\nDate: Wed\, 18 Sep 2024 21:37:51 +0000
+ \nSubject: Re: 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241
+  Boul. L=C3=A9ger\, Montr=C3=A9al-Nord [google.com]<https://urldefense.com=
+/v3/__ht
+ tps:/www.google.com/maps/search/6241*Boul.*L**Ager\,*Montr**Aal-Nord?entry
+ =3Dgmail&source=3Dg__\;KyvDqSvDqQ!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iL=
+NTV3
+ RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPDhxPTtU$>\nJe suis en vaca
+ nces =C3=A0 partir de demain 13:00 de retour le 1er oct. si je n=E2=80=99a=
+i pas des=20
+ nouvelles on se parle lors de mon retour.\n\nSalutations\nSent from my iPh
+ one\n\nOn Sep 18\, 2024\, at 11:24\, Joey Dubois <joey.dubois@indemnipro.c
+ a<mailto:joey.dubois@indemnipro.ca>> wrote:\n=EF=BB=BF\nBonjour\,\n\nJe fa=
+isais=20
+ un suivi. Avez-vous le rapport du technicien?\n\nAussi\, j=E2=80=99ai eu d=
+eux ap
+ pels (le premier incompr=C3=A9hensible) d=E2=80=99un M. Wallace Bernard. Q=
+ui est ce=20
+ Monsieur?  Il m=E2=80=99a seulement laiss=C3=A9 un message en me disant qu=
+e c=E2=80=99=C3=A9ta
+ it le dossier sur le boul. [google.com]<https://urldefense.com/v3/__https:
+ /www.google.com/maps/search/3400\,*boul.*de*Maisonneuve*Ouest?entry=3Dgmai=
+l&
+ source=3Dg__\;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5n=
+Or
+ W4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l9pnM$> L=C3=A9ger!  Je suis en r=
+=C3=A9unio
+ n pour la journ=C3=A9e\, mais je vais regarder mes courriels.\n\nJ=E2=80=
+=99attends d
+ e vos nouvelles\,\n\n\nMes salutations\,\n\n\n\nDe : Joey Dubois\nEnvoy=C3=
+=A9=20
+ : August 27\, 2024 5:06 PM\n=C3=80 : simard.danielbio@gmail.com<mailto:sim=
+ard.
+ danielbio@gmail.com>\nCc : SCM Attach <attach@scm.ca<mailto:attach@scm.ca>
+ >\nObjet : 24110-4833 -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Bou
+ l. L=C3=A9ger\, Montr=C3=A9al-Nord [google.com]<https://urldefense.com/v3/=
+__https:
+ /www.google.com/maps/search/6241*Boul.*L**Ager\,*Montr**Aal-Nord?entry=3Dg=
+ma
+ il&source=3Dg__\;KyvDqSvDqQ!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZ=
+h7
+ flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPDhxPTtU$>\n\nBonjour\,\n\nJe f
+ ais un suivi.\n\nPour les r=C3=A9parations (voir notre sommaire)\, nous av=
+ons=20
+ besoin d=E2=80=99un =C3=A9crit de Frigo Spec expliquant pourquoi qu=E2=80=
+=99il y a eu bris
+  des =C3=A9quipements en question(important).\n\nJ=E2=80=99attends le rapp=
+ort en que
+ stion.\n\nMerci\n\n\nDe : Alyssa Procopio <alyssa.procopio@indemnipro.ca<m
+ ailto:alyssa.procopio@indemnipro.ca>>\nEnvoy=C3=A9 : August 8\, 2024 10:38=
+ AM\
+ n=C3=80 : SCM Attach <attach@scm.ca<mailto:attach@scm.ca>>\nObjet : 24110-=
+4833
+  -Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. L=C3=A9ger\, Montr=
+=C3=A9al
+ -Nord [google.com]<https://urldefense.com/v3/__https:/www.google.com/maps/
+ search/6241*Boul.*L**Ager\,*Montr**Aal-Nord?entry=3Dgmail&source=3Dg__\;Ky=
+vDqS
+ vDqQ!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS
+ 6OT9acuaJPCCPhESPtY-FiPDhxPTtU$>\n\n<image001.jpg>\nAlyssa Procopio=E2=80=
+=8B=E2=80=8B
+ =E2=80=8B=E2=80=8B\nAdjointe administrative\nalyssa.procopio@indemnipro.ca=
+<mailto:alys
+ sa.procopio@indemnipro.ca>\nLigne directe\n (T=C3=A9l./Texto/T=C3=A9l=C3=
+=A9c.)\nSans f
+ rais\n :\n :\n514-789-8911<tel:514-789-8911>\n800=E2=80=91263=E2=80=915361=
+\n\nx2574\nI
+ ndemniPro\n =E2=80=93\nindemnipro.ca<https://indemnipro.ca/?e=3D1>\nCabine=
+t d'expe
+ rtise en r=C3=A8glement de sinistres\n3400 [google.com]<https://urldefense=
+.com
+ /v3/__https:/www.google.com/maps/search/3400*boul.*De*Maisonneuve*ouest?en
+ try=3Dgmail&source=3Dg__\;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLN=
+TV3R
+ Zh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$>\, boul. [google.c
+ om]<https://urldefense.com/v3/__https:/www.google.com/maps/search/3400*bou
+ l.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__\;KysrKw!!AyxJxhHs7Q!Y8b=
+tOSE
+ 2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPp
+ T8fL1E$> de Maisonneuve [google.com]<https://urldefense.com/v3/__https:/ww
+ w.google.com/maps/search/3400*boul.*De*Maisonneuve*ouest?entry=3Dgmail&sou=
+rc
+ e=3Dg__\;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4O=
+N9
+ 2UHu42-uS6OT9acuaJPCCPhESPtY-FiPpT8fL1E$> Ouest [google.com]<https://urlde
+ fense.com/v3/__https:/www.google.com/maps/search/3400\,*boul.*de*Maisonneu
+ ve*Ouest?entry=3Dgmail&source=3Dg__\;KysrKw!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQL=
+RUFI
+ vXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPQ_l9pnM$>\, Suit
+ e 910\n\,\nMontr=C3=A9al\n\,\nQC\n\nH3Z 3B8\nCe courriel est destin=C3=A9 =
+uniqueme
+ nt =C3=A0 la personne ou =C3=A0 l'entit=C3=A9 =C3=A0 laquelle il est envoy=
+=C3=A9 et peut conte
+ nir de l'information confidentielle ou privil=C3=A9gi=C3=A9e. Toute utilis=
+ation de
+  l'information par une personne ou une entit=C3=A9 autre que celle =C3=A0 =
+laquelle
+  elle est destin=C3=A9e est interdite. Si vous recevez ce courriel par err=
+eur\
+ , veuillez communiquer avec son exp=C3=A9diteur et supprimer ce courriel e=
+t to
+ ute copie (=C3=A9lectronique ou non) imm=C3=A9diatement.=E2=80=8B\n=E2=80=
+=8B\n=E2=80=8BThis email co
+ mmunication is intended only for the person or entity to which it is addre
+ ssed and may contain confidential and/or privileged information. Any use o
+ f this information by persons or entities other than the intended recipien
+ t is prohibited. If you received this in error\, please contact the sender
+  and delete the email and all copies (electronic or otherwise) immediately
+ .\nDe [google.com]<https://urldefense.com/v3/__https:/www.google.com/maps/
+ search/3400*boul.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__\;KysrKw!=
+!Ayx
+ JxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJ
+ PCCPhESPtY-FiPpT8fL1E$> : daniel simard <simard.danielbio@gmail.com<mailto
+ :simard.danielbio@gmail.com>>\nEnvoy=C3=A9 : August 7\, 2024 9:45 PM\n=C3=
+=80 : Joe
+ y Dubois <joey.dubois@indemnipro.ca<mailto:joey.dubois@indemnipro.ca>>\nOb
+ jet : Re: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.
+  L=C3=A9ger\, Montr=C3=A9al-Nord [google.com]<https://urldefense.com/v3/__=
+https:/w
+ ww.google.com/maps/search/6241*Boul.*L**Ager\,*Montr**Aal-Nord?entry=3Dgma=
+il
+ &source=3Dg__\;KyvDqSvDqQ!!AyxJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7=
+fl
+ o5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPtY-FiPDhxPTtU$>\n\nCAUTION - EXTERNAL=
+=20
+ EMAIL / ATTENTION - COURRIEL EXTERNE\nPi=C3=A8ces jointes disponibles jusq=
+u=E2=80=99
+ au 6 sept. 2024\nVOICI DE INFO POUR LA RECLAMATION PRODUIT PERISSABLE\nSI=
+=20
+ IL VOUS MANQUE AUTRE INFO LAISSE MOI SAVOIR\nMERCI\nCliquer pour t=C3=A9l=
+=C3=A9cha
+ rger [icloud.com]<https://urldefense.com/v3/__https:/www.icloud.com/attach
+ ment/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAS__OXVoSGKsN17kevUo=
+Um
+ W_M2c7ASP_40BiCH7izo6sFeCZEtKWfM_j*2F*24*7Bf*7D*3Fo*3DAjfk9W6Ddy89UTcZb8e6
+ ApvD9-3s-Tjp-XxnZpdRat42*26v*3D1*26x*3D3*26a*3DCAogroyHfaYc7mE6afgT46JwWpZ
+ 7A1f81faw2Xa4iR3o1SoSeBC08aP9kjIYtIGf0ZwyIgEAKgkC6AMA_wN8T3dSBL8zZztaBJZ8z
+ -NqJjYprK0GSeN34ypXmjm6SzR_nSteyOZ1h4zeTcU8SEaNVDoVK_bcciZouFgMgXmeElKpAer
+ gMToyk6pTh3yEO0D8MfPw2iRjjsgUETz1Xw*26e*3D1725673488*26fl*3D*26r*3DB313D63
+ 0-6498-4492-B23B-D46039CC156E-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largea
+ ttachment*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3Dodx
+ 4s-MKoqgOD416QWAtUb_NuZo&uk=3DEDi5cmJX2RmSLNiPnFGteA&f=3Dfact*201581.pdf&s=
+z=3D11
+ 641609__\;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!b
+ Zva9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9oo
+ PoAq0OMdzRK3V4_LsH1KO6g$>\nfact 1581.pdf\n11\,6 Mo\nCliquer pour t=C3=A9l=
+=C3=A9cha
+ rger [icloud.com]<https://urldefense.com/v3/__https:/www.icloud.com/attach
+ ment/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAZlew5JNfh4DX49pnW2f=
+sc
+ SwZBCuAauTLUMFq_FX6nuZWCv-xJ5n5dBM*2F*24*7Bf*7D*3Fo*3DAhI0_ra3lI9PKWlihQJo
+ Rp36Lm1UDkHrK5uo_Jq7bRfU*26v*3D1*26x*3D3*26a*3DCAogPzxKQpFMnT4ak-vBOSTCU54
+ Op1oX_Z28xD-y070UOa0SeBCq8KP9kjIYqoCf0ZwyIgEAKgkC6AMA_ykWDghSBLBkEK5aBGfl0
+ ExqJjsWdeeUUYJEsGW8KoENj0frNSMZxQbVitGvnqJtaFYGa-Ug_4BYcibpTQid8BeTSurZiBZ
+ 1i_S--EFUfDF5z5J9oGpapMhzZIgqi5SoVQ*26e*3D1725673488*26fl*3D*26r*3DE482938
+ C-2722-4509-B138-60A1698E0793-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largea
+ ttachment*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DVRN
+ e9qiBJCO8nlg_CkKCp0vBWb8&uk=3Dc4SAKRmqFrCwt1tx_dmmRA&f=3Dfact*202070.pdf&s=
+z=3D82
+ 69463__\;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZ
+ va9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooP
+ oAq0OMdzRK3V4_Lq4OfAqg$>\nfact 2070.pdf\n8\,3 Mo\nCliquer pour t=C3=A9l=C3=
+=A9charg
+ er [icloud.com]<https://urldefense.com/v3/__https:/www.icloud.com/attachme
+ nt/?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FATkVtfEgJpgk3CYAaTvOwH=
+EO
+ dF1KAaJ4uztAU1q4oM8KAk0MqRPQUxKI*2F*24*7Bf*7D*3Fo*3DAh_ftgFFefkB3knMrsxS8n
+ TMyLB2h5nEV-peBfiJ0t6Z*26v*3D1*26x*3D3*26a*3DCAogEDunQouJzH2Aj8_2Iu4YhJphl
+ C-ICIONotAjrAvq8moSeBCS76P9kjIYkv-e0ZwyIgEAKgkC6AMA_ybKeHFSBA50XUpaBNBTEoh
+ qJkL_cD_W4FL7y6r-2pJRLBj2xHoKCco2h9x2zCsZXyx0w8vW_4XBcibrE1pqVGwMWfSPaZyCS
+ 6NyU0vfHLlpTYir4bXKsemUmPLtsoD2WQ*26e*3D1725673488*26fl*3D*26r*3DA7ED10D5-
+ C134-4B9A-8752-2E5F35EDF634-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeatt
+ achment*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DEMySB
+ uKv2uO1DijY_qddEsTEbMI&uk=3D4H6Hs1fEDWBHyUXnekNVqw&f=3Dfact*205969.pdf&sz=
+=3D9232
+ 249__\;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva
+ 9UVLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoA
+ q0OMdzRK3V4_JaUSHPww$>\nfact 5969.pdf\n9\,2 Mo\nCliquer pour t=C3=A9l=C3=
+=A9charger
+  [icloud.com]<https://urldefense.com/v3/__https:/www.icloud.com/attachment
+ /?u=3Dhttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAQVYZuXu7fCdhBr5rOC9DIa-=
+BR
+ ToASzRPwXwA2oRF84Uyk-e3wQ6G0sZ*2F*24*7Bf*7D*3Fo*3DAu7I1OtFxDo6_tEvQDQP-EmN
+ EOpTDXMMX8aBPh9bO5RE*26v*3D1*26x*3D3*26a*3DCAogUQntbXpY51AtbNKzZy6QBzM-ala
+ HpkKOMPvXjqjyA3YSeBD19aP9kjIY9YWf0ZwyIgEAKgkC6AMA_2twWBxSBL4FFOhaBDobSxlqJ
+ tRUj3On3bvspz4S12uKC-j9urel3IEL4FE03yx2RDh5oSZifIP7ciZYYm05y-Jzg7zYU0BMWG-
+ 5QVSk-Rz2ReVM-FmVjUQJMIWwzL4v8w*26e*3D1725673489*26fl*3D*26r*3DF5AB033F-C6
+ 20-4584-ABC5-B916BBD5960F-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattac
+ hment*26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DORvtiga
+ hi72wkutzQ-EOzA3vVm8&uk=3DsUzZ9onixXjyiKIhwxMGTg&f=3Dfact*207977.pdf&sz=3D=
+500128
+ 1__\;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9U
+ VLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0
+ OMdzRK3V4_KxJJPlyg$>\nfact 7977.pdf\n5 Mo\nCliquer pour t=C3=A9l=C3=A9char=
+ger [icl
+ oud.com]<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=
+=3Dh
+ ttps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAa7r8KXF06wNAhkUC36qk_NTGZUfAXP
+ 7P8XXttNsoWAqp3sGJ7TcTY-J*2F*24*7Bf*7D*3Fo*3DAte7NNpfICljZk3vVcmjq2Y6rUq6R
+ j1sgsHVZWiKmCLY*26v*3D1*26x*3D3*26a*3DCAogVJwcdFPp7x-_599RgAm7_iyPbIYvpuvo
+ FBowS7_JNOoSeBDf96P9kjIY34ef0ZwyIgEAKgkC6AMA_3abpztSBFMZlR9aBNxNj4lqJmB-WW
+ FXLiukIqLowZgkZD3_rD4FYGdxKGHa-6R0NbL61lWFMWIsciYmfsfcsFT1IaBqEcFfqQVrtUyt
+ Mk6Qx8KwF3zF2DlfdPCnVZvFnA*26e*3D1725673489*26fl*3D*26r*3D33F468A7-90CC-4E
+ 56-9DAC-022AA564D71F-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment
+ *26ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DxtmWSwjQb8iE
+ vlpZ6boylSybwGY&uk=3DmZiRdddxDQsWOLBuuv7kGA&f=3Dfact*207978.pdf&sz=3D54739=
+74__\;
+ JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p
+ 7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzR
+ K3V4_Kz50cIwA$>\nfact 7978.pdf\n5\,5 Mo\nCliquer pour t=C3=A9l=C3=A9charge=
+r [iclou
+ d.com]<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dh=
+tt
+ ps*3A*2F*2Fcvws.icloud-content.com*2FB*2FAVoC-XkOnfQNznPIUesNLM0Sy9vSATeUd
+ YQ5WgB1pcYu2biNQvRFtp21*2F*24*7Bf*7D*3Fo*3DAnx_qnmu1erNeHyUe3rQnQCkw9J9PLm
+ D2doqw2BpPiSB*26v*3D1*26x*3D3*26a*3DCAogm18MVaMX_9ylLG6I5cC1Ry6x_I_SrGaYRD
+ EXdusutIISeBDp9qP9kjIY6Yaf0ZwyIgEAKgkC6AMA_zsKRFdSBBLL29JaBEW2nbVqJuxSPde7
+ B4lBtjbb2fNrsxq4gQmyAof6kNGTak2toXRb9bKAsMY0cibayv6R7U1yAFOC21YG95u9wrTlWY
+ 1Oure047aQylWsVETcC8FQcg*26e*3D1725673489*26fl*3D*26r*3DF67066F6-12DA-44CD
+ -AF86-432E688A1B28-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*2
+ 6ckz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3Dyr6MPTF0NsYTGY
+ tB_DRWTzrk_9o&uk=3Dh-3025eAyUJ9JjYZ4Q6WnA&f=3Dfact*207979.pdf&sz=3D7622084=
+__\;JS
+ UlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!AyxJxhHs7Q!bZva9UVLL9p7Q
+ Gt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0OMdzRK3
+ V4_JExoJ5Rg$>\nfact 7979.pdf\n7\,6 Mo\nCliquer pour t=C3=A9l=C3=A9charger =
+[icloud.
+ com]<https://urldefense.com/v3/__https:/www.icloud.com/attachment/?u=3Dhtt=
+ps
+ *3A*2F*2Fcvws.icloud-content.com*2FB*2FAY2wfbrgQcgeGGMeglzl30Wf024ZAVFFCyX
+ 2ma_9LiHxQ0i_gK0zDFQz*2F*24*7Bf*7D*3Fo*3DAjoDWxnyff3SsbZ5xUcfJaDc--hi1iP6B
+ XTnsjbuyfom*26v*3D1*26x*3D3*26a*3DCAogNYNH79LSKs2wWt8sBvJzloN7c0uYH89_ZKSU
+ Fzc598kSeBCH-6P9kjIYh4uf0ZwyIgEAKgkC6AMA_y1PuoxSBJ_TbhlaBDMMVDNqJgT6SEMvO4
+ ZK8ojRce8u-hTz9y4f6-XUDKulTRJ0a3jdxF2Aye2cciYcxjV_RZv-2KUPXOlrO289wLmsVJ8e
+ WA0qN886Ip_-iqPyv-TGxA*26e*3D1725673489*26fl*3D*26r*3D999DC8C2-E1EB-46F2-8
+ E49-C683BBABDD4A-1*26k*3D*24*7Buk*7D*26ckc*3Dcom.apple.largeattachment*26c
+ kz*3D9F679F9A-C1FC-4CD7-9C79-EF91628C1FED*26p*3D118*26s*3DoWCvi7mG9c-8EwM8
+ aMNSgkI5OTE&uk=3Dud8-TqQjKSwtp6t8ld72Tw&f=3DLISTE*20PERTE*20RESTO.pdf&sz=
+=3D12324
+ __\;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSU!!AyxJxhHs7Q!bZva9U
+ VLL9p7QGt-_EFnDJ1uo7kXj6jVlCKf_SdHi-mlV8loazOGS3CcCqq3PlOuXlokvozG9ooPoAq0
+ OMdzRK3V4_K470bPAw$>\nLISTE PERTE RESTO.pdf\n12 ko\n\n\nLe 6 ao=C3=BBt 202=
+4 =C3=A0
+  13:32\, Joey Dubois <joey.dubois@indemnipro.ca<mailto:joey.dubois@indemni
+ pro.ca>> a =C3=A9crit :\n\nBonjour M. Simard\,\n\nJe suis de retour de mes=
+ vac
+ ances ce matin et j=E2=80=99apprends que vous avez laiss=C3=A9 un message =
+=C3=A0 l=E2=80=99ass
+ ureur. Pourtant de n=E2=80=99ai pas re=C3=A7u les informations demand=C3=
+=A9es dans mon c
+ ourriel du 25 juillet.\n\nPour les r=C3=A9parations (voir notre sommaire)\=
+, no
+ us avons besoin d=E2=80=99un =C3=A9crit de Frigo Spec expliquant pourquoi =
+qu=E2=80=99il y=20
+ a eu bris des =C3=A9quipements en question(important).\n\n-Pour la marchan=
+dise
+ \, il s=E2=80=99agit des factures d=E2=80=99achat. Il y a surement eu des =
+marchandises
+  vendues depuis et d=E2=80=99autres qui ne sont pas p=C3=A9rissables (comm=
+e des bout
+ eilles d=E2=80=99eau\, pailles etc). Nous avons besoin une liste de votre =
+part d
+ =C3=A9crivant les items r=C3=A9clam=C3=A9s\, les quantit=C3=A9s et le mont=
+ant r=C3=A9clam=C3=A9.\n
+ \n\nJ=E2=80=99ai absolument besoin de ces informations pour =C3=A9tablir s=
+i la r=C3=A9cl
+ amation est recevable au niveau de votre police et pour =C3=A9valuer votre=
+ r=C3=A9
+ clamation.\n\n\nSi vous voulez en discuter veuillez de transmettre vos dis
+ ponibilit=C3=A9s via courriel pour demain ou jeudi apr=C3=A8s-midi.\n\n\nV=
+euillez=20
+ toujours communiquer avec moi concernant votre dossier.\n\n\nMes salutatio
+ ns\,\n\n\n<image001.jpg>\nJoey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B\=
+n\,\nB. Sc.\, PAA/CIP\nE
+ xpert en sinistre\, Vice=E2=80=91Pr=C3=A9sident\, Division des Risques Sp=
+=C3=A9ciaux\njo
+ ey.dubois@indemnipro.ca<mailto:joey.dubois@indemnipro.ca>\nLigne directe\n
+  (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)\nSans frais\n :\n :\n514-789-8888<tel:=
+514-789-8888
+ >\n888=E2=80=91485=E2=80=915252\n\nx2572\nIndemniPro Division des risques =
+sp=C3=A9ciaux\n=20
+ =E2=80=93\nindemnipro.ca<https://indemnipro.ca/?e=3D1>\nCabinet d'expertis=
+e en r=C3=A8
+ glement de sinistres\n3400 boul. De Maisonneuve ouest\, #910\n\,\nMontr=C3=
+=A9a
+ l\n\,\nQC\n\nH3Z 3B8\nCe courriel est destin=C3=A9 uniquement =C3=A0 la pe=
+rsonne o
+ u =C3=A0 l'entit=C3=A9 =C3=A0 laquelle il est envoy=C3=A9 et peut contenir=
+ de l'informatio
+ n confidentielle ou privil=C3=A9gi=C3=A9e. Toute utilisation de l'informat=
+ion par=20
+ une personne ou une entit=C3=A9 autre que celle =C3=A0 laquelle elle est d=
+estin=C3=A9e
+  est interdite. Si vous recevez ce courriel par erreur\, veuillez communiq
+ uer avec son exp=C3=A9diteur et supprimer ce courriel et toute copie (=C3=
+=A9lectro
+ nique ou non) imm=C3=A9diatement.=E2=80=8B\n=E2=80=8B\n=E2=80=8BThis email=
+ communication is inte
+ nded only for the person or entity to which it is addressed and may contai
+ n confidential and/or privileged information. Any use of this information=
+=20
+ by persons or entities other than the intended recipient is prohibited. If
+  you received this in error\, please contact the sender and delete the ema
+ il and all copies (electronic or otherwise) immediately.\nDe : Joey Dubois
+ \nEnvoy=C3=A9 : July 25\, 2024 11:48 AM\n=C3=80 : simard.danielbio@gmail.c=
+om<mailt
+ o:simard.danielbio@gmail.com>\nCc : SCM Attach <attach@scm.ca<mailto:attac
+ h@scm.ca>>\nObjet : 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024=
+=20
+ 6241 Boul. L=C3=A9ger\, Montr=C3=A9al-Nord\nImportance : Haute\n\nBonjour\=
+,\n\nJe=20
+ repr=C3=A9sente votre assureur bris des =C3=A9quipements soit HSB-BI&I. Je=
+ vais g
+ =C3=A9rer votre dossier de r=C3=A9clamation dor=C3=A9navant.\n\nFaisant su=
+ite =C3=A0 la r
+ =C3=A9vision du dossier\, j=E2=80=99aurais besoin quelques informations ad=
+ditionnell
+ es.\n\n-L=E2=80=99acquisition du commerce date de quand? Les =C3=A9quipeme=
+nts =C3=A9taie
+ nt incl. lors de l=E2=80=99achat?\n\n-Pour les r=C3=A9parations (voir notr=
+e sommaire
+ )\, nous avons besoin d=E2=80=99un =C3=A9crit de Frigo Spec expliquant pou=
+rquoi qu
+ =E2=80=99il y a eu bris des =C3=A9quipements en question(important).\n\n-P=
+our la mar
+ chandise\, il s=E2=80=99agit des factures d=E2=80=99achat. Il y a surement=
+ eu des marc
+ handises vendues depuis et d=E2=80=99autres qui ne sont pas p=C3=A9rissabl=
+es (comme=20
+ des bouteilles d=E2=80=99eau\, pailles etc). Nous avons besoin une liste d=
+e votr
+ e part d=C3=A9crivant les items r=C3=A9clam=C3=A9s\, les quantit=C3=A9s et=
+ le montant r=C3=A9c
+ lam=C3=A9.\n\n=C3=80 la r=C3=A9ception des informations\, je vais =C3=AAtr=
+e en mesure de v
+ ous revenait au sujet de votre r=C3=A9clamation.\n\nSi vous voulez en disc=
+uter
+ \, veuillez m=E2=80=99aviser quand vous serez disponible demain matin.\n\n=
+\nMes=20
+ salutations\,\n\n\n\n\nMes salutations\n\n\n\n\n\n\n\nFrom: daniel simard=
+=20
+ <simard.danielbio@gmail.com<mailto:simard.danielbio@gmail.com>>\nSent: Thu
+ rsday\, July 25\, 2024 9:44 AM\nTo: Houle-Dixon Ayisha - Montreal-HSB <AHo
+ ule-dixon@hsb.ca<mailto:AHoule-dixon@hsb.ca>>\nSubject: suite\n\nle fichie
+ r a pas suivi  voici Daniel Simard Cell: 514 265 8465 Fax: 514 313 5678 16
+ 49 Fleury est [google.com]<https://urldefense.com/v3/__https:/www.google.c
+ om/maps/search/313*5678*1649*Fleury*est?entry=3Dgmail&source=3Dg__\;KysrKw=
+!!Ay
+ xJxhHs7Q!Y8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acua
+ JPCCPhESPtY-FiPrmIVqH4$> bureau 201 Montr=C3=A9al Qu=C3=A9bec H2C 1S9 =E2=
+=80=8D =E2=80=8D =E2=80=8D=20
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D=20
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D=20
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D=20
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D=20
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D =E2=80=8D =E2=80=8D =E2=80=8D=20
+ =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=
+=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=8D =E2=80=
+=8D\n\nle fichier=20
+ a pas suivi\nvoici\nDaniel Simard\nCell: 514 265 8465\nFax: 514 313 5678\n
+ 1649 Fleury est [google.com]<https://urldefense.com/v3/__https:/www.google
+ .com/maps/search/1649*Fleury*est?entry=3Dgmail&source=3Dg__\;Kys!!AyxJxhHs=
+7Q!Y
+ 8btOSE2T2-eA6JjQLRUFIvXU0iLNTV3RZh7flo5nOrW4ON92UHu42-uS6OT9acuaJPCCPhESPt
+ Y-FiPxAqn39k$> bureau 201\nMontr=C3=A9al Qu=C3=A9bec H2C 1S9\n\n\n________=
+________
+ ________________\n\nIMPORTANT NOTICE:\n\n
+UID:040000008200E00074C5B7101A82E0080000000080E0782FDE13DB01000000000000000
+ 01000000061B494B1134D1A4D94556313E9BFB11D
+SUMMARY;LANGUAGE=3Dfr-FR:24110-4833RE: Reclamation 6241 blvd L=C3=A9ger Mon=
+tr=C3=A9al
+  Nord Appel 514 458 4587
+DTSTART;TZID=3DEastern Standard Time:20241002T140000
+DTEND;TZID=3DEastern Standard Time:20241002T143000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20241001T124548Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=3Dfr-FR:514 458 4587 Je vais vous communquer
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1650350104
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "514 458 4587 Je vais vous commun
+ quer"\, "LocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" :=
+=20
+ true\, "LocationUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=3DSTART:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
+--000000000000c6646106533586be--
+--000000000000c6646306533586bf
+Content-Type: image/jpeg; name="~WRD3334.jpg"
+Content-Disposition: inline; filename="~WRD3334.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_19e847c5ea29a900dbf1>
+X-Attachment-Id: ii_19e847c5ea29a900dbf1
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABkAGQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+--000000000000c6646306533586bf
+Content-Type: image/jpeg; name="~WRD3334.jpg"
+Content-Disposition: inline; filename="~WRD3334.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <~WRD3334.jpg>
+X-Attachment-Id: 
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABkAGQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+--000000000000c6646306533586bf--
+--000000000000c6646306533586c0
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+Content-ID: <19e847c5ea2475802342>
+X-Attachment-Id: 19e847c5ea2475802342
+
+QkVHSU46VkNBTEVOREFSDQpNRVRIT0Q6UkVRVUVTVA0KUFJPRElEOk1pY3Jvc29mdCBFeGNoYW5n
+ZSBTZXJ2ZXIgMjAxMA0KVkVSU0lPTjoyLjANCkJFR0lOOlZUSU1FWk9ORQ0KVFpJRDpFYXN0ZXJu
+IFN0YW5kYXJkIFRpbWUNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjE2MDEwMTAxVDAyMDAwMA0K
+VFpPRkZTRVRGUk9NOi0wNDAwDQpUWk9GRlNFVFRPOi0wNTAwDQpSUlVMRTpGUkVRPVlFQVJMWTtJ
+TlRFUlZBTD0xO0JZREFZPTFTVTtCWU1PTlRIPTExDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJ
+R0hUDQpEVFNUQVJUOjE2MDEwMTAxVDAyMDAwMA0KVFpPRkZTRVRGUk9NOi0wNTAwDQpUWk9GRlNF
+VFRPOi0wNDAwDQpSUlVMRTpGUkVRPVlFQVJMWTtJTlRFUlZBTD0xO0JZREFZPTJTVTtCWU1PTlRI
+PTMNCkVORDpEQVlMSUdIVA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpPUkdBTklaRVI7
+Q049Sm9leSBEdWJvaXM6bWFpbHRvOmpvZXkuZHVib2lzQGluZGVtbmlwcm8uY2ENCkFUVEVOREVF
+O1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPVRSVUU7Q049
+T2V1ZiBEw6lqZQ0KIHVuZXI6bWFpbHRvOm9vZXVmLmNhQGdtYWlsLmNvbQ0KQVRUQUNIOkNJRDp+
+V1JEMzMzNC5qcGcNCkRFU0NSSVBUSU9OO0xBTkdVQUdFPWZyLUZSOlxuXG5fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KIF9cbkRlIDogT2V1ZiBEw6lqZXVuZXIg
+PG9vZXVmLmNhQGdtYWlsLmNvbTxtYWlsdG86b29ldWYuY2FAZ21haWwuY29tPj5cbkVuDQogdm95
+w6kgOiBPY3RvYmVyIDFcLCAyMDI0IDg6MjkgQU1cbsOAIDogSm9leSBEdWJvaXMgPGpvZXkuZHVi
+b2lzQGluZGVtbmlwcm8NCiAuY2E8bWFpbHRvOmpvZXkuZHVib2lzQGluZGVtbmlwcm8uY2E+Plxu
+Q2MgOiBTQ00gQXR0YWNoIDxhdHRhY2hAc2NtLmNhPG1haQ0KIGx0bzphdHRhY2hAc2NtLmNhPj5c
+OyBkYW5pZWwgc2ltYXJkIDxzaW1hcmQuZGFuaWVsYmlvQGdtYWlsLmNvbTxtYWlsdG86c2ltDQog
+YXJkLmRhbmllbGJpb0BnbWFpbC5jb20+PlxuT2JqZXQgOiBSZTogMjQxMTAtNDgzM1JFOiBSZWNs
+YW1hdGlvbiA2MjQxIGJsdmQNCiAgTMOpZ2VyIE1vbnRyw6lhbCBOb3JkXG5cbkNBVVRJT04gLSBF
+WFRFUk5BTCBFTUFJTCAvIEFUVEVOVElPTiAtIENPVVJSSUVMIA0KIEVYVEVSTkVcblxuQm9uam91
+ciBNb25zaWV1ciBEdWJvaXNcLFxuXG5cblxuSmUgdm91cyDDqWNyaXMgcG91ciB2b3VzIGluZm9y
+DQogbWVyIHF1ZVwsIG1hbGhldXJldXNlbWVudFwsIERhbmllbCBTaW1hcmQgZXN0IGTDqWPDqWTD
+qS4gSmUgc3VpcyBtYWludGVuYW4NCiB0IGxhIHBlcnNvbm5lIHJlc3BvbnNhYmxlIGR1IGRvc3Np
+ZXIgY29uY2VybmFudCBsZSByZXN0YXVyYW50IHNpdHXDqSBhdSA2Mg0KIDQxIEJvdWxldmFyZCBM
+w6lnZXJcLCBNb250csOpYWwtTm9yZFwsIEgxRyA2SzguIFNpIHZvdXMgbGUgc291aGFpdGV6XCwg
+dm91DQogcyBwb3V2ZXogY29udGFjdGVyIG1vbiBhZ2VudGVcLCBNYXVkZSBSb2JpZG91eFwsIHF1
+aSBwb3VycmEgdm91cyBmb3VybmlyIHANCiBsdXMgZCdpbmZvcm1hdGlvbnMgw6AgbW9uIHN1amV0
+LlxuXG5cblxuTGEgbGV0dHJlIGR1IHRlY2huaWNpZW4gZW4gcsOpcGFyYQ0KIHRpb24gdm91cyBz
+ZXJhIHRyYW5zbWlzZSBkYW5zIGxlcyBwcm9jaGFpbmVzIGhldXJlcy4gVG91dGVmb2lzXCwgaWwg
+c2VyYWl0DQogIGdyYW5kZW1lbnQgYXBwcsOpY2nDqSBxdWUgdm91cyBtZSBjb250YWN0aWV6IGFm
+aW4gcXVlIG5vdXMgcHVpc3Npb25zIGZhaXINCiBlIHVuIGJpbGFuIGRlcyBkb21tYWdlcyBjYXVz
+w6lzIGxvcnMgZGUgbCfDqXbDqW5lbWVudCBzdXJ2ZW51IGVuIGp1aW4gMjAyNA0KIC5cblxuXG5c
+bkplIHZvdXMgcmVtZXJjaWUgZCdhdmFuY2UgZXQgcmVzdGUgw6Agdm90cmUgZGlzcG9zaXRpb24g
+cG91ciB0b3V0DQogZSBxdWVzdGlvbi5cblxuXG5cbkNvcmRpYWxlbWVudFwsXG5cbk1hdHRoaWV1
+IFdhbGxhY2VcblxuT24gVHVlXCwgT2N0IDFcLCANCiAyMDI0XCwgNzowOeKAr2EubS4gSm9leSBE
+dWJvaXMgPGpvZXkuZHVib2lzQGluZGVtbmlwcm8uY2E8bWFpbHRvOmpvZXkuZHVibw0KIGlzQGlu
+ZGVtbmlwcm8uY2E+PiB3cm90ZTpcbkJvbmpvdXJcLFxuXG5K4oCZYWkgZW52b3nDqSBwbHVzaWV1
+cnMgY291cnJpZWxzDQogIMOgIHZvdHJlIGNvbmZyw6hyZSBzYW5zIHJldG91ci4gSmUgdmFpcyDD
+qnRyZSB1biBidXJlYXUgZGVtYWluLiBJbCBlc3QgcHINCiDDqWbDqXJhYmxlIGRlIGZpeGVyIHVu
+IGFwcGVsIHBvdXIgZGVtYWluIFBNIHNpIHBvc3NpYmxlLiBWZXVpbGxleiBtZSBkb25uZQ0KIHIg
+dm90cmUgaGV1cmUgZGUgcHLDqWbDqXJlbmNlLiBKZSB2YWlzIHZvdXMgY29tbXVuaXF1ZXIgcGFy
+IGxhIHN1aXRlLlxuXG5MDQogZSBkb3NzaWVyIG7igJlhdmFuY2UgcGFzIGNhciBub3VzIGF2b25z
+IGJlc29pbiB1bmUgbm90ZSBkZSBzZXJ2aWNlIGRlIHZvdHINCiBlIHLDqXBhcmF0ZXVyIGRlcyDD
+qXF1aXBlbWVudHMgY29tbWVudGFudCBsYSBjYXVzZSBkZXMgYnJpcy5cblxuTWVzIHNhbHV0YQ0K
+IHRpb25zXCxcblxuW0ltYWdlIHN1cHByaW3DqWUgcGFyIGwnZXhww6lkaXRldXIuIEluZGVtbmlQ
+cm8gTG9nb108aHR0cHM6Ly9pDQogbmRlbW5pcHJvLmNhLz9lPTE+XG5Kb2V5IER1Ym9pc+KAi+KA
+i+KAi+KAi1xuXCxcbkIuIFNjLlwsIFBBQS9DSVBcbkV4cGVydCANCiBlbiBzaW5pc3RyZVwsIFZp
+Y2XigJFQcsOpc2lkZW50XCwgRGl2aXNpb24gZGVzIFJpc3F1ZXMgU3DDqWNpYXV4XG5qb2V5LmR1
+Yg0KIG9pc0BpbmRlbW5pcHJvLmNhPG1haWx0bzpqb2V5LmR1Ym9pc0BpbmRlbW5pcHJvLmNhPlxu
+TGlnbmUgZGlyZWN0ZVxuIChUw6lsDQogLi9UZXh0by9Uw6lsw6ljLilcblNhbnMgZnJhaXNcbiA6
+XG4gOlxuNTE0LTc4OS04ODg4PHRlbDo1MTQtNzg5LTg4ODg+XG44ODgNCiDigJE0ODXigJE1MjUy
+XG5cbngyNTcyXG5JbmRlbW5pUHJvIERpdmlzaW9uIGRlcyByaXNxdWVzIHNww6ljaWF1eFxuIOKA
+k1xuaQ0KIG5kZW1uaXByby5jYTxodHRwczovL2luZGVtbmlwcm8uY2EvP2U9MT5cbkNhYmluZXQg
+ZCdleHBlcnRpc2UgZW4gcsOoZ2xlbWVuDQogdCBkZSBzaW5pc3RyZXNcbjM0MDAgYm91bC4gRGUg
+TWFpc29ubmV1dmUgW2dvb2dsZS5jb21dPGh0dHBzOi8vdXJsZGVmZW5zZS4NCiBjb20vdjMvX19o
+dHRwczovd3d3Lmdvb2dsZS5jb20vbWFwcy9zZWFyY2gvMzQwMFwsKmJvdWwuKmRlKk1haXNvbm5l
+dXZlKk91ZQ0KIHN0P2VudHJ5PWdtYWlsJnNvdXJjZT1nX19cO0t5c3JLdyEhQXl4SnhoSHM3USFZ
+OGJ0T1NFMlQyLWVBNkpqUUxSVUZJdlhVMGlMDQogTlRWM1JaaDdmbG81bk9yVzRPTjkyVUh1NDIt
+dVM2T1Q5YWN1YUpQQ0NQaEVTUHRZLUZpUFFfbDlwbk0kPiBvdWVzdCBbZ29vZ2wNCiBlLmNvbV08
+aHR0cHM6Ly91cmxkZWZlbnNlLmNvbS92My9fX2h0dHBzOi93d3cuZ29vZ2xlLmNvbS9tYXBzL3Nl
+YXJjaC8zNDAwKg0KIGJvdWwuKkRlKk1haXNvbm5ldXZlKm91ZXN0P2VudHJ5PWdtYWlsJnNvdXJj
+ZT1nX19cO0t5c3JLdyEhQXl4SnhoSHM3USFZOGJ0DQogT1NFMlQyLWVBNkpqUUxSVUZJdlhVMGlM
+TlRWM1JaaDdmbG81bk9yVzRPTjkyVUh1NDItdVM2T1Q5YWN1YUpQQ0NQaEVTUHRZLUYNCiBpUHBU
+OGZMMUUkPlwsICM5MTBcblwsXG5Nb250csOpYWxcblwsXG5RQ1xuXG5IM1ogM0I4XG5DZSBjb3Vy
+cmllbCBlc3QgZGVzdA0KIGluw6kgdW5pcXVlbWVudCDDoCBsYSBwZXJzb25uZSBvdSDDoCBsJ2Vu
+dGl0w6kgw6AgbGFxdWVsbGUgaWwgZXN0IGVudm95w6kgDQogZXQgcGV1dCBjb250ZW5pciBkZSBs
+J2luZm9ybWF0aW9uIGNvbmZpZGVudGllbGxlIG91IHByaXZpbMOpZ2nDqWUuIFRvdXRlIHUNCiB0
+aWxpc2F0aW9uIGRlIGwnaW5mb3JtYXRpb24gcGFyIHVuZSBwZXJzb25uZSBvdSB1bmUgZW50aXTD
+qSBhdXRyZSBxdWUgY2VsbA0KIGUgw6AgbGFxdWVsbGUgZWxsZSBlc3QgZGVzdGluw6llIGVzdCBp
+bnRlcmRpdGUuIFNpIHZvdXMgcmVjZXZleiBjZSBjb3VycmllDQogbCBwYXIgZXJyZXVyXCwgdmV1
+aWxsZXogY29tbXVuaXF1ZXIgYXZlYyBzb24gZXhww6lkaXRldXIgZXQgc3VwcHJpbWVyIGNlIGMN
+CiBvdXJyaWVsIGV0IHRvdXRlIGNvcGllICjDqWxlY3Ryb25pcXVlIG91IG5vbikgaW1tw6lkaWF0
+ZW1lbnQu4oCLXG7igItcbuKAiw0KIFRoaXMgZW1haWwgY29tbXVuaWNhdGlvbiBpcyBpbnRlbmRl
+ZCBvbmx5IGZvciB0aGUgcGVyc29uIG9yIGVudGl0eSB0byB3aGljDQogaCBpdCBpcyBhZGRyZXNz
+ZWQgYW5kIG1heSBjb250YWluIGNvbmZpZGVudGlhbCBhbmQvb3IgcHJpdmlsZWdlZCBpbmZvcm1h
+dGkNCiBvbi4gQW55IHVzZSBvZiB0aGlzIGluZm9ybWF0aW9uIGJ5IHBlcnNvbnMgb3IgZW50aXRp
+ZXMgb3RoZXIgdGhhbiB0aGUgaW50ZQ0KIG5kZWQgcmVjaXBpZW50IGlzIHByb2hpYml0ZWQuIElm
+IHlvdSByZWNlaXZlZCB0aGlzIGluIGVycm9yXCwgcGxlYXNlIGNvbnRhDQogY3QgdGhlIHNlbmRl
+IFtnb29nbGUuY29tXTxodHRwczovL3VybGRlZmVuc2UuY29tL3YzL19faHR0cHM6L3d3dy5nb29n
+bGUuY28NCiBtL21hcHMvc2VhcmNoLzM0MDBcLCpib3VsLipkZSpNYWlzb25uZXV2ZSpPdWVzdD9l
+bnRyeT1nbWFpbCZzb3VyY2U9Z19fXDtLeQ0KIHNyS3chIUF5eEp4aEhzN1EhWThidE9TRTJUMi1l
+QTZKalFMUlVGSXZYVTBpTE5UVjNSWmg3ZmxvNW5Pclc0T045MlVIdTQyLXVTDQogNk9UOWFjdWFK
+UENDUGhFU1B0WS1GaVBRX2w5cG5NJD5yIGFuZCBkZWxldGUgdGhlIGVtYWlsIGFuZCBhbGwgY29w
+aWVzIChlbGUNCiBjdHJvbmljIG9yIG90aGVyd2lzZSkgaW1tZWRpYXRlbHkuXG5EZSA6IE9ldWYg
+RMOpamV1bmVyIDxvb2V1Zi5jYUBnbWFpbC5jbw0KIG08bWFpbHRvOm9vZXVmLmNhQGdtYWlsLmNv
+bT4+XG5FbnZvecOpIDogU2VwdGVtYmVyIDIwXCwgMjAyNCAxMToxNCBBTVxuw4AgDQogOiBKb2V5
+IER1Ym9pcyA8am9leS5kdWJvaXNAaW5kZW1uaXByby5jYTxtYWlsdG86am9leS5kdWJvaXNAaW5k
+ZW1uaXByby5jYT4NCiA+XG5PYmpldCA6IFJlY2xhbWF0aW9uIDYyNDEgYmx2ZCBMw6lnZXIgTW9u
+dHLDqWFsIE5vcmQgW2dvb2dsZS5jb21dPGh0dHBzOg0KIC8vdXJsZGVmZW5zZS5jb20vdjMvX19o
+dHRwczovd3d3Lmdvb2dsZS5jb20vbWFwcy9zZWFyY2gvNjI0MSpibHZkKkwqKkFnZXIqDQogTW9u
+dHIqKkFhbCpOb3JkP2VudHJ5PWdtYWlsJnNvdXJjZT1nX19cO0t5dkRxU3ZEcVNzISFBeXhKeGhI
+czdRIVk4YnRPU0UyVDINCiAtZUE2SmpRTFJVRkl2WFUwaUxOVFYzUlpoN2ZsbzVuT3JXNE9OOTJV
+SHU0Mi11UzZPVDlhY3VhSlBDQ1BoRVNQdFktRmlQSXFVZQ0KIFBiZyQ+XG5cbkNBVVRJT04gLSBF
+WFRFUk5BTCBFTUFJTCAvIEFUVEVOVElPTiAtIENPVVJSSUVMIEVYVEVSTkVcbkJvbmpvdXIgDQog
+bW9uIG5vbSBlc3QgTWF0dGhpZXUgamFpbWVyYWlzIGF2b2lyIHVuIHJldG91ciBkJ2FwcGVsIGF1
+IDUxNCA0NTggNDU4N1wsICANCiBwbHVzaWV1ciBtZXNzYWdlIHF1ZSBqZSB2b3VzIGxhaXNzZSBl
+dCBqZSBuJ2VzdCBwYXMgZGUgcmV0b3VyIGQnYXBwZWwgZGUgdg0KIG90cmUgcGFydFxuXG5cblxu
+LS0tLS0tLS0tLSBGb3J3YXJkZWQgbWVzc2FnZSAtLS0tLS0tLS0tXG5Gcm9tOiBKb2V5IER1Ym9p
+DQogcyA8am9leS5kdWJvaXNAaW5kZW1uaXByby5jYTxtYWlsdG86am9leS5kdWJvaXNAaW5kZW1u
+aXByby5jYT4+XG5UbzogInNpbWENCiByZC5kYW5pZWxiaW9AZ21haWwuY29tPG1haWx0bzpzaW1h
+cmQuZGFuaWVsYmlvQGdtYWlsLmNvbT4iIDxzaW1hcmQuZGFuaWVsYg0KIGlvQGdtYWlsLmNvbTxt
+YWlsdG86c2ltYXJkLmRhbmllbGJpb0BnbWFpbC5jb20+PlxuQ2M6IFNDTSBBdHRhY2ggPGF0dGFj
+aEBzDQogY20uY2E8bWFpbHRvOmF0dGFjaEBzY20uY2E+PlxuQmNjOlxuRGF0ZTogV2VkXCwgMTgg
+U2VwIDIwMjQgMjE6Mzc6NTEgKzAwMDANCiBcblN1YmplY3Q6IFJlOiAyNDExMC00ODMzIC1FbnQu
+IEhhZG1vIEluYy4gSW5jaWRlbnQgZHUgMyBqdWlsbGV0IDIwMjQgNjI0MQ0KICBCb3VsLiBMw6ln
+ZXJcLCBNb250csOpYWwtTm9yZCBbZ29vZ2xlLmNvbV08aHR0cHM6Ly91cmxkZWZlbnNlLmNvbS92
+My9fX2h0DQogdHBzOi93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC82MjQxKkJvdWwuKkwqKkFn
+ZXJcLCpNb250cioqQWFsLU5vcmQ/ZW50cnkNCiA9Z21haWwmc291cmNlPWdfX1w7S3l2RHFTdkRx
+USEhQXl4SnhoSHM3USFZOGJ0T1NFMlQyLWVBNkpqUUxSVUZJdlhVMGlMTlRWMw0KIFJaaDdmbG81
+bk9yVzRPTjkyVUh1NDItdVM2T1Q5YWN1YUpQQ0NQaEVTUHRZLUZpUERoeFBUdFUkPlxuSmUgc3Vp
+cyBlbiB2YWNhDQogbmNlcyDDoCBwYXJ0aXIgZGUgZGVtYWluIDEzOjAwIGRlIHJldG91ciBsZSAx
+ZXIgb2N0LiBzaSBqZSBu4oCZYWkgcGFzIGRlcyANCiBub3V2ZWxsZXMgb24gc2UgcGFybGUgbG9y
+cyBkZSBtb24gcmV0b3VyLlxuXG5TYWx1dGF0aW9uc1xuU2VudCBmcm9tIG15IGlQaA0KIG9uZVxu
+XG5PbiBTZXAgMThcLCAyMDI0XCwgYXQgMTE6MjRcLCBKb2V5IER1Ym9pcyA8am9leS5kdWJvaXNA
+aW5kZW1uaXByby5jDQogYTxtYWlsdG86am9leS5kdWJvaXNAaW5kZW1uaXByby5jYT4+IHdyb3Rl
+Olxu77u/XG5Cb25qb3VyXCxcblxuSmUgZmFpc2FpcyANCiB1biBzdWl2aS4gQXZlei12b3VzIGxl
+IHJhcHBvcnQgZHUgdGVjaG5pY2llbj9cblxuQXVzc2lcLCBq4oCZYWkgZXUgZGV1eCBhcA0KIHBl
+bHMgKGxlIHByZW1pZXIgaW5jb21wcsOpaGVuc2libGUpIGTigJl1biBNLiBXYWxsYWNlIEJlcm5h
+cmQuIFF1aSBlc3QgY2UgDQogTW9uc2lldXI/ICBJbCBt4oCZYSBzZXVsZW1lbnQgbGFpc3PDqSB1
+biBtZXNzYWdlIGVuIG1lIGRpc2FudCBxdWUgY+KAmcOpdGENCiBpdCBsZSBkb3NzaWVyIHN1ciBs
+ZSBib3VsLiBbZ29vZ2xlLmNvbV08aHR0cHM6Ly91cmxkZWZlbnNlLmNvbS92My9fX2h0dHBzOg0K
+IC93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC8zNDAwXCwqYm91bC4qZGUqTWFpc29ubmV1dmUq
+T3Vlc3Q/ZW50cnk9Z21haWwmDQogc291cmNlPWdfX1w7S3lzckt3ISFBeXhKeGhIczdRIVk4YnRP
+U0UyVDItZUE2SmpRTFJVRkl2WFUwaUxOVFYzUlpoN2ZsbzVuT3INCiBXNE9OOTJVSHU0Mi11UzZP
+VDlhY3VhSlBDQ1BoRVNQdFktRmlQUV9sOXBuTSQ+IEzDqWdlciEgIEplIHN1aXMgZW4gcsOpdW5p
+bw0KIG4gcG91ciBsYSBqb3VybsOpZVwsIG1haXMgamUgdmFpcyByZWdhcmRlciBtZXMgY291cnJp
+ZWxzLlxuXG5K4oCZYXR0ZW5kcyBkDQogZSB2b3Mgbm91dmVsbGVzXCxcblxuXG5NZXMgc2FsdXRh
+dGlvbnNcLFxuXG5cblxuRGUgOiBKb2V5IER1Ym9pc1xuRW52b3nDqSANCiA6IEF1Z3VzdCAyN1ws
+IDIwMjQgNTowNiBQTVxuw4AgOiBzaW1hcmQuZGFuaWVsYmlvQGdtYWlsLmNvbTxtYWlsdG86c2lt
+YXJkLg0KIGRhbmllbGJpb0BnbWFpbC5jb20+XG5DYyA6IFNDTSBBdHRhY2ggPGF0dGFjaEBzY20u
+Y2E8bWFpbHRvOmF0dGFjaEBzY20uY2E+DQogPlxuT2JqZXQgOiAyNDExMC00ODMzIC1FbnQuIEhh
+ZG1vIEluYy4gSW5jaWRlbnQgZHUgMyBqdWlsbGV0IDIwMjQgNjI0MSBCb3UNCiBsLiBMw6lnZXJc
+LCBNb250csOpYWwtTm9yZCBbZ29vZ2xlLmNvbV08aHR0cHM6Ly91cmxkZWZlbnNlLmNvbS92My9f
+X2h0dHBzOg0KIC93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC82MjQxKkJvdWwuKkwqKkFnZXJc
+LCpNb250cioqQWFsLU5vcmQ/ZW50cnk9Z21hDQogaWwmc291cmNlPWdfX1w7S3l2RHFTdkRxUSEh
+QXl4SnhoSHM3USFZOGJ0T1NFMlQyLWVBNkpqUUxSVUZJdlhVMGlMTlRWM1JaaDcNCiBmbG81bk9y
+VzRPTjkyVUh1NDItdVM2T1Q5YWN1YUpQQ0NQaEVTUHRZLUZpUERoeFBUdFUkPlxuXG5Cb25qb3Vy
+XCxcblxuSmUgZg0KIGFpcyB1biBzdWl2aS5cblxuUG91ciBsZXMgcsOpcGFyYXRpb25zICh2b2ly
+IG5vdHJlIHNvbW1haXJlKVwsIG5vdXMgYXZvbnMgDQogYmVzb2luIGTigJl1biDDqWNyaXQgZGUg
+RnJpZ28gU3BlYyBleHBsaXF1YW50IHBvdXJxdW9pIHF14oCZaWwgeSBhIGV1IGJyaXMNCiAgZGVz
+IMOpcXVpcGVtZW50cyBlbiBxdWVzdGlvbihpbXBvcnRhbnQpLlxuXG5K4oCZYXR0ZW5kcyBsZSBy
+YXBwb3J0IGVuIHF1ZQ0KIHN0aW9uLlxuXG5NZXJjaVxuXG5cbkRlIDogQWx5c3NhIFByb2NvcGlv
+IDxhbHlzc2EucHJvY29waW9AaW5kZW1uaXByby5jYTxtDQogYWlsdG86YWx5c3NhLnByb2NvcGlv
+QGluZGVtbmlwcm8uY2E+PlxuRW52b3nDqSA6IEF1Z3VzdCA4XCwgMjAyNCAxMDozOCBBTVwNCiBu
+w4AgOiBTQ00gQXR0YWNoIDxhdHRhY2hAc2NtLmNhPG1haWx0bzphdHRhY2hAc2NtLmNhPj5cbk9i
+amV0IDogMjQxMTAtNDgzMw0KICAtRW50LiBIYWRtbyBJbmMuIEluY2lkZW50IGR1IDMganVpbGxl
+dCAyMDI0IDYyNDEgQm91bC4gTMOpZ2VyXCwgTW9udHLDqWFsDQogLU5vcmQgW2dvb2dsZS5jb21d
+PGh0dHBzOi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRwczovd3d3Lmdvb2dsZS5jb20vbWFwcy8N
+CiBzZWFyY2gvNjI0MSpCb3VsLipMKipBZ2VyXCwqTW9udHIqKkFhbC1Ob3JkP2VudHJ5PWdtYWls
+JnNvdXJjZT1nX19cO0t5dkRxUw0KIHZEcVEhIUF5eEp4aEhzN1EhWThidE9TRTJUMi1lQTZKalFM
+UlVGSXZYVTBpTE5UVjNSWmg3ZmxvNW5Pclc0T045MlVIdTQyLXVTDQogNk9UOWFjdWFKUENDUGhF
+U1B0WS1GaVBEaHhQVHRVJD5cblxuPGltYWdlMDAxLmpwZz5cbkFseXNzYSBQcm9jb3Bpb+KAi+KA
+iw0KIOKAi+KAi1xuQWRqb2ludGUgYWRtaW5pc3RyYXRpdmVcbmFseXNzYS5wcm9jb3Bpb0BpbmRl
+bW5pcHJvLmNhPG1haWx0bzphbHlzDQogc2EucHJvY29waW9AaW5kZW1uaXByby5jYT5cbkxpZ25l
+IGRpcmVjdGVcbiAoVMOpbC4vVGV4dG8vVMOpbMOpYy4pXG5TYW5zIGYNCiByYWlzXG4gOlxuIDpc
+bjUxNC03ODktODkxMTx0ZWw6NTE0LTc4OS04OTExPlxuODAw4oCRMjYz4oCRNTM2MVxuXG54MjU3
+NFxuSQ0KIG5kZW1uaVByb1xuIOKAk1xuaW5kZW1uaXByby5jYTxodHRwczovL2luZGVtbmlwcm8u
+Y2EvP2U9MT5cbkNhYmluZXQgZCdleHBlDQogcnRpc2UgZW4gcsOoZ2xlbWVudCBkZSBzaW5pc3Ry
+ZXNcbjM0MDAgW2dvb2dsZS5jb21dPGh0dHBzOi8vdXJsZGVmZW5zZS5jb20NCiAvdjMvX19odHRw
+czovd3d3Lmdvb2dsZS5jb20vbWFwcy9zZWFyY2gvMzQwMCpib3VsLipEZSpNYWlzb25uZXV2ZSpv
+dWVzdD9lbg0KIHRyeT1nbWFpbCZzb3VyY2U9Z19fXDtLeXNyS3chIUF5eEp4aEhzN1EhWThidE9T
+RTJUMi1lQTZKalFMUlVGSXZYVTBpTE5UVjNSDQogWmg3ZmxvNW5Pclc0T045MlVIdTQyLXVTNk9U
+OWFjdWFKUENDUGhFU1B0WS1GaVBwVDhmTDFFJD5cLCBib3VsLiBbZ29vZ2xlLmMNCiBvbV08aHR0
+cHM6Ly91cmxkZWZlbnNlLmNvbS92My9fX2h0dHBzOi93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJj
+aC8zNDAwKmJvdQ0KIGwuKkRlKk1haXNvbm5ldXZlKm91ZXN0P2VudHJ5PWdtYWlsJnNvdXJjZT1n
+X19cO0t5c3JLdyEhQXl4SnhoSHM3USFZOGJ0T1NFDQogMlQyLWVBNkpqUUxSVUZJdlhVMGlMTlRW
+M1JaaDdmbG81bk9yVzRPTjkyVUh1NDItdVM2T1Q5YWN1YUpQQ0NQaEVTUHRZLUZpUHANCiBUOGZM
+MUUkPiBkZSBNYWlzb25uZXV2ZSBbZ29vZ2xlLmNvbV08aHR0cHM6Ly91cmxkZWZlbnNlLmNvbS92
+My9fX2h0dHBzOi93dw0KIHcuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC8zNDAwKmJvdWwuKkRlKk1h
+aXNvbm5ldXZlKm91ZXN0P2VudHJ5PWdtYWlsJnNvdXJjDQogZT1nX19cO0t5c3JLdyEhQXl4Snho
+SHM3USFZOGJ0T1NFMlQyLWVBNkpqUUxSVUZJdlhVMGlMTlRWM1JaaDdmbG81bk9yVzRPTjkNCiAy
+VUh1NDItdVM2T1Q5YWN1YUpQQ0NQaEVTUHRZLUZpUHBUOGZMMUUkPiBPdWVzdCBbZ29vZ2xlLmNv
+bV08aHR0cHM6Ly91cmxkZQ0KIGZlbnNlLmNvbS92My9fX2h0dHBzOi93d3cuZ29vZ2xlLmNvbS9t
+YXBzL3NlYXJjaC8zNDAwXCwqYm91bC4qZGUqTWFpc29ubmV1DQogdmUqT3Vlc3Q/ZW50cnk9Z21h
+aWwmc291cmNlPWdfX1w7S3lzckt3ISFBeXhKeGhIczdRIVk4YnRPU0UyVDItZUE2SmpRTFJVRkkN
+CiB2WFUwaUxOVFYzUlpoN2ZsbzVuT3JXNE9OOTJVSHU0Mi11UzZPVDlhY3VhSlBDQ1BoRVNQdFkt
+RmlQUV9sOXBuTSQ+XCwgU3VpdA0KIGUgOTEwXG5cLFxuTW9udHLDqWFsXG5cLFxuUUNcblxuSDNa
+IDNCOFxuQ2UgY291cnJpZWwgZXN0IGRlc3RpbsOpIHVuaXF1ZW1lDQogbnQgw6AgbGEgcGVyc29u
+bmUgb3Ugw6AgbCdlbnRpdMOpIMOgIGxhcXVlbGxlIGlsIGVzdCBlbnZvecOpIGV0IHBldXQgY29u
+dGUNCiBuaXIgZGUgbCdpbmZvcm1hdGlvbiBjb25maWRlbnRpZWxsZSBvdSBwcml2aWzDqWdpw6ll
+LiBUb3V0ZSB1dGlsaXNhdGlvbiBkZQ0KICBsJ2luZm9ybWF0aW9uIHBhciB1bmUgcGVyc29ubmUg
+b3UgdW5lIGVudGl0w6kgYXV0cmUgcXVlIGNlbGxlIMOgIGxhcXVlbGxlDQogIGVsbGUgZXN0IGRl
+c3RpbsOpZSBlc3QgaW50ZXJkaXRlLiBTaSB2b3VzIHJlY2V2ZXogY2UgY291cnJpZWwgcGFyIGVy
+cmV1clwNCiAsIHZldWlsbGV6IGNvbW11bmlxdWVyIGF2ZWMgc29uIGV4cMOpZGl0ZXVyIGV0IHN1
+cHByaW1lciBjZSBjb3VycmllbCBldCB0bw0KIHV0ZSBjb3BpZSAow6lsZWN0cm9uaXF1ZSBvdSBu
+b24pIGltbcOpZGlhdGVtZW50LuKAi1xu4oCLXG7igItUaGlzIGVtYWlsIGNvDQogbW11bmljYXRp
+b24gaXMgaW50ZW5kZWQgb25seSBmb3IgdGhlIHBlcnNvbiBvciBlbnRpdHkgdG8gd2hpY2ggaXQg
+aXMgYWRkcmUNCiBzc2VkIGFuZCBtYXkgY29udGFpbiBjb25maWRlbnRpYWwgYW5kL29yIHByaXZp
+bGVnZWQgaW5mb3JtYXRpb24uIEFueSB1c2Ugbw0KIGYgdGhpcyBpbmZvcm1hdGlvbiBieSBwZXJz
+b25zIG9yIGVudGl0aWVzIG90aGVyIHRoYW4gdGhlIGludGVuZGVkIHJlY2lwaWVuDQogdCBpcyBw
+cm9oaWJpdGVkLiBJZiB5b3UgcmVjZWl2ZWQgdGhpcyBpbiBlcnJvclwsIHBsZWFzZSBjb250YWN0
+IHRoZSBzZW5kZXINCiAgYW5kIGRlbGV0ZSB0aGUgZW1haWwgYW5kIGFsbCBjb3BpZXMgKGVsZWN0
+cm9uaWMgb3Igb3RoZXJ3aXNlKSBpbW1lZGlhdGVseQ0KIC5cbkRlIFtnb29nbGUuY29tXTxodHRw
+czovL3VybGRlZmVuc2UuY29tL3YzL19faHR0cHM6L3d3dy5nb29nbGUuY29tL21hcHMvDQogc2Vh
+cmNoLzM0MDAqYm91bC4qRGUqTWFpc29ubmV1dmUqb3Vlc3Q/ZW50cnk9Z21haWwmc291cmNlPWdf
+X1w7S3lzckt3ISFBeXgNCiBKeGhIczdRIVk4YnRPU0UyVDItZUE2SmpRTFJVRkl2WFUwaUxOVFYz
+UlpoN2ZsbzVuT3JXNE9OOTJVSHU0Mi11UzZPVDlhY3VhSg0KIFBDQ1BoRVNQdFktRmlQcFQ4Zkwx
+RSQ+IDogZGFuaWVsIHNpbWFyZCA8c2ltYXJkLmRhbmllbGJpb0BnbWFpbC5jb208bWFpbHRvDQog
+OnNpbWFyZC5kYW5pZWxiaW9AZ21haWwuY29tPj5cbkVudm95w6kgOiBBdWd1c3QgN1wsIDIwMjQg
+OTo0NSBQTVxuw4AgOiBKb2UNCiB5IER1Ym9pcyA8am9leS5kdWJvaXNAaW5kZW1uaXByby5jYTxt
+YWlsdG86am9leS5kdWJvaXNAaW5kZW1uaXByby5jYT4+XG5PYg0KIGpldCA6IFJlOiAyNDExMC00
+ODMzLUVudC4gSGFkbW8gSW5jLiBJbmNpZGVudCBkdSAzIGp1aWxsZXQgMjAyNCA2MjQxIEJvdWwu
+DQogIEzDqWdlclwsIE1vbnRyw6lhbC1Ob3JkIFtnb29nbGUuY29tXTxodHRwczovL3VybGRlZmVu
+c2UuY29tL3YzL19faHR0cHM6L3cNCiB3dy5nb29nbGUuY29tL21hcHMvc2VhcmNoLzYyNDEqQm91
+bC4qTCoqQWdlclwsKk1vbnRyKipBYWwtTm9yZD9lbnRyeT1nbWFpbA0KICZzb3VyY2U9Z19fXDtL
+eXZEcVN2RHFRISFBeXhKeGhIczdRIVk4YnRPU0UyVDItZUE2SmpRTFJVRkl2WFUwaUxOVFYzUlpo
+N2ZsDQogbzVuT3JXNE9OOTJVSHU0Mi11UzZPVDlhY3VhSlBDQ1BoRVNQdFktRmlQRGh4UFR0VSQ+
+XG5cbkNBVVRJT04gLSBFWFRFUk5BTCANCiBFTUFJTCAvIEFUVEVOVElPTiAtIENPVVJSSUVMIEVY
+VEVSTkVcblBpw6hjZXMgam9pbnRlcyBkaXNwb25pYmxlcyBqdXNxdeKAmQ0KIGF1IDYgc2VwdC4g
+MjAyNFxuVk9JQ0kgREUgSU5GTyBQT1VSIExBIFJFQ0xBTUFUSU9OIFBST0RVSVQgUEVSSVNTQUJM
+RVxuU0kgDQogSUwgVk9VUyBNQU5RVUUgQVVUUkUgSU5GTyBMQUlTU0UgTU9JIFNBVk9JUlxuTUVS
+Q0lcbkNsaXF1ZXIgcG91ciB0w6lsw6ljaGENCiByZ2VyIFtpY2xvdWQuY29tXTxodHRwczovL3Vy
+bGRlZmVuc2UuY29tL3YzL19faHR0cHM6L3d3dy5pY2xvdWQuY29tL2F0dGFjaA0KIG1lbnQvP3U9
+aHR0cHMqM0EqMkYqMkZjdndzLmljbG91ZC1jb250ZW50LmNvbSoyRkIqMkZBU19fT1hWb1NHS3NO
+MTdrZXZVb1VtDQogV19NMmM3QVNQXzQwQmlDSDdpem82c0ZlQ1pFdEtXZk1faioyRioyNCo3QmYq
+N0QqM0ZvKjNEQWpmazlXNkRkeTg5VVRjWmI4ZTYNCiBBcHZEOS0zcy1UanAtWHhuWnBkUmF0NDIq
+MjZ2KjNEMSoyNngqM0QzKjI2YSozRENBb2dyb3lIZmFZYzdtRTZhZmdUNDZKd1dwWg0KIDdBMWY4
+MWZhdzJYYTRpUjNvMVNvU2VCQzA4YVA5a2pJWXRJR2YwWnd5SWdFQUtna0M2QU1BX3dOOFQzZFNC
+TDh6Wnp0YUJKWjh6DQogLU5xSmpZcHJLMEdTZU4zNHlwWG1qbTZTelJfblN0ZXlPWjFoNHplVGNV
+OFNFYU5WRG9WS19iY2NpWm91RmdNZ1htZUVsS3BBZXINCiBnTVRveWs2cFRoM3lFTzBEOE1mUHcy
+aVJqanNnVUVUejFYdyoyNmUqM0QxNzI1NjczNDg4KjI2ZmwqM0QqMjZyKjNEQjMxM0Q2Mw0KIDAt
+NjQ5OC00NDkyLUIyM0ItRDQ2MDM5Q0MxNTZFLTEqMjZrKjNEKjI0KjdCdWsqN0QqMjZja2MqM0Rj
+b20uYXBwbGUubGFyZ2VhDQogdHRhY2htZW50KjI2Y2t6KjNEOUY2NzlGOUEtQzFGQy00Q0Q3LTlD
+NzktRUY5MTYyOEMxRkVEKjI2cCozRDExOCoyNnMqM0RvZHgNCiA0cy1NS29xZ09ENDE2UVdBdFVi
+X051Wm8mdWs9RURpNWNtSlgyUm1TTE5pUG5GR3RlQSZmPWZhY3QqMjAxNTgxLnBkZiZzej0xMQ0K
+IDY0MTYwOV9fXDtKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpT
+VWxKUSEhQXl4SnhoSHM3USFiDQogWnZhOVVWTEw5cDdRR3QtX0VGbkRKMXVvN2tYajZqVmxDS2Zf
+U2RIaS1tbFY4bG9hek9HUzNDY0NxcTNQbE91WGxva3Zvekc5b28NCiBQb0FxME9NZHpSSzNWNF9M
+c0gxS082ZyQ+XG5mYWN0IDE1ODEucGRmXG4xMVwsNiBNb1xuQ2xpcXVlciBwb3VyIHTDqWzDqWNo
+YQ0KIHJnZXIgW2ljbG91ZC5jb21dPGh0dHBzOi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRwczov
+d3d3LmljbG91ZC5jb20vYXR0YWNoDQogbWVudC8/dT1odHRwcyozQSoyRioyRmN2d3MuaWNsb3Vk
+LWNvbnRlbnQuY29tKjJGQioyRkFabGV3NUpOZmg0RFg0OXBuVzJmc2MNCiBTd1pCQ3VBYXVUTFVN
+RnFfRlg2bnVaV0N2LXhKNW41ZEJNKjJGKjI0KjdCZio3RCozRm8qM0RBaEkwX3JhM2xJOVBLV2xp
+aFFKbw0KIFJwMzZMbTFVRGtIcks1dW9fSnE3YlJmVSoyNnYqM0QxKjI2eCozRDMqMjZhKjNEQ0Fv
+Z1B6eEtRcEZNblQ0YWstdkJPU1RDVTU0DQogT3Axb1hfWjI4eEQteTA3MFVPYTBTZUJDcThLUDlr
+aklZcW9DZjBad3lJZ0VBS2drQzZBTUFfeWtXRGdoU0JMQmtFSzVhQkdmbDANCiBFeHFKanNXZGVl
+VVVZSkVzR1c4S29FTmowZnJOU01aeFFiVml0R3ZucUp0YUZZR2EtVWdfNEJZY2licFRRaWQ4QmVU
+U3VyWmlCWg0KIDFpX1MtLUVGVWZERjV6NUo5b0dwYXBNaHpaSWdxaTVTb1ZRKjI2ZSozRDE3MjU2
+NzM0ODgqMjZmbCozRCoyNnIqM0RFNDgyOTM4DQogQy0yNzIyLTQ1MDktQjEzOC02MEExNjk4RTA3
+OTMtMSoyNmsqM0QqMjQqN0J1ayo3RCoyNmNrYyozRGNvbS5hcHBsZS5sYXJnZWENCiB0dGFjaG1l
+bnQqMjZja3oqM0Q5RjY3OUY5QS1DMUZDLTRDRDctOUM3OS1FRjkxNjI4QzFGRUQqMjZwKjNEMTE4
+KjI2cyozRFZSTg0KIGU5cWlCSkNPOG5sZ19Da0tDcDB2QldiOCZ1az1jNFNBS1JtcUZyQ3d0MXR4
+X2RtbVJBJmY9ZmFjdCoyMDIwNzAucGRmJnN6PTgyDQogNjk0NjNfX1w7SlNVbEpTVWxKU1VsSlNV
+bEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlEhIUF5eEp4aEhzN1EhYloNCiB2YTlV
+VkxMOXA3UUd0LV9FRm5ESjF1bzdrWGo2alZsQ0tmX1NkSGktbWxWOGxvYXpPR1MzQ2NDcXEzUGxP
+dVhsb2t2b3pHOW9vUA0KIG9BcTBPTWR6UkszVjRfTHE0T2ZBcWckPlxuZmFjdCAyMDcwLnBkZlxu
+OFwsMyBNb1xuQ2xpcXVlciBwb3VyIHTDqWzDqWNoYXJnDQogZXIgW2ljbG91ZC5jb21dPGh0dHBz
+Oi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRwczovd3d3LmljbG91ZC5jb20vYXR0YWNobWUNCiBu
+dC8/dT1odHRwcyozQSoyRioyRmN2d3MuaWNsb3VkLWNvbnRlbnQuY29tKjJGQioyRkFUa1Z0ZkVn
+SnBnazNDWUFhVHZPd0hFTw0KIGRGMUtBYUo0dXp0QVUxcTRvTThLQWswTXFSUFFVeEtJKjJGKjI0
+KjdCZio3RCozRm8qM0RBaF9mdGdGRmVma0Iza25NcnN4UzhuDQogVE15TEIyaDVuRVYtcGVCZmlK
+MHQ2WioyNnYqM0QxKjI2eCozRDMqMjZhKjNEQ0FvZ0VEdW5Rb3VKekgyQWo4XzJJdTRZaEpwaGwN
+CiBDLUlDSU9Ob3RBanJBdnE4bW9TZUJDUzc2UDlraklZa3YtZTBad3lJZ0VBS2drQzZBTUFfeWJL
+ZUhGU0JBNTBYVXBhQk5CVEVvaA0KIHFKa0xfY0RfVzRGTDd5NnItMnBKUkxCajJ4SG9LQ2NvMmg5
+eDJ6Q3NaWHl4MHc4dldfNFhCY2lickUxcHFWR3dNV2ZTUGFaeUNTDQogNk55VTB2ZkhMbHBUWWly
+NGJYS3NlbVVtUEx0c29EMldRKjI2ZSozRDE3MjU2NzM0ODgqMjZmbCozRCoyNnIqM0RBN0VEMTBE
+NS0NCiBDMTM0LTRCOUEtODc1Mi0yRTVGMzVFREY2MzQtMSoyNmsqM0QqMjQqN0J1ayo3RCoyNmNr
+YyozRGNvbS5hcHBsZS5sYXJnZWF0dA0KIGFjaG1lbnQqMjZja3oqM0Q5RjY3OUY5QS1DMUZDLTRD
+RDctOUM3OS1FRjkxNjI4QzFGRUQqMjZwKjNEMTE4KjI2cyozREVNeVNCDQogdUt2MnVPMURpallf
+cWRkRXNURWJNSSZ1az00SDZIczFmRURXQkh5VVhuZWtOVnF3JmY9ZmFjdCoyMDU5NjkucGRmJnN6
+PTkyMzINCiAyNDlfX1w7SlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpT
+VWxKU1VsSlEhIUF5eEp4aEhzN1EhYlp2YQ0KIDlVVkxMOXA3UUd0LV9FRm5ESjF1bzdrWGo2alZs
+Q0tmX1NkSGktbWxWOGxvYXpPR1MzQ2NDcXEzUGxPdVhsb2t2b3pHOW9vUG9BDQogcTBPTWR6Uksz
+VjRfSmFVU0hQd3ckPlxuZmFjdCA1OTY5LnBkZlxuOVwsMiBNb1xuQ2xpcXVlciBwb3VyIHTDqWzD
+qWNoYXJnZXINCiAgW2ljbG91ZC5jb21dPGh0dHBzOi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRw
+czovd3d3LmljbG91ZC5jb20vYXR0YWNobWVudA0KIC8/dT1odHRwcyozQSoyRioyRmN2d3MuaWNs
+b3VkLWNvbnRlbnQuY29tKjJGQioyRkFRVlladVh1N2ZDZGhCcjVyT0M5RElhLUJSDQogVG9BU3pS
+UHdYd0Eyb1JGODRVeWstZTN3UTZHMHNaKjJGKjI0KjdCZio3RCozRm8qM0RBdTdJMU90RnhEbzZf
+dEV2UURRUC1FbU4NCiBFT3BURFhNTVg4YUJQaDliTzVSRSoyNnYqM0QxKjI2eCozRDMqMjZhKjNE
+Q0FvZ1VRbnRiWHBZNTFBdGJOS3paeTZRQnpNLWFsYQ0KIEhwa0tPTVB2WGpxanlBM1lTZUJEMTlh
+UDlraklZOVlXZjBad3lJZ0VBS2drQzZBTUFfMnR3V0J4U0JMNEZGT2hhQkRvYlN4bHFKDQogdFJV
+ajNPbjNidnNwejRTMTJ1S0Mtajl1cmVsM0lFTDRGRTAzeXgyUkRoNW9TWmlmSVA3Y2laWVltMDV5
+LUp6Zzd6WVUwQk1XRy0NCiA1UVZTay1SejJSZVZNLUZtVmpVUUpNSVd3ekw0djh3KjI2ZSozRDE3
+MjU2NzM0ODkqMjZmbCozRCoyNnIqM0RGNUFCMDMzRi1DNg0KIDIwLTQ1ODQtQUJDNS1COTE2QkJE
+NTk2MEYtMSoyNmsqM0QqMjQqN0J1ayo3RCoyNmNrYyozRGNvbS5hcHBsZS5sYXJnZWF0dGFjDQog
+aG1lbnQqMjZja3oqM0Q5RjY3OUY5QS1DMUZDLTRDRDctOUM3OS1FRjkxNjI4QzFGRUQqMjZwKjNE
+MTE4KjI2cyozRE9SdnRpZ2ENCiBoaTcyd2t1dHpRLUVPekEzdlZtOCZ1az1zVXpaOW9uaXhYanlp
+S0lod3hNR1RnJmY9ZmFjdCoyMDc5NzcucGRmJnN6PTUwMDEyOA0KIDFfX1w7SlNVbEpTVWxKU1Vs
+SlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlEhIUF5eEp4aEhzN1EhYlp2YTlV
+DQogVkxMOXA3UUd0LV9FRm5ESjF1bzdrWGo2alZsQ0tmX1NkSGktbWxWOGxvYXpPR1MzQ2NDcXEz
+UGxPdVhsb2t2b3pHOW9vUG9BcTANCiBPTWR6UkszVjRfS3hKSlBseWckPlxuZmFjdCA3OTc3LnBk
+ZlxuNSBNb1xuQ2xpcXVlciBwb3VyIHTDqWzDqWNoYXJnZXIgW2ljbA0KIG91ZC5jb21dPGh0dHBz
+Oi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRwczovd3d3LmljbG91ZC5jb20vYXR0YWNobWVudC8/
+dT1oDQogdHRwcyozQSoyRioyRmN2d3MuaWNsb3VkLWNvbnRlbnQuY29tKjJGQioyRkFhN3I4S1hG
+MDZ3TkFoa1VDMzZxa19OVEdaVWZBWFANCiA3UDhYWHR0TnNvV0FxcDNzR0o3VGNUWS1KKjJGKjI0
+KjdCZio3RCozRm8qM0RBdGU3Tk5wZklDbGpaazN2VmNtanEyWTZyVXE2Ug0KIGoxc2dzSFZaV2lL
+bUNMWSoyNnYqM0QxKjI2eCozRDMqMjZhKjNEQ0FvZ1ZKd2NkRlBwN3gtXzU5OVJnQW03X2l5UGJJ
+WXZwdXZvDQogRkJvd1M3X0pOT29TZUJEZjk2UDlraklZMzRlZjBad3lJZ0VBS2drQzZBTUFfM2Fi
+cHp0U0JGTVpsUjlhQk54Tmo0bHFKbUItV1cNCiBGWExpdWtJcUxvd1pna1pEM19yRDRGWUdkeEtH
+SGEtNlIwTmJMNjFsV0ZNV0lzY2lZbWZzZmNzRlQxSWFCcUVjRmZxUVZydFV5dA0KIE1rNlF4OEt3
+RjN6RjJEbGZkUENuVlp2Rm5BKjI2ZSozRDE3MjU2NzM0ODkqMjZmbCozRCoyNnIqM0QzM0Y0NjhB
+Ny05MENDLTRFDQogNTYtOURBQy0wMjJBQTU2NEQ3MUYtMSoyNmsqM0QqMjQqN0J1ayo3RCoyNmNr
+YyozRGNvbS5hcHBsZS5sYXJnZWF0dGFjaG1lbnQNCiAqMjZja3oqM0Q5RjY3OUY5QS1DMUZDLTRD
+RDctOUM3OS1FRjkxNjI4QzFGRUQqMjZwKjNEMTE4KjI2cyozRHh0bVdTd2pRYjhpRQ0KIHZscFo2
+Ym95bFN5YndHWSZ1az1tWmlSZGRkeERRc1dPTEJ1dXY3a0dBJmY9ZmFjdCoyMDc5NzgucGRmJnN6
+PTU0NzM5NzRfX1w7DQogSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpT
+VWxKU1VsSlEhIUF5eEp4aEhzN1EhYlp2YTlVVkxMOXANCiA3UUd0LV9FRm5ESjF1bzdrWGo2alZs
+Q0tmX1NkSGktbWxWOGxvYXpPR1MzQ2NDcXEzUGxPdVhsb2t2b3pHOW9vUG9BcTBPTWR6Ug0KIEsz
+VjRfS3o1MGNJd0EkPlxuZmFjdCA3OTc4LnBkZlxuNVwsNSBNb1xuQ2xpcXVlciBwb3VyIHTDqWzD
+qWNoYXJnZXIgW2ljbG91DQogZC5jb21dPGh0dHBzOi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRw
+czovd3d3LmljbG91ZC5jb20vYXR0YWNobWVudC8/dT1odHQNCiBwcyozQSoyRioyRmN2d3MuaWNs
+b3VkLWNvbnRlbnQuY29tKjJGQioyRkFWb0MtWGtPbmZRTnpuUElVZXNOTE0wU3k5dlNBVGVVZA0K
+IFlRNVdnQjFwY1l1MmJpTlF2UkZ0cDIxKjJGKjI0KjdCZio3RCozRm8qM0RBbnhfcW5tdTFlck5l
+SHlVZTNyUW5RQ2t3OUo5UExtDQogRDJkb3F3MkJwUGlTQioyNnYqM0QxKjI2eCozRDMqMjZhKjNE
+Q0FvZ20xOE1WYU1YXzl5bExHNkk1Y0MxUnk2eF9JX1NyR2FZUkQNCiBFWGR1c3V0SUlTZUJEcDlx
+UDlraklZNllhZjBad3lJZ0VBS2drQzZBTUFfenNLUkZkU0JCTEwyOUphQkVXMm5iVnFKdXhTUGRl
+Nw0KIEI0bEJ0amJiMmZOcnN4cTRnUW15QW9mNmtOR1RhazJ0b1hSYjliS0FzTVkwY2liYXl2NlI3
+VTF5QUZPQzIxWUc5NXU5d3JUbFdZDQogMU91cmUwNDdhUXlsV3NWRVRjQzhGUWNnKjI2ZSozRDE3
+MjU2NzM0ODkqMjZmbCozRCoyNnIqM0RGNjcwNjZGNi0xMkRBLTQ0Q0QNCiAtQUY4Ni00MzJFNjg4
+QTFCMjgtMSoyNmsqM0QqMjQqN0J1ayo3RCoyNmNrYyozRGNvbS5hcHBsZS5sYXJnZWF0dGFjaG1l
+bnQqMg0KIDZja3oqM0Q5RjY3OUY5QS1DMUZDLTRDRDctOUM3OS1FRjkxNjI4QzFGRUQqMjZwKjNE
+MTE4KjI2cyozRHlyNk1QVEYwTnNZVEdZDQogdEJfRFJXVHpya185byZ1az1oLTMwMjVlQXlVSjlK
+allaNFE2V25BJmY9ZmFjdCoyMDc5NzkucGRmJnN6PTc2MjIwODRfX1w7SlMNCiBVbEpTVWxKU1Vs
+SlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlEhIUF5eEp4aEhzN1EhYlp2YTlV
+VkxMOXA3UQ0KIEd0LV9FRm5ESjF1bzdrWGo2alZsQ0tmX1NkSGktbWxWOGxvYXpPR1MzQ2NDcXEz
+UGxPdVhsb2t2b3pHOW9vUG9BcTBPTWR6UkszDQogVjRfSkV4b0o1UmckPlxuZmFjdCA3OTc5LnBk
+ZlxuN1wsNiBNb1xuQ2xpcXVlciBwb3VyIHTDqWzDqWNoYXJnZXIgW2ljbG91ZC4NCiBjb21dPGh0
+dHBzOi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRwczovd3d3LmljbG91ZC5jb20vYXR0YWNobWVu
+dC8/dT1odHRwcw0KICozQSoyRioyRmN2d3MuaWNsb3VkLWNvbnRlbnQuY29tKjJGQioyRkFZMndm
+YnJnUWNnZUdHTWVnbHpsMzBXZjAyNFpBVkZGQ3lYDQogMm1hXzlMaUh4UTBpX2dLMHpERlF6KjJG
+KjI0KjdCZio3RCozRm8qM0RBam9EV3hueWZmM1NzYlo1eFVjZkphRGMtLWhpMWlQNkINCiBYVG5z
+amJ1eWZvbSoyNnYqM0QxKjI2eCozRDMqMjZhKjNEQ0FvZ05ZTkg3OUxTS3Myd1d0OHNCdkp6bG9O
+N2MwdVlIODlfWktTVQ0KIEZ6YzU5OGtTZUJDSC02UDlraklZaDR1ZjBad3lJZ0VBS2drQzZBTUFf
+eTFQdW94U0JKX1RiaGxhQkRNTVZETnFKZ1Q2U0VNdk80DQogWks4b2pSY2U4dS1oVHo5eTRmNi1Y
+VURLdWxUUkowYTNqZHhGMkF5ZTJjY2lZY3hqVl9SWnYtMktVUFhPbHJPMjg5d0xtc1ZKOGUNCiBX
+QTBxTjg4NklwXy1pcVB5di1UR3hBKjI2ZSozRDE3MjU2NzM0ODkqMjZmbCozRCoyNnIqM0Q5OTlE
+QzhDMi1FMUVCLTQ2RjItOA0KIEU0OS1DNjgzQkJBQkRENEEtMSoyNmsqM0QqMjQqN0J1ayo3RCoy
+NmNrYyozRGNvbS5hcHBsZS5sYXJnZWF0dGFjaG1lbnQqMjZjDQoga3oqM0Q5RjY3OUY5QS1DMUZD
+LTRDRDctOUM3OS1FRjkxNjI4QzFGRUQqMjZwKjNEMTE4KjI2cyozRG9XQ3ZpN21HOWMtOEV3TTgN
+CiBhTU5TZ2tJNU9URSZ1az11ZDgtVHFRaktTd3RwNnQ4bGQ3MlR3JmY9TElTVEUqMjBQRVJURSoy
+MFJFU1RPLnBkZiZzej0xMjMyNA0KIF9fXDtKU1VsSlNVbEpTVWxKU1VsSlNVbEpTVWxKU1VsSlNV
+bEpTVWxKU1VsSlNVbEpTVWxKU1UhIUF5eEp4aEhzN1EhYlp2YTlVDQogVkxMOXA3UUd0LV9FRm5E
+SjF1bzdrWGo2alZsQ0tmX1NkSGktbWxWOGxvYXpPR1MzQ2NDcXEzUGxPdVhsb2t2b3pHOW9vUG9B
+cTANCiBPTWR6UkszVjRfSzQ3MGJQQXckPlxuTElTVEUgUEVSVEUgUkVTVE8ucGRmXG4xMiBrb1xu
+XG5cbkxlIDYgYW/Du3QgMjAyNCDDoA0KICAxMzozMlwsIEpvZXkgRHVib2lzIDxqb2V5LmR1Ym9p
+c0BpbmRlbW5pcHJvLmNhPG1haWx0bzpqb2V5LmR1Ym9pc0BpbmRlbW5pDQogcHJvLmNhPj4gYSDD
+qWNyaXQgOlxuXG5Cb25qb3VyIE0uIFNpbWFyZFwsXG5cbkplIHN1aXMgZGUgcmV0b3VyIGRlIG1l
+cyB2YWMNCiBhbmNlcyBjZSBtYXRpbiBldCBq4oCZYXBwcmVuZHMgcXVlIHZvdXMgYXZleiBsYWlz
+c8OpIHVuIG1lc3NhZ2Ugw6AgbOKAmWFzcw0KIHVyZXVyLiBQb3VydGFudCBkZSBu4oCZYWkgcGFz
+IHJlw6d1IGxlcyBpbmZvcm1hdGlvbnMgZGVtYW5kw6llcyBkYW5zIG1vbiBjDQogb3VycmllbCBk
+dSAyNSBqdWlsbGV0LlxuXG5Qb3VyIGxlcyByw6lwYXJhdGlvbnMgKHZvaXIgbm90cmUgc29tbWFp
+cmUpXCwgbm8NCiB1cyBhdm9ucyBiZXNvaW4gZOKAmXVuIMOpY3JpdCBkZSBGcmlnbyBTcGVjIGV4
+cGxpcXVhbnQgcG91cnF1b2kgcXXigJlpbCB5IA0KIGEgZXUgYnJpcyBkZXMgw6lxdWlwZW1lbnRz
+IGVuIHF1ZXN0aW9uKGltcG9ydGFudCkuXG5cbi1Qb3VyIGxhIG1hcmNoYW5kaXNlDQogXCwgaWwg
+c+KAmWFnaXQgZGVzIGZhY3R1cmVzIGTigJlhY2hhdC4gSWwgeSBhIHN1cmVtZW50IGV1IGRlcyBt
+YXJjaGFuZGlzZXMNCiAgdmVuZHVlcyBkZXB1aXMgZXQgZOKAmWF1dHJlcyBxdWkgbmUgc29udCBw
+YXMgcMOpcmlzc2FibGVzIChjb21tZSBkZXMgYm91dA0KIGVpbGxlcyBk4oCZZWF1XCwgcGFpbGxl
+cyBldGMpLiBOb3VzIGF2b25zIGJlc29pbiB1bmUgbGlzdGUgZGUgdm90cmUgcGFydCBkDQogw6lj
+cml2YW50IGxlcyBpdGVtcyByw6ljbGFtw6lzXCwgbGVzIHF1YW50aXTDqXMgZXQgbGUgbW9udGFu
+dCByw6ljbGFtw6kuXG4NCiBcblxuSuKAmWFpIGFic29sdW1lbnQgYmVzb2luIGRlIGNlcyBpbmZv
+cm1hdGlvbnMgcG91ciDDqXRhYmxpciBzaSBsYSByw6ljbA0KIGFtYXRpb24gZXN0IHJlY2V2YWJs
+ZSBhdSBuaXZlYXUgZGUgdm90cmUgcG9saWNlIGV0IHBvdXIgw6l2YWx1ZXIgdm90cmUgcsOpDQog
+Y2xhbWF0aW9uLlxuXG5cblNpIHZvdXMgdm91bGV6IGVuIGRpc2N1dGVyIHZldWlsbGV6IGRlIHRy
+YW5zbWV0dHJlIHZvcyBkaXMNCiBwb25pYmlsaXTDqXMgdmlhIGNvdXJyaWVsIHBvdXIgZGVtYWlu
+IG91IGpldWRpIGFwcsOocy1taWRpLlxuXG5cblZldWlsbGV6IA0KIHRvdWpvdXJzIGNvbW11bmlx
+dWVyIGF2ZWMgbW9pIGNvbmNlcm5hbnQgdm90cmUgZG9zc2llci5cblxuXG5NZXMgc2FsdXRhdGlv
+DQogbnNcLFxuXG5cbjxpbWFnZTAwMS5qcGc+XG5Kb2V5IER1Ym9pc+KAi+KAi+KAi+KAi1xuXCxc
+bkIuIFNjLlwsIFBBQS9DSVBcbkUNCiB4cGVydCBlbiBzaW5pc3RyZVwsIFZpY2XigJFQcsOpc2lk
+ZW50XCwgRGl2aXNpb24gZGVzIFJpc3F1ZXMgU3DDqWNpYXV4XG5qbw0KIGV5LmR1Ym9pc0BpbmRl
+bW5pcHJvLmNhPG1haWx0bzpqb2V5LmR1Ym9pc0BpbmRlbW5pcHJvLmNhPlxuTGlnbmUgZGlyZWN0
+ZVxuDQogIChUw6lsLi9UZXh0by9Uw6lsw6ljLilcblNhbnMgZnJhaXNcbiA6XG4gOlxuNTE0LTc4
+OS04ODg4PHRlbDo1MTQtNzg5LTg4ODgNCiA+XG44ODjigJE0ODXigJE1MjUyXG5cbngyNTcyXG5J
+bmRlbW5pUHJvIERpdmlzaW9uIGRlcyByaXNxdWVzIHNww6ljaWF1eFxuIA0KIOKAk1xuaW5kZW1u
+aXByby5jYTxodHRwczovL2luZGVtbmlwcm8uY2EvP2U9MT5cbkNhYmluZXQgZCdleHBlcnRpc2Ug
+ZW4gcsOoDQogZ2xlbWVudCBkZSBzaW5pc3RyZXNcbjM0MDAgYm91bC4gRGUgTWFpc29ubmV1dmUg
+b3Vlc3RcLCAjOTEwXG5cLFxuTW9udHLDqWENCiBsXG5cLFxuUUNcblxuSDNaIDNCOFxuQ2UgY291
+cnJpZWwgZXN0IGRlc3RpbsOpIHVuaXF1ZW1lbnQgw6AgbGEgcGVyc29ubmUgbw0KIHUgw6AgbCdl
+bnRpdMOpIMOgIGxhcXVlbGxlIGlsIGVzdCBlbnZvecOpIGV0IHBldXQgY29udGVuaXIgZGUgbCdp
+bmZvcm1hdGlvDQogbiBjb25maWRlbnRpZWxsZSBvdSBwcml2aWzDqWdpw6llLiBUb3V0ZSB1dGls
+aXNhdGlvbiBkZSBsJ2luZm9ybWF0aW9uIHBhciANCiB1bmUgcGVyc29ubmUgb3UgdW5lIGVudGl0
+w6kgYXV0cmUgcXVlIGNlbGxlIMOgIGxhcXVlbGxlIGVsbGUgZXN0IGRlc3RpbsOpZQ0KICBlc3Qg
+aW50ZXJkaXRlLiBTaSB2b3VzIHJlY2V2ZXogY2UgY291cnJpZWwgcGFyIGVycmV1clwsIHZldWls
+bGV6IGNvbW11bmlxDQogdWVyIGF2ZWMgc29uIGV4cMOpZGl0ZXVyIGV0IHN1cHByaW1lciBjZSBj
+b3VycmllbCBldCB0b3V0ZSBjb3BpZSAow6lsZWN0cm8NCiBuaXF1ZSBvdSBub24pIGltbcOpZGlh
+dGVtZW50LuKAi1xu4oCLXG7igItUaGlzIGVtYWlsIGNvbW11bmljYXRpb24gaXMgaW50ZQ0KIG5k
+ZWQgb25seSBmb3IgdGhlIHBlcnNvbiBvciBlbnRpdHkgdG8gd2hpY2ggaXQgaXMgYWRkcmVzc2Vk
+IGFuZCBtYXkgY29udGFpDQogbiBjb25maWRlbnRpYWwgYW5kL29yIHByaXZpbGVnZWQgaW5mb3Jt
+YXRpb24uIEFueSB1c2Ugb2YgdGhpcyBpbmZvcm1hdGlvbiANCiBieSBwZXJzb25zIG9yIGVudGl0
+aWVzIG90aGVyIHRoYW4gdGhlIGludGVuZGVkIHJlY2lwaWVudCBpcyBwcm9oaWJpdGVkLiBJZg0K
+ICB5b3UgcmVjZWl2ZWQgdGhpcyBpbiBlcnJvclwsIHBsZWFzZSBjb250YWN0IHRoZSBzZW5kZXIg
+YW5kIGRlbGV0ZSB0aGUgZW1hDQogaWwgYW5kIGFsbCBjb3BpZXMgKGVsZWN0cm9uaWMgb3Igb3Ro
+ZXJ3aXNlKSBpbW1lZGlhdGVseS5cbkRlIDogSm9leSBEdWJvaXMNCiBcbkVudm95w6kgOiBKdWx5
+IDI1XCwgMjAyNCAxMTo0OCBBTVxuw4AgOiBzaW1hcmQuZGFuaWVsYmlvQGdtYWlsLmNvbTxtYWls
+dA0KIG86c2ltYXJkLmRhbmllbGJpb0BnbWFpbC5jb20+XG5DYyA6IFNDTSBBdHRhY2ggPGF0dGFj
+aEBzY20uY2E8bWFpbHRvOmF0dGFjDQogaEBzY20uY2E+PlxuT2JqZXQgOiAyNDExMC00ODMzLUVu
+dC4gSGFkbW8gSW5jLiBJbmNpZGVudCBkdSAzIGp1aWxsZXQgMjAyNCANCiA2MjQxIEJvdWwuIEzD
+qWdlclwsIE1vbnRyw6lhbC1Ob3JkXG5JbXBvcnRhbmNlIDogSGF1dGVcblxuQm9uam91clwsXG5c
+bkplIA0KIHJlcHLDqXNlbnRlIHZvdHJlIGFzc3VyZXVyIGJyaXMgZGVzIMOpcXVpcGVtZW50cyBz
+b2l0IEhTQi1CSSZJLiBKZSB2YWlzIGcNCiDDqXJlciB2b3RyZSBkb3NzaWVyIGRlIHLDqWNsYW1h
+dGlvbiBkb3LDqW5hdmFudC5cblxuRmFpc2FudCBzdWl0ZSDDoCBsYSByDQogw6l2aXNpb24gZHUg
+ZG9zc2llclwsIGrigJlhdXJhaXMgYmVzb2luIHF1ZWxxdWVzIGluZm9ybWF0aW9ucyBhZGRpdGlv
+bm5lbGwNCiBlcy5cblxuLUzigJlhY3F1aXNpdGlvbiBkdSBjb21tZXJjZSBkYXRlIGRlIHF1YW5k
+PyBMZXMgw6lxdWlwZW1lbnRzIMOpdGFpZQ0KIG50IGluY2wuIGxvcnMgZGUgbOKAmWFjaGF0P1xu
+XG4tUG91ciBsZXMgcsOpcGFyYXRpb25zICh2b2lyIG5vdHJlIHNvbW1haXJlDQogKVwsIG5vdXMg
+YXZvbnMgYmVzb2luIGTigJl1biDDqWNyaXQgZGUgRnJpZ28gU3BlYyBleHBsaXF1YW50IHBvdXJx
+dW9pIHF1DQog4oCZaWwgeSBhIGV1IGJyaXMgZGVzIMOpcXVpcGVtZW50cyBlbiBxdWVzdGlvbihp
+bXBvcnRhbnQpLlxuXG4tUG91ciBsYSBtYXINCiBjaGFuZGlzZVwsIGlsIHPigJlhZ2l0IGRlcyBm
+YWN0dXJlcyBk4oCZYWNoYXQuIElsIHkgYSBzdXJlbWVudCBldSBkZXMgbWFyYw0KIGhhbmRpc2Vz
+IHZlbmR1ZXMgZGVwdWlzIGV0IGTigJlhdXRyZXMgcXVpIG5lIHNvbnQgcGFzIHDDqXJpc3NhYmxl
+cyAoY29tbWUgDQogZGVzIGJvdXRlaWxsZXMgZOKAmWVhdVwsIHBhaWxsZXMgZXRjKS4gTm91cyBh
+dm9ucyBiZXNvaW4gdW5lIGxpc3RlIGRlIHZvdHINCiBlIHBhcnQgZMOpY3JpdmFudCBsZXMgaXRl
+bXMgcsOpY2xhbcOpc1wsIGxlcyBxdWFudGl0w6lzIGV0IGxlIG1vbnRhbnQgcsOpYw0KIGxhbcOp
+LlxuXG7DgCBsYSByw6ljZXB0aW9uIGRlcyBpbmZvcm1hdGlvbnNcLCBqZSB2YWlzIMOqdHJlIGVu
+IG1lc3VyZSBkZSB2DQogb3VzIHJldmVuYWl0IGF1IHN1amV0IGRlIHZvdHJlIHLDqWNsYW1hdGlv
+bi5cblxuU2kgdm91cyB2b3VsZXogZW4gZGlzY3V0ZXINCiBcLCB2ZXVpbGxleiBt4oCZYXZpc2Vy
+IHF1YW5kIHZvdXMgc2VyZXogZGlzcG9uaWJsZSBkZW1haW4gbWF0aW4uXG5cblxuTWVzIA0KIHNh
+bHV0YXRpb25zXCxcblxuXG5cblxuTWVzIHNhbHV0YXRpb25zXG5cblxuXG5cblxuXG5cbkZyb206
+IGRhbmllbCBzaW1hcmQgDQogPHNpbWFyZC5kYW5pZWxiaW9AZ21haWwuY29tPG1haWx0bzpzaW1h
+cmQuZGFuaWVsYmlvQGdtYWlsLmNvbT4+XG5TZW50OiBUaHUNCiByc2RheVwsIEp1bHkgMjVcLCAy
+MDI0IDk6NDQgQU1cblRvOiBIb3VsZS1EaXhvbiBBeWlzaGEgLSBNb250cmVhbC1IU0IgPEFIbw0K
+IHVsZS1kaXhvbkBoc2IuY2E8bWFpbHRvOkFIb3VsZS1kaXhvbkBoc2IuY2E+PlxuU3ViamVjdDog
+c3VpdGVcblxubGUgZmljaGllDQogciBhIHBhcyBzdWl2aSAgdm9pY2kgRGFuaWVsIFNpbWFyZCBD
+ZWxsOiA1MTQgMjY1IDg0NjUgRmF4OiA1MTQgMzEzIDU2NzggMTYNCiA0OSBGbGV1cnkgZXN0IFtn
+b29nbGUuY29tXTxodHRwczovL3VybGRlZmVuc2UuY29tL3YzL19faHR0cHM6L3d3dy5nb29nbGUu
+Yw0KIG9tL21hcHMvc2VhcmNoLzMxMyo1Njc4KjE2NDkqRmxldXJ5KmVzdD9lbnRyeT1nbWFpbCZz
+b3VyY2U9Z19fXDtLeXNyS3chIUF5DQogeEp4aEhzN1EhWThidE9TRTJUMi1lQTZKalFMUlVGSXZY
+VTBpTE5UVjNSWmg3ZmxvNW5Pclc0T045MlVIdTQyLXVTNk9UOWFjdWENCiBKUENDUGhFU1B0WS1G
+aVBybUlWcUg0JD4gYnVyZWF1IDIwMSBNb250csOpYWwgUXXDqWJlYyBIMkMgMVM5IOKAjSDigI0g
+4oCNIA0KIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKA
+jSDigI0g4oCNIOKAjSDigI0g4oCNIA0KIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g
+4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIA0KIOKAjSDigI0g4oCNIOKA
+jSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCN
+IA0KIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDi
+gI0g4oCNIOKAjSDigI0g4oCNIA0KIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCN
+IOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIA0KIOKAjSDigI0g4oCNIOKAjSDi
+gI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNIOKAjSDigI0g4oCNXG5cbmxlIGZpY2hpZXIg
+DQogYSBwYXMgc3VpdmlcbnZvaWNpXG5EYW5pZWwgU2ltYXJkXG5DZWxsOiA1MTQgMjY1IDg0NjVc
+bkZheDogNTE0IDMxMyA1Njc4XG4NCiAxNjQ5IEZsZXVyeSBlc3QgW2dvb2dsZS5jb21dPGh0dHBz
+Oi8vdXJsZGVmZW5zZS5jb20vdjMvX19odHRwczovd3d3Lmdvb2dsZQ0KIC5jb20vbWFwcy9zZWFy
+Y2gvMTY0OSpGbGV1cnkqZXN0P2VudHJ5PWdtYWlsJnNvdXJjZT1nX19cO0t5cyEhQXl4SnhoSHM3
+USFZDQogOGJ0T1NFMlQyLWVBNkpqUUxSVUZJdlhVMGlMTlRWM1JaaDdmbG81bk9yVzRPTjkyVUh1
+NDItdVM2T1Q5YWN1YUpQQ0NQaEVTUHQNCiBZLUZpUHhBcW4zOWskPiBidXJlYXUgMjAxXG5Nb250
+csOpYWwgUXXDqWJlYyBIMkMgMVM5XG5cblxuX19fX19fX19fX19fX19fXw0KIF9fX19fX19fX19f
+X19fX19cblxuSU1QT1JUQU5UIE5PVElDRTpcblxuDQpVSUQ6MDQwMDAwMDA4MjAwRTAwMDc0QzVC
+NzEwMUE4MkUwMDgwMDAwMDAwMDgwRTA3ODJGREUxM0RCMDEwMDAwMDAwMDAwMDAwMDANCiAwMTAw
+MDAwMDA2MUI0OTRCMTEzNEQxQTREOTQ1NTYzMTNFOUJGQjExRA0KU1VNTUFSWTtMQU5HVUFHRT1m
+ci1GUjoyNDExMC00ODMzUkU6IFJlY2xhbWF0aW9uIDYyNDEgYmx2ZCBMw6lnZXIgTW9udHLDqWFs
+DQogIE5vcmQgQXBwZWwgNTE0IDQ1OCA0NTg3DQpEVFNUQVJUO1RaSUQ9RWFzdGVybiBTdGFuZGFy
+ZCBUaW1lOjIwMjQxMDAyVDE0MDAwMA0KRFRFTkQ7VFpJRD1FYXN0ZXJuIFN0YW5kYXJkIFRpbWU6
+MjAyNDEwMDJUMTQzMDAwDQpDTEFTUzpQVUJMSUMNClBSSU9SSVRZOjUNCkRUU1RBTVA6MjAyNDEw
+MDFUMTI0NTQ4Wg0KVFJBTlNQOk9QQVFVRQ0KU1RBVFVTOkNPTkZJUk1FRA0KU0VRVUVOQ0U6MA0K
+TE9DQVRJT047TEFOR1VBR0U9ZnItRlI6NTE0IDQ1OCA0NTg3IEplIHZhaXMgdm91cyBjb21tdW5x
+dWVyDQpYLU1JQ1JPU09GVC1DRE8tQVBQVC1TRVFVRU5DRTowDQpYLU1JQ1JPU09GVC1DRE8tT1dO
+RVJBUFBUSUQ6LTE2NTAzNTAxMDQNClgtTUlDUk9TT0ZULUNETy1CVVNZU1RBVFVTOlRFTlRBVElW
+RQ0KWC1NSUNST1NPRlQtQ0RPLUlOVEVOREVEU1RBVFVTOkJVU1kNClgtTUlDUk9TT0ZULUNETy1B
+TExEQVlFVkVOVDpGQUxTRQ0KWC1NSUNST1NPRlQtQ0RPLUlNUE9SVEFOQ0U6MQ0KWC1NSUNST1NP
+RlQtQ0RPLUlOU1RUWVBFOjANClgtTUlDUk9TT0ZULURPTk9URk9SV0FSRE1FRVRJTkc6RkFMU0UN
+ClgtTUlDUk9TT0ZULURJU0FMTE9XLUNPVU5URVI6RkFMU0UNClgtTUlDUk9TT0ZULVJFUVVFU1RF
+REFUVEVOREFOQ0VNT0RFOkRFRkFVTFQNClgtTUlDUk9TT0ZULUlTUkVTUE9OU0VSRVFVRVNURUQ6
+VFJVRQ0KWC1NSUNST1NPRlQtTE9DQVRJT05TOlsgeyAiRGlzcGxheU5hbWUiIDogIjUxNCA0NTgg
+NDU4NyBKZSB2YWlzIHZvdXMgY29tbXVuDQogcXVlciJcLCAiTG9jYXRpb25Bbm5vdGF0aW9uIiA6
+ICIiXCwgIkxvY2F0aW9uU291cmNlIiA6IDBcLCAiVW5yZXNvbHZlZCIgOiANCiB0cnVlXCwgIkxv
+Y2F0aW9uVXJpIiA6ICIiIH0gXQ0KQkVHSU46VkFMQVJNDQpERVNDUklQVElPTjpSRU1JTkRFUg0K
+VFJJR0dFUjtSRUxBVEVEPVNUQVJUOi1QVDE1TQ0KQUNUSU9OOkRJU1BMQVkNCkVORDpWQUxBUk0N
+CkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+--000000000000c6646306533586c0--

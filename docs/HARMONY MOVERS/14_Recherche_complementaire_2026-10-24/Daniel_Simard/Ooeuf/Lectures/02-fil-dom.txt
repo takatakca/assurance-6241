@@ -1,0 +1,721 @@
+EXTRACTION DE LECTURE — Gmail Ooeuf — collecte UI du 24 octobre 2026
+Source locale : HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Daniel_Simard/99_Travail_et_collecte/02-fil-dom.txt
+Limite : contenu visible de l’interface, pas EML natif; messages principaux développés quand possible. Citations abrégées ou messages encore repliés peuvent rester absents. Les suggestions automatiques de réponse Gmail et les boutons ne sont pas des messages envoyés. Les liens techniques et mentions d’accès ont été masqués dans cette copie.
+
+- main:
+  - heading "(sans objet)" [active] [level=2]
+    - text: J'ai répondu
+    - text: Pièces jointes
+  - list:
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com ven. 1 août 2025 11 h 25 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "ven. 1 août 2025 11 h 25 Non marqué d'une étoile":
+            - gridcell "ven. 1 août 2025 11 h 25"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à m.guertin@groupelms.ca Afficher les détails":
+          - cell "à m.guertin@groupelms.ca Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à m.guertin@groupelms.ca Afficher les détails":
+                  - cell "à m.guertin@groupelms.ca Afficher les détails":
+                    - generic: à m.guertin@groupelms.ca
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes ven. 1 août 2025 11 h 33 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 1 août 2025 11 h 33 Non marqué d'une étoile":
+            - gridcell "ven. 1 août 2025 11 h 33": 1 août 2025 11 h 33
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à m.guertin@groupelms.ca Afficher les détails":
+          - cell "à m.guertin@groupelms.ca Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à m.guertin@groupelms.ca Afficher les détails":
+                  - cell "à m.guertin@groupelms.ca Afficher les détails":
+                    - generic: à m.guertin@groupelms.ca
+    - text: On Fri, Aug 1, 2025, 11:25 a.m. Oeuf Déjeuner <
+    - link "ooeuf.ca@gmail.com":
+    - text: "> wrote:"
+    - blockquote:
+    - generic: 23 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Gmail - Signature.PDF Prévisualiser la pièce jointe Gmail - Signature.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Gmail - Signature.PDF
+    - link "Prévisualiser la pièce jointe Gmail.PDF Prévisualiser la pièce jointe Gmail.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Gmail.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Gmail - Suivi sur ma réclamation de juin.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Gmail - 24110-4833;TR_ 2024002464.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Gmail - Demande de Remplacement d'équipement .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Gmail - Réponse à vos questions .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Gmail - 24110-4833; Dommages équipements.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Gmail - 24110-4833-Suivi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes ven. 1 août 2025 11 h 35 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 1 août 2025 11 h 35 Non marqué d'une étoile":
+            - gridcell "ven. 1 août 2025 11 h 35"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à m.guertin@groupelms.ca Afficher les détails":
+          - cell "à m.guertin@groupelms.ca Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à m.guertin@groupelms.ca Afficher les détails":
+                  - cell "à m.guertin@groupelms.ca Afficher les détails":
+                    - generic: à m.guertin@groupelms.ca
+    - generic: 2 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe 1000032197.jpg Prévisualiser la pièce jointe 1000032197.jpg":
+      - generic: Prévisualiser la pièce jointe 1000032197.jpg
+      - generic: Prévisualiser la pièce jointe 1000032197.jpg
+      - generic: 1000032197.jpg
+    - link "Prévisualiser la pièce jointe 1000032198.jpg Prévisualiser la pièce jointe 1000032198.jpg":
+      - generic: Prévisualiser la pièce jointe 1000032198.jpg
+      - generic: Prévisualiser la pièce jointe 1000032198.jpg
+      - generic: 1000032198.jpg
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes ven. 8 août 2025 12 h 51 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes ven. 8 août 2025 12 h 51 Non marqué d'une étoile":
+            - gridcell "ven. 8 août 2025 12 h 51"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à m.guertin Afficher les détails":
+          - cell "à m.guertin Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à m.guertin Afficher les détails":
+                  - cell "à m.guertin Afficher les détails":
+                    - generic: à m.guertin
+    - generic: 3 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe 1000033337.jpg Prévisualiser la pièce jointe 1000033337.jpg":
+      - generic: Prévisualiser la pièce jointe 1000033337.jpg
+      - generic: Prévisualiser la pièce jointe 1000033337.jpg
+      - generic: 1000033337.jpg
+    - link "Prévisualiser la pièce jointe 1000033339.jpg Prévisualiser la pièce jointe 1000033339.jpg":
+      - generic: Prévisualiser la pièce jointe 1000033339.jpg
+      - generic: Prévisualiser la pièce jointe 1000033339.jpg
+      - generic: 1000033339.jpg
+    - link "Prévisualiser la pièce jointe 1000033338.jpg Prévisualiser la pièce jointe 1000033338.jpg":
+      - generic: Prévisualiser la pièce jointe 1000033338.jpg
+      - generic: Prévisualiser la pièce jointe 1000033338.jpg
+      - generic: 1000033338.jpg
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes jeu. 16 oct. 2025 22 h 48 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes jeu. 16 oct. 2025 22 h 48 Non marqué d'une étoile":
+            - gridcell "jeu. 16 oct. 2025 22 h 48": 16 oct. 2025 22 h 48
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à dada Afficher les détails":
+          - cell "à dada Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à dada Afficher les détails":
+                  - cell "à dada Afficher les détails":
+                    - text: à
+                    - generic: dada
+    - generic: 23 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Gmail - Signature.PDF Prévisualiser la pièce jointe Gmail - Signature.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Gmail - Signature.PDF
+    - link "Prévisualiser la pièce jointe Gmail.PDF Prévisualiser la pièce jointe Gmail.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Gmail.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Gmail - Suivi sur ma réclamation de juin.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Gmail - 24110-4833;TR_ 2024002464.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Gmail - Demande de Remplacement d'équipement .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Gmail - Réponse à vos questions .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Gmail - 24110-4833; Dommages équipements.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Gmail - 24110-4833-Suivi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes sam. 18 oct. 2025 17 h 29 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes sam. 18 oct. 2025 17 h 29 Non marqué d'une étoile":
+            - gridcell "sam. 18 oct. 2025 17 h 29": 18 oct. 2025 17 h 29
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à yan Afficher les détails":
+          - cell "à yan Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à yan Afficher les détails":
+                  - cell "à yan Afficher les détails":
+                    - text: à
+                    - generic: yan
+    - generic: 23 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Gmail - Signature.PDF Prévisualiser la pièce jointe Gmail - Signature.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Gmail - Signature.PDF
+    - link "Prévisualiser la pièce jointe Gmail.PDF Prévisualiser la pièce jointe Gmail.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Gmail.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Gmail - Suivi sur ma réclamation de juin.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Gmail - 24110-4833;TR_ 2024002464.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Gmail - Demande de Remplacement d'équipement .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Gmail - Réponse à vos questions .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Gmail - 24110-4833; Dommages équipements.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Gmail - 24110-4833-Suivi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes sam. 18 oct. 2025 17 h 30 Favoris Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes sam. 18 oct. 2025 17 h 30 Favoris":
+            - gridcell "sam. 18 oct. 2025 17 h 30": 18 oct. 2025 17 h 30
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à Joey, yan Afficher les détails":
+          - cell "à Joey, yan Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à Joey, yan Afficher les détails":
+                  - cell "à Joey, yan Afficher les détails":
+                    - text: à
+                    - generic: Joey
+                    - text: ", yan"
+    - generic: 23 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Gmail - Signature.PDF Prévisualiser la pièce jointe Gmail - Signature.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Gmail - Signature.PDF
+    - link "Prévisualiser la pièce jointe Gmail.PDF Prévisualiser la pièce jointe Gmail.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Gmail.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Gmail - Suivi sur ma réclamation de juin.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Gmail - 24110-4833;TR_ 2024002464.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Gmail - Demande de Remplacement d'équipement .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Gmail - Réponse à vos questions .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Gmail - 24110-4833; Dommages équipements.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Gmail - 24110-4833-Suivi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mer. 27 mai 11 h 43 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 27 mai 11 h 43 Non marqué d'une étoile":
+            - gridcell "mer. 27 mai 11 h 43": 27 mai 2026 11 h 43
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à dada Afficher les détails":
+          - cell "à dada Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à dada Afficher les détails":
+                  - cell "à dada Afficher les détails":
+                    - text: à
+                    - generic: dada
+    - generic: 23 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe Gmail - Signature.PDF Prévisualiser la pièce jointe Gmail - Signature.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Signature.PDF
+      - generic: Gmail - Signature.PDF
+    - link "Prévisualiser la pièce jointe Gmail.PDF Prévisualiser la pièce jointe Gmail.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Prévisualiser la pièce jointe Gmail.PDF
+      - generic: Gmail.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Suivi sur ma réclamation de juin.PDF
+      - generic: Gmail - Suivi sur ma réclamation de juin.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Automatic reply_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ 2024002464.PDF
+      - generic: Gmail - 24110-4833;TR_ 2024002464.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Demande de Remplacement d'équipement .PDF
+      - generic: Gmail - Demande de Remplacement d'équipement .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Réponse à vos questions .PDF
+      - generic: Gmail - Réponse à vos questions .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833; Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+      - generic: Gmail - 24110-4833 Visire d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833; Dommages équipements.PDF
+      - generic: Gmail - 24110-4833; Dommages équipements.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+      - generic: Gmail - 24110-4833;Dossier_ 24110-4833 _ Dommages aux équipements dû à l'interruption des services électriques et d'eau pota.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833-Suivi.PDF
+      - generic: Gmail - 24110-4833-Suivi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833 Visite d'un consultant en équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+      - generic: Gmail - Automatic reply_ 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our Fi.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+      - generic: Gmail - 24110-4833TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _ .PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+      - generic: Gmail - Fwd_ 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+      - generic: Gmail - 24110-4833RE_ demande d’autorisation pour le remplacement de l’équipement _.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+      - generic: Gmail - 24110-4880;Objet _ Mise à jour des travaux – Remplacement des équipements__.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+      - generic: Gmail - 24110-4833TR_ Demande de Remplacement d'équipement.PDF
+    - link "Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+      - generic: Gmail - Re_ 24110-4833RE_ Reclamation 6241 blvd Léger Montréal Nord.PDF
+    - link "Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF":
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Prévisualiser la pièce jointe Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+      - generic: Gmail - 24110-4833;TR_ Your file_ 2024002464 _ Insured_ 8697230 Canada Inc. & Quadro Holdings Ltée _ Our File_ 24110-4833 _.PDF
+  - link "Répondre"
+  - link "Transférer"

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-24",
+  "pdf": "AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf",
+  "sha256_pdf": "b8ba01d6079ba78daf4e3cf5c48dcc572e410b0e38c108d570f444070465151e",
+  "pages": 2,
+  "rendu": "Poppler pdftoppm 120 dpi, PNG",
+  "pages_controlees_visuellement": [
+    1,
+    2
+  ],
+  "constats": [
+    "Identité et signature vierges; espace suffisant pour écrire.",
+    "Numéro de rapport, cabinet et courriel lisibles.",
+    "Aucun texte tronqué, chevauchement ou glyphe manquant constaté.",
+    "Note de remise et liens officiels lisibles en page2.",
+    "Version papier non interactive; version Markdown modifiable fournie."
+  ],
+  "rendus": [
+    {
+      "path": "99_Travail_et_collecte/autorisation-1.png",
+      "sha256": "98c3273543a5a0d0e97d23d99da273e77ce2158175e60c89eb79cd2efcc0ca78"
+    },
+    {
+      "path": "99_Travail_et_collecte/autorisation-2.png",
+      "sha256": "6604442c537c0f0ed7d41aafcc32b97eb7da4ec26c49837eff2d475ff3a74ce6"
+    }
+  ]
+}

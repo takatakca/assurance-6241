@@ -1,0 +1,206 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a05:6638:2215:b0:61b:4043:5354 with SMTP id l21csp585230jas;
+        Fri, 23 Oct 2026 21:29:07 -0700 (PDT)
+X-Received: by 2002:a17:906:d54b:b0:c2d:cdc6:8271 with SMTP id a640c23a62f3a-c46bdc10b9fmr105846666b.13.1792816146883;
+        Fri, 23 Oct 2026 21:29:06 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1792816146; cv=pass;
+        d=google.com; s=arc-20260327;
+        b=CpqC6O1+UeoK38+tqk6qonTA2+k7+CLQ1FOBoWTwD6JK7dwSzj8xzS0WEuFxYrFKMs
+         PWs9l4+6pnqyGV2hA7U6lyAlSaBuRbWCeK/HHjOBaBV9U1/X/obDnASUd2a9glxsXpVb
+         eU8vBIkCpCEAK7FElYA3fL/8yKSw3zv6j7U/DFTucLST9vvSJ02mIPpUKJLuv2soeIl+
+         B0pFxYxmRHH118tlOIWK6/HkkFdX8qiev+F1IvmM3/I0ECjTTfZisSKeE+CqHqbLrg9w
+         wv/z96/2d0cJ2GpXYwxseE2q5HO0LG3pCZ5hLIaLG6fGdq8zCCAs7MgkVlUUSMVjakyZ
+         RR/w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=VpouKrte+1Z7n8u01LOaggQ8aC1OF+tOYaAT5EUzhqmLsnLwTIP4MCoBEe/OZCWykj
+         /5zznmbeL07QjNlsuHuxQHJ8wf82H7WKkqgAIkLAuTaJJJi3O76VhRdFoIxfb7M1yxJI
+         UkTgjaYr6WuTTwR39jzxgHkoC+TPQFEmmV/6VCXBwq5FZ4mfmaOefbuhBnnX1lwlXA9r
+         4Dlu+IA5lDp4OZfScVN3n2cWed/UpkItmc0dgwwvFbmSQoiXk7qkRW5YQ/8kgeU9VATd
+         f5kjupxike3tnC+cyfoQ/ssjm6YP7HmlAMnYxcdqksYVjez86o7kZvlkfVaBgslQLuZI
+         Ce0A==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=BZqh9Hs6;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <ooeuf.ca@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-c46bd48330asor22479866b.8.2026.10.23.21.29.06
+        for <takatak.ca@gmail.com>
+        (Google Transport Security);
+        Fri, 23 Oct 2026 21:29:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=BZqh9Hs6;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1792816146; cv=none;
+        d=google.com; s=arc-20260327;
+        b=d2a6GaZ5/8boklvmlC1/+CumB9iTZkiaa6DitudS1XulrOSmo/jj7qjUwQhoEORLIE
+         e9ZdmphpVuV6KDfVz7rrAIsWss5oOhzZ1PJWPR2uEIxACK4qpVuX+1nTfymg1EsO9v2W
+         NFroZFYCyiFTPLtAq39UlFEWCXN1TC5aDqP6FZQm8LCnnG8+0CmdhxWod3IlIb8MWIl8
+         ZsffIkN/KsyKcPzgicHaPUjZq+j4nkwgxoXFVj791Ul+k/mY7hogi6RVWao6sA5tkmAP
+         79H92fKIgeTotx8zmdo2paXkhKAb8VQGBQfkeIT7XON+Wu1rPLyDFYx/dJsThYKy5u7B
+         VKNw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=L7gZ+U/wuSv9S5Hdu/IIwxCfqtrXZO2kBnWpmyWQHp+NrXiQo7HXSi/wKcKXdwE88X
+         79fAnv6lilnKsZjeo8W3gJ8G9CYOrS7vRKHBrrbXXgfMEgwoWbuTJPGlhsoyR5iHj+mC
+         rP0Pm/q0Ym/EbrmVT/O50xTlmZMtUXl8aDRF9vSzMG06GdC/CV69fE3cHLi1BfVZEl4e
+         q4DtsQhaSD9nY0yOtMsKcQ+BaE6rXnGy8tgnsR7F/CGZrw2TcqjdPNv2NbxDkgUaOSdk
+         mfFTDSheafyfyMap34akXhmiMxHOQ6/PFWlIwIuAP5ytTJw2sQKDnVnE5BECrt7NF1kl
+         Oqog==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1792816146; x=1793420946; dara=google.com;
+        h=content-type:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;
+        b=BZqh9Hs6vDMc0tfxGmh1Wi/ZsTAAkMLj9LPaVGVPGUwKeTWn6QwgwW6J1lgAwurMEi
+         NypD20TYawLyTCFpu8+LCS2iZtl6OFumXkVkEYKHeTeeq56OEYn14i0o00ldGKuR4/rx
+         pUM8MtwW9p6PNmU3zRvWSKIa753gwAf046CY6bri8V4aCDU6JkHzFh9mLrzqfGIGR4oL
+         oNtH/2i4SADAke8oqq3z9EPho8d0kcEOqh0XYo33OZp1Rp7RY4vBGoAqPS/fYi441fbf
+         Dvm+OiAiSSu+rqkyyicahYuyK3u19RYYHNAD7qKOed3CO/Orosttr+FQQFDhXgTjL28b
+         BmVw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1792816146; x=1793420946;
+        h=content-type:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to:content-type;
+        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;
+        b=npySsUbudMH2lOh/rSK09Q7uHznAxLl+XSTT/iF3Z17MseNYs6SYz0EE/wTYWFvwIR
+         EnZAI8AUql9NeLaITxL8ApC9mCdK3S7D/4nxjz5lvTIDt0FgMiIfFkf/wwFwWZwJs6gN
+         HU7Sa8B1QSMdQp/U4pz0TygZdjq8MY/luqPqLeRN6iVLNkj0aiSmZRYHXW+M4zar4jwb
+         kcNGhSDX4adu2/jL/onX+thi4NIzrr09tvdbZwjV60Ut1hwyIScsM0Ra4GzL+++dM2Pv
+         Jgj0tDdfpUVh8+LzQgg+1CplzAwokzPQuTgBU+OjJt1rtt9rh010ndIUUXkR1NrO8Rsx
+         s2MQ==
+X-Gm-Message-State: AFq9FYK3QcsMYZpb9TMkxWgovI7hi6iPtLJ7bKbrKUPfUodsbQvJNjyP
+	YbOzfG3lKMJuM8v0+1bsnJcHGtC2EdqkC08yfUAOAGZNi8YWIpMDprzX6hu599bdRB0/TWuQicE
+	mMTcKjmMYQXB0cUNCb4gexSKF2V2WiEGE5/yycHyXkOhY
+X-Gm-Gg: AYBFou1XL5B4l4jOze8gXS7E+ANMMpGldQPfazHHu8ZGueHw0NeyMu650AVQy2ioDHz
+	JsX/q58/dF/pJna23T27Pnw0AJukN5VMr2pDLv69nUCqF0hiohwIoZI1CNaW+ZpDnZ80VzrO48f
+	4RqbjXosgZJ6C4nggqjItpBQAOkxtByl/veIuUeKLK/mEJf4o1qXZ8SATO8og66hbBqd97tUUoW
+	Gx6vd2kmBrsy9utqC0r4yJ/BoptlCClcN3ltW3Wg3WDO3gr2HTrBhXMOgGD9WhkbOh3Xcjo7i2D
+	meec4Vm5CiWm5ZulWmvT68ZT1Mrw68H+qlWC90V/5gm4SX2aBs5srgi7ottaz5CSe7xmDahtVpk
+	StOli1weX1WhnAIbwnGPCv08z+1yQwuhiWj+CrXRTTQ59FxXHN/jFsjmOg9F0M1+wkvaMCjbZKo
+	MylvJish47YNvsGIT99jsrOXSD6HySty+6i3ZXOXzK/E8t88kyUKwsrdJRrCsEZNDmUijna5Gcr
+	s6pU0y6YqnfXEpYjDR6lKcmwVE=
+X-Received: by 2002:a17:907:3e12:b0:c43:bf29:1509 with SMTP id
+ a640c23a62f3a-c46bdc10c6dmr111147566b.12.1792816146244; Fri, 23 Oct 2026
+ 21:29:06 -0700 (PDT)
+MIME-Version: 1.0
+References: <CALsRj=QHHcF9B_WaQuvmXF8qFiMN4DevP=qhM-kZa1y9wjXk7Q@mail.gmail.com>
+In-Reply-To: <CALsRj=QHHcF9B_WaQuvmXF8qFiMN4DevP=qhM-kZa1y9wjXk7Q@mail.gmail.com>
+From: =?UTF-8?Q?Oeuf_D=C3=A9jeuner?= <ooeuf.ca@gmail.com>
+Date: Sat, 24 Oct 2026 00:28:54 -0400
+X-Gm-Features: AclHuK8tDzwfaos1s8-p9VP5twMvH_u8jMrC-T_yN6r4DGX-vUPHvRS3Bznx8dE
+Message-ID: <CALsRj=SRNS=hypVoxHnymHm79JY267cUecD7Jfy1mgGu4MyHhg@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_Objet_=3A_Relocalisation_des_op=C3=A9rations_=E2=80=93_Inci?=
+	=?UTF-8?Q?dent_du_26_juin?=
+To: dada daad <takatak.ca@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000008b66c7065e8e89d7"
+
+--0000000000008b66c7065e8e89d7
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+De : Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+Date: mar. 1 juill. 2025, =C3=A0 15 h 17
+Subject: Objet : Relocalisation des op=C3=A9rations =E2=80=93 Incident du 2=
+6 juin
+To: Maude Robidoux <mrobidoux@racinechamberland.com>
+
+
+Bonjour,
+
+Suite =C3=A0 l=E2=80=99incident survenu le 26 juin dernier ainsi qu=E2=80=
+=99aux cong=C3=A9s prolong=C3=A9s
+de plusieurs de nos fournisseurs, nous n=E2=80=99avons malheureusement pas =
+=C3=A9t=C3=A9 en
+mesure de relancer nos op=C3=A9rations dans les d=C3=A9lais souhait=C3=A9s.=
+ En effet, la
+majorit=C3=A9 de nos partenaires =C3=A9taient ferm=C3=A9s ou dans l=E2=80=
+=99incapacit=C3=A9 de traiter
+des commandes avant le 2 juillet.
+
+Face =C3=A0 cette situation, nous avons d=C3=BB prendre une d=C3=A9cision d=
+ifficile, en
+concertation avec notre propri=C3=A9taire. Nous avons convenu de relocalise=
+r nos
+op=C3=A9rations =C3=A0 l=E2=80=99adresse suivante :
+
+5837 Rue Jean-Talon Est, Montr=C3=A9al, QC H1S 1Y6
+
+Nous proc=C3=A9derons au transfert de nos biens et marchandises =C3=A0 cett=
+e nouvelle
+adresse afin d=E2=80=99assurer la continuit=C3=A9 de nos activit=C3=A9s dan=
+s les plus brefs
+d=C3=A9lais.
+
+Cette relocalisation est effective =C3=A0 compter du 1er juillet 2025.
+
+Nous vous remercions de mettre =C3=A0 jour nos informations au dossier et
+restons disponibles pour toute question ou documentation compl=C3=A9mentair=
+e.
+
+Cordialement,
+Pierre L=C3=A9vesque
+Quadro Holding Lt=C3=A9e
+ooeuf.ca@gmail.com
+514 4584587 <(514)%20458-4587>
+
+--0000000000008b66c7065e8e89d7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote gmail_quote_container"><=
+div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ---------=
+<br>De=C2=A0: <strong class=3D"gmail_sendername" dir=3D"auto">Oeuf D=C3=A9j=
+euner</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:ooeuf.ca@gmail.com"=
+>ooeuf.ca@gmail.com</a>&gt;</span><br>Date: mar. 1 juill. 2025, =C3=A0 15 h=
+ 17<br>Subject: Objet : Relocalisation des op=C3=A9rations =E2=80=93 Incide=
+nt du 26 juin<br>To: Maude Robidoux &lt;<a href=3D"mailto:mrobidoux@racinec=
+hamberland.com">mrobidoux@racinechamberland.com</a>&gt;<br></div><br><br><d=
+iv dir=3D"auto"><div dir=3D"auto">Bonjour,</div><div dir=3D"auto"><br></div=
+><div dir=3D"auto">Suite =C3=A0 l=E2=80=99incident survenu le 26 juin derni=
+er ainsi qu=E2=80=99aux cong=C3=A9s prolong=C3=A9s de plusieurs de nos four=
+nisseurs, nous n=E2=80=99avons malheureusement pas =C3=A9t=C3=A9 en mesure =
+de relancer nos op=C3=A9rations dans les d=C3=A9lais souhait=C3=A9s. En eff=
+et, la majorit=C3=A9 de nos partenaires =C3=A9taient ferm=C3=A9s ou dans l=
+=E2=80=99incapacit=C3=A9 de traiter des commandes avant le 2 juillet.</div>=
+<div dir=3D"auto"><br></div><div dir=3D"auto">Face =C3=A0 cette situation, =
+nous avons d=C3=BB prendre une d=C3=A9cision difficile, en concertation ave=
+c notre propri=C3=A9taire. Nous avons convenu de relocaliser nos op=C3=A9ra=
+tions =C3=A0 l=E2=80=99adresse suivante :</div><div dir=3D"auto"><br></div>=
+<div dir=3D"auto">5837 Rue Jean-Talon Est, Montr=C3=A9al, QC H1S 1Y6</div><=
+div dir=3D"auto"><br></div><div dir=3D"auto">Nous proc=C3=A9derons au trans=
+fert de nos biens et marchandises =C3=A0 cette nouvelle adresse afin d=E2=
+=80=99assurer la continuit=C3=A9 de nos activit=C3=A9s dans les plus brefs =
+d=C3=A9lais.</div><div dir=3D"auto"><br></div><div dir=3D"auto">Cette reloc=
+alisation est effective =C3=A0 compter du 1er juillet 2025.</div><div dir=
+=3D"auto"><br></div><div dir=3D"auto">Nous vous remercions de mettre =C3=A0=
+ jour nos informations au dossier et restons disponibles pour toute questio=
+n ou documentation compl=C3=A9mentaire.</div><div dir=3D"auto"><br></div><d=
+iv dir=3D"auto">Cordialement,</div><div dir=3D"auto">Pierre L=C3=A9vesque=
+=C2=A0</div><div dir=3D"auto">Quadro Holding Lt=C3=A9e</div><div dir=3D"aut=
+o"><a href=3D"mailto:ooeuf.ca@gmail.com" target=3D"_blank">ooeuf.ca@gmail.c=
+om</a>=C2=A0</div><div dir=3D"auto"><a href=3D"tel:(514)%20458-4587" value=
+=3D"+15144584587" target=3D"_blank">514 4584587</a>=C2=A0</div><div dir=3D"=
+auto"><br></div></div>
+</div></div>
+
+--0000000000008b66c7065e8e89d7--

@@ -1,0 +1,194 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "1a16c2b6913d6e9a",
+    "thread_id": "1a16c2b6913d6e9a",
+    "label_ids": [
+      "UNREAD",
+      "IMPORTANT",
+      "CATEGORY_PERSONAL",
+      "INBOX"
+    ],
+    "snippet": "---------- Forwarded message --------- De : Oeuf Déjeuner &lt;ooeuf.ca@gmail.com&gt; Date: mar. 1 juill. 2025, à 15 h 17 Subject: Objet : Relocalisation des opérations – Incident du 26 juin To: Maude",
+    "history_id": "4455606",
+    "internal_date": "1792816134000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/alternative",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a05:6638:2215:b0:61b:4043:5354 with SMTP id l21csp585230jas;        Fri, 23 Oct 2026 21:29:07 -0700 (PDT)"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a17:906:d54b:b0:c2d:cdc6:8271 with SMTP id a640c23a62f3a-c46bdc10b9fmr105846666b.13.1792816146883;        Fri, 23 Oct 2026 21:29:06 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=2; a=rsa-sha256; t=1792816146; cv=pass;        d=google.com; s=arc-20260327;        b=CpqC6O1+UeoK38+tqk6qonTA2+k7+CLQ1FOBoWTwD6JK7dwSzj8xzS0WEuFxYrFKMs         PWs9l4+6pnqyGV2hA7U6lyAlSaBuRbWCeK/HHjOBaBV9U1/X/obDnASUd2a9glxsXpVb         eU8vBIkCpCEAK7FElYA3fL/8yKSw3zv6j7U/DFTucLST9vvSJ02mIPpUKJLuv2soeIl+         B0pFxYxmRHH118tlOIWK6/HkkFdX8qiev+F1IvmM3/I0ECjTTfZisSKeE+CqHqbLrg9w         wv/z96/2d0cJ2GpXYwxseE2q5HO0LG3pCZ5hLIaLG6fGdq8zCCAs7MgkVlUUSMVjakyZ         RR/w=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;        b=VpouKrte+1Z7n8u01LOaggQ8aC1OF+tOYaAT5EUzhqmLsnLwTIP4MCoBEe/OZCWykj         /5zznmbeL07QjNlsuHuxQHJ8wf82H7WKkqgAIkLAuTaJJJi3O76VhRdFoIxfb7M1yxJI         UkTgjaYr6WuTTwR39jzxgHkoC+TPQFEmmV/6VCXBwq5FZ4mfmaOefbuhBnnX1lwlXA9r         4Dlu+IA5lDp4OZfScVN3n2cWed/UpkItmc0dgwwvFbmSQoiXk7qkRW5YQ/8kgeU9VATd         f5kjupxike3tnC+cyfoQ/ssjm6YP7HmlAMnYxcdqksYVjez86o7kZvlkfVaBgslQLuZI         Ce0A==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=2; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=BZqh9Hs6;       arc=pass (i=1);       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<ooeuf.ca@gmail.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id a640c23a62f3a-c46bd48330asor22479866b.8.2026.10.23.21.29.06        for <takatak.ca@gmail.com>        (Google Transport Security);        Fri, 23 Oct 2026 21:29:06 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=BZqh9Hs6;       arc=pass (i=1);       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1792816146; cv=none;        d=google.com; s=arc-20260327;        b=d2a6GaZ5/8boklvmlC1/+CumB9iTZkiaa6DitudS1XulrOSmo/jj7qjUwQhoEORLIE         e9ZdmphpVuV6KDfVz7rrAIsWss5oOhzZ1PJWPR2uEIxACK4qpVuX+1nTfymg1EsO9v2W         NFroZFYCyiFTPLtAq39UlFEWCXN1TC5aDqP6FZQm8LCnnG8+0CmdhxWod3IlIb8MWIl8         ZsffIkN/KsyKcPzgicHaPUjZq+j4nkwgxoXFVj791Ul+k/mY7hogi6RVWao6sA5tkmAP         79H92fKIgeTotx8zmdo2paXkhKAb8VQGBQfkeIT7XON+Wu1rPLyDFYx/dJsThYKy5u7B         VKNw=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;        b=L7gZ+U/wuSv9S5Hdu/IIwxCfqtrXZO2kBnWpmyWQHp+NrXiQo7HXSi/wKcKXdwE88X         79fAnv6lilnKsZjeo8W3gJ8G9CYOrS7vRKHBrrbXXgfMEgwoWbuTJPGlhsoyR5iHj+mC         rP0Pm/q0Ym/EbrmVT/O50xTlmZMtUXl8aDRF9vSzMG06GdC/CV69fE3cHLi1BfVZEl4e         q4DtsQhaSD9nY0yOtMsKcQ+BaE6rXnGy8tgnsR7F/CGZrw2TcqjdPNv2NbxDkgUaOSdk         mfFTDSheafyfyMap34akXhmiMxHOQ6/PFWlIwIuAP5ytTJw2sQKDnVnE5BECrt7NF1kl         Oqog==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com; arc=none"
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20251104; t=1792816146; x=1793420946; dara=google.com;        h=content-type:to:subject:message-id:date:from:in-reply-to:references         :mime-version:from:to:cc:subject:date:message-id:reply-to         :content-type;        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;        b=BZqh9Hs6vDMc0tfxGmh1Wi/ZsTAAkMLj9LPaVGVPGUwKeTWn6QwgwW6J1lgAwurMEi         NypD20TYawLyTCFpu8+LCS2iZtl6OFumXkVkEYKHeTeeq56OEYn14i0o00ldGKuR4/rx         pUM8MtwW9p6PNmU3zRvWSKIa753gwAf046CY6bri8V4aCDU6JkHzFh9mLrzqfGIGR4oL         oNtH/2i4SADAke8oqq3z9EPho8d0kcEOqh0XYo33OZp1Rp7RY4vBGoAqPS/fYi441fbf         Dvm+OiAiSSu+rqkyyicahYuyK3u19RYYHNAD7qKOed3CO/Orosttr+FQQFDhXgTjL28b         BmVw=="
+        },
+        {
+          "name": "X-Google-DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20260707; t=1792816146; x=1793420946;        h=content-type:to:subject:message-id:date:from:in-reply-to:references         :mime-version:x-gm-gg:x-gm-message-state:from:to:cc:subject:date         :message-id:reply-to:content-type;        bh=2k8he6E84b9eViCqiFfW10tu+iW7wOb0FH909YeUE38=;        b=npySsUbudMH2lOh/rSK09Q7uHznAxLl+XSTT/iF3Z17MseNYs6SYz0EE/wTYWFvwIR         EnZAI8AUql9NeLaITxL8ApC9mCdK3S7D/4nxjz5lvTIDt0FgMiIfFkf/wwFwWZwJs6gN         HU7Sa8B1QSMdQp/U4pz0TygZdjq8MY/luqPqLeRN6iVLNkj0aiSmZRYHXW+M4zar4jwb         kcNGhSDX4adu2/jL/onX+thi4NIzrr09tvdbZwjV60Ut1hwyIScsM0Ra4GzL+++dM2Pv         Jgj0tDdfpUVh8+LzQgg+1CplzAwokzPQuTgBU+OjJt1rtt9rh010ndIUUXkR1NrO8Rsx         s2MQ=="
+        },
+        {
+          "name": "X-Gm-Message-State",
+          "value": "AFq9FYK3QcsMYZpb9TMkxWgovI7hi6iPtLJ7bKbrKUPfUodsbQvJNjyP YbOzfG3lKMJuM8v0+1bsnJcHGtC2EdqkC08yfUAOAGZNi8YWIpMDprzX6hu599bdRB0/TWuQicE mMTcKjmMYQXB0cUNCb4gexSKF2V2WiEGE5/yycHyXkOhY"
+        },
+        {
+          "name": "X-Gm-Gg",
+          "value": "AYBFou1XL5B4l4jOze8gXS7E+ANMMpGldQPfazHHu8ZGueHw0NeyMu650AVQy2ioDHz JsX/q58/dF/pJna23T27Pnw0AJukN5VMr2pDLv69nUCqF0hiohwIoZI1CNaW+ZpDnZ80VzrO48f 4RqbjXosgZJ6C4nggqjItpBQAOkxtByl/veIuUeKLK/mEJf4o1qXZ8SATO8og66hbBqd97tUUoW Gx6vd2kmBrsy9utqC0r4yJ/BoptlCClcN3ltW3Wg3WDO3gr2HTrBhXMOgGD9WhkbOh3Xcjo7i2D meec4Vm5CiWm5ZulWmvT68ZT1Mrw68H+qlWC90V/5gm4SX2aBs5srgi7ottaz5CSe7xmDahtVpk StOli1weX1WhnAIbwnGPCv08z+1yQwuhiWj+CrXRTTQ59FxXHN/jFsjmOg9F0M1+wkvaMCjbZKo MylvJish47YNvsGIT99jsrOXSD6HySty+6i3ZXOXzK/E8t88kyUKwsrdJRrCsEZNDmUijna5Gcr s6pU0y6YqnfXEpYjDR6lKcmwVE="
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a17:907:3e12:b0:c43:bf29:1509 with SMTP id a640c23a62f3a-c46bdc10c6dmr111147566b.12.1792816146244; Fri, 23 Oct 2026 21:29:06 -0700 (PDT)"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "References",
+          "value": "<CALsRj=QHHcF9B_WaQuvmXF8qFiMN4DevP=qhM-kZa1y9wjXk7Q@mail.gmail.com>"
+        },
+        {
+          "name": "In-Reply-To",
+          "value": "<CALsRj=QHHcF9B_WaQuvmXF8qFiMN4DevP=qhM-kZa1y9wjXk7Q@mail.gmail.com>"
+        },
+        {
+          "name": "From",
+          "value": "\"Oeuf Déjeuner\" <ooeuf.ca@gmail.com>"
+        },
+        {
+          "name": "Date",
+          "value": "Sat, 24 Oct 2026 00:28:54 -0400"
+        },
+        {
+          "name": "X-Gm-Features",
+          "value": "AclHuK8tDzwfaos1s8-p9VP5twMvH_u8jMrC-T_yN6r4DGX-vUPHvRS3Bznx8dE"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<CALsRj=SRNS=hypVoxHnymHm79JY267cUecD7Jfy1mgGu4MyHhg@mail.gmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Fwd: Objet : Relocalisation des opérations – Incident du 26 juin"
+        },
+        {
+          "name": "To",
+          "value": "dada daad <takatak.ca@gmail.com>"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/alternative; boundary=\"0000000000008b66c7065e8e89d7\""
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "text/plain",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/plain; charset=\"UTF-8\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            }
+          ],
+          "body": {
+            "size": 1364,
+            "base64_url_content": null,
+            "content": "---------- Forwarded message ---------\r\nDe : Oeuf Déjeuner <ooeuf.ca@gmail.com>\r\nDate: mar. 1 juill. 2025, à 15 h 17\r\nSubject: Objet : Relocalisation des opérations – Incident du 26 juin\r\nTo: Maude Robidoux <mrobidoux@racinechamberland.com>\r\n\r\n\r\nBonjour,\r\n\r\nSuite à l’incident survenu le 26 juin dernier ainsi qu’aux congés prolongés\r\nde plusieurs de nos fournisseurs, nous n’avons malheureusement pas été en\r\nmesure de relancer nos opérations dans les délais souhaités. En effet, la\r\nmajorité de nos partenaires étaient fermés ou dans l’incapacité de traiter\r\ndes commandes avant le 2 juillet.\r\n\r\nFace à cette situation, nous avons dû prendre une décision difficile, en\r\nconcertation avec notre propriétaire. Nous avons convenu de relocaliser nos\r\nopérations à l’adresse suivante :\r\n\r\n5837 Rue Jean-Talon Est, Montréal, QC H1S 1Y6\r\n\r\nNous procéderons au transfert de nos biens et marchandises à cette nouvelle\r\nadresse afin d’assurer la continuité de nos activités dans les plus brefs\r\ndélais.\r\n\r\nCette relocalisation est effective à compter du 1er juillet 2025.\r\n\r\nNous vous remercions de mettre à jour nos informations au dossier et\r\nrestons disponibles pour toute question ou documentation complémentaire.\r\n\r\nCordialement,\r\nPierre Lévesque\r\nQuadro Holding Ltée\r\nooeuf.ca@gmail.com\r\n514 4584587 <(514)%20458-4587>\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        },
+        {
+          "part_id": "1",
+          "mime_type": "text/html",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=\"UTF-8\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            }
+          ],
+          "body": {
+            "size": 2249,
+            "base64_url_content": null,
+            "content": "<div dir=\"ltr\"><br><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>De : <strong class=\"gmail_sendername\" dir=\"auto\">Oeuf Déjeuner</strong> <span dir=\"auto\">&lt;<a href=\"mailto:ooeuf.ca@gmail.com\">ooeuf.ca@gmail.com</a>&gt;</span><br>Date: mar. 1 juill. 2025, à 15 h 17<br>Subject: Objet : Relocalisation des opérations – Incident du 26 juin<br>To: Maude Robidoux &lt;<a href=\"mailto:mrobidoux@racinechamberland.com\">mrobidoux@racinechamberland.com</a>&gt;<br></div><br><br><div dir=\"auto\"><div dir=\"auto\">Bonjour,</div><div dir=\"auto\"><br></div><div dir=\"auto\">Suite à l’incident survenu le 26 juin dernier ainsi qu’aux congés prolongés de plusieurs de nos fournisseurs, nous n’avons malheureusement pas été en mesure de relancer nos opérations dans les délais souhaités. En effet, la majorité de nos partenaires étaient fermés ou dans l’incapacité de traiter des commandes avant le 2 juillet.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Face à cette situation, nous avons dû prendre une décision difficile, en concertation avec notre propriétaire. Nous avons convenu de relocaliser nos opérations à l’adresse suivante :</div><div dir=\"auto\"><br></div><div dir=\"auto\">5837 Rue Jean-Talon Est, Montréal, QC H1S 1Y6</div><div dir=\"auto\"><br></div><div dir=\"auto\">Nous procéderons au transfert de nos biens et marchandises à cette nouvelle adresse afin d’assurer la continuité de nos activités dans les plus brefs délais.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Cette relocalisation est effective à compter du 1er juillet 2025.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Nous vous remercions de mettre à jour nos informations au dossier et restons disponibles pour toute question ou documentation complémentaire.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Cordialement,</div><div dir=\"auto\">Pierre Lévesque </div><div dir=\"auto\">Quadro Holding Ltée</div><div dir=\"auto\"><a href=\"mailto:ooeuf.ca@gmail.com\" target=\"_blank\">ooeuf.ca@gmail.com</a> </div><div dir=\"auto\"><a href=\"tel:(514)%20458-4587\" value=\"+15144584587\" target=\"_blank\">514 4584587</a> </div><div dir=\"auto\"><br></div></div>\r\n</div></div>\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 11798,
+    "classification_label_values": null
+  }
+}

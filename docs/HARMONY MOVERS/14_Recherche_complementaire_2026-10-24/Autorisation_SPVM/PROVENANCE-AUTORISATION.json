@@ -1,0 +1,47 @@
+{
+  "date_preparation": "2026-10-24",
+  "objet": "Projet de consentement personnel limité au rapport SPVM, demandé expressément par le client; un exemplaire par personne.",
+  "signature": "Aucune signature apposée; champs personnels vierges.",
+  "assermentation": "Aucune assermentation effectuée ou simulée; espace facultatif réservé au cabinet.",
+  "transmission": "Aucune demande ni pièce envoyée au SPVM ou au cabinet.",
+  "numero_evenement": {
+    "valeur": "MTLEV2500487177",
+    "source": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/sources/image006.jpg",
+    "sha256": "ec87348ff00730c83d38177be98b6e39da1ad53616746d03f98e35851954252c",
+    "controle": "Carte entière relue visuellement le 24 octobre 2026; date/lieu de l’événement non inventés."
+  },
+  "mandataire": {
+    "nom": "Me Christian Dufourd",
+    "cabinet": "Dufourd Dion",
+    "courriel": "cdufourd@dufourdion.com",
+    "source_email": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/1a10d5436a58b8f3.txt"
+  },
+  "sources_officielles": [
+    {
+      "titre": "SPVM F470-16, demande d’accès",
+      "url": "https://spvm.qc.ca/upload/Acces_information/f_470_16_demande_rapport_evenement.pdf",
+      "pages": "1 et 2",
+      "consultation": "2026-10-24",
+      "points": "Demande avocat sur papier à en-tête; consentement signé et daté; une utilisation; signature manuscrite; identification."
+    },
+    {
+      "titre": "SPVM, Accès à l’information",
+      "url": "https://spvm.qc.ca/fr/Fiches/Details/Acces-a-linformation",
+      "consultation": "2026-10-24",
+      "points": "Coordonnées et identification; transmission par courriel ou poste; fax hors service depuis le 10 mai 2025. La page actuelle prévaut sur le fax encore mentionné dans le PDF2024."
+    }
+  ],
+  "fichiers": [
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf",
+      "sha256": "b8ba01d6079ba78daf4e3cf5c48dcc572e410b0e38c108d570f444070465151e",
+      "octets": 78933
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.md",
+      "sha256": "e766db93af8f79f0cb9df2d5a6097aed80760362f4b279117483764b8bff9e02",
+      "octets": 4301
+    }
+  ],
+  "limites": "Projet autonome d’autorisation, pas formulaire officiel du SPVM; le cabinet vérifie et complète la demande, les signataires et la portée. Aucun accès au rapport n’est garanti."
+}

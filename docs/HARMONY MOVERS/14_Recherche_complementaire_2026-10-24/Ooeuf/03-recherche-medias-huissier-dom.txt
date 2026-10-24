@@ -1,0 +1,131 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 3
+    - text: sur 3
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "marquée d'une étoile, Saj, moi, yan 3, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 22 oct., gmail.com Bonjour Mathieu, Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer.":
+        - gridcell
+        - gridcell "marquée d'une étoile, Saj, moi, yan 3, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 22 oct., gmail.com Bonjour Mathieu, Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer.":
+          - checkbox "marquée d'une étoile, Saj, moi, yan 3, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 22 oct., gmail.com Bonjour Mathieu, Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Saj, moi, yan 3":
+          - generic: Saj, moi, yan
+          - generic: "3"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes MANDAT COMPLÉTÉ / Informations pour saisie avant jugement - gmail.com Bonjour Mathieu, Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer Pièce jointe : image001.png Pièce jointe : image002.png Pièce jointe : Facture_8695.pdf 2 autres pièces jointes"':
+          - link "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes MANDAT COMPLÉTÉ / Informations pour saisie avant jugement - gmail.com Bonjour Mathieu, Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: MANDAT COMPLÉTÉ / Informations pour saisie avant jugement
+            - generic: "-"
+            - text: gmail.com Bonjour Mathieu, Je vous joins la facture dans ce dossier. Votre dépôt a été soustrait et il reste un solde à payer
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "image002.png":
+            - generic: "Pièce jointe :"
+            - generic: image002.png
+          - generic "Facture_8695.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Facture_8695.pdf
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "jeu. 22 oct. 2026 10 h 20":
+          - generic "jeu. 22 oct. 2026 10 h 20": 22 oct.
+        - gridcell
+      - row "moi, (aucun objet), contient une pièce jointe, 10 juill., .":
+        - gridcell
+        - gridcell "moi, (aucun objet), contient une pièce jointe, 10 juill., .":
+          - checkbox "moi, (aucun objet), contient une pièce jointe, 10 juill., ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) Pièce jointe : 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes (aucun objet)":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+          - generic "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF":
+            - generic: "Pièce jointe :"
+            - generic: 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF
+        - gridcell
+        - gridcell "ven. 10 juill. 2026 19 h 19":
+          - generic "ven. 10 juill. 2026 19 h 19": 10 juill.
+        - gridcell
+      - 'row "marquée d''une étoile, yromanowski, moi 4, Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860], contient une pièce jointe, 27 mai, dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, yromanowski, moi 4, Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860], contient une pièce jointe, 27 mai, dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel."':
+          - 'checkbox "marquée d''une étoile, yromanowski, moi 4, Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860], contient une pièce jointe, 27 mai, dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "yromanowski, moi 4":
+          - generic: yromanowski, moi
+          - generic: "4"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860] - dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel Pièce jointe : 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF 2 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860] - dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: RE: [**EXT**] Re: NOTIFICATION: QUADRO HOLDINGS LTÉE c. 9205-2471 QUÉBEC INC. // No.: 500-17-136442-251 [MTDMS-Legal.FID13991860]"
+            - generic: "-"
+            - text: "dufourdion.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> ---------- Message transféré --------- De : Taoutel"
+          - generic "89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF":
+            - generic: "Pièce jointe :"
+            - generic: 89939296_1_2025-12-22 - Demande en opposition à une saisie avant jugement et pièces.PDF
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell:
+          - toolbar:
+        - gridcell

@@ -1,0 +1,193 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "19e6a1f1ff7f6169",
+    "thread_id": "19e6a1f1ff7f6169",
+    "label_ids": [
+      "UNREAD",
+      "CATEGORY_PERSONAL",
+      "INBOX"
+    ],
+    "snippet": "---------- Forwarded message --------- From: Oeuf Déjeuner &lt;ooeuf.ca@gmail.com&gt; Date: Tue, Oct 28, 2025, 13:39 Subject: Re: version finale To: yan romanowski &lt;romanowskiyan@gmail.com&gt; Voici",
+    "history_id": "3391891",
+    "internal_date": "1779896858000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/alternative",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a05:6638:11c7:b0:5de:5681:102a with SMTP id g7csp424175jas;        Wed, 27 May 2026 08:48:05 -0700 (PDT)"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a17:907:b5a3:b0:bd4:d6a4:ed58 with SMTP id a640c23a62f3a-bdd25ed7e53mr1046821966b.28.1779896885187;        Wed, 27 May 2026 08:48:05 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=2; a=rsa-sha256; t=1779896885; cv=pass;        d=google.com; s=arc-20240605;        b=a9+QCJXy/ATaMRCAJtfmHAdVQDJXg6DFtyLjfn+V9hn1DTNDSGDxMGjgEaSH44qIwS         1QvkfXCtTUS4eMehLLCSR2t3lGNcnZwQWX+xMtqG/QHzCDiQolMRBwWp7oX1lQCzOj0N         hIcJMxfPUOB19653rPcJBRAHyJTGLADjG/qmmrlLsJ6sdmLA6YnSsKyEw0OtSN9KmDp6         FnSdsuwX9sVWoqwYDi6ZJG6wL+GuHETf/CUhQZcxKNW+AfJ5RkVp4H38Dqczna5h6M91         +HGjDiJ0699YzwQ/GQjPvDQ6u8i9cYsVRrSku13NsKbcAkNfV84b9E1csPpeU2DbNz35         J8/Q=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=7mGumyXlW8cjKcJ9IQZU0AYsXhO5p743jSZtX9cs5N8=;        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;        b=bucHKrZupcUhlLqGSyHHqi0zzEHiEMq17GMiqRGFGxpxDFmQbj+JKMfhvbKPd21R1B         hmVhrjuz/tILKqs1MKP2HGrVBhhsO0fY7tTZvf8cJccA6CBKyOWX1O5+aS/ZFhgN4sqN         K7SwCJGyxiAUUtPPS7iaJ8nYkvMY9no17vkhPxWDX6AwSlAuS3BZDSGROI9N+U1kBi5u         s5H8Y2/x/t3vWLBPutoY0xxb25OiN9wM39lgBnaQiVkXOTJ+N8sczQsC1DvLJy0jIJSR         c96/k4c9oBsYCWcyI1kAIOv36/sMfO6mB/KDKdGmL7AoePiW4mhekluz4IeL3FG0AcWE         chFQ==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=2; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=\"pMf5/95b\";       arc=pass (i=1);       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<ooeuf.ca@gmail.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id a640c23a62f3a-bde62a4f201sor169363466b.7.2026.05.27.08.48.05        for <takatak.ca@gmail.com>        (Google Transport Security);        Wed, 27 May 2026 08:48:05 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=\"pMf5/95b\";       arc=pass (i=1);       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1779896885; cv=none;        d=google.com; s=arc-20240605;        b=C/TtXy85mIoDRr0TUO/+44nY+8JlSGXqW1PC3QjsOKLha6sUFUInlP2zb/gyEIZ7zA         pskoFGnD/gZ+8S/wyF30HTw5TQk92GhYRErKGK/AxmRkR09rjpoYnE3xiSE+oZTFntd3         ATt4Q7OQqbprJ73PoUdUDyNdLqBbW0jqfOBRuTUoK8yb3ghEOJFds2WH/CgvmvWLupRw         g+o1GJtwNQUTJCv0A68ee6KeXsVoJtS3ARoW333jJFM7U4dwl+0pFH2ickqYCKQT157x         xl2zZDjzRP/R0cg3SJEqA4WNMhRWiPP4cP91h15odvMlggQHltKziaGMQZB8FeoM7+OZ         Lm1Q=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=7mGumyXlW8cjKcJ9IQZU0AYsXhO5p743jSZtX9cs5N8=;        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;        b=GsZzdI5x0B+QEu4ETlkklRKjxWtxJL/fkojXLNjwy4yiNgwglGGVQQaeHyGvKkqM8y         ChYPSL8HthFS1EXjB6tUpx3wpknOFahP6uvX4n7W5zRd3TRXVkz3AofA6IA2KVtY3y8v         gAYnt+Xq9RtwbZCQAIob02XeNdisEPZma8H4s9KopW967vbTh27kWnWGfyYWeNfshs2r         ojYggxsAiJvzr9tj5UNc9r/w29Eq6XZKait+SqS+2CgDYzuIagU7PC7tRQK3nucNeVPn         nQ6g0KvrofhS1qHittWUOprIqH+L/6fWEq79C6LYMIvQLn+9uGCHG7UG9A/3vzv+Ki86         Vzcg==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com; arc=none"
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20251104; t=1779896885; x=1780501685; dara=google.com;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :from:to:cc:subject:date:message-id:reply-to;        bh=7mGumyXlW8cjKcJ9IQZU0AYsXhO5p743jSZtX9cs5N8=;        b=pMf5/95baqCS3tpfJ3sR2H/I5ZlaPfm9jItKyLBHHseHEhUtzlA25zXZkc99cCoV+A         5SPPo9/cuWuQUA6LsvL75F7I5Qf6c9/UeArrULDcGmmTcFS8+E6ZE+iS97BqBiGFwE5K         eCwa+xS2upsXXnKJgtqdfxj28oWPkP38vDBNzYjKh+mydAq77jNmgYRMz68EDYUPtBuw         oZlVP2VwZlh75mC74Pe81Knsuid2Ll+qRCR2H6z8TMhY9C8c2rgUOohfqQpA/nnvxzYD         E4fWun8y5T/Wuya+T3aLihqxQJFPGJeYUXxEQ09LS1IAtcuDFeFpz13iJ4YWekHxpy26         TGMQ=="
+        },
+        {
+          "name": "X-Google-DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20251104; t=1779896885; x=1780501685;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id         :reply-to;        bh=7mGumyXlW8cjKcJ9IQZU0AYsXhO5p743jSZtX9cs5N8=;        b=RvoBDTrd7axfMm0S8782bdfZi2G4Zh6oIbRNoiGlw21SS/cZcuFo70tw7hAw/1a+TN         Heat6nxdXx34p5xoh+zJuEC835NkZJXSuYp/832ApknkSOF3Pon/2trfX4n6KLidhB75         m+GEamt6PxGWpo88+WEFkq/m+OH5w3H1FBFmWd01vM81kGVJL7JqfXzn0uMTVnJywYnP         91zqJ2Qv8XVgB8/6tKPBNWqlCC5rDfxKjq11GHhy+z0Tb9IiAr/ahW5Z07Yu5EZ7ROkO         EHbTJj/NVIfVokUJeZgheLO0BVE9PfI39BYpvHZGxpbGq/JoDk7AEel7Z+KrucYcHkvq         PNLA=="
+        },
+        {
+          "name": "X-Gm-Message-State",
+          "value": "AOJu0YxEm63uQVWlm86L5bpKo1ljVOrw336q7awdJaawrTpZDQx/4+lo 755Tet13dOxPVDRtTT3v/rV9oUA87253le3Xlr5WDMc87EWH9ScsNog0Yex0kIcQNpj4Ua1KtZB PVtr5vHqka4t1IXSENPExqEK3mS7kStWIKeZf3zY="
+        },
+        {
+          "name": "X-Gm-Gg",
+          "value": "Acq92OE5mm+OhBtX93tlky0+1sn5mZH3NAstmnxT5dBwHtUdbp06nlq/lpADg8pXB+y 4JYu7VPnb6Jftx/kSLDyXNXWTff1qWWoyDALuRBtwZ3b0yzelmfiX5+v0Rz5WJa9vWJ7pI6/d/0 qwykCAlJUk7LmH4HKrB40isqNyduirFXM+DfzMEF8Pu9f//b0hdIFS5mz8MaSd5vqE0IRBGGlCT lf09naE/n1VzV4H0XveBKJwpHd6os3hwImXdHjw60KU3HMrnbCBPTXmx1yH73RPvpVIve6G2LCe hPcw9VrVwEq4oSnRbT1pPEuvhkdqkrsm8ghF5R8="
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a17:907:2d1f:b0:bca:2747:4807 with SMTP id a640c23a62f3a-bdd237f159dmr1413637366b.20.1779896884305; Wed, 27 May 2026 08:48:04 -0700 (PDT)"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "References",
+          "value": "<CAPh1J_45dXuZeT6Kwtz9_eqZR2AeKxxSpP_iFmRPq58hsH4N1A@mail.gmail.com> <CALsRj=SGiENHJ8fEgXOS_DAbZhMR02sCoxS66WQc_vPLEiXgtA@mail.gmail.com> <CAPh1J_6ek2c8jKFHnJ_L1sm4PMuh96yQhN_YzqfR-HFbdw8LAw@mail.gmail.com> <CALsRj=REzCweQTk_1ZeGo2s6V_86zeiGDzjYC1F_eCwgRDu2xg@mail.gmail.com>"
+        },
+        {
+          "name": "In-Reply-To",
+          "value": "<CALsRj=REzCweQTk_1ZeGo2s6V_86zeiGDzjYC1F_eCwgRDu2xg@mail.gmail.com>"
+        },
+        {
+          "name": "From",
+          "value": "\"Oeuf Déjeuner\" <ooeuf.ca@gmail.com>"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 27 May 2026 11:47:38 -0400"
+        },
+        {
+          "name": "X-Gm-Features",
+          "value": "AVHnY4JYomPMbSB8mpuaitqYIARYqmjti3pKqztzxb9Jhm9u8mNxCjVgHIKF5NQ"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<CALsRj=QkFWQty92i6UDJz0dPNgn2jL51mNUDJpsOo4xFT7UmYg@mail.gmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Fwd: version finale"
+        },
+        {
+          "name": "To",
+          "value": "dada daad <takatak.ca@gmail.com>"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/alternative; boundary=\"00000000000086a3310652ce8905\""
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "text/plain",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/plain; charset=\"UTF-8\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            }
+          ],
+          "body": {
+            "size": 6001,
+            "base64_url_content": null,
+            "content": "---------- Forwarded message ---------\r\nFrom: Oeuf Déjeuner <ooeuf.ca@gmail.com>\r\nDate: Tue, Oct 28, 2025, 13:39\r\nSubject: Re: version finale\r\nTo: yan romanowski <romanowskiyan@gmail.com>\r\n\r\n\r\nVoici ton text seulement\r\n\r\n\r\n\r\n1.\r\n\r\nCANADA\r\nProvince du Québec\r\nDistrict de Montreal\r\nNo:\r\n\r\nCour Supérieure\r\n                                  (Chambre Civile)\r\n\r\nQuadro Holdings Ltée,\r\npersonne morale, ayant un\r\nétablissement principal au\r\n6241 boul. léger, Montréal,\r\nDistrict de Montreal\r\n\r\nPartie demanderesse\r\n\r\n9205-2471 Québec Inc.,\r\npersonne morale ayant son domicile\r\nau 1600 55e avenue, Montréal,\r\nDistrict de Montréal\r\n\r\nPartie défenderesse\r\n\r\nDemande Introductive D’Instance avec Saisie\r\nAvant Jugement et revendication\r\n1116 et 735 c.p.c.\r\n\r\nÀ l’un des Honorables juge de la Cour Supérieure\r\ndu Québec, la demanderesse expose :\r\n\r\n---\r\n\r\nPg 2\r\n\r\n1. La demanderesse exploite une série de\r\nrestaurant sous différentes bannière adjacents les un aux autres, sités\r\nau 6241 boul léger Montréal\r\n\r\n\r\n2. La partie défenderesse oeuvre dans le\r\ndomaine du déménagement ,transport et d’entreposage,\r\nsous le nom HARMONY MOVERS;\r\n\r\n\r\n3. Le 10 juin 2025, les commerces de\r\nrestauration de la demanderesse ont été forcés de fermer pour une durée\r\nindéterminée suite à la rupture d’une\r\nCanalisations d’eau de la ville de Montréal;\r\n\r\n\r\n4. Pressé par le propriétaire de l’immeuble\r\nde sortir ses équipements des lieux,\r\nla demanderesse a convenu d’un contrat a Montréal\r\nAvec la défenderesse le 9 juin 2025\r\n\r\n\r\n5. le contrat stipulait clairement notamment que\r\nla défenderesse devait\r\n\r\n\r\n\r\ni cueuillir l’équipement de la demanderesse le\r\n12 juin 2025 Au 6241 boul Léger Montréal-Nord a parti de 8AM-9AM et\r\nii la livraison complete de l’équipement au 5007 rue\r\nIRWIN, Lasalle le même jour.\r\n\r\niii un coût de 3,049,23 incluant les taxes\r\n\r\n\r\nPage3\r\n\r\n6. Comme défaite les employés de la défenderesse se sont\r\nprésentés au 6241 boul. Léger le\r\n12 juin 2025, SAUF que contrairement\r\naux stipulations du contrat, ils sont arrivés tardivement,\r\nn’ayant cueilli qu’une partie des\r\nbiens, et N’ONT PAS livré les biens\r\ncueillis au 5007 rue Irving la journée\r\nmême & telle que stipulait le contrat;\r\n\r\n\r\n7. Depuis, malgré de\r\nnombreux échanges entre les parties,\r\nAinsi que des mise en demeure, la\r\ndéfenderesse continue de\r\n\r\ni)refuse de remettre les biens à\r\nla demanderesse à moins que cette\r\ndernière n’accepte des conditions abusives et\r\nprévue au contrat du 9 juin 2025 exclusives;\r\n\r\n\r\nii) modifier unilatéralement les conditions de\r\nremise des biens;\r\n\r\n\r\niii) causer des dommages volontairement\r\nà la demanderesse sachant que son refus\r\nempêche la demanderesse d’exploiter pleinement\r\nSES RESTAURANTS\r\n\r\n8. À titre de seul propriétaire, la demanderesse\r\nest en droit de revendiqué les biens\r\nillégalement retenu par la défenderesse, qu’elle\r\na enlever le 12 juin 2025, soit les\r\nsuivants: Voir ANNEXE A\r\n\r\n---\r\n\r\nPg 4\r\n\r\nListe des biens\r\n\r\n9. Ces biens légalement et abusivement et de\r\nmauvaise foi retenu par la défenderesse\r\nou une valeur estimée à 250,000 $\r\n\r\n\r\n10. La demanderesse est en droit d’exiger\r\nque les biens illégalement retenus par\r\nla défenderesse presentement vraisemblablement à sa\r\nplace d’affaire au 1600 55e Avenue,\r\nMontréal, soient saisie et enlevé des lieux, et\r\nconfiés a un gardien outre que la\r\ndéfenderesse au choix du huissier executant,\r\n\r\n\r\n11. Vu les violations contractuelles\r\nde la défenderesse, son abus et plus de sa\r\nmauvaise foi dans les modifications\r\nunilatérale des termes du contrat, et dans\r\nla retention illégale des biens, la demanderesse\r\nest justifié de lui réclamer les dommages\r\nsuivants (À parfaire):\r\n\r\nPg5\r\n\r\nPerte d’explotation : 18,000$/mois × 4mois\r\n= 72,000.\r\n\r\nHonoraires Avocat 3,500.\r\n\r\nfrais Huissier 105.\r\n\r\nFrais de Saisie 1,700.\r\n\r\nRécupération et transport des biens 1,077.90\r\n\r\nCoût Main d’œuvre\r\npour enter récupération\r\ndes biens 2,000.\r\n\r\nLoyer 3200$/Mois\r\n\r\n---\r\n\r\npage 6\r\n\r\nDomages\r\n\r\nrevendication → dommages\r\n\r\n12. La présente Demande en dommages et la saisie AVANT jugment en\r\nrevendication sont bien fondé en faits et en droit;\r\n\r\n\r\n\r\nPAR CES MOTIFS, VOUS PLAISE\r\n\r\nAccueillir la présente Demande\r\n\r\nDéclarer bonne et valide la saisie avant\r\njugement executé en vertu de la présente;\r\n\r\nReconnaître et CONFIRMER\r\nle droit de propriétaire de\r\nla demanderesse sur les biens\r\nSAISIES;\r\n\r\nOrdonner au gardien de remettre à\r\nla demanderesse les biens\r\nSAISIES;\r\n\r\n\r\nPage 7\r\n\r\nCondamner la défenderesse à vers\r\nà la demanderesse la somme de\r\n(A PARFAIRE) avec intérêts\r\nmajoré de l’indemnité additionnell\r\n\r\nLe tout avec les frais de justice\r\n\r\nMontréwl ce\r\n\r\nR.L. Avocats\r\n\r\n\r\n\r\n\r\n\r\nAffidavit de Pierre Lévesque\r\n\r\nJe Pierre Lévesque, demeurant au 198 Rue Gordon Montréal\r\naffirme solennellement ce qui suit:\r\n\r\n1. Je suis l’actionnaire majoritaire et\r\nadministrateur de la demanderesse\r\nQuadro Holdings Ltée.\r\n\r\n\r\n2. Quadro Holdings Ltée est seul propriétaire\r\ndes biens saisis décrit a l'annexe de la demande introductive d'instance\r\ndont copie est également jointe a mon affidavit\r\n\r\n\r\n\r\n3. Les biens ci-haut ont été enlevés le\r\n12 juin 2025 par la défenderesse\r\n9205-2471 Québec Inc. (Harmony Movers)\r\net sont retenus illégalement à ce jour\r\net sans droits depuis.\r\n\r\n\r\n4. Quadro Holdings Ltée revendique la\r\nsaisie avant jugement et la remise de ses biens\r\n\r\n\r\nET J’ai Signée ce _____________\r\n\r\n\r\nOn Tue, Oct 28, 2025, 13:35 yan romanowski <romanowskiyan@gmail.com> wrote:\r\n\r\n> La présentation de l'entête de la première page est incorrecte.  Aussi\r\n> manque l'Annexe A\r\n>\r\n> Je l'ai transféré à mon adjointe.  Elle va me dire si ça facilite son\r\n> travail\r\n>\r\n> Le mar. 28 oct. 2025, à 13 h 30, Oeuf Déjeuner <ooeuf.ca@gmail.com> a\r\n> écrit :\r\n>\r\n>>\r\n>> On Tue, Oct 28, 2025, 12:26 yan romanowski <romanowskiyan@gmail.com>\r\n>> wrote:\r\n>>\r\n>>>\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        },
+        {
+          "part_id": "1",
+          "mime_type": "text/html",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=\"UTF-8\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            }
+          ],
+          "body": {
+            "size": 12382,
+            "base64_url_content": null,
+            "content": "<div dir=\"auto\"></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">Oeuf Déjeuner</strong> <span dir=\"auto\">&lt;<a href=\"mailto:ooeuf.ca@gmail.com\">ooeuf.ca@gmail.com</a>&gt;</span><br>Date: Tue, Oct 28, 2025, 13:39<br>Subject: Re: version finale<br>To: yan romanowski &lt;<a href=\"mailto:romanowskiyan@gmail.com\">romanowskiyan@gmail.com</a>&gt;<br></div><br><br><div dir=\"auto\">Voici ton text seulement <div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">1. </div><div dir=\"auto\"><br></div><div dir=\"auto\">CANADA</div><div dir=\"auto\">Province du Québec</div><div dir=\"auto\">District de Montreal</div><div dir=\"auto\">No:</div><div dir=\"auto\"><br></div><div dir=\"auto\">Cour Supérieure  </div><div dir=\"auto\">                                  (Chambre Civile)</div><div dir=\"auto\"><br></div><div dir=\"auto\">Quadro Holdings Ltée,</div><div dir=\"auto\">personne morale, ayant un</div><div dir=\"auto\">établissement principal au</div><div dir=\"auto\">6241 boul. léger, Montréal,</div><div dir=\"auto\">District de Montreal</div><div dir=\"auto\"><br></div><div dir=\"auto\">Partie demanderesse </div><div dir=\"auto\"><br></div><div dir=\"auto\">9205-2471 Québec Inc.,</div><div dir=\"auto\">personne morale ayant son domicile</div><div dir=\"auto\">au 1600 55e avenue, Montréal,</div><div dir=\"auto\">District de Montréal</div><div dir=\"auto\"><br></div><div dir=\"auto\">Partie défenderesse</div><div dir=\"auto\"><br></div><div dir=\"auto\">Demande Introductive D’Instance avec Saisie</div><div dir=\"auto\">Avant Jugement et revendication</div><div dir=\"auto\">1116 et 735 c.p.c.</div><div dir=\"auto\"><br></div><div dir=\"auto\">À l’un des Honorables juge de la Cour Supérieure</div><div dir=\"auto\">du Québec, la demanderesse expose :</div><div dir=\"auto\"><br></div><div dir=\"auto\">---</div><div dir=\"auto\"><br></div><div dir=\"auto\">Pg 2</div><div dir=\"auto\"><br></div><div dir=\"auto\">1. La demanderesse exploite une série de</div><div dir=\"auto\">restaurant sous différentes bannière adjacents les un aux autres, sités</div><div dir=\"auto\">au 6241 boul léger Montréal</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">2. La partie défenderesse oeuvre dans le</div><div dir=\"auto\">domaine du déménagement ,transport et d’entreposage,</div><div dir=\"auto\">sous le nom HARMONY MOVERS;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">3. Le    10     juin 2025, les commerces de</div><div dir=\"auto\">restauration de la demanderesse ont été forcés de fermer pour une durée indéterminée  suite à la rupture d’une</div><div dir=\"auto\">Canalisations d’eau de la ville de Montréal;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">4. Pressé par le propriétaire de l’immeuble</div><div dir=\"auto\">de sortir ses équipements des lieux,</div><div dir=\"auto\">la demanderesse a convenu d’un contrat a Montréal </div><div dir=\"auto\">Avec la défenderesse le 9 juin 2025</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">5. le contrat stipulait clairement notamment que </div><div dir=\"auto\">la défenderesse devait</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">i cueuillir l’équipement de la demanderesse le</div><div dir=\"auto\">12 juin 2025 Au 6241 boul Léger Montréal-Nord a  parti de 8AM-9AM  et</div><div dir=\"auto\">ii la livraison complete de l’équipement au 5007 rue</div><div dir=\"auto\">IRWIN, Lasalle le même jour.</div><div dir=\"auto\"><br></div><div dir=\"auto\">iii un coût de 3,049,23 incluant les taxes</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">Page3</div><div dir=\"auto\"><br></div><div dir=\"auto\">6. Comme défaite les employés de la défenderesse se sont</div><div dir=\"auto\">présentés au 6241 boul. Léger le</div><div dir=\"auto\">12 juin 2025, SAUF que contrairement</div><div dir=\"auto\">aux stipulations du contrat, ils sont arrivés tardivement,</div><div dir=\"auto\">n’ayant cueilli qu’une partie des</div><div dir=\"auto\">biens, et N’ONT PAS livré les biens</div><div dir=\"auto\">cueillis au 5007 rue Irving la journée</div><div dir=\"auto\">même &amp; telle que stipulait le contrat;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">7. Depuis, malgré de</div><div dir=\"auto\">nombreux échanges entre les parties,</div><div dir=\"auto\">Ainsi que des mise en demeure, la</div><div dir=\"auto\">défenderesse continue de </div><div dir=\"auto\"><br></div><div dir=\"auto\">i)refuse de remettre les biens à</div><div dir=\"auto\">la demanderesse à moins que cette</div><div dir=\"auto\">dernière n’accepte des conditions abusives et</div><div dir=\"auto\">prévue au contrat du 9 juin 2025 exclusives;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">ii) modifier unilatéralement les conditions de</div><div dir=\"auto\">remise des biens;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">iii) causer des dommages volontairement</div><div dir=\"auto\">à la demanderesse sachant que son refus</div><div dir=\"auto\">empêche la demanderesse d’exploiter pleinement</div><div dir=\"auto\">SES RESTAURANTS</div><div dir=\"auto\"><br></div><div dir=\"auto\">8. À titre de seul propriétaire, la demanderesse</div><div dir=\"auto\">est en droit de revendiqué les biens</div><div dir=\"auto\">illégalement retenu par la défenderesse, qu’elle</div><div dir=\"auto\">a enlever le 12 juin 2025, soit les</div><div dir=\"auto\">suivants: Voir ANNEXE A</div><div dir=\"auto\"><br></div><div dir=\"auto\">---</div><div dir=\"auto\"><br></div><div dir=\"auto\">Pg 4</div><div dir=\"auto\"><br></div><div dir=\"auto\">Liste des biens</div><div dir=\"auto\"><br></div><div dir=\"auto\">9. Ces biens légalement et abusivement et de</div><div dir=\"auto\">mauvaise foi retenu par la défenderesse</div><div dir=\"auto\">ou une valeur estimée à 250,000 $</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">10. La demanderesse est en droit d’exiger</div><div dir=\"auto\">que les biens illégalement retenus par</div><div dir=\"auto\">la défenderesse presentement vraisemblablement à sa</div><div dir=\"auto\">place d’affaire au 1600 55e Avenue,</div><div dir=\"auto\">Montréal, soient saisie et enlevé des lieux, et</div><div dir=\"auto\">confiés a un gardien outre que la</div><div dir=\"auto\">défenderesse au choix du huissier executant,</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">11. Vu les violations contractuelles</div><div dir=\"auto\">de la défenderesse, son abus et plus de sa</div><div dir=\"auto\">mauvaise foi dans les modifications</div><div dir=\"auto\">unilatérale des termes du contrat, et dans</div><div dir=\"auto\">la retention illégale des biens, la demanderesse</div><div dir=\"auto\">est justifié de lui réclamer les dommages</div><div dir=\"auto\">suivants (À parfaire):</div><div dir=\"auto\"><br></div><div dir=\"auto\">Pg5</div><div dir=\"auto\"><br></div><div dir=\"auto\">Perte d’explotation : 18,000$/mois × 4mois</div><div dir=\"auto\">= 72,000.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Honoraires Avocat          3,500.</div><div dir=\"auto\"><br></div><div dir=\"auto\">frais Huissier                    105.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Frais de Saisie                1,700.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Récupération et transport des biens     1,077.90</div><div dir=\"auto\"><br></div><div dir=\"auto\">Coût Main d’œuvre</div><div dir=\"auto\">pour enter récupération</div><div dir=\"auto\">des biens                          2,000.</div><div dir=\"auto\"><br></div><div dir=\"auto\">Loyer 3200$/Mois</div><div dir=\"auto\"><br></div><div dir=\"auto\">---</div><div dir=\"auto\"><br></div><div dir=\"auto\">page 6</div><div dir=\"auto\"><br></div><div dir=\"auto\">Domages</div><div dir=\"auto\"><br></div><div dir=\"auto\">revendication → dommages</div><div dir=\"auto\"><br></div><div dir=\"auto\">12. La présente Demande en dommages  et la saisie AVANT jugment en revendication sont bien fondé en faits et en droit;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">PAR CES MOTIFS, VOUS PLAISE</div><div dir=\"auto\"><br></div><div dir=\"auto\">Accueillir la présente Demande</div><div dir=\"auto\"><br></div><div dir=\"auto\">Déclarer bonne et valide la saisie avant</div><div dir=\"auto\">jugement executé en vertu de la présente;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Reconnaître et CONFIRMER</div><div dir=\"auto\">le droit de propriétaire de</div><div dir=\"auto\">la demanderesse sur les biens</div><div dir=\"auto\">SAISIES;</div><div dir=\"auto\"><br></div><div dir=\"auto\">Ordonner au gardien de remettre à</div><div dir=\"auto\">la demanderesse les biens</div><div dir=\"auto\">SAISIES;</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">Page 7</div><div dir=\"auto\"><br></div><div dir=\"auto\">Condamner la défenderesse à vers</div><div dir=\"auto\">à la demanderesse la somme de</div><div dir=\"auto\">(A PARFAIRE) avec intérêts</div><div dir=\"auto\">majoré de l’indemnité additionnell</div><div dir=\"auto\"><br></div><div dir=\"auto\">Le tout avec les frais de justice</div><div dir=\"auto\"><br></div><div dir=\"auto\">Montréwl  ce</div><div dir=\"auto\"><br></div><div dir=\"auto\">R.L. Avocats</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">Affidavit de Pierre Lévesque</div><div dir=\"auto\"><br></div><div dir=\"auto\">Je Pierre Lévesque, demeurant au 198 Rue Gordon Montréal </div><div dir=\"auto\">affirme solennellement ce qui suit:</div><div dir=\"auto\"><br></div><div dir=\"auto\">1. Je suis l’actionnaire majoritaire et</div><div dir=\"auto\">administrateur de la demanderesse</div><div dir=\"auto\">Quadro Holdings Ltée.</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">2. Quadro Holdings Ltée est  seul propriétaire</div><div dir=\"auto\">des biens saisis décrit  a l&#39;annexe de la demande introductive d&#39;instance dont copie est également jointe a mon affidavit </div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">3. Les biens ci-haut ont été enlevés le</div><div dir=\"auto\">12 juin 2025 par la défenderesse</div><div dir=\"auto\">9205-2471 Québec Inc. (Harmony Movers)</div><div dir=\"auto\">et sont retenus illégalement à ce jour</div><div dir=\"auto\">et sans droits depuis.</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">4. Quadro Holdings Ltée revendique la</div><div dir=\"auto\">saisie avant jugement  et la remise de ses biens</div><div dir=\"auto\"><br></div><div dir=\"auto\"><br></div><div dir=\"auto\">ET J’ai Signée ce _____________</div><div dir=\"auto\"><br></div></div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 28, 2025, 13:35 yan romanowski &lt;<a href=\"mailto:romanowskiyan@gmail.com\" target=\"_blank\" rel=\"noreferrer\">romanowskiyan@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\"><div dir=\"ltr\">La présentation de l&#39;entête de la première page est incorrecte.  Aussi manque l&#39;Annexe A<div><br></div><div>Je l&#39;ai transféré à mon adjointe.  Elle va me dire si ça facilite son travail</div></div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">Le mar. 28 oct. 2025, à 13 h 30, Oeuf Déjeuner &lt;<a href=\"mailto:ooeuf.ca@gmail.com\" rel=\"noreferrer noreferrer\" target=\"_blank\">ooeuf.ca@gmail.com</a>&gt; a écrit :<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\"><div dir=\"auto\"></div><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 28, 2025, 12:26 yan romanowski &lt;<a href=\"mailto:romanowskiyan@gmail.com\" rel=\"noreferrer noreferrer\" target=\"_blank\">romanowskiyan@gmail.com</a>&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex\">\r\n</blockquote></div>\r\n</blockquote></div>\r\n</blockquote></div>\r\n</div>\r\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 28460,
+    "classification_label_values": null
+  }
+}

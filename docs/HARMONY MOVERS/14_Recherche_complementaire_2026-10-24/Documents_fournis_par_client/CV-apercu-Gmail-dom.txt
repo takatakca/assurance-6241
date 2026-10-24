@@ -1,0 +1,80 @@
+- generic "Showing viewer.":
+  - generic "Displaying CV-Final.docx."
+  - generic "Page 1 of 2":
+    - generic: Page
+    - textbox "Page is 1": "1"
+    - generic: /
+    - generic: "2"
+  - button "Zoom out"
+  - button "Fit to width"
+  - button "Zoom in"
+  - main:
+    - textbox
+    - document:
+      - heading "Page 1 of 2" [level=2]
+      - paragraph: CURRICULUM VITAE
+      - paragraph: MATTHIEU WALLACE BARNARD
+      - paragraph: Matthieu Wallace Barnard
+      - paragraph: 8833, rue Ghislaine
+      - paragraph: LaSalle (Québec) H8R 2C4
+      - paragraph: 514 458-4587
+      - paragraph: PROFIL PROFESSIONNEL
+      - paragraph: Professionnel polyvalent possédant de l’expérience en service à la clientèle, en répartition, en
+      - paragraph: gestion d’appels et en utilisation de systèmes informatiques. Organisé, responsable et capable
+      - paragraph: de gérer plusieurs priorités dans un environnement rapide. Communique efficacement en
+      - paragraph: français, en anglais et en espagnol.
+      - paragraph: COMPÉTENCES CLÉS
+      - paragraph: • Service à la clientèle et accueil
+      - paragraph: • Répartition, coordination et gestion des appels
+      - paragraph: • Gestion des priorités et suivi des demandes
+      - paragraph: • Utilisation d’ordinateurs et d’outils téléphoniques
+      - paragraph: • Résolution de problèmes et travail sous pression
+      - paragraph: • Organisation, autonomie et esprit d’équipe
+      - paragraph: EXPÉRIENCE PROFESSIONNELLE
+      - paragraph: SECTEUR DU REMORQUAGE
+      - paragraph: Répartiteur et service à la clientèle 2021
+      - paragraph: • Recevoir et gérer les appels des clients
+      - paragraph: • Transmettre les informations aux chauffeurs et coordonner les demandes
+      - paragraph: • Assurer le suivi des interventions et classer les priorités selon l’urgence
+      - paragraph: • Utiliser le téléphone, l’ordinateur et les outils de gestion
+      - heading "Page 2 of 2" [level=2]
+      - paragraph: CURRICULUM VITAE
+      - paragraph: MATTHIEU WALLACE BARNARD
+      - paragraph: EXPÉRIENCE PROFESSIONNELLE
+      - paragraph: HOCKEY MONTRÉAL
+      - paragraph: Agent aux opérations et service à la clientèle 2016
+      - paragraph: • Accueillir et accompagner les clients
+      - paragraph: • Soutenir les activités quotidiennes et les membres de l’équipe
+      - paragraph: • Gérer les demandes par téléphone et en personne
+      - paragraph: • Contribuer à un environnement organisé et professionnel
+      - paragraph: FORMATION
+      - paragraph: JOHN MOLSON SCHOOL OF BUSINESS - UNIVERSITÉ CONCORDIA
+      - paragraph: Études en administration et en gestion
+      - paragraph: COLLÈGE AHUNTSIC
+      - paragraph: Études collégiales
+      - paragraph: ATOUTS PROFESSIONNELS
+      - paragraph: • Capacité à apprendre rapidement de nouveaux logiciels et systèmes
+      - paragraph: • Bonne communication avec les clients, les collègues et les chauffeurs
+      - paragraph: • Autonomie, sens des responsabilités et souci du service
+      - paragraph: LANGUES ET QUALITÉS
+      - paragraph: "• Français : courant"
+      - paragraph: "• Anglais : courant"
+      - paragraph: "• Espagnol : fonctionnel"
+      - paragraph: • Fiable, ponctuel, organisé et polyvalent
+      - paragraph: Références disponibles sur demande.
+    - textbox:
+      - /placeholder: Find in document
+    - button
+    - button
+    - button
+  - toolbar:
+    - img "Microsoft Word icon"
+    - generic: CV-Final.docx
+    - button "Open with Google Docs":
+      - generic: Open with Google Docs
+    - button "Open with"
+    - button "Add to My Drive"
+    - button "Print"
+    - button [active]
+    - button "More actions"
+- generic: Displaying CV-Final.docx. Page 1 of 2

@@ -1,0 +1,915 @@
+- iframe
+- generic: Aucun élément sélectionné
+- link "Passer au contenu":
+  - /url: ""
+- link "Utiliser Gmail avec un lecteur d'écran":
+  - /url: ""
+- heading [level=1]:
+  - banner:
+    - button "Menu principal" [expanded]:
+    - link "Gmail":
+      - /url: "#inbox"
+    - search:
+      - heading "Rechercher" [level=2]
+      - table:
+        - rowgroup:
+          - row "in:anywhere \"simard.danielbio@gmail.com\"":
+            - cell "in:anywhere \"simard.danielbio@gmail.com\"":
+              - textbox "Rechercher dans les courriels": in:anywhere "simard.danielbio@gmail.com"
+      - button "Options de recherche avancée":
+      - button "Effacer les termes de recherche":
+      - button "Rechercher dans les courriels":
+    - button "Assistance":
+    - button "Paramètres":
+    - button "Essayer Gemini"
+    - tooltip: Essayer Gemini
+    - link "Mettre à niveau":
+      - generic: Mettre à niveau
+    - tooltip: Mettre à niveau pour bénéficier des fonctionnalités premium
+    - button "Applications Google":
+    - 'button "Compte Google : Oeuf Déjeuner (ooeuf.ca@gmail.com)"':
+- alert
+- navigation:
+  - button "Nouveau message"
+  - generic "Étiquettes":
+    - heading "Étiquettes" [level=2]
+    - link "Boîte de réception 686 messages non lus":
+      - /url: https://mail.google.com/mail/u/2/#inbox
+      - text: Boîte de réception
+    - generic: "686"
+    - link "Favoris":
+      - /url: https://mail.google.com/mail/u/2/#starred
+    - link "Reportés":
+      - /url: https://mail.google.com/mail/u/2/#snoozed
+    - link "Messages envoyés":
+      - /url: https://mail.google.com/mail/u/2/#sent
+    - link "Brouillons 70 messages non lus":
+      - /url: https://mail.google.com/mail/u/2/#drafts
+      - text: Brouillons
+    - generic: "70"
+    - link "Achats 301 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#category/purchases
+      - text: Achats
+    - generic: "301"
+    - button "Plus d'étiquettes":
+      - generic: Plus
+  - heading "Étiquettes"
+  - button "Créer un nouvelle étiquette"
+  - generic "Étiquettes":
+    - heading "Étiquettes" [level=2]
+    - link "✉️ J'ai répondu 16 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%E2%9C%89%EF%B8%8F+J%27ai+r%C3%A9pondu
+      - img "✉️"
+      - text: J'ai répondu
+    - generic: "16"
+    - link "🌐 Web & Hébergement 645 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8C%90+Web+&+H%C3%A9bergement
+      - img "🌐"
+      - text: Web & Hébergement
+    - generic: "645"
+    - 'link "Réduire l''étiquette : 🍔 Plateformes"'
+    - link "🍔 Plateformes développé contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes
+      - img "🍔"
+      - text: Plateformes
+    - link "Clover 115 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/Clover
+      - text: Clover
+    - generic: "115"
+    - link "DoorDash 1270 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/DoorDash
+      - text: DoorDash
+    - generic: 1 270
+    - link "SkipTheDishes 102 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/SkipTheDishes
+      - text: SkipTheDishes
+    - generic: "102"
+    - link "Too Good To Go 134 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/Too+Good+To+Go
+      - text: Too Good To Go
+    - generic: "134"
+    - link "Uber Eats 13 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/Uber+Eats
+      - text: Uber Eats
+    - generic: "13"
+    - link "UrbanPiper contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8D%94+Plateformes/UrbanPiper
+      - text: UrbanPiper
+    - link "🎨 Logiciels contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8E%A8+Logiciels
+      - img "🎨"
+      - text: Logiciels
+    - link "🏛️ Gouvernement & Impôts 37 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8F%9B%EF%B8%8F+Gouvernement+&+Imp%C3%B4ts
+      - img "🏛️"
+      - text: Gouvernement & Impôts
+    - generic: "37"
+    - link "🏠 Maison & Auto contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8F%A0+Maison+&+Auto
+      - img "🏠"
+      - text: Maison & Auto
+    - link "🏦 Banque & Finances 185 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%8F%A6+Banque+&+Finances
+      - img "🏦"
+      - text: Banque & Finances
+    - generic: "185"
+    - link "👨‍👩‍👧‍👦 Famille & Amis contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%91%A8%E2%80%8D%F0%9F%91%A9%E2%80%8D%F0%9F%91%A7%E2%80%8D%F0%9F%91%A6+Famille+&+Amis
+      - img "👨‍👩‍👧‍👦"
+      - text: Famille & Amis
+    - link "💼 Clients contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%92%BC+Clients
+      - img "💼"
+      - text: Clients
+    - link "📈 WeGoTrade contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%88+WeGoTrade
+      - img "📈"
+      - text: WeGoTrade
+    - link "📌 Reste dans la boîte 149 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%8C+Reste+dans+la+bo%C3%AEte
+      - img "📌"
+      - text: Reste dans la boîte
+    - generic: "149"
+    - link "📎 Pièces jointes 187 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%8E+Pi%C3%A8ces+jointes
+      - img "📎"
+      - text: Pièces jointes
+    - generic: "187"
+    - link "📰 Infolettres utiles contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%93%B0+Infolettres+utiles
+      - img "📰"
+      - text: Infolettres utiles
+    - link "🔎 Ancien tri 9 (à vérifier) 3470 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%94%8E+Ancien+tri+9+%28%C3%A0+v%C3%A9rifier%29
+      - img "🔎"
+      - text: Ancien tri 9 (à vérifier)
+    - generic: 3 470
+    - link "🗑️ Pubs à jeter contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%97%91%EF%B8%8F+Pubs+%C3%A0+jeter
+      - img "🗑️"
+      - text: Pubs à jeter
+    - link "🧾 Factures & Reçus 261 messages non lus contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%A7%BE+Factures+&+Re%C3%A7us
+      - img "🧾"
+      - text: Factures & Reçus
+    - generic: "261"
+    - link "🛒 Achats & Livraisons contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/%F0%9F%9B%92+Achats+&+Livraisons
+      - img "🛒"
+      - text: Achats & Livraisons
+    - link "print resto contient un menu":
+      - /url: https://mail.google.com/mail/u/2/#label/print+resto
+      - text: print resto
+- main:
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "Exclure les mises à jour d'agenda":
+      - generic: Exclure les mises à jour d'agenda
+    - button "À":
+      - generic: À
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 23
+    - text: sur 23
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - contentinfo:
+  - contentinfo: simarddanielbio@gmail.com
+  - generic: simarddanielbio@gmail.com
+  - button
+  - grid:
+    - rowgroup:
+      - 'row "Joey, moi 2, 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587, contient une pièce jointe, 1 juin, simard.danielbio@gmail.com\" Cc: SCM Attach Bcc: Date: Wed, 18 Sep 2024 21:37:51 +0000 Subject: Re: 24110-4833 -."':
+        - gridcell
+        - 'gridcell "Joey, moi 2, 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587, contient une pièce jointe, 1 juin, simard.danielbio@gmail.com\" Cc: SCM Attach Bcc: Date: Wed, 18 Sep 2024 21:37:51 +0000 Subject: Re: 24110-4833 -."':
+          - 'checkbox "Joey, moi 2, 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587, contient une pièce jointe, 1 juin, simard.danielbio@gmail.com\" Cc: SCM Attach Bcc: Date: Wed, 18 Sep 2024 21:37:51 +0000 Subject: Re: 24110-4833 -."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Joey, moi 2":
+          - generic: Joey, moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587 - simard.danielbio@gmail.com\" Cc: SCM Attach Bcc: Date: Wed, 18 Sep 2024 21:37:51 +0000 Subject: Re: 24110-4833 -"':
+          - 'link "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587 - simard.danielbio@gmail.com\" Cc: SCM Attach Bcc: Date: Wed, 18 Sep 2024 21:37:51 +0000 Subject: Re: 24110-4833 -"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: "24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587"
+            - generic: "-"
+            - text: "simard.danielbio@gmail.com\" Cc: SCM Attach Bcc: Date: Wed, 18 Sep 2024 21:37:51 +0000 Subject: Re: 24110-4833 -"
+        - gridcell "Événement d'agenda":
+          - img "Événement d'agenda"
+        - gridcell "lun. 1 juin 2026 14 h 40":
+          - generic "lun. 1 juin 2026 14 h 40": 1 juin
+        - gridcell
+      - 'row "marquée d''une étoile, moi 8, (aucun objet), contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, moi 8, (aucun objet), contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:."':
+          - 'checkbox "marquée d''une étoile, moi 8, (aucun objet), contient une pièce jointe, 27 mai, ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "moi 8":
+          - generic: moi
+          - generic: "8"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject: Pièce jointe : 1000032173.jpg Pièce jointe : Gmail - Signature.PDF Pièce jointe : Gmail.PDF 26 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Sat, Oct 18, 2025, 17:30 Subject:"
+          - generic "1000032173.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000032173.jpg
+          - generic "Gmail - Signature.PDF":
+            - generic: "Pièce jointe :"
+            - generic: Gmail - Signature.PDF
+          - generic "Gmail.PDF":
+            - generic: "Pièce jointe :"
+            - generic: Gmail.PDF
+          - generic "26 autres pièces jointes":
+            - button "26 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 43":
+          - generic "mer. 27 mai 2026 11 h 43": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Bolon Cafe Montreal, Re: Support - Patisserie Boulangerie Viennoise (boul. Léger), 10 mars, simard.danielbio@gmail.com; ooeuf.ca@gmail.com; boloncafe.ca@gmail.com > Subject: Support - Patisserie Boulangerie."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Bolon Cafe Montreal, Re: Support - Patisserie Boulangerie Viennoise (boul. Léger), 10 mars, simard.danielbio@gmail.com; ooeuf.ca@gmail.com; boloncafe.ca@gmail.com > Subject: Support - Patisserie Boulangerie."':
+          - 'checkbox "marquée d''une étoile, Bolon Cafe Montreal, Re: Support - Patisserie Boulangerie Viennoise (boul. Léger), 10 mars, simard.danielbio@gmail.com; ooeuf.ca@gmail.com; boloncafe.ca@gmail.com > Subject: Support - Patisserie Boulangerie."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Bolon Cafe Montreal":
+          - generic: Bolon Cafe Montreal
+        - 'gridcell "Boîte de réception 📌 Reste dans la boîte Re: Support - Patisserie Boulangerie Viennoise (boul. Léger) - simard.danielbio@gmail.com; ooeuf.ca@gmail.com; boloncafe.ca@gmail.com > Subject: Support - Patisserie Boulangerie"':
+          - 'link "Boîte de réception 📌 Reste dans la boîte Re: Support - Patisserie Boulangerie Viennoise (boul. Léger) - simard.danielbio@gmail.com; ooeuf.ca@gmail.com; boloncafe.ca@gmail.com > Subject: Support - Patisserie Boulangerie"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic: "Re: Support - Patisserie Boulangerie Viennoise (boul. Léger)"
+            - generic: "-"
+            - text: "simard.danielbio@gmail.com; ooeuf.ca@gmail.com; boloncafe.ca@gmail.com > Subject: Support - Patisserie Boulangerie"
+        - gridcell
+        - gridcell "mar. 10 mars 2026 17 h 16":
+          - generic "mar. 10 mars 2026 17 h 16": 10 mars
+        - gridcell
+      - 'row "Comptabilite, moi 2, Solde dû - MX- 86972-1- 4354.92$, contient une pièce jointe, 10 mars, simard.danielbio@gmail.com Cc: ooeuf.ca@gmail.com Bonjour, Vous trouverez ci-joint votre état de compte pour votre."':
+        - gridcell
+        - 'gridcell "Comptabilite, moi 2, Solde dû - MX- 86972-1- 4354.92$, contient une pièce jointe, 10 mars, simard.danielbio@gmail.com Cc: ooeuf.ca@gmail.com Bonjour, Vous trouverez ci-joint votre état de compte pour votre."':
+          - 'checkbox "Comptabilite, moi 2, Solde dû - MX- 86972-1- 4354.92$, contient une pièce jointe, 10 mars, simard.danielbio@gmail.com Cc: ooeuf.ca@gmail.com Bonjour, Vous trouverez ci-joint votre état de compte pour votre."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Comptabilite, moi 2":
+          - generic: Comptabilite, moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto Solde dû - MX- 86972-1- 4354.92$ - simard.danielbio@gmail.com Cc: ooeuf.ca@gmail.com Bonjour, Vous trouverez ci-joint votre état de compte pour votre Pièce jointe : MX - 86972-1 - 4 354,92 $ - Relevé.pdf Pièce jointe : COORDONNÉES BANC POUR VIR ÉLECTR CPTE FIDUCIE.pdf"':
+          - 'link "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto Solde dû - MX- 86972-1- 4354.92$ - simard.danielbio@gmail.com Cc: ooeuf.ca@gmail.com Bonjour, Vous trouverez ci-joint votre état de compte pour votre"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Solde dû - MX- 86972-1- 4354.92$
+            - generic: "-"
+            - text: "simard.danielbio@gmail.com Cc: ooeuf.ca@gmail.com Bonjour, Vous trouverez ci-joint votre état de compte pour votre"
+          - generic "MX - 86972-1 - 4 354,92 $ - Relevé.pdf":
+            - generic: "Pièce jointe :"
+            - generic: MX - 86972-1 - 4 354,92 $ - Relevé.pdf
+          - generic "COORDONNÉES BANC POUR VIR ÉLECTR CPTE FIDUCIE.pdf":
+            - generic: "Pièce jointe :"
+            - generic: COORDONNÉES BANC POUR VIR ÉLECTR CPTE FIDUCIE.pdf
+        - gridcell
+        - gridcell "mar. 10 mars 2026 17 h 15":
+          - generic "mar. 10 mars 2026 17 h 15": 10 mars
+        - gridcell
+      - 'row "riad, moi 2, TR : ÉTAT DE COMPTE - HADAMO INC, contient une pièce jointe, 10 mars, simard.danielbio@gmail.com>, ooeuf.ca@gmail.com <ooeuf.ca@gmail.com> Bonjour Mathieu et Daniel, Voici."':
+        - gridcell
+        - 'gridcell "riad, moi 2, TR : ÉTAT DE COMPTE - HADAMO INC, contient une pièce jointe, 10 mars, simard.danielbio@gmail.com>, ooeuf.ca@gmail.com <ooeuf.ca@gmail.com> Bonjour Mathieu et Daniel, Voici."':
+          - 'checkbox "riad, moi 2, TR : ÉTAT DE COMPTE - HADAMO INC, contient une pièce jointe, 10 mars, simard.danielbio@gmail.com>, ooeuf.ca@gmail.com <ooeuf.ca@gmail.com> Bonjour Mathieu et Daniel, Voici."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "riad, moi 2":
+          - generic: riad, moi
+          - generic: "2"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes print resto TR : ÉTAT DE COMPTE - HADAMO INC - simard.danielbio@gmail.com>, ooeuf.ca@gmail.com <ooeuf.ca@gmail.com> Bonjour Mathieu et Daniel, Voici Pièce jointe : image001.png Pièce jointe : EC2024-04-22.pdf"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes print resto TR : ÉTAT DE COMPTE - HADAMO INC - simard.danielbio@gmail.com>, ooeuf.ca@gmail.com <ooeuf.ca@gmail.com> Bonjour Mathieu et Daniel, Voici"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: "TR : ÉTAT DE COMPTE - HADAMO INC"
+            - generic: "-"
+            - text: simard.danielbio@gmail.com>, ooeuf.ca@gmail.com <ooeuf.ca@gmail.com> Bonjour Mathieu et Daniel, Voici
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "EC2024-04-22.pdf":
+            - generic: "Pièce jointe :"
+            - generic: EC2024-04-22.pdf
+        - gridcell
+        - gridcell "mar. 10 mars 2026 17 h 12":
+          - generic "mar. 10 mars 2026 17 h 12": 10 mars
+        - gridcell
+      - row "Sysco, moi 2, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1507628151031107117170425], contient une pièce jointe, 2025-11-06, simard.danielbio@gmail.com , viennoise.ca@gmail.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> Sysco Business.":
+        - gridcell
+        - gridcell "Sysco, moi 2, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1507628151031107117170425], contient une pièce jointe, 2025-11-06, simard.danielbio@gmail.com , viennoise.ca@gmail.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> Sysco Business.":
+          - checkbox "Sysco, moi 2, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1507628151031107117170425], contient une pièce jointe, 2025-11-06, simard.danielbio@gmail.com , viennoise.ca@gmail.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> Sysco Business."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Sysco, moi 2":
+          - generic: Sysco, moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes 🧾 Factures & Reçus print resto lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1507628151031107117170425] - simard.danielbio@gmail.com , viennoise.ca@gmail.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> Sysco Business Pièce jointe : Billing Statement.xls Pièce jointe : 3313236950.pdf"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes 🧾 Factures & Reçus print resto lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1507628151031107117170425] - simard.danielbio@gmail.com , viennoise.ca@gmail.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> Sysco Business":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic "print resto":
+              - generic: print resto
+            - generic: lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1507628151031107117170425]
+            - generic: "-"
+            - text: simard.danielbio@gmail.com , viennoise.ca@gmail.com , ooeuf.ca@gmail.com < ooeuf.ca@gmail.com> Sysco Business
+          - generic "Billing Statement.xls":
+            - generic: "Pièce jointe :"
+            - generic: Billing Statement.xls
+          - generic "3313236950.pdf":
+            - generic: "Pièce jointe :"
+            - generic: 3313236950.pdf
+        - gridcell
+        - gridcell "jeu. 6 nov. 2025 15 h 02":
+          - generic "jeu. 6 nov. 2025 15 h 02": 2025-11-06
+        - gridcell
+      - 'row "marquée d''une étoile, Joey, moi 37, 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord, contient une pièce jointe, 2025-10-10, simard.danielbio@gmail.com < simard.danielbio@gmail.com> Bonjour, J''ai envoyé plusieurs courriels à."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Joey, moi 37, 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord, contient une pièce jointe, 2025-10-10, simard.danielbio@gmail.com < simard.danielbio@gmail.com> Bonjour, J''ai envoyé plusieurs courriels à."':
+          - 'checkbox "marquée d''une étoile, Joey, moi 37, 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord, contient une pièce jointe, 2025-10-10, simard.danielbio@gmail.com < simard.danielbio@gmail.com> Bonjour, J''ai envoyé plusieurs courriels à."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Joey, moi 37":
+          - generic: Joey, moi
+          - generic: "37"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes print resto 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord - simard.danielbio@gmail.com < simard.danielbio@gmail.com> Bonjour, J''ai envoyé plusieurs courriels à Pièce jointe : Screenshot_20241024_095728_Adobe Acrobat.jpg Pièce jointe : Screenshot_20241024_095941_Adobe Acrobat.jpg Pièce jointe : Screenshot_20241024_095837_Adobe Acrobat.jpg 37 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes print resto 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord - simard.danielbio@gmail.com < simard.danielbio@gmail.com> Bonjour, J''ai envoyé plusieurs courriels à"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: "24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord"
+            - generic: "-"
+            - text: simard.danielbio@gmail.com < simard.danielbio@gmail.com> Bonjour, J'ai envoyé plusieurs courriels à
+          - generic "Screenshot_20241024_095728_Adobe Acrobat.jpg":
+            - generic: "Pièce jointe :"
+            - generic: Screenshot_20241024_095728_Adobe Acrobat.jpg
+          - generic "Screenshot_20241024_095941_Adobe Acrobat.jpg":
+            - generic: "Pièce jointe :"
+            - generic: Screenshot_20241024_095941_Adobe Acrobat.jpg
+          - generic "Screenshot_20241024_095837_Adobe Acrobat.jpg":
+            - generic: "Pièce jointe :"
+            - generic: Screenshot_20241024_095837_Adobe Acrobat.jpg
+          - generic "37 autres pièces jointes":
+            - button "37 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "ven. 10 oct. 2025 07 h 15":
+          - generic "ven. 10 oct. 2025 07 h 15": 2025-10-10
+        - gridcell
+      - 'row "Lucas, moi 3, Econolease Financial - Ooeuf.ca, contient une pièce jointe, 2025-07-01, ---------- Forwarded message --------- From: Lucas Fowler Date: Tue, Jul 2, 2024, 1:55 pm Subject:."':
+        - gridcell
+        - 'gridcell "Lucas, moi 3, Econolease Financial - Ooeuf.ca, contient une pièce jointe, 2025-07-01, ---------- Forwarded message --------- From: Lucas Fowler Date: Tue, Jul 2, 2024, 1:55 pm Subject:."':
+          - 'checkbox "Lucas, moi 3, Econolease Financial - Ooeuf.ca, contient une pièce jointe, 2025-07-01, ---------- Forwarded message --------- From: Lucas Fowler Date: Tue, Jul 2, 2024, 1:55 pm Subject:."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Lucas, moi 3":
+          - generic: Lucas, moi
+          - generic: "3"
+        - 'gridcell "✉️ J''ai répondu 🏦 Banque & Finances 📎 Pièces jointes print resto Econolease Financial - Ooeuf.ca - ---------- Forwarded message --------- From: Lucas Fowler Date: Tue, Jul 2, 2024, 1:55 pm Subject: Pièce jointe : image001.gif Pièce jointe : Econolease Company Overview.pdf"':
+          - 'link "✉️ J''ai répondu 🏦 Banque & Finances 📎 Pièces jointes print resto Econolease Financial - Ooeuf.ca - ---------- Forwarded message --------- From: Lucas Fowler Date: Tue, Jul 2, 2024, 1:55 pm Subject:"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏦 Banque & Finances":
+              - img "🏦"
+              - text: Banque & Finances
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Econolease Financial - Ooeuf.ca
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Lucas Fowler Date: Tue, Jul 2, 2024, 1:55 pm Subject:"
+          - generic "image001.gif":
+            - generic: "Pièce jointe :"
+            - generic: image001.gif
+          - generic "Econolease Company Overview.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Econolease Company Overview.pdf
+        - gridcell
+        - gridcell "mar. 1 juill. 2025 22 h 44":
+          - generic "mar. 1 juill. 2025 22 h 44": 2025-07-01
+        - gridcell
+      - 'row "marquée d''une étoile, daniel, moi 4, Fwd: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord, contient une pièce jointe, 2025-06-19, simard.danielbio@gmail.com Cc: SCM Attach Bonjour, Je représente votre assureur bris des équipements soit HSB-BI&I."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, daniel, moi 4, Fwd: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord, contient une pièce jointe, 2025-06-19, simard.danielbio@gmail.com Cc: SCM Attach Bonjour, Je représente votre assureur bris des équipements soit HSB-BI&I."':
+          - 'checkbox "marquée d''une étoile, daniel, moi 4, Fwd: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord, contient une pièce jointe, 2025-06-19, simard.danielbio@gmail.com Cc: SCM Attach Bonjour, Je représente votre assureur bris des équipements soit HSB-BI&I."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "daniel, moi 4":
+          - generic: daniel, moi
+          - generic: "4"
+        - 'gridcell "Boîte de réception print resto Fwd: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord - simard.danielbio@gmail.com Cc: SCM Attach Bonjour, Je représente votre assureur bris des équipements soit HSB-BI&I Pièce jointe : 1_20240724_224116_0000.png Pièce jointe : 1_20240724_225234_0000.png Pièce jointe : 1_20240724_223557_0000.png 29 autres pièces jointes"':
+          - 'link "Boîte de réception print resto Fwd: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord - simard.danielbio@gmail.com Cc: SCM Attach Bonjour, Je représente votre assureur bris des équipements soit HSB-BI&I"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "print resto":
+              - generic: print resto
+            - generic: "Fwd: 24110-4833-Ent. Hadmo Inc. Incident du 3 juillet 2024 6241 Boul. Léger, Montréal-Nord"
+            - generic: "-"
+            - text: "simard.danielbio@gmail.com Cc: SCM Attach Bonjour, Je représente votre assureur bris des équipements soit HSB-BI&I"
+          - generic "1_20240724_224116_0000.png":
+            - generic: "Pièce jointe :"
+            - generic: 1_20240724_224116_0000.png
+          - generic "1_20240724_225234_0000.png":
+            - generic: "Pièce jointe :"
+            - generic: 1_20240724_225234_0000.png
+          - generic "1_20240724_223557_0000.png":
+            - generic: "Pièce jointe :"
+            - generic: 1_20240724_223557_0000.png
+          - generic "29 autres pièces jointes":
+            - button "29 autres pièces jointes": Plus de 9
+        - gridcell
+        - gridcell "jeu. 19 juin 2025 14 h 07":
+          - generic "jeu. 19 juin 2025 14 h 07": 2025-06-19
+        - gridcell
+      - row "Sysco, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1432657634075604564280425], contient une pièce jointe, 2025-04-28, Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en.":
+        - gridcell
+        - gridcell "Sysco, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1432657634075604564280425], contient une pièce jointe, 2025-04-28, Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en.":
+          - checkbox "Sysco, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1432657634075604564280425], contient une pièce jointe, 2025-04-28, Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Sysco":
+          - generic: Sysco
+        - 'gridcell "📎 Pièces jointes 🧾 Factures & Reçus lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1432657634075604564280425] - Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en Pièce jointe : Billing Statement.xls"':
+          - link "📎 Pièces jointes 🧾 Factures & Reçus lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1432657634075604564280425] - Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en":
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC1432657634075604564280425]
+            - generic: "-"
+            - text: Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en
+          - generic "Billing Statement.xls":
+            - generic: "Pièce jointe :"
+            - generic: Billing Statement.xls
+        - gridcell
+        - gridcell "lun. 28 avr. 2025 08 h 56":
+          - generic "lun. 28 avr. 2025 08 h 56": 2025-04-28
+        - gridcell
+      - row "Sysco, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC15290455660157425742240425], contient une pièce jointe, 2025-04-24, Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en.":
+        - gridcell
+        - gridcell "Sysco, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC15290455660157425742240425], contient une pièce jointe, 2025-04-24, Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en.":
+          - checkbox "Sysco, lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC15290455660157425742240425], contient une pièce jointe, 2025-04-24, Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Sysco":
+          - generic: Sysco
+        - 'gridcell "📎 Pièces jointes 🧾 Factures & Reçus lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC15290455660157425742240425] - Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en Pièce jointe : Billing Statement.xls"':
+          - link "📎 Pièces jointes 🧾 Factures & Reçus lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC15290455660157425742240425] - Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en":
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: lettre de saut - BDXFY25 OOEUF.CA - 2059223 - 331 [Ref:ACC15290455660157425742240425]
+            - generic: "-"
+            - text: Sysco Business Services 1390 Enclave Parkway Houston, TX 77077 BDXFY25 OOEUF.CA 331 Solde total en
+          - generic "Billing Statement.xls":
+            - generic: "Pièce jointe :"
+            - generic: Billing Statement.xls
+        - gridcell
+        - gridcell "jeu. 24 avr. 2025 14 h 57":
+          - generic "jeu. 24 avr. 2025 14 h 57": 2025-04-24
+        - gridcell
+      - 'row "Dallin, Shelly 179 2, Sysco ((2059223), 2024-12-17, simard.danielbio@gmail.com; viennoise.ca@gmail.com Subject: Sysco ((2059223) Hi I wanted to reach out to you regarding."':
+        - gridcell
+        - 'gridcell "Dallin, Shelly 179 2, Sysco ((2059223), 2024-12-17, simard.danielbio@gmail.com; viennoise.ca@gmail.com Subject: Sysco ((2059223) Hi I wanted to reach out to you regarding."':
+          - 'checkbox "Dallin, Shelly 179 2, Sysco ((2059223), 2024-12-17, simard.danielbio@gmail.com; viennoise.ca@gmail.com Subject: Sysco ((2059223) Hi I wanted to reach out to you regarding."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Dallin, Shelly 179 2":
+          - generic: Dallin, Shelly 179
+          - generic: "2"
+        - 'gridcell "📎 Pièces jointes 🧾 Factures & Reçus Sysco ((2059223) - simard.danielbio@gmail.com; viennoise.ca@gmail.com Subject: Sysco ((2059223) Hi I wanted to reach out to you regarding"':
+          - 'link "📎 Pièces jointes 🧾 Factures & Reçus Sysco ((2059223) - simard.danielbio@gmail.com; viennoise.ca@gmail.com Subject: Sysco ((2059223) Hi I wanted to reach out to you regarding"':
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: Sysco ((2059223)
+            - generic: "-"
+            - text: "simard.danielbio@gmail.com; viennoise.ca@gmail.com Subject: Sysco ((2059223) Hi I wanted to reach out to you regarding"
+        - gridcell
+        - gridcell "mar. 17 déc. 2024 18 h 41":
+          - generic "mar. 17 déc. 2024 18 h 41": 2024-12-17
+        - gridcell
+      - row "compta RC, Solde dû - MX- 86972-1- 5104.04$, contient une pièce jointe, 2024-09-13, Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs.":
+        - gridcell
+        - gridcell "compta RC, Solde dû - MX- 86972-1- 5104.04$, contient une pièce jointe, 2024-09-13, Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs.":
+          - checkbox "compta RC, Solde dû - MX- 86972-1- 5104.04$, contient une pièce jointe, 2024-09-13, Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "compta RC":
+          - generic: compta RC
+        - 'gridcell "🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto Solde dû - MX- 86972-1- 5104.04$ - Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs Pièce jointe : MX - 86972-1 - 5 104,04 $ - Relevé.pdf Pièce jointe : Option de paiement RC.pdf"':
+          - link "🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto Solde dû - MX- 86972-1- 5104.04$ - Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs":
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Solde dû - MX- 86972-1- 5104.04$
+            - generic: "-"
+            - text: Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs
+          - generic "MX - 86972-1 - 5 104,04 $ - Relevé.pdf":
+            - generic: "Pièce jointe :"
+            - generic: MX - 86972-1 - 5 104,04 $ - Relevé.pdf
+          - generic "Option de paiement RC.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Option de paiement RC.pdf
+        - gridcell
+        - gridcell "ven. 13 sept. 2024 12 h 26":
+          - generic "ven. 13 sept. 2024 12 h 26": 2024-09-13
+        - gridcell
+      - row "moi, (aucun objet), contient une pièce jointe, 2024-07-26, .":
+        - gridcell
+        - gridcell "moi, (aucun objet), contient une pièce jointe, 2024-07-26, .":
+          - checkbox "moi, (aucun objet), contient une pièce jointe, 2024-07-26, ."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes print resto (aucun objet) Pièce jointe : Fact 5969.pdf_20240726_122259_0002.png Pièce jointe : Fact 5969.pdf_20240726_122259_0000.png Pièce jointe : Fact 5969.pdf_20240726_122259_0003.png 1 autre pièce jointe"':
+          - link "✉️ J'ai répondu 📎 Pièces jointes print resto (aucun objet)":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: (aucun objet)
+          - generic "Fact 5969.pdf_20240726_122259_0002.png":
+            - generic: "Pièce jointe :"
+            - generic: Fact 5969.pdf_20240726_122259_0002.png
+          - generic "Fact 5969.pdf_20240726_122259_0000.png":
+            - generic: "Pièce jointe :"
+            - generic: Fact 5969.pdf_20240726_122259_0000.png
+          - generic "Fact 5969.pdf_20240726_122259_0003.png":
+            - generic: "Pièce jointe :"
+            - generic: Fact 5969.pdf_20240726_122259_0003.png
+          - generic "1 autre pièce jointe":
+            - button "1 autre pièce jointe": "+1"
+        - gridcell
+        - gridcell "ven. 26 juill. 2024 12 h 27":
+          - generic "ven. 26 juill. 2024 12 h 27": 2024-07-26
+        - gridcell
+      - 'row "Houle-Dixon, moi 3, Dossier HSB 2024002464, contient une pièce jointe, 2024-07-17, ---------- Forwarded message --------- From: Houle-Dixon Ayisha - Montreal-HSB Date: Wed, Jul 17,."':
+        - gridcell
+        - 'gridcell "Houle-Dixon, moi 3, Dossier HSB 2024002464, contient une pièce jointe, 2024-07-17, ---------- Forwarded message --------- From: Houle-Dixon Ayisha - Montreal-HSB Date: Wed, Jul 17,."':
+          - 'checkbox "Houle-Dixon, moi 3, Dossier HSB 2024002464, contient une pièce jointe, 2024-07-17, ---------- Forwarded message --------- From: Houle-Dixon Ayisha - Montreal-HSB Date: Wed, Jul 17,."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Houle-Dixon, moi 3":
+          - generic: Houle-Dixon, moi
+          - generic: "3"
+        - 'gridcell "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes Dossier HSB 2024002464 - ---------- Forwarded message --------- From: Houle-Dixon Ayisha - Montreal-HSB Date: Wed, Jul 17,"':
+          - 'link "✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📎 Pièces jointes Dossier HSB 2024002464 - ---------- Forwarded message --------- From: Houle-Dixon Ayisha - Montreal-HSB Date: Wed, Jul 17,"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Dossier HSB 2024002464
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Houle-Dixon Ayisha - Montreal-HSB Date: Wed, Jul 17,"
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "mer. 17 juill. 2024 12 h 55":
+          - generic "mer. 17 juill. 2024 12 h 55": 2024-07-17
+        - gridcell
+      - 'row "Megan Jennings, Sysco 10 Days Demand - OOEUF.CA - 2059223 - 331 [Ref:ACC10468663690814311431010424], contient une pièce jointe, 2024-04-01, [Sysco Canada] |[Sysco Pay] OOEUF.CA Total Balance : CAD 1184.94 Total Overdue Balance:CAD 1184.94 4/."':
+        - gridcell
+        - 'gridcell "Megan Jennings, Sysco 10 Days Demand - OOEUF.CA - 2059223 - 331 [Ref:ACC10468663690814311431010424], contient une pièce jointe, 2024-04-01, [Sysco Canada] |[Sysco Pay] OOEUF.CA Total Balance : CAD 1184.94 Total Overdue Balance:CAD 1184.94 4/."':
+          - 'checkbox "Megan Jennings, Sysco 10 Days Demand - OOEUF.CA - 2059223 - 331 [Ref:ACC10468663690814311431010424], contient une pièce jointe, 2024-04-01, [Sysco Canada] |[Sysco Pay] OOEUF.CA Total Balance : CAD 1184.94 Total Overdue Balance:CAD 1184.94 4/."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Megan Jennings":
+          - generic: Megan Jennings
+        - 'gridcell "📎 Pièces jointes 🧾 Factures & Reçus Sysco 10 Days Demand - OOEUF.CA - 2059223 - 331 [Ref:ACC10468663690814311431010424] - [Sysco Canada] |[Sysco Pay] OOEUF.CA Total Balance : CAD 1184.94 Total Overdue Balance:CAD 1184.94 4/ Pièce jointe : Billing Statement.xls"':
+          - 'link "📎 Pièces jointes 🧾 Factures & Reçus Sysco 10 Days Demand - OOEUF.CA - 2059223 - 331 [Ref:ACC10468663690814311431010424] - [Sysco Canada] |[Sysco Pay] OOEUF.CA Total Balance : CAD 1184.94 Total Overdue Balance:CAD 1184.94 4/"':
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: Sysco 10 Days Demand - OOEUF.CA - 2059223 - 331 [Ref:ACC10468663690814311431010424]
+            - generic: "-"
+            - text: "[Sysco Canada] |[Sysco Pay] OOEUF.CA Total Balance : CAD 1184.94 Total Overdue Balance:CAD 1184.94 4/"
+          - generic "Billing Statement.xls":
+            - generic: "Pièce jointe :"
+            - generic: Billing Statement.xls
+        - gridcell
+        - gridcell "lun. 1 avr. 2024 11 h 14":
+          - generic "lun. 1 avr. 2024 11 h 14": 2024-04-01
+        - gridcell
+      - 'row "Sysco, Collection Escalation [Ref:ACC2183251360235543554250124], contient une pièce jointe, 2024-01-25, [Sysco Pay] |[Sysco Shop] OOEUF.CA 2059223 - 331 Total Balance: 1184.94 Total Overdue Balance:."':
+        - gridcell
+        - 'gridcell "Sysco, Collection Escalation [Ref:ACC2183251360235543554250124], contient une pièce jointe, 2024-01-25, [Sysco Pay] |[Sysco Shop] OOEUF.CA 2059223 - 331 Total Balance: 1184.94 Total Overdue Balance:."':
+          - 'checkbox "Sysco, Collection Escalation [Ref:ACC2183251360235543554250124], contient une pièce jointe, 2024-01-25, [Sysco Pay] |[Sysco Shop] OOEUF.CA 2059223 - 331 Total Balance: 1184.94 Total Overdue Balance:."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Sysco":
+          - generic: Sysco
+        - 'gridcell "📎 Pièces jointes 🧾 Factures & Reçus Collection Escalation [Ref:ACC2183251360235543554250124] - [Sysco Pay] |[Sysco Shop] OOEUF.CA 2059223 - 331 Total Balance: 1184.94 Total Overdue Balance: Pièce jointe : Billing Statement.xls"':
+          - 'link "📎 Pièces jointes 🧾 Factures & Reçus Collection Escalation [Ref:ACC2183251360235543554250124] - [Sysco Pay] |[Sysco Shop] OOEUF.CA 2059223 - 331 Total Balance: 1184.94 Total Overdue Balance:"':
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: Collection Escalation [Ref:ACC2183251360235543554250124]
+            - generic: "-"
+            - text: "[Sysco Pay] |[Sysco Shop] OOEUF.CA 2059223 - 331 Total Balance: 1184.94 Total Overdue Balance:"
+          - generic "Billing Statement.xls":
+            - generic: "Pièce jointe :"
+            - generic: Billing Statement.xls
+        - gridcell
+        - gridcell "jeu. 25 janv. 2024 17 h 35":
+          - generic "jeu. 25 janv. 2024 17 h 35": 2024-01-25
+        - gridcell
+      - row "moi, Matthieu Wallace Barnard has shared a file with you, 2024-01-17, https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:431e5d27-cdd6-4dba-b26f-21b29f746f7d.":
+        - gridcell
+        - gridcell "moi, Matthieu Wallace Barnard has shared a file with you, 2024-01-17, https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:431e5d27-cdd6-4dba-b26f-21b29f746f7d.":
+          - checkbox "moi, Matthieu Wallace Barnard has shared a file with you, 2024-01-17, https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:431e5d27-cdd6-4dba-b26f-21b29f746f7d."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi":
+          - generic: moi
+        - gridcell "✉️ J'ai répondu Matthieu Wallace Barnard has shared a file with you - https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:431e5d27-cdd6-4dba-b26f-21b29f746f7d":
+          - link "✉️ J'ai répondu Matthieu Wallace Barnard has shared a file with you - https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:431e5d27-cdd6-4dba-b26f-21b29f746f7d":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Matthieu Wallace Barnard has shared a file with you
+            - generic: "-"
+            - text: https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:431e5d27-cdd6-4dba-b26f-21b29f746f7d
+        - gridcell
+        - gridcell "mer. 17 janv. 2024 14 h 29":
+          - generic "mer. 17 janv. 2024 14 h 29": 2024-01-17
+        - gridcell
+      - row "Comptabilite RC, Solde dû - MX- 86972-1- 4291.5$, contient une pièce jointe, 2023-11-24, Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs.":
+        - gridcell
+        - gridcell "Comptabilite RC, Solde dû - MX- 86972-1- 4291.5$, contient une pièce jointe, 2023-11-24, Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs.":
+          - checkbox "Comptabilite RC, Solde dû - MX- 86972-1- 4291.5$, contient une pièce jointe, 2023-11-24, Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Comptabilite RC":
+          - generic: Comptabilite RC
+        - 'gridcell "🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto Solde dû - MX- 86972-1- 4291.5$ - Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs Pièce jointe : MX - 86972-1 - 4 291,50 $ - Relevé.pdf Pièce jointe : COORDONNÉES BANC POUR VIR ÉLECTR CPTE FIDUCIE.pdf"':
+          - link "🏛️ Gouvernement & Impô… 📎 Pièces jointes print resto Solde dû - MX- 86972-1- 4291.5$ - Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs":
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Solde dû - MX- 86972-1- 4291.5$
+            - generic: "-"
+            - text: Bonjour, Vous trouverez ci-joint votre état de compte pour votre solde dû. Nous avons plusieurs
+          - generic "MX - 86972-1 - 4 291,50 $ - Relevé.pdf":
+            - generic: "Pièce jointe :"
+            - generic: MX - 86972-1 - 4 291,50 $ - Relevé.pdf
+          - generic "COORDONNÉES BANC POUR VIR ÉLECTR CPTE FIDUCIE.pdf":
+            - generic: "Pièce jointe :"
+            - generic: COORDONNÉES BANC POUR VIR ÉLECTR CPTE FIDUCIE.pdf
+        - gridcell
+        - gridcell "ven. 24 nov. 2023 13 h 38":
+          - generic "ven. 24 nov. 2023 13 h 38": 2023-11-24
+        - gridcell
+      - row "marquée d'une étoile, Maude, moi 8, Assurance 6241 Boul. Léger, Montréal // 86972-1, contient une pièce jointe, 2023-11-08, Bonjour, Vous trouverez ci-joint une copie de votre contrat d'assurance pour le terme 2023-2024..":
+        - gridcell
+        - gridcell "marquée d'une étoile, Maude, moi 8, Assurance 6241 Boul. Léger, Montréal // 86972-1, contient une pièce jointe, 2023-11-08, Bonjour, Vous trouverez ci-joint une copie de votre contrat d'assurance pour le terme 2023-2024..":
+          - checkbox "marquée d'une étoile, Maude, moi 8, Assurance 6241 Boul. Léger, Montréal // 86972-1, contient une pièce jointe, 2023-11-08, Bonjour, Vous trouverez ci-joint une copie de votre contrat d'assurance pour le terme 2023-2024.."
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Maude, moi 8":
+          - generic: Maude, moi
+          - generic: "8"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes print resto Assurance 6241 Boul. Léger, Montréal // 86972-1 - Bonjour, Vous trouverez ci-joint une copie de votre contrat d'assurance pour le terme 2023-2024.":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes print resto Assurance 6241 Boul. Léger, Montréal // 86972-1 - Bonjour, Vous trouverez ci-joint une copie de votre contrat d'assurance pour le terme 2023-2024.":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "print resto":
+              - generic: print resto
+            - generic: Assurance 6241 Boul. Léger, Montréal // 86972-1
+            - generic: "-"
+            - text: Bonjour, Vous trouverez ci-joint une copie de votre contrat d'assurance pour le terme 2023-2024.
+        - gridcell
+        - gridcell "mer. 8 nov. 2023 14 h 49":
+          - generic "mer. 8 nov. 2023 14 h 49": 2023-11-08
+        - gridcell
+      - 'row "Sysco, Collection Escalation [Ref:ACC9197976391253415341190923], contient une pièce jointe, 2023-09-19, [Sysco Pay] |[Sysco Shop] OOEUF.CA2059223 - 331 Solde total : 1184.94 Solde total en retard : 1184.94."':
+        - gridcell
+        - 'gridcell "Sysco, Collection Escalation [Ref:ACC9197976391253415341190923], contient une pièce jointe, 2023-09-19, [Sysco Pay] |[Sysco Shop] OOEUF.CA2059223 - 331 Solde total : 1184.94 Solde total en retard : 1184.94."':
+          - 'checkbox "Sysco, Collection Escalation [Ref:ACC9197976391253415341190923], contient une pièce jointe, 2023-09-19, [Sysco Pay] |[Sysco Shop] OOEUF.CA2059223 - 331 Solde total : 1184.94 Solde total en retard : 1184.94."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Sysco":
+          - generic: Sysco
+        - 'gridcell "📎 Pièces jointes 🧾 Factures & Reçus Collection Escalation [Ref:ACC9197976391253415341190923] - [Sysco Pay] |[Sysco Shop] OOEUF.CA2059223 - 331 Solde total : 1184.94 Solde total en retard : 1184.94 Pièce jointe : Billing Statement.xls"':
+          - 'link "📎 Pièces jointes 🧾 Factures & Reçus Collection Escalation [Ref:ACC9197976391253415341190923] - [Sysco Pay] |[Sysco Shop] OOEUF.CA2059223 - 331 Solde total : 1184.94 Solde total en retard : 1184.94"':
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: Collection Escalation [Ref:ACC9197976391253415341190923]
+            - generic: "-"
+            - text: "[Sysco Pay] |[Sysco Shop] OOEUF.CA2059223 - 331 Solde total : 1184.94 Solde total en retard : 1184.94"
+          - generic "Billing Statement.xls":
+            - generic: "Pièce jointe :"
+            - generic: Billing Statement.xls
+        - gridcell
+        - gridcell "mar. 19 sept. 2023 15 h 53":
+          - generic "mar. 19 sept. 2023 15 h 53": 2023-09-19
+        - gridcell
+      - 'row "Sysco, daniel, moi 5, Sysco Credit Application – Log in information, contient une pièce jointe, 2023-07-05, simard.danielbio@gmail.com> wrote: bonjour pas capable de entr/e dans le dossier Daniel Simard Cell: 514 265 8465."':
+        - gridcell
+        - 'gridcell "Sysco, daniel, moi 5, Sysco Credit Application – Log in information, contient une pièce jointe, 2023-07-05, simard.danielbio@gmail.com> wrote: bonjour pas capable de entr/e dans le dossier Daniel Simard Cell: 514 265 8465."':
+          - 'checkbox "Sysco, daniel, moi 5, Sysco Credit Application – Log in information, contient une pièce jointe, 2023-07-05, simard.danielbio@gmail.com> wrote: bonjour pas capable de entr/e dans le dossier Daniel Simard Cell: 514 265 8465."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Sysco, daniel, moi 5":
+          - generic: Sysco, daniel, moi
+          - generic: "5"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes 🧾 Factures & Reçus Sysco Credit Application – Log in information - simard.danielbio@gmail.com> wrote: bonjour pas capable de entr/e dans le dossier Daniel Simard Cell: 514 265 8465 Pièce jointe : Screenshot_20230705_144419_Contacts.jpg"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes 🧾 Factures & Reçus Sysco Credit Application – Log in information - simard.danielbio@gmail.com> wrote: bonjour pas capable de entr/e dans le dossier Daniel Simard Cell: 514 265 8465"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic "🧾 Factures & Reçus":
+              - img "🧾"
+              - text: Factures & Reçus
+            - generic: Sysco Credit Application – Log in information
+            - generic: "-"
+            - text: "simard.danielbio@gmail.com> wrote: bonjour pas capable de entr/e dans le dossier Daniel Simard Cell: 514 265 8465"
+          - generic "Screenshot_20230705_144419_Contacts.jpg":
+            - generic: "Pièce jointe :"
+            - generic: Screenshot_20230705_144419_Contacts.jpg
+        - gridcell
+        - gridcell "mer. 5 juill. 2023 14 h 44":
+          - generic "mer. 5 juill. 2023 14 h 44": 2023-07-05
+        - gridcell
+      - 'row "Chloe, moi 5, DoorDash Follow Up - Ooeuf, contient une pièce jointe, 2022-09-16, ---------- Forwarded message --------- From: Chloe Lemieux Date: Fri., Sep. 16, 2022, 11:55 Subject:."':
+        - gridcell
+        - 'gridcell "Chloe, moi 5, DoorDash Follow Up - Ooeuf, contient une pièce jointe, 2022-09-16, ---------- Forwarded message --------- From: Chloe Lemieux Date: Fri., Sep. 16, 2022, 11:55 Subject:."':
+          - 'checkbox "Chloe, moi 5, DoorDash Follow Up - Ooeuf, contient une pièce jointe, 2022-09-16, ---------- Forwarded message --------- From: Chloe Lemieux Date: Fri., Sep. 16, 2022, 11:55 Subject:."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Chloe, moi 5":
+          - generic: Chloe, moi
+          - generic: "5"
+        - 'gridcell "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes DoorDash Follow Up - Ooeuf - ---------- Forwarded message --------- From: Chloe Lemieux Date: Fri., Sep. 16, 2022, 11:55 Subject: Pièce jointe : 20220916_134242.jpg Pièce jointe : 5f19ce4bf0575.jpg Pièce jointe : 5f19ce6206013.jpg 8 autres pièces jointes"':
+          - 'link "✉️ J''ai répondu 🍔 Plateformes/DoorDash 📎 Pièces jointes DoorDash Follow Up - Ooeuf - ---------- Forwarded message --------- From: Chloe Lemieux Date: Fri., Sep. 16, 2022, 11:55 Subject:"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🍔 Plateformes/DoorDash":
+              - img "🍔"
+              - text: Plateformes/DoorDash
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: DoorDash Follow Up - Ooeuf
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Chloe Lemieux Date: Fri., Sep. 16, 2022, 11:55 Subject:"
+          - generic "20220916_134242.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 20220916_134242.jpg
+          - generic "5f19ce4bf0575.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 5f19ce4bf0575.jpg
+          - generic "5f19ce6206013.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 5f19ce6206013.jpg
+          - generic "8 autres pièces jointes":
+            - button "8 autres pièces jointes": "+8"
+        - gridcell
+        - gridcell "ven. 16 sept. 2022 13 h 46":
+          - generic "ven. 16 sept. 2022 13 h 46": 2022-09-16
+        - gridcell
+- complementary "Panneau latéral":
+  - tablist:
+    - tab "Google Agenda"
+    - tab "Google Keep"
+    - tab "Tâches"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Télécharger des modules complémentaires"
+- button "Masquer le panneau latéral":
+- generic: Page 1 sur 1

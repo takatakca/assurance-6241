@@ -1,0 +1,94 @@
+{
+  "date_reprise": "2026-10-24",
+  "compte_affiche": "Takatak Plus",
+  "navigateur": "navigateur intégré ChatGPT",
+  "methode": "Lecture de l’interface via un nouvel onglet; URL directe puis redirection vers le projet Harmony. Aucun message ou instruction envoyé. Aucune reconnexion ou modification du compte.",
+  "objectif": "Réessayer les quatre conversations en erreur le 21 octobre et rechercher les pièces des demandes 1, 6, 7, 9, 12, 18, 20, 24.",
+  "conversations_reessayees": 4,
+  "conversations_accessibles": 4,
+  "erreurs_persistantes": 0,
+  "exhaustivite_compte": false,
+  "conversations": [
+    {
+      "titre": "Finaliser dossier Harmony Movers",
+      "id": "6ac31db3-dfe4-83ea-98bd-9fadfee10767",
+      "url": "https://chatgpt.com/c/6ac31db3-dfe4-83ea-98bd-9fadfee10767",
+      "statut": "accessible_lu",
+      "extraction": "Finaliser-dossier-Harmony-Movers.txt",
+      "sha256": "ca862f2181d3d9e6c8c116e6321f1c74e5e604a13acdc26c659fedf7da580233",
+      "octets": 743,
+      "messages_utilisateur_visibles": 1,
+      "reponses_assistant_visibles": 1,
+      "separateurs_date_ui": "Sun, Oct 4 at 11:47 PM",
+      "limite_dates": "Année et fuseau non affichés dans les séparateurs; ne pas les inventer.",
+      "limite_extraction": "Extraction des textes affichés, pas export natif avec toutes branches/versions."
+    },
+    {
+      "titre": "Extraire la conversation",
+      "id": "6ac42dfd-0500-83e9-aa2b-d01af51067e0",
+      "url": "https://chatgpt.com/c/6ac42dfd-0500-83e9-aa2b-d01af51067e0",
+      "statut": "accessible_lu",
+      "extraction": "Extraire-la-conversation.txt",
+      "sha256": "699580e5d9342fbb2118bed3c1d96a5edba8470f21c379029b3f9813f184bfe6",
+      "octets": 62437,
+      "messages_utilisateur_visibles": 9,
+      "reponses_assistant_visibles": 8,
+      "separateurs_date_ui": "Mon, Oct 5 at 7:09 PM à Tue, Oct 6 at 11:51 AM",
+      "limite_dates": "Année et fuseau non affichés dans les séparateurs; ne pas les inventer.",
+      "limite_extraction": "Extraction des textes affichés, pas export natif avec toutes branches/versions. Extraire la conversation assemblée depuis deux vues DOM se recouvrant."
+    },
+    {
+      "titre": "Prepare Hearing Evidence",
+      "id": "6ac31933-c6b0-83e9-8d68-33451e0348ab",
+      "url": "https://chatgpt.com/c/6ac31933-c6b0-83e9-8d68-33451e0348ab",
+      "statut": "accessible_lu",
+      "extraction": "Prepare-Hearing-Evidence.txt",
+      "sha256": "682eda05e3acf88ae17ac3d10a0cf1cd2338871954761728e0a8dba5b14ab78b",
+      "octets": 7345,
+      "messages_utilisateur_visibles": 3,
+      "reponses_assistant_visibles": 2,
+      "separateurs_date_ui": "Sun, Oct 4 at 11:27 PM",
+      "limite_dates": "Année et fuseau non affichés dans les séparateurs; ne pas les inventer.",
+      "limite_extraction": "Extraction des textes affichés, pas export natif avec toutes branches/versions."
+    },
+    {
+      "titre": "Harmony Movers Incident",
+      "id": "6950739b-1d48-832b-ac23-bc6a0c6542f2",
+      "url": "https://chatgpt.com/c/6950739b-1d48-832b-ac23-bc6a0c6542f2",
+      "statut": "accessible_lu",
+      "extraction": "Harmony-Movers-Incident.txt",
+      "sha256": "e90e137c7c63ad48dd32488a1383614e442a7c38ed5911bf00cb60beecc6c4ab",
+      "octets": 62787,
+      "messages_utilisateur_visibles": 4,
+      "reponses_assistant_visibles": 4,
+      "separateurs_date_ui": "Sat, Dec 27 at 7:02 PM",
+      "limite_dates": "Année et fuseau non affichés dans les séparateurs; ne pas les inventer.",
+      "limite_extraction": "Extraction des textes affichés, pas export natif avec toutes branches/versions."
+    }
+  ],
+  "archives": [
+    {
+      "fichier": "99_Travail_et_collecte/Harmony_Dossier_Administratif_Complet.zip",
+      "octets": 38565753,
+      "sha256": "2d9a4acc45ec7633b6abc8a6213b248a7a2bbc0e03010b83e71bf106eead07b0",
+      "provenance_conversation": "Prepare Hearing Evidence",
+      "nature": "Archive produite par ChatGPT le 4/5 octobre selon le fil; contient des sources, extractions et analyses mélangées; chaque pièce doit être qualifiée séparément.",
+      "fichiers": 435,
+      "diffusion": "Archive originale conservée localement dans OneDrive; les PDF utiles extraits et leurs contrôles sont accessibles dans le site. Les scripts contenus dans les archives ne sont pas publiés ni exécutés."
+    },
+    {
+      "fichier": "99_Travail_et_collecte/Harmony_Movers_Sources_et_Comptabilite.zip",
+      "octets": 47646250,
+      "sha256": "e940abd4743186b762dcf3b4fcaf66f2607c815663ae7aea48e123b4e23edbdb",
+      "provenance_conversation": "Prepare Hearing Evidence",
+      "nature": "Archive produite par ChatGPT le 4/5 octobre selon le fil; contient des sources, extractions et analyses mélangées; chaque pièce doit être qualifiée séparément.",
+      "fichiers": 415,
+      "diffusion": "Archive originale conservée localement dans OneDrive; les PDF utiles extraits et leurs contrôles sont accessibles dans le site. Les scripts contenus dans les archives ne sont pas publiés ni exécutés."
+    }
+  ],
+  "lien_fieldy_repere": {
+    "url": "https://docs.google.com/document/d/1DgZRTsZ-2-KC55Uh22HVZXRO2wamG0XA9-MVHxeT3Pk/edit?usp=drivesdk",
+    "source": "Extraire la conversation, première réponse assistant",
+    "statut": "Lien lu dans ChatGPT; document Google Docs non ouvert dans ce sous-travail. Les 1 138 lignes / 164 000 caractères sont une affirmation de cette réponse, non un décompte vérifié ici."
+  }
+}

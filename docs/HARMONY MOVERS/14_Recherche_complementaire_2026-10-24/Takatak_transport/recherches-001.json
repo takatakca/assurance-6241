@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-24",
+  "profile": {
+    "id": "108479586114715400999",
+    "name": "takatak ca",
+    "email": "takatak.ca@gmail.com",
+    "nickname": null,
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ4aaUy2o3TwzWWUM3Rr71EWzWTfRfj4cekTPkDjoR8kn6Pvbuu=s96-c",
+    "workspace_id": null,
+    "workspace_name": null,
+    "workspace_picture": null
+  },
+  "searches": [
+    {
+      "query": "in:anywhere {U-Haul UHaul \"U Haul\" uhaul.com} after:2025/05/01 before:2025/07/15",
+      "result": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Action completed."
+            }
+          ],
+          "structuredContent": {
+            "message_ids": [
+              "197fec78a27b3735"
+            ],
+            "next_page_token": null
+          },
+          "isError": false
+        }
+      }
+    },
+    {
+      "query": "in:anywhere {U-Haul UHaul \"U Haul\" uhaul.com} has:attachment",
+      "result": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Action completed."
+            }
+          ],
+          "structuredContent": {
+            "message_ids": [
+              "1a156ae51922e01f",
+              "1a11c7ab3def0d91",
+              "1a119258bad3da1d",
+              "1a1191ea26878c6d",
+              "1a10e493a52f15f3",
+              "1a10d5436a58b8f3",
+              "1a0efeca53aab405",
+              "1a0ef5411e331621",
+              "1a0ef2b0bf6454d2",
+              "1a0ef2ad6a978b96",
+              "1a0ef2a9ed8ebc7d",
+              "1a0ef03adebb748d",
+              "1a0ef0158f7c54fb",
+              "1a0e9cee74951b4a",
+              "1a0e9ce3b37da7ab",
+              "1a0e9ce12cd8b4b0",
+              "1a0e9cde676f03c8",
+              "1a0e54ce2c23ee4c",
+              "1a0e5114a26b2fa4",
+              "1a0e4b489ea77365",
+              "1a0d84a8b3ec91a9",
+              "1a0d0b33686abb38",
+              "1a0d04110ea9aabb",
+              "1a0d03eb4874c84a",
+              "1a0d034bcb239873",
+              "19e6a35f2d87fe68",
+              "19e6a25fd74917a2",
+              "19e6a1cec02dd8b7",
+              "19e6a1c06da498f5",
+              "19e6a1bab4f8e5b1",
+              "19e6a1b95482f1c8",
+              "19e6a182f595e448",
+              "19e6a17a01a2a5f7",
+              "19cb1f06ba9e0acf",
+              "19cb1ecd4a7964a1",
+              "19cb13a2879f146c",
+              "199e956c0919a5c3",
+              "199d13798ff500f7",
+              "1994efc19336b5bd",
+              "1994efb183f783c8",
+              "1994ef8f5af74177",
+              "1994ef80e86fca11",
+              "1994ddc573602ad2",
+              "19885baf828ad815",
+              "197fec78a27b3735",
+              "195f3c1ba9044027",
+              "195433133f73e684",
+              "1954302cef967b11",
+              "19542c56b165ac3b",
+              "19542c4ab24e927c",
+              "19542bd328eb5777",
+              "19542a5a6a4d8507",
+              "1954299a8a9bc834",
+              "195428ff30f19fd1",
+              "1953ddaa43583c7e",
+              "1953db62ee724c1b",
+              "1953daf6a5a2e869",
+              "1953daf1c7767773",
+              "1953d7dca66df348",
+              "194f6d562b0d44e9",
+              "1947531cf9a7024d",
+              "193f891d02347bcc",
+              "193f5b129e537c2b",
+              "193f5b0a08fb042b",
+              "193f502b20a0936f",
+              "193db2d972d87317",
+              "193db2ab27ef0e0b",
+              "193db1a527b036e0",
+              "193aa53d275df077",
+              "1939f0da25f96557",
+              "19375b7bab39603f",
+              "193759ef5dfcc0a4",
+              "19356f80510ecfde",
+              "192eacb8ed57a91b",
+              "192daa72503e92fa",
+              "191609c58da90662",
+              "19019cda81c1da5d",
+              "18fedbf91d27e5a5",
+              "18ecf55dbb7e1090",
+              "18ec044527e78c77",
+              "18ea65bf62b3857f",
+              "18ad8b407ffec51e",
+              "18aaad99102d899d",
+              "18a96114f675fa4c",
+              "188250e684f86930"
+            ],
+            "next_page_token": null
+          },
+          "isError": false
+        }
+      }
+    },
+    {
+      "query": "in:anywhere {Elite Élite remorquage towing \"Rapide 2\" \"Rapide2\"} {Quadro Harmony Irwin Herwin UHaul \"U-Haul\"}",
+      "result": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Action completed."
+            }
+          ],
+          "structuredContent": {
+            "message_ids": [
+              "1a10d5436a58b8f3",
+              "1a0efeca53aab405",
+              "1a0e9cde676f03c8",
+              "19f1f7c3d28962f1",
+              "19e6a1cec02dd8b7",
+              "19cb1f06ba9e0acf",
+              "19cb1ecd4a7964a1",
+              "19cb13a2879f146c",
+              "19bdd4ee4054d178",
+              "19bc89ba8696bc80",
+              "19bc89b48f11ab70",
+              "19bc5772336b24ec",
+              "19ab6a038232c224",
+              "19a35b8de75036ea",
+              "195433133f73e684",
+              "1954302cef967b11",
+              "19542c56b165ac3b",
+              "19542bd328eb5777",
+              "1954299a8a9bc834",
+              "1953db62ee724c1b",
+              "194f6d562b0d44e9",
+              "1947531cf9a7024d",
+              "193f891d02347bcc",
+              "193f502b20a0936f",
+              "193db2d972d87317",
+              "193db1a527b036e0",
+              "191609c58da90662"
+            ],
+            "next_page_token": null
+          },
+          "isError": false
+        }
+      }
+    },
+    {
+      "query": "in:anywhere {\"5837\" \"5839\"} {bail sous-bail cession lease propriétaire landlord location occupation}",
+      "result": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Action completed."
+            }
+          ],
+          "structuredContent": {
+            "message_ids": [
+              "1a157381a8337a36",
+              "1a156ae51922e01f",
+              "1a143de19349b730",
+              "1a143219b67f6060",
+              "1a1105b2b54fa2d4",
+              "1a10f5d94ffd3098",
+              "1a10d5436a58b8f3",
+              "1a10cdb56e025ed5",
+              "1a10b85d92d61e41",
+              "1a10b6cf420c6569",
+              "1a10b627426e634e",
+              "1a10b434d69a66f4",
+              "1a0efeca53aab405",
+              "1a0ef5411e331621",
+              "1a0e9ce3b37da7ab",
+              "1a0e9ce12cd8b4b0",
+              "1a0e9cde676f03c8",
+              "1a0e5114a26b2fa4",
+              "1a0e4b489ea77365",
+              "1a0d84a8b3ec91a9",
+              "1a0d129e7a23cf2e",
+              "1a0cf835bf45a29f",
+              "1a0c680f9c0cda8a",
+              "1a0c4e0a4787b0a8",
+              "1a0c4d323da708df",
+              "19ed86335e7ad1a1",
+              "19eaf971d1774dcb",
+              "19e087f1e4a6d3b8",
+              "19cf6d0007679caf",
+              "19cd3d37325b2182",
+              "19cd3d35a513e667",
+              "19cd3c8b9725758a",
+              "19cd3a1e2b732697",
+              "19cd3a130f7b0e5e",
+              "19cd3a064644f84c",
+              "19cd39fc8564c3b4",
+              "19cd39b19f5244c9",
+              "19cd398a62a56cb1",
+              "19cd398608fa1ba1",
+              "19c348d21f8cd9bd",
+              "19aeb673c553bb18",
+              "19a084e3347fb239",
+              "19a084bb4ef9f177",
+              "19a0848eada12c15",
+              "19a0846c55bf40c8",
+              "19a038714489e045",
+              "1990b0a35660e9c3",
+              "198ecdcc51bf4304"
+            ],
+            "next_page_token": null
+          },
+          "isError": false
+        }
+      }
+    },
+    {
+      "query": "in:anywhere after:2026/10/21 {Harmony Dufourd UHaul \"U-Haul\" \"Remorquage\" \"5837\" \"5839\"}",
+      "result": {
+        "status": "fulfilled",
+        "value": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Action completed."
+            }
+          ],
+          "structuredContent": {
+            "message_ids": [
+              "1a15d7f1c9908961",
+              "1a15c2e96dd71ec1"
+            ],
+            "next_page_token": null
+          },
+          "isError": false
+        }
+      }
+    }
+  ]
+}

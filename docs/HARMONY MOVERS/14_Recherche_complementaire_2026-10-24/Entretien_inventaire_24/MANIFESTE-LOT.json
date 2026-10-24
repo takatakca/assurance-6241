@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-24",
+  "fichiers": [
+    {
+      "path": "19e847d203e73434-courriel-extrait.txt",
+      "sha256": "b90a815d78de9f85bd68855b78bd239de6289c0880c14c688910be756ec39e50",
+      "octets": 8453
+    },
+    {
+      "path": "19e847da779dcd5a-courriel-extrait.txt",
+      "sha256": "1c619ae27d049536d3d9e9d259ec1d4bb1949097eaf455813c80579f488f11f3",
+      "octets": 21788
+    },
+    {
+      "path": "CONTROLE-VISUEL.json",
+      "sha256": "40c20169bf4f997d9b368a29742e3b2362b147b6ab2cf2f80a59d64478a37ef0",
+      "octets": 1805
+    },
+    {
+      "path": "INTEGRATION-PROPOSEE.json",
+      "sha256": "0501897bec23bc8631cee205eb579a9fc5089adf5b3f0d98fd48033da7d257e6",
+      "octets": 12730
+    },
+    {
+      "path": "NOTE-DOSSIER-FISCAL-TOMMASO-NICK.md",
+      "sha256": "72523b8c63c97bdef073f7c1c1339e177c608f86f6d1119997948fd98909154c",
+      "octets": 6649
+    },
+    {
+      "path": "PROVENANCE-COURRIELS-TABLEAUX.json",
+      "sha256": "a522e92822ff29e5cc17df4f29618c49146ee15d60a5fe9fa6d1f3af4b4f8f1f",
+      "octets": 1998
+    },
+    {
+      "path": "PROVENANCE-TABLEAUX.json",
+      "sha256": "fdc2b4e193f6cf4685d48cac5be7a2f51486182aa1d4cfcb8e11b900bd6e26e3",
+      "octets": 1840
+    },
+    {
+      "path": "RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.md",
+      "sha256": "5adfb9f99faa434615f4c6b4c53763d632c4478cbe3d905d689108163a796f98",
+      "octets": 9823
+    },
+    {
+      "path": "TABLEAUX-HADMO-EXTRACTION-CELLULES.json",
+      "sha256": "d68d10996841d87b7dcd33ad13674ac1e43cc693ce3f6c2140bc0d95373c883b",
+      "octets": 86109
+    },
+    {
+      "path": "Originaux/Hadmo-version-15-janvier-2025.xlsx",
+      "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0",
+      "octets": 21268
+    },
+    {
+      "path": "Originaux/Hadmo-version-22-avril-2025.xlsx",
+      "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
+      "octets": 22799
+    },
+    {
+      "path": "Originaux/Hadmo-version-ancienne.xlsx",
+      "sha256": "56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7",
+      "octets": 14929
+    }
+  ],
+  "originaux_modifies": false
+}

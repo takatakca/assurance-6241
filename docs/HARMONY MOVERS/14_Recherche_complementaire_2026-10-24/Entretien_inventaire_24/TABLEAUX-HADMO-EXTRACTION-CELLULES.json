@@ -1,0 +1,3502 @@
+[
+  {
+    "path": "6241 Léger/04_Pieces_jointes/takatak.ca@gmail.com/19e847d203e73434__Hadmo_3621dc63-820c-4470-95be-cdb7f345317c 15 Janv 2025...xlsx",
+    "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0",
+    "feuilles": [
+      {
+        "nom": "Feuil1",
+        "lignes_non_vides": [
+          [
+            {
+              "cellule": "B2",
+              "valeur": "INDEMNIPRO"
+            }
+          ],
+          [
+            {
+              "cellule": "B3",
+              "valeur": "Sommaire dossier 24110-4833"
+            }
+          ],
+          [
+            {
+              "cellule": "B4",
+              "valeur": "Assuré: Hadmo"
+            }
+          ],
+          [
+            {
+              "cellule": "B7",
+              "valeur": "Description"
+            },
+            {
+              "cellule": "C7",
+              "valeur": "Fournisseur"
+            },
+            {
+              "cellule": "D7",
+              "valeur": "No. facture"
+            },
+            {
+              "cellule": "E7",
+              "valeur": "Date"
+            },
+            {
+              "cellule": "F7",
+              "valeur": "Montant "
+            },
+            {
+              "cellule": "G7",
+              "valeur": "Montnat"
+            },
+            {
+              "cellule": "H7",
+              "valeur": "Montnat "
+            },
+            {
+              "cellule": "I7",
+              "valeur": "Commentaires"
+            }
+          ],
+          [
+            {
+              "cellule": "F8",
+              "valeur": "réclamé"
+            },
+            {
+              "cellule": "G8",
+              "valeur": "évalué"
+            },
+            {
+              "cellule": "H8",
+              "valeur": "alloué"
+            }
+          ],
+          [
+            {
+              "cellule": "B11",
+              "valeur": "Équipements"
+            }
+          ],
+          [
+            {
+              "cellule": "A13",
+              "valeur": 1
+            },
+            {
+              "cellule": "B13",
+              "valeur": "Frigo Pâtisserie IFI-DDSG-6"
+            },
+            {
+              "cellule": "C13",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D13",
+              "valeur": "Devis 259"
+            },
+            {
+              "cellule": "E13",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F13",
+              "valeur": 11500
+            },
+            {
+              "cellule": "G13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "H13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "I13",
+              "valeur": "Remplacement de compresseur $2,615"
+            }
+          ],
+          [
+            {
+              "cellule": "I14",
+              "valeur": "recommnedation  de Frigo de remplacer"
+            }
+          ],
+          [
+            {
+              "cellule": "A17",
+              "valeur": 2
+            },
+            {
+              "cellule": "B17",
+              "valeur": "Machine à café Curtis"
+            },
+            {
+              "cellule": "C17",
+              "valeur": "Frigo-Spec-Remplacemet"
+            },
+            {
+              "cellule": "D17",
+              "valeur": "Devis 260"
+            },
+            {
+              "cellule": "E17",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "G17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "H17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "I17",
+              "valeur": "Module de remplissage et valve"
+            }
+          ],
+          [
+            {
+              "cellule": "I18",
+              "valeur": "$1,485 remplace pour $1,200 pas de facture"
+            }
+          ],
+          [
+            {
+              "cellule": "A19",
+              "valeur": 3
+            },
+            {
+              "cellule": "B19",
+              "valeur": "Chambre de congélation"
+            },
+            {
+              "cellule": "C19",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D19",
+              "valeur": "A290"
+            },
+            {
+              "cellule": "E19",
+              "valeur": "7 juillet,2024"
+            },
+            {
+              "cellule": "F19",
+              "valeur": 2960
+            },
+            {
+              "cellule": "G19",
+              "valeur": 2960
+            },
+            {
+              "cellule": "H19",
+              "valeur": 2960
+            },
+            {
+              "cellule": "I19",
+              "valeur": "Compresseur filtre,thermostat"
+            }
+          ],
+          [
+            {
+              "cellule": "C21",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D21",
+              "valeur": "A266"
+            },
+            {
+              "cellule": "E21",
+              "valeur": "10 juillet,2024"
+            },
+            {
+              "cellule": "F21",
+              "valeur": 8320
+            },
+            {
+              "cellule": "G21",
+              "valeur": 8320
+            },
+            {
+              "cellule": "H21",
+              "valeur": 8320
+            },
+            {
+              "cellule": "I21",
+              "valeur": "Installé unité air"
+            }
+          ],
+          [
+            {
+              "cellule": "A22",
+              "valeur": 4
+            },
+            {
+              "cellule": "B22",
+              "valeur": "Four Tim Horton"
+            },
+            {
+              "cellule": "C22",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D22",
+              "valeur": "Devis 263"
+            },
+            {
+              "cellule": "E22",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F22",
+              "valeur": 4635
+            },
+            {
+              "cellule": "H22",
+              "valeur": 0
+            },
+            {
+              "cellule": "I22",
+              "valeur": "Sonde de temp. et plaque de contrôle"
+            }
+          ],
+          [
+            {
+              "cellule": "A24",
+              "valeur": 5
+            },
+            {
+              "cellule": "B24",
+              "valeur": "Frigo une porte"
+            },
+            {
+              "cellule": "C24",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D24",
+              "valeur": "A320"
+            },
+            {
+              "cellule": "E24",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F24",
+              "valeur": 1705
+            },
+            {
+              "cellule": "G24",
+              "valeur": 1705
+            },
+            {
+              "cellule": "H24",
+              "valeur": 1705
+            },
+            {
+              "cellule": "I24",
+              "valeur": "Compresseur "
+            }
+          ],
+          [
+            {
+              "cellule": "A26",
+              "valeur": 6
+            },
+            {
+              "cellule": "B26",
+              "valeur": "Machine cocktail taylor"
+            },
+            {
+              "cellule": "C26",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D26",
+              "valeur": "A294"
+            },
+            {
+              "cellule": "E26",
+              "valeur": "29 juillet, 2024"
+            },
+            {
+              "cellule": "F26",
+              "valeur": 3850
+            },
+            {
+              "cellule": "G26",
+              "valeur": 3850
+            },
+            {
+              "cellule": "H26",
+              "valeur": 3850
+            },
+            {
+              "cellule": "I26",
+              "valeur": "Moteur agitateur et compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "A28",
+              "valeur": 7
+            },
+            {
+              "cellule": "B28",
+              "valeur": "Electro Freeze "
+            },
+            {
+              "cellule": "C28",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D28",
+              "valeur": "Devis 264"
+            },
+            {
+              "cellule": "E28",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F28",
+              "valeur": 5990
+            },
+            {
+              "cellule": "G28",
+              "valeur": 5990
+            },
+            {
+              "cellule": "H28",
+              "valeur": 0
+            },
+            {
+              "cellule": "I28",
+              "valeur": "Compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "I29",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A30",
+              "valeur": 8
+            },
+            {
+              "cellule": "B30",
+              "valeur": "Machine à Slush"
+            },
+            {
+              "cellule": "C30",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D30",
+              "valeur": "A281"
+            },
+            {
+              "cellule": "E30",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F30",
+              "valeur": 2340
+            },
+            {
+              "cellule": "G30",
+              "valeur": 2340
+            },
+            {
+              "cellule": "H30",
+              "valeur": 2340
+            },
+            {
+              "cellule": "I30",
+              "valeur": "Contrôle électronique"
+            }
+          ],
+          [
+            {
+              "cellule": "A32",
+              "valeur": 9
+            },
+            {
+              "cellule": "B32",
+              "valeur": "Four à Pizza"
+            },
+            {
+              "cellule": "C32",
+              "valeur": "Frigo-Spec-CKS"
+            },
+            {
+              "cellule": "D32",
+              "valeur": "Devis 265"
+            },
+            {
+              "cellule": "E32",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F32",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "G32",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "H32",
+              "valeur": 0
+            },
+            {
+              "cellule": "I32",
+              "valeur": "Blowers, Pilot. Sensor de sécurité"
+            }
+          ],
+          [
+            {
+              "cellule": "D33",
+              "valeur": "N82145"
+            }
+          ],
+          [
+            {
+              "cellule": "I34",
+              "valeur": "Frigo était  à $7,900 et CKS est de $6,700.68"
+            }
+          ],
+          [
+            {
+              "cellule": "I35",
+              "valeur": "Pas de facture"
+            }
+          ],
+          [
+            {
+              "cellule": "C36",
+              "valeur": "Auger"
+            },
+            {
+              "cellule": "D36",
+              "valeur": 12786
+            },
+            {
+              "cellule": "E36",
+              "valeur": "18 avril,2024"
+            },
+            {
+              "cellule": "F36",
+              "valeur": 308.75
+            },
+            {
+              "cellule": "G36",
+              "valeur": 308.75
+            },
+            {
+              "cellule": "H36",
+              "valeur": 0
+            },
+            {
+              "cellule": "I36",
+              "valeur": "Avant la date de perte"
+            }
+          ],
+          [
+            {
+              "cellule": "A38",
+              "valeur": 10
+            },
+            {
+              "cellule": "B38",
+              "valeur": "Machine Crème glacée"
+            },
+            {
+              "cellule": "C38",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D38",
+              "valeur": "A280"
+            },
+            {
+              "cellule": "E38",
+              "valeur": "15 juillet,A280"
+            },
+            {
+              "cellule": "F38",
+              "valeur": 5990
+            },
+            {
+              "cellule": "G38",
+              "valeur": 5990
+            },
+            {
+              "cellule": "H38",
+              "valeur": 5990
+            },
+            {
+              "cellule": "I38",
+              "valeur": "Remplacement compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "A39",
+              "valeur": 11
+            },
+            {
+              "cellule": "B39",
+              "valeur": "Four À Pizza"
+            },
+            {
+              "cellule": "C39",
+              "valeur": "Estimé"
+            },
+            {
+              "cellule": "F39",
+              "valeur": 29500
+            },
+            {
+              "cellule": "G39",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "I39",
+              "valeur": "Aucune expertise perte totale remplacement"
+            }
+          ],
+          [
+            {
+              "cellule": "C40",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D40",
+              "valeur": "A315"
+            },
+            {
+              "cellule": "E40",
+              "valeur": "22 sept,2024"
+            },
+            {
+              "cellule": "F40",
+              "valeur": 7900
+            },
+            {
+              "cellule": "G40",
+              "valeur": 7900
+            },
+            {
+              "cellule": "H40",
+              "valeur": 7900
+            },
+            {
+              "cellule": "I40",
+              "valeur": "Réparation"
+            }
+          ],
+          [
+            {
+              "cellule": "A41",
+              "valeur": 12
+            },
+            {
+              "cellule": "B41",
+              "valeur": "Frigidaire patisserie Hydro-Coll"
+            },
+            {
+              "cellule": "C41",
+              "valeur": "Sinco"
+            },
+            {
+              "cellule": "D41",
+              "valeur": "Estimé"
+            },
+            {
+              "cellule": "E41",
+              "valeur": "?"
+            },
+            {
+              "cellule": "F41",
+              "valeur": 15933
+            },
+            {
+              "cellule": "G41",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "I41",
+              "valeur": "Déclaré perte totale estimé seulement"
+            }
+          ],
+          [
+            {
+              "cellule": "I42",
+              "valeur": "pas de facture"
+            }
+          ],
+          [
+            {
+              "cellule": "A43",
+              "valeur": 13
+            },
+            {
+              "cellule": "B43",
+              "valeur": "Chambre froide"
+            },
+            {
+              "cellule": "C43",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D43",
+              "valeur": "Devis 268"
+            },
+            {
+              "cellule": "E43",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F43",
+              "valeur": 1700
+            },
+            {
+              "cellule": "G43",
+              "valeur": 1700
+            },
+            {
+              "cellule": "H43",
+              "valeur": 0
+            },
+            {
+              "cellule": "I43",
+              "valeur": "Compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "A45",
+              "valeur": 14
+            },
+            {
+              "cellule": "B45",
+              "valeur": "Installation unité AC"
+            },
+            {
+              "cellule": "C45",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D45",
+              "valeur": "A245"
+            },
+            {
+              "cellule": "E45",
+              "valeur": "26 juin,2024"
+            },
+            {
+              "cellule": "F45",
+              "valeur": 1145
+            },
+            {
+              "cellule": "G45",
+              "valeur": 1145
+            },
+            {
+              "cellule": "H45",
+              "valeur": 0
+            },
+            {
+              "cellule": "I45",
+              "valeur": "Pourquoi le rempl. du AC?"
+            }
+          ],
+          [
+            {
+              "cellule": "A47",
+              "valeur": 15
+            },
+            {
+              "cellule": "B47",
+              "valeur": "Conditioner heat pump"
+            },
+            {
+              "cellule": "C47",
+              "valeur": "Estimation"
+            },
+            {
+              "cellule": "F47",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "G47",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "H47",
+              "valeur": 0
+            },
+            {
+              "cellule": "I47",
+              "valeur": "Attend plus d'explications"
+            }
+          ],
+          [
+            {
+              "cellule": "A49",
+              "valeur": 16
+            },
+            {
+              "cellule": "B49",
+              "valeur": "Inspection"
+            },
+            {
+              "cellule": "C49",
+              "valeur": "Frimabec"
+            },
+            {
+              "cellule": "D49",
+              "valeur": 6371
+            },
+            {
+              "cellule": "E49",
+              "valeur": "6  oct.,2024"
+            },
+            {
+              "cellule": "F49",
+              "valeur": 408.16
+            },
+            {
+              "cellule": "G49",
+              "valeur": 408.16
+            },
+            {
+              "cellule": "H49",
+              "valeur": 408.16
+            }
+          ],
+          [
+            {
+              "cellule": "I50",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "B51",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "F51",
+              "valeur": "=SUM(F13:F50)"
+            },
+            {
+              "cellule": "G51",
+              "valeur": "=SUM(G13:G50)"
+            },
+            {
+              "cellule": "H51",
+              "valeur": "=SUM(H13:H50)"
+            }
+          ],
+          [
+            {
+              "cellule": "B56",
+              "valeur": "Marchandise"
+            },
+            {
+              "cellule": "F56",
+              "valeur": 31420.08
+            },
+            {
+              "cellule": "G56",
+              "valeur": 25136.06
+            },
+            {
+              "cellule": "H56",
+              "valeur": 25136.06
+            },
+            {
+              "cellule": "I56",
+              "valeur": "allocation 80%"
+            }
+          ],
+          [
+            {
+              "cellule": "B59",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "F59",
+              "valeur": "=SUM(F51:F58)"
+            },
+            {
+              "cellule": "G59",
+              "valeur": "=SUM(G51:G58)"
+            },
+            {
+              "cellule": "H59",
+              "valeur": "=SUM(H51:H58)"
+            }
+          ],
+          [
+            {
+              "cellule": "B61",
+              "valeur": "Moins franchise"
+            },
+            {
+              "cellule": "H61",
+              "valeur": -1000
+            }
+          ],
+          [
+            {
+              "cellule": "B63",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "H63",
+              "valeur": "=SUM(H59:H62)"
+            }
+          ],
+          [
+            {
+              "cellule": "B65",
+              "valeur": "Moins paiement provisoire no.1"
+            },
+            {
+              "cellule": "H65",
+              "valeur": -24136.06
+            }
+          ],
+          [
+            {
+              "cellule": "B67",
+              "valeur": "Total "
+            },
+            {
+              "cellule": "H67",
+              "valeur": "=SUM(H63:H66)"
+            },
+            {
+              "cellule": "I67",
+              "valeur": "Paiement recommandé no.2"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "path": "6241 Léger/04_Pieces_jointes/takatak.ca@gmail.com/19e847da779dcd5a__Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
+    "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
+    "feuilles": [
+      {
+        "nom": "Feuil1",
+        "lignes_non_vides": [
+          [
+            {
+              "cellule": "B2",
+              "valeur": "INDEMNIPRO"
+            }
+          ],
+          [
+            {
+              "cellule": "B3",
+              "valeur": "Sommaire dossier 24110-4833"
+            }
+          ],
+          [
+            {
+              "cellule": "B4",
+              "valeur": "Assuré: Hadmo"
+            }
+          ],
+          [
+            {
+              "cellule": "B7",
+              "valeur": "Description"
+            },
+            {
+              "cellule": "C7",
+              "valeur": "Fournisseur"
+            },
+            {
+              "cellule": "D7",
+              "valeur": "No. facture"
+            },
+            {
+              "cellule": "E7",
+              "valeur": "Date"
+            },
+            {
+              "cellule": "F7",
+              "valeur": "Montant "
+            },
+            {
+              "cellule": "G7",
+              "valeur": "Montnat"
+            },
+            {
+              "cellule": "H7",
+              "valeur": "Montnat "
+            },
+            {
+              "cellule": "I7",
+              "valeur": "3 Juillet"
+            },
+            {
+              "cellule": "J7",
+              "valeur": "8 Juillet"
+            },
+            {
+              "cellule": "K7",
+              "valeur": "Réserve"
+            },
+            {
+              "cellule": "L7",
+              "valeur": "Commentaires"
+            }
+          ],
+          [
+            {
+              "cellule": "F8",
+              "valeur": "réclamé"
+            },
+            {
+              "cellule": "G8",
+              "valeur": "évalué"
+            },
+            {
+              "cellule": "H8",
+              "valeur": "alloué"
+            }
+          ],
+          [
+            {
+              "cellule": "B11",
+              "valeur": "Équipements"
+            }
+          ],
+          [
+            {
+              "cellule": "A13",
+              "valeur": 1
+            },
+            {
+              "cellule": "B13",
+              "valeur": "Frigo Pâtisserie IFI-DDSG-6"
+            },
+            {
+              "cellule": "C13",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D13",
+              "valeur": "Devis 259"
+            },
+            {
+              "cellule": "E13",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "G13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "H13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "K13",
+              "valeur": 11500
+            },
+            {
+              "cellule": "L13",
+              "valeur": "Remplacement de compresseur $2,615"
+            }
+          ],
+          [
+            {
+              "cellule": "F14",
+              "valeur": 11500
+            },
+            {
+              "cellule": "L14",
+              "valeur": "recommnedation  de Frigo de remplacer"
+            }
+          ],
+          [
+            {
+              "cellule": "L15",
+              "valeur": "Attends facturRemplacement "
+            }
+          ],
+          [
+            {
+              "cellule": "A17",
+              "valeur": "2A"
+            },
+            {
+              "cellule": "B17",
+              "valeur": "Machine à café Curtis"
+            },
+            {
+              "cellule": "D17",
+              "valeur": "Devis 260"
+            },
+            {
+              "cellule": "E17",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "G17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "H17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "L17",
+              "valeur": "Module de remplissage et valve"
+            }
+          ],
+          [
+            {
+              "cellule": "A18",
+              "valeur": "2B"
+            },
+            {
+              "cellule": "B18",
+              "valeur": "Kurig"
+            },
+            {
+              "cellule": "C18",
+              "valeur": "Frigo-Spec-Remplacemet"
+            },
+            {
+              "cellule": "F18",
+              "valeur": 2690.42
+            },
+            {
+              "cellule": "G18",
+              "valeur": 2690.42
+            },
+            {
+              "cellule": "K18",
+              "valeur": 2700
+            },
+            {
+              "cellule": "L18",
+              "valeur": "Attends facture"
+            }
+          ],
+          [
+            {
+              "cellule": "A20",
+              "valeur": 3
+            },
+            {
+              "cellule": "B20",
+              "valeur": "Chambre de congélation"
+            },
+            {
+              "cellule": "C20",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D20",
+              "valeur": "A290"
+            },
+            {
+              "cellule": "E20",
+              "valeur": "7 juillet,2024"
+            },
+            {
+              "cellule": "F20",
+              "valeur": 2960
+            },
+            {
+              "cellule": "G20",
+              "valeur": 2960
+            },
+            {
+              "cellule": "H20",
+              "valeur": 2960
+            },
+            {
+              "cellule": "L20",
+              "valeur": "Compresseur filtre,thermostat"
+            }
+          ],
+          [
+            {
+              "cellule": "B22",
+              "valeur": "Chambre de congélation"
+            },
+            {
+              "cellule": "C22",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D22",
+              "valeur": "A266"
+            },
+            {
+              "cellule": "E22",
+              "valeur": "10 juillet,2024"
+            },
+            {
+              "cellule": "F22",
+              "valeur": 8320
+            },
+            {
+              "cellule": "G22",
+              "valeur": 8320
+            },
+            {
+              "cellule": "H22",
+              "valeur": 8320
+            },
+            {
+              "cellule": "L22",
+              "valeur": "Installé unité air"
+            }
+          ],
+          [
+            {
+              "cellule": "A23",
+              "valeur": 4
+            },
+            {
+              "cellule": "B23",
+              "valeur": "Four Tim Horton"
+            },
+            {
+              "cellule": "C23",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D23",
+              "valeur": "Devis 263"
+            },
+            {
+              "cellule": "E23",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F23",
+              "valeur": 4635
+            },
+            {
+              "cellule": "G23",
+              "valeur": 4635
+            },
+            {
+              "cellule": "H23",
+              "valeur": 4635
+            },
+            {
+              "cellule": "K23",
+              "valeur": 4700
+            },
+            {
+              "cellule": "L23",
+              "valeur": "Sonde de temp. et plaque de contrôle"
+            }
+          ],
+          [
+            {
+              "cellule": "F24",
+              "valeur": 30118.46
+            },
+            {
+              "cellule": "K24",
+              "valeur": 30000
+            },
+            {
+              "cellule": "L24",
+              "valeur": "L'assuré réclame perte totale aucune expertise"
+            }
+          ],
+          [
+            {
+              "cellule": "A25",
+              "valeur": 5
+            },
+            {
+              "cellule": "B25",
+              "valeur": "Frigo une porte"
+            },
+            {
+              "cellule": "C25",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D25",
+              "valeur": "A320"
+            },
+            {
+              "cellule": "E25",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F25",
+              "valeur": 1705
+            },
+            {
+              "cellule": "G25",
+              "valeur": 1705
+            },
+            {
+              "cellule": "H25",
+              "valeur": 1705
+            }
+          ],
+          [
+            {
+              "cellule": "A27",
+              "valeur": 6
+            },
+            {
+              "cellule": "B27",
+              "valeur": "Machine cocktail taylor"
+            },
+            {
+              "cellule": "C27",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D27",
+              "valeur": "A294"
+            },
+            {
+              "cellule": "E27",
+              "valeur": "29 juillet, 2024"
+            },
+            {
+              "cellule": "F27",
+              "valeur": 3850
+            },
+            {
+              "cellule": "G27",
+              "valeur": 3850
+            },
+            {
+              "cellule": "H27",
+              "valeur": 3850
+            },
+            {
+              "cellule": "L27",
+              "valeur": "Moteur agitateur et compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "A29",
+              "valeur": 7
+            },
+            {
+              "cellule": "B29",
+              "valeur": "Electro Freeze Electro freeze"
+            },
+            {
+              "cellule": "C29",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D29",
+              "valeur": "Devis 264"
+            },
+            {
+              "cellule": "E29",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F29",
+              "valeur": 5990
+            },
+            {
+              "cellule": "G29",
+              "valeur": 5990
+            },
+            {
+              "cellule": "H29",
+              "valeur": 5990
+            },
+            {
+              "cellule": "L29",
+              "valeur": "Selon assuré nil"
+            }
+          ],
+          [
+            {
+              "cellule": "B30",
+              "valeur": "(creme glacé)"
+            }
+          ],
+          [
+            {
+              "cellule": "A31",
+              "valeur": 8
+            },
+            {
+              "cellule": "B31",
+              "valeur": "Machine à Slush taylor"
+            },
+            {
+              "cellule": "C31",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D31",
+              "valeur": "A281"
+            },
+            {
+              "cellule": "E31",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F31",
+              "valeur": 2340
+            },
+            {
+              "cellule": "G31",
+              "valeur": 2340
+            },
+            {
+              "cellule": "H31",
+              "valeur": 2340
+            },
+            {
+              "cellule": "L31",
+              "valeur": "Contrôle électronique"
+            }
+          ],
+          [
+            {
+              "cellule": "A33",
+              "valeur": 9
+            },
+            {
+              "cellule": "B33",
+              "valeur": "Four à Pizza"
+            },
+            {
+              "cellule": "C33",
+              "valeur": "Frigo-Spec-CKS"
+            },
+            {
+              "cellule": "D33",
+              "valeur": "Devis 265"
+            },
+            {
+              "cellule": "E33",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F33",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "G33",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "I33",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "L33",
+              "valeur": "Blowers, Pilot. Sensor de sécurité"
+            }
+          ],
+          [
+            {
+              "cellule": "D34",
+              "valeur": "N82145"
+            },
+            {
+              "cellule": "L34",
+              "valeur": "haut fonctionnel $5,000"
+            }
+          ],
+          [
+            {
+              "cellule": "L35",
+              "valeur": " CKS a fait le travail pour $6,700.68"
+            }
+          ],
+          [
+            {
+              "cellule": "L36",
+              "valeur": "Pas de facture"
+            }
+          ],
+          [
+            {
+              "cellule": "C37",
+              "valeur": "Auger"
+            },
+            {
+              "cellule": "D37",
+              "valeur": 12786
+            },
+            {
+              "cellule": "E37",
+              "valeur": "18 avril,2024"
+            },
+            {
+              "cellule": "F37",
+              "valeur": 308.75
+            },
+            {
+              "cellule": "G37",
+              "valeur": 308.75
+            },
+            {
+              "cellule": "H37",
+              "valeur": 0
+            },
+            {
+              "cellule": "L37",
+              "valeur": "Avant la date de perte"
+            }
+          ],
+          [
+            {
+              "cellule": "A39",
+              "valeur": 10
+            },
+            {
+              "cellule": "B39",
+              "valeur": "Machine Crème glacée"
+            },
+            {
+              "cellule": "C39",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D39",
+              "valeur": "A280"
+            },
+            {
+              "cellule": "E39",
+              "valeur": "15 juillet,A280"
+            },
+            {
+              "cellule": "F39",
+              "valeur": 5990
+            },
+            {
+              "cellule": "G39",
+              "valeur": 0
+            },
+            {
+              "cellule": "H39",
+              "valeur": 0
+            },
+            {
+              "cellule": "L39",
+              "valeur": "Ne reclame pas dédoublement"
+            }
+          ],
+          [
+            {
+              "cellule": "A40",
+              "valeur": 11
+            },
+            {
+              "cellule": "B40",
+              "valeur": "Four À Pizza"
+            },
+            {
+              "cellule": "C40",
+              "valeur": "Estimé"
+            },
+            {
+              "cellule": "F40",
+              "valeur": 29472.24
+            },
+            {
+              "cellule": "G40",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "I40",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "K40",
+              "valeur": 30000
+            },
+            {
+              "cellule": "L40",
+              "valeur": "Perte Totale usagée besoin d'un rapport d'un technicien"
+            }
+          ],
+          [
+            {
+              "cellule": "L41",
+              "valeur": "Module de gaz non fontionnel (CKS)"
+            }
+          ],
+          [
+            {
+              "cellule": "C42",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D42",
+              "valeur": "A315"
+            },
+            {
+              "cellule": "E42",
+              "valeur": "22 sept,2024"
+            },
+            {
+              "cellule": "F42",
+              "valeur": 7900
+            },
+            {
+              "cellule": "G42",
+              "valeur": 7900
+            },
+            {
+              "cellule": "H42",
+              "valeur": 7900
+            },
+            {
+              "cellule": "L42",
+              "valeur": "Réparation"
+            }
+          ],
+          [
+            {
+              "cellule": "A44",
+              "valeur": 12
+            },
+            {
+              "cellule": "B44",
+              "valeur": "Frigidaire patisserie Hydro-Coll (2)"
+            },
+            {
+              "cellule": "C44",
+              "valeur": "Sinco"
+            },
+            {
+              "cellule": "D44",
+              "valeur": "Estimé"
+            },
+            {
+              "cellule": "E44",
+              "valeur": "?"
+            },
+            {
+              "cellule": "F44",
+              "valeur": 15933
+            },
+            {
+              "cellule": "G44",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "K44",
+              "valeur": 16000
+            },
+            {
+              "cellule": "L44",
+              "valeur": "Attends facture et nous avons besoin"
+            }
+          ],
+          [
+            {
+              "cellule": "L45",
+              "valeur": "les commenatires du techicien."
+            }
+          ],
+          [
+            {
+              "cellule": "A46",
+              "valeur": 13
+            },
+            {
+              "cellule": "B46",
+              "valeur": "Chambre froide"
+            },
+            {
+              "cellule": "C46",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D46",
+              "valeur": "Devis 268"
+            },
+            {
+              "cellule": "E46",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "G46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "H46",
+              "valeur": 0
+            },
+            {
+              "cellule": "J46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "K46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "L46",
+              "valeur": "Compresseur attends la facture"
+            }
+          ],
+          [
+            {
+              "cellule": "A48",
+              "valeur": 14
+            },
+            {
+              "cellule": "B48",
+              "valeur": "Installation unité AC"
+            },
+            {
+              "cellule": "C48",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D48",
+              "valeur": "A245"
+            },
+            {
+              "cellule": "E48",
+              "valeur": "26 juin,2024"
+            },
+            {
+              "cellule": "F48",
+              "valeur": 1145
+            },
+            {
+              "cellule": "G48",
+              "valeur": 1145
+            },
+            {
+              "cellule": "H48",
+              "valeur": 1145
+            },
+            {
+              "cellule": "L48",
+              "valeur": "Voir commenatires de l'assuré"
+            }
+          ],
+          [
+            {
+              "cellule": "A50",
+              "valeur": "14A"
+            },
+            {
+              "cellule": "B50",
+              "valeur": "Conditioner heat pump plus inst."
+            },
+            {
+              "cellule": "C50",
+              "valeur": "Estimation"
+            },
+            {
+              "cellule": "F50",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "G50",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "H50",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "L50",
+              "valeur": "Attend plus d'explications "
+            }
+          ],
+          [
+            {
+              "cellule": "A52",
+              "valeur": 16
+            },
+            {
+              "cellule": "B52",
+              "valeur": "Inspection"
+            },
+            {
+              "cellule": "C52",
+              "valeur": "Frimabec"
+            },
+            {
+              "cellule": "D52",
+              "valeur": 6371
+            },
+            {
+              "cellule": "E52",
+              "valeur": "6  oct.,2024"
+            },
+            {
+              "cellule": "F52",
+              "valeur": 408.16
+            },
+            {
+              "cellule": "G52",
+              "valeur": 408.16
+            },
+            {
+              "cellule": "H52",
+              "valeur": 408.16
+            }
+          ],
+          [
+            {
+              "cellule": "B53",
+              "valeur": "Déplacements techniciens"
+            },
+            {
+              "cellule": "C53",
+              "valeur": "Choquette CKS"
+            },
+            {
+              "cellule": "E53",
+              "valeur": "Aout 2024"
+            },
+            {
+              "cellule": "F53",
+              "valeur": 7704.1
+            },
+            {
+              "cellule": "G53",
+              "valeur": 7704.1
+            },
+            {
+              "cellule": "H53",
+              "valeur": 7704.1
+            },
+            {
+              "cellule": "K53",
+              "valeur": 0
+            }
+          ],
+          [
+            {
+              "cellule": "B55",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "F55",
+              "valeur": "=SUM(F13:F54)"
+            },
+            {
+              "cellule": "G55",
+              "valeur": "=SUM(G13:G54)"
+            },
+            {
+              "cellule": "H55",
+              "valeur": "=SUM(H13:H54)"
+            },
+            {
+              "cellule": "I55",
+              "valeur": "=SUM(I26:I54)"
+            },
+            {
+              "cellule": "J55",
+              "valeur": "=SUM(J26:J54)"
+            },
+            {
+              "cellule": "K55",
+              "valeur": "=SUM(K20:K54)"
+            }
+          ],
+          [
+            {
+              "cellule": "B60",
+              "valeur": "Marchandise"
+            },
+            {
+              "cellule": "F60",
+              "valeur": 31420.08
+            },
+            {
+              "cellule": "G60",
+              "valeur": 25136.06
+            },
+            {
+              "cellule": "H60",
+              "valeur": 25136.06
+            },
+            {
+              "cellule": "L60",
+              "valeur": "allocation 80% attends rapport de WMM"
+            }
+          ],
+          [
+            {
+              "cellule": "B63",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "F63",
+              "valeur": "=SUM(F55:F62)"
+            },
+            {
+              "cellule": "G63",
+              "valeur": "=SUM(G55:G62)"
+            },
+            {
+              "cellule": "H63",
+              "valeur": "=SUM(H55:H62)"
+            },
+            {
+              "cellule": "I63",
+              "valeur": "=SUM(I55:I62)"
+            },
+            {
+              "cellule": "J63",
+              "valeur": "=SUM(J55:J62)"
+            }
+          ],
+          [
+            {
+              "cellule": "B65",
+              "valeur": "Moins franchise"
+            },
+            {
+              "cellule": "H65",
+              "valeur": -1000
+            },
+            {
+              "cellule": "I65",
+              "valeur": -1000
+            },
+            {
+              "cellule": "J65",
+              "valeur": -1000
+            }
+          ],
+          [
+            {
+              "cellule": "B67",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "H67",
+              "valeur": "=SUM(H63:H66)"
+            },
+            {
+              "cellule": "I67",
+              "valeur": "=SUM(I63:I66)"
+            },
+            {
+              "cellule": "J67",
+              "valeur": "=SUM(J63:J66)"
+            }
+          ],
+          [
+            {
+              "cellule": "B69",
+              "valeur": "Moins paiement provisoire no.1"
+            },
+            {
+              "cellule": "H69",
+              "valeur": -24136.06
+            }
+          ],
+          [
+            {
+              "cellule": "B71",
+              "valeur": "Moins paiement provisoire no.2"
+            },
+            {
+              "cellule": "H71",
+              "valeur": -37288.16
+            }
+          ],
+          [
+            {
+              "cellule": "B73",
+              "valeur": "Indenité no.3"
+            },
+            {
+              "cellule": "H73",
+              "valeur": "=SUM(H67:H72)"
+            },
+            {
+              "cellule": "I73",
+              "valeur": "=SUM(I67:I72)"
+            },
+            {
+              "cellule": "J73",
+              "valeur": "=SUM(J67:J72)"
+            },
+            {
+              "cellule": "K73",
+              "valeur": "=SUM(K55:K72)"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
+    "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
+    "feuilles": [
+      {
+        "nom": "Feuil1",
+        "lignes_non_vides": [
+          [
+            {
+              "cellule": "B2",
+              "valeur": "INDEMNIPRO"
+            }
+          ],
+          [
+            {
+              "cellule": "B3",
+              "valeur": "Sommaire dossier 24110-4833"
+            }
+          ],
+          [
+            {
+              "cellule": "B4",
+              "valeur": "Assuré: Hadmo"
+            }
+          ],
+          [
+            {
+              "cellule": "B7",
+              "valeur": "Description"
+            },
+            {
+              "cellule": "C7",
+              "valeur": "Fournisseur"
+            },
+            {
+              "cellule": "D7",
+              "valeur": "No. facture"
+            },
+            {
+              "cellule": "E7",
+              "valeur": "Date"
+            },
+            {
+              "cellule": "F7",
+              "valeur": "Montant "
+            },
+            {
+              "cellule": "G7",
+              "valeur": "Montnat"
+            },
+            {
+              "cellule": "H7",
+              "valeur": "Montnat "
+            },
+            {
+              "cellule": "I7",
+              "valeur": "3 Juillet"
+            },
+            {
+              "cellule": "J7",
+              "valeur": "8 Juillet"
+            },
+            {
+              "cellule": "K7",
+              "valeur": "Réserve"
+            },
+            {
+              "cellule": "L7",
+              "valeur": "Commentaires"
+            }
+          ],
+          [
+            {
+              "cellule": "F8",
+              "valeur": "réclamé"
+            },
+            {
+              "cellule": "G8",
+              "valeur": "évalué"
+            },
+            {
+              "cellule": "H8",
+              "valeur": "alloué"
+            }
+          ],
+          [
+            {
+              "cellule": "B11",
+              "valeur": "Équipements"
+            }
+          ],
+          [
+            {
+              "cellule": "A13",
+              "valeur": 1
+            },
+            {
+              "cellule": "B13",
+              "valeur": "Frigo Pâtisserie IFI-DDSG-6"
+            },
+            {
+              "cellule": "C13",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D13",
+              "valeur": "Devis 259"
+            },
+            {
+              "cellule": "E13",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "G13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "H13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "K13",
+              "valeur": 11500
+            },
+            {
+              "cellule": "L13",
+              "valeur": "Remplacement de compresseur $2,615"
+            }
+          ],
+          [
+            {
+              "cellule": "F14",
+              "valeur": 11500
+            },
+            {
+              "cellule": "L14",
+              "valeur": "recommnedation  de Frigo de remplacer"
+            }
+          ],
+          [
+            {
+              "cellule": "L15",
+              "valeur": "Attends facturRemplacement "
+            }
+          ],
+          [
+            {
+              "cellule": "A17",
+              "valeur": "2A"
+            },
+            {
+              "cellule": "B17",
+              "valeur": "Machine à café Curtis"
+            },
+            {
+              "cellule": "D17",
+              "valeur": "Devis 260"
+            },
+            {
+              "cellule": "E17",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "G17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "H17",
+              "valeur": 1200
+            },
+            {
+              "cellule": "L17",
+              "valeur": "Module de remplissage et valve"
+            }
+          ],
+          [
+            {
+              "cellule": "A18",
+              "valeur": "2B"
+            },
+            {
+              "cellule": "B18",
+              "valeur": "Kurig"
+            },
+            {
+              "cellule": "C18",
+              "valeur": "Frigo-Spec-Remplacemet"
+            },
+            {
+              "cellule": "F18",
+              "valeur": 2690.42
+            },
+            {
+              "cellule": "G18",
+              "valeur": 2690.42
+            },
+            {
+              "cellule": "K18",
+              "valeur": 2700
+            },
+            {
+              "cellule": "L18",
+              "valeur": "Attends facture"
+            }
+          ],
+          [
+            {
+              "cellule": "A20",
+              "valeur": 3
+            },
+            {
+              "cellule": "B20",
+              "valeur": "Chambre de congélation"
+            },
+            {
+              "cellule": "C20",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D20",
+              "valeur": "A290"
+            },
+            {
+              "cellule": "E20",
+              "valeur": "7 juillet,2024"
+            },
+            {
+              "cellule": "F20",
+              "valeur": 2960
+            },
+            {
+              "cellule": "G20",
+              "valeur": 2960
+            },
+            {
+              "cellule": "H20",
+              "valeur": 2960
+            },
+            {
+              "cellule": "L20",
+              "valeur": "Compresseur filtre,thermostat"
+            }
+          ],
+          [
+            {
+              "cellule": "B22",
+              "valeur": "Chambre de congélation"
+            },
+            {
+              "cellule": "C22",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D22",
+              "valeur": "A266"
+            },
+            {
+              "cellule": "E22",
+              "valeur": "10 juillet,2024"
+            },
+            {
+              "cellule": "F22",
+              "valeur": 8320
+            },
+            {
+              "cellule": "G22",
+              "valeur": 8320
+            },
+            {
+              "cellule": "H22",
+              "valeur": 8320
+            },
+            {
+              "cellule": "L22",
+              "valeur": "Installé unité air"
+            }
+          ],
+          [
+            {
+              "cellule": "A23",
+              "valeur": 4
+            },
+            {
+              "cellule": "B23",
+              "valeur": "Four Tim Horton"
+            },
+            {
+              "cellule": "C23",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D23",
+              "valeur": "Devis 263"
+            },
+            {
+              "cellule": "E23",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F23",
+              "valeur": 4635
+            },
+            {
+              "cellule": "G23",
+              "valeur": 4635
+            },
+            {
+              "cellule": "H23",
+              "valeur": 4635
+            },
+            {
+              "cellule": "K23",
+              "valeur": 4700
+            },
+            {
+              "cellule": "L23",
+              "valeur": "Sonde de temp. et plaque de contrôle"
+            }
+          ],
+          [
+            {
+              "cellule": "F24",
+              "valeur": 30118.46
+            },
+            {
+              "cellule": "K24",
+              "valeur": 30000
+            },
+            {
+              "cellule": "L24",
+              "valeur": "L'assuré réclame perte totale aucune expertise"
+            }
+          ],
+          [
+            {
+              "cellule": "A25",
+              "valeur": 5
+            },
+            {
+              "cellule": "B25",
+              "valeur": "Frigo une porte"
+            },
+            {
+              "cellule": "C25",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D25",
+              "valeur": "A320"
+            },
+            {
+              "cellule": "E25",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F25",
+              "valeur": 1705
+            },
+            {
+              "cellule": "G25",
+              "valeur": 1705
+            },
+            {
+              "cellule": "H25",
+              "valeur": 1705
+            }
+          ],
+          [
+            {
+              "cellule": "A27",
+              "valeur": 6
+            },
+            {
+              "cellule": "B27",
+              "valeur": "Machine cocktail taylor"
+            },
+            {
+              "cellule": "C27",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D27",
+              "valeur": "A294"
+            },
+            {
+              "cellule": "E27",
+              "valeur": "29 juillet, 2024"
+            },
+            {
+              "cellule": "F27",
+              "valeur": 3850
+            },
+            {
+              "cellule": "G27",
+              "valeur": 3850
+            },
+            {
+              "cellule": "H27",
+              "valeur": 3850
+            },
+            {
+              "cellule": "L27",
+              "valeur": "Moteur agitateur et compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "A29",
+              "valeur": 7
+            },
+            {
+              "cellule": "B29",
+              "valeur": "Electro Freeze Electro freeze"
+            },
+            {
+              "cellule": "C29",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D29",
+              "valeur": "Devis 264"
+            },
+            {
+              "cellule": "E29",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F29",
+              "valeur": 5990
+            },
+            {
+              "cellule": "G29",
+              "valeur": 5990
+            },
+            {
+              "cellule": "H29",
+              "valeur": 5990
+            },
+            {
+              "cellule": "L29",
+              "valeur": "Selon assuré nil"
+            }
+          ],
+          [
+            {
+              "cellule": "B30",
+              "valeur": "(creme glacé)"
+            }
+          ],
+          [
+            {
+              "cellule": "A31",
+              "valeur": 8
+            },
+            {
+              "cellule": "B31",
+              "valeur": "Machine à Slush taylor"
+            },
+            {
+              "cellule": "C31",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D31",
+              "valeur": "A281"
+            },
+            {
+              "cellule": "E31",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F31",
+              "valeur": 2340
+            },
+            {
+              "cellule": "G31",
+              "valeur": 2340
+            },
+            {
+              "cellule": "H31",
+              "valeur": 2340
+            },
+            {
+              "cellule": "L31",
+              "valeur": "Contrôle électronique"
+            }
+          ],
+          [
+            {
+              "cellule": "A33",
+              "valeur": 9
+            },
+            {
+              "cellule": "B33",
+              "valeur": "Four à Pizza"
+            },
+            {
+              "cellule": "C33",
+              "valeur": "Frigo-Spec-CKS"
+            },
+            {
+              "cellule": "D33",
+              "valeur": "Devis 265"
+            },
+            {
+              "cellule": "E33",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F33",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "G33",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "I33",
+              "valeur": 6700.68
+            },
+            {
+              "cellule": "L33",
+              "valeur": "Blowers, Pilot. Sensor de sécurité"
+            }
+          ],
+          [
+            {
+              "cellule": "D34",
+              "valeur": "N82145"
+            },
+            {
+              "cellule": "L34",
+              "valeur": "haut fonctionnel $5,000"
+            }
+          ],
+          [
+            {
+              "cellule": "L35",
+              "valeur": " CKS a fait le travail pour $6,700.68"
+            }
+          ],
+          [
+            {
+              "cellule": "L36",
+              "valeur": "Pas de facture"
+            }
+          ],
+          [
+            {
+              "cellule": "C37",
+              "valeur": "Auger"
+            },
+            {
+              "cellule": "D37",
+              "valeur": 12786
+            },
+            {
+              "cellule": "E37",
+              "valeur": "18 avril,2024"
+            },
+            {
+              "cellule": "F37",
+              "valeur": 308.75
+            },
+            {
+              "cellule": "G37",
+              "valeur": 308.75
+            },
+            {
+              "cellule": "H37",
+              "valeur": 0
+            },
+            {
+              "cellule": "L37",
+              "valeur": "Avant la date de perte"
+            }
+          ],
+          [
+            {
+              "cellule": "A39",
+              "valeur": 10
+            },
+            {
+              "cellule": "B39",
+              "valeur": "Machine Crème glacée"
+            },
+            {
+              "cellule": "C39",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D39",
+              "valeur": "A280"
+            },
+            {
+              "cellule": "E39",
+              "valeur": "15 juillet,A280"
+            },
+            {
+              "cellule": "F39",
+              "valeur": 5990
+            },
+            {
+              "cellule": "G39",
+              "valeur": 0
+            },
+            {
+              "cellule": "H39",
+              "valeur": 0
+            },
+            {
+              "cellule": "L39",
+              "valeur": "Ne reclame pas dédoublement"
+            }
+          ],
+          [
+            {
+              "cellule": "A40",
+              "valeur": 11
+            },
+            {
+              "cellule": "B40",
+              "valeur": "Four À Pizza"
+            },
+            {
+              "cellule": "C40",
+              "valeur": "Estimé"
+            },
+            {
+              "cellule": "F40",
+              "valeur": 29472.24
+            },
+            {
+              "cellule": "G40",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "I40",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "K40",
+              "valeur": 30000
+            },
+            {
+              "cellule": "L40",
+              "valeur": "Perte Totale usagée besoin d'un rapport d'un technicien"
+            }
+          ],
+          [
+            {
+              "cellule": "L41",
+              "valeur": "Module de gaz non fontionnel (CKS)"
+            }
+          ],
+          [
+            {
+              "cellule": "C42",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D42",
+              "valeur": "A315"
+            },
+            {
+              "cellule": "E42",
+              "valeur": "22 sept,2024"
+            },
+            {
+              "cellule": "F42",
+              "valeur": 7900
+            },
+            {
+              "cellule": "G42",
+              "valeur": 7900
+            },
+            {
+              "cellule": "H42",
+              "valeur": 7900
+            },
+            {
+              "cellule": "L42",
+              "valeur": "Réparation"
+            }
+          ],
+          [
+            {
+              "cellule": "A44",
+              "valeur": 12
+            },
+            {
+              "cellule": "B44",
+              "valeur": "Frigidaire patisserie Hydro-Coll (2)"
+            },
+            {
+              "cellule": "C44",
+              "valeur": "Sinco"
+            },
+            {
+              "cellule": "D44",
+              "valeur": "Estimé"
+            },
+            {
+              "cellule": "E44",
+              "valeur": "?"
+            },
+            {
+              "cellule": "F44",
+              "valeur": 15933
+            },
+            {
+              "cellule": "G44",
+              "valeur": "En suspens"
+            },
+            {
+              "cellule": "K44",
+              "valeur": 16000
+            },
+            {
+              "cellule": "L44",
+              "valeur": "Attends facture et nous avons besoin"
+            }
+          ],
+          [
+            {
+              "cellule": "L45",
+              "valeur": "les commenatires du techicien."
+            }
+          ],
+          [
+            {
+              "cellule": "A46",
+              "valeur": 13
+            },
+            {
+              "cellule": "B46",
+              "valeur": "Chambre froide"
+            },
+            {
+              "cellule": "C46",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D46",
+              "valeur": "Devis 268"
+            },
+            {
+              "cellule": "E46",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "F46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "G46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "H46",
+              "valeur": 0
+            },
+            {
+              "cellule": "J46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "K46",
+              "valeur": 1700
+            },
+            {
+              "cellule": "L46",
+              "valeur": "Compresseur attends la facture"
+            }
+          ],
+          [
+            {
+              "cellule": "A48",
+              "valeur": 14
+            },
+            {
+              "cellule": "B48",
+              "valeur": "Installation unité AC"
+            },
+            {
+              "cellule": "C48",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "D48",
+              "valeur": "A245"
+            },
+            {
+              "cellule": "E48",
+              "valeur": "26 juin,2024"
+            },
+            {
+              "cellule": "F48",
+              "valeur": 1145
+            },
+            {
+              "cellule": "G48",
+              "valeur": 1145
+            },
+            {
+              "cellule": "H48",
+              "valeur": 1145
+            },
+            {
+              "cellule": "L48",
+              "valeur": "Voir commenatires de l'assuré"
+            }
+          ],
+          [
+            {
+              "cellule": "A50",
+              "valeur": "14A"
+            },
+            {
+              "cellule": "B50",
+              "valeur": "Conditioner heat pump plus inst."
+            },
+            {
+              "cellule": "C50",
+              "valeur": "Estimation"
+            },
+            {
+              "cellule": "F50",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "G50",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "H50",
+              "valeur": 5009.99
+            },
+            {
+              "cellule": "L50",
+              "valeur": "Attend plus d'explications "
+            }
+          ],
+          [
+            {
+              "cellule": "A52",
+              "valeur": 16
+            },
+            {
+              "cellule": "B52",
+              "valeur": "Inspection"
+            },
+            {
+              "cellule": "C52",
+              "valeur": "Frimabec"
+            },
+            {
+              "cellule": "D52",
+              "valeur": 6371
+            },
+            {
+              "cellule": "E52",
+              "valeur": "6  oct.,2024"
+            },
+            {
+              "cellule": "F52",
+              "valeur": 408.16
+            },
+            {
+              "cellule": "G52",
+              "valeur": 408.16
+            },
+            {
+              "cellule": "H52",
+              "valeur": 408.16
+            }
+          ],
+          [
+            {
+              "cellule": "B53",
+              "valeur": "Déplacements techniciens"
+            },
+            {
+              "cellule": "C53",
+              "valeur": "Choquette CKS"
+            },
+            {
+              "cellule": "E53",
+              "valeur": "Aout 2024"
+            },
+            {
+              "cellule": "F53",
+              "valeur": 7704.1
+            },
+            {
+              "cellule": "G53",
+              "valeur": 7704.1
+            },
+            {
+              "cellule": "H53",
+              "valeur": 7704.1
+            },
+            {
+              "cellule": "K53",
+              "valeur": 0
+            }
+          ],
+          [
+            {
+              "cellule": "B55",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "F55",
+              "valeur": "=SUM(F13:F54)"
+            },
+            {
+              "cellule": "G55",
+              "valeur": "=SUM(G13:G54)"
+            },
+            {
+              "cellule": "H55",
+              "valeur": "=SUM(H13:H54)"
+            },
+            {
+              "cellule": "I55",
+              "valeur": "=SUM(I26:I54)"
+            },
+            {
+              "cellule": "J55",
+              "valeur": "=SUM(J26:J54)"
+            },
+            {
+              "cellule": "K55",
+              "valeur": "=SUM(K20:K54)"
+            }
+          ],
+          [
+            {
+              "cellule": "B60",
+              "valeur": "Marchandise"
+            },
+            {
+              "cellule": "F60",
+              "valeur": 31420.08
+            },
+            {
+              "cellule": "G60",
+              "valeur": 25136.06
+            },
+            {
+              "cellule": "H60",
+              "valeur": 25136.06
+            },
+            {
+              "cellule": "L60",
+              "valeur": "allocation 80% attends rapport de WMM"
+            }
+          ],
+          [
+            {
+              "cellule": "B63",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "F63",
+              "valeur": "=SUM(F55:F62)"
+            },
+            {
+              "cellule": "G63",
+              "valeur": "=SUM(G55:G62)"
+            },
+            {
+              "cellule": "H63",
+              "valeur": "=SUM(H55:H62)"
+            },
+            {
+              "cellule": "I63",
+              "valeur": "=SUM(I55:I62)"
+            },
+            {
+              "cellule": "J63",
+              "valeur": "=SUM(J55:J62)"
+            }
+          ],
+          [
+            {
+              "cellule": "B65",
+              "valeur": "Moins franchise"
+            },
+            {
+              "cellule": "H65",
+              "valeur": -1000
+            },
+            {
+              "cellule": "I65",
+              "valeur": -1000
+            },
+            {
+              "cellule": "J65",
+              "valeur": -1000
+            }
+          ],
+          [
+            {
+              "cellule": "B67",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "H67",
+              "valeur": "=SUM(H63:H66)"
+            },
+            {
+              "cellule": "I67",
+              "valeur": "=SUM(I63:I66)"
+            },
+            {
+              "cellule": "J67",
+              "valeur": "=SUM(J63:J66)"
+            }
+          ],
+          [
+            {
+              "cellule": "B69",
+              "valeur": "Moins paiement provisoire no.1"
+            },
+            {
+              "cellule": "H69",
+              "valeur": -24136.06
+            }
+          ],
+          [
+            {
+              "cellule": "B71",
+              "valeur": "Moins paiement provisoire no.2"
+            },
+            {
+              "cellule": "H71",
+              "valeur": -37288.16
+            }
+          ],
+          [
+            {
+              "cellule": "B73",
+              "valeur": "Indenité no.3"
+            },
+            {
+              "cellule": "H73",
+              "valeur": "=SUM(H67:H72)"
+            },
+            {
+              "cellule": "I73",
+              "valeur": "=SUM(I67:I72)"
+            },
+            {
+              "cellule": "J73",
+              "valeur": "=SUM(J67:J72)"
+            },
+            {
+              "cellule": "K73",
+              "valeur": "=SUM(K55:K72)"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/photos-assurance-2024/Hadmo.xlsx",
+    "sha256": "56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7",
+    "feuilles": [
+      {
+        "nom": "Feuil1",
+        "lignes_non_vides": [
+          [
+            {
+              "cellule": "A2",
+              "valeur": "INDEMNIPRO"
+            }
+          ],
+          [
+            {
+              "cellule": "A3",
+              "valeur": "Sommaire dossier 24110-4833"
+            }
+          ],
+          [
+            {
+              "cellule": "A4",
+              "valeur": "Assuré: Hadmo"
+            }
+          ],
+          [
+            {
+              "cellule": "A7",
+              "valeur": "Description"
+            },
+            {
+              "cellule": "B7",
+              "valeur": "Fournisseur"
+            },
+            {
+              "cellule": "C7",
+              "valeur": "No. facture"
+            },
+            {
+              "cellule": "D7",
+              "valeur": "Date"
+            },
+            {
+              "cellule": "E7",
+              "valeur": "Montant "
+            },
+            {
+              "cellule": "F7",
+              "valeur": "Montnat "
+            },
+            {
+              "cellule": "G7",
+              "valeur": "Commentaires"
+            }
+          ],
+          [
+            {
+              "cellule": "E8",
+              "valeur": "réclamé"
+            },
+            {
+              "cellule": "F8",
+              "valeur": "alloué"
+            }
+          ],
+          [
+            {
+              "cellule": "A11",
+              "valeur": "Équipements"
+            }
+          ],
+          [
+            {
+              "cellule": "A13",
+              "valeur": "Frigo Pâtisserie IFI-DDSG-6"
+            },
+            {
+              "cellule": "B13",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C13",
+              "valeur": "Devis 259"
+            },
+            {
+              "cellule": "D13",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E13",
+              "valeur": 2615
+            },
+            {
+              "cellule": "F13",
+              "valeur": 0
+            },
+            {
+              "cellule": "G13",
+              "valeur": "Remplacement de compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "G14",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A16",
+              "valeur": "Machine à café Curtis"
+            },
+            {
+              "cellule": "B16",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C16",
+              "valeur": "Devis 260"
+            },
+            {
+              "cellule": "D16",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E16",
+              "valeur": 1485
+            },
+            {
+              "cellule": "F16",
+              "valeur": 0
+            },
+            {
+              "cellule": "G16",
+              "valeur": "Module de remplissage et valve"
+            }
+          ],
+          [
+            {
+              "cellule": "G17",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A18",
+              "valeur": "Chambre de congélation"
+            },
+            {
+              "cellule": "B18",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C18",
+              "valeur": "Devis 261"
+            },
+            {
+              "cellule": "D18",
+              "valeur": "7 juillet,2024"
+            },
+            {
+              "cellule": "E18",
+              "valeur": 8205
+            },
+            {
+              "cellule": "F18",
+              "valeur": 0
+            },
+            {
+              "cellule": "G18",
+              "valeur": "Compresseur filtre,thermostat"
+            }
+          ],
+          [
+            {
+              "cellule": "G19",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A20",
+              "valeur": "Four Tim Horton"
+            },
+            {
+              "cellule": "B20",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C20",
+              "valeur": "Devis 263"
+            },
+            {
+              "cellule": "D20",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E20",
+              "valeur": 4635
+            },
+            {
+              "cellule": "F20",
+              "valeur": 0
+            },
+            {
+              "cellule": "G20",
+              "valeur": "Sonde de temp. et plaque de contrôle"
+            }
+          ],
+          [
+            {
+              "cellule": "G21",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A22",
+              "valeur": "Frigo une porte"
+            },
+            {
+              "cellule": "B22",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C22",
+              "valeur": "Devis 262"
+            },
+            {
+              "cellule": "D22",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E22",
+              "valeur": 1650
+            },
+            {
+              "cellule": "F22",
+              "valeur": 0
+            },
+            {
+              "cellule": "G22",
+              "valeur": "Compresseur "
+            }
+          ],
+          [
+            {
+              "cellule": "G23",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A24",
+              "valeur": "Machine cocktail taylor"
+            },
+            {
+              "cellule": "B24",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C24",
+              "valeur": "Devis 266"
+            },
+            {
+              "cellule": "D24",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E24",
+              "valeur": 3390
+            },
+            {
+              "cellule": "F24",
+              "valeur": 0
+            },
+            {
+              "cellule": "G24",
+              "valeur": "Moteur agitateur et compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "G25",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A26",
+              "valeur": "Electro Freeze "
+            },
+            {
+              "cellule": "B26",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C26",
+              "valeur": "Devis 264"
+            },
+            {
+              "cellule": "D26",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E26",
+              "valeur": 5990
+            },
+            {
+              "cellule": "F26",
+              "valeur": 0
+            },
+            {
+              "cellule": "G26",
+              "valeur": "Compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "G27",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A28",
+              "valeur": "Machine à Slush"
+            },
+            {
+              "cellule": "B28",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C28",
+              "valeur": "Devis 267"
+            },
+            {
+              "cellule": "D28",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E28",
+              "valeur": 2340
+            },
+            {
+              "cellule": "F28",
+              "valeur": 0
+            },
+            {
+              "cellule": "G28",
+              "valeur": "Contrôle électronique"
+            }
+          ],
+          [
+            {
+              "cellule": "G29",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A30",
+              "valeur": "Four à Pizza"
+            },
+            {
+              "cellule": "B30",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C30",
+              "valeur": "Devis 265"
+            },
+            {
+              "cellule": "D30",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E30",
+              "valeur": 7900
+            },
+            {
+              "cellule": "F30",
+              "valeur": 0
+            },
+            {
+              "cellule": "G30",
+              "valeur": "Blowers, Pilot. Sensor de sécurité"
+            }
+          ],
+          [
+            {
+              "cellule": "G31",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A32",
+              "valeur": "Chambre froide"
+            },
+            {
+              "cellule": "B32",
+              "valeur": "Frigo-Spec"
+            },
+            {
+              "cellule": "C32",
+              "valeur": "Devis 268"
+            },
+            {
+              "cellule": "D32",
+              "valeur": "7 juillet, 2024"
+            },
+            {
+              "cellule": "E32",
+              "valeur": 1700
+            },
+            {
+              "cellule": "F32",
+              "valeur": 0
+            },
+            {
+              "cellule": "G32",
+              "valeur": "Compresseur"
+            }
+          ],
+          [
+            {
+              "cellule": "G33",
+              "valeur": "Aucune explication cause du bris"
+            }
+          ],
+          [
+            {
+              "cellule": "A34",
+              "valeur": "Total"
+            },
+            {
+              "cellule": "E34",
+              "valeur": "=SUM(E13:E33)"
+            }
+          ],
+          [
+            {
+              "cellule": "A37",
+              "valeur": "Marchandise"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "195f3c1ba9044027",
+    "thread_id": "195f3c1ba9044027",
+    "label_ids": [
+      "IMPORTANT",
+      "CATEGORY_UPDATES",
+      "INBOX"
+    ],
+    "snippet": "From: dealer_statement@uhaul.com To: Takatak.ca@gmail.com Date 04-01-2025 Closed Dealer Financial Statement Groupe Takatak Inc - (057789 MCO 844) 5505 Rue Irwin La Salle, QC H8N1A1 Your current",
+    "history_id": "3415947",
+    "internal_date": "1743551314000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/mixed",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a02:ac0e:0:b0:4f1:e4b0:8cf1 with SMTP id a14csp3130678jao;        Tue, 1 Apr 2025 16:48:35 -0700 (PDT)"
+        },
+        {
+          "name": "X-Google-Smtp-Source",
+          "value": "AGHT+IF3VOtCvhhvHf+ssru1oFJGnM2otSwIWFGbHI8QzDlUXFRMi64Ouz4jiW1oszYkj1sHl2jf"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a05:690c:6703:b0:6fe:b109:6973 with SMTP id 00721157ae682-702573247b1mr198438977b3.24.1743551314772;        Tue, 01 Apr 2025 16:48:34 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1743551314; cv=none;        d=google.com; s=arc-20240605;        b=hIXMbmQNalTwnhP5Wy/7qFb2wdOvtkWLGu/o4C8zpV6O174y9df/kgjAndE/Po8Q9+         a0of+QynNa8dCwgcgQb+8rXscMYDWo8OWahaws8wR3QOv3i8Iw2Uwnszq8Ruibo6MHk+         +cEem5Pyysn497ZpLMk4urM+9yK/6q93qXPfcsFMDAkYGaFCu+Xu9ATJLTHzP1yU46PC         Q+wAzRq4gGxg6m3g+2MJSb5pEGuC+uLKdQX7+76QdcYlUftRfuflTnRKqjNMNeUIrGxt         h9g2+LL1N+rfMmMldZs0zIcOapJOFpnsSjF2epZp/eFnDc7YJiFvdFwPo806+CjKYDSd         e/0w=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=subject:to:from:date:message-id:dkim-signature;        bh=2tTXZ1aFSQA4AOGZbAl0thx5wW/5QOSxV/CHEYDOlYY=;        fh=48eoiYPC4m1yc8PNcTvH+7MzIMq+ttNlrmT5pDoIErA=;        b=EjSmG1IXosF29Oiijw8AkP3meKk2MIgCihcgeVSUiyf519y8CNmTLJ/MFHiz5bRSE0         RojxtbfLlLRO6e6m2Yd/I/ZKjaMPqUgwVUNZaO270UcF2kun3L88cjjVTwYJH4y2m7xh         xACwNWtwL3oGKL8q0XUn66j1fc4QHtdGHIbSK/FYMD2VAuku8HN52RMsbRb1OHMN43Dm         HXFYqDRwD5FpWwmfixcrcFda5neNWAV205CGqidkhG9EsOUva4qpasFlXasHNEkUC9iD         msoy+IFOpyU2wNX2hyFJw3HsGfRUH80plfJK6ew5UIV1EoyH6wvCijDM0Qxvuo8Lsf0R         XpHA==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com;       dkim=pass header.i=@uhaul.com header.s=uhaulcom header.b=nqkoqYuk;       spf=pass (google.com: domain of dealer_statement@uhaul.com designates 23.90.101.175 as permitted sender) smtp.mailfrom=dealer_statement@uhaul.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=uhaul.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<dealer_statement@uhaul.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from esa.hc5529-86.iphmx.com (esa.hc5529-86.iphmx.com. [23.90.101.175])        by mx.google.com with ESMTPS id 00721157ae682-7026f2c0a2dsi72885077b3.124.2025.04.01.16.48.34        for <Takatak.ca@gmail.com>        (version=TLS1_2 cipher=ECDHE-RSA-CHACHA20-POLY1305 bits=256/256);        Tue, 01 Apr 2025 16:48:34 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of dealer_statement@uhaul.com designates 23.90.101.175 as permitted sender) client-ip=23.90.101.175;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@uhaul.com header.s=uhaulcom header.b=nqkoqYuk;       spf=pass (google.com: domain of dealer_statement@uhaul.com designates 23.90.101.175 as permitted sender) smtp.mailfrom=dealer_statement@uhaul.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=uhaul.com"
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;  d=uhaul.com; i=@uhaul.com; q=dns/txt; s=uhaulcom;  t=1743551315; x=1775087315;  h=received:from:to:subject:x-priority:content-type:   x-cse-connectionguid:x-cse-msgguid:authentication-results:   received-spf:message-id:date;  z=Received:=20from=20unknown=20(HELO=20smtpces01.amerco.or   g)=20([69.171.80.132])=0D=0A=20=20by=20esa12.hc5529-86.ip   hmx.com=20with=20SMTP=3B=2001=20Apr=202025=2016:48:34=20-   0700|From:=20dealer_statement@uhaul.com|To:=20Takatak.ca@   gmail.com|Subject:=20=3D?UTF-8?Q?Closed=3D20Dealer=3D20Fi   nancial=3D20Statement?=3D|X-Priority:=203|Content-Type:   =20multipart/mixed=3B=0D=0A=20boundary=3D\"------------4D8   C24=3D_23F7E4A13B2357B3\"|X-CSE-ConnectionGUID:=20o1xYV77d   Su2HYq29X3YywQ=3D=3D|X-CSE-MsgGUID:=201Eh49ci6TYSDCGoQ2iA   Dyg=3D=3D|Authentication-Results:=20esa12.hc5529-86.iphmx   .com=3B=20dkim=3Dnone=20(message=20not=20signed)=20header   .i=3Dnone=3B=20spf=3DPass=20smtp.mailfrom=3Ddealer_statem   ent@uhaul.com|Received-SPF:=20Pass=20(esa.hc5529-86.iphmx   .com:=20domain=20of=0D=0A=20=20dealer_statement@uhaul.com   =20designates=2069.171.80.132=20as=0D=0A=20=20permitted   =20sender)=20identity=3Dmailfrom=3B=20client-ip=3D69.171.   80.132=3B=0D=0A=20=20receiver=3Desa.hc5529-86.iphmx.com   =3B=0D=0A=20=20envelope-from=3D\"dealer_statement@uhaul.co   m\"=3B=0D=0A=20=20x-sender=3D\"dealer_statement@uhaul.com\"   =3B=0D=0A=20=20x-conformance=3Dspf_only=3B=20x-record-typ   e=3D\"v=3Dspf1\"=3B=0D=0A=20=20x-record-text=3D\"v=3Dspf1=20   ip4:40.92.0.0/15=20ip4:52.100.0.0/15=0D=0A=20=20ip4:40.10   7.0.0/16=20ip4:52.102.0.0/16=20ip4:149.72.0.0/16=0D=0A=20   =20ip4:159.183.0.0/16=20ip4:52.103.0.0/17=20ip4:104.47.0.   0/17=0D=0A=20=20ip4:167.89.0.0/17=20ip4:168.245.0.0/17=20   ip4:50.31.32.0/19=0D=0A=20=20ip4:69.171.80.0/20=20ip4:192   .254.112.0/20=20ip4:198.37.144.0/20=0D=0A=20=20ip4:208.11   7.48.0/20=20ip4:198.21.0.0/21=20ip4:205.207.104.0/22=0D   =0A=20=20ip4:208.75.120.0/22=0D=0A=20=20include:_p.1.xze6   8s._u.uhaul.com._spf.smart.ondmarc.com=20~all\"   |Message-Id:=20<83ba76$101qqg@esa12.hc5529-86.iphmx.com>   |Date:=2001=20Apr=202025=2016:48:34=20-0700;  bh=2tTXZ1aFSQA4AOGZbAl0thx5wW/5QOSxV/CHEYDOlYY=;  b=nqkoqYukU23vYP2lzX/dPEpC5g/gazdjDHaf3dPzWYqUUKU5LWzw0tdd   9VX/L98mnt6uEG7W5bv176fUzIL0mFBOdhHJxNFElzbmJN8bcYFHcJU0K   rvjqTeZ+3GPJ39KTiReha8lMW85DcnGZ/JBrPIRLe/KrzW4gmQxl7BjKE   c=;"
+        },
+        {
+          "name": "X-CSE-ConnectionGUID",
+          "value": "o1xYV77dSu2HYq29X3YywQ=="
+        },
+        {
+          "name": "X-CSE-MsgGUID",
+          "value": "1Eh49ci6TYSDCGoQ2iADyg=="
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "esa12.hc5529-86.iphmx.com; dkim=none (message not signed) header.i=none; spf=Pass smtp.mailfrom=dealer_statement@uhaul.com"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "Pass (esa.hc5529-86.iphmx.com: domain of  dealer_statement@uhaul.com designates 69.171.80.132 as  permitted sender) identity=mailfrom; client-ip=69.171.80.132;  receiver=esa.hc5529-86.iphmx.com;  envelope-from=\"dealer_statement@uhaul.com\";  x-sender=\"dealer_statement@uhaul.com\";  x-conformance=spf_only; x-record-type=\"v=spf1\";  x-record-text=\"v=spf1 ip4:40.92.0.0/15 ip4:52.100.0.0/15  ip4:40.107.0.0/16 ip4:52.102.0.0/16 ip4:149.72.0.0/16  ip4:159.183.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17  ip4:167.89.0.0/17 ip4:168.245.0.0/17 ip4:50.31.32.0/19  ip4:69.171.80.0/20 ip4:192.254.112.0/20 ip4:198.37.144.0/20  ip4:208.117.48.0/20 ip4:198.21.0.0/21 ip4:205.207.104.0/22  ip4:208.75.120.0/22  include:_p.1.xze68s._u.uhaul.com._spf.smart.ondmarc.com ~all\""
+        },
+        {
+          "name": "Message-Id",
+          "value": "<83ba76$101qqg@esa12.hc5529-86.iphmx.com>"
+        },
+        {
+          "name": "Date",
+          "value": "01 Apr 2025 16:48:34 -0700"
+        },
+        {
+          "name": "Received",
+          "value": "from unknown (HELO smtpces01.amerco.org) ([69.171.80.132])  by esa12.hc5529-86.iphmx.com with SMTP; 01 Apr 2025 16:48:34 -0700"
+        },
+        {
+          "name": "From",
+          "value": "dealer_statement@uhaul.com"
+        },
+        {
+          "name": "To",
+          "value": "Takatak.ca@gmail.com"
+        },
+        {
+          "name": "Subject",
+          "value": "Closed Dealer Financial Statement"
+        },
+        {
+          "name": "X-Priority",
+          "value": "3"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/mixed; boundary=\"------------4D8C24=_23F7E4A13B2357B3\""
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "text",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text; charset=us-ascii"
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "7bit"
+            }
+          ],
+          "body": {
+            "size": 863,
+            "base64_url_content": "ICANCiAgICAgRnJvbTogZGVhbGVyX3N0YXRlbWVudEB1aGF1bC5jb20NCiAgICAgVG86ICAgICBUYWthdGFrLmNhQGdtYWlsLmNvbQ0KICAgICBEYXRlICAgMDQtMDEtMjAyNQ0KICAgICBDbG9zZWQgRGVhbGVyIEZpbmFuY2lhbCBTdGF0ZW1lbnQNCg0KICAgICBHcm91cGUgVGFrYXRhayBJbmMgLSAoMDU3Nzg5IE1DTyA4NDQpDQogICAgIDU1MDUgUnVlIElyd2luDQogICAgIExhIFNhbGxlLCBRQyBIOE4xQTENCg0KICAgICBZb3VyIGN1cnJlbnQgZXN0aW1hdGVkIHN0YXRlbWVudCBiYWxhbmNlIGlzICQwLjAwDQoNCiAgICAgQSBmaW5hbCBhdWRpdCB3aWxsIGJlIGNvbXBsZXRlZCB3aXRoaW4gc2l4dHkgZGF5cy4gIFBsZWFzZSBub3RpZnkgdXMNCiAgICAgaWYgeW91ciBjdXJyZW50IG1haWxpbmcgYWRkcmVzcyBoYXMgY2hhbmdlZC4NCg0KICAgICBJZiB5b3UgaGF2ZSBhbnkgcXVlc3Rpb25zLCBwbGVhc2UgY29udGFjdCB1cyBhdCAoODAwKTIxOC05NDc3DQogICAgIG9yIGJ5IGVtYWlsIGF0IGRlYWxlcl9zdGF0ZW1lbnRAdWhhdWwuY29tLiAgSWYgYXBwbGljYWJsZSwNCiAgICAgcGxlYXNlIG1ha2UgY2hlY2svbW9uZXkgb3JkZXIgcGF5YWJsZSB0byBVLUhhdWwgSW50ZXJuYXRpb25hbA0KICAgICBhbmQgcmVmZXJlbmNlIHlvdXIgZGVhbGVyIG51bWJlciB0byBpbnN1cmUgcHJvcGVyIGNyZWRpdC4NCiAgICAgUGxlYXNlIG1haWwgcGF5bWVudCB0byBhZGRyZXNzIGJlbG93Lg0KDQogICAgIERlYWxlciBTZXJ2aWNlcw0KICAgICBVLUhhdWwgSW50ZXJuYXRpb25hbA0KICAgICBBVFROOiAgRGVhbGVyIFNlcnZpY2VzDQogICAgIFAuTy4gQm94IDIxNTAyDQogICAgIFBob2VuaXgsIEFaICAgODUwMzYNCg0KDQo=",
+            "content": null,
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        },
+        {
+          "part_id": "1",
+          "mime_type": "text/plain",
+          "filename": "ddrp117_057789.doc",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/plain; charset=us-ascii; name=\"ddrp117_057789.doc\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "quoted-printable"
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"ddrp117_057789.doc\""
+            }
+          ],
+          "body": {
+            "size": 857,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ9Dqk4674_yoqmaKZr23AHNW_1aZRjyZSy25gdUKo1eC4o8dqfzRcnrSqLBO5fm883OD-Zq5vZbz4yL9K75mJp1mR75-A7tGjiRwFDcEmFGu5bIuEwigM2K5bWg_pAcwkmVk0HRACSWPfXf6bIbigDvUZfWDQT7QudHtYhwKySbl3TOHeqV1o5JpNkI4x1nIpqLGHIYnt5BMELD_jN43X7ClqaF4ofL458Ij7-1ZN9dQGS7oWMDfgbuJo7GplE-S4qcWyimW_E2T1mUnAhl972cShN988u9LQrk2F3WU6ZJylo5Qyiq2gp2vdGrKBf9xT_tQhlIA_Gq_bGLRqh8B1WIqepSqGE_VN_4cBuX7TZ7uDGJ7-OQmZiPvLc"
+          },
+          "read_attachment_supported": true,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 8984,
+    "classification_label_values": null
+  }
+}

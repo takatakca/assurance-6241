@@ -1,0 +1,129 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - toolbar "affiner la recherche":
+    - button "De":
+      - generic: De
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 4
+    - text: sur 4
+  - button "Suivant" [disabled]
+  - button "Précédent" [disabled]
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - 'row "support@doordash.com, Your DoorDash Photos Request [OOEUF (HOCHELAGA)] | [Case #: 773996517], 23 oct., referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::."':
+        - gridcell
+        - 'gridcell "support@doordash.com, Your DoorDash Photos Request [OOEUF (HOCHELAGA)] | [Case #: 773996517], 23 oct., referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::."':
+          - 'checkbox "support@doordash.com, Your DoorDash Photos Request [OOEUF (HOCHELAGA)] | [Case #: 773996517], 23 oct., referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doordash.com":
+          - generic: support@doordash.com
+        - 'gridcell "Boîte de réception Your DoorDash Photos Request [OOEUF (HOCHELAGA)] | [Case #: 773996517] - referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::"':
+          - 'link "Boîte de réception Your DoorDash Photos Request [OOEUF (HOCHELAGA)] | [Case #: 773996517] - referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: "Your DoorDash Photos Request [OOEUF (HOCHELAGA)] | [Case #: 773996517]"
+            - generic: "-"
+            - text: "referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::"
+        - gridcell
+        - gridcell "ven. 23 oct. 2026 11 h 40":
+          - generic "ven. 23 oct. 2026 11 h 40": 23 oct.
+        - gridcell
+      - 'row "support@doo., moi 3, RE: Escalation and callback requested — case 773990954 — order protocols, own tablets and unresolved fees, contient une pièce jointe, 22 oct., reference. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::ARa8ARfxI5eDU-5RRmwbJyE::."':
+        - gridcell
+        - 'gridcell "support@doo., moi 3, RE: Escalation and callback requested — case 773990954 — order protocols, own tablets and unresolved fees, contient une pièce jointe, 22 oct., reference. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::ARa8ARfxI5eDU-5RRmwbJyE::."':
+          - 'checkbox "support@doo., moi 3, RE: Escalation and callback requested — case 773990954 — order protocols, own tablets and unresolved fees, contient une pièce jointe, 22 oct., reference. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::ARa8ARfxI5eDU-5RRmwbJyE::."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doo., moi 3":
+          - generic: support@doo., moi
+          - generic: "3"
+        - 'gridcell "Boîte de réception RE: Escalation and callback requested — case 773990954 — order protocols, own tablets and unresolved fees - reference. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::ARa8ARfxI5eDU-5RRmwbJyE:: Pièce jointe : 1000154913.jpg"':
+          - 'link "Boîte de réception RE: Escalation and callback requested — case 773990954 — order protocols, own tablets and unresolved fees - reference. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::ARa8ARfxI5eDU-5RRmwbJyE::"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: "RE: Escalation and callback requested — case 773990954 — order protocols, own tablets and unresolved fees"
+            - generic: "-"
+            - text: "reference. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::ARa8ARfxI5eDU-5RRmwbJyE::"
+          - generic "1000154913.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000154913.jpg
+        - gridcell
+        - gridcell "jeu. 22 oct. 2026 17 h 28":
+          - generic "jeu. 22 oct. 2026 17 h 28": 22 oct.
+        - gridcell
+      - 'row "support@doordash.com, RE: Follow-up 773996517 — menu import and matching photos — callback requested, 22 oct., referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::."':
+        - gridcell
+        - 'gridcell "support@doordash.com, RE: Follow-up 773996517 — menu import and matching photos — callback requested, 22 oct., referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::."':
+          - 'checkbox "support@doordash.com, RE: Follow-up 773996517 — menu import and matching photos — callback requested, 22 oct., referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "support@doordash.com":
+          - generic: support@doordash.com
+        - 'gridcell "Boîte de réception RE: Follow-up 773996517 — menu import and matching photos — callback requested - referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::"':
+          - 'link "Boîte de réception RE: Follow-up 773996517 — menu import and matching photos — callback requested - referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: "RE: Follow-up 773996517 — menu import and matching photos — callback requested"
+            - generic: "-"
+            - text: "referral. Thank you, Matthieu Wallace Barnard Quadro Holdings LTEE / TAKATAK thread::NEbii5F0IIe5pH08e6DqRSE::"
+        - gridcell
+        - gridcell "jeu. 22 oct. 2026 14 h 22":
+          - generic "jeu. 22 oct. 2026 14 h 22": 22 oct.
+        - gridcell
+      - 'row "marquée d''une étoile, Saj, moi, yan 3, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 22 oct., passe : [masqué dans cette copie de travail] > > > > Mettre comme référence Quadro Holdings Ltée > > > > Merci > > >."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Saj, moi, yan 3, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 22 oct., passe : [masqué dans cette copie de travail] > > > > Mettre comme référence Quadro Holdings Ltée > > > > Merci > > >."':
+          - 'checkbox "marquée d''une étoile, Saj, moi, yan 3, MANDAT COMPLÉTÉ / Informations pour saisie avant jugement, contient une pièce jointe, 22 oct., passe : [masqué dans cette copie de travail] > > > > Mettre comme référence Quadro Holdings Ltée > > > > Merci > > >."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Saj, moi, yan 3":
+          - generic: Saj, moi, yan
+          - generic: "3"
+        - 'gridcell "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes MANDAT COMPLÉTÉ / Informations pour saisie avant jugement - passe : [masqué dans cette copie de travail] > > > > Mettre comme référence Quadro Holdings Ltée > > > > Merci > > > Pièce jointe : image001.png Pièce jointe : image002.png Pièce jointe : Facture_8695.pdf 2 autres pièces jointes"':
+          - 'link "Boîte de réception 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes MANDAT COMPLÉTÉ / Informations pour saisie avant jugement - passe : [masqué dans cette copie de travail] > > > > Mettre comme référence Quadro Holdings Ltée > > > > Merci > > >"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: MANDAT COMPLÉTÉ / Informations pour saisie avant jugement
+            - generic: "-"
+            - text: "passe : [masqué dans cette copie de travail] > > > > Mettre comme référence Quadro Holdings Ltée > > > > Merci > > >"
+          - generic "image001.png":
+            - generic: "Pièce jointe :"
+            - generic: image001.png
+          - generic "image002.png":
+            - generic: "Pièce jointe :"
+            - generic: image002.png
+          - generic "Facture_8695.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Facture_8695.pdf
+          - generic "2 autres pièces jointes":
+            - button "2 autres pièces jointes": "+2"
+        - gridcell
+        - gridcell "jeu. 22 oct. 2026 10 h 20":
+          - generic "jeu. 22 oct. 2026 10 h 20": 22 oct.
+        - gridcell

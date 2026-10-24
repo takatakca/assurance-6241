@@ -1,0 +1,170 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "199d13747d9b62df",
+    "thread_id": "198472d44b632476",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "---------- Forwarded message --------- From: Bolon Cafe Montreal &lt;boloncafe.ca@gmail.com&gt; Date: Wed, Jul 30, 2025, 17:14 Subject: Fwd: I am sharing &#39;INVENTAIRE RESTO&#39; with you To: TAKATAK",
+    "history_id": "3417913",
+    "internal_date": "1760151684000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/mixed",
+      "filename": "",
+      "headers": [
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Date",
+          "value": "Fri, 10 Oct 2025 23:01:24 -0400"
+        },
+        {
+          "name": "References",
+          "value": "<CAPvYWPqeeg-iGYorX1uFxQD66UHGaZ3zFjy+S+1kBmNLZ+=CKA@mail.gmail.com> <CAHBhusvL0D9ygwez_FwYs9gLfPBdN9pDK7VJnUj91WLYwYS2-w@mail.gmail.com>"
+        },
+        {
+          "name": "In-Reply-To",
+          "value": "<CAHBhusvL0D9ygwez_FwYs9gLfPBdN9pDK7VJnUj91WLYwYS2-w@mail.gmail.com>"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<CAGN0CqhHi6tcaY_A8_SM1gk7QKAh_C-7XWBBjJa-iTLv0kCCOQ@mail.gmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Fwd: I am sharing 'INVENTAIRE RESTO' with you"
+        },
+        {
+          "name": "From",
+          "value": "takatak ca <takatak.ca@gmail.com>"
+        },
+        {
+          "name": "To",
+          "value": "\"tdpcpa167@gmail.com\" <tdpcpa167@gmail.com>"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/mixed; boundary=\"000000000000ec3c6a0640d93fb0\""
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "multipart/alternative",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/alternative; boundary=\"000000000000ec3c690640d93fae\""
+            }
+          ],
+          "body": {
+            "size": 0,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": [
+            {
+              "part_id": "0.0",
+              "mime_type": "text/plain",
+              "filename": "",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "text/plain; charset=\"UTF-8\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "quoted-printable"
+                }
+              ],
+              "body": {
+                "size": 581,
+                "base64_url_content": null,
+                "content": "---------- Forwarded message ---------\r\nFrom: Bolon Cafe Montreal <boloncafe.ca@gmail.com>\r\nDate: Wed, Jul 30, 2025, 17:14\r\nSubject: Fwd: I am sharing 'INVENTAIRE RESTO' with you\r\nTo: TAKATAK.CA <takatak.ca@gmail.com>\r\n\r\n\r\n\r\n\r\n---------- Forwarded message ---------\r\nFrom: Bardosh Canada <bardosh.ca@gmail.com>\r\nDate: Mon, May 29, 2023 at 9:16 AM\r\nSubject: I am sharing 'INVENTAIRE RESTO' with you\r\nTo: boloncafe.ca@gmail.com <boloncafe.ca@gmail.com>\r\n\r\n\r\nOne app for all your Word, Excel, PowerPoint and PDF needs. Get the Office\r\napp: https://aka.ms/officeandroidshareinstall\r\n",
+                "attachment_id": null
+              },
+              "read_attachment_supported": null,
+              "parts": null
+            },
+            {
+              "part_id": "0.1",
+              "mime_type": "text/html",
+              "filename": "",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "text/html; charset=\"UTF-8\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "quoted-printable"
+                }
+              ],
+              "body": {
+                "size": 1480,
+                "base64_url_content": null,
+                "content": "<div dir=\"auto\"></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">Bolon Cafe Montreal</strong> <span dir=\"auto\">&lt;<a href=\"mailto:boloncafe.ca@gmail.com\">boloncafe.ca@gmail.com</a>&gt;</span><br>Date: Wed, Jul 30, 2025, 17:14<br>Subject: Fwd: I am sharing &#39;INVENTAIRE RESTO&#39; with you<br>To: <a href=\"http://TAKATAK.CA\">TAKATAK.CA</a> &lt;<a href=\"mailto:takatak.ca@gmail.com\">takatak.ca@gmail.com</a>&gt;<br></div><br><br><div dir=\"ltr\"><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">Bardosh Canada</strong> <span dir=\"auto\">&lt;<a href=\"mailto:bardosh.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">bardosh.ca@gmail.com</a>&gt;</span><br>Date: Mon, May 29, 2023 at 9:16 AM<br>Subject: I am sharing &#39;INVENTAIRE RESTO&#39; with you<br>To: <a href=\"mailto:boloncafe.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">boloncafe.ca@gmail.com</a> &lt;<a href=\"mailto:boloncafe.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">boloncafe.ca@gmail.com</a>&gt;<br></div><br><br><div dir=\"auto\">One app for all your Word, Excel, PowerPoint and PDF needs. Get the Office app: <a href=\"https://aka.ms/officeandroidshareinstall\" target=\"_blank\" rel=\"noreferrer\">https://aka.ms/officeandroidshareinstall</a> </div>\r\n</div></div>\r\n</div>\r\n",
+                "attachment_id": null
+              },
+              "read_attachment_supported": null,
+              "parts": null
+            }
+          ]
+        },
+        {
+          "part_id": "1",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filename": "INVENTAIRE RESTO.xlsx",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; name=\"INVENTAIRE RESTO.xlsx\""
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"INVENTAIRE RESTO.xlsx\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "base64"
+            },
+            {
+              "name": "X-Attachment-Id",
+              "value": "18867a678e7ec936db71"
+            },
+            {
+              "name": "Content-ID",
+              "value": "<18867a678e7ec936db71>"
+            }
+          ],
+          "body": {
+            "size": 12064,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ8s51MDRHGCWs8SYrYFLrSp_xJ7c9fOHROVq3T3t-HcfH9NVx3ZYHLfXFnJ0o4WnDahqF4Q81kPIWcmE-vxIpFp5nsPaM_GamCD6BSgIYRAyPz7WJorimepMlBYRTvlQ8hm26YIg_Tt5v2LaKL1Odey5cWfk6MAELJlGeWFVTfVuib5SdXpfjk4_NRTutJPT2hTv4Jof3ZvS56UHpTNM8FgoW5yxXZjrjCuzXM_nfNGP9_cBQmcQtOhWgMV48rJVRRtZFdXn2IqWuXK6nUAi6elSPr1HLt3klkS9uOxBi-dPZbN98P6BXX77G8"
+          },
+          "read_attachment_supported": true,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 20055,
+    "classification_label_values": null
+  }
+}

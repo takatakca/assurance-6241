@@ -257,6 +257,7 @@
     "nature": "original",
     "demandes": [
       3,
+      9,
       10,
       16,
       18
@@ -1069,11 +1070,14 @@
     "id": "A074",
     "fichier": "ANNEXES/A074__Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
     "source": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/joey-rapport7-avril2025/Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx",
-    "copies_identiques": [],
+    "copies_identiques": [
+      "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-22-avril-2025.xlsx"
+    ],
     "sha256": "b1aa1c2d43d591a7d39e5b4705eafdef1cfb1de85b390c27e945f603f7688900",
     "octets": 22799,
     "nature": "original",
     "demandes": [
+      5,
       22
     ],
     "description": "Tableau du dossier antérieur : F63 réclamé 191 615,88 $, G63 évalué 92 318,16 $, H63 alloué 80 918,31 $; H73 « Indenité no.3 » 18 494,09 $. Ces rubriques ne prouvent pas un versement bancaire et ne s’additionnent pas aux autres versions du sinistre.",
@@ -1215,9 +1219,11 @@
     "octets": 6074431,
     "nature": "original",
     "demandes": [
+      9,
       10,
       16,
-      18
+      18,
+      20
     ],
     "description": "Rapport de saisie du 17 décembre 2025 avec transport certifié vers le 5505 rue Irwin, LaSalle H8N 1A1, a/s KOSTAS KRONIS; notification du PV à KOSTA KRONIS, via Ooeuf, le 22 avril 2026 à 14 h 25, réception indiquée à 14 h 35. Repères historiques, sans confirmation actuelle du lieu.",
     "utilisee_dans_version_courante": true
@@ -3073,6 +3079,1379 @@
       20
     ],
     "description": "Objet différent de l'accès au rapport de police; ne pas substituer ces lignes au formulaire demandé.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A217",
+    "fichier": "ANNEXES/A217__BILAN-DE-LA-RECHERCHE.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md",
+    "copies_identiques": [],
+    "sha256": "2be68085c78977433026daee5bb10b3ea3ec8a2614c47bd3826d6d35dccce09c",
+    "octets": 8622,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Bilan du 24 octobre : deux boîtes courriel, quatre conversations ChatGPT et nouveaux documents du client",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A218",
+    "fichier": "ANNEXES/A218__PRECISIONS-DU-CLIENT-24-OCTOBRE.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+    "copies_identiques": [],
+    "sha256": "b0b6a5323d349d63f3facd6c7fb0c3c8e082f1e2d79f006eab820288310632a7",
+    "octets": 5117,
+    "nature": "declaration",
+    "demandes": [
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "description": "Précisions du client du 24 octobre; déclarations distinguées des preuves documentaires",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A219",
+    "fichier": "ANNEXES/A219__SUIVIS-ET-CONTACTS.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/SUIVIS-ET-CONTACTS.md",
+    "copies_identiques": [],
+    "sha256": "84968df48c76d40e2fe27346f4256c09d8f2bb3de81dcf080920e74788d63283",
+    "octets": 3808,
+    "nature": "analyse",
+    "demandes": [
+      10,
+      11,
+      12,
+      16,
+      18,
+      24
+    ],
+    "description": "Détenteurs indiqués par le client et demandes ciblées préparées; aucun contact effectué",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A220",
+    "fichier": "ANNEXES/A220__BILAN-REPRISE-CHATGPT.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/BILAN-REPRISE-CHATGPT.md",
+    "copies_identiques": [],
+    "sha256": "17b0253b9ee80a1a32ebdeaae442f993d0c15212b65bc203cb8149e2b3963669",
+    "octets": 7861,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Bilan des quatre conversations auparavant inaccessibles, maintenant consultées",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A221",
+    "fichier": "ANNEXES/A221__COUVERTURE-REPRISE-CHATGPT-2026-10-24.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/COUVERTURE-REPRISE-CHATGPT-2026-10-24.json",
+    "copies_identiques": [],
+    "sha256": "d09744c358371c22167df52158535c42aec3a6288ed2bb23b20a3a98fbd94f02",
+    "octets": 5553,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "URLs, dates, état d’accès et provenance des extractions des quatre conversations",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A222",
+    "fichier": "ANNEXES/A222__Finaliser-dossier-Harmony-Movers.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Finaliser-dossier-Harmony-Movers.txt",
+    "copies_identiques": [],
+    "sha256": "ca862f2181d3d9e6c8c116e6321f1c74e5e604a13acdc26c659fedf7da580233",
+    "octets": 743,
+    "nature": "extraction",
+    "demandes": [],
+    "description": "Extraction de conversation : Finaliser dossier Harmony Movers; paroles du client et texte ChatGPT ne sont pas des pièces originales de l’incident",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A223",
+    "fichier": "ANNEXES/A223__Extraire-la-conversation.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Extraire-la-conversation.txt",
+    "copies_identiques": [],
+    "sha256": "699580e5d9342fbb2118bed3c1d96a5edba8470f21c379029b3f9813f184bfe6",
+    "octets": 62437,
+    "nature": "extraction",
+    "demandes": [],
+    "description": "Extraction assemblée de la conversation Extraire la conversation; rôles détaillés dans le relevé associé",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A224",
+    "fichier": "ANNEXES/A224__Extraire-la-conversation-roles.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Extraire-la-conversation-roles.json",
+    "copies_identiques": [],
+    "sha256": "54695b3e0a13c1a4a150a555a9d084727e0d25c392be73611e52684a9f073a49",
+    "octets": 64075,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Attribution des messages utilisateur et assistant de la conversation Extraire la conversation",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A225",
+    "fichier": "ANNEXES/A225__Prepare-Hearing-Evidence.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Prepare-Hearing-Evidence.txt",
+    "copies_identiques": [],
+    "sha256": "682eda05e3acf88ae17ac3d10a0cf1cd2338871954761728e0a8dba5b14ab78b",
+    "octets": 7345,
+    "nature": "extraction",
+    "demandes": [],
+    "description": "Extraction de la conversation Prepare Hearing Evidence; contenu déclaratif et analytique",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A226",
+    "fichier": "ANNEXES/A226__Prepare-Hearing-Evidence-roles.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Prepare-Hearing-Evidence-roles.json",
+    "copies_identiques": [],
+    "sha256": "ac40c0778f371356f83ec794f122b6cad634de8153ff081671b2e2c4e2205572",
+    "octets": 7982,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Attribution des messages utilisateur et assistant de Prepare Hearing Evidence",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A227",
+    "fichier": "ANNEXES/A227__Harmony-Movers-Incident.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Harmony-Movers-Incident.txt",
+    "copies_identiques": [],
+    "sha256": "e90e137c7c63ad48dd32488a1383614e442a7c38ed5911bf00cb60beecc6c4ab",
+    "octets": 62787,
+    "nature": "extraction",
+    "demandes": [],
+    "description": "Extraction de la conversation Harmony Movers Incident; contenu déclaratif et analytique",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A228",
+    "fichier": "ANNEXES/A228__Harmony-Movers-Incident-roles.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Harmony-Movers-Incident-roles.json",
+    "copies_identiques": [],
+    "sha256": "2fd486eae072ae2d14f4e2d798479f0667dd233ec914b4eb778788183487d128",
+    "octets": 64585,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Attribution des messages utilisateur et assistant de Harmony Movers Incident",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A229",
+    "fichier": "ANNEXES/A229__CONTROLE-FACTURES-ARCHIVES.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/CONTROLE-FACTURES-ARCHIVES.json",
+    "copies_identiques": [],
+    "sha256": "7a126c80920dcc009a50c8be581f54b69574ef2c36c7dde076f60e8215d8abd6",
+    "octets": 23749,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Contrôles des PDF extraits des archives et limites de rapprochement",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A230",
+    "fichier": "ANNEXES/A230__CONTROLE-DIFFUSION-ARCHIVES.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/CONTROLE-DIFFUSION-ARCHIVES.json",
+    "copies_identiques": [],
+    "sha256": "bc28702129adbe678c42ef1520b2e9d77a239c460056a7224e42cc30f1831a0b",
+    "octets": 151,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Conservation locale des deux archives complètes et diffusion des extraits pertinents",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A231",
+    "fichier": "ANNEXES/A231__PROVENANCE-OOEUF-24.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/PROVENANCE-OOEUF-24.json",
+    "copies_identiques": [],
+    "sha256": "b4a011737d24a3b14f33123ad4efb99961dcadf2667bbbea16d43ad1bc3d37b5",
+    "octets": 2319,
+    "nature": "analyse",
+    "demandes": [
+      13
+    ],
+    "description": "Provenance des courriels et pièces récupérés dans Ooeuf le 24 octobre",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A232",
+    "fichier": "ANNEXES/A232__ANALYSE-ET-PROVENANCE-OOEUF.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/ANALYSE-ET-PROVENANCE-OOEUF.md",
+    "copies_identiques": [],
+    "sha256": "68116033d4e895105e6c89f5580cb3645df8b6140833c8fbf31537c32d6813d6",
+    "octets": 4424,
+    "nature": "analyse",
+    "demandes": [
+      6,
+      7,
+      13
+    ],
+    "description": "Analyse et limites des pièces Ooeuf : factures AKA, relocalisation et lettre Uber Eats",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A233",
+    "fichier": "ANNEXES/A233__CONTROLE-VISUEL.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/Controle_10043375_2024_2025/CONTROLE-VISUEL.json",
+    "copies_identiques": [],
+    "sha256": "b3546ee7514799a6150094e5633073b51901a4bc3adaf2ad182b9c075f1894ba",
+    "octets": 1026,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Contrôle des conditions particulières et pages ciblées de la police 10043375 renouvelée pour 2024–2025",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A234",
+    "fichier": "ANNEXES/A234__CONTROLE-VISUEL.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/Controle_10043375_2023_2024/CONTROLE-VISUEL.json",
+    "copies_identiques": [],
+    "sha256": "8eec9dbcc2a091f4f02ddad6eefd20ab8979192e9290bcbb12f36b5dd68c2061",
+    "octets": 963,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Contrôle des conditions particulières de la police initiale 10043375 pour 2023–2024",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A235",
+    "fichier": "ANNEXES/A235__PROVENANCE-TABLEAUX.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/PROVENANCE-TABLEAUX.json",
+    "copies_identiques": [],
+    "sha256": "fdc2b4e193f6cf4685d48cac5be7a2f51486182aa1d4cfcb8e11b900bd6e26e3",
+    "octets": 1840,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Origine et empreintes des trois versions du sommaire IndemniPro",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A236",
+    "fichier": "ANNEXES/A236__PROVENANCE-COURRIELS-TABLEAUX.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/PROVENANCE-COURRIELS-TABLEAUX.json",
+    "copies_identiques": [],
+    "sha256": "a522e92822ff29e5cc17df4f29618c49146ee15d60a5fe9fa6d1f3af4b4f8f1f",
+    "octets": 1998,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Provenance des échanges cités de Joey Dubois sur les tableaux et les rapports techniques",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A237",
+    "fichier": "ANNEXES/A237__CONTROLE-VISUEL.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/CONTROLE-VISUEL.json",
+    "copies_identiques": [],
+    "sha256": "40c20169bf4f997d9b368a29742e3b2362b147b6ab2cf2f80a59d64478a37ef0",
+    "octets": 1805,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Contrôle des photographies de factures et différences de versions",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A238",
+    "fichier": "ANNEXES/A238__LIRE-EN-PREMIER.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/LIRE-EN-PREMIER.md",
+    "copies_identiques": [],
+    "sha256": "9cabec7f19837e3bffe24c9e7c22a8c9ff10b1fa9e6eb8af11eb109d6f4652e1",
+    "octets": 764,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Instructions au cabinet pour le projet d’autorisation SPVM à faire signer personnellement",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A239",
+    "fichier": "ANNEXES/A239__PROVENANCE-AUTORISATION.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/PROVENANCE-AUTORISATION.json",
+    "copies_identiques": [],
+    "sha256": "0ef9cd840010cfb5929ee51221b3ed495ed00134e59c745aa98d954db5bdfd90",
+    "octets": 2565,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Sources officielles et limites du projet d’autorisation SPVM non signé",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A240",
+    "fichier": "ANNEXES/A240__CONTROLE-VISUEL-AUTORISATION.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/CONTROLE-VISUEL-AUTORISATION.json",
+    "copies_identiques": [],
+    "sha256": "e0b2c535399c385eb9faad587cc1441e7016f8cf29221ae8a599747e2fce30f1",
+    "octets": 993,
+    "nature": "analyse",
+    "demandes": [],
+    "description": "Contrôle visuel des deux pages du projet SPVM",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A241",
+    "fichier": "ANNEXES/A241__CV-Final.docx",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/CV-Final.docx",
+    "copies_identiques": [],
+    "sha256": "cf8974ecf40db873956ac96690c28335a4214f55d01be564e958bdf4e896d722",
+    "octets": 18921,
+    "nature": "original",
+    "demandes": [
+      1
+    ],
+    "description": "CV déclaratif fourni par le client, conservé sans modification. Aucun emploi ni diplôme vérifié indépendamment.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A242",
+    "fichier": "ANNEXES/A242__PROVENANCE-CV.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/PROVENANCE-CV.json",
+    "copies_identiques": [],
+    "sha256": "79271784019cd82747d972dd9c482bc1d634d6c89d21c29e0b68f7881ea4347a",
+    "octets": 709,
+    "nature": "analyse",
+    "demandes": [
+      1
+    ],
+    "description": "Trace d’acquisition de la copie; ne valide pas le contenu du CV.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A243",
+    "fichier": "ANNEXES/A243__1000155462.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+    "copies_identiques": [],
+    "sha256": "6d59cf446b75aa7676b969819a3d3cafdc9b08442f18ff9440087cc8ae473955",
+    "octets": 524781,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      2,
+      8,
+      15
+    ],
+    "description": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A244",
+    "fichier": "ANNEXES/A244__1000155480.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155480.jpg",
+    "copies_identiques": [],
+    "sha256": "80e99432c764ad933a049a77efbca8b9fcd0e23d25b0e4b2f84535898c776682",
+    "octets": 593568,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      2,
+      8
+    ],
+    "description": "Même adresse et courriel qu’en 5478. Entrant à 16:57 : « i resend it let me know if you have any question ». Entrant le 8 juin : « Hey! I just wanted to follow up to make sure you received the quote I sent yesterday. Let me know if you have any questions or if there’s anything I can help with! »",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A245",
+    "fichier": "ANNEXES/A245__1000155482.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155482.jpg",
+    "copies_identiques": [],
+    "sha256": "607f6e9ef5207381b68c4d9583861036b95aafa9eb33051cb559e0f037ef3504",
+    "octets": 896562,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      2,
+      8
+    ],
+    "description": "Entrant le 12 juin : « Hey call me when you have a moment ». Sortant le 13 juin : « Confirming that we have tried to reach you this morning and still waiting on a call back. » Puis : « Pierre has sent you and email and waiting your reply, he had people scheduled at location 5507 rue Irwin waiting on his delivery! Also there people waiting at 6241 blvd Léger Montréal nord H1g6k8 to empty the reste of the Pizzeria equipment provided in the initial quote. » Puis : « Also pierre was willing to make payment to what was agreed upon signing the agreement 🤝 ».",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A246",
+    "fichier": "ANNEXES/A246__1000155485.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+    "copies_identiques": [],
+    "sha256": "8905152ed03a81ccc80324233a537e7929140853567b5af14b3438666ce33aa0",
+    "octets": 793973,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      2,
+      8,
+      25
+    ],
+    "description": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A247",
+    "fichier": "ANNEXES/A247__1000155486.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+    "copies_identiques": [],
+    "sha256": "ed1548ab8850c9aad4e9f6bbb92447c6aaee0c045675d4654a5b0b559ad67a13",
+    "octets": 658371,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      2,
+      8,
+      25
+    ],
+    "description": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A248",
+    "fichier": "ANNEXES/A248__rapport.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+    "copies_identiques": [],
+    "sha256": "6cda0d65e387a3772d47bbdd6f37f88c7740ca471556c89a0d6aa5e05ab5b58b",
+    "octets": 11111,
+    "nature": "analyse et transcription de travail",
+    "demandes": [
+      2,
+      8,
+      15,
+      25
+    ],
+    "description": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A249",
+    "fichier": "ANNEXES/A249__INVENTAIRE RESTO.xlsx",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/Originaux/INVENTAIRE RESTO.xlsx",
+    "copies_identiques": [],
+    "sha256": "582989d09e0d123eb3b516dc2af413de3b2061fc0c6d1ee1c6365f8db9b92d6c",
+    "octets": 12064,
+    "nature": "original numerique joint au courriel",
+    "demandes": [
+      3,
+      15
+    ],
+    "description": "39 lignes, 35 modèles et 32 séries renseignés. Colonne VALEUR vide.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A250",
+    "fichier": "ANNEXES/A250__198472d44b632476.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/EML/198472d44b632476.eml",
+    "copies_identiques": [],
+    "sha256": "124cea23b2675a7b9baaa87108d55bbac79c069cf5c1218325fc609067b22fd0",
+    "octets": 24172,
+    "nature": "original courriel",
+    "demandes": [
+      3,
+      15
+    ],
+    "description": "Provenance de transmission du classeur; la chaîne antérieure citée ne remplace pas son EML autonome.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A251",
+    "fichier": "ANNEXES/A251__rapport.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/rapport.md",
+    "copies_identiques": [],
+    "sha256": "450a4bfa0a09eea3afe20854c064c0b0e0b988e0496b1266338702c5e1e5ca18",
+    "octets": 8269,
+    "nature": "declaration client consignee",
+    "demandes": [
+      3,
+      15
+    ],
+    "description": "Confirmation du client le 24 octobre 2026 que ce fichier est l’inventaire recherché des équipements lors de l’achat.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A252",
+    "fichier": "ANNEXES/A252__BILAN-DANIEL-SIMARD.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+    "copies_identiques": [],
+    "sha256": "bfd593e086e2f869b14136e52279e9a3333438b65e5be9887d120416e1281bbf",
+    "octets": 11665,
+    "nature": "analyse",
+    "demandes": [
+      3,
+      5,
+      22
+    ],
+    "description": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A253",
+    "fichier": "ANNEXES/A253__CHRONOLOGIE.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+    "copies_identiques": [],
+    "sha256": "6f5cc7b2cbe23dc654d4605ef059ce2898f052fbda58b1ef3153a92a3335ad14",
+    "octets": 9265,
+    "nature": "analyse",
+    "demandes": [
+      3,
+      5,
+      22
+    ],
+    "description": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A254",
+    "fichier": "ANNEXES/A254__197896004b3e9484.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/197896004b3e9484.txt",
+    "copies_identiques": [],
+    "sha256": "68d8ce10af05f1283a0f676db8fc9c9221990740d5aa5f847e5857c7e70c8370",
+    "octets": 4917,
+    "nature": "extraction",
+    "demandes": [
+      3
+    ],
+    "description": "Question sur les équipements inclus dans l’acquisition du commerce; pas preuve de propriété.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A255",
+    "fichier": "ANNEXES/A255__08-fil-texte.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/08-fil-texte.txt",
+    "copies_identiques": [],
+    "sha256": "dfa1489a2a54f474719c9f2c32a6791b39381bafa107264871ce5f0eed88d394",
+    "octets": 2654,
+    "nature": "extraction",
+    "demandes": [
+      3
+    ],
+    "description": "Offre de financement et transmission à Daniel; pas contrat signé.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A256",
+    "fichier": "ANNEXES/A256__G22_192b69775df0e947-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G22_192b69775df0e947-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "c65619ec3eb3fc54cc8242b358e35dcf13a56fc64efa6439326783caa311b112",
+    "octets": 23981,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 15 juillet 2024, BUNN CDS2; variante datée du 15, à rapprocher de la version du 17 et d’A290. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A257",
+    "fichier": "ANNEXES/A257__G23_192b6e5ddbebbe4b-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G23_192b6e5ddbebbe4b-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "43029c92eeb0300e6684463723a867842db3cf6041b3849eb55c0a36ed5e8701",
+    "octets": 23724,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 25 juin 2024, climatisation fournie par le client; texte identique à G26 mais empreinte différente. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A258",
+    "fichier": "ANNEXES/A258__G24_192b6e62f5eb5fb3-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G24_192b6e62f5eb5fb3-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "140d074db203054b1630286687f6cd71431b6bf2bdf3ea91d3de630bd0e28cc2",
+    "octets": 23908,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 10 juillet 2024, unité 2 hp; précise chambre congélateur et mise en route. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A259",
+    "fichier": "ANNEXES/A259__G25_192b696201394ef4-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G25_192b696201394ef4-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "7183d7c2b5980c6ab5680070fd20db0da67a7783bf3ce29cbe1de6973998ddba",
+    "octets": 23892,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 10 juillet 2024, unité 2 hp; libellé final plus général que G24, pas nouvelle dépense. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A260",
+    "fichier": "ANNEXES/A260__G26_192b695cec4fb023-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G26_192b695cec4fb023-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "242440ad009e98ea3595a7d25d2def580d2c370136d191093cf1e7f109be743c",
+    "octets": 23724,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 25 juin 2024, climatisation fournie par le client; texte identique à G23 mais empreinte différente. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A261",
+    "fichier": "ANNEXES/A261__G27_192b69707dcc14ba-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G27_192b69707dcc14ba-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "4932c46f2af6983a522bb4f5d5b8c058b98537c5fa55199b8a5bf337d1395949",
+    "octets": 24108,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 15 juillet 2024, compresseur machine à crème glacée; texte identique à G29. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A262",
+    "fichier": "ANNEXES/A262__G28_192b696b2a3af44a-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G28_192b696b2a3af44a-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "c22f6a8bf96a999daeb47389a4c523eb38ee2bf1a3ae5af4e5f932a2da881f45",
+    "octets": 23773,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 10 juillet 2024, chambre froide; variante datée du 10, à rapprocher du 13 et de la référence A290 du tableau. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A263",
+    "fichier": "ANNEXES/A263__G29_192b6e6d937fa268-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G29_192b6e6d937fa268-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "8c4e5cf67dbed9550dec3ed474cd12aee0ca25286a61beea9a36fa8faf6dccfb",
+    "octets": 24108,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 15 juillet 2024, compresseur machine à crème glacée; texte identique à G27. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A264",
+    "fichier": "ANNEXES/A264__G30_192b6e67a28f1bfc-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G30_192b6e67a28f1bfc-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "13d48414444199da315dad6fe6048ddccb30331745c637de16a5a18349924160",
+    "octets": 23798,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 13 juillet 2024, chambre froide; concorde avec la photo où une autre feuille A290 est visible derrière. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A265",
+    "fichier": "ANNEXES/A265__G31_192b6e7272d2e3d0-Facture.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/ChatGPT/Pieces_extraites/G31_192b6e7272d2e3d0-Facture.pdf",
+    "copies_identiques": [],
+    "sha256": "39ed2f0fdd84c686812fbb03005f6b5553eee2d0fd0ec886a217baad60828c7c",
+    "octets": 23928,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "Copie PDF extraite de l’archive ChatGPT; 17 juillet 2024, BUNN CDS2; même groupe de réparation que G22, ne pas additionner. Le paiement et l’état au 12 juin 2025 ne sont pas établis par cette pièce seule.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A266",
+    "fichier": "ANNEXES/A266__Hadmo-version-15-janvier-2025.xlsx",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-15-janvier-2025.xlsx",
+    "copies_identiques": [],
+    "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0",
+    "octets": 21268,
+    "nature": "original",
+    "demandes": [
+      5,
+      22
+    ],
+    "description": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A267",
+    "fichier": "ANNEXES/A267__Hadmo-version-ancienne.xlsx",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/Originaux/Hadmo-version-ancienne.xlsx",
+    "copies_identiques": [],
+    "sha256": "56a65d394848021e5b7e26707ae9baed49900b8cf3287ef1fa842b3532617ec7",
+    "octets": 14929,
+    "nature": "original",
+    "demandes": [
+      5,
+      22
+    ],
+    "description": "Version conservée du sommaire IndemniPro 24110-4833; références des factures, montants et réserves. Ne pas additionner les versions; avril est identique à A074 déjà annexée.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A268",
+    "fichier": "ANNEXES/A268__RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.md",
+    "copies_identiques": [],
+    "sha256": "5adfb9f99faa434615f4c6b4c53763d632c4478cbe3d905d689108163a796f98",
+    "octets": 9823,
+    "nature": "analyse",
+    "demandes": [
+      5,
+      22
+    ],
+    "description": "Analyse du 24 octobre : dix PDF pour cinq groupes; divergences dates/références; trois versions du tableau IndemniPro et points à vérifier.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A269",
+    "fichier": "ANNEXES/A269__07-fil-texte.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/07-fil-texte.txt",
+    "copies_identiques": [],
+    "sha256": "8cbb81bbc3a8c97e087ad2c4fbdd446e5c4ae51a2cf98dc249bbd8096ff24ee1",
+    "octets": 121671,
+    "nature": "extraction",
+    "demandes": [
+      5,
+      22
+    ],
+    "description": "Transmissions et suivis; distinction explicite entre soumissions, factures demandées et déclarations du client.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A270",
+    "fichier": "ANNEXES/A270__19e6a1f6ebc6d9dd.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19e6a1f6ebc6d9dd.txt",
+    "copies_identiques": [],
+    "sha256": "43297199dc830b6d87f12b9b4d1bb54eda3a5bc9baa159db9268a57b7229b5cc",
+    "octets": 10058,
+    "nature": "extraction",
+    "demandes": [
+      5
+    ],
+    "description": "Divergence entre les déclarations du client et de Joey sur l’autorisation/exécution des travaux; pas constat autonome.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A271",
+    "fichier": "ANNEXES/A271__19cd9982ac53b52e.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19cd9982ac53b52e.txt",
+    "copies_identiques": [],
+    "sha256": "61aa7af961c1e7956751088eb16bad189bb6c8f61efa8ac2185872d4d8e84cfa",
+    "octets": 4607,
+    "nature": "extraction",
+    "demandes": [
+      5
+    ],
+    "description": "Demande de rapport de conformité et suivi du compte impayé.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A272",
+    "fichier": "ANNEXES/A272__EC2024-04-22.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Pieces_jointes/19cd9982ac53b52e/EC2024-04-22.pdf",
+    "copies_identiques": [],
+    "sha256": "13a26d41922d8ec09e65ca912e7c7d5b23b593658fef2132fc071908e5163e93",
+    "octets": 371934,
+    "nature": "original",
+    "demandes": [
+      5
+    ],
+    "description": "État de compte HADAMO au 6241 Léger, facture 7478, solde 2 020,11 $; absence de détail des travaux, pas preuve de paiement.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A273",
+    "fichier": "ANNEXES/A273__rapport.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+    "copies_identiques": [],
+    "sha256": "1ca9e22c1e394a455cc3719f665c81e15e61251fcbcb1d98384dc29a29f6e48b",
+    "octets": 9852,
+    "nature": "analyse",
+    "demandes": [
+      6,
+      7,
+      9,
+      12,
+      24
+    ],
+    "description": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A274",
+    "fichier": "ANNEXES/A274__Invoice_1020_from_AKA_Moving.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Invoice_1020_from_AKA_Moving.pdf",
+    "copies_identiques": [],
+    "sha256": "ad21b4bcc21a7bceee11246199f98eecd7c32a6ee4def4fada8e69c92ec005e4",
+    "octets": 12179,
+    "nature": "original",
+    "demandes": [
+      6,
+      7
+    ],
+    "description": "Facture AKA Moving 1020 à Quadro du 11 juin 2025 : 600 $ HT, 689,85 $ TTC, montant dû affiché.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A275",
+    "fichier": "ANNEXES/A275__1000155464.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155464.jpg",
+    "copies_identiques": [],
+    "sha256": "4e6e336a1b8d05ec3a6c9751fce5f6e7788f47f14195293c43abf696e14e2ebf",
+    "octets": 407742,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8,
+      15
+    ],
+    "description": "Vue galerie contenant plusieurs vignettes de photos d’équipements : comptoirs, appareils de cuisine, évier et zone de cuisson.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A276",
+    "fichier": "ANNEXES/A276__1000155466.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155466.jpg",
+    "copies_identiques": [],
+    "sha256": "e6236ab20bc6307674ed23d698948be0b1db775546e0eb5b1a5685c9532271c8",
+    "octets": 409166,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8,
+      15
+    ],
+    "description": "Deuxième vue galerie : comptoir, mélangeur, chambre/appareil froid, réfrigérateur et zone de cuisson.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A277",
+    "fichier": "ANNEXES/A277__1000155468.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155468.jpg",
+    "copies_identiques": [],
+    "sha256": "0610a3456069dbca63486ef8b4e96b81ffc89b740c49b8d87d2afaba1355c3f8",
+    "octets": 413841,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8,
+      15
+    ],
+    "description": "Troisième vue galerie : friteuse, deux appareils verticaux de cuisson et grande enceinte blanche.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A278",
+    "fichier": "ANNEXES/A278__1000155470.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155470.jpg",
+    "copies_identiques": [],
+    "sha256": "ce09be8c76e91e19371b9fd5df7e6a6305645febb65cc49dd5512ffbc47e2e96",
+    "octets": 489214,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8
+    ],
+    "description": "Capture d’un courriel adressé à M. Lévesque. Liste visible : 2 fours à pizza; 1 four rotatif; 1 machine à pâte; 4 réfrigérateurs; friteuses; 2 machines à shawarma (partiellement couvert par trait bleu); équipement complet de pizzeria (étagères, accessoires, etc.).",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A279",
+    "fichier": "ANNEXES/A279__1000155472.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155472.jpg",
+    "copies_identiques": [],
+    "sha256": "762432de7a0925f9c24b15c5a2ab692f578410bb0471ef6a827adc24cc3189e8",
+    "octets": 340490,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8,
+      15
+    ],
+    "description": "Dans le fil « Transport Resto 6141 », agrandissement d’une photo de cuisine et début d’une autre photo d’enceinte blanche.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A280",
+    "fichier": "ANNEXES/A280__1000155474.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155474.jpg",
+    "copies_identiques": [],
+    "sha256": "036a9cc84e5aed0538d7dcaf693f2e8152eb38aacf3331ee435ca7c94cbf64cf",
+    "octets": 308220,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8,
+      15
+    ],
+    "description": "Agrandissement d’une enceinte blanche et vue partielle d’un réfrigérateur métallique.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A281",
+    "fichier": "ANNEXES/A281__1000155476.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155476.jpg",
+    "copies_identiques": [],
+    "sha256": "a7658feb20ecce70ace01f7b0d60aec1ea5f182705f6fa687edc038fd2675445",
+    "octets": 348997,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8,
+      15
+    ],
+    "description": "Vue partielle du réfrigérateur métallique, puis photo de deux appareils verticaux de cuisson sur table.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A282",
+    "fichier": "ANNEXES/A282__1000155478.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155478.jpg",
+    "copies_identiques": [],
+    "sha256": "af2afa85b66eea4ba3141cf72d8ea7b767a298a6ab69e887f6e17da19a5efdc1",
+    "octets": 364276,
+    "nature": "capture ecran fournie par client, piece jointe originale",
+    "demandes": [
+      8
+    ],
+    "description": "Sortant : « ooeuf.ca@gmail.com »; « Quadro holding ltee 6241 blvd Léger Montréal nord H1g6k8 ». Début de la réponse entrante : « i resend it let me know if you have any… »",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A283",
+    "fichier": "ANNEXES/A283__DECLARATIONS-CLIENT.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/DECLARATIONS-CLIENT.md",
+    "copies_identiques": [],
+    "sha256": "c987feff0b8988b383901e76bcfc183cf1557d4a46249727816242fdabc6cbf9",
+    "octets": 1696,
+    "nature": "declaration_client_relayee",
+    "demandes": [
+      9
+    ],
+    "description": "Déclaration du client désignant la pièce; pas un constat de l’huissier.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A284",
+    "fichier": "ANNEXES/A284__1a10d08a7feddb4a.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/EML/1a10d08a7feddb4a.eml",
+    "copies_identiques": [
+      "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d08a7feddb4a.eml"
+    ],
+    "sha256": "7d092785649e467a25e1da65cc78c604bdf80f1f2d863420ac55cc01e24cd616",
+    "octets": 4551,
+    "nature": "original",
+    "demandes": [
+      9,
+      18
+    ],
+    "description": "Communication administrative existante signalant les identifications et vérifications encore à faire; ne fournit pas de liste de chargement.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A285",
+    "fichier": "ANNEXES/A285__1a16c2b6913d6e9a.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/EML/1a16c2b6913d6e9a.eml",
+    "copies_identiques": [],
+    "sha256": "acde69588660981c9894fe7c1f0ee86916e743b0f88f1526c1ce5927758e34be",
+    "octets": 11798,
+    "nature": "courriel original contenant declaration client",
+    "demandes": [
+      12
+    ],
+    "description": "Déclaration de relocalisation et adresse, sans bail ou autorisation signée.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A286",
+    "fichier": "ANNEXES/A286__relocalisation-rapport.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/relocalisation-rapport.md",
+    "copies_identiques": [],
+    "sha256": "079092fa4f26aef4f5f49cc27fffce53884f6f21665961d0dbb46a6dbac32ad7",
+    "octets": 1396,
+    "nature": "analyse",
+    "demandes": [
+      12
+    ],
+    "description": "Distinction entre déclaration d’adresse et titre d’occupation demandé.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A287",
+    "fichier": "ANNEXES/A287__2025-07-01-Relocalisation-Jean-Talon.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/2025-07-01-Relocalisation-Jean-Talon.eml",
+    "copies_identiques": [],
+    "sha256": "8a9db06da1dafc519566e43ba6e08dd8c628690be91f67b3ddb821df2e2202b0",
+    "octets": 3862,
+    "nature": "original",
+    "demandes": [
+      12
+    ],
+    "description": "Courriel du 1er juillet 2025 annonçant la relocalisation au 5837 Jean-Talon; déclaration du client au courtier.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A288",
+    "fichier": "ANNEXES/A288__NOTE-DOSSIER-FISCAL-TOMMASO-NICK.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/NOTE-DOSSIER-FISCAL-TOMMASO-NICK.md",
+    "copies_identiques": [],
+    "sha256": "72523b8c63c97bdef073f7c1c1339e177c608f86f6d1119997948fd98909154c",
+    "octets": 6649,
+    "nature": "analyse",
+    "demandes": [
+      13,
+      14,
+      23
+    ],
+    "description": "Repérage du dossier fiscal Tommaso Di Paola/Nicholas Cristiano et limites par demande.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A289",
+    "fichier": "ANNEXES/A289__Quadro_Holding_Lettre_UberEats_FR_Clean.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Quadro_Holding_Lettre_UberEats_FR_Clean.pdf",
+    "copies_identiques": [],
+    "sha256": "c89a34728bcb7a8f22eec19afb76f353687962a9396a3420c734f9669b6643b8",
+    "octets": 3337,
+    "nature": "original",
+    "demandes": [
+      13
+    ],
+    "description": "Lettre unilatérale Quadro demandant l’activation de seize marques chez Uber Eats; date imprimée du 24 avril 2024, adresse 5839 Jean-Talon.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A290",
+    "fichier": "ANNEXES/A290__ANALYSE-HUISSIER.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/ANALYSE-HUISSIER.md",
+    "copies_identiques": [],
+    "sha256": "39a7aaaaf7443c15874f9a8c06845592fbd450766c8d171d6971bed595156a22",
+    "octets": 18192,
+    "nature": "analyse",
+    "demandes": [
+      18
+    ],
+    "description": "Analyse de portée, ne remplace pas les médias demandés.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A291",
+    "fichier": "ANNEXES/A291__1000155488.jpg",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/1000155488.jpg",
+    "copies_identiques": [],
+    "sha256": "cbc88039e62596656142126b6ce5a00f123c9b94c4be573032245af689b9170d",
+    "octets": 5615653,
+    "nature": "document_fourni_client",
+    "demandes": [
+      18
+    ],
+    "description": "Identifie le courriel du cabinet; n’affiche ni équipement ni dommage.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A292",
+    "fichier": "ANNEXES/A292__1a10d1182b2319b2.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d1182b2319b2.eml",
+    "copies_identiques": [],
+    "sha256": "769ae4a88104fcda3f48cd6347c1bd5d6c1101befb4894065c1b7c4c2d63fed9",
+    "octets": 3067,
+    "nature": "original",
+    "demandes": [
+      18
+    ],
+    "description": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A293",
+    "fichier": "ANNEXES/A293__1a10d119b71c4554.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d119b71c4554.eml",
+    "copies_identiques": [],
+    "sha256": "ea6e11fb305986de2db40e4aba9dae773ad564d18fe6ebe9e0f0eb1e042e27bf",
+    "octets": 3207,
+    "nature": "original",
+    "demandes": [
+      18
+    ],
+    "description": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A294",
+    "fichier": "ANNEXES/A294__1a10d2e36bf7f452.eml",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d2e36bf7f452.eml",
+    "copies_identiques": [],
+    "sha256": "b84db47f5e1c771e4b38a69d89ca7b79fa74f91230446ba0d9a77581b8a944f3",
+    "octets": 2051,
+    "nature": "original",
+    "demandes": [
+      18
+    ],
+    "description": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A295",
+    "fichier": "ANNEXES/A295__AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf",
+    "copies_identiques": [],
+    "sha256": "b8ba01d6079ba78daf4e3cf5c48dcc572e410b0e38c108d570f444070465151e",
+    "octets": 78933,
+    "nature": "analyse",
+    "demandes": [
+      20
+    ],
+    "description": "Projet préparé le 24 octobre 2026; consentement limité, un exemplaire par personne; aucune signature ni attestation créée.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A296",
+    "fichier": "ANNEXES/A296__AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.md",
+    "copies_identiques": [],
+    "sha256": "e766db93af8f79f0cb9df2d5a6097aed80760362f4b279117483764b8bff9e02",
+    "octets": 4301,
+    "nature": "analyse",
+    "demandes": [
+      20
+    ],
+    "description": "Projet préparé le 24 octobre 2026; consentement limité, un exemplaire par personne; aucune signature ni attestation créée.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A297",
+    "fichier": "ANNEXES/A297__rapport.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/rapport.md",
+    "copies_identiques": [],
+    "sha256": "cc3200994941153d6e1372fae1ee51803768fb4dd9ae91b44c75a231d3489949",
+    "octets": 6193,
+    "nature": "analyse",
+    "demandes": [
+      21,
+      22
+    ],
+    "description": "Étendue réelle de collecte, distinction des dossiers, manquants et contrôles.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A298",
+    "fichier": "ANNEXES/A298__INDEX-CORRESPONDANCES.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/INDEX-CORRESPONDANCES.md",
+    "copies_identiques": [],
+    "sha256": "2660e3e046e46c59816c58c5e7112794be5948cca07d8232536d3dd71626de11",
+    "octets": 13413,
+    "nature": "analyse",
+    "demandes": [
+      21,
+      22
+    ],
+    "description": "Index des copies lisibles avec renvoi aux sources et limites.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A299",
+    "fichier": "ANNEXES/A299__CHRONOLOGIE-ASSURANCE-EXPERTS.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CHRONOLOGIE-ASSURANCE-EXPERTS.md",
+    "copies_identiques": [],
+    "sha256": "60d31b37dcf1b608672fd1de6604d96601b5df2ae50eb870eae5b2eeb4c332d5",
+    "octets": 5915,
+    "nature": "analyse",
+    "demandes": [
+      21,
+      22
+    ],
+    "description": "Dates originales, dates de transfert et dossiers distincts.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A300",
+    "fichier": "ANNEXES/A300__provenance-copies-lecture.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/provenance-copies-lecture.json",
+    "copies_identiques": [],
+    "sha256": "8b28b644d81fae12292f06dfa68fd473d9f59c10c3552ac442007c31529917f0",
+    "octets": 70239,
+    "nature": "analyse",
+    "demandes": [
+      21,
+      22
+    ],
+    "description": "Traçabilité des captures et copies de lecture.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A301",
+    "fichier": "ANNEXES/A301__CORRESPONDANCES-RACINE.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CORRESPONDANCES-RACINE.md",
+    "copies_identiques": [],
+    "sha256": "244ecc3982fff76e0294a7f0ae4951cc11b24940f7d2756256d5257df6974336",
+    "octets": 229201,
+    "nature": "extraction interface Gmail",
+    "demandes": [
+      21
+    ],
+    "description": "Recueil des textes visibles des 41 fils, brouillons séparés, secrets masqués.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A302",
+    "fichier": "ANNEXES/A302__10043375-Renouvellement-2024-2025.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Renouvellement-2024-2025.pdf",
+    "copies_identiques": [],
+    "sha256": "ec3bb4acf61bbb3ab8ee87cdb16603aac44d92f321de184448f413d8ecbf01a0",
+    "octets": 3025841,
+    "nature": "original",
+    "demandes": [
+      21
+    ],
+    "description": "Copie de la police 10043375 : renouvellement 2024–2025, 113 pages, Quadro nommé assuré.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A303",
+    "fichier": "ANNEXES/A303__10043375-Nouveau-contrat-2023-2024.pdf",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Nouveau-contrat-2023-2024.pdf",
+    "copies_identiques": [],
+    "sha256": "f1152c7c8b1add73a0c5c3991b76ed05d4b18969fb73ea5dfef261f28813bc89",
+    "octets": 2922406,
+    "nature": "original",
+    "demandes": [
+      21
+    ],
+    "description": "Copie de la police 10043375 : contrat initial 2023–2024, 117 pages, 8697230 Canada Inc. seul nommé dans les conditions particulières.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A304",
+    "fichier": "ANNEXES/A304__ANALYSE-POLICES-10043375.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/ANALYSE-POLICES-10043375.md",
+    "copies_identiques": [],
+    "sha256": "1033ec71caa6905608d8bebd4a222395df55a66845377993e85d94fa64c00dff",
+    "octets": 5316,
+    "nature": "analyse",
+    "demandes": [
+      21
+    ],
+    "description": "Identification des deux polices, repères des formulaires et limites du contrôle.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A305",
+    "fichier": "ANNEXES/A305__PROVENANCE-POLICES-10043375.json",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/PROVENANCE-POLICES-10043375.json",
+    "copies_identiques": [],
+    "sha256": "53bf8895c1fe6e38e9aca2dff2c1d1c537c718a343548fdbc5b67befbed1e00b",
+    "octets": 2501,
+    "nature": "analyse",
+    "demandes": [
+      21
+    ],
+    "description": "Provenance Gmail et empreintes des PDF intacts.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A306",
+    "fichier": "ANNEXES/A306__19e847ca0d6579ce.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19e847ca0d6579ce.txt",
+    "copies_identiques": [],
+    "sha256": "72c231d97cda92265ebc2c3e1df7dd29c8fb1e06f18ff008999cb18ac0680cd0",
+    "octets": 16993,
+    "nature": "extraction",
+    "demandes": [
+      22
+    ],
+    "description": "Réclamation marchandises et relances du rapport de cause.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A307",
+    "fichier": "ANNEXES/A307__15-fil-texte.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/15-fil-texte.txt",
+    "copies_identiques": [],
+    "sha256": "011cf219bc11b59f6846be8c40818ec010bc9560c8bd65581bd29190547c25a8",
+    "octets": 6066,
+    "nature": "extraction",
+    "demandes": [
+      22
+    ],
+    "description": "Demande du rapport frigoriste, soumission et pièces de marchandises; corps ultérieurs partiellement visibles.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A308",
+    "fichier": "ANNEXES/A308__07-fil-lecture.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Expert_Dufourd/07-fil-lecture.txt",
+    "copies_identiques": [],
+    "sha256": "bdd877e45cd88bfe7c0270832529c583933cef98acd3b4b255f53685a9412de4",
+    "octets": 5472,
+    "nature": "extraction interface Gmail",
+    "demandes": [
+      22
+    ],
+    "description": "Message d’accompagnement de la réserve et transfert au cabinet; les suggestions Gmail finales ne sont pas des messages.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A309",
+    "fichier": "ANNEXES/A309__CORRESPONDANCES-EXPERT-DUFOURD.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CORRESPONDANCES-EXPERT-DUFOURD.md",
+    "copies_identiques": [],
+    "sha256": "a7c6f4842e63525d121fe06be2e1c9101dd2549ec18e825bd4ec6ec40e88b34b",
+    "octets": 339082,
+    "nature": "extraction interface Gmail",
+    "demandes": [
+      22
+    ],
+    "description": "Demandes de l’expert, échanges sur une expertise Gamelin et transmission de la réserve.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A310",
+    "fichier": "ANNEXES/A310__13-fil-lecture.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Racine_Chamberland/13-fil-lecture.txt",
+    "copies_identiques": [],
+    "sha256": "f882e46a63e84ee7acd8dd5a8aebabaa2b6712aef4e25655bad20da20426a100",
+    "octets": 5543,
+    "nature": "extraction interface Gmail",
+    "demandes": [
+      22
+    ],
+    "description": "Courrier joint et qualification de négation par Maude; PDF non acquis, dossier séparé.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A311",
+    "fichier": "ANNEXES/A311__20-fil-lecture.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Racine_Chamberland/20-fil-lecture.txt",
+    "copies_identiques": [],
+    "sha256": "e2d2dbf75a81c53eb2d7c5d23b47828e548da44f07c6dad937d93cb797801cc1",
+    "octets": 18555,
+    "nature": "extraction interface Gmail",
+    "demandes": [
+      22
+    ],
+    "description": "Déclaration du client après incident du 26 juin et désignation de Benoit Daigle / DLL 32-10296.",
+    "utilisee_dans_version_courante": true
+  },
+  {
+    "id": "A312",
+    "fichier": "ANNEXES/A312__Notifications-Instagram-extrait.txt",
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/Notifications-Instagram-extrait.txt",
+    "copies_identiques": [],
+    "sha256": "d195863f84fd6197ec933fc88d7dd77bf370518209389a44e2db8afc22feeee3",
+    "octets": 922,
+    "nature": "extraction",
+    "demandes": [
+      24
+    ],
+    "description": "Piste de nom de compte seulement; aucun mandat ni identité légale établis.",
     "utilisee_dans_version_courante": true
   }
 ]

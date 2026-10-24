@@ -1,0 +1,29 @@
+[
+  {
+    "sha256": "2c57f524a07d7d69b051c346f784582be11d69cb95cc69ae3a4686381867a032",
+    "paths": [
+      "Pieces_jointes/19cd99acc0b82917__05.pdf",
+      "Pieces_jointes/19cd99af93d29791__05.pdf"
+    ],
+    "regle": "Même contenu : une seule pièce de fond, transmissions conservées."
+  },
+  {
+    "sha256": "cb0628092ddea96bb040221b5c793dbbb792a67d0621bdfba170c07374d85801",
+    "paths": [
+      "Pieces_jointes/19e847ca0d6579ce__06.jpg",
+      "Pieces_jointes/19e847ca0d6579ce__07.jpg",
+      "Pieces_jointes/19e84837989f40a5__05.jpg",
+      "Pieces_jointes/19e84837989f40a5__06.jpg",
+      "Pieces_jointes/19e84837989f40a5__08.jpg"
+    ],
+    "regle": "Même contenu : une seule pièce de fond, transmissions conservées."
+  },
+  {
+    "sha256": "57b3773d2f9e80f89fd53b8a1a5244d91b052775cf43b2cdd45514bf1a350db0",
+    "paths": [
+      "Pieces_jointes/19e847d203e73434__04.xlsx",
+      "Pieces_jointes/19e8482d1cdc9ffb__04.xlsx"
+    ],
+    "regle": "Même contenu : une seule pièce de fond, transmissions conservées."
+  }
+]

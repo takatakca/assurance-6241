@@ -1,0 +1,16 @@
+{
+  "date_controle": "2026-10-24",
+  "message_id": "1a16c3433dd4857c",
+  "attendus": 13,
+  "extraits": 13,
+  "tailles_conformes_mime": true,
+  "sha_distincts": 13,
+  "lus_visuellement": 13,
+  "originals_unchanged": true,
+  "relocalisation_eml_sha256": "acde69588660981c9894fe7c1f0ee86916e743b0f88f1526c1ce5927758e34be",
+  "limites": [
+    "Captures de SMS/MMS, non export natif complet du téléphone.",
+    "EML complet du message 13 JPG non récupéré; MIME et ZIP conservés.",
+    "OCR Windows échoué; transcription visuelle contrôlée, pas OCR automatique déclaré réussi."
+  ]
+}

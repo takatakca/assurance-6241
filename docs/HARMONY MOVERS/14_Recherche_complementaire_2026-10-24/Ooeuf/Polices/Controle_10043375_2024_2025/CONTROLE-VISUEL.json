@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Renouvellement-2024-2025.pdf",
+  "sha256": "ec3bb4acf61bbb3ab8ee87cdb16603aac44d92f321de184448f413d8ecbf01a0",
+  "pages_pdf": 113,
+  "pages_extraites_nativement": 113,
+  "pages_controlees_visuellement": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    25,
+    27,
+    36,
+    86,
+    113
+  ],
+  "methode": "Extraction pypdf; rendu Poppler PNG; lecture visuelle des pages énumérées. Aucun OCR ajouté.",
+  "limite": "Les autres pages ont fait l’objet d’une extraction textuelle et d’un repérage de formulaires, pas d’une lecture visuelle intégrale ni d’une opinion sur la couverture.",
+  "rendus": "99_Travail_et_collecte",
+  "avertissements_rendu": "Poppler annonce des polices Symbol/ArialUnicode indisponibles; les pages contrôlées restent lisibles et les mentions citées concordent avec le texte natif."
+}

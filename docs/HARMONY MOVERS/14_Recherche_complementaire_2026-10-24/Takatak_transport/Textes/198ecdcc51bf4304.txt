@@ -1,0 +1,16 @@
+EXTRACTION DE COURRIEL — 24 octobre 2026
+Compte : takatak.ca@gmail.com
+ID Gmail : 198ecdcc51bf4304
+date : Wed, 27 Aug 2025 14:48:53 -0400
+from : "Oeuf Déjeuner" <ooeuf.ca@gmail.com>
+to : dada daad <takatak.ca@gmail.com>
+subject : 
+message-id : <CALsRj=SD9SKre6ajd_XHomjocGFfJgazSZ1CCM9=FatQZiEumg@mail.gmail.com>
+Mode : texte dérivé du HTML, balises retirées
+Pièces annoncées : 1000037533.jpg, Invoice_45_2025-07-28.pdf
+Source MIME : MIME/198ecdcc51bf4304.json
+
+
+
+
+

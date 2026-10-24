@@ -1,0 +1,45 @@
+# Chronologie des échanges retrouvés — Daniel Simard
+
+Collecte arrêtée au 24 octobre 2026. Les dates ci-dessous sont celles des messages cités, distinctes des dates de transfert. Cette chronologie est une analyse de lecture, pas une attestation des faits. Les heures sont conservées telles qu'affichées; certains en-têtes cités peuvent différer d'une minute. Aucune réponse suggérée par Gmail n'est traitée comme un envoi.
+
+| Date | Auteur et échange | Ce que la source permet de dire | Repère |
+|---|---|---|---|
+| 16 septembre 2022 | Chloe / Ooeuf / Daniel — DoorDash | Échanges d'inscription, menu et identification; pas un contrat complet ni des relevés de ventes. | Ooeuf 23 |
+| 3 janvier / 16 février 2023 | Daphnée Ayotte / BMB D vers Daniel — Pizzli | Conditions d'intégration de plateformes, menu et logo; contexte d'exploitation. | Takatak 19cd99d7006fac31 |
+| 14 juin–5 juillet 2023 | Sysco, Ooeuf, Daniel | Demande de crédit et accès; corps masqué dans la copie de lecture. | Ooeuf 22 |
+| 26 juillet / 30 octobre 2023 | Support Skip, Daniel et Ooeuf | Suivi de plateforme; absence d'intégration directe Clover annoncée. | Ooeuf 03 |
+| 5 septembre 2023 | André Michaud transmet Daniel | Daniel écrit « Premier paiement 1720$ »; ce texte n'est pas un reçu bancaire. | Takatak 18a661c6a461725f |
+| 19 septembre–8 novembre 2023 | Maude Robidoux / Ooeuf, Daniel en copie | Transmission annoncée du contrat 2023–2024, relances et modalités de paiement; pièce RBC listée mais non contrôlée dans ce lot. | Ooeuf 20 |
+| 13 novembre 2023 | Daniel | Demande relative à une signature d'Emily et à Canada Inc.; pièce nommée mais non extraite ici. | Takatak 19cd99b43bbdf8e7 |
+| 23 novembre 2023 | Daniel transmet BakeMark/Rudolph | Confirmation relative à la commande OB184639; contexte d'approvisionnement, sans rapport établi avec la réparation des équipements. | Takatak 19cd99b27136b473 |
+| 24 novembre / 8 décembre 2023 | Comptabilité Racine Chamberland, transmis par Daniel | Soldes réclamés de 4 291,50 $ puis 4 354,92 $. États/relances, sans preuve de règlement et sans cumul. | Ooeuf 19 et 04; Takatak 19cd99af93d29791 et 19cd99acc0b82917 |
+| 13 décembre 2023 | Daniel | Transmission « canada inc »; document d'incorporation nommé, non analysé comme acte d'acquisition. | Takatak 19cd99ac7901168e |
+| 17 janvier 2024 | Ooeuf vers Daniel | Lien Adobe transmis; document non récupéré/identifié dans ce sous-lot. | Ooeuf 18 |
+| 20 janvier 2024 | Daniel | Mention « debut travail 6 octobre 2023 29.55$ de heure »; ne décrit pas des réparations d'équipements. | Takatak 19cd99a25223ac6f |
+| 22 / 25 avril et 1er mai 2024 | Gicleurs FF puis Riad Mdeway à Mathieu et Daniel | État impayé; Riad demande un rapport de conformité « suivant les travaux effectués ». Gicleurs exige le paiement avant l'envoi des rapports. Nature et exécution des travaux non détaillées dans l'état acquis. | Ooeuf 05; Takatak 19cd9982ac53b52e; EC2024-04-22.pdf p.1 |
+| 30 mai 2024 | Daniel transmet Les Viandes Montréal | Factures alimentaires 10835 (543,41 $) et 10221 (389,95 $) annoncées; pas des achats ou réparations d'équipements. | Takatak 19cd997bf493b37f et 19cd997a118c4807 |
+| 2 juillet 2024, 10 h 50 | Ayisha Houle Dixon | Demande un rapport complet du frigoriste, une soumission, puis une liste de marchandises et des achats antérieurs. Le corps du suivi du 17 juillet n'est pas intégralement visible. | Ooeuf 15, HSB2024002464 |
+| 2 juillet 2024, 13 h 55–56 | Lucas Fowler / Ooeuf vers Daniel | Proposition de financement d'équipements Econolease; ne prouve pas un financement accepté ni un achat. | Ooeuf 08 |
+| 13 juillet 2024, 14 h 48 | Daniel à Ooeuf | « a regarder », pièce Mathieu menage.pdf : états des résultats de 9394-2621 QC inc., distincte de Quadro. | Takatak 19cd9972408a1f3c; PDF p.1 |
+| 25 juillet 2024, 09 h 44 et 11 h 48 | Daniel / Joey Dubois | Daniel signale qu'un fichier n'a pas suivi. Joey demande si les équipements étaient compris dans l'acquisition du commerce, le rapport écrit Frigo-Spec expliquant le bris et l'inventaire des denrées. | Ooeuf 09; Takatak 197896004b3e9484 |
+| 26 juillet 2024 | Ooeuf vers Daniel | Quatre images Fact5969... sont listées; contenu des images non vérifié dans ce sous-lot. | Ooeuf 14 |
+| 6–8 août 2024 | Joey / Daniel / Matthieu | Demandes de cause du bris; Daniel transmet sa réclamation de marchandises le 7 août; Matthieu transmet des commandes le 8 août. Liens de fichiers historiques non ouverts ici. | Takatak 19e847ca0d6579ce, 1978961b3ba85bb2 et 19cd996a3e5a576c |
+| 27 août / 18 septembre 2024 | Joey | Relances pour le rapport Frigo-Spec précisant la cause. | Takatak 19e847ca0d6579ce |
+| 13 septembre 2024 | Comptabilité Racine Chamberland | Solde réclamé 5 104,04 $, message tronqué dans l'interface; aucune preuve de paiement déduite. | Ooeuf 13 |
+| 23 septembre 2024, 16 h 01 | Daniel | Retransmission du fil Joey du 25 juillet avec de nombreuses pièces; les noms affichés ne prouvent pas l'extraction complète de chaque pièce. | Ooeuf 09; Takatak 197896004b3e9484 |
+| 1er octobre 2024 | Joey / Ooeuf | Ooeuf annonce le décès de Daniel et reprendre le suivi; attribue les bris à une interruption d'eau/électricité. Joey demande encore une preuve technique de cause et signale une pièce illisible. Causalité alléguée par le client, non établie par ce fil seul. | Ooeuf 07, messages de 07 h 09 à 09 h 49 |
+| 2 octobre 2024, 07 h 57 | Joey | Rapports techniques nécessaires; réclamation de denrées reçue; distingue soumissions et factures à fournir. | Ooeuf 07 |
+| 3 octobre 2024, 13 h 19 | Ooeuf | Message « Visite frigoriste » avec pièce nommée EC0000006371.pdf. Pièce identifiée par l'interface, non extraite dans ce sous-lot; la recherche locale par nom exact n'a pas retrouvé ce fichier. | Ooeuf 07 |
+| 7 octobre 2024, 12 h 50 et 16 h 21 | Ooeuf / Joey | Le client demande si les documents sont reçus; Joey répond oui et annonce leur traitement. Réception, pas validation de l'exécution ou du coût. | Ooeuf 07 |
+| 11 octobre 2024, 08 h 16 | Joey | Déclare avoir produit son rapport à l'assureur et demande les factures de réparation, précisant n'avoir que des soumissions. | Ooeuf 07 |
+| 17 octobre 2024 | Ooeuf / Joey | Relances, rapport déclaré produit, demande du client d'en recevoir copie et réponse de Joey sur son caractère confidentiel. Aucune conclusion juridique tirée de cette réponse. | Ooeuf 07 |
+| 24 octobre 2024 | Joey / Ooeuf | Joey annonce l'acceptation de la portion marchandises à ce stade, demande le formulaire signé, les factures de réparations et les données de pertes de ventes. Ooeuf transmet/explicite des factures alimentaires. Pas un règlement global établi. | Ooeuf 07, 07 h 56–10 h 28 |
+| 29 octobre 2024, 08 h 30 | Joey | Demande le formulaire provisoire, évoque le calcul des marchandises et répète attendre les factures de réparation. Pas un paiement bancaire. | Ooeuf 07 |
+| 4 novembre 2024, 11 h 02 | Ooeuf | Déclare avoir vérifié presque tous les appareils, ne pas trouver de pièces pour le four double Tim Hortons et avoir retiré un comptoir de 6 pieds qu'il dit irréparable (gaz R22), remplacement estimé 13 000 $. Déclaration du client; rapport technique, facture et preuve d'exécution restent distincts. | Ooeuf 07 |
+| 4 novembre 2024, 11 h 11 et 11 h 30 | Joey / Ooeuf | Formulaire partiel pour les stocks; Ooeuf demande un changement du bénéficiaire pour Quadro Holding. | Ooeuf 07 |
+| 18 octobre / 17 décembre 2024 | Sysco / Shelly Dallin | Relance 1 290,71 $ puis avis final. La phrase suggérée par Gmail « Le virement a été effectué ce jour » n'est pas un message envoyé et a été retirée de la lecture. | Ooeuf 12 |
+| 23 avril 2025 | Ooeuf vers fiscalitedaniel@gmail.com | Transferts de pièces; l'identité de ce destinataire n'est pas assimilée à celle de Daniel Simard. | Ooeuf 07 |
+| 10 juin 2025 | Ooeuf / Joey | Ooeuf affirme des travaux autorisés et validés avant le décès de Daniel; Joey conteste cette présentation et rapporte des déclarations CEC sur des travaux non exécutés. Déclarations opposées; aucune fraude ni exécution générale n'est établie par cette seule correspondance. Ooeuf annonce aussi un enlèvement par Harmony et l'intervention future d'un technicien gaz. | Takatak 19e6a1f6ebc6d9dd, citations datées |
+| 2025–2026 | Ooeuf / Takatak / destinataires professionnels | Nombreux transferts des mêmes fils anciens : 19 juin, 1er juillet, août, octobre, novembre 2025; février, mars, mai, juin 2026. Ce sont des transmissions supplémentaires, pas de nouveaux travaux ni de nouvelles factures à additionner. | Index Takatak et Ooeuf 01/02/07/09 |
+
+Les repères Ooeuf renvoient aux fichiers numérotés de Ooeuf/Lectures; les identifiants Takatak aux fichiers Takatak/Lectures/<identifiant>.txt. Les citations datées sont parfois répétées dans plusieurs transferts; une même intervention n'est comptée qu'une fois. La correspondance de 2024 concerne le sinistre antérieur Léger/Hadmo et doit être rapprochée bien par bien du dossier Harmony de 2025.

@@ -1,0 +1,112 @@
+[
+  {
+    "message_id": "19cd99acc0b82917",
+    "path": "EML/19cd99acc0b82917.eml",
+    "sha256": "61e289b2875aac76c1aaf327a712edb02e294e41002ae0eaefaab728a87baf01",
+    "bytes": 244877,
+    "date": "Tue, 10 Mar 2026 17:15:10 -0400",
+    "from": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+    "to": "dada daad <takatak.ca@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: Solde dû - MX- 86972-1- 4354.92$"
+  },
+  {
+    "message_id": "19cd99af93d29791",
+    "path": "EML/19cd99af93d29791.eml",
+    "sha256": "6a46e827ca2cd4018ea83c248668202dd56cb5062caa88b0ee9e1b1d1e6997ca",
+    "bytes": 247835,
+    "date": "Tue, 10 Mar 2026 17:15:25 -0400",
+    "from": "\"Matthieu W. B.\" <mwb130890@gmail.com>",
+    "to": "takatak ca <takatak.ca@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: Solde dû - MX- 86972-1- 4291.5$"
+  },
+  {
+    "message_id": "19e847ca0d6579ce",
+    "path": "EML/19e847ca0d6579ce.eml",
+    "sha256": "4d6e808b03dd606974d5ad466acbc0c51f67deb2a2c4b31cc0da0888319c0dbb",
+    "bytes": 196176,
+    "date": "Mon, 01 Jun 2026 14:40:06 -0400",
+    "from": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+    "to": "dada daad <takatak.ca@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587"
+  },
+  {
+    "message_id": "19e847d203e73434",
+    "path": "EML/19e847d203e73434.eml",
+    "sha256": "f73a2b19318f562034fa927ce73a454b3e228f1f2feb4119a61378a97dec78e7",
+    "bytes": 72473,
+    "date": "Mon, 01 Jun 2026 14:40:38 -0400",
+    "from": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+    "to": "dada daad <takatak.ca@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: 24110-4833;Dossier: 24110-4833 / Dommages aux équipements dû à l'interruption des services électriques et d'eau potable"
+  },
+  {
+    "message_id": "19e847d2d23a5444",
+    "path": "EML/19e847d2d23a5444.eml",
+    "sha256": "5a575c9a48b594abae1f48864a06e4768ff16c166cdc3fbbf02ffe0429794b07",
+    "bytes": 124923,
+    "date": "Mon, 01 Jun 2026 14:40:42 -0400",
+    "from": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+    "to": "dada daad <takatak.ca@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: Réponse à vos questions"
+  },
+  {
+    "message_id": "19e8482baed8a2b5",
+    "path": "EML/19e8482baed8a2b5.eml",
+    "sha256": "a3fd91b111a362e2dd6d21d5d0bc53d2ceca24f8bde1b0f988f46f175eec6eb9",
+    "bytes": 120294,
+    "date": "Mon, 01 Jun 2026 14:46:59 -0400",
+    "from": "takatak ca <takatak.ca@gmail.com>",
+    "to": "yan romanowski <romanowskiyan@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: Réponse à vos questions"
+  },
+  {
+    "message_id": "19e8482d1cdc9ffb",
+    "path": "EML/19e8482d1cdc9ffb.eml",
+    "sha256": "29ea7c4e223ab2ec378b935ae168d8742617e027e0a9044524d68053a2d70bd9",
+    "bytes": 67338,
+    "date": "Mon, 01 Jun 2026 14:47:05 -0400",
+    "from": "takatak ca <takatak.ca@gmail.com>",
+    "to": "yan romanowski <romanowskiyan@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: 24110-4833;Dossier: 24110-4833 / Dommages aux équipements dû à l'interruption des services électriques et d'eau potable"
+  },
+  {
+    "message_id": "19e84834f80f78eb",
+    "path": "EML/19e84834f80f78eb.eml",
+    "sha256": "f0e03bbac950869844d7320fb6c7460bbe25918724e3fa4eca19489ce1818663",
+    "bytes": 243923,
+    "date": "Mon, 01 Jun 2026 14:47:37 -0400",
+    "from": "takatak ca <takatak.ca@gmail.com>",
+    "to": "yan romanowski <romanowskiyan@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: 24110-4833;TR: 2024002464"
+  },
+  {
+    "message_id": "19e84837989f40a5",
+    "path": "EML/19e84837989f40a5.eml",
+    "sha256": "f0ac7b2c4816b8f22490f332627f73bfb2d0158bab87cb01f76fc147253fb377",
+    "bytes": 172925,
+    "date": "Mon, 01 Jun 2026 14:47:48 -0400",
+    "from": "takatak ca <takatak.ca@gmail.com>",
+    "to": "yan romanowski <romanowskiyan@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: 24110-4833RE: Reclamation 6241 blvd Léger Montréal Nord Appel 514 458 4587"
+  },
+  {
+    "message_id": "1a16c2b6913d6e9a",
+    "path": "EML/1a16c2b6913d6e9a.eml",
+    "sha256": "acde69588660981c9894fe7c1f0ee86916e743b0f88f1526c1ce5927758e34be",
+    "bytes": 11798,
+    "date": "Sat, 24 Oct 2026 00:28:54 -0400",
+    "from": "Oeuf Déjeuner <ooeuf.ca@gmail.com>",
+    "to": "dada daad <takatak.ca@gmail.com>",
+    "cc": "",
+    "subject": "Fwd: Objet : Relocalisation des opérations – Incident du 26 juin"
+  }
+]

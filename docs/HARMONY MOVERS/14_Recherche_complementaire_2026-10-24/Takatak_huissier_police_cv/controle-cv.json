@@ -1,0 +1,26 @@
+{
+  "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/CV-Final.docx",
+  "sha256": "cf8974ecf40db873956ac96690c28335a4214f55d01be564e958bdf4e896d722",
+  "date_controle": "2026-10-24",
+  "methode": "Lecture ZIP/OOXML word/document.xml et rapprochement au texte de l’aperçu Gmail conservé par l’agent principal; aucune modification",
+  "nom": "MATTHIEU WALLACE BARNARD",
+  "pages_apercu_gmail": 2,
+  "pages_metadonnees": 2,
+  "saut_page_explicite": 1,
+  "contenu_apercu_concordant": true,
+  "controle_visuel_independant": false,
+  "limite_visuelle": "Ce sous-contrôle compare le texte OOXML au DOM des deux pages; pas de rendu DOCX indépendant réalisé par cet agent.",
+  "date_imprimee": null,
+  "metadonnees_creation": "2026-07-29T00:13:00Z",
+  "metadonnees_modification": "2026-07-29T00:16:00Z",
+  "reserve_dates": "Les dates OOXML sont des métadonnées modifiables, pas une date de déclaration ou de validation du CV.",
+  "apport_demande1": "Copie du CV fournie directement par le client; document_disponible.",
+  "controles": [
+    "Le nom correspond à l’identité affichée dans l’aperçu.",
+    "Emplois, années, formations, niveaux de langue et qualifications déclaratifs, non vérifiés indépendamment.",
+    "Aucun diplôme obtenu n’est déduit de la mention études.",
+    "Aucune réécriture, correction ou signature ajoutée.",
+    "Le document ne porte pas de date de rédaction/validation imprimée."
+  ],
+  "texte_natif": "cv-texte-natif.json"
+}

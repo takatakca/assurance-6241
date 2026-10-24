@@ -1,0 +1,1370 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a02:c88d:0:b0:5de:5681:102a with SMTP id m13csp710198jao;
+        Mon, 1 Jun 2026 11:40:53 -0700 (PDT)
+X-Received: by 2002:a17:907:b18:b0:bec:18d5:ddf5 with SMTP id a640c23a62f3a-bec18d5e8d2mr329934766b.7.1780339253386;
+        Mon, 01 Jun 2026 11:40:53 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1780339253; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=heyzOKpc8RznG/F5RXWImRKVipFrGI9pbPiVkO8LXv8PEGPy01hAuEufjgngwPlpdp
+         5csS8Qeq2KRUQND1M89SssvoiLbRxhd7YSo0gMZwV/ELp9uiRIPRe7GX9jvPx4Y+sd3c
+         GVzHCnk5eg0Ldl4sp6FAOGwx5CDUWXPoii3FxInOqJZKTL7NRXg1eqd5bGUZavMzvf46
+         y25d4k4xZ1PYw/wp9u55++fmW+klKZ3q0gYi9+VDumNnOK4ykNywnuOGlqTL1P8zlsoi
+         y64L80BgEfFC91vBs9o3bHQlugmlg7W8vix9vE29IUTfmJ8Zv5SEiSKdkCTBT9aGK582
+         CMSQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=Wl0MtiHJfw6mhHNkFRtqrLsElSvSmH0m6Ezu8O1uuQk=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=fyYdn1ZnLMkfz3aRnIQAEjTUbwDBLupEb/Ua6plH3acXgEdBcwXiO5yqwvyfSf3Ijh
+         4BK0zNAic+fR/Ff+ndNLdrDtVRFu/xGmQrs8qkFBcCg3l/SBOdInlUnlw/kjOtRhK9RS
+         5kAFcxwi14T8EZxX03Xhqtq2oh7E9osLhylkBR+djsMz1+nW/JAxjSAmYmsKhnbGiBvD
+         U17p+ZtCnJupt0TWG6wWqmlbAKtyCE+w5cbOR1oJFO5bmJ6TU2+9eTXw7VO8WQ9yt5MG
+         yMEGrV8wESp8x9MF8fdbkZFSWI7P4oxKLS6S5jGuXLCh1s8qIoeQpVlgdefyBISAFEye
+         1w9Q==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=AVBCl0Wi;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <ooeuf.ca@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-beee45b6f51sor20964266b.4.2026.06.01.11.40.53
+        for <takatak.ca@gmail.com>
+        (Google Transport Security);
+        Mon, 01 Jun 2026 11:40:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=AVBCl0Wi;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1780339253; cv=none;
+        d=google.com; s=arc-20240605;
+        b=ZYzXMqEnaAoNT3KrSwRFieqLYE3DAdv8miFNrVZslhctQcSwTolhyF9st0yWkcLQcH
+         YAB225MLEyhS6a+svgdpn2GmxniTwFwtel0bxGAVMtI7mexWMaVsOxAZSMTCwrxKF3eg
+         RMy8BJGi4Pa6ILGgDBKTGkVQJDQASM0RTfyYuqIknUIYERCFS4lcQddjLbYFhS9usNBR
+         vROy2vuBElMI3xbq1hz62TgRVWIHqX0vjlXbG+qBArL/oNmRVyyLIdN/nj55XFvLrn4i
+         7VPrattiY3Tu/Igge4LF9DtqhqSxxGGDhBeDNSMx7T03V5IXQisIROdvXrLbIw14/yBI
+         A1lA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=Wl0MtiHJfw6mhHNkFRtqrLsElSvSmH0m6Ezu8O1uuQk=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=gMNhze323+nYbO72LFhbYWzlcckOej8T3QZ8ugq4QQTgnPz7TBrkcNbmmR/Y+7P+5v
+         Pvm24VZA49XF1FO/ClBgeLjnVcx+bkQNq5GlSyy5udIW7JKSXeP2O5D0LbzKuI+wHIFE
+         S9HY7uoNyqtRT9YMRMQhcTuIdsTwJvq0ABJL9deqHCIfIzmy2MvcOg5zbOZe4LR+Zgxj
+         swAcXkgX/BeKQl8T5sBMluqg8G/nAfA9E8WHRKuyOoBlh5Io+NeTQ1sgLvYBB63qa2HF
+         zIduS0EcTBsWJcBqPrrTHV8TQFIu6nRyZamHrNECH00MvP6bP09i3xIozlUBDb3EeFMw
+         kRug==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1780339253; x=1780944053; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Wl0MtiHJfw6mhHNkFRtqrLsElSvSmH0m6Ezu8O1uuQk=;
+        b=AVBCl0Wic3oqCE0R3rlkCvheW9aBTMsNe4mhNG8edjSGC6QM1PsmwCDUyAlxtDQtYb
+         dO0ComHz/YJ3rER1Bu+DlS4U0QtletspazM4rnGF6wy4U9qVgTrA68jYCziuTJhn2Rl4
+         EMH3Qzdalpr8pemmq2nSjFKgtFwC7pC2gJKNfrWQysixYCRo1OBmtX6ygtDWA9WBcBAC
+         9znky8vczZ8BlOTiviNFtrtQlqp/IRTWz1rsMQh9quXSd5WIciUXO9LCq11iDeAkS9hY
+         eEuUJs5byO2wROStuupM+bRJLZqSzG434kiDDl3hV3z9VCYJsZIKqjTRc46/794XIT2s
+         hyXg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1780339253; x=1780944053;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Wl0MtiHJfw6mhHNkFRtqrLsElSvSmH0m6Ezu8O1uuQk=;
+        b=XjXsgKM6+ydIIYAPNA3HVTK0v4PtKZr6egPDDqWiHGLUKb1MM4VJtZrxgTj19PmoKy
+         YBn1QOiS8C82/gujWtFtxBTXuXnF6LOkuvFKi5oiuQkqyVmU1y4ufg//Ckkcpw9IEAnW
+         syEPGabXIEciW4Eg35EE3w6QNiWL0MnO+Hq9HdW6rnAURlz8w9fKsZan1/ITsI76lWVf
+         mJXJCd5iTJDz6c/RUwr9rn6vrkeqNIDbCJzzdI2tQRayTR9Fwysst52YnusVPYRJBzYB
+         aWD93MS3xz7WTit1qeh8k1VUvYOd0oOc9/2y1ogm3Mw7Xp971PSyNAKBrg0+gEPmmmlk
+         Hd8w==
+X-Gm-Message-State: AOJu0Yy/k5kdxrmRa1/4yuIrOh+KdwgBgUus4z+algbJ1CeM8Was42V3
+	h70NAJ8OOwERBf09w97qPjh58uz2NV8y2MbZ5rmsRUr2LRiIRYHZ3DWYYV62fgytbvaP/JoR9+t
+	n5YHhjvjpUwgvusbr/5vAYickZWX3wHpRZQH/J9s=
+X-Gm-Gg: Acq92OFHDqYHn8XXKTlWE3XW5BpNh63kN6MuKoBx2ZxOCoHTjVDicOMd4+44wOGS48l
+	FfJOuo42b3C/yxwa1UbiZJjThbmi5OwfsLhQzRDwpEAX9USqVE0u1lpBByOkfLwlYIkz62Pv+Hr
+	kkkXn8JFUXUPErfMcXDNHvm5dWMaYCmooVgHq+ZTe7zcdstroJ5mr4DlWCaTAtGZ4Sl5Ge3lQx/
+	KvUyaZalAFBfvkxYLctNAxLo7vdBIXo9YkQ3zX/ArpOrZl6CyiDhVQXI/yS85SMqE5LqP/n7HKn
+	4eGqpcydfefPYYEIP/hKcidrbcdaYynFf2tTsE9bUlHBggJ59n0=
+X-Received: by 2002:a17:906:3caa:b0:beb:9dc2:6f3f with SMTP id
+ a640c23a62f3a-beb9dc27535mr376523366b.36.1780339252365; Mon, 01 Jun 2026
+ 11:40:52 -0700 (PDT)
+MIME-Version: 1.0
+References: <YQXPR01MB3960F950D8BB51FFED310A64E6192@YQXPR01MB3960.CANPRD01.PROD.OUTLOOK.COM>
+ <CALsRj=TENA25vbByTuTrh-dj7wMDSXqZmf+=d1jizorHy75siQ@mail.gmail.com>
+In-Reply-To: <CALsRj=TENA25vbByTuTrh-dj7wMDSXqZmf+=d1jizorHy75siQ@mail.gmail.com>
+From: =?UTF-8?Q?Oeuf_D=C3=A9jeuner?= <ooeuf.ca@gmail.com>
+Date: Mon, 1 Jun 2026 14:40:38 -0400
+X-Gm-Features: AVHnY4J2Q2CNHBeDxdHSE9f5sRJJTwKbJfJ6GAHywVa5U4io7nNmLB1tP0ngsNw
+Message-ID: <CALsRj=T=6-Y2L07_iCRzXzmO0M3nDse9R5tM5KZbKchCsv4f9w@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_24110=2D4833=3BDossier=3A_24110=2D4833_=2F_Dommages_aux_?=
+	=?UTF-8?Q?=C3=A9quipements_d=C3=BB_=C3=A0_l=27interruption_des_services_=C3=A9lectriques?=
+	=?UTF-8?Q?_et_d=27eau_potable?=
+To: dada daad <takatak.ca@gmail.com>
+Content-Type: multipart/mixed; boundary="000000000000b7cc71065335888e"
+
+--000000000000b7cc71065335888e
+Content-Type: multipart/alternative; boundary="000000000000b7cc6f065335888c"
+
+--000000000000b7cc6f065335888c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+Date: Thu, Jan 23, 2025, 09:01
+Subject: Fwd: 24110-4833;Dossier: 24110-4833 / Dommages aux =C3=A9quipement=
+s d=C3=BB
+=C3=A0 l'interruption des services =C3=A9lectriques et d'eau potable
+To: Maude Robidoux <mrobidoux@racinechamberland.com>
+
+
+Voici la dernier conversation avec monsieur dubois
+
+---------- Forwarded message ---------
+From: Joey Dubois <joey.dubois@indemnipro.ca>
+Date: Wed, Jan 15, 2025, 11:17=E2=80=AFa.m.
+Subject: 24110-4833;Dossier: 24110-4833 / Dommages aux =C3=A9quipements d=
+=C3=BB =C3=A0
+l'interruption des services =C3=A9lectriques et d'eau potable
+To: Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+Cc: SCM Attach <attach@scm.ca>
+
+
+Sans pr=C3=A9judice
+
+
+
+Bonjour,
+
+
+
+Faisant suite =C3=A0 votre derni=C3=A8re correspondance en date du juin 202=
+5, nous
+d=C3=A9sirons vous faire part de nos commentaires en ce qui concerne les br=
+is
+d=E2=80=99=C3=A9quipements.
+
+
+
+En ce qui a trait =C3=A0 votre marchandise, nous vous r=C3=A9f=C3=A9rons =
+=C3=A0
+l=E2=80=99expert-comptable qui a =C3=A9t=C3=A9 mandat=C3=A9 dans cette affa=
+ire pour de plus amples
+informations.
+
+
+
+Nous joignons notre sommaire de r=C3=A9clamation accompagn=C3=A9 de tous le=
+s
+documents que vous nous avez fournis. Il se pourrait que notre
+compr=C3=A9hension soit erron=C3=A9e dans certain cas car il =C3=A9tait dif=
+ficile de
+comprendre certains =C3=A9l=C3=A9ments.
+
+
+
+Voici nos commentaires :
+
+
+
+
+
+*Item 1 : Frigo p=C3=A2tisserie IF1-DDSG.6*
+
+
+
+Nous avons obtenu de la part de votre entreprise une =C3=A9valuation pour l=
+a
+r=C3=A9paration de l=E2=80=99unit=C3=A9 pour 2 615,00 $. Nous constatons qu=
+e vous avez
+produit une =C3=A9valuation pour le remplacement du frigo pour un montant d=
+e
+11 500,00 $.
+
+
+
+Nous avons besoin d=E2=80=99explications de la part de votre technicien =C3=
+=A0 savoir
+pourquoi l=E2=80=99unit=C3=A9 n=E2=80=99=C3=A9tait plus r=C3=A9parable.
+
+
+
+
+
+*Item 2 : Machine =C3=A0 caf=C3=A9 Curtis*
+
+
+
+Nous comprenons que la machine =C3=A0 caf=C3=A9 pour laquelle vous aviez so=
+umis une
+estimation =C3=A0 l=E2=80=99origine de 1 485,00 $ pour la r=C3=A9paration d=
+e celle-ci est
+maintenant d=C3=A9clar=C3=A9e perte totale. La valeur de remplacement est d=
+e 1 200,00
+$.
+
+
+
+
+
+
+
+*Item 3 : Chambre de cong=C3=A9lation*
+
+
+
+Nous comprenons qu=E2=80=99il y a deux (2) factures reli=C3=A9es =C3=A0 la =
+chambre de
+cong=C3=A9lation, soit une de 2 960,00 $ et une autre de 8 320,00 $.
+
+
+
+
+
+*Item 4 : Four Tim Hortons*
+
+
+
+Nous avions re=C3=A7u un devis de votre part pour la r=C3=A9paration de ce =
+four au
+montant de 4 635,00 $.
+
+
+
+Nous n=E2=80=99avons re=C3=A7u aucune autre facture, donc aucun montant ne =
+sera allou=C3=A9
+pour le moment.
+
+
+
+
+
+*Item 5 : Frigo une porte*
+
+
+
+Nous avons obtenu la facture de 1 705,00 $.
+
+
+
+
+
+*Item 6 : Machine =C3=A0 cocktail Taylor *
+
+
+
+Nous avons obtenu la facture de 3 850,00 $.
+
+
+
+
+
+*Item 7 : Electro Freeze *
+
+
+
+Nous avons re=C3=A7u une soumission de 5 990,00 $ et n=E2=80=99avons pas re=
+=C3=A7u de facture
+=C3=A0 date.
+
+
+
+
+
+*Item 8 : Machine =C3=A0 Slush *
+
+
+
+Nous avons re=C3=A7u une facture de 2 340,00 $.
+
+
+
+
+
+*Item 9 : Four =C3=A0 pizza no.1*
+
+
+
+Nous avons obtenu un devis de 6 700,68 $ pour la r=C3=A9paration du four =
+=C3=A0 pizza
+de la part de SKS.
+
+
+
+Nous n=E2=80=99avons pas re=C3=A7u la facture . Nous aurons besoin de celle=
+-ci.
+
+
+
+Notez =C3=A9galement qu=E2=80=99une facture au nom de Auger au montant de 3=
+08,75 $, qui
+=C3=A9tait charg=C3=A9e avant la perte, sera exclue de la r=C3=A9clamation.
+
+
+
+
+
+*Item 10 : Machine =C3=A0 cr=C3=A8me glac=C3=A9e*
+
+
+
+Nous avons re=C3=A7u la facture au montant de 5 990,00 $.
+
+
+
+
+
+*Item 11 : Four =C3=A0 pizza no.2*
+
+
+
+Vous d=C3=A9clarez que l=E2=80=99item est perte totale pour une valeur de 2=
+9 500,00 $.
+
+
+
+Nous n=E2=80=99avons aucune expertise ni de note d=E2=80=99un technicien =
+=C3=A0 cet effet.
+Veuillez nous produire de plus amples informations.
+
+
+
+
+
+Nous avions re=C3=A7u une facture de 7 900,00 $ concernant la r=C3=A9parati=
+on du four
+=C3=A0 pizza.
+
+
+
+S=E2=80=99agit-il d=E2=80=99une r=C3=A9paration de l=E2=80=99item 11 ? Nous=
+ appr=C3=A9cierions recevoir vos
+commentaires =C3=A0 cet effet.
+
+
+
+
+
+*Item 12 : Frigidaire p=C3=A2tisserie*
+
+
+
+Nous avons re=C3=A7u une estimation de votre part pour le remplacement du
+frigidaire de 15 933,00 $.
+
+
+
+Nous avons besoin d=E2=80=99un rapport de technicien qui nous indique pourq=
+uoi le
+frigidaire en question n=E2=80=99est pas r=C3=A9parable et est consid=C3=A9=
+r=C3=A9 perte totale,
+avant d=E2=80=99autoriser le remplacement de ce frigidaire.
+
+
+
+
+
+*Item 13 : Chambre froide*
+
+
+
+Nous avions un devis au dossier au montant de 1 700,00 $.
+
+
+
+Nous n=E2=80=99avons pas encore re=C3=A7u la facture.
+
+
+
+
+
+*Item 14 : Installation d=E2=80=99une unit=C3=A9 AC*
+
+
+
+Nous avons re=C3=A7u une facture =C3=A0 cet effet au montant de 1 145,00 $.
+
+
+
+Pouvez-vous nous expliquer pourquoi l=E2=80=99unit=C3=A9 d=E2=80=99air clim=
+atis=C3=A9 a d=C3=BB =C3=AAtre
+remplac=C3=A9e ?
+
+
+
+
+
+*Item15: Syst=C3=A8me =C2=AB Heat pump =C2=BB*
+
+
+
+Un montant de 5 099,99 $ est r=C3=A9clam=C3=A9. La date de cette facture es=
+t le 17
+juin 2024.
+
+
+
+Cette r=C3=A9paration est-elle reli=C3=A9e au sinistre ? Si oui, veuillez n=
+ous
+fournir de plus amples d=C3=A9tails concernant la d=C3=A9faillance de l=E2=
+=80=99=C3=A9quipement.
+
+
+
+
+
+*Item 16 : Frais*
+
+
+
+Nous avons re=C3=A7u la facture de Frimabec au montant de 408,16 $.
+
+
+
+
+
+
+
+Pour l=E2=80=99instant, avec les informations que nous avons re=C3=A7ues =
+=C3=A0 date,
+semblerait-il qu=E2=80=99un montant de *37 288.16* $ pourrait =C3=AAtre acc=
+ord=C3=A9 par
+l=E2=80=99assureur, sujet =C3=A0 leur approbation. Nous avons produit notre=
+ apport =C3=A0 cet
+effet.
+
+
+
+Nous vous demandons de r=C3=A9pondre =C3=A0 nos questions ci-haut le plus r=
+apidement
+possible (*svp pas avec des commentaires rapides =C3=A0 partir de votre por=
+table*).
+Entretemps s=E2=80=99il y a des corrections =C3=A0 apporter au niveau de no=
+tre fichier
+Excel veuillez indiquer les changements sur ce fichier.
+
+
+
+
+
+En esp=C3=A9rant le tout conforme,
+
+
+
+Joey Dubois
+
+
+
+
+
+[image: IndemniPro Logo] <https://indemnipro.ca/?e=3D1>
+
+Joey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B
+
+,
+
+B. Sc., PAA/CIP
+
+Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=C3=
+=A9ciaux
+
+joey.dubois@indemnipro.ca
+
+Ligne directe
+
+ (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+
+Sans frais
+
+ :
+
+ :
+
+514-789-8888
+
+888=E2=80=91485=E2=80=915252
+
+
+
+x2572
+
+IndemniPro Division des risques sp=C3=A9ciaux
+
+ =E2=80=93
+
+indemnipro.ca <https://indemnipro.ca/?e=3D1>
+
+Cabinet d'expertise en r=C3=A8glement de sinistres
+
+3400,
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ boul.
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ De
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ Maisonneuve
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ ouest
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+, #910
+
+,
+
+Montr=C3=A9al
+
+,
+
+QC
+
+
+
+H3Z 3B8
+
+Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'enti=
+t=C3=A9 =C3=A0 laquelle
+il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personne =
+ou une
+entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est inte=
+rdite. Si vous
+recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9dite=
+ur et
+supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9di=
+atement.=E2=80=8B
+=E2=80=8B
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to
+which it is addressed and may contain confidential and/or privileged
+information. Any use of this information by persons or entities other than
+the intended recipient is prohibited. If you received this in error, please
+contact the sender and delete the email and all copies (electronic or
+otherwise) immediately.
+
+--000000000000b7cc6f065335888c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote gmail_quote_container=
+"><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ------=
+---<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">Oeuf D=C3=A9je=
+uner</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:ooeuf.ca@gmail.com">=
+ooeuf.ca@gmail.com</a>&gt;</span><br>Date: Thu, Jan 23, 2025, 09:01<br>Subj=
+ect: Fwd: 24110-4833;Dossier: 24110-4833 / Dommages aux =C3=A9quipements d=
+=C3=BB =C3=A0 l&#39;interruption des services =C3=A9lectriques et d&#39;eau=
+ potable<br>To: Maude Robidoux &lt;<a href=3D"mailto:mrobidoux@racinechambe=
+rland.com">mrobidoux@racinechamberland.com</a>&gt;<br></div><br><br><div di=
+r=3D"auto"><div>Voici la dernier conversation avec monsieur dubois<br><br><=
+div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">---------- =
+Forwarded message ---------<br>From: <strong class=3D"gmail_sendername" dir=
+=3D"auto">Joey Dubois</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:joe=
+y.dubois@indemnipro.ca" target=3D"_blank" rel=3D"noreferrer">joey.dubois@in=
+demnipro.ca</a>&gt;</span><br>Date: Wed, Jan 15, 2025, 11:17=E2=80=AFa.m.<b=
+r>Subject: 24110-4833;Dossier: 24110-4833 / Dommages aux =C3=A9quipements d=
+=C3=BB =C3=A0 l&#39;interruption des services =C3=A9lectriques et d&#39;eau=
+ potable <br>To: Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.co=
+m" target=3D"_blank" rel=3D"noreferrer">ooeuf.ca@gmail.com</a>&gt;<br>Cc: S=
+CM Attach &lt;<a href=3D"mailto:attach@scm.ca" target=3D"_blank" rel=3D"nor=
+eferrer">attach@scm.ca</a>&gt;<br></div><br><br>
+
+
+
+
+
+<div lang=3D"FR-CA" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:b=
+reak-word">
+<div>
+<p class=3D"MsoNormal">Sans pr=C3=A9judice<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Bonjour, <u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Faisant suite =C3=A0 votre derni=C3=A8re corresponda=
+nce en date du juin 2025, nous d=C3=A9sirons vous faire part de nos comment=
+aires en ce qui concerne les bris d=E2=80=99=C3=A9quipements.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">En ce qui a trait =C3=A0 votre marchandise, nous vou=
+s r=C3=A9f=C3=A9rons =C3=A0 l=E2=80=99expert-comptable qui a =C3=A9t=C3=A9 =
+mandat=C3=A9 dans cette affaire pour de plus amples informations.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous joignons notre sommaire de r=C3=A9clamation acc=
+ompagn=C3=A9 de tous les documents que vous nous avez fournis. Il se pourra=
+it que notre compr=C3=A9hension soit erron=C3=A9e dans certain cas car il =
+=C3=A9tait difficile de comprendre certains =C3=A9l=C3=A9ments.<u></u><u></=
+u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Voici nos commentaires=C2=A0:<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 1=C2=A0: Frigo p=C3=A2tisserie IF1-DDSG.6<u>=
+</u><u></u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons obtenu de la part de votre entreprise une=
+ =C3=A9valuation pour la r=C3=A9paration de l=E2=80=99unit=C3=A9 pour 2=C2=
+=A0615,00 $. Nous constatons que vous avez produit une =C3=A9valuation pour=
+ le remplacement du frigo pour un montant de 11=C2=A0500,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous avons besoin d=E2=80=99explications de la part =
+de votre technicien =C3=A0 savoir pourquoi l=E2=80=99unit=C3=A9 n=E2=80=99=
+=C3=A9tait plus r=C3=A9parable.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 2=C2=A0: Machine =C3=A0 caf=C3=A9 Curtis<u><=
+/u><u></u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous comprenons que la machine =C3=A0 caf=C3=A9 pour=
+ laquelle vous aviez soumis une estimation =C3=A0 l=E2=80=99origine de 1=C2=
+=A0485,00 $ pour la r=C3=A9paration de celle-ci est maintenant d=C3=A9clar=
+=C3=A9e perte totale. La valeur de remplacement est de 1=C2=A0200,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 3=C2=A0: Chambre de cong=C3=A9lation<u></u><=
+u></u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous comprenons qu=E2=80=99il y a deux (2) factures =
+reli=C3=A9es =C3=A0 la chambre de cong=C3=A9lation, soit une de 2=C2=A0960,=
+00 $ et une autre de 8=C2=A0320,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 4=C2=A0: Four Tim Hortons<u></u><u></u></u><=
+/p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avions re=C3=A7u un devis de votre part pour la=
+ r=C3=A9paration de ce four au montant de 4=C2=A0635,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous n=E2=80=99avons re=C3=A7u aucune autre facture,=
+ donc aucun montant ne sera allou=C3=A9 pour le moment.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 5=C2=A0: Frigo une porte<u></u><u></u></u></=
+p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons obtenu la facture de 1=C2=A0705,00 $. <u>=
+</u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 6=C2=A0: Machine =C3=A0 cocktail Taylor <u><=
+/u><u></u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons obtenu la facture de 3=C2=A0850,00 $. <u>=
+</u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 7=C2=A0: Electro Freeze <u></u><u></u></u></=
+p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une soumission de 5=C2=A0990,00=
+ $ et n=E2=80=99avons pas re=C3=A7u de facture =C3=A0 date.<u></u><u></u></=
+p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 8=C2=A0: Machine =C3=A0 Slush <u></u><u></u>=
+</u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une facture de 2=C2=A0340,00 $.=
+ <u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u><span lang=3D"EN-CA">Item 9=C2=A0: Four =C3=A0 pi=
+zza no.1<u></u><u></u></span></u></p>
+<p class=3D"MsoNormal"><u><span lang=3D"EN-CA"><u></u><span style=3D"text-d=
+ecoration:none">=C2=A0</span><u></u></span></u></p>
+<p class=3D"MsoNormal">Nous avons obtenu un devis de 6=C2=A0700,68 $ pour l=
+a r=C3=A9paration du four =C3=A0 pizza de la part de SKS.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous n=E2=80=99avons pas re=C3=A7u la facture . Nous=
+ aurons besoin de celle-ci.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Notez =C3=A9galement qu=E2=80=99une facture au nom d=
+e Auger au montant de 308,75 $, qui =C3=A9tait charg=C3=A9e avant la perte,=
+ sera exclue de la r=C3=A9clamation.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 10=C2=A0: Machine =C3=A0 cr=C3=A8me glac=C3=
+=A9e<u></u><u></u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u la facture au montant de 5=C2=
+=A0990,00 $.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u><span lang=3D"EN-CA">Item 11=C2=A0: Four =C3=A0 p=
+izza no.2<u></u><u></u></span></u></p>
+<p class=3D"MsoNormal"><u><span lang=3D"EN-CA"><u></u><span style=3D"text-d=
+ecoration:none">=C2=A0</span><u></u></span></u></p>
+<p class=3D"MsoNormal">Vous d=C3=A9clarez que l=E2=80=99item est perte tota=
+le pour une valeur de 29=C2=A0500,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous n=E2=80=99avons aucune expertise ni de note d=
+=E2=80=99un technicien =C3=A0 cet effet. Veuillez nous produire de plus amp=
+les informations.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous avions re=C3=A7u une facture de 7=C2=A0900,00 $=
+ concernant la r=C3=A9paration du four =C3=A0 pizza.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">S=E2=80=99agit-il d=E2=80=99une r=C3=A9paration de l=
+=E2=80=99item 11 ? Nous appr=C3=A9cierions recevoir vos commentaires =C3=A0=
+ cet effet.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 12=C2=A0: Frigidaire p=C3=A2tisserie</u><u><=
+/u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une estimation de votre part po=
+ur le remplacement du frigidaire de 15=C2=A0933,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous avons besoin d=E2=80=99un rapport de technicien=
+ qui nous indique pourquoi le frigidaire en question n=E2=80=99est pas r=C3=
+=A9parable et est consid=C3=A9r=C3=A9 perte totale, avant d=E2=80=99autoris=
+er le remplacement de ce frigidaire.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 13=C2=A0: Chambre froide</u><u></u><u></u></=
+p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous avions un devis au dossier au montant de 1=C2=
+=A0700,00 $. <u></u>
+<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous n=E2=80=99avons pas encore re=C3=A7u la facture=
+.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 14=C2=A0: Installation d=E2=80=99une unit=C3=
+=A9 AC<u></u><u></u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une facture =C3=A0 cet effet au=
+ montant de 1=C2=A0145,00 $.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Pouvez-vous nous expliquer pourquoi l=E2=80=99unit=
+=C3=A9 d=E2=80=99air climatis=C3=A9 a d=C3=BB =C3=AAtre remplac=C3=A9e ?<u>=
+</u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item15: Syst=C3=A8me =C2=AB=C2=A0<i>Heat pump</i>=
+=C2=A0=C2=BB<u></u><u></u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Un montant de 5=C2=A0099,99 $ est r=C3=A9clam=C3=A9.=
+ La date de cette facture est le 17 juin 2024.
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Cette r=C3=A9paration est-elle reli=C3=A9e au sinist=
+re ? Si oui, veuillez nous fournir de plus amples d=C3=A9tails concernant l=
+a d=C3=A9faillance de l=E2=80=99=C3=A9quipement.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u>Item 16=C2=A0: Frais<u></u><u></u></u></p>
+<p class=3D"MsoNormal"><u><u></u><span style=3D"text-decoration:none">=C2=
+=A0</span><u></u></u></p>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u la facture de Frimabec au monta=
+nt de 408,16 $.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Pour l=E2=80=99instant, avec les informations que no=
+us avons re=C3=A7ues =C3=A0 date, semblerait-il qu=E2=80=99un montant de
+<u>37 288.16</u> $ pourrait =C3=AAtre accord=C3=A9 par l=E2=80=99assureur, =
+sujet =C3=A0 leur approbation. Nous avons produit notre apport =C3=A0 cet e=
+ffet.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Nous vous demandons de r=C3=A9pondre =C3=A0 nos ques=
+tions ci-haut le plus rapidement possible (<u>svp pas avec des commentaires=
+ rapides =C3=A0 partir de votre portable</u>). Entretemps s=E2=80=99il y a =
+des corrections =C3=A0 apporter au niveau de notre fichier Excel
+ veuillez indiquer les changements sur ce fichier.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">En esp=C3=A9rant le tout conforme, <u></u><u></u></p=
+>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal">Joey Dubois<u><u></u><u></u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div dir=3D"ltr" style=3D"font-size:1px;direction:ltr"><table dir=3D"ltr" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:100%;directi=
+on:ltr;border-collapse:collapse;font-size:1px"><tbody><tr style=3D"font-siz=
+e:0"><td align=3D"left" style=3D"vertical-align:top"><table cellpadding=3D"=
+0" cellspacing=3D"0" border=3D"0" style=3D"width:600px;border-collapse:coll=
+apse;font-size:0"><tbody><tr style=3D"font-size:0"><td align=3D"center" sty=
+le=3D"padding:0;border-top:none;border-right:dotted 1px #cacaca;border-bott=
+om:none;border-left:none;vertical-align:middle"><table cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size:0;=
+line-height:normal"><tbody><tr style=3D"font-size:0"><td align=3D"center" s=
+tyle=3D"padding:0 10px 10px;vertical-align:middle"><p style=3D"margin-top:0=
+px;margin-bottom:0px"><a href=3D"https://indemnipro.ca/?e=3D1" id=3D"m_1239=
+197483273379025m_886032311688421562LPlnk689713" style=3D"text-decoration:no=
+ne" rel=3D"noreferrer noreferrer" target=3D"_blank"><img src=3D"https://scm=
+.ca/esig_logos/SRD%20-%20All%20Logos_CCI%20FR.png" width=3D"150" border=3D"=
+0" title=3D"IndemniPro Logo" alt=3D"IndemniPro Logo" style=3D"width:150px;m=
+in-width:150px;max-width:150px;font-size:12px"></a></p></td></tr></tbody></=
+table></td><td align=3D"left" style=3D"padding:10px 0 10px 10px;vertical-al=
+ign:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"b=
+order-collapse:collapse;font-size:0;color:#7d7d7d;font-style:normal;font-we=
+ight:400;white-space:nowrap"><tbody><tr style=3D"font-size:0"><td align=3D"=
+left" style=3D"vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"border-collapse:collapse;font-size:0;color:#7d7d7d=
+;font-style:normal;font-weight:400;white-space:nowrap"><tbody><tr style=3D"=
+font-size:13.33px"><td align=3D"left" style=3D"vertical-align:top;color:#80=
+7f83;font-family:Verdana;font-weight:700"><p style=3D"margin-top:0px;margin=
+-bottom:0px">Joey=C2=A0Dubois<span style=3D"font-family:remialcxesans;font-=
+size:1px;color:#ffffff;line-height:1px">=E2=80=8B<span style=3D"font-family=
+:&#39;template-hMgY3lQsEeqpTAAD_7TDWA&#39;">=E2=80=8B</span><span style=3D"=
+font-family:&#39;zone-1&#39;">=E2=80=8B</span><span style=3D"font-family:&#=
+39;zones-AQ&#39;">=E2=80=8B</span></span></p></td><td align=3D"left" style=
+=3D"vertical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;marg=
+in-bottom:0px">,=C2=A0</p></td><td align=3D"left" style=3D"vertical-align:t=
+op;font-family:Verdana"><p style=3D"margin-top:0px;margin-bottom:0px">B.=C2=
+=A0Sc.,=C2=A0PAA/CIP</p></td></tr></tbody></table></td></tr><tr style=3D"fo=
+nt-size:13.33px"><td align=3D"left" style=3D"vertical-align:top;font-family=
+:Verdana"><p style=3D"margin-top:0px;margin-bottom:0px">Expert=C2=A0en=C2=
+=A0sinistre,=C2=A0Vice=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=A0=
+Risques=C2=A0Sp=C3=A9ciaux</p></td></tr><tr style=3D"font-size:13.33px"><td=
+ align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p style=
+=3D"margin-top:0px;margin-bottom:0px"><a href=3D"mailto:joey.dubois@indemni=
+pro.ca" id=3D"m_1239197483273379025m_886032311688421562LPlnk689713" style=
+=3D"text-decoration:none;color:#7d7d7d" rel=3D"noreferrer noreferrer" targe=
+t=3D"_blank">joey.dubois@indemnipro.ca</a></p></td></tr><tr style=3D"font-s=
+ize:0"><td align=3D"left" style=3D"vertical-align:top"><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;fon=
+t-size:0"><tbody><tr style=3D"font-size:0"><td align=3D"left" style=3D"padd=
+ing:0;vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"border-collapse:collapse;font-size:0;color:#7d7d7d;font-sty=
+le:normal;font-weight:700;white-space:nowrap"><tbody><tr style=3D"font-size=
+:0"><td align=3D"left" style=3D"vertical-align:top"><table cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-siz=
+e:0;color:#7d7d7d;font-style:normal;font-weight:700;white-space:nowrap"><tb=
+ody><tr style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertical-al=
+ign:top;font-family:Verdana"><p style=3D"margin-top:0px;margin-bottom:0px">=
+Ligne=C2=A0directe</p></td><td align=3D"left" style=3D"vertical-align:top;f=
+ont-size:0"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"white-space:nowrap;color:#7d7d7d;font-size:13.33px;font-family:Verdana;=
+font-weight:400;font-style:normal;text-align:left;line-height:18.67px;borde=
+r-collapse:collapse"><tbody><tr style=3D"font-size:10px"><td style=3D"font-=
+family:Verdana"><p style=3D"margin-top:0px;margin-bottom:0px">=C2=A0(T=C3=
+=A9l./Texto/T=C3=A9l=C3=A9c.)</p></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr><tr style=3D"font-size:13.33px"><td align=3D"left" styl=
+e=3D"vertical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;mar=
+gin-bottom:0px">Sans=C2=A0frais=C2=A0</p></td></tr></tbody></table></td><td=
+ align=3D"left" style=3D"padding:0;vertical-align:top"><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;fon=
+t-size:0;color:#7d7d7d;font-style:normal;font-weight:400;white-space:nowrap=
+"><tbody><tr style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertic=
+al-align:top;font-family:Verdana"><p style=3D"margin-top:0px;margin-bottom:=
+0px">=C2=A0:=C2=A0<br></p></td></tr><tr style=3D"font-size:13.33px"><td ali=
+gn=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p style=3D"ma=
+rgin-top:0px;margin-bottom:0px">=C2=A0:=C2=A0<br></p></td></tr></tbody></ta=
+ble></td><td align=3D"left" style=3D"padding:0;vertical-align:top"><table c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:co=
+llapse;font-size:0;color:#7d7d7d;font-style:normal;font-weight:400;white-sp=
+ace:nowrap"><tbody><tr style=3D"font-size:13.33px"><td align=3D"left" style=
+=3D"vertical-align:bottom;font-family:Verdana"><p style=3D"margin-top:0px;m=
+argin-bottom:0px"><a href=3D"tel:514-789-8888" id=3D"m_1239197483273379025m=
+_886032311688421562LPlnk689713" style=3D"text-decoration:none;color:#7d7d7d=
+" rel=3D"noreferrer noreferrer" target=3D"_blank">514-789-8888</a></p></td>=
+</tr><tr style=3D"font-size:0"><td align=3D"left" style=3D"vertical-align:b=
+ottom"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bor=
+der-collapse:collapse;font-size:0;color:#7d7d7d;font-style:normal;font-weig=
+ht:400;white-space:nowrap"><tbody><tr style=3D"font-size:13.33px"><td align=
+=3D"left" style=3D"vertical-align:bottom;font-family:Verdana"><p style=3D"m=
+argin-top:0px;margin-bottom:0px">888=E2=80=91485=E2=80=915252</p></td><td a=
+lign=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p style=3D"=
+margin-top:0px;margin-bottom:0px">=C2=A0</p></td><td align=3D"left" style=
+=3D"vertical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;marg=
+in-bottom:0px">x2572</p></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr style=3D=
+"font-size:0"><td colspan=3D"2" align=3D"left" style=3D"padding:5px;border-=
+top:solid 1px #cacaca;border-right:none;border-bottom:solid 1px #cacaca;bor=
+der-left:none;vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" style=3D"border-collapse:collapse;font-size:0"><tbody><tr st=
+yle=3D"font-size:0"><td align=3D"left" style=3D"padding:0;vertical-align:to=
+p"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+collapse:collapse;font-size:0;color:#7d7d7d;font-style:normal;font-weight:4=
+00;white-space:nowrap"><tbody><tr style=3D"font-size:13.33px"><td align=3D"=
+left" style=3D"vertical-align:top;font-family:Verdana;font-weight:700"><p s=
+tyle=3D"margin-top:0px;margin-bottom:0px">IndemniPro=C2=A0Division=C2=A0des=
+=C2=A0risques=C2=A0sp=C3=A9ciaux<br></p></td><td align=3D"left" style=3D"ve=
+rtical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;margin-bot=
+tom:0px">=C2=A0=E2=80=93=C2=A0<br></p></td><td align=3D"left" style=3D"vert=
+ical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;margin-botto=
+m:0px"><a href=3D"https://indemnipro.ca/?e=3D1" id=3D"m_1239197483273379025=
+m_886032311688421562LPlnk689713" style=3D"text-decoration:none;color:#807f8=
+3" rel=3D"noreferrer noreferrer" target=3D"_blank">indemnipro.ca</a></p></t=
+d></tr></tbody></table></td></tr><tr style=3D"font-size:13.33px;color:#7d7d=
+7d;font-style:normal;font-weight:400;white-space:nowrap"><td align=3D"left"=
+ style=3D"padding:0;vertical-align:top;font-family:Verdana"><p style=3D"mar=
+gin-top:0px;margin-bottom:0px">Cabinet=C2=A0d&#39;expertise=C2=A0en=C2=A0r=
+=C3=A8glement=C2=A0de=C2=A0sinistres<br></p></td></tr><tr style=3D"font-siz=
+e:0"><td align=3D"left" style=3D"padding:0;vertical-align:top"><table cellp=
+adding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:collap=
+se;font-size:0"><tbody><tr style=3D"font-size:0"><td align=3D"left" style=
+=3D"vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"border-collapse:collapse;font-size:0;color:#7d7d7d;font-sty=
+le:normal;font-weight:400;white-space:nowrap"><tbody><tr style=3D"font-size=
+:13.33px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verdan=
+a"><p style=3D"margin-top:0px;margin-bottom:0px"><a href=3D"https://www.goo=
+gle.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;sour=
+ce=3Dg" target=3D"_blank" rel=3D"noreferrer">3400,</a>=C2=A0<a href=3D"http=
+s://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=3Dgma=
+il&amp;source=3Dg" target=3D"_blank" rel=3D"noreferrer">boul.</a>=C2=A0<a h=
+ref=3D"https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?=
+entry=3Dgmail&amp;source=3Dg" target=3D"_blank" rel=3D"noreferrer">De</a>=
+=C2=A0<a href=3D"https://www.google.com/maps/search/3400,+boul.+De+Maisonne=
+uve+ouest?entry=3Dgmail&amp;source=3Dg" target=3D"_blank" rel=3D"noreferrer=
+">Maisonneuve</a>=C2=A0<a href=3D"https://www.google.com/maps/search/3400,+=
+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;source=3Dg" target=3D"_blank" =
+rel=3D"noreferrer">ouest</a>,=C2=A0#910</p></td><td align=3D"left" style=3D=
+"vertical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;margin-=
+bottom:0px">,=C2=A0</p></td><td align=3D"left" style=3D"vertical-align:top;=
+font-family:Verdana"><p style=3D"margin-top:0px;margin-bottom:0px">Montr=C3=
+=A9al</p></td><td align=3D"left" style=3D"vertical-align:top;font-family:Ve=
+rdana"><p style=3D"margin-top:0px;margin-bottom:0px">,=C2=A0</p></td><td al=
+ign=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p style=3D"m=
+argin-top:0px;margin-bottom:0px">QC</p></td><td align=3D"left" style=3D"ver=
+tical-align:top;font-family:Verdana"><p style=3D"margin-top:0px;margin-bott=
+om:0px">=C2=A0<br></p></td><td align=3D"left" style=3D"vertical-align:top;f=
+ont-family:Verdana"><p style=3D"margin-top:0px;margin-bottom:0px">H3Z=C2=A0=
+3B8</p></td></tr></tbody></table></td></tr><tr style=3D"font-size:0"><td al=
+ign=3D"left" style=3D"vertical-align:top"></td></tr></tbody></table></td></=
+tr></tbody></table></td></tr><tr style=3D"font-size:9px;color:#7d7d7d;font-=
+style:normal;font-weight:400;white-space:normal"><td colspan=3D"2" align=3D=
+"left" style=3D"padding:5px 0 0;vertical-align:top;font-family:Verdana"><p =
+style=3D"margin-top:0px;margin-bottom:0px">Ce courriel est destin=C3=A9 uni=
+quement =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il e=
+st envoy=C3=A9 et peut contenir de l&#39;information confidentielle ou priv=
+il=C3=A9gi=C3=A9e. Toute utilisation de l&#39;information par une personne =
+ou une entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e e=
+st interdite. Si vous recevez ce courriel par erreur, veuillez communiquer =
+avec son exp=C3=A9diteur et supprimer ce courriel et toute copie (=C3=A9lec=
+tronique ou non) imm=C3=A9diatement.=E2=80=8B<br>=E2=80=8B<br>=E2=80=8BThis=
+ email communication is intended only for the person or entity to which it =
+is addressed and may contain confidential and/or privileged information. An=
+y use of this information by persons or entities other than the intended re=
+cipient is prohibited. If you received this in error, please contact the se=
+nder and delete the email and all copies (electronic or otherwise) immediat=
+ely.<br></p></td></tr></tbody></table></td></tr></tbody></table></div></div=
+>
+
+</div></div></div>
+</div>
+
+--000000000000b7cc6f065335888c--
+--000000000000b7cc71065335888e
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; 
+	name="Hadmo_3621dc63-820c-4470-95be-cdb7f345317c 15 Janv 2025...xlsx"
+Content-Disposition: attachment; 
+	filename="Hadmo_3621dc63-820c-4470-95be-cdb7f345317c 15 Janv 2025...xlsx"
+Content-Transfer-Encoding: base64
+Content-ID: <19493750ad8fa16594c1>
+X-Attachment-Id: 19493750ad8fa16594c1
+
+UEsDBBQABgAIAAAAIQANEW3OlAEAADUGAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACs
+lMtOwzAQRfdI/EPkLUpcWCCEmrLgsQQk4AOMPWms+iXPFNq/Z+JChVBpVbWbRInte+7cTGZ8s/Cu
++oCMNoZWnDcjUUHQ0dgwbcXb60N9JSokFYxyMUArloDiZnJ6Mn5dJsCKTwdsRU+UrqVE3YNX2MQE
+gVe6mL0ifsxTmZSeqSnIi9HoUuoYCALVNGiIyfgOOjV3VN0v+PXKybsNorpd7RtQrVApOasVsVH5
+EcwfSB27zmowUc89SzeYMiiDPQB516RsmZhfgIgLQyE3MjM43A/6XVXDJ4sx7G3CMy79H8Kn7/4A
+rB9SWdTDymZXg9r/SXyznvgTZmugelaZHpXnvOTCyc+YZ+8xzprtIvvGWWJtvLLhp9Yt/LIZZbmd
+H9nIUF8R3uGDuC9BluvhForMDiDS0gEeO/Yiuovcqwzmhbjjp0c38Ft7hw+tnL7tuUWOHMJadxuf
+x8Bzjgl50mTY38DPbz2crhMLQSYL6x97U7OviTymDq4YhjlowOzL1nOk6A/Gr2Q2wGUZ+pMvAAAA
+//8DAFBLAwQUAAYACAAAACEAler0txMBAABvAwAACwAIAl9yZWxzLy5yZWxzIKIEAiigAAIAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKzT22oD
+IRAG4PtC30G8z7pJD5SSTW5KIXelbB9gorMHsjqis03y9pVADwvptpC9VMffTweX64PtxDuG2JIr
+5DzLpUCnybSuLuRb+Tx7kCIyOAMdOSzkEaNcr66vlq/YAadNsWl9FCnFxUI2zP5RqagbtBAz8ujS
+SkXBAqdhqJUHvYMa1SLP71X4mSFXg0yxMYUMG3MjRXn06eRLspVFBgMMSlPAmQ9JFrhNdxElhBq5
+kIb0S5qOp4osqaU6D1pMC+Kmt1sHbXeG8rWW7W31m2f+fw9VVavxiXRv0fGZHqhhxTfp0Kk9hd2W
+aDf2NndTWnQfmewfzTrVjJFupyThgdEZNOMo8P5TpAbfZPUBAAD//wMAUEsDBBQABgAIAAAAIQAw
+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
+lkz40MSCVtQ9O0omfGhiQSvq/iUlEz40saAV9by2ZMKHJha0YuaUiAgfmljQirredsmED00saMXM
+aRERPjSxoBUzBdEQPjSxoBV115CSCR+aWNCKeoWgZMKHJha0YmZVRIQPTSxoxUxZNIQPTSxoRd1n
+p2TChyYWtGKmIiLChyYWtGLmrGgIH5pY0IqZqmgIH5pY0IqZc6IhfGhiQStmaqIhfGhiQStmdEcR
+Ez40saAVM7r7iQn/85NY+0qofWXK0IQPTSxo+8qUoQkfmljQ9pUpQxM+NLGg7StThiZ8aGJB21em
+DE340MSCtq9MGZrwoYkFbV+ZMjThQxML2r4yZWjChyYWtH1lytCED00saPvKlKEJH5pY0PaVKUMT
+PjSxoO0rU4YmfGhiQdtXpgxN+NDEgravTBma8KGJBW1fmTI04UMTC9q+MmVowocmFrR9ZcrQhA9N
+LGj7ypShCR+aWND2lSlDEz40saDtK62GJnxoYn2dd/8y0e327t99el0lfvcvE/2TLfnd6TtymejP
+lCdciT75vRBN363i/cTZa9Dxu40sO/n+3PH33njdkzsdLlu+6JVNluU1l/jVzrw+uyN/h179i9Mu
+N/lNyBqseXqSB3zk7pL3rd4f/UCvUpyRj+yjnj/pHgD4WPE4+/LCf7inY/x/Qpevs+wr37Y/F7KT
+j9Gxz3/72Oc3nPWXfn12VHSs7Ahlqtymcv6V5ItzR2r+KC66M2P8W5E7Xs6ToeX0G5Pv8x15vQhi
+38fbV3J6//yUdE6vWJ0zX7M1stXb9DGjPE3+JG9l83lMm9/CrL/w+FjETfZn8f5m52absOKc5FEy
+P4b7SN6RP6tlf/LgQw/l7b3iRY+gZI585MoGs2Ob0c/FPIPH26I7TyUZmDSAeL+X3xWUn6PZPS9v
+iX4his8G+PfJ2QDx/U21qQvtR7qX//zq5emxPW7iY1WenA2wefU9O+KcA9DQqneXfi36rn4SouiB
+Bzd/7w8ffOChP/6jvF5703MvvXJU0ZFZ1Xe3MncuQTyP/zxxVsLXm8eZ6E7b6v3RvdqnKHr4yvb2
+I5evXrrw/SvXrl2+dPXC3a277rrzYuve73C+QUHbLtvryKfkV6SCZsQx5C6xK/pK8vfU1EG9u/Q9
+8fnJvu/atUev/ttvXviDR76/fUW/5RjNWH6b6ZWTyTYKk6Ob7NXPenQrOs+Drf5EW12V27x07S+u
+Xv6rH12+8kNtI54zbZIt829huv5v6ecoiu6/8ujVH16+du3So1dtRskM49nGo+K71CaPrtkdcC8q
+xdPvEcsjIvnp/vzzz/VZ/Jg4O/musiwm4PjaV3oUz98FNlm++BwL3t9gdifv+srZD7NzLGbnZ/DO
+iO7CmuV1ymVjb9zgjqrJ12djeY0qHssrVYu3G49Nvj4by7OFeCzPRNLGJl9Pxq5rT+Kx63oFNG1/
+WTP+ejJ2czp20xnLmkfHbk3HbjljWfPo2O3p2G1nLGseHXuLnj3H+6trVy49VlwFnjWPj02Oc1eN
+ZtmxisceP8470znvOHNmzaPb3YnumXyPdC2vpdvNRNd1LZt7ToxdnezvjtrX8u/vQGNXj+3v7nTO
+u86cWfPonHenc9Y1Q1LnzJrHxyZz3nXmrGt9HJvz3nTOe86cWfPodvemc9b/TU6dM2seH5vMec+Z
+s/5P8bE5H0znfODMmTWPbvdwOvbQGcuax8cmjyud85y6v4cn9ldnIE8eV4fO/rLm0e3O7rT9+XRO
+J3/Hvq2fwWV31q7O5fYsI4637nfUonlf5/jyH2i58kvPZKMj9/KOl/MM9+hyXSdRz1uS73j8TPAr
+PX+LnxmcTJlZmqxPH1Hrutf78p++XoY1j/92Tb47m87YzRNjt6bb3XLGsuaihvz1jjBHpvuNjsyO
+zmCMfw/vpM6Q62km5zomubM7HbvrjGXN4z+nyXb3nLF7Ght2ZEbf6MgcTvfu0Jkha8Z7t6x9x19N
+elTySC1mcUdbeLzm8fb+9cbP9zB80sMWP4ZgHu9hszHJ95gl8eMjSj3X9VV7ynX0ezwbO7u3/cnf
+L9ftFYFkrvER5HnLr2j4fav/EP2HPZOHdV0z4CPPqjGxaMbxaDPH/qHHRtH/AQAA//8DAFBLAwQU
+AAYACAAAACEAO20yS8EAAABCAQAAIwAAAHhsL3dvcmtzaGVldHMvX3JlbHMvc2hlZXQxLnhtbC5y
+ZWxzhI/BisIwFEX3A/5DeHuT1oUMQ1M3IrhV5wNi+toG25eQ9xT9e7McZcDl5XDP5Tab+zypG2YO
+kSzUugKF5GMXaLDwe9otv0GxOOrcFAktPJBh0y6+mgNOTkqJx5BYFQuxhVEk/RjDfsTZsY4JqZA+
+5tlJiXkwyfmLG9Csqmpt8l8HtC9Ote8s5H1Xgzo9Uln+7I59Hzxuo7/OSPLPhEk5kGA+okg5yEXt
+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
+ABVPAAAAAA==
+--000000000000b7cc71065335888e--

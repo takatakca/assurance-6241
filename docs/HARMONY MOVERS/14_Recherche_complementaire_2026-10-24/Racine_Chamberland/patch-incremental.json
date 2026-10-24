@@ -1,0 +1,126 @@
+[
+  {
+    "id": 21,
+    "date_recherche": "2026-10-24",
+    "compte": "ooeuf.ca@gmail.com et takatak.ca@gmail.com",
+    "apport_nouveau": "Les 41 fils du courtier et les deux notes de brouillons sont classés; les chaînes de transmission et échanges sur renouvellements, assurés, primes et résiliation sont conservés. La police 10043375 est disponible dans les deux PDF natifs acquis séparément (113/117 pages); ces échanges complètent leur provenance sans établir à eux seuls l’application de la garantie.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/rapport.md",
+        "repere": "Bilan et limites de collecte du 24 octobre 2026",
+        "apport": "Étendue réelle de collecte, distinction des dossiers, manquants et contrôles.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/INDEX-CORRESPONDANCES.md",
+        "repere": "43 résultats courtier dont 41 fils + 2 brouillons; 22 fils expert",
+        "apport": "Index des copies lisibles avec renvoi aux sources et limites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CHRONOLOGIE-ASSURANCE-EXPERTS.md",
+        "repere": "Chronologie attribuée 2023–2026",
+        "apport": "Dates originales, dates de transfert et dossiers distincts.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/provenance-copies-lecture.json",
+        "repere": "Sources et copies; empreintes SHA-256",
+        "apport": "Traçabilité des captures et copies de lecture.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CORRESPONDANCES-RACINE.md",
+        "repere": "Fils 32 et 41 : transmissions des polices; fils 11 et 10 : dates de résiliation à rapprocher",
+        "apport": "Recueil des textes visibles des 41 fils, brouillons séparés, secrets masqués.",
+        "nature": "extraction interface Gmail"
+      }
+    ],
+    "manquants_maintenus": [],
+    "statut_recommande": "document_disponible",
+    "raison_statut": "Disponibilité des polices natives acquises et contrôlées dans Ooeuf/Polices; conserver la réponse consolidée du sous-lot polices. Aucune conclusion automatique de garantie.",
+    "controles": [
+      "Conserver les deux brouillons en notes, sans les compter comme correspondances envoyées.",
+      "Les soldes et primes ne prouvent pas une indemnité; versions non additionnées.",
+      "Différence 12/30 novembre 2025 à rapprocher avec avis et avenant effectifs.",
+      "La police 2025–2026 annoncée dans un courriel est distincte des copies 2023–2024 et 2024–2025 acquises."
+    ],
+    "recherche_effectuee": [
+      "24 octobre 2026 : 43 résultats Racine Ooeuf, 41 fils capturés et 2 brouillons signalés; 9 requêtes Takatak consignées."
+    ]
+  },
+  {
+    "id": 22,
+    "date_recherche": "2026-10-24",
+    "compte": "ooeuf.ca@gmail.com et takatak.ca@gmail.com",
+    "apport_nouveau": "Le fil Expert 07 établit le dernier retour de l’expert identifié dans la recherche ciblée : Lorraine Lamarche pour Sylvain Bernier, 4 août 2026 à 14 h 41, lettre de réserve de droits SNB 53640-196353 / 23910-9447. Ooeuf la transfère à yan, Christian et catherine.remillard à 16 h 00. Les échanges plus récents sont ceux du cabinet, sans nouvelle décision d’assurance identifiée. Le dossier DLL 32-10296 contient une lettre qualifiée de négation par le courtier en 2025; ne pas l’assimiler au dossier SNB.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/rapport.md",
+        "repere": "Bilan et limites de collecte du 24 octobre 2026",
+        "apport": "Étendue réelle de collecte, distinction des dossiers, manquants et contrôles.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/INDEX-CORRESPONDANCES.md",
+        "repere": "43 résultats courtier dont 41 fils + 2 brouillons; 22 fils expert",
+        "apport": "Index des copies lisibles avec renvoi aux sources et limites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CHRONOLOGIE-ASSURANCE-EXPERTS.md",
+        "repere": "Chronologie attribuée 2023–2026",
+        "apport": "Dates originales, dates de transfert et dossiers distincts.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/provenance-copies-lecture.json",
+        "repere": "Sources et copies; empreintes SHA-256",
+        "apport": "Traçabilité des captures et copies de lecture.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Expert_Dufourd/07-fil-lecture.txt",
+        "repere": "4 août 2026, 14 h 41 puis 16 h 00",
+        "apport": "Message d’accompagnement de la réserve et transfert au cabinet; les suggestions Gmail finales ne sont pas des messages.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/CORRESPONDANCES-EXPERT-DUFOURD.md",
+        "repere": "22 fils, notamment 10, 13, 14 et 07",
+        "apport": "Demandes de l’expert, échanges sur une expertise Gamelin et transmission de la réserve.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Racine_Chamberland/13-fil-lecture.txt",
+        "repere": "21 octobre 2025 et 12 novembre 2025 — DLL 32-10296",
+        "apport": "Courrier joint et qualification de négation par Maude; PDF non acquis, dossier séparé.",
+        "nature": "extraction interface Gmail"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Racine_Chamberland/Lecture_Ooeuf/Racine_Chamberland/20-fil-lecture.txt",
+        "repere": "27 juin–2 juillet 2025",
+        "apport": "Déclaration du client après incident du 26 juin et désignation de Benoit Daigle / DLL 32-10296.",
+        "nature": "extraction interface Gmail"
+      }
+    ],
+    "manquants_maintenus": [
+      "Dossier assureur/expert complet 53640-196353, inventaire des pièces, rapport final éventuel et décision postérieure à la réserve, si émis.",
+      "Preuves d’indemnités effectivement versées, le cas échéant; ne pas déduire un paiement de primes ou d’un montant de garantie.",
+      "PDF natif « Lettre à l’Assuré.pdf » du 21 octobre 2025 (DLL 32-10296) et contrôle de son périmètre distinct.",
+      "Corps tronqués/repliés et pièces seulement annoncées non acquis intégralement; complétude native des échanges non certifiée."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Chaînes probantes supplémentaires et dernier retour identifié, mais dossier de l’assureur complet et décision finale éventuelle non établis.",
+    "controles": [
+      "Réserve de droits ≠ refus définitif ni admission de garantie.",
+      "Dates des transferts distinctes des dates de rédaction; dernière réponse dans les résultats, pas affirmation universelle.",
+      "Dossiers 24110-4833 / 2024002464, DLL 32-10296, SNB 53640-196353 et référence contestée 53640-190785 restent séparés.",
+      "Nicolas Gamelin est une piste d’expertise des équipements; demande de mandat ≠ rapport exécuté.",
+      "Réponses suggérées Gmail non attribuées au client."
+    ],
+    "recherche_effectuee": [
+      "24 octobre 2026 : 22 fils Ooeuf du corpus ciblé expert/cabinet capturés; 41 fils courtier lus et conservés; 9 requêtes Takatak consignées, sans courrier récent de l’expert identifié."
+    ]
+  }
+]

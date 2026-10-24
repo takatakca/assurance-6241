@@ -1,0 +1,63 @@
+{
+  "collecte": "2026-10-24",
+  "compte": "ooeuf.ca@gmail.com",
+  "methode": "Interface Gmail connectée et téléchargement des pièces par les commandes de l’interface",
+  "sources": [
+    {
+      "fichier": "2025-07-01-Relocalisation-Jean-Talon.eml",
+      "nature": "Courriel natif",
+      "source": "1 juillet 2025, 15 h 17; Ooeuf vers Maude Robidoux",
+      "sha256": "8a9db06da1dafc519566e43ba6e08dd8c628690be91f67b3ddb821df2e2202b0",
+      "octets": 3862,
+      "controle_visuel_pages": []
+    },
+    {
+      "fichier": "Invoice_1020_from_AKA_Moving.pdf",
+      "nature": "Pièce jointe native PDF",
+      "source": "11 juin 2025, 9 h 39; message msg-f:1834640111589325967",
+      "sha256": "ad21b4bcc21a7bceee11246199f98eecd7c32a6ee4def4fada8e69c92ec005e4",
+      "octets": 12179,
+      "controle_visuel_pages": [
+        1
+      ]
+    },
+    {
+      "fichier": "2025-08-20_Invoice_1026_from_AKA_Moving.pdf",
+      "nature": "Pièce jointe native PDF",
+      "source": "20 août 2025, 9 h 24",
+      "sha256": "c84752fbc665c2e36c18fc0430ff7722b4c5865b432f45bc66fe1dabf18118b7",
+      "octets": 12322,
+      "controle_visuel_pages": [
+        1
+      ]
+    },
+    {
+      "fichier": "2025-08-27_0933_Invoice_1026_from_AKA_Moving.pdf",
+      "nature": "Pièce jointe native PDF",
+      "source": "27 août 2025, 9 h 33; message msg-f:1841615699350891713",
+      "sha256": "caf6a9552a5f04403eeeb0d822a03a0cfccbabf6c938902aecc7d9832ed7b5e2",
+      "octets": 12755,
+      "controle_visuel_pages": [
+        1
+      ]
+    },
+    {
+      "fichier": "Quadro_Holding_Lettre_UberEats_FR_Clean.pdf",
+      "nature": "Pièce jointe native PDF",
+      "source": "Échange du 16 juillet 2025 avec Benson Noisy; date imprimée 24 avril 2024",
+      "sha256": "c89a34728bcb7a8f22eec19afb76f353687962a9396a3420c734f9669b6643b8",
+      "octets": 3337,
+      "controle_visuel_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "limites": [
+    "Recherches larges non exhaustives au-delà de la page observée.",
+    "PDF du message AKA du 27 août à 9 h 30 non téléchargé; PDF de 9 h 33 acquis.",
+    "Les extractions DOM publiques retirent les liens techniques. Les fichiers natifs ci-dessus ne sont pas modifiés."
+  ],
+  "transmission": false
+}

@@ -1,0 +1,426 @@
+{
+  "nature": "extraction de données natives; aucune modification du classeur",
+  "date_controle": "2026-10-24",
+  "original_sha256": "582989d09e0d123eb3b516dc2af413de3b2061fc0c6d1ee1c6365f8db9b92d6c",
+  "proprietes": {
+    "creator": "Utilisateur Windows",
+    "lastModifiedBy": "Microsoft Office User",
+    "created": "2023-05-13 17:08:43",
+    "modified": "2023-05-24 23:48:25"
+  },
+  "feuilles": [
+    {
+      "nom": "Feuil1",
+      "etat": "visible",
+      "lignes": 47,
+      "colonnes": 4,
+      "cellules_non_vides": 113
+    },
+    {
+      "nom": "Feuil2",
+      "etat": "visible",
+      "lignes": 1,
+      "colonnes": 1,
+      "cellules_non_vides": 0
+    },
+    {
+      "nom": "Feuil3",
+      "etat": "visible",
+      "lignes": 1,
+      "colonnes": 1,
+      "cellules_non_vides": 0
+    }
+  ],
+  "items": [
+    {
+      "feuille": "Feuil1",
+      "ligne": 3,
+      "repere": "Feuil1!A3:D3",
+      "section": "PIECE AVANT",
+      "description": "MACHINE A CREME MOLLE",
+      "modele": "88TF-113",
+      "numero_serie": "CN487",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 4,
+      "repere": "Feuil1!A4:D4",
+      "section": "PIECE AVANT",
+      "description": "MACHINE A SLUSH",
+      "modele": "FTR-48-SC",
+      "numero_serie": "2663-0490",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 5,
+      "repere": "Feuil1!A5:D5",
+      "section": "PIECE AVANT",
+      "description": "CONGELATEUR CREME DURE",
+      "modele": "DD-46",
+      "numero_serie": 283041,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 6,
+      "repere": "Feuil1!A6:D6",
+      "section": "PIECE AVANT",
+      "description": "CONTOIRE REFRIGERE",
+      "modele": "DD5G-6",
+      "numero_serie": "IFK096",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 7,
+      "repere": "Feuil1!A7:D7",
+      "section": "PIECE AVANT",
+      "description": "PRESENTOIRE RECHAUD",
+      "modele": "RS-CN-0062-S",
+      "numero_serie": "NS*3999841201128022",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 8,
+      "repere": "Feuil1!A8:D8",
+      "section": "PIECE AVANT",
+      "description": "CONTOIRE A SALADE",
+      "modele": "SWD700-60FL M",
+      "numero_serie": 9092167,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 9,
+      "repere": "Feuil1!A9:D9",
+      "section": "PIECE AVANT",
+      "description": "REFROIDISSEURE BOISSONS",
+      "modele": "SP72-30M",
+      "numero_serie": 6705415,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 10,
+      "repere": "Feuil1!A10:D10",
+      "section": "PIECE AVANT",
+      "description": "FRITEUSE 3 SECTIONS",
+      "modele": "CSDR2-60VC",
+      "numero_serie": "0032102400O30002",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 11,
+      "repere": "Feuil1!A11:D11",
+      "section": "PIECE AVANT",
+      "description": "MACHINE BOISSONS GLACÉ",
+      "modele": "DI-1522",
+      "numero_serie": 610056626,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 12,
+      "repere": "Feuil1!A12:D12",
+      "section": "PIECE AVANT",
+      "description": "MACHINE A CAFFE",
+      "modele": "390-27",
+      "numero_serie": "M3065403",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 13,
+      "repere": "Feuil1!A13:D13",
+      "section": "PIECE AVANT",
+      "description": "FRIGIDAIRE A BOISSON 1 PORTE",
+      "modele": "LG-350F",
+      "numero_serie": "MSC170427",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 14,
+      "repere": "Feuil1!A14:D14",
+      "section": "PIECE AVANT",
+      "description": "FRIGIDAIRE A BOISSON 1 PORTE",
+      "modele": "LG-350F",
+      "numero_serie": "MSC181121",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 15,
+      "repere": "Feuil1!A15:D15",
+      "section": "PIECE AVANT",
+      "description": "FRIGIDAIRE A BOISSON 1 PORTE",
+      "modele": "LG-350F",
+      "numero_serie": "MSC170711",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 16,
+      "repere": "Feuil1!A16:D16",
+      "section": "PIECE AVANT",
+      "description": "CONGELATEUR  3 PORTES",
+      "modele": "GDM-72F",
+      "numero_serie": "NS* 5099993",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 20,
+      "repere": "Feuil1!A20:D20",
+      "section": "PIECE A ARRIERE",
+      "description": "FOUR A MUFFIN ",
+      "modele": "MODEL 86001",
+      "numero_serie": "NS* 1202235000983",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 21,
+      "repere": "Feuil1!A21:D21",
+      "section": "PIECE A ARRIERE",
+      "description": "FRITEUSE",
+      "modele": "SFE01860-240",
+      "numero_serie": "NS; GFA123957496",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 22,
+      "repere": "Feuil1!A22:D22",
+      "section": "PIECE A ARRIERE",
+      "description": "FOUR ENCASTRÉ BOULANGERIE 2 SECTIONS",
+      "modele": "OBARGALT",
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 23,
+      "repere": "Feuil1!A23:D23",
+      "section": "PIECE A ARRIERE",
+      "description": "FOUR A PIZZA AU GAZ 2 SECTIONS",
+      "modele": null,
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 24,
+      "repere": "Feuil1!A24:D24",
+      "section": "PIECE A ARRIERE",
+      "description": "CONGELATEUR 2 PORTES",
+      "modele": null,
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 25,
+      "repere": "Feuil1!A25:D25",
+      "section": "PIECE A ARRIERE",
+      "description": "CONTOIR RÉFRIGÉRÉ A SECTION",
+      "modele": null,
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 26,
+      "repere": "Feuil1!A26:D26",
+      "section": "PIECE A ARRIERE",
+      "description": "PLAQUE DE CUISSON",
+      "modele": "402S",
+      "numero_serie": "NS* 0908207000405",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 27,
+      "repere": "Feuil1!A27:D27",
+      "section": "PIECE A ARRIERE",
+      "description": "2 TABLES DE TRAVAIL STANLESS",
+      "modele": "6 PIEDS",
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 31,
+      "repere": "Feuil1!A31:D31",
+      "section": "SOUS SOL",
+      "description": "TRANCHEUR A VIANDE",
+      "modele": "350GXL",
+      "numero_serie": "NS* 0047",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 32,
+      "repere": "Feuil1!A32:D32",
+      "section": "SOUS SOL",
+      "description": "FOUR A MUFFIN",
+      "modele": "D045472",
+      "numero_serie": "NS* 0704100237120",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 33,
+      "repere": "Feuil1!A33:D33",
+      "section": "SOUS SOL",
+      "description": "FOUR A MUFFIN",
+      "modele": "D045472",
+      "numero_serie": "NS* 0704100236985",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 34,
+      "repere": "Feuil1!A34:D34",
+      "section": "SOUS SOL",
+      "description": "HOLMAN",
+      "modele": "DT14TH-V02",
+      "numero_serie": "TD140512A0051",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 35,
+      "repere": "Feuil1!A35:D35",
+      "section": "SOUS SOL",
+      "description": "MOTEUR CONGELATEUR",
+      "modele": "B-24MA",
+      "numero_serie": "NS* 0710760",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 36,
+      "repere": "Feuil1!A36:D36",
+      "section": "SOUS SOL",
+      "description": "MACHINE A BOISSONS",
+      "modele": "AC30",
+      "numero_serie": "NS* 0712-010092",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 37,
+      "repere": "Feuil1!A37:D37",
+      "section": "SOUS SOL",
+      "description": "FOUR",
+      "modele": "SFE01860-240",
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 38,
+      "repere": "Feuil1!A38:D38",
+      "section": "SOUS SOL",
+      "description": "BOISSON GLACEE",
+      "modele": "390-27",
+      "numero_serie": "NS* M0052434",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 39,
+      "repere": "Feuil1!A39:D39",
+      "section": "SOUS SOL",
+      "description": "MALAXEUR",
+      "modele": "KV25MCXCU",
+      "numero_serie": "NS* W14816522",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 40,
+      "repere": "Feuil1!A40:D40",
+      "section": "SOUS SOL",
+      "description": "MALAXEUR",
+      "modele": "4KG25H3XSL",
+      "numero_serie": "W02358855",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 41,
+      "repere": "Feuil1!A41:D41",
+      "section": "SOUS SOL",
+      "description": "CONGELATEUR BLANC  6 PIEDS",
+      "modele": "C2505W3",
+      "numero_serie": "NS* 15582296KQ",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 42,
+      "repere": "Feuil1!A42:D42",
+      "section": "SOUS SOL",
+      "description": "CONGELATEUR BLANC  6 PIEDS",
+      "modele": "DCFM040A1WSP",
+      "numero_serie": "NS* 0113100100007",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 43,
+      "repere": "Feuil1!A43:D43",
+      "section": "SOUS SOL",
+      "description": "CONGELATEUR BLANC  3 PIEDS",
+      "modele": "C2505W3",
+      "numero_serie": "NS* 14651221GN",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 44,
+      "repere": "Feuil1!A44:D44",
+      "section": "SOUS SOL",
+      "description": "GROS CONGELATEUR",
+      "modele": "RS80C2E-CAV-101",
+      "numero_serie": "NS* 03B14660",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 45,
+      "repere": "Feuil1!A45:D45",
+      "section": "SOUS SOL",
+      "description": "Gros frigidaire encastré",
+      "modele": null,
+      "numero_serie": null,
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 46,
+      "repere": "Feuil1!A46:D46",
+      "section": "SOUS SOL",
+      "description": "MACHINE BOULANGERIE OLIVIER",
+      "modele": "623N36",
+      "numero_serie": "NS* 188187",
+      "valeur": null
+    },
+    {
+      "feuille": "Feuil1",
+      "ligne": 47,
+      "repere": "Feuil1!A47:D47",
+      "section": "SOUS SOL",
+      "description": "MELANGEUR PATE",
+      "modele": "A-200",
+      "numero_serie": "NS* 998290",
+      "valeur": null
+    }
+  ]
+}

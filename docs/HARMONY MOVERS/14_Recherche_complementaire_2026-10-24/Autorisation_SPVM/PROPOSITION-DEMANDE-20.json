@@ -1,0 +1,74 @@
+{
+  "id": 20,
+  "demande": "Fournir le formulaire d’autorisation d’accès dûment signé permettant aux avocats d’obtenir le rapport de police.",
+  "statut": "partiel",
+  "reponse_proposee": "Une autorisation personnelle limitée au rapport SPVM MTLEV2500487177 est maintenant préparée, en PDF de deux pages et en version modifiable, à la demande du client. Les champs d’identité, de date et de signature restent vierges. Chaque personne concernée doit signer personnellement un exemplaire à la main. Le cabinet pourra joindre ce consentement à sa demande sur papier à en-tête, avec l’identification requise. Aucun formulaire signé n’a été retrouvé ni créé, aucune assermentation n’a été effectuée et aucune demande n’a été envoyée. La demande20 est donc préparée en partie et reste à finaliser par la signature réelle.",
+  "pieces": [
+    {
+      "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/sources/image006.jpg",
+      "repere": "Image entière",
+      "apport": "Référence MTLEV2500487177 à reporter après validation; cette carte n'est pas une autorisation signée.",
+      "nature": "original"
+    },
+    {
+      "path": "HARMONY MOVERS/03_Courriels/takatak.ca@gmail.com/Textes/1a10d5436a58b8f3.txt",
+      "repere": "Message porteur du 5 octobre 2026 à 14 h 29, citation du courriel Dufourd 14 h 15, demande 20",
+      "apport": "Demande écrite du formulaire signé; le texte est une extraction du message conservé.",
+      "nature": "extraction"
+    },
+    {
+      "path": "HARMONY MOVERS/11_Fieldy/2026-10-05-Fieldy-interrogatoire-Quadro-Harmony.pdf",
+      "repere": "p. 56, 11:27:36–11:27:47",
+      "apport": "Accord oral transcrit pour fournir une autorisation; pas de formulaire signé reproduit.",
+      "nature": "declaration"
+    },
+    {
+      "path": "HARMONY MOVERS/04_Factures_et_comptabilite/Collecte_Gmail_2026-10-21/1a0b7cf80510d416__Facture_8695_QUADRO HOLDINGS LTÉE.pdf",
+      "repere": "Page 1, lignes des rapports d'autorisation",
+      "nature": "original",
+      "apport": "Objet différent de l'accès au rapport de police; ne pas substituer ces lignes au formulaire demandé."
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf",
+      "repere": "p1 autorisation vierge à signer; p2 instructions et sources officielles.",
+      "apport": "Projet préparé le 24 octobre 2026; consentement limité, un exemplaire par personne; aucune signature ni attestation créée.",
+      "nature": "analyse",
+      "sha256": "b8ba01d6079ba78daf4e3cf5c48dcc572e410b0e38c108d570f444070465151e",
+      "octets": 78933
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Autorisation_SPVM/AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.md",
+      "repere": "Version modifiable correspondant au projet PDF.",
+      "apport": "Projet préparé le 24 octobre 2026; consentement limité, un exemplaire par personne; aucune signature ni attestation créée.",
+      "nature": "analyse",
+      "sha256": "e766db93af8f79f0cb9df2d5a6097aed80760362f4b279117483764b8bff9e02",
+      "octets": 4301
+    }
+  ],
+  "manquants": [
+    "Identité complète de chaque personne concernée et confirmation par le cabinet de la portée, de la date et du lieu de l’événement.",
+    "Autorisation datée et signée personnellement à la main par chaque personne concernée, avec copie lisible d’identité requise.",
+    "Finalisation et transmission par le cabinet de sa demande sur papier à en-tête, puis suivi de sa réception."
+  ],
+  "demarches": [
+    "Imprimer la page1 pour chaque personne concernée, compléter les renseignements et signer personnellement après vérification du cabinet.",
+    "Le cabinet complète sa lettre sur papier à en-tête et joint les autorisations et justificatifs requis; vérifier les frais au moment de l’envoi."
+  ],
+  "controles": [
+    "Le PDF est un projet vierge, pas une autorisation signée.",
+    "Aucune identité, date de signature ou assermentation inventée.",
+    "Le formulaire public SPVM n’est pas utilisé comme demande au nom de l’avocat; le consentement est une annexe à sa lettre.",
+    "La mention de fax du PDF officiel2024 est dépassée par la pageSPVM actuelle; ne pas transmettre par fax."
+  ],
+  "recherche_effectuee": [
+    "Inventaires de copies et de courriels Harmony : HARMONY MOVERS/09_Index_et_tracabilite/inventaire-copies.json; 03_Courriels/takatak.ca@gmail.com/messages-lus-index.json et pieces-jointes-index.json; lots collectés et originaux du 20 octobre.",
+    "Inventaires et texte/OCR Léger : 6241 Léger/09_Index_et_tracabilite/Texte_et_OCR/manifest-extraction.json; 03_Courriels/Analyse_consolidee/emails-index.json; pièces jointes et reprise du 21 octobre.",
+    "Recherche des fichiers et textes pertinents dans Harmony et Léger, puis lecture des originaux précisément cités; inspection visuelle de la carte de police, des 3 pages du PV, des photos J02–J04, des 6 photos-drive et des pièces d'entretien indiquées. Les noms de dossiers ne valent pas identification du contenu.",
+    "Recherche autorisation, accès, rapport de police, formulaire, signature, MTLEV2500487177; aucune autorisation signée identifiée.",
+    "Gmail Takatak : sujets rapport/évaluation/police et numéro MTLEV2500487177 avec Quadro/Harmony/Léger, sans résultat correspondant.",
+    "Reprise Ooeuf du 21 octobre 2026 : in:anywhere {\"curriculum vitae\" \"autorisation police\" \"autorisation SPVM\" \"rapport de police\"}; résultats et limites conservés dans Recherche_Ooeuf/COUVERTURE-RECHERCHE.json",
+    "24 octobre 2026 : carte de police relue; formulaire F470-16 et page Accès à l’information du SPVM consultés; projet créé et ses deux pages contrôlées visuellement."
+  ],
+  "date_recherche_complementaire": "2026-10-21",
+  "mise_a_jour": "Proposition distincte, audit central non modifié; projet à signer demandé par le client."
+}

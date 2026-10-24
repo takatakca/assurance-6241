@@ -1,0 +1,347 @@
+- iframe
+- link "Skip to content":
+  - /url: ""
+- link "Using Gmail with screen readers":
+  - /url: ""
+- heading [level=1]:
+  - banner:
+    - button "Main menu" [expanded]:
+    - link "Gmail":
+      - /url: "#inbox"
+    - search:
+      - heading "Search" [level=2]
+      - table:
+        - rowgroup:
+          - row:
+            - cell:
+              - textbox "Ask Gmail"
+      - button "Advanced search options":
+      - button "Search mail" [disabled]:
+    - button "Support":
+    - button "Settings":
+    - button "Ask Gemini"
+    - tooltip: Ask Gemini
+    - button "Google apps":
+    - 'button "Google Account: takatak ca (takatak.ca@gmail.com), Google membership"':
+- alert
+- navigation:
+  - button "Compose"
+  - generic "Labels":
+    - heading "Labels" [level=2]
+    - link "Inbox 8056 unread":
+      - /url: https://mail.google.com/mail/u/0/#inbox
+      - text: Inbox
+    - generic: 8,056
+    - link "Starred":
+      - /url: https://mail.google.com/mail/u/0/#starred
+    - link "Snoozed":
+      - /url: https://mail.google.com/mail/u/0/#snoozed
+    - link "Sent":
+      - /url: https://mail.google.com/mail/u/0/#sent
+    - link "Drafts 56 unread":
+      - /url: https://mail.google.com/mail/u/0/#drafts
+      - text: Drafts
+    - generic: "56"
+    - link "Purchases 409 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#category/purchases
+      - text: Purchases
+    - generic: "409"
+    - button "More labels":
+      - generic: More
+  - heading "Labels"
+  - button "Create new label"
+  - generic "Labels":
+    - heading "Labels" [level=2]
+    - 'link "Collapse label: [Superhuman]"'
+    - link "[Superhuman] expanded has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D
+      - text: "[Superhuman]"
+    - 'link "Collapse label: AI"'
+    - link "AI expanded has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI
+      - text: AI
+    - link "AutoArchived has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/AutoArchived
+      - text: AutoArchived
+    - link "Marketing 1384 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/Marketing
+      - text: Marketing
+    - generic: 1,384
+    - link "Meeting 16 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/Meeting
+      - text: Meeting
+    - generic: "16"
+    - link "News 125 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/News
+      - text: News
+    - generic: "125"
+    - link "Pitch 77 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/Pitch
+      - text: Pitch
+    - generic: "77"
+    - link "Respond 7 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/Respond
+      - text: Respond
+    - generic: "7"
+    - link "Social 55 unread has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/Social
+      - text: Social
+    - generic: "55"
+    - link "Waiting has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/AI/Waiting
+      - text: Waiting
+    - link "Muted has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/Muted
+      - text: Muted
+    - link "ru has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/%5BSuperhuman%5D/ru
+      - text: ru
+    - link "6241 BLVD LÉGER has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/6241+BLVD+L%C3%89GER
+      - text: 6241 BLVD LÉGER
+    - link "PIPELINE has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/PIPELINE
+      - text: PIPELINE
+    - link "STRIPE has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/STRIPE
+      - text: STRIPE
+    - link "TRUST PILOT has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/TRUST+PILOT
+      - text: TRUST PILOT
+    - link "WORKSPACE GOOGLE has menu":
+      - /url: https://mail.google.com/mail/u/0/#label/WORKSPACE+GOOGLE
+      - text: WORKSPACE GOOGLE
+- button "Back to Inbox"
+- button "Archive"
+- button "Report spam"
+- button "Delete"
+- button "Mark as unread":
+- button "Move to"
+- button "More email options"
+- generic: 2 of 11,191
+- button "Newer"
+- button "Older"
+- button "Input tools on/off (Ctrl-Shift-K)"
+- button "Select input tool"
+- main:
+  - button "Print all":
+  - tooltip: Print all
+  - button "In new window":
+  - tooltip: In new window
+  - heading "IMAGE CONVERSATION AVEC HARMONY MOVERS AVANT DÉMÉNAGEMENT TEXTO" [active] [level=2]
+  - button "Search for all messages with label Inbox": Inbox
+  - tooltip: Search for all messages with label Inbox
+  - button "Remove label Inbox from this conversation": ×
+  - tooltip: Remove label Inbox from this conversation
+  - list:
+    - table:
+      - rowgroup:
+        - row "Pierre Levesque Attachments 12:38 AM (6 minutes ago) Not starred Add reaction Reply More message options":
+          - cell "Pierre Levesque":
+            - table:
+              - rowgroup:
+                - row "Pierre Levesque":
+                  - cell "Pierre Levesque":
+                    - heading "Pierre Levesque" [level=3]:
+                      - gridcell "Pierre Levesque":
+                        - generic: Pierre Levesque
+                    - heading [level=3]
+          - cell "Attachments 12:38 AM (6 minutes ago) Not starred":
+            - img "Attachments"
+            - gridcell "12:38 AM (6 minutes ago)"
+            - checkbox "Not starred"
+          - cell
+          - cell "Add reaction Reply More message options":
+            - button "Add reaction":
+            - tooltip: Add reaction
+            - button "Reply":
+            - tooltip: Reply
+            - generic "More message options":
+              - button "More message options":
+              - tooltip: More
+        - row "to me Show details":
+          - cell "to me Show details":
+            - table:
+              - rowgroup:
+                - row "to me Show details":
+                  - cell "to me Show details":
+                    - generic: to me
+                    - button "Show details"
+    - generic: 13 Attachments
+    - generic: • Scanned by Gmail
+    - img "Attachment scanning in Gmail To help protect your inbox, Gmail blocks attachments when malware is detected. You should still only download attachments from people you trust. Learn more Safer with Google logo"
+    - button "Download all attachments":
+    - tooltip: Download all attachments
+    - button "Add all to Drive":
+      - generic: Add all to Drive
+    - link "Preview attachment 1000155474.jpg Preview attachment 1000155474.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.1&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf659f20727&zw
+      - generic: Preview attachment 1000155474.jpg
+      - generic: Preview attachment 1000155474.jpg
+      - generic: 1000155474.jpg
+    - button "Download attachment 1000155474.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155474.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155466.jpg Preview attachment 1000155466.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.2&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf640676d53&zw
+      - generic: Preview attachment 1000155466.jpg
+      - generic: Preview attachment 1000155466.jpg
+      - generic: 1000155466.jpg
+    - button "Download attachment 1000155466.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155466.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155462.jpg Preview attachment 1000155462.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.3&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf63ce18d11&zw
+      - generic: Preview attachment 1000155462.jpg
+      - generic: Preview attachment 1000155462.jpg
+      - generic: 1000155462.jpg
+    - button "Download attachment 1000155462.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155462.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155468.jpg Preview attachment 1000155468.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.4&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf6422a5d74&zw
+      - generic: Preview attachment 1000155468.jpg
+      - generic: Preview attachment 1000155468.jpg
+      - generic: 1000155468.jpg
+    - button "Download attachment 1000155468.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155468.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155486.jpg Preview attachment 1000155486.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.5&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf67702813d&zw
+      - generic: Preview attachment 1000155486.jpg
+      - generic: Preview attachment 1000155486.jpg
+      - generic: 1000155486.jpg
+    - button "Download attachment 1000155486.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155486.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155485.jpg Preview attachment 1000155485.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.6&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf67621092c&zw
+      - generic: Preview attachment 1000155485.jpg
+      - generic: Preview attachment 1000155485.jpg
+      - generic: 1000155485.jpg
+    - button "Download attachment 1000155485.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155485.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155476.jpg Preview attachment 1000155476.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.7&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf65bb4f748&zw
+      - generic: Preview attachment 1000155476.jpg
+      - generic: Preview attachment 1000155476.jpg
+      - generic: 1000155476.jpg
+    - button "Download attachment 1000155476.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155476.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155482.jpg Preview attachment 1000155482.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.8&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf6737ca0fb&zw
+      - generic: Preview attachment 1000155482.jpg
+      - generic: Preview attachment 1000155482.jpg
+      - generic: 1000155482.jpg
+    - button "Download attachment 1000155482.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155482.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155478.jpg Preview attachment 1000155478.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.9&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf65d77e769&zw
+      - generic: Preview attachment 1000155478.jpg
+      - generic: Preview attachment 1000155478.jpg
+      - generic: 1000155478.jpg
+    - button "Download attachment 1000155478.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155478.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155470.jpg Preview attachment 1000155470.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.10&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf6566c26e5&zw
+      - generic: Preview attachment 1000155470.jpg
+      - generic: Preview attachment 1000155470.jpg
+      - generic: 1000155470.jpg
+    - button "Download attachment 1000155470.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155470.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155464.jpg Preview attachment 1000155464.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.11&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf63ea47d32&zw
+      - generic: Preview attachment 1000155464.jpg
+      - generic: Preview attachment 1000155464.jpg
+      - generic: 1000155464.jpg
+    - button "Download attachment 1000155464.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155464.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155472.jpg Preview attachment 1000155472.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.12&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf6582f1706&zw
+      - generic: Preview attachment 1000155472.jpg
+      - generic: Preview attachment 1000155472.jpg
+      - generic: 1000155472.jpg
+    - button "Download attachment 1000155472.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155472.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+    - link "Preview attachment 1000155480.jpg Preview attachment 1000155480.jpg":
+      - /url: https://mail.google.com/mail/u/0?ui=2&ik=3fcf87633d&attid=0.13&permmsgid=msg-f:1879904588041323900&th=1a16c3433dd4857c&view=att&disp=safe&realattid=1a16c33dccf671b9b0da&zw
+      - generic: Preview attachment 1000155480.jpg
+      - generic: Preview attachment 1000155480.jpg
+      - generic: 1000155480.jpg
+    - button "Download attachment 1000155480.jpg":
+    - tooltip: Download
+    - button "Add attachment to Drive 1000155480.jpg":
+    - tooltip: Add to Drive
+    - tooltip: Edit with
+    - button "Save to Photos":
+    - tooltip: Save to Photos
+  - link "Reply"
+  - link "Forward"
+  - button "Add reaction":
+  - tooltip: Add reaction
+- complementary "Side panel":
+  - tablist:
+    - tab "Calendar"
+    - tab "Keep"
+    - tab "Tasks"
+    - tab "Contacts"
+    - separator [disabled]
+    - tab "Canva"
+    - tab "Get Add-ons"
+- button "Hide side panel":
+- generic: Suggestions updated

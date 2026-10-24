@@ -1,0 +1,20 @@
+EXTRACTION TEXTUELLE DU MIME GMAIL — collectée le 24 octobre 2026. Les versions EML disponibles sont identifiées dans index-originaux.json. Les dates des transferts sont distinctes de celles des courriels cités. Le HTML converti et les citations peuvent être incomplets; consulter la source.
+
+date: Mon, 5 Oct 2026 17:17:02 +0000
+from: takatak.ca@gmail.com
+to: cdufourd@dufourdion.com
+cc: 
+subject: QUADRO / Harmony — 6/7 — Assurance, indemnités et distinction des sinistres
+
+Bonjour Me Dufourd,
+Dans l’archive, ouvrir les documents assurance et les notes de contrôle HSB/CEC. Il faut distinguer le sinistre antérieur, ses réparations et indemnités, des dommages imputés au déménagement afin d’éviter tout double compte.
+Le rapport Joey comporte une version à 191 615,88 $ réclamés / 80 918,31 $ évalués, puis 79 918,31 $ après franchise de 1 000 $. Une autre image présente 222 493,11 $ / 104 699,41 $. Ces versions doivent être expliquées et ne prouvent pas, seules, les sommes encaissées.
+La correspondance HSB de février 2025 mentionne 39 143,84 $ (1 855,68 $ + 37 288,16 $), avec des formalités et corrections discutées. La confirmation bancaire ultérieure ne permet pas, à elle seule, de rattacher exactement un montant à chaque règlement.
+La chaîne d’octobre/novembre 2025 mentionne un chèque de 31 085,30 $, annoncé puis déclaré reçu, avec réserves du client. La réception et l’intention d’encaisser ne valent pas preuve bancaire d’encaissement. Ne pas additionner automatiquement ces montants à une indemnité totale définitive.
+À ce stade, aucune offre chiffrée de règlement des dommages Harmony n’est établie dans les pièces examinées. Merci de vérifier le contrat complet, les rapports de visite CEC/assureur, les postes encore ouverts, les réparations effectivement livrées et les déductions applicables.
+Pièces :
+ 
+Télécharger l’archive ALBUMS-AVOCAT.zip
+. Accès accordé à votre adresse en lecture seule. Extraire l’archive et ouvrir INDEX-ALBUMS.html pour accéder aux pièces par volet.
+Ces explications sont une préparation administrative pour votre examen; les originaux et votre analyse juridique priment.
+Merci.

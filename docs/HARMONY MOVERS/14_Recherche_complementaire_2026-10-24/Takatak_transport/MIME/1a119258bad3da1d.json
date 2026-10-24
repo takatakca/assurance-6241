@@ -1,0 +1,123 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "1a119258bad3da1d",
+    "thread_id": "1a119258bad3da1d",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "Bonjour Abdel, Voici la copie PDF de la facture U-Haul pour le dossier Les Délices d&#39;Aden. Contrat : 83092529 Montant total : 710,66 $ Mathieu / GROUPE TAKATAK",
+    "history_id": "4103232",
+    "internal_date": "1791423253000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/mixed",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Thu, 8 Oct 2026 01:34:13 +0000"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Thu, 8 Oct 2026 01:34:13 +0000"
+        },
+        {
+          "name": "To",
+          "value": "sani-adel@live.com"
+        },
+        {
+          "name": "Subject",
+          "value": "Facture U-Haul — dossier 6804A5559"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/mixed; boundary=\"===============4910304511873827075==\""
+        },
+        {
+          "name": "Date",
+          "value": "Thu, 8 Oct 2026 01:34:13 +0000"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0Cqhq6ou4OnH-wsph+tgYnHHqjnfJMx_ZBL1dG=qUC=xp=A@mail.gmail.com>"
+        },
+        {
+          "name": "From",
+          "value": "takatak ca <takatak.ca@gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "text/plain",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/plain; charset=\"utf-8\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "base64"
+            }
+          ],
+          "body": {
+            "size": 166,
+            "base64_url_content": null,
+            "content": "Bonjour Abdel,\n\nVoici la copie PDF de la facture U-Haul pour le dossier Les Délices d’Aden.\n\nContrat : 83092529\nMontant total : 710,66 $\n\nMathieu / GROUPE TAKATAK\n",
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": null
+        },
+        {
+          "part_id": "1",
+          "mime_type": "application/pdf",
+          "filename": "FACTURE_UHAUL_83092529_710.66.pdf",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/pdf"
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "base64"
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"FACTURE_UHAUL_83092529_710.66.pdf\""
+            },
+            {
+              "name": "MIME-Version",
+              "value": "1.0"
+            }
+          ],
+          "body": {
+            "size": 283151,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ-3ya9ybqrPsCXli3MGkYtQJQ1_P4yj3ZidnBcQLrFyU8UxXeeJOLVQX0JLES2Epox1ScnQfBgNAUapZpZoSvYzeyREo36cOCJTq-wAOeGKao9Ck1Mn5Jk5Kc7kqv9_7Rq7bcGZdu_ZeEkr8qWUaqNPvUU6zsJOQUGJdJP7Dy0BIGv5PtyAwuPQy--qdhFPDpOjuOdbjzAD1n3N4z3f4m2YV1gm2KkCyHlnt8pjbShO8WkC99jXIHO38hugjnP3dy1j8V_uREzFUvHjATMnaW3bnAifFhTJs4q6JWRm0AydOOFrclOVtlquzokq3F5Lor2NVeq52x2DzvBfjLQyYWpB-w2q66yqsYOXEx6qK_vXZpqMeruwYd7QgIKcoxiiFfxOEjvKqYxStr-u"
+          },
+          "read_attachment_supported": true,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 383674,
+    "classification_label_values": null
+  }
+}

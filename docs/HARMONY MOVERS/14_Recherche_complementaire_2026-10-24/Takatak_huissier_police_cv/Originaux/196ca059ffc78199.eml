@@ -1,0 +1,764 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a05:6638:c2e6:b0:4fa:3b7e:eea4 with SMTP id 6csp783504jan;
+        Tue, 13 May 2025 07:21:28 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IELBGoEH5xVN9+mYNRshXQ5cAL54jtWDj9UeVjlWpB9TwTZnBGLXgk9p0TCv3drn3Ch/5MB
+X-Received: by 2002:a05:6902:e05:b0:e78:e283:9432 with SMTP id 3f1490d57ef6-e78fdd4da18mr23963119276.39.1747146087981;
+        Tue, 13 May 2025 07:21:27 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1747146087; cv=none;
+        d=google.com; s=arc-20240605;
+        b=C0WkUPhtUkY2wRc9sM+Mb8Wv6uSonKTehAgHZijjXCU4rf8US7nVDAzvjXGkW8An4N
+         3A3lGjqUfvhnDD7pj/jSgQBb+o3M6t/iM12X1Pw+lkLbgV/fbyt7FiGrNk77I+J5OHtN
+         lNLOIHeW8SPLaDiRR6Uf3MS5BW5DBHjHSvOwOaMFEVRHee/2EBALNMq/XlfzwZcsfo5J
+         6F8TTtd66XurIJCn26GpqDMbNMi00WOfkVGKq9nMLd1CSusUdjjm+8Jy7oiElD58JgFJ
+         7qJb7RD/YsXpAwh4otyhfYiw7FEed9aR8jB7AwgqDvjd8ynASfnD4ROFFk5BUzrqTT0r
+         /1rw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=reply-to:message-id:from:subject:to:mime-version:date
+         :dkim-signature;
+        bh=339KwX1UwQUz6aa2wqs6YlDUt5VxbhDZSR8oQu56lLI=;
+        fh=phnjVg3lKcReZnYI+Lrm1cl2LYWdbkvx0IJd01QzP+0=;
+        b=FbvNrXHDK9uJfH18Nfk1hZRuDsskaVilKeNcfS1+ENTSVdw8F4NKwglaSEE1w1x5xv
+         m70cCVtJtjPxhbUph84WuiBCUoG60NHDjiULwyQT/4L0CWhhnWjBCoL8yYFCAKEbATns
+         IlYMJQ00hEFPvNLLiS89d95QJVFxn/Qp+6Ob0F68n8pW+43lPtP21dQR4KAQXi+rxVYl
+         6d+YkClTHYZP/5oZ28RTPs1+L7RgP5w9M0tjAGwkMZTcFOezkAROkRJjxfvdade7mDVP
+         aHtLXQmYW/v9ep7osLKWubiLog+LbgVT2wGQAIjLPAYoo0NLlqi6Zxkj1SOvqJdvrilX
+         i+dQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@sptrans.uber.com header.s=scph header.b=oL5gj2qT;
+       spf=pass (google.com: domain of bounce@sptrans.uber.com designates 147.253.216.75 as permitted sender) smtp.mailfrom=bounce@sptrans.uber.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=uber.com
+Return-Path: <bounce@sptrans.uber.com>
+Received: from mta-253-216-75.uber.com.sparkpostmail.com (mta-253-216-75.uber.com.sparkpostmail.com. [147.253.216.75])
+        by mx.google.com with ESMTPS id 3f1490d57ef6-e78fd5bc9ffsi9467319276.79.2025.05.13.07.21.27
+        for <takatak.ca@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 13 May 2025 07:21:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce@sptrans.uber.com designates 147.253.216.75 as permitted sender) client-ip=147.253.216.75;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@sptrans.uber.com header.s=scph header.b=oL5gj2qT;
+       spf=pass (google.com: domain of bounce@sptrans.uber.com designates 147.253.216.75 as permitted sender) smtp.mailfrom=bounce@sptrans.uber.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=uber.com
+X-MSFBL: +WaD8RMEgrTpeG8Ykgrx9iepywjoJNZwwS7u9tAb9ng=|eyJzdWJhY2NvdW50X2l
+	kIjoiMCIsInIiOiJ0YWthdGFrLmNhQGdtYWlsLmNvbSIsImN1c3RvbWVyX2lkIjo
+	iMSIsInRlbmFudF9pZCI6InViZXIiLCJtZXNzYWdlX2lkIjoiNjgxYTY1NTUyMzY
+	4MDgyNjE0YWQifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sptrans.uber.com;
+	s=scph; t=1747146085; i=@sptrans.uber.com;
+	bh=339KwX1UwQUz6aa2wqs6YlDUt5VxbhDZSR8oQu56lLI=;
+	h=Date:To:Subject:Content-Type:From:Message-Id:From:To:Cc:Subject;
+	b=oL5gj2qT469QhglNJVsSaoYxInhNQPHXST3MK/akiOgEtsWWweHNy9b3JIk65DtH1
+	 6vC2wPa9AZJv3SVSxZhjvfodZ52xoQCibpCIXd11n78P6Ckv5UpikOSe84Z9c49GRz
+	 av66O1vrNoX6XrZlVWg+kNzFV0Tcvv0LpuxWhuA8=
+Authentication-Results:  i-0c3261b559ce3cf29.mta2vsmtp.sd.prd.sparkpost smtp.user=<hidden>; auth=pass (PLAIN)
+Received: from [104.36.192.63] ([104.36.192.63:45088] helo=localhost)
+	by i-0c3261b559ce3cf29.mta2vsmtp.sd.prd.sparkpost (envelope-from <bounce@sptrans.uber.com>)
+	(ecelerity 4.8.0.74368 r(msys-ecelerity:tags/4.8.0.17)) with ESMTPSA (cipher=AES-128-GCM) 
+	id DA/41-14724-56553286; Tue, 13 May 2025 14:21:25 +0000
+Date: Tue, 13 May 2025 14:21:25 +0000
+MIME-Version: 1.0
+To: <takatak.ca@gmail.com>
+Subject: Uber Careers: Thank you for your application for Bilingual Client Success Specialist
+Content-Type: multipart/alternative; boundary="5c4d9f2ca5875f88a53f85e7171769be74878cc4210317c00f0acf3e35bd"
+From: <noreply@uber.com>
+Message-Id: <ce2a3d1d-96df-47a5-bd32-a4ede9b0969d@mail.uber.com>
+X-Uber-Id: ce2a3d1d-96df-47a5-bd32-a4ede9b0969d
+Reply-To: <no-reply@replies.uber.com>
+
+--5c4d9f2ca5875f88a53f85e7171769be74878cc4210317c00f0acf3e35bd
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="utf-8"
+
+Hey Matthieu,
+Thank you for applying to Uber! We have received your application for the Bilingual Client Success Specialist opportunity.
+
+What happens next? We will review your application and contact you if there is a good match.
+
+Please note by agreeing to engage with Uber Recruiting, you are consenting to the collection and use of your candidate information.
+
+To learn how we collect and use your information and learn about your rights, please visit our Candidate Privacy Statement https://click.uber.com/f/a/g8W4x17ZTXYfVZgxhSKY4A~~/AAAAARA~/FEaa6UQimO7t5daSTM-5Sz2ZQn1xUFDckTtlwyrcYdgYpVS7cPvjmnv-UaMtleJrs1oWp_B1phypf_Y1VcPrLDf8Q95uC3FJxdrWLou0xS87n_L3RBAgM2y1jZGqSnt69anGTIrfVrhDCv0xItMExXWEgB4-27he5W5VHtFWwUM~.
+
+In the meantime, you can learn more about our company, culture, and interview process through LinkedIn and Glassdoor.
+
+Sincerely,
+Uber Recruiting Team
+
+Check Application Status https://click.uber.com/f/a/-DK5vZgnLWIceCindhHpVg~~/AAAAARA~/cP7y2BhK3RUv7OOdarw91PJsGoOWXk4FgZ4Qj1ouFkiEwJRVd_tnz6a8zaN3dvfqRXo1YPRYwyxhfsu9-Ww_lj8oAIPIRg1lRpsZYrN8BC_-ZumlCt7Vi36GzGjZFj_cFn6qA7w0T1SywDOS4QQpJSrhjqHWLa91amKiPd_LTUUVHN_jAw6HClfWIRJbC9t1
+--5c4d9f2ca5875f88a53f85e7171769be74878cc4210317c00f0acf3e35bd
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html>=0D=0A<head>=0D=0A    <meta http-equiv=3D"Content-Type" content=3D"te=
+xt/html; charset=3Dutf-8">=0D=0A    <meta name=3D"viewport" content=3D"widt=
+h=3Ddevice-width">=0D=0A    =0D=0A    <meta http-equiv=3D"X-UA-Compatible" =
+content=3D"IE=3Dedge">=0D=0A    =0D=0A    <title>Uber</title>=0D=0A=0D=0A=
+=0D=0A=0D=0A=0D=0A    <style type=3D"text/css">=0D=0A        @media screen =
+and (max-width:699px) {=0D=0A            .t1of12, .t2of12, .t3of12, .t4of12=
+, .t5of12, .t6of12, .t7of12, .t8of12, .t9of12, .t10of12, .t11of12, .t12of12=
+, .full {=0D=0A                width: 100% !important;=0D=0A               =
+ max-width: none !important=0D=0A            }=0D=0A            a[x-apple-d=
+ata-detectors] {=0D=0A                color: inherit !important;=0D=0A     =
+           text-decoration: none !important;=0D=0A                font-size=
+: inherit !important;=0D=0A                font-family: inherit !important;=
+=0D=0A                font-weight: inherit !important;=0D=0A               =
+ line-height: inherit !important=0D=0A            }=0D=0A        }=0D=0A   =
+     @media screen and (-webkit-min-device-pixel-ratio:1) {=0D=0A          =
+  .arrow {=0D=0A                vertical-align: 6%;=0D=0A                li=
+ne-height: 20px !important=0D=0A            }=0D=0A        }=0D=0A        @=
+media screen {=0D=0A            @font-face {=0D=0A                font-fami=
+ly: 'ClanPro-Thin';=0D=0A                src: url('https://uber-static.s3.a=
+mazonaws.com/emails/2015/06/ClanPro-Thin.woff') format('woff'), url('https:=
+//uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Thin.ttf') format('tr=
+uetype');=0D=0A                font-weight: normal !important;=0D=0A       =
+         font-style: normal !important;=0D=0A                mso-font-alt: =
+'Arial'=0D=0A            }=0D=0A            @font-face {=0D=0A             =
+   font-family: 'ClanPro-Book';=0D=0A                src: url('https://uber=
+-static.s3.amazonaws.com/emails/2015/06/ClanPro-Book.woff') format('woff'),=
+ url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-Book.ttf'=
+) format('truetype');=0D=0A                font-weight: normal !important;=
+=0D=0A                font-style: normal !important;=0D=0A                m=
+so-font-alt: 'Arial'=0D=0A            }=0D=0A            @font-face {=0D=0A=
+                font-family: 'ClanPro-News';=0D=0A                src: url(=
+'https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-News.woff') fo=
+rmat('woff'), url('https://uber-static.s3.amazonaws.com/emails/2015/06/Clan=
+Pro-News.ttf') format('truetype');=0D=0A                font-weight: normal=
+ !important;=0D=0A                font-style: normal !important;=0D=0A     =
+           mso-font-alt: 'Arial'=0D=0A            }=0D=0A            @font-=
+face {=0D=0A                font-family: 'ClanPro-Medium';=0D=0A           =
+     src: url('https://uber-static.s3.amazonaws.com/emails/2015/06/ClanPro-=
+Medium.woff') format('woff'), url('https://uber-static.s3.amazonaws.com/ema=
+ils/2015/06/ClanPro-Medium.ttf') format('truetype');=0D=0A                f=
+ont-weight: normal !important;=0D=0A                font-style: normal !imp=
+ortant;=0D=0A                mso-font-alt: 'Arial'=0D=0A            }=0D=0A=
+        }=0D=0A        .btn a:hover, * [lang=3Dx-btn] a:hover {=0D=0A      =
+      background-color: #007279 !important;=0D=0A            border-color: =
+#007279 !important=0D=0A        }=0D=0A        .textcta a:hover, * [lang=3D=
+x-textcta] a:hover {=0D=0A            color: #007279 !important=0D=0A      =
+  }=0D=0A        a[x-apple-data-detectors] {=0D=0A            color: inheri=
+t !important;=0D=0A            text-decoration: none !important;=0D=0A     =
+       font-size: inherit !important;=0D=0A            font-family: inherit=
+ !important;=0D=0A            font-weight: inherit !important;=0D=0A       =
+     line-height: inherit !important=0D=0A        }=0D=0A    </style>=0D=0A=
+</head>=0D=0A<body style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-a=
+djust: 100%; background-color: #d6d6d5; margin: 0; min-width: 100%; padding=
+: 0; width: 100%;">=0D=0A<table width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"background-color: #d6d6d5; border: none; bord=
+er-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rs=
+pace: 0; width: 100%;" bgcolor=3D"#d6d6d5" class=3D"">=0D=0A    <tr>=0D=0A =
+       <td align=3D"center">=0D=0A=0D=0A            <table width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: none; bord=
+er-collapse: collapse; border-spacing: 0; max-width: 700px; mso-table-lspac=
+e: 0; mso-table-rspace: 0; width: 100%;" class=3D"">=0D=0A                <=
+tr>=0D=0A                    <td style=3D"background-color:#ffffff;" align=
+=3D"center"> =0D=0A                        <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border: none; border-collapse: collapse; =
+border-spacing: 0; max-width: 700px; mso-table-lspace: 0; mso-table-rspace:=
+ 0; width: 100%;">=0D=0A                            <tr>=0D=0A             =
+                   <td bgcolor=3D"#62CEAD" valign=3D"bottom" background=3D"=
+https://uber-static.s3.amazonaws.com/emails/2016/global/pattern/global-aqua=
+-05.jpg" style=3D"-webkit-background-size: cover;=0D=0A      -moz-backgroun=
+d-size: cover;=0D=0A      -o-background-size: cover;=0D=0A      background-=
+size: cover; background-image: url('https://uber-static.s3.amazonaws.com/em=
+ails/2016/global/pattern/global-aqua-05.jpg'); " align=3D"center">=0D=0A   =
+                                 =0D=0A                                    =
+<div>=0D=0A                                        <table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"border: none; border-collapse: col=
+lapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: =
+100%;">=0D=0A                                            <tr>=0D=0A        =
+                                        <td style=3D"padding:0;margin:0;wid=
+th:81%;" align=3D"center"></td>=0D=0A                                      =
+          <td style=3D"padding:0;margin:0;width:13%;" align=3D"center" vali=
+gn=3D"bottom"><img src=3D"https://uber-static.s3.amazonaws.com/emails/2016/=
+03/bitTop96x96.png" width=3D"96" height=3D"" border=3D"0" class=3D"bitTop" =
+style=3D"-ms-interpolation-mode: bicubic; clear: both; display: block; heig=
+ht: auto; max-height: 60px; max-width: 96px; min-width: 65px; outline: none=
+; text-decoration: none; width: 100%;"></td>=0D=0A                         =
+                       <td style=3D"padding:0;margin:0;width:6%;min-width:1=
+5px;" align=3D"center"></td>=0D=0A                                         =
+   </tr>=0D=0A                                        </table>=0D=0A       =
+                             </div>=0D=0A                                  =
+  =0D=0A                                </td>=0D=0A                        =
+    </tr>=0D=0A                        </table>=0D=0A                      =
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: =
+none; border-collapse: collapse; border-spacing: 0; margin: 0 auto; max-wid=
+th: 700px; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=0A  =
+                          <tr>=0D=0A                                <td sty=
+le=3D"padding:0;margin:0;background-color:#ffffff;" align=3D"center">=0D=0A=
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"border: none; border-collapse: collapse; border-s=
+pacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=0A  =
+                                      <tr>=0D=0A                           =
+                 <td style=3D"padding:0;margin:0;width:81%;" align=3D"cente=
+r"></td>=0D=0A                                            <td style=3D"padd=
+ing:0;margin:0;width:13%;" align=3D"center">=0D=0A                         =
+                       <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"border: none; border-collapse: collapse; border-spacing: 0; ms=
+o-table-lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=0A               =
+                                     <tr>=0D=0A                            =
+                            <td style=3D"background-color:#000000;"><img sr=
+c=3D"https://uber-static.s3.amazonaws.com/emails/2016/03/bitBottom96x96.png=
+" width=3D"96" height=3D"" border=3D"0" class=3D"bitBottom" style=3D"-ms-in=
+terpolation-mode: bicubic; clear: both; display: block; height: auto; max-h=
+eight: 90px; max-width: 96px; min-width: 65px; outline: none; text-decorati=
+on: none; width: 100%;"></td>=0D=0A                                        =
+            </tr>=0D=0A                                                </ta=
+ble>=0D=0A                                            </td>=0D=0A          =
+                                  <td style=3D"padding:0;margin:0;width:6%;=
+min-width:15px;" align=3D"center"></td>=0D=0A                              =
+          </tr>=0D=0A                                    </table>=0D=0A    =
+                            </td>=0D=0A                            </tr>=0D=
+=0A                        </table>=0D=0A                        =0D=0A    =
+                    <table width=3D"100%" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"border: none; border-collapse: collapse; border-sp=
+acing: 0; margin: auto; max-width: 700px; mso-table-lspace: 0; mso-table-rs=
+pace: 0; width: 100%;" class=3D"tron">=0D=0A                            <tr=
+>=0D=0A                                <td align=3D"center"><table width=3D=
+"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background=
+-color: #ffffff; border: none; border-collapse: collapse; border-spacing: 0=
+; margin: auto; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;" bgc=
+olor=3D"#ffffff" class=3D"basetable">=0D=0A                                =
+    <tr>=0D=0A                                        <td align=3D"center">=
+=0D=0A=0D=0A                                            <table width=3D"100=
+%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"basetable" sty=
+le=3D"border: none; border-collapse: collapse; border-spacing: 0; mso-table=
+-lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=0A                      =
+                          <tr>=0D=0A                                       =
+             <td align=3D"center" style=3D"background-color:#ffffff;">=0D=
+=0A                                                        =0D=0A=0D=0A    =
+                                                    <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"basetable" style=
+=3D"border: none; border-collapse: collapse; border-spacing: 0; mso-table-l=
+space: 0; mso-table-rspace: 0; width: 100%;">=0D=0A                        =
+                                    <tr>=0D=0A                             =
+                                   <td>=0D=0A=0D=0A                        =
+                                            <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"basetable" style=3D"border=
+: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; =
+mso-table-rspace: 0; width: 100%;">=0D=0A                                  =
+                                      <tr>=0D=0A                           =
+                                                 <td>=0D=0A                =
+                                                                =0D=0A=0D=
+=0A                                                                        =
+        =0D=0A=0D=0A                                                       =
+                         <table width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"border: none; border-collapse: collapse; bord=
+er-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=
+=0A                                                                        =
+            <tr>=0D=0A                                                     =
+                                   <td class=3D"outsidegutter" align=3D"lef=
+t" style=3D"padding: 0 14px 0 14px;"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border: none; border-collapse: collapse; border-=
+spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;" class=
+=3D"">=0D=0A                                                               =
+                             <tr>=0D=0A                                    =
+                                                            <td>=0D=0A=0D=
+=0A                                                                        =
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"t1of12 layout" align=3D"left" style=3D"border: none; bord=
+er-collapse: collapse; border-spacing: 0; max-width: 56px; mso-table-lspace=
+: 0; mso-table-rspace: 0; width: 100%;">=0D=0A                             =
+                                                                           =
+<tr>=0D=0A                                                                 =
+                                           <td style=3D"font-size: 12px; li=
+ne-height: 1px; padding-left: 0px; padding-right: 0px;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"basetable" width=3D"100%" ali=
+gn=3D"left" style=3D"border: none; border-collapse: collapse; border-spacin=
+g: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width:=
+ 100%;">=0D=0A                                                             =
+                                                   <tr>=0D=0A              =
+                                                                           =
+                           <td>&nbsp;</td>=0D=0A                           =
+                                                                           =
+          </tr>=0D=0A                                                      =
+                                                      </table></td>=0D=0A  =
+                                                                           =
+                           </tr>=0D=0A                                     =
+                                                               </table>=0D=
+=0A=0D=0A                                                                  =
+                                  =0D=0A                                   =
+                                                                 =0D=0A    =
+                                                                           =
+                     =0D=0A                                                =
+                                                                <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"t10of12 basetable" al=
+ign=3D"left" style=3D"border: none; border-collapse: collapse; border-spaci=
+ng: 0; max-width: 560px; mso-table-lspace: 0; mso-table-rspace: 0; width: 1=
+00%;">=0D=0A                                                               =
+                                                     <tr>=0D=0A            =
+                                                                           =
+                                 <td style=3D"padding-left: 12px; padding-r=
+ight: 12px;">=0D=0A=0D=0A                                                  =
+                                                                          <=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: non=
+e; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-t=
+able-rspace: 0; width: 100%;" width=3D"100%" class=3D"">=0D=0A             =
+                                                                           =
+                                        <tr>=0D=0A                         =
+                                                                           =
+                                <td class=3D"lhreset" style=3D"font-size: 0=
+px; line-height: 0px; padding-bottom: 20px;">&nbsp;</td>=0D=0A             =
+                                                                           =
+                                        </tr>=0D=0A                        =
+                                                                           =
+                         </table>=0D=0A=0D=0A                              =
+                                                                           =
+                   </td>=0D=0A                                             =
+                                                                       </tr=
+>=0D=0A                                                                    =
+                                                <tr>=0D=0A                 =
+                                                                           =
+                            <td style=3D"padding-left: 12px; padding-right:=
+ 12px;">=0D=0A                                                             =
+                                                               <table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"basetable" width=3D"10=
+0%" align=3D"left" style=3D"border: none; border-collapse: collapse; border=
+-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed;=
+ width: 100%;">=0D=0A                                                      =
+                                                                          <=
+tr>=0D=0A                                                                  =
+                                                                  <td class=
+=3D"p1" style=3D"color: #717172; font-family: 'ClanPro-Book', 'HelveticaNeu=
+e-Light', 'Helvetica Neue Light', Helvetica, Arial, sans-serif; font-size: =
+16px; line-height: 28px;">Hey Matthieu, <br/><br/>Thank you for applying to=
+ Uber! We have received your application for the Bilingual Client Success S=
+pecialist opportunity.<br/><br/>What happens next=3F We will review your ap=
+plication and contact you if there is a good match.<br/><br/>Please note by=
+ agreeing to engage with Uber Recruiting, you are consenting to the collect=
+ion and use of your candidate information.<br/><br/>To learn how we collect=
+ and use your information and learn about your rights, please visit our <a =
+href=3D"https://click.uber.com/f/a/g8W4x17ZTXYfVZgxhSKY4A~~/AAAAARA~/FEaa6U=
+QimO7t5daSTM-5Sz2ZQn1xUFDckTtlwyrcYdgYpVS7cPvjmnv-UaMtleJrs1oWp_B1phypf_Y1V=
+cPrLDf8Q95uC3FJxdrWLou0xS87n_L3RBAgM2y1jZGqSnt69anGTIrfVrhDCv0xItMExXWEgB4-=
+27he5W5VHtFWwUM~">Candidate Privacy Statement</a>.<br/><br/>In the meantime=
+, you can learn more about our company, culture, and interview process thro=
+ugh LinkedIn and Glassdoor.<br/><br/>Sincerely,<br/>Uber Recruiting Team<br=
+/><br/></td>=0D=0A                                                         =
+                                                                       </tr=
+>=0D=0A                                                                    =
+                                                            <tr>=0D=0A     =
+                                                                           =
+                                                    <td align=3D"left" styl=
+e=3D"padding-bottom: 25px;">=0D=0A                                         =
+                                                                           =
+                    <div class=3D"btn cta" lang=3D"x-btn" style=3D"font-fam=
+ily: 'ClanPro-Medium', Helvetica, Arial, sans-serif; font-size: 14px; line-=
+height: 20px; text-transform: uppercase;">=0D=0A                           =
+                                                                           =
+                                      <a href=3D"https://click.uber.com/f/a=
+/-DK5vZgnLWIceCindhHpVg~~/AAAAARA~/cP7y2BhK3RUv7OOdarw91PJsGoOWXk4FgZ4Qj1ou=
+FkiEwJRVd_tnz6a8zaN3dvfqRXo1YPRYwyxhfsu9-Ww_lj8oAIPIRg1lRpsZYrN8BC_-ZumlCt7=
+Vi36GzGjZFj_cFn6qA7w0T1SywDOS4QQpJSrhjqHWLa91amKiPd_LTUUVHN_jAw6HClfWIRJbC9=
+t1" style=3D"background-color: #57ad57; background-color:#57AD57; border-co=
+lor: #57ad57; border-color:#57AD57; border-radius: 0px; border-style: solid=
+; border-width: 13px 16px; color: #ffffff; display: inline-block; letter-sp=
+acing: 1px; max-width: 300px; min-width: 150px; text-align: center; text-de=
+coration: none; text-transform: uppercase; transition: all 0.2s ease-in;"> =
+<span style=3D"float:left;text-align:left;">Check Application Status</span>=
+=0D=0A                                                                     =
+                                                                           =
+<span style=3D"float:right;padding-top:2px; display:inline-block;"> <img sr=
+c=3D"https://uber-static.s3.amazonaws.com/emails/2016/01/011116_arrow.png" =
+width=3D"16" height=3D"12" style=3D"-ms-interpolation-mode: bicubic; Margin=
+-left: 16px; border: none; clear: both; display: block; margin-top: 2px; ma=
+x-width: 100%; outline: none; text-decoration: none; width: auto;" alt=3D""=
+ class=3D""></span>=0D=0A                                                  =
+                                                                           =
+               </a>=0D=0A                                                  =
+                                                                           =
+           </div>=0D=0A                                                    =
+                                                                           =
+     </td>=0D=0A                                                           =
+                                                                     </tr>=
+=0D=0A                                                                     =
+                                                           <tr>=0D=0A      =
+                                                                           =
+                                                   <td>=0D=0A=0D=0A        =
+                                                                           =
+                                                     <table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border: none; border-collapse: c=
+ollapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width=
+: 100%;" width=3D"100%" class=3D"">=0D=0A                                  =
+                                                                           =
+                               <tr>=0D=0A                                  =
+                                                                           =
+                                   <td class=3D"p1-noLH lhreset" style=3D"f=
+ont-size: 0px; line-height: 0px; padding-bottom: 28px;">&nbsp;</td>=0D=0A  =
+                                                                           =
+                                                               </tr>=0D=0A =
+                                                                           =
+                                                            </table>=0D=0A=
+=0D=0A                                                                     =
+                                                                   =0D=0A  =
+                                                                           =
+                                                       </td>=0D=0A         =
+                                                                           =
+                                            </tr>=0D=0A                    =
+                                                                           =
+                             </table>=0D=0A                                =
+                                                                           =
+             </td>=0D=0A                                                   =
+                                                                 </tr>=0D=
+=0A                                                                        =
+                                        </table>=0D=0A=0D=0A               =
+                                                                           =
+          =0D=0A                                                           =
+                                         =0D=0A                            =
+                                                                        =0D=
+=0A=0D=0A                                                                  =
+                                  <table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"t1of12 layout" align=3D"left" style=3D"border: none=
+; border-collapse: collapse; border-spacing: 0; max-width: 56px; mso-table-=
+lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=0A                       =
+                                                                           =
+      <tr>=0D=0A                                                           =
+                                                 <td style=3D"font-size: 12=
+px; line-height: 1px; padding-left: 0px; padding-right: 0px;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"basetable" width=3D"100=
+%" align=3D"left" style=3D"border: none; border-collapse: collapse; border-=
+spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; =
+width: 100%;">=0D=0A                                                       =
+                                                         <tr>=0D=0A        =
+                                                                           =
+                                 <td>&nbsp;</td>=0D=0A                     =
+                                                                           =
+                </tr>=0D=0A                                                =
+                                                            </table></td>=
+=0D=0A                                                                     =
+                                   </tr>=0D=0A                             =
+                                                                       </ta=
+ble>=0D=0A=0D=0A                                                           =
+                                         </td>=0D=0A                       =
+                                                                     </tr>=
+=0D=0A                                                                     =
+                   </table></td>=0D=0A                                     =
+                                               </tr>=0D=0A                 =
+                                                               </table>=0D=
+=0A=0D=0A                                                                  =
+              =0D=0A                                                       =
+                         =0D=0A                                            =
+                                    </td>=0D=0A                            =
+                                            </tr>=0D=0A                    =
+                                                </table>=0D=0A=0D=0A       =
+                                                             </td>=0D=0A   =
+                                                         </tr>=0D=0A       =
+                                                 </table>=0D=0A=0D=0A      =
+                                                  </td>=0D=0A              =
+                                  </tr>=0D=0A                              =
+              </table>=0D=0A=0D=0A                                         =
+   </td>=0D=0A                                    </tr>=0D=0A              =
+                  </table></td>=0D=0A                            </tr>=0D=
+=0A                        </table>=0D=0A=0D=0A                        =0D=
+=0A                        =0D=0A=0D=0A                        <table width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border:=
+ none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; m=
+so-table-rspace: 0; width: 100%;" class=3D"">=0D=0A=0D=0A                  =
+          <td align=3D"center" style=3D"background-color:#000000;"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: none; bord=
+er-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rs=
+pace: 0; width: 100%;" class=3D"">=0D=0A                                <tr=
+>=0D=0A                                    <td align=3D"center"><table widt=
+h=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border=
+: none; border-collapse: collapse; border-spacing: 0; max-width: 700px; mso=
+-table-lspace: 0; mso-table-rspace: 0; width: 100%;" class=3D"">=0D=0A     =
+                                   <tr>=0D=0A                              =
+              <td style=3D"padding:0 26px;">=0D=0A=0D=0A                   =
+                             <table width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border: none; border-collapse: collapse; =
+border-spacing: 0; max-width: 648px; mso-table-lspace: 0; mso-table-rspace:=
+ 0; table-layout: fixed; width: 100%;" class=3D"">=0D=0A                   =
+                                 <tr>=0D=0A                                =
+                        <td style=3D"font-size:0px; line-height:0px; paddin=
+g-top:20px;">&nbsp;</td>=0D=0A                                             =
+       </tr>=0D=0A                                                    <tr>=
+=0D=0A                                                        <td><table wi=
+dth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"bord=
+er: none; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0=
+; mso-table-rspace: 0; width: 100%;" class=3D"">=0D=0A                     =
+                                       <tr>=0D=0A                          =
+                                      <td align=3D"left">=0D=0A=0D=0A      =
+                                                              =0D=0A=0D=0A =
+                                                                   <table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"basetable" align=
+=3D"left" style=3D"border: none; border-collapse: collapse; border-spacing:=
+ 0; max-width: 335px; mso-table-lspace: 0; mso-table-rspace: 0; table-layou=
+t: fixed; width: 100%;">=0D=0A                                             =
+                           <tr>=0D=0A                                      =
+                                      <td style=3D"padding-top:40px;"><tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"basetable" widt=
+h=3D"100%" align=3D"left" style=3D"border: none; border-collapse: collapse;=
+ border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout:=
+ fixed; width: 100%;">=0D=0A                                               =
+                                 <tr>=0D=0A                                =
+                                                    <td align=3D"left"><img=
+ src=3D"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_logo.png=
+" width=3D"90" height=3D"20" style=3D"-ms-interpolation-mode: bicubic; bord=
+er: none; clear: both; display: block; max-width: 100%; outline: none; text=
+-decoration: none; width: auto;" alt=3D"" class=3D""></td>=0D=0A           =
+                                                                     </tr>=
+=0D=0A                                                                     =
+       </table></td>=0D=0A                                                 =
+                       </tr>=0D=0A                                         =
+                           </table>=0D=0A=0D=0A                            =
+                                        =0D=0A                             =
+                                       =0D=0A                              =
+                                      =0D=0A=0D=0A                         =
+                                           <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"basetable" align=3D"left" style=3D"border=
+: none; border-collapse: collapse; border-spacing: 0; max-width: 213px; mso=
+-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;">=
+=0D=0A                                                                     =
+   <tr>=0D=0A                                                              =
+              <td style=3D"padding-top:40px;"><table border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"basetable" width=3D"100%" align=3D"left=
+" style=3D"border: none; border-collapse: collapse; border-spacing: 0; mso-=
+table-lspace: 0; mso-table-rspace: 0; width: 100%;">=0D=0A                 =
+                                                               <tr>=0D=0A  =
+                                                                           =
+       <td style=3D"padding-right:20px;"><table width=3D"9" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border: none; border-collapse: c=
+ollapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width=
+: 100%;" class=3D"">=0D=0A                                                 =
+                                       <tr>=0D=0A                          =
+                                                                  <td><a hr=
+ef=3D"https://click.uber.com/f/a/spHbtvLVDwJ0Ov-ITFJFKg~~/AAAAARA~/rOd1rPaD=
+ggbog1ZB1M36UrGE7ffi2KnLNJuqRvoyoNN0sxKU-9q5yvye7VB1TiVTdycTiNmkFtqFXUydDVb=
+z9DMiYXPO7SAdI5TV0QLfZ29AK-34ELnXJgUFVlFrEq5BpC6Ti1wLQP2BwnX-l547JVxjbEytF2=
+PZVO-aDGjdy9LRuMwgUPaSemgfYbaUeH44Mp0rAk8w9EwOrS0l2MiwP_ZqCmSalLYeUcpi11bbs=
+1fksbxVyV7Yo4UOcxu3_e4lV-2RuimaouY0G-jo-6IPTSI14s1zyJIaqq9yVZwEGuMZVFu6LQIK=
+grJYZl298MyNC0mlM92DMS_7etvbKw-p2bv-NNPBAB5kmE78icGWUkfp_3gWJPD4qPfIWccmSHK=
+ejiqJAzorWG1oAqPgf4WmPBSWE4eg4-VGsMlDw3EmnoFpzTZGWKYxcOffQphhLIcuf05OZsko2x=
+rJZ-VNfgTqQp3hoCktMdn0QiXPd1ONGjbLvtfhHdNT1LI-VmAYRLrTCThVDBzGk_t9ZGlrNwdFI=
+NztlL7gpZ_q9o2XyjWd-szlYAovjG0socZkk8vXZSDKot8jST-rFkHXxHblAteFFN7g0OVkqGuC=
+8DHBCHRjBY1UAIHIILUDlujIQXX1lt5PZxAkfKvXVxHEV9JbvCm5fUfm_FzI0g9eTwI_XhqW6Lr=
+FXRm-jU4QnRq-cSDXyJAh"><img src=3D"https://uber-static.s3.amazonaws.com/ema=
+ils/2016/01/footer_social_facebook.png" style=3D"-ms-interpolation-mode: bi=
+cubic; border: none; clear: both; display: block; height: 19px; max-width: =
+100%; outline: none; text-decoration: none; width: 9px;" alt=3D"" class=3D"=
+" width=3D"9" height=3D"19"></a></td>=0D=0A                                =
+                                                        </tr>=0D=0A        =
+                                                                           =
+ </table></td>=0D=0A                                                       =
+                             <td style=3D"padding-right:20px; padding-left:=
+20px; "><table width=3D"25" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"border: none; border-collapse: collapse; border-spacing: 0; mso-=
+table-lspace: 0; mso-table-rspace: 0; width: 100%;" class=3D"">=0D=0A      =
+                                                                           =
+       <tr>=0D=0A                                                          =
+                                  <td><a href=3D"https://click.uber.com/f/a=
+/Q2fGD6_NRffnnrLZMA2wmA~~/AAAAARA~/rOd1rPaDggbog1ZB1M36UrGE7ffi2KnLNJuqRvoy=
+oNPtiaA-2H_hIKsc2snJJAk__qIrQN3DCEl8k_Fa_Z1w7XALnASR800bO5h31B5GX4lENNw9kRu=
+txicdn7ys9RynAWRysW3rhKU3Zo3qIbN5CLT-ZpE2NWiLqNMfV7Pzd-AB32rr2dIhQ-u9jB-caR=
+hKoPo7nfXYUd-p79EKGrrXmBKIkJoKQ1p5IqtXyiBT0D37WMSzg0vMJaVLssAd7oO4cXRr0AgC8=
+RarbWHwCfqz-lpQH6dr2JNQk6UKV6Rej6CuBfxZB3qWj_h0LZdMaUBdMwkIiO6aunqHxEkp_B6o=
+39FWa3jEGfUIj1pBfF4i5is57x4dP3ZHWlYOetEwr2x-W27kzqZoQhEw7b7HcrooHi73mqu0gcu=
+pGa5XC8cSF3q8R1tv9UnOtWAHSQbtEnbhpecjUHz9_eGctFSNetEQJFuPOaemy9DIllTLrpsXZB=
+5lgNpmQhYQxfP1aRT6g5Sy_kgnCKp_HQx8xE4v2Yk-50fZyIx20PVa0NWEs-PE-p_SZAONP-e8p=
+Gof5ocDVT2lMDNfBPCRSKkCDw31vCqXL5orpLhrMVL8ajmdfZ4lgmeoXHuG7xbhqDKdh6RPfMQ8=
+JSFZWsBVjtJkuS0mEuJeIOuK6oSmtHotutzPUWytrXKoE24bGU0a3fR2i2BQisLb"><img src=
+=3D"https://uber-static.s3.amazonaws.com/emails/2016/01/footer_social_twitt=
+er.png" style=3D"-ms-interpolation-mode: bicubic; border: none; clear: both=
+; display: block; height: 19px; max-width: 100%; outline: none; text-decora=
+tion: none; width: 25px;" width=3D"25" height=3D"19" alt=3D"" class=3D""></=
+a></td>=0D=0A                                                              =
+                          </tr>=0D=0A                                      =
+                                              </table></td>=0D=0A          =
+                                                                          <=
+td style=3D"padding-right:20px; padding-left:20px;"><table width=3D"20" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: none; border=
+-collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspa=
+ce: 0; width: 100%;" class=3D"">=0D=0A                                     =
+                                                   <tr>=0D=0A              =
+                                                                           =
+   <td><a href=3D"https://click.uber.com/f/a/G5K82gMCr01OZlAmvIDB8Q~~/AAAAA=
+RA~/tfOTvmSlayXOFuZ4yEzGYtQiGJugVdjIQSAIO4L1RC09ueVomhQPYn88GOpKWhqhfAAV9dd=
+6_zMHC3ZPg_qgv0D9vcl-uV05i4--wxhRs7knQsyZKdAJH1ZFb4kOqW6musQ5VPYNvkN1LtFTQo=
+29ETrXOhemXyvvZGKqun2pGAseWj-TQPfwy1KD8igeOVN8wXmnOnSZLD4-VhjDfSV0psJDifRu-=
+-zzPhLt_UWKFqxJX35FQNVDe_3fAjwyEJC1ZzQMd1qmx7UfKKCWJ8a2Hu8pz8CB232LmtAD9U9W=
+Tn7gRbjTlNP4z_vSFC9hswoMPGssRAhM_lx06AlcC5FxxDeNj42hYrrqkv1mg_h5FF7FhZ5kd6K=
+9038c5uruYzxiXduqizAWoRgot6lJwmLohzA_livPY9IHTl3peBWB-Nhc6r6UWkNbPe8FiKg3ZP=
+9VCv-hPuklXAjmmBRSArehYhbjMnUlHG3FTFTGyc9W8Fcf60uys8ljWccaOAs_PlEEBDhY7q5AF=
+6Ho3WRHceA7djFV9t8c9gWKz7ZcGYgL3qLnSijrvr9oZbDj1VJHUVwOfklAqDRKG8nsITJG0alQ=
+MF_Gq8Z2dnsZ-jyTdyPzj98oyZ5_oLtKIFy00JvvhqCJhpyTU3n2O46WktIWg8lymJ0BSfA1JX5=
+bsTAEPQZuHS8y6xwq7CTyRClmANdxkpwd"><img src=3D"https://uber-static.s3.amazo=
+naws.com/emails/2016/01/footer_social_instagram.png" style=3D"-ms-interpola=
+tion-mode: bicubic; border: none; clear: both; display: block; height: 19px=
+; max-width: 100%; outline: none; text-decoration: none; width: 20px;" widt=
+h=3D"20" height=3D"19" alt=3D"" class=3D""></a></td>=0D=0A                 =
+                                                                       </tr=
+>=0D=0A                                                                    =
+                </table></td>=0D=0A                                        =
+                                            <td style=3D"padding-right:20px=
+; padding-left:20px;"><table width=3D"19" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"border: none; border-collapse: collapse; border-sp=
+acing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;" class=3D"=
+">=0D=0A                                                                   =
+                     <tr>=0D=0A                                            =
+                                                <td><a href=3D"https://clic=
+k.uber.com/f/a/Tl2cmKZWZ_lol5oYgqIkNg~~/AAAAARA~/ocGnsdZKM6Drj3p1dLNizFnKOX=
+1fTBVb2v0buPWgLTKeblA6a6n7R_vKfksBtmmWE42x2gLmc04QQ41OlBdNh8K9hkXp798prAl2h=
+gm4q4L9plU6V9zQx3KuSk5xAxGtZtolpOi4CBu5Ql-x0BnJlkfpCabj6K4dYqLN0gPUcGHdya8C=
+q71u_NUwS2uyY52plah4102DHk7q1YBSXHn6KN0jIw6pxCj1xiTQfPeV2WuSIeaRFm1E9HzsEIR=
+oYXXjktW9bvoG2B_VOtonCa9aBMO_axNm_OTWECfsY8eNJ2z_30NDSFhFiwOhMOKAHpPDXuLtO_=
+kqO23FVycpoyPKwMXz-Sm3WcMyxsM0Ut5CQbna73ocTOgFTUi_8sHMIHN_YkOZltmjOwE9Lumkw=
+7UC7x4WwJIrY1WBSGuzJlkSgEDLbwJnAmW4Ha-xbkA2pocAoWfaFGdbe1x4lB8gIXbzBUpT-1kW=
+BaCIVOSDfG88khe3vx1oc0bLrn5r8O6Qdm7-DWZBaSndT_eVNibvQ40H67i467apvasaAkY9F8a=
+08VWyg6q0cKxtkkPPuHwH1g9WR2WB6ZrVUard2zWeSfwwFxTGSE4znwg0GguxXJcqbFCl94aQtY=
+Md7Zjn0NSicfcaLmCQQrcHhWwJ8W0CKzwHQ1Q0ZC15mq_Xvty8kybqcQZ6ThTdm7mPb959z1lY7=
+pS340ydFDCLy_pRROOvENGRfw~~"><img src=3D"https://uber-static.s3.amazonaws.c=
+om/emails/2016/01/footer_social_linkedin.png" style=3D"-ms-interpolation-mo=
+de: bicubic; border: none; clear: both; display: block; height: 19px; max-w=
+idth: 100%; outline: none; text-decoration: none; width: 19px;" width=3D"19=
+" height=3D"19" alt=3D"" class=3D""></a></td>=0D=0A                        =
+                                                                </tr>=0D=0A=
+                                                                           =
+         </table></td>=0D=0A                                               =
+                                 </tr>=0D=0A                               =
+                                             </table></td>=0D=0A           =
+                                                             </tr>=0D=0A   =
+                                                                 </table>=
+=0D=0A=0D=0A                                                               =
+     =0D=0A=0D=0A                                                          =
+          </td>=0D=0A                                                      =
+      </tr>=0D=0A                                                        </=
+table></td>=0D=0A                                                    </tr>=
+=0D=0A                                                    <tr>=0D=0A       =
+                                                 <td style=3D"padding:40px =
+0 0 0;"><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"border: none; border-collapse: collapse; border-spacing: 0; ms=
+o-table-lspace: 0; mso-table-rspace: 0; width: 100%;" class=3D"">=0D=0A    =
+                                                        =0D=0A             =
+                                               <tr>=0D=0A                  =
+                                              <td height=3D"1" style=3D"fon=
+t-size:0px;line-height:0px;background:#333333;">&nbsp;</td>=0D=0A          =
+                                                  </tr>=0D=0A              =
+                                              =0D=0A                       =
+                                 </table></td>=0D=0A                       =
+                             </tr>=0D=0A                                   =
+                 <tr>=0D=0A                                                =
+        <td><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"border: none; border-collapse: collapse; border-spacing: 0=
+; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%;" class=3D"">=0D=0A=
+                                                            <tr>=0D=0A     =
+                                                           <td style=3D"ver=
+tical-align:top;" valign=3D"top">=0D=0A=0D=0A                              =
+                                      <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"basetable" align=3D"left" style=3D"border: none=
+; border-collapse: collapse; border-spacing: 0; max-width: 335px; mso-table=
+-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;">=0D=0A =
+                                                                       <tr>=
+=0D=0A                                                                     =
+       <td style=3D"padding-top:30px;vertical-align:top;" valign=3D"top" al=
+ign=3D"left"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"basetable" width=3D"100%" align=3D"left" style=3D"border: none; border-=
+collapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspac=
+e: 0; table-layout: fixed; width: 100%;">=0D=0A                            =
+                                                    <tr>=0D=0A             =
+                                                                       <td =
+class=3D"p2" style=3D"color: #ffffff; font-family: 'ClanPro-News', 'Helveti=
+caNeue-Light', 'Helvetica Neue Light', Helvetica, Arial, sans-serif; font-s=
+ize: 14px; line-height: 28px;" align=3D"left"><a href=3D"https://click.uber=
+=2Ecom/f/a/o9BEennK5fL9DjGP4_x7oQ~~/AAAAARA~/bxhwBVEti55YSb1pxqOBN5YTTOzWr6=
+97I6NW2FpWDiJGpJBNNroHqcbIypxFuT6SJSC7AGKo1SI2LBYVIXlxfbS6rG1azkNJv1SVKtWMG=
+1JwXOt8CGvuybRHfU2kZtvf_GdHQQh7q6bJcQOaeb_UrvmgifHTS6zVvKCIsFKT0wZxfL8ZpWod=
+V7wCYqARJ8ME8GeVaIB-3VmRn3tzqxolb-ZEVu864JBMijI3k2VO6ZxYZwresA2zujsb1bx0ynW=
+mAANFdQixGtP9Nbv0GBsoOmhmvq6T5NdUymEgBaVcvoBkvVYmjqHPUuAPMGSl5EjDH1O49Z4T2u=
+YmMauj8RngynuwsKJdA4Pg-SFM0oWmcprUVrI-eYGQpFb1jIi_8GyTmaDizbKL-a9AFLXWx6t-Z=
+WgyYYQSNZiw6ZCCpG8cpyei1gGABMpnKNCzsPXeMOsZs-LzTLro7RAWMq00tDSQaIWXhMzagXVs=
+omiD9kxJo4-W3xjB5Nr-RjI-VRKFxzky_SROJA2EUm6ItoYXUo5eDqADCCVjrsKPqxP5Buni94E=
+NHK-9Xb978LftcSLghQCJBTIDQTtwcve6w5Q-Qc1F9qviAySpXf236lhPGC3gKbPb6VGDnYie8T=
+N55dRO2L6LSEKMIDIYL0MEntCJJrhmswOjCvt_rWs-G0RUKBwrIPg~" style=3D"color:#fff=
+fff; text-decoration:none;">Get Help</a></td>=0D=0A                        =
+                                                        </tr>=0D=0A        =
+                                                                    </table=
+></td>=0D=0A                                                               =
+         </tr>=0D=0A                                                       =
+             </table>=0D=0A=0D=0A                                          =
+                          =0D=0A                                           =
+                         =0D=0A                                            =
+                        =0D=0A=0D=0A                                       =
+                             <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"basetable" align=3D"left" style=3D"border: none; border-=
+collapse: collapse; border-spacing: 0; max-width: 313px; mso-table-lspace: =
+0; mso-table-rspace: 0; table-layout: fixed; width: 100%;">=0D=0A          =
+                                                              <tr>=0D=0A   =
+                                                                         <t=
+d><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"basetabl=
+e" width=3D"100%" align=3D"left" style=3D"border: none; border-collapse: co=
+llapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width:=
+ 100%;">=0D=0A                                                             =
+                   <tr>=0D=0A                                              =
+                                      <td align=3D"left">=0D=0A=0D=0A      =
+                                                                           =
+       <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"bas=
+etable" align=3D"left" style=3D"border: none; border-collapse: collapse; bo=
+rder-spacing: 0; max-width: 185px; mso-table-lspace: 0; mso-table-rspace: 0=
+; table-layout: fixed; width: 100%;">=0D=0A                                =
+                                                            <tr>=0D=0A     =
+                                                                           =
+                <td style=3D"color: #9d9da3; font-family: 'ClanPro-Medium',=
+ Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; padding-=
+right: 10px; padding-top: 30px;" class=3D"p3" align=3D"left">Uber Technolog=
+ies<br>1455 Market St<br>San Francisco, CA 94103</td>=0D=0A                =
+                                                                           =
+ </tr>=0D=0A                                                               =
+                             <tr>=0D=0A                                    =
+                                                            <td style=3D"co=
+lor: #9d9da3; font-family: 'ClanPro-Medium', Helvetica, Arial, sans-serif; =
+font-size: 12px; line-height: 26px; padding-top: 6px;" class=3D"p3" align=
+=3D"left"><a href=3D"https://click.uber.com/f/a/el4dX8IUzLU39Dmekq3Dqw~~/AA=
+AAARA~/ocGnsdZKM6Drj3p1dLNizFnKOX1fTBVb2v0buPWgLTIoXggfTNrT9MRXLT5mqRiQZS8h=
+CUhG59dyH4qPFJgI4vf_bvjUhX6H2WwgLLAGmYsThK6tYri_hg6gYBr_DCLhj-O-rjcTrt4uy8Y=
+np64kKJdMjV5JE7SXM4EuYihrRDrhbNaUtQJrX_NlxV1CgqsLTBf090mA57JBdAcNm5C0H2Ct1m=
+PxgK7iJGNgJkGLXr7Zs-pbfYfIARXOQm0zEhCXL3dLERMtKvqAn2gTeHHgBrKIbBFuCqQ7AfgEO=
+e8HCJJYHbWRZYWowx3JPVuEufpG1SNtwdJRj-sKMn2TZn5Hc0k-Wkv0exOeNirmDkbgKMUwuakU=
+2KVmBmeF0VU24mp5Qlih21emxmRIh7r37xNHU_fC0YtFZyA4Wn7SWNIx91e1JMYe0ocE4lsVEmd=
+dsMfv9s96p2gW0bKxxR2KgN68981umTQQoJRIg7SxYTiRh2oCFUwtbPPzRwzq8PhpwGlTSvAKHP=
+l2YATb6tHflkTGBev3CtWoKagTXwJC15mkzj4ii-9grZXJsLCzt8qJ4A9zp1iYm45lhOHPFjkvL=
+0JXYu2PPWpSuygZje-T3Dbs29OtLawzH1g1oOzgCml1F29QshN78r92gD4QTk_hpCSNqW1INIli=
+Y3dUK-T9agyIeoR3amiA-Qs71va6rAy0q6NhyAx6imQdnXBqikAamK3VYA~~" style=3D"colo=
+r:#ffffff; text-decoration:none;">Privacy</a> <br>=0D=0A                   =
+                                                                           =
+      <a href=3D"https://click.uber.com/f/a/yGUydvyEZ6TZpaS8eZ1-hA~~/AAAAAR=
+A~/tfOTvmSlayXOFuZ4yEzGYtQiGJugVdjIQSAIO4L1RC2jVEHoHM06dYyEM9WLwLiHpfxWdfRd=
+uulykVrLO4slhG-hQM6OG-rKYdd-T6tVACqRE6hRYe6rH5FejGU-u-J1bOn7Yo_Tgeo3Y0HDX1e=
+elKqgsqsk6uqp8v7Mub7DfmBoOg4P7L3QHt4cF0QncCfMSHsDzn_Nqzo0rnn7rj1dB18AYG453Z=
+lbP714EufkiwnSaZMFcG5Zhute7MV4S-sjNB1kt4MOnE4neJtPACIVUR3taNvNOytUeJtdRXN_h=
+agy7ETvkHYrbeG_4tkz-5z9DI7JyxfPUvzdcq8-cK7whfb9cDWw2gRH-6SCdtLaw6vpGfUxHe_b=
+806TfWBKTgMgBTIiz62Slyijy7fBLZbze6ETCsRH6L_MdYMqV2Hmuwxwkyfi3YXLuh7xLHS-Ma6=
+1-jBgeouAhJjJrTspNmngk5RJrSHC684mq9dI9rHYv4S1vhLy-eIjSv8RmjvBcPL9TUwS0eOQDM=
+_ei-XUjSm2RQjblEfF9wA7bD0VyCU9av7FYUS2oWoNYib94tuG8tfG_DR0yNwMY2PNlj7pgNjN8=
+PCV34BrYanhG0oXe4jZfEMrkaj_qbk3HZwiAjHvAO6Ev5WTCjBcDwANAdzBxWFHu2IZsFwhzbc1=
+kMVYxL3ZbB6neeT7m_XJp9JHZnjmRSol" style=3D"color:#ffffff; text-decoration:n=
+one;"> Terms </a></td>=0D=0A                                               =
+                                             </tr>=0D=0A                   =
+                                                                     </tabl=
+e></td>=0D=0A                                                              =
+                  </tr>=0D=0A                                              =
+                              </table></td>=0D=0A                          =
+                                              </tr>=0D=0A                  =
+                                                  </table>=0D=0A=0D=0A     =
+                                                               </td>=0D=0A =
+                                                           </tr>=0D=0A     =
+                                                   </table></td>=0D=0A     =
+                                               </tr>=0D=0A                 =
+                                   <tr>=0D=0A                              =
+                          <td style=3D"font-size:0px; line-height:0px; padd=
+ing-top:60px;">&nbsp;</td>=0D=0A                                           =
+         </tr>=0D=0A                                                </table=
+>=0D=0A=0D=0A                                                </td>=0D=0A   =
+                                     </tr>=0D=0A                           =
+         </table></td>=0D=0A                                </tr>=0D=0A    =
+                        </table></td>=0D=0A                        </table>=
+</td></tr>=0D=0A            </table>=0D=0A=0D=0A            </td>=0D=0A    =
+</tr>=0D=0A</table>=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A<img border=3D"0" wi=
+dth=3D"1" height=3D"1" alt=3D"" src=3D"https://click.uber.com/q/_sB60xZ6vPs=
+OZUMfqN0eAA~~/AAAAAQA~/RgRa4gzlPkEIAKx2gWq4dv1XBHViZXJYBAAAAABIF2FyY2hfZm9y=
+Z290X3Bhc3N3b3JkLXYxQgoAAmXZAFk_cO6AUg5jcGlrZUB1YmVyLmNvbQlRBAAAAABHs3sibWV=
+zc2FnZV91dWlkIjoiOTcxMGM1MmYtZmE1NC00ODU4LWE4NDgtMDBlOTM4YTk3NWIwIiwiZnJvbV=
+9lbWFpbCI6IlViZXIgPHViZXJAdWJlci5jb20-IiwidW5pcXVlX2lkIjoiOTM4NGI1YjQtNTI3N=
+C00YzQ5LTg1MTQtNTM5ZDdjOTk4ZWYzIiwiY2F0ZWdvcnkiOiJhcmNoX2ZvcmdvdF9wYXNzd29y=
+ZC12MSJ9">=0D=0A=0D=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" s=
+rc=3D"https://click.uber.com/q/9vCKU7YrwQb-33jS1nfH8Q~~/AAAAARA~/7Jj68qKM9T=
+SYdnTiGHcJXeEDxEqk5DMzhusi0VD6UM_i2YBv0vGp3NBIsLwugPfth1BreAmThJ_9uSXrL443i=
+A~~">=0D=0A</body>=0D=0A</html>=0D=0A=0D=0A
+--5c4d9f2ca5875f88a53f85e7171769be74878cc4210317c00f0acf3e35bd--

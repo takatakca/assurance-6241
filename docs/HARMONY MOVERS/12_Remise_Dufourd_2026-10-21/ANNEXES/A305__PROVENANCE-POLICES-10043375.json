@@ -1,0 +1,38 @@
+[
+  {
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Renouvellement-2024-2025.pdf",
+    "nom_piece_jointe": "8697230 Canada Inc. et Quadro Holding Ltée. (9-17-24 - Renouvellement - 10043375).pdf",
+    "sha256": "ec3bb4acf61bbb3ab8ee87cdb16603aac44d92f321de184448f413d8ecbf01a0",
+    "octets": 3025841,
+    "pages": 113,
+    "acquisition": "Téléchargement Gmail par l’agent parent depuis le compte Ooeuf le 24 octobre 2026.",
+    "provenance_interface": {
+      "fil_repere": "Racine Ooeuf fil 32",
+      "expediteur": "Maude Robidoux <mrobidoux@racinechamberland.com>",
+      "date_affichee": "2024-09-18 14:22",
+      "timezone": "non explicitée dans la vue conservée",
+      "capture_locale": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/99_Travail_et_collecte/renouvellement-2024-apercu-dom.txt",
+      "capture_sha256": "556a89682e1dea0ade2faa5afb9770063cacacae1dfd3c104a6ad1b936792ab2"
+    },
+    "nature": "PDF source intact; courriel de provenance consulté dans l’interface, non déclaré acquis en EML autonome.",
+    "controle": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/Controle_10043375_2024_2025/CONTROLE-VISUEL.json"
+  },
+  {
+    "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Nouveau-contrat-2023-2024.pdf",
+    "nom_piece_jointe": "8697230 CANADA INC. (9-19-23 - Nouveau contrat d'assurance - 10043375).pdf",
+    "sha256": "f1152c7c8b1add73a0c5c3991b76ed05d4b18969fb73ea5dfef261f28813bc89",
+    "octets": 2922406,
+    "pages": 117,
+    "acquisition": "Téléchargement Gmail par l’agent parent depuis le compte Ooeuf le 24 octobre 2026.",
+    "provenance_interface": {
+      "fil_repere": "Racine Ooeuf fil 41",
+      "expediteur": "Maude Robidoux <mrobidoux@racinechamberland.com>",
+      "date_affichee": "2023-09-19 16:25",
+      "timezone": "non explicitée dans la vue conservée",
+      "capture_locale": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/99_Travail_et_collecte/contrat-2023-apercu-dom.txt",
+      "capture_sha256": "30e02af55b21b23f93487e5083a5678b1520b4342772b1c7c16cca4c29ecb0e8"
+    },
+    "nature": "PDF source intact; courriel de provenance consulté dans l’interface, non déclaré acquis en EML autonome.",
+    "controle": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/Controle_10043375_2023_2024/CONTROLE-VISUEL.json"
+  }
+]

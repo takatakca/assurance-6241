@@ -1,0 +1,3574 @@
+Delivered-To: takatak.ca@gmail.com
+Received: by 2002:a02:c88d:0:b0:5de:5681:102a with SMTP id m13csp710235jao;
+        Mon, 1 Jun 2026 11:40:56 -0700 (PDT)
+X-Received: by 2002:a17:907:9805:b0:bec:157:a630 with SMTP id a640c23a62f3a-bec0166f016mr546869166b.23.1780339256446;
+        Mon, 01 Jun 2026 11:40:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1780339256; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=bz9pXkw0vGC1NNVmC6PPTEii63T171bFggNYY7Gmb/qXvl/yrSVp/W0uEmXyDn8CD5
+         0pB2B6wDx4BPhMwgz2WsTicwseETU7A0DJrUJhyr1aezwCF8YcqvfSU0laIxhr4Z8wQ+
+         2eZJSDvOqscX+NEIxpK0DzmwDviAa3UWHcM5JhZhn+AG4NdRBIBJrW4+ls0T35lj/bG9
+         wf3HQ3LukvuXL5GAY7UJjbc2Th1eD19pQJnJSzHoRFpqaOhtABETb7Oc3lo/K9lmNOYD
+         3tw/kwT4EQ4vUF+XImtcCGLGTlZZfakDICwMjg7fClPy+C0f6YeqKK140ifeWWLCOIel
+         /vUg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=iHRBUuKy5kjvhLQdQ5zVaSzz4Dcl0E6gsUzS7o/aFHk=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=PSeDOeuJFFL0asApnKy3ZMBOhScf/72uvmVALFD2abet4e5xSnvG301B+dQ6UCNIQo
+         wp5p1d8tYYMEokTHgoN8oX/L+bFm73+tQVZ+RAvpiKp6AV191rs/zRR3IFpu9itYzEG6
+         YBH6jlwGFuuUK7kT6tcZHVMqrr0vxyUqPTITQdw/OQeL5YCACErKYRlXCE3d9SyYY6sx
+         p8+tzJeyrNhKFvXDapMjfXDFBxjp7I1bVWymN3WlhjoRGzO+Uc8Qs/Acp2qOZNU/g4qH
+         xfbJ1+SFKH+4ZFSkr8SeuOxYI1RYqPFmgYY0j2T4doiqLogDizx3OybAUiK2sStf+y85
+         pzKw==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=FUbkqQ3w;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <ooeuf.ca@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-bec6b3f73cesor103776966b.21.2026.06.01.11.40.56
+        for <takatak.ca@gmail.com>
+        (Google Transport Security);
+        Mon, 01 Jun 2026 11:40:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b=FUbkqQ3w;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of ooeuf.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ooeuf.ca@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1780339256; cv=none;
+        d=google.com; s=arc-20240605;
+        b=P2XRgrG1qfiBr1Oam2cb4CsmUTpwcE3cghjtPR3rhBM27feQPyymen7XsDaVy2+xGw
+         hsoT2qF1c7pAgntp2i5GG73kAowUK5bNfD3zDoTSgiOiZRaRDodAqUXdmqLrmaHV5gOJ
+         8B5IprekesizAWDZyEHdQ680xRPb+9DmOCA+sec03pmPOfKOJ1g/Zg9d52FT8LV64bgk
+         CKkMyzIn+nLfM6oKQFwVkbf4egOufzvqlpgZIvNkwAKGLsfFFstcf73ZFrPkogDwwPi9
+         9rc05K6aHj/TB7fTSc/dCs4Q9qdfzXbl+gnSLr00wNp+fzfAp65/06gWNB3D2VjZl/mr
+         /UFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=iHRBUuKy5kjvhLQdQ5zVaSzz4Dcl0E6gsUzS7o/aFHk=;
+        fh=U37TH/Xcu26IvV+J83iKIfvMByqdPvIs6GFO5N4yZUM=;
+        b=R5a0anCIJqLEUzKCV04jCuWmM2gfGqSQBV2E4ImWCKyG6tmRol8vxdSLwbx5/nYUVB
+         SeHXZ2kYK3pZZsUt3yTTz1syam6fXRT704mYAUffXqRWWbpNZztSYttM1r0NgncDfp44
+         JrUV3hgbBQf1IkL2KX7ZYXcCreGFJWEsnydwyAVfx2kttXXBWyjLzRHWF3l1uxrY99uz
+         /G9/HZq0+21i24KVQjfHogCW6dFx9EMNKPS/OHEdp+H22Pc2ANZByDeKnBwX+mGKSejn
+         rc9Wek9gBVSKtrvdV/mhlTeXD3sZnGnR3TtIDJR9qFmCBgH/0PiJUg2QpvJXMfaPAYxF
+         xsPQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1780339256; x=1780944056; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=iHRBUuKy5kjvhLQdQ5zVaSzz4Dcl0E6gsUzS7o/aFHk=;
+        b=FUbkqQ3wWnl24IVSJ8JLPhCfgex7g9BWbO39jOWf1qqI4T8I+eN0+tzk9vQ6HNRa53
+         vlFu+zMi6g42X95oYhI87XRJNohAWDFZTDAgr8qZoWKz1mE/kvjRAEfBYOEAedsigBG2
+         kXVEkyQc5AYCqdRm3mo8Z/UDdkyAzg8JmTN8UcbevoUT25SzudRQJhxZfLaEOxPsg2dI
+         3McXWwxnBGGGYhJBNVLBWkm1M1lf4ehJcPCkCDBmWd/B5II3MWPtdoFfK9o2nZ7aNaKc
+         2XkrMt20I7soUEZ/X7X0mny8HphZ/WzB85kOHtYcvBKJBB7Kdq+gzc7xi9p4FIU6FsKH
+         ZLfw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1780339256; x=1780944056;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=iHRBUuKy5kjvhLQdQ5zVaSzz4Dcl0E6gsUzS7o/aFHk=;
+        b=MbNXQi02EFmVojzjP/jEWcUFmUzdAFA5nx6nar2U4fBBs5UsBBY1O9ftYb4e9cgIrC
+         e3zK3uSrVb6Gk7RFLmyc1n2jbPpRokCY1hiJGlu7srxPoFraAScCcxsuWkcsHvAelWp5
+         tSpdBW7pC9Ujr1lmj+X0vyCe6K7xAS7v9K76EvjILg4EoKF27newJJ5fL9Px8UXhRJ0v
+         MckEERliU980iXg61Ahf3ySiOKbGBDqfd2939yrr97RxUgb2QGUeF+q39DuR6STU34uw
+         j20PggcUeBlHnr7rknV1JlZFjrHXi5VMbHCFNE2WZZnvZHbbI7zxX9iaVgRcVLmzsxxN
+         WMMw==
+X-Gm-Message-State: AOJu0Ywidi2hjABwdxpTj79CVp6kcroGNhFPj2svPw2zcggMQJRsSHct
+	SabmGRIR34FeGmDwxWJ8nCAyuk9VmvrlmX1bH2d7KxXGBoqZc/ubXshEPHB3dJGSEoHJVyvNa/2
+	fLvZJBAYxjeAxOIAI1Vnz/gQOzpJyp/+/2kGCHOI=
+X-Gm-Gg: Acq92OE9YWoKz7Vj5FirLZcW405vo1KjgHgp6aCpv4ei8JrWUU8lgt4l3+5RmUx7sMe
+	F2aM48q3vtfoB/xSnvXcdYfNLrcE7fFr2GrTQosUlXb0VpZjlB22X8dFqQClvKxbIa8f1U4skxb
+	KnGJWYn0JgVAT3TSTUIVVP18SgZItbQtxjPJsQ8jamQf0KwUNhUTBRmS1RkYrqrJo5XUI3T3HUo
+	Jzl3htaW16kOWsAFvwoMzvjih+y2MJdyQqZ7aZCCRMQ5QPbR4et2yaWkq2bcXJfk//hBoiCKa2S
+	y2n2wFArTN/0t/4DGFY38sIsNhoEQKOSoq0modT2ldndd/g79MQ=
+X-Received: by 2002:a17:907:cbc5:b0:bee:ed4:ea17 with SMTP id
+ a640c23a62f3a-bee0ed4f227mr283979566b.26.1780339255398; Mon, 01 Jun 2026
+ 11:40:55 -0700 (PDT)
+MIME-Version: 1.0
+References: <CALsRj=QBkrd5Zpc9srOuc-puRwvGmfDp+ghhNBNfYEVLYkzfcw@mail.gmail.com>
+ <420DC3DB-8C40-493D-A763-05A1B8BF280C@indemnipro.ca>
+In-Reply-To: <420DC3DB-8C40-493D-A763-05A1B8BF280C@indemnipro.ca>
+From: =?UTF-8?Q?Oeuf_D=C3=A9jeuner?= <ooeuf.ca@gmail.com>
+Date: Mon, 1 Jun 2026 14:40:42 -0400
+X-Gm-Features: AVHnY4J23raighFwIItafieuzVM-ib-dgeb8mJe3V0QJjHZTiWwrwlIJGq7mEZk
+Message-ID: <CALsRj=RfyRtNOrP6GLLybueRH+WpgbUYvO-=c_eDPm9xp_kjcw@mail.gmail.com>
+Subject: =?UTF-8?B?RndkOiBSw6lwb25zZSDDoCB2b3MgcXVlc3Rpb25z?=
+To: dada daad <takatak.ca@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000e5d4b70653358825"
+
+--000000000000e5d4b70653358825
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ---------
+From: Joey Dubois <joey.dubois@indemnipro.ca>
+Date: Wed, Feb 12, 2025, 11:58
+Subject: Re: R=C3=A9ponse =C3=A0 vos questions
+To: D=C3=A9jeuner Oeuf <ooeuf.ca@gmail.com>
+
+
+Ok
+
+J=E2=80=99ai relanc=C3=A9 pour le paiement rush
+Sent from my iPhone
+
+[image: IndemniPro Logo] <https://indemnipro.ca/?e=3D1>
+
+Joey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B
+
+,
+
+B. Sc., PAA/CIP
+
+Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=C3=
+=A9ciaux
+
+joey.dubois@indemnipro.ca
+
+Ligne directe
+
+ (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+
+Sans frais
+
+ :
+
+ :
+
+514-789-8888
+
+888=E2=80=91485=E2=80=915252
+
+
+
+x2572
+
+IndemniPro Division des risques sp=C3=A9ciaux
+
+ =E2=80=93
+
+indemnipro.ca <https://indemnipro.ca/?e=3D1>
+
+Cabinet d'expertise en r=C3=A8glement de sinistres
+
+3400,
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ boul.
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ De
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ Maisonneuve
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+ ouest
+<https://www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=
+=3Dgmail&source=3Dg>
+, #910
+
+,
+
+Montr=C3=A9al
+
+,
+
+QC
+
+
+
+H3Z 3B8
+
+Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'enti=
+t=C3=A9 =C3=A0 laquelle
+il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personne =
+ou une
+entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est inte=
+rdite. Si vous
+recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9dite=
+ur et
+supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9di=
+atement.=E2=80=8B
+=E2=80=8B
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to
+which it is addressed and may contain confidential and/or privileged
+information. Any use of this information by persons or entities other than
+the intended recipient is prohibited. If you received this in error, please
+contact the sender and delete the email and all copies (electronic or
+otherwise) immediately.
+
+On Feb 12, 2025, at 11:56, Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com> wrote:
+
+=EF=BB=BF
+*CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+
+Nous n'avons encore rien re=C3=A7u. Pour le remplacement des =C3=A9quipemen=
+ts, nous
+devons d'abord communiquer, car nous ne disposons pas des fonds n=C3=A9cess=
+aires.
+
+On Wed, Feb 12, 2025, 11:27=E2=80=AFa.m. Joey Dubois <joey.dubois@indemnipr=
+o.ca>
+wrote:
+
+> Bonjour,
+>
+>
+>
+> J=E2=80=99imagine que vous avez r=C3=A9gl=C3=A9 avec la banque pour l=E2=
+=80=99encaissement du
+> paiement. J=E2=80=99avais recommand=C3=A9 un paiement suppl=C3=A9mentaire=
+ de de $37,288.16.
+> Je pr=C3=A9sume que vous ne l=E2=80=99avez pas re=C3=A7u encore?
+>
+>
+>
+> Voir les items en jaune. Soit que j=E2=80=99attends vos commentaires ou l=
+es
+> factures.
+>
+>
+>
+>
+>
+> Merci
+>
+>
+>
+> [image: IndemniPro Logo] <https://indemnipro.ca/?e=3D1>
+>
+> Joey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B
+>
+> ,
+>
+> B. Sc., PAA/CIP
+>
+> Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=
+=C3=A9ciaux
+>
+> joey.dubois@indemnipro.ca
+>
+> Ligne directe
+>
+>  (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+>
+> Sans frais
+>
+>  :
+>
+>  :
+>
+> 514-789-8888
+>
+> 888=E2=80=91485=E2=80=915252
+>
+>
+>
+> x2572
+>
+> IndemniPro Division des risques sp=C3=A9ciaux
+>
+>  =E2=80=93
+>
+> indemnipro.ca <https://indemnipro.ca/?e=3D1>
+>
+> Cabinet d'expertise en r=C3=A8glement de sinistres
+>
+> 3400, [google.com]
+> <https://urldefense.com/v3/__https://www.google.com/maps/search/3400,*bou=
+l.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2=
+ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQF7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gB=
+dSY3jvE$>
+>  boul. [google.com]
+> <https://urldefense.com/v3/__https://www.google.com/maps/search/3400,*bou=
+l.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2=
+ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQF7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gB=
+dSY3jvE$>
+>  De [google.com]
+> <https://urldefense.com/v3/__https://www.google.com/maps/search/3400,*bou=
+l.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2=
+ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQF7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gB=
+dSY3jvE$>
+>  Maisonneuve [google.com]
+> <https://urldefense.com/v3/__https://www.google.com/maps/search/3400,*bou=
+l.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2=
+ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQF7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gB=
+dSY3jvE$>
+>  ouest [google.com]
+> <https://urldefense.com/v3/__https://www.google.com/maps/search/3400,*bou=
+l.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2=
+ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQF7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gB=
+dSY3jvE$>
+> , #910
+>
+> ,
+>
+> Montr=C3=A9al
+>
+> ,
+>
+> QC
+>
+>
+>
+> H3Z 3B8
+>
+> Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'en=
+tit=C3=A9 =C3=A0 laquelle
+> il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+> privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personn=
+e ou une
+> entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est in=
+terdite. Si vous
+> recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9di=
+teur et
+> supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9=
+diatement.=E2=80=8B
+> =E2=80=8B
+> =E2=80=8BThis email communication is intended only for the person or enti=
+ty to
+> which it is addressed and may contain confidential and/or privileged
+> information. Any use of this information by persons or entities other tha=
+n
+> the intended recipient is prohibited. If you received this in error, plea=
+se
+> contact the sender and delete the email and all copies (electronic or
+> otherwise) immediately.
+>
+> *De :* Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+> *Envoy=C3=A9 :* February 11, 2025 10:18 AM
+> *=C3=80 :* Joey Dubois <joey.dubois@indemnipro.ca>
+> *Objet :* Re: R=C3=A9ponse =C3=A0 vos questions
+>
+>
+>
+> *CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+>
+> Salut est il possible d'avoir un retour sur notre demamde d'indemnisation
+>
+>
+>
+> On Wed, Jan 29, 2025, 10:18=E2=80=AFa.m. Oeuf D=C3=A9jeuner <ooeuf.ca@gma=
+il.com> wrote:
+>
+> Bonjour, je vais soumettre le document a maude Robidoux  aujourd'hui.
+> Auriez-vous des retours sur les documents que je vous ai envoy=C3=A9s ?
+>
+>
+>
+> On Tue, Jan 21, 2025, 5:23=E2=80=AFp.m. Joey Dubois <joey.dubois@indemnip=
+ro.ca>
+> wrote:
+>
+> Ok
+>
+>
+>
+> Merci
+>
+> Sent from my iPhone
+>
+>
+>
+> <https://indemnipro.ca/?e=3D1>
+> <~WRD2841.jpg>
+>
+> *Joey Dubois**=E2=80=8B**=E2=80=8B**=E2=80=8B**=E2=80=8B*
+>
+> ,
+>
+> B. Sc., PAA/CIP
+>
+> Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=
+=C3=A9ciaux
+>
+> joey.dubois@indemnipro.ca
+>
+> *Ligne directe*
+>
+>  (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+>
+> *Sans frais *
+>
+>  :
+>
+>  :
+>
+> 514-789-8888
+>
+> 888=E2=80=91485=E2=80=915252
+>
+>
+>
+> x2572
+>
+> *IndemniPro Division des risques sp=C3=A9ciaux*
+>
+>  =E2=80=93
+>
+> indemnipro.ca <https://indemnipro.ca/?e=3D1>
+>
+> Cabinet d'expertise en r=C3=A8glement de sinistres
+>
+> 3400, [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0u=
+vps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5b=
+ZaJeEc$>
+>  boul. [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0u=
+vps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5b=
+ZaJeEc$>
+>  De [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0u=
+vps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5b=
+ZaJeEc$>
+>  Maisonneuve [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0u=
+vps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5b=
+ZaJeEc$>
+>  ouest [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0u=
+vps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5b=
+ZaJeEc$>
+> , #910
+>
+> ,
+>
+> Montr=C3=A9al
+>
+> ,
+>
+> QC
+>
+>
+>
+> H3Z 3B8
+>
+> Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'en=
+tit=C3=A9 =C3=A0 laquelle
+> il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+> privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personn=
+e ou une
+> entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est in=
+terdite. Si vous
+> recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9di=
+teur et
+> supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9=
+diatement.=E2=80=8B
+> =E2=80=8B
+> =E2=80=8BThis email communication is intended only for the person or enti=
+ty to
+> which it is addressed and may contain confidential and/or privileged
+> information. Any use of this information by persons or entities other tha=
+n
+> the intended recipient is prohibited. If you received this in error, plea=
+se
+> contact the sender and delete the email and all copies (electronic or
+> otherwise) immediately.
+>
+> On Jan 21, 2025, at 17:15, Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com> wrote:
+>
+> =EF=BB=BF
+>
+> *CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+>
+> L=E2=80=99assureur m=E2=80=99a inform=C3=A9 que vous avez encaiss=C3=A9 l=
+es deux ch=C3=A8ques, y compris
+> celui qui avait =C3=A9t=C3=A9 annul=C3=A9. Avez-vous r=C3=A9gl=C3=A9 cett=
+e situation avec votre
+> banque?
+>
+> D=E2=80=99apr=C3=A8s lui, le ch=C3=A8que a =C3=A9t=C3=A9 d=C3=A9pos=C3=A9=
+ la semaine derni=C3=A8re mais il n'a pas
+> encaiss=C3=A9 les fonds. Il semble avoir =C3=A9t=C3=A9 envoy=C3=A9e =C3=
+=A0 l=E2=80=99adresse suivante :
+> 198, rue Gordon, Montr=C3=A9al H4G2R3 [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/198,*rue*G=
+ordon,*Montr**Aal*H4G2R3?entry=3Dgmail&source=3Dg__;Kysrw6kr!!AyxJxhHs7Q!d_=
+gU0uvps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH=
+1y58iiu9Kc$>
+> Il va v=C3=A9rifier demain avec la banque
+> D=C3=A9sol=C3=A9 cest un erreur de =C3=A7a part.
+>
+> Je vous reviens sous peu apr=C3=A8s avoir r=C3=A9vis=C3=A9 vos commentair=
+es. Toutefois,
+> je ne vois pas de documents techniques ou de rapports des techniciens qui
+> corroborent ces informations.
+>
+> Voici les coordonn=C3=A9es n=C3=A9cessaires :
+>
+> Frigo SPEC INC
+> Agent de service
+> Mario Santagata
+> (514) 999-6793
+> msantaga@hotmail.com
+>
+>
+>
+> On Tue, Jan 21, 2025, 4:58=E2=80=AFp.m. Oeuf D=C3=A9jeuner <ooeuf.ca@gmai=
+l.com> wrote:
+>
+> L=E2=80=99assureur m=E2=80=99a avis=C3=A9 que vous avez encaiss=C3=A9 les=
+ deux ch=C3=A8ques (m=C3=AAme celui
+> qui =C3=A9tait annul=C3=A9). Avez-vous r=C3=A9gl=C3=A9 cette affaire avec=
+ votre banque?
+>
+> Je viens d'arriver aujourd'hui =C3=A0 Montr=C3=A9al je vais v=C3=A9rifie =
+cette situation
+> avec le responsable des finances, je l'appelle =C3=A0 l'instant et vous r=
+eviens
+> avec la nouvelle
+>
+> Je vous reviens pour donner suite =C3=A0 ma r=C3=A9vision des vos comment=
+aires, mais
+> je ne vois pas des documents des techniciens expliquant corroborant tout =
+=C3=A7a.
+>
+>
+>
+> On Tue, Jan 21, 2025, 4:37=E2=80=AFp.m. Joey Dubois <joey.dubois@indemnip=
+ro.ca>
+> wrote:
+>
+> L=E2=80=99assureur m=E2=80=99a avis=C3=A9 que vous avez encaiss=C3=A9 les=
+ deux ch=C3=A8ques (m=C3=AAme celui
+> qui =C3=A9tait annul=C3=A9). Avez-vous r=C3=A9gl=C3=A9 cette affaire avec=
+ votre banque?
+>
+>
+>
+> Je vous reviens pour donner suite =C3=A0 ma r=C3=A9vision des vos comment=
+aires, mais
+> je ne vois pas des documents des techniciens expliquant corroborant tout
+> =C3=A7a.
+>
+>
+>
+> Mes salutations,
+>
+>
+>
+> Joey
+>
+>
+>
+> <https://indemnipro.ca/?e=3D1>
+> <~WRD2841.jpg>
+>
+> *Joey Dubois**=E2=80=8B**=E2=80=8B**=E2=80=8B**=E2=80=8B*
+>
+> ,
+>
+> B. Sc., PAA/CIP
+>
+> Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=
+=C3=A9ciaux
+>
+> joey.dubois@indemnipro.ca
+>
+> *Ligne directe*
+>
+>  (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+>
+> *Sans frais *
+>
+>  :
+>
+>  :
+>
+> 514-789-8888
+>
+> 888=E2=80=91485=E2=80=915252
+>
+>
+>
+> x2572
+>
+> *IndemniPro Division des risques sp=C3=A9ciaux*
+>
+>  =E2=80=93
+>
+> indemnipro.ca <https://indemnipro.ca/?e=3D1>
+>
+> Cabinet d'expertise en r=C3=A8glement de sinistres
+>
+> 3400, [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuU=
+dncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGet=
+e0xKq0$>
+>  boul. [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuU=
+dncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGet=
+e0xKq0$>
+>  De [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuU=
+dncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGet=
+e0xKq0$>
+>  Maisonneuve [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuU=
+dncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGet=
+e0xKq0$>
+>  ouest [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuU=
+dncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGet=
+e0xKq0$>
+> , #910
+>
+> ,
+>
+> Montr=C3=A9al
+>
+> ,
+>
+> QC
+>
+>
+>
+> H3Z 3B8
+>
+> Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'en=
+tit=C3=A9 =C3=A0 laquelle
+> il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+> privil=C3=A9gi=C3=A9e. Toute utilisation de l'information par une personn=
+e ou une
+> entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e est in=
+terdite. Si vous
+> recevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9di=
+teur et
+> supprimer ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9=
+diatement.=E2=80=8B
+> =E2=80=8B
+> =E2=80=8BThis email communication is intended only for the person or enti=
+ty to
+> which it is addressed and may contain confidential and/or privileged
+> information. Any use of this information by persons or entities other tha=
+n
+> the intended recipient is prohibited. If you received this in error, plea=
+se
+> contact the sender and delete the email and all copies (electronic or
+> otherwise) immediately.
+>
+> *De :* Oeuf D=C3=A9jeuner <ooeuf.ca@gmail.com>
+> *Envoy=C3=A9 :* January 21, 2025 4:29 PM
+> *=C3=80 :* Joey Dubois <joey.dubois@indemnipro.ca>
+> *Objet :* R=C3=A9ponse =C3=A0 vos questions
+>
+>
+>
+> *CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE*
+>
+> Voici nos commentaires :
+>
+>
+>
+> Item 1 : Frigo p=C3=A2tisserie
+>
+>
+>
+>
+>
+>
+>
+> Nous avons obtenu de la part de votre entreprise une =C3=A9valuation pour=
+ la
+> r=C3=A9paration de l=E2=80=99unit=C3=A9 pour 2 615,00 $. Nous constatons =
+que vous avez
+> produit une =C3=A9valuation pour le remplacement du frigo pour un montant=
+ de 11
+> 500,00 $.
+>
+>
+>
+>
+>
+>  *Le compresseur a =C3=A9t=C3=A9 remplac=C3=A9. Le gaz R-22 n=E2=80=99est=
+ plus disponible, et le
+> compresseur ainsi que l=E2=80=99=C3=A9vaporateur ne sont plus compatibles=
+. Un
+> remplacement est n=C3=A9cessaire. Le frigidaire a caus=C3=A9 des dommages=
+ dans le
+> local en coulant, et nous avons d=C3=BB engager une compagnie pour le jet=
+er.
+> Nous attendons de r=C3=A9gler avec vous pour pouvoir le remplacer, et le =
+montant
+> doit =C3=AAtre r=C3=A9gl=C3=A9 avant le remplacement.*
+>
+>
+>
+> Nous avons besoin d=E2=80=99explications de la part de votre technicien =
+=C3=A0 savoir
+> pourquoi l=E2=80=99unit=C3=A9 n=E2=80=99=C3=A9tait plus r=C3=A9parable.
+>
+>
+>
+> Item 2 : Machine =C3=A0 caf=C3=A9 Curtis
+>
+>
+>
+> Nous comprenons que la machine =C3=A0 caf=C3=A9 pour laquelle vous aviez =
+soumis une
+> estimation =C3=A0 l=E2=80=99origine de 1 485,00 $ pour
+>
+>
+>
+>  *Le module et la valve de la machine ont d=C3=BB =C3=AAtre remplac=C3=A9=
+s, ainsi que la
+> main-d'=C5=93uvre.*
+>
+>
+>
+> *ITEM 2.1*
+>
+> *La machine Keurig une perte totale, avec un co=C3=BBt d'=C3=A9valuation =
+de 1200 $
+> car l=E2=80=99=C3=A9cran tactile doit =C3=AAtre remplac=C3=A9.*
+>
+>
+>
+> la r=C3=A9paration de celle-ci est maintenant d=C3=A9clar=C3=A9e perte to=
+tale. La valeur
+> de remplacement est de 1 200,00 $.
+>
+>
+>
+> Item 3 : Chambre de cong=C3=A9lation
+>
+> Nous comprenons qu=E2=80=99il y a deux (2) factures reli=C3=A9es =C3=A0 l=
+a chambre de
+> cong=C3=A9lation, soit une de 2 960,00 $ et une autre de 8 320,00 $.
+>
+>
+>
+>  *La chambre froide de 10x10 a eu son compresseur, filtre et thermostat
+> remplac=C3=A9s, ainsi que la soudure et le vide effectu=C3=A9s.*
+>
+>
+>
+> *3.1 La chambre froide de 12x16 a eu une nouvelle unit=C3=A9 =C3=A0 air i=
+nstall=C3=A9e
+> avec soudure, vide et main-d'=C5=93uvre.*
+>
+>
+>
+> Item 4 : Four Tim Hortons
+>
+>
+>
+> Nous avions re=C3=A7u un devis de votre part pour la r=C3=A9paration de c=
+e four au
+> montant de 4 635,00 $.
+>
+>
+>
+> *Il y a deux fours tim hortons. Les sondes et pi=C3=A8ces ont =C3=A9t=C3=
+=A9 remplac=C3=A9es
+> sur le four, mais un probl=C3=A8me persiste. Le technicien a indiqu=C3=A9=
+ qu=E2=80=99il est
+> impossible de continuer les r=C3=A9parations car les pi=C3=A8ces doivent =
+=C3=AAtre
+> command=C3=A9es chez tim hortons pour le four 4 et le four 4.1*
+>
+> *Nous n=E2=80=99avons re=C3=A7u aucune autre facture, donc aucun montant =
+ne sera allou=C3=A9
+> pour le moment.*
+>
+>
+>
+> Item 5 : Frigo une porte
+>
+>
+>
+>
+>
+>
+>
+> Nous avons obtenu la facture de 1 705,00 $.
+>
+>
+>
+>  *Le frigidaire a subi une r=C3=A9paration au compresseur*
+>
+>
+>
+> Item 6 : Machine =C3=A0 cocktail Taylor
+>
+>
+>
+> Nous avons obtenu la facture de 3 850,00 $.
+>
+>
+>
+>  *Le moteur et l=E2=80=99agitateur du compresseur ont =C3=A9t=C3=A9 chang=
+=C3=A9s*
+>
+>
+>
+> Item 7 : Electro Freeze
+>
+>
+>
+> Nous avons re=C3=A7u une soumission de 5 990,00 $ et n=E2=80=99avons pas =
+re=C3=A7u de
+> facture =C3=A0 date.
+>
+>
+>
+> *Erreur, cet item n=E2=80=99est pas =C3=A0 prendre en compte. ITEM #10*
+>
+> *Item 8 : Machine =C3=A0 Slush*
+>
+>
+>
+>
+>
+>
+>
+> Nous avons re=C3=A7u une facture de 2 340,00 $.
+>
+>
+>
+> * Il y a deux machines =C3=A0 sloche =C3=A0 deux t=C3=AAtes, une t=C3=AAt=
+e par machine. Deux
+> t=C3=AAtes ont d=C3=BB =C3=AAtre remplac=C3=A9es, ainsi que les moteurs d=
+roit et gauche.*
+>
+>
+>
+> Item 9 : Four =C3=A0 pizza no.1
+>
+>
+>
+> Nous avons obtenu un devis de 6 700,68 $ pour la r=C3=A9paration du four =
+=C3=A0
+> pizza de la part de SKS.
+>
+>
+>
+>  *Le four =C3=A0 pizza num=C3=A9ro 1 a =C3=A9t=C3=A9 r=C3=A9par=C3=A9 par=
+ Frigospec. Les r=C3=A9parations
+> comprenaient le blower, la soudure, le pilote, ainsi que la mise en route
+> et les ajustements.il [ajustements.il]
+> <https://urldefense.com/v3/__http:/ajustements.il__;!!AyxJxhHs7Q!fcatTQ6S=
+nmYro4KrST85zSRS3lJ-8cwlQvK50wWTBOULk7CtKKP2UxLgCjo57V_x7EkHdCVYDJqPy4EmjMU=
+8TCw$>
+> n'=C3=A9tais pas en mesure de faire le travail sur le 2 appareil.*
+>
+>
+>
+> *Pour le four num=C3=A9ro 2, CKS est intervenu pour le blower, le pilote =
+et le
+> sensor de s=C3=A9curit=C3=A9. Les frais de 6 700 $ ont =C3=A9t=C3=A9 enga=
+g=C3=A9s pour ce service.
+> Apr=C3=A8s analyse du technicien, il est impossible de continuer les trav=
+aux sur
+> ce four, car il y a un probl=C3=A8me avec le gaz et le module =C3=A9lectr=
+ique de
+> contr=C3=B4le sur l'appareil les pi=C3=A8ces sont discontinu=C3=A9es. *
+>
+>
+>
+> Notez =C3=A9galement qu=E2=80=99une facture au nom de Auger au montant de=
+ 308,75 $, qui
+> =C3=A9tait charg=C3=A9e avant la perte, sera exclue de la r=C3=A9clamatio=
+n.
+>
+>
+>
+> Item 10 : Machine =C3=A0 cr=C3=A8me glac=C3=A9e
+>
+>
+>
+> Nous avons re=C3=A7u la facture au montant de 5 990,00 $.
+>
+>
+>
+>  *Machine =C3=A0 cr=C3=A8me glac=C3=A9e (Electrofreeze) : La machine a =
+=C3=A9t=C3=A9 r=C3=A9par=C3=A9e par
+> Frigospec*
+>
+>
+>
+> Item 11 : Four =C3=A0 pizza no.2
+>
+>
+>
+>   *Item non pertinent : Cet item est =C3=A0 ignorer car il a d=C3=A9j=C3=
+=A0 =C3=A9t=C3=A9 expliqu=C3=A9
+> sous l=E2=80=99item 9.1.*
+>
+>
+>
+> Vous d=C3=A9clarez que l=E2=80=99item est perte totale pour une valeur de=
+ 29 500,00 $.
+>
+>
+>
+>
+>
+>
+>
+> Nous n=E2=80=99avons aucune expertise ni de note d=E2=80=99un technicien =
+=C3=A0 cet effet.
+> Veuillez nous produire de plus amples informations.
+>
+>
+>
+> Nous avions re=C3=A7u une facture de 7 900,00 $ concernant la r=C3=A9para=
+tion du
+> four =C3=A0 pizza.
+>
+>
+>
+>
+>
+>
+>
+> S=E2=80=99agit-il d=E2=80=99une r=C3=A9paration de l=E2=80=99item 11 ? No=
+us appr=C3=A9cierions recevoir vos
+> commentaires =C3=A0 cet effet.
+>
+>
+>
+> Item 12 : Frigidaire p=C3=A2tisserie
+>
+>
+>
+>
+>
+> Nous avons re=C3=A7u une estimation de votre part pour le remplacement du
+> frigidaire de 15 933,00 $.
+>
+>
+>
+>  *Le gaz R-22 n=E2=80=99est plus disponible, ce qui emp=C3=AAche le rempl=
+acement des
+> pi=C3=A8ces du compresseur et de l=E2=80=99=C3=A9vaporateur. L=E2=80=99un=
+it=C3=A9 a coul=C3=A9 et a caus=C3=A9 des
+> dommages dans le local. Nous avons d=C3=BB la jeter et engager une soci=
+=C3=A9t=C3=A9 pour
+> s'en d=C3=A9barrasser. Nous attendons la r=C3=A9gulation pour pouvoir la =
+remplacer,
+> et le montant doit =C3=AAtre r=C3=A9gl=C3=A9 avec vous.*
+>
+>
+>
+> Nous avons besoin d=E2=80=99un rapport de technicien qui nous indique pou=
+rquoi le
+> frigidaire en question n=E2=80=99est pas r=C3=A9parable et est consid=C3=
+=A9r=C3=A9 perte totale,
+> avant d=E2=80=99autoriser le remplacement de ce frigidaire.
+>
+>
+>
+> Item 13 : Chambre froide
+>
+>
+>
+> Nous avions un devis au dossier au montant de 1 700,00 $.
+>
+>
+>
+>
+>
+> Nous n=E2=80=99avons pas encore re=C3=A7u la facture.
+>
+>
+>
+>  *Le gaz a =C3=A9t=C3=A9 ajout=C3=A9 et les contr=C3=B4les d=E2=80=99unit=
+=C3=A9 ont =C3=A9t=C3=A9 effectu=C3=A9s.*
+>
+>
+>
+>
+>
+>
+>
+> Item 14 : Installation d=E2=80=99une unit=C3=A9 AC
+>
+>
+>
+>  *Lors de la visite du sp=C3=A9cialiste en sinistre, le technicien a ment=
+ionn=C3=A9
+> que l=E2=80=99air climatis=C3=A9 ne fonctionnait plus. Compresseur surcha=
+rge Aucun air
+> ne sortait, et le local =C3=A9tait dans une chaleur suffocante sans venti=
+lation.
+> Le technicien, apr=C3=A8s =C3=A9valuation, a conseill=C3=A9 de remplacer =
+l=E2=80=99unit=C3=A9 compl=C3=A8te,
+> car c=E2=80=99est un mod=C3=A8le chinois et les pi=C3=A8ces sont introuva=
+ble.jai trouve le
+> mod=C3=A8le le moins co=C3=BBtant *
+>
+>
+>
+> Nous avons re=C3=A7u une facture =C3=A0 cet effet au montant de 1 145,00 =
+$.
+>
+>
+>
+> *Remplacement la plus rapide et =C3=A9conomique  p=C3=A9riode de juin cha=
+leur *
+>
+>
+>
+> Pouvez-vous nous expliquer pourquoi l=E2=80=99unit=C3=A9 d=E2=80=99air cl=
+imatis=C3=A9 a d=C3=BB =C3=AAtre
+> remplac=C3=A9e
+>
+>
+>
+> Item15: Syst=C3=A8me =C2=AB Heat pump =C2=BB
+>
+> *Mod=C3=A8le de remplacement de la thermopompe/Heat pump *
+>
+>
+>
+> Un montant de 5 099,99 $ est r=C3=A9clam=C3=A9. La date de cette facture =
+est le 17
+> juin 2024.
+>
+>
+>
+>
+>
+>
+>
+> Cette r=C3=A9paration est-elle reli=C3=A9e au sinistre ? Si oui, veuillez=
+ nous
+> fournir de plus amples d=C3=A9tails concernant la d=C3=A9faillance de l=
+=E2=80=99=C3=A9quipement
+>
+>
+>
+>
+>
+> Item 16 : Frais
+>
+>
+>
+>  Le technicien est venu sur place pour effectuer la visite et les
+> r=C3=A9parations.
+>
+>
+>
+>
+>
+>
+>
+> Nous avons re=C3=A7u la facture de Frimabec au montant de 408,16 $.
+>
+>
+>
+> Pour l=E2=80=99instant, avec les informations que nous avons re=C3=A7ues =
+=C3=A0 date,
+> semblerait-il qu=E2=80=99un montant de 37 288.16 $ pourrait =C3=AAtre acc=
+ord=C3=A9 par
+> l=E2=80=99assureur, sujet =C3=A0 leur approbation. Nous avons produit not=
+re apport =C3=A0 cet
+> effet.
+>
+>
+>
+>
+>
+>
+>
+> Nous vous demandons de r=C3=A9pondre =C3=A0 nos questions ci-haut le plus=
+ rapidement
+> possible (svp pas avec des commentaires rapides =C3=A0 partir de votre
+> portable). Entretemps s=E2=80=99il y a des corrections =C3=A0 apporter au=
+ niveau de
+> notre fichier Excel veuillez indiquer les changements sur ce fichier.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> En esp=C3=A9rant le tout conforme,
+>
+>
+>
+>
+>
+>
+>
+> Joey Dubois
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> IndemniPro Logo
+>
+>
+>
+> Joey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B
+>
+>
+>
+> ,
+>
+>
+>
+> B. Sc., PAA/CIP
+>
+>
+>
+> Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Division des Risques Sp=
+=C3=A9ciaux
+>
+>
+>
+> joey.dubois@indemnipro.ca
+>
+>
+>
+> Ligne directe
+>
+>
+>
+>  (T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)
+>
+>
+>
+> Sans frais
+>
+>
+>
+>  :
+>
+>
+>
+>  :
+>
+>
+>
+> 514-789-8888
+>
+>
+>
+> 888=E2=80=91485=E2=80=915252
+>
+>
+>
+>
+>
+>
+>
+> x2572
+>
+>
+>
+> IndemniPro Division des risques sp=C3=A9ciaux
+>
+>
+>
+>  =E2=80=93
+>
+>
+>
+> indemnipro.ca
+>
+>
+>
+> Cabinet d'expertise en r=C3=A8glement de sinistres
+>
+>
+>
+> 3400, boul. De Maisonneuve ouest [google.com]
+> <https://urldefense.com/v3/__https:/www.google.com/maps/search/3400,*boul=
+.*De*Maisonneuve*ouest?entry=3Dgmail&source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuU=
+dncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGet=
+e0xKq0$>,
+> #910
+>
+>
+>
+> ,
+>
+>
+>
+> Montr=C3=A9al
+>
+>
+>
+> ,
+>
+>
+>
+> QC
+>
+>
+>
+>
+>
+>
+>
+> H3Z 3B8
+>
+>
+>
+> Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l'en=
+tit=C3=A9 =C3=A0 laquelle
+> il est envoy=C3=A9 et peut contenir de l'information confidentielle ou
+> privil=C3=A9gi=C3=A9e. Toute utilisation de l'information particuli=C3=A8=
+re
+>
+>
+>
+> <~WRD2841.jpg>
+
+--000000000000e5d4b70653358825
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote gmail_quote_container=
+"><div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ------=
+---<br>From: <strong class=3D"gmail_sendername" dir=3D"auto">Joey Dubois</s=
+trong> <span dir=3D"auto">&lt;<a href=3D"mailto:joey.dubois@indemnipro.ca">=
+joey.dubois@indemnipro.ca</a>&gt;</span><br>Date: Wed, Feb 12, 2025, 11:58<=
+br>Subject: Re: R=C3=A9ponse =C3=A0 vos questions<br>To: D=C3=A9jeuner Oeuf=
+ &lt;<a href=3D"mailto:ooeuf.ca@gmail.com">ooeuf.ca@gmail.com</a>&gt;<br></=
+div><br><br>
+
+
+
+<div dir=3D"auto">
+Ok
+<div><br>
+</div>
+<div>J=E2=80=99ai relanc=C3=A9 pour le paiement rush=C2=A0<br id=3D"m_-7966=
+845416035344008lineBreakAtBeginningOfSignature">
+<div dir=3D"ltr">Sent from my iPhone</div>
+<div dir=3D"ltr"><br>
+<div dir=3D"ltr" style=3D"font-size:1px;direction:ltr"><table dir=3D"ltr" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:100%;directi=
+on:ltr;border-collapse:collapse;font-size:1px"><tr style=3D"font-size:0"><t=
+d align=3D"left" style=3D"vertical-align:top"><table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"width:600px;border-collapse:collapse;fo=
+nt-size:0"><tr style=3D"font-size:0"><td align=3D"center" style=3D"padding:=
+0;border-top:none;border-right:dotted 1px #cacaca;border-bottom:none;border=
+-left:none;vertical-align:middle"><table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" style=3D"border-collapse:collapse;font-size:0;line-height:no=
+rmal"><tr style=3D"font-size:0"><td align=3D"center" style=3D"padding:0 10p=
+x 10px;vertical-align:middle"><p style=3D"margin-top:0px;margin-bottom:0px"=
+><a href=3D"https://indemnipro.ca/?e=3D1" id=3D"m_-7966845416035344008LPlnk=
+689713" style=3D"text-decoration:none" target=3D"_blank" rel=3D"noreferrer"=
+><img src=3D"https://scm.ca/esig_logos/SRD%20-%20All%20Logos_CCI%20FR.png" =
+width=3D"150" border=3D"0" title=3D"IndemniPro Logo" alt=3D"IndemniPro Logo=
+" style=3D"width:150px;min-width:150px;max-width:150px;font-size:12px"></a>=
+</p></td></tr></table></td><td align=3D"left" style=3D"padding:10px 0 10px =
+10px;vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"border-collapse:collapse;font-size:0;font-style:normal;font=
+-weight:400;white-space:nowrap"><tr style=3D"font-size:0"><td align=3D"left=
+" style=3D"vertical-align:top"><table cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" style=3D"border-collapse:collapse;font-size:0;font-style:normal=
+;font-weight:400;white-space:nowrap"><tr style=3D"font-size:13.33px"><td al=
+ign=3D"left" style=3D"vertical-align:top;font-family:Verdana;font-weight:70=
+0"><p style=3D"color:#807f83;margin-top:0px;margin-bottom:0px">Joey=C2=A0Du=
+bois<span style=3D"font-family:remialcxesans;font-size:1px;color:#ffffff;li=
+ne-height:1px">=E2=80=8B<span style=3D"font-family:&#39;template-hMgY3lQsEe=
+qpTAAD_7TDWA&#39;">=E2=80=8B</span><span style=3D"font-family:&#39;zone-1&#=
+39;">=E2=80=8B</span><span style=3D"font-family:&#39;zones-AQ&#39;">=E2=80=
+=8B</span></span></p></td><td align=3D"left" style=3D"vertical-align:top;fo=
+nt-family:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0=
+px">,=C2=A0</p></td><td align=3D"left" style=3D"vertical-align:top;font-fam=
+ily:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">B.=
+=C2=A0Sc.,=C2=A0PAA/CIP</p></td></tr></table></td></tr><tr style=3D"font-si=
+ze:13.33px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verd=
+ana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Expert=C2=
+=A0en=C2=A0sinistre,=C2=A0Vice=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0d=
+es=C2=A0Risques=C2=A0Sp=C3=A9ciaux</p></td></tr><tr style=3D"font-size:13.3=
+3px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p=
+ style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a href=3D"mailto=
+:joey.dubois@indemnipro.ca" id=3D"m_-7966845416035344008LPlnk689713" style=
+=3D"text-decoration:none;color:#7d7d7d" target=3D"_blank" rel=3D"noreferrer=
+">joey.dubois@indemnipro.ca</a></p></td></tr><tr style=3D"font-size:0"><td =
+align=3D"left" style=3D"vertical-align:top"><table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size:0"><tr=
+ style=3D"font-size:0"><td align=3D"left" style=3D"padding:0;vertical-align=
+:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bord=
+er-collapse:collapse;font-size:0;font-style:normal;font-weight:700;white-sp=
+ace:nowrap"><tr style=3D"font-size:0"><td align=3D"left" style=3D"vertical-=
+align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D=
+"border-collapse:collapse;font-size:0;font-style:normal;font-weight:700;whi=
+te-space:nowrap"><tr style=3D"font-size:13.33px"><td align=3D"left" style=
+=3D"vertical-align:top;font-family:Verdana"><p style=3D"color:#7d7d7d;margi=
+n-top:0px;margin-bottom:0px">Ligne=C2=A0directe</p></td><td align=3D"left" =
+style=3D"vertical-align:top;font-size:0"><table cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0" style=3D"white-space:nowrap;color:#7d7d7d;font-size:1=
+3.33px;font-family:Verdana;font-weight:400;font-style:normal;text-align:lef=
+t;line-height:18.67px;border-collapse:collapse"><tr style=3D"font-size:10px=
+"><td style=3D"font-family:Verdana"><p style=3D"margin-top:0px;margin-botto=
+m:0px;color:#7d7d7d">=C2=A0(T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)</p></td></tr>=
+</table></td></tr></table></td></tr><tr style=3D"font-size:13.33px"><td ali=
+gn=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p style=3D"co=
+lor:#7d7d7d;margin-top:0px;margin-bottom:0px">Sans=C2=A0frais=C2=A0</p></td=
+></tr></table></td><td align=3D"left" style=3D"padding:0;vertical-align:top=
+"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-c=
+ollapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:=
+nowrap"><tr style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertica=
+l-align:top;font-family:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;m=
+argin-bottom:0px">=C2=A0:=C2=A0<br></p></td></tr><tr style=3D"font-size:13.=
+33px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><=
+p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0:=C2=A0<br=
+></p></td></tr></table></td><td align=3D"left" style=3D"padding:0;vertical-=
+align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D=
+"border-collapse:collapse;font-size:0;font-style:normal;font-weight:400;whi=
+te-space:nowrap"><tr style=3D"font-size:13.33px"><td align=3D"left" style=
+=3D"vertical-align:bottom;font-family:Verdana"><p style=3D"color:#7d7d7d;ma=
+rgin-top:0px;margin-bottom:0px"><a href=3D"tel:514-789-8888" id=3D"m_-79668=
+45416035344008LPlnk689713" style=3D"text-decoration:none;color:#7d7d7d" tar=
+get=3D"_blank" rel=3D"noreferrer">514-789-8888</a></p></td></tr><tr style=
+=3D"font-size:0"><td align=3D"left" style=3D"vertical-align:bottom"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-collapse:c=
+ollapse;font-size:0;font-style:normal;font-weight:400;white-space:nowrap"><=
+tr style=3D"font-size:13.33px"><td align=3D"left" style=3D"vertical-align:b=
+ottom;font-family:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-=
+bottom:0px">888=E2=80=91485=E2=80=915252</p></td><td align=3D"left" style=
+=3D"vertical-align:top;font-family:Verdana"><p style=3D"color:#7d7d7d;margi=
+n-top:0px;margin-bottom:0px">=C2=A0</p></td><td align=3D"left" style=3D"ver=
+tical-align:top;font-family:Verdana"><p style=3D"color:#7d7d7d;margin-top:0=
+px;margin-bottom:0px">x2572</p></td></tr></table></td></tr></table></td></t=
+r></table></td></tr></table></td></tr><tr style=3D"font-size:0"><td colspan=
+=3D"2" align=3D"left" style=3D"padding:5px;border-top:solid 1px #cacaca;bor=
+der-right:none;border-bottom:solid 1px #cacaca;border-left:none;vertical-al=
+ign:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"b=
+order-collapse:collapse;font-size:0"><tr style=3D"font-size:0"><td align=3D=
+"left" style=3D"padding:0;vertical-align:top"><table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size:0;fo=
+nt-style:normal;font-weight:400;white-space:nowrap"><tr style=3D"font-size:=
+13.33px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana=
+;font-weight:700"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0p=
+x">IndemniPro=C2=A0Division=C2=A0des=C2=A0risques=C2=A0sp=C3=A9ciaux<br></p=
+></td><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><=
+p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0=E2=80=93=
+=C2=A0<br></p></td><td align=3D"left" style=3D"vertical-align:top;font-fami=
+ly:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a =
+href=3D"https://indemnipro.ca/?e=3D1" id=3D"m_-7966845416035344008LPlnk6897=
+13" style=3D"text-decoration:none;color:#807f83" target=3D"_blank" rel=3D"n=
+oreferrer">indemnipro.ca</a></p></td></tr></table></td></tr><tr style=3D"fo=
+nt-size:13.33px;font-style:normal;font-weight:400;white-space:nowrap"><td a=
+lign=3D"left" style=3D"padding:0;vertical-align:top;font-family:Verdana"><p=
+ style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Cabinet=C2=A0d&#3=
+9;expertise=C2=A0en=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres<br></p></td>=
+</tr><tr style=3D"font-size:0"><td align=3D"left" style=3D"padding:0;vertic=
+al-align:top"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"border-collapse:collapse;font-size:0"><tr style=3D"font-size:0"><td ali=
+gn=3D"left" style=3D"vertical-align:top"><table cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0" style=3D"border-collapse:collapse;font-size:0;font-st=
+yle:normal;font-weight:400;white-space:nowrap"><tr style=3D"font-size:13.33=
+px"><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p =
+style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a href=3D"https:/=
+/www.google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=3Dgmail&=
+amp;source=3Dg">3400,</a>=C2=A0<a href=3D"https://www.google.com/maps/searc=
+h/3400,+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;source=3Dg">boul.</a>=
+=C2=A0<a href=3D"https://www.google.com/maps/search/3400,+boul.+De+Maisonne=
+uve+ouest?entry=3Dgmail&amp;source=3Dg">De</a>=C2=A0<a href=3D"https://www.=
+google.com/maps/search/3400,+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;s=
+ource=3Dg">Maisonneuve</a>=C2=A0<a href=3D"https://www.google.com/maps/sear=
+ch/3400,+boul.+De+Maisonneuve+ouest?entry=3Dgmail&amp;source=3Dg">ouest</a>=
+,=C2=A0#910</p></td><td align=3D"left" style=3D"vertical-align:top;font-fam=
+ily:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">,=
+=C2=A0</p></td><td align=3D"left" style=3D"vertical-align:top;font-family:V=
+erdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Montr=
+=C3=A9al</p></td><td align=3D"left" style=3D"vertical-align:top;font-family=
+:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">,=C2=
+=A0</p></td><td align=3D"left" style=3D"vertical-align:top;font-family:Verd=
+ana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">QC</p></td=
+><td align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p sty=
+le=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0<br></p></td><t=
+d align=3D"left" style=3D"vertical-align:top;font-family:Verdana"><p style=
+=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">H3Z=C2=A03B8</p></td></=
+tr></table></td></tr><tr style=3D"font-size:0"><td align=3D"left" style=3D"=
+vertical-align:top"></td></tr></table></td></tr></table></td></tr><tr style=
+=3D"font-size:9px;font-style:normal;font-weight:400;white-space:normal"><td=
+ colspan=3D"2" align=3D"left" style=3D"padding:5px 0 0;vertical-align:top;f=
+ont-family:Verdana"><p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:=
+0px">Ce courriel est destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l=
+&#39;entit=C3=A9 =C3=A0 laquelle il est envoy=C3=A9 et peut contenir de l&#=
+39;information confidentielle ou privil=C3=A9gi=C3=A9e. Toute utilisation d=
+e l&#39;information par une personne ou une entit=C3=A9 autre que celle =C3=
+=A0 laquelle elle est destin=C3=A9e est interdite. Si vous recevez ce courr=
+iel par erreur, veuillez communiquer avec son exp=C3=A9diteur et supprimer =
+ce courriel et toute copie (=C3=A9lectronique ou non) imm=C3=A9diatement.=
+=E2=80=8B<br>=E2=80=8B<br>=E2=80=8BThis email communication is intended onl=
+y for the person or entity to which it is addressed and may contain confide=
+ntial and/or privileged information. Any use of this information by persons=
+ or entities other than the intended recipient is prohibited. If you receiv=
+ed this in error, please contact the sender and delete the email and all co=
+pies (electronic or otherwise) immediately.<br></p></td></tr></table></td><=
+/tr></table></div><blockquote type=3D"cite">On Feb 12, 2025, at 11:56, Oeuf=
+ D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" target=3D"_blank" =
+rel=3D"noreferrer">ooeuf.ca@gmail.com</a>&gt; wrote:<br>
+<br>
+</blockquote>
+</div>
+<blockquote type=3D"cite">
+<div dir=3D"ltr">=EF=BB=BF
+<div>
+<table width=3D"100%" border=3D"0" bgcolor=3D"000000">
+<tbody>
+<tr>
+<td bgcolor=3D"#0096FF"></td>
+<td align=3D"center" bgcolor=3D"#FFF0F5"><font face=3D"Arial Bold" color=3D=
+"#000000" size=3D"2"><b>CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXT=
+ERNE</b></font></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p dir=3D"ltr">Nous n&#39;avons encore rien re=C3=A7u. Pour le remplacement=
+ des =C3=A9quipements, nous devons d&#39;abord communiquer, car nous ne dis=
+posons pas des fonds n=C3=A9cessaires.</p>
+<br>
+<div class=3D"gmail_quote">
+<div dir=3D"ltr" class=3D"gmail_attr">On Wed, Feb 12, 2025, 11:27=E2=80=AFa=
+.m. Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnipro.ca" target=3D"=
+_blank" rel=3D"noreferrer">joey.dubois@indemnipro.ca</a>&gt; wrote:<br>
+</div>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div lang=3D"FR-CA" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:break=
+-word">
+<div>
+<p class=3D"MsoNormal"><span>Bonjour,<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span>J=E2=80=99imagine que vous avez r=C3=A9gl=C3=
+=A9 avec la banque pour l=E2=80=99encaissement du paiement. J=E2=80=99avais=
+ recommand=C3=A9 un paiement suppl=C3=A9mentaire de de $37,288.16. Je pr=C3=
+=A9sume que vous ne l=E2=80=99avez pas re=C3=A7u encore?<u></u><u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span>Voir les items en jaune. Soit que j=E2=80=99at=
+tends vos commentaires ou les factures.<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<p class=3D"MsoNormal"><span>Merci<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+<div dir=3D"ltr" style=3D"font-size:1px;direction:ltr">
+<table dir=3D"ltr" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"width:100%;direction:ltr;border-collapse:collapse;font-size:1px">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:600p=
+x;border-collapse:collapse;font-size:0">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"center" style=3D"padding:0;border-top:none;border-right:dotted=
+ 1px #cacaca;border-bottom:none;border-left:none;vertical-align:middle">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;line-height:normal">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"center" style=3D"padding:0 10px 10px;vertical-align:middle">
+<p style=3D"margin-top:0px;margin-bottom:0px"><a href=3D"https://indemnipro=
+.ca/?e=3D1" id=3D"m_-7966845416035344008m_-4378574730464858285LPlnk689713" =
+style=3D"text-decoration:none" rel=3D"noreferrer noreferrer" target=3D"_bla=
+nk"><img src=3D"https://scm.ca/esig_logos/SRD%20-%20All%20Logos_CCI%20FR.pn=
+g" width=3D"150" border=3D"0" title=3D"IndemniPro Logo" alt=3D"IndemniPro L=
+ogo" style=3D"width:150px;min-width:150px;max-width:150px;font-size:12px"><=
+/a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"left" style=3D"padding:10px 0 10px 10px;vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana;font-wei=
+ght:700">
+<p style=3D"color:#807f83;margin-top:0px;margin-bottom:0px">Joey=C2=A0Duboi=
+s<span style=3D"font-family:remialcxesans;font-size:1px;color:#ffffff;line-=
+height:1px">=E2=80=8B<span style=3D"font-family:&#39;template-hMgY3lQsEeqpT=
+AAD_7TDWA&#39;">=E2=80=8B</span><span style=3D"font-family:&#39;zone-1&#39;=
+">=E2=80=8B</span><span style=3D"font-family:&#39;zones-AQ&#39;">=E2=80=8B<=
+/span></span></p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">,=C2=A0</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">B.=C2=A0Sc.,=C2=
+=A0PAA/CIP</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Expert=C2=A0en=
+=C2=A0sinistre,=C2=A0Vice=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=
+=A0Risques=C2=A0Sp=C3=A9ciaux</p>
+</td>
+</tr>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a href=3D"mail=
+to:joey.dubois@indemnipro.ca" id=3D"m_-7966845416035344008m_-43785747304648=
+58285LPlnk689713" style=3D"text-decoration:none;color:#7d7d7d" rel=3D"noref=
+errer noreferrer" target=3D"_blank">joey.dubois@indemnipro.ca</a></p>
+</td>
+</tr>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"padding:0;vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:700;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:700;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Ligne=C2=A0dire=
+cte</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-size:0">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"white-spac=
+e:nowrap;color:#7d7d7d;font-size:13.33px;font-family:Verdana;font-weight:40=
+0;font-style:normal;text-align:left;line-height:18.67px;border-collapse:col=
+lapse">
+<tbody>
+<tr style=3D"font-size:10px">
+<td style=3D"font-family:Verdana">
+<p style=3D"margin-top:0px;margin-bottom:0px;color:#7d7d7d">=C2=A0(T=C3=A9l=
+./Texto/T=C3=A9l=C3=A9c.)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Sans=C2=A0frais=
+=C2=A0</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"left" style=3D"padding:0;vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0:=C2=A0<b=
+r>
+</p>
+</td>
+</tr>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0:=C2=A0<b=
+r>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"left" style=3D"padding:0;vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:bottom;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a href=3D"tel:=
+514-789-8888" id=3D"m_-7966845416035344008m_-4378574730464858285LPlnk689713=
+" style=3D"text-decoration:none;color:#7d7d7d" rel=3D"noreferrer noreferrer=
+" target=3D"_blank">514-789-8888</a></p>
+</td>
+</tr>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:bottom">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:bottom;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">888=E2=80=91485=
+=E2=80=915252</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">x2572</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"font-size:0">
+<td colspan=3D"2" align=3D"left" style=3D"padding:5px;border-top:solid 1px =
+#cacaca;border-right:none;border-bottom:solid 1px #cacaca;border-left:none;=
+vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"padding:0;vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana;font-wei=
+ght:700">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">IndemniPro=C2=
+=A0Division=C2=A0des=C2=A0risques=C2=A0sp=C3=A9ciaux<br>
+</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0=E2=80=93=
+=C2=A0<br>
+</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a href=3D"http=
+s://indemnipro.ca/?e=3D1" id=3D"m_-7966845416035344008m_-437857473046485828=
+5LPlnk689713" style=3D"text-decoration:none;color:#807f83" rel=3D"noreferre=
+r noreferrer" target=3D"_blank">indemnipro.ca</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"font-size:13.33px;font-style:normal;font-weight:400;white-spac=
+e:nowrap">
+<td align=3D"left" style=3D"padding:0;vertical-align:top;font-family:Verdan=
+a">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Cabinet=C2=A0d&=
+#39;expertise=C2=A0en=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres<br>
+</p>
+</td>
+</tr>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"padding:0;vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0">
+<tbody>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-col=
+lapse:collapse;font-size:0;font-style:normal;font-weight:400;white-space:no=
+wrap">
+<tbody>
+<tr style=3D"font-size:13.33px">
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px"><a href=3D"http=
+s://urldefense.com/v3/__https://www.google.com/maps/search/3400,*boul.*De*M=
+aisonneuve*ouest?entry=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2ei7=
+wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQF7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gBdSY=
+3jvE$" target=3D"_blank" rel=3D"noreferrer">3400,
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https://www.g=
+oogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;so=
+urce=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQ=
+F7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gBdSY3jvE$" target=3D"_blank" rel=3D"noref=
+errer">boul.
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https://www.g=
+oogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;so=
+urce=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQ=
+F7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gBdSY3jvE$" target=3D"_blank" rel=3D"noref=
+errer">De
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https://www.g=
+oogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;so=
+urce=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQ=
+F7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gBdSY3jvE$" target=3D"_blank" rel=3D"noref=
+errer">Maisonneuve
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https://www.g=
+oogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;so=
+urce=3Dg__;KysrKw!!AyxJxhHs7Q!eU0Z2ei7wyt4f_Z3wGIJkXB-1OF_HUB5Hj7wSkcR1dPzQ=
+F7JfcVmg_eb5Zt43yaK1IWZXktpq-4ND9gBdSY3jvE$" target=3D"_blank" rel=3D"noref=
+errer">ouest
+ [google.com]</a>,=C2=A0#910</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">,=C2=A0</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Montr=C3=A9al</=
+p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">,=C2=A0</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">QC</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">=C2=A0<br>
+</p>
+</td>
+<td align=3D"left" style=3D"vertical-align:top;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">H3Z=C2=A03B8</p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"font-size:0">
+<td align=3D"left" style=3D"vertical-align:top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"font-size:9px;font-style:normal;font-weight:400;white-space:no=
+rmal">
+<td colspan=3D"2" align=3D"left" style=3D"padding:5px 0 0;vertical-align:to=
+p;font-family:Verdana">
+<p style=3D"color:#7d7d7d;margin-top:0px;margin-bottom:0px">Ce courriel est=
+ destin=C3=A9 uniquement =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=
+=A0 laquelle il est envoy=C3=A9 et peut contenir de l&#39;information confi=
+dentielle ou privil=C3=A9gi=C3=A9e. Toute utilisation de l&#39;information =
+par une personne
+ ou une entit=C3=A9 autre que celle =C3=A0 laquelle elle est destin=C3=A9e =
+est interdite. Si vous recevez ce courriel par erreur, veuillez communiquer=
+ avec son exp=C3=A9diteur et supprimer ce courriel et toute copie (=C3=A9le=
+ctronique ou non) imm=C3=A9diatement.=E2=80=8B<br>
+=E2=80=8B<br>
+=E2=80=8BThis email communication is intended only for the person or entity=
+ to which it is addressed and may contain confidential and/or privileged in=
+formation. Any use of this information by persons or entities other than th=
+e intended recipient is prohibited. If you
+ received this in error, please contact the sender and delete the email and=
+ all copies (electronic or otherwise) immediately.<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"FR">De=C2=A0:</span></b><span lang=
+=3D"FR"> Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" rel=
+=3D"noreferrer noreferrer" target=3D"_blank">ooeuf.ca@gmail.com</a>&gt;
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> February 11, 2025 10:18 AM<br>
+<b>=C3=80=C2=A0:</b> Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnip=
+ro.ca" rel=3D"noreferrer noreferrer" target=3D"_blank">joey.dubois@indemnip=
+ro.ca</a>&gt;<br>
+<b>Objet=C2=A0:</b> Re: R=C3=A9ponse =C3=A0 vos questions<u></u><u></u></sp=
+an></p>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<table border=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width:100.0%;=
+background:black">
+<tbody>
+<tr>
+<td style=3D"background:#0096ff;padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"background:lavenderblush;padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Arial Bold&quot;,serif;color:=
+black">CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE</span></b><u=
+></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Salut est il possible d&#39;avoir un retour sur notre demamde d&#39;inde=
+mnisation <u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Wed, Jan 29, 2025, 10:18=E2=80=AFa.m. Oeuf D=C3=
+=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" rel=3D"noreferrer noref=
+errer" target=3D"_blank">ooeuf.ca@gmail.com</a>&gt; wrote:<u></u><u></u></p=
+>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0c=
+m 0cm 0cm 6.0pt;margin-left:4.8pt;margin-right:0cm">
+<p>Bonjour, je vais soumettre le document a maude Robidoux=C2=A0 aujourd&#3=
+9;hui. Auriez-vous des retours sur les documents que je vous ai envoy=C3=A9=
+s ?<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jan 21, 2025, 5:23=E2=80=AFp.m. Joey Dubois =
+&lt;<a href=3D"mailto:joey.dubois@indemnipro.ca" rel=3D"noreferrer noreferr=
+er" target=3D"_blank">joey.dubois@indemnipro.ca</a>&gt; wrote:<u></u><u></u=
+></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0c=
+m 0cm 0cm 6.0pt;margin-left:4.8pt;margin-right:0cm">
+<div>
+<p class=3D"MsoNormal">Ok <u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Merci<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">Sent from my iPhone<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"width:100.0%;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=
+=3D"width:450.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"border:none;border-right:dotted #cacaca 1.0pt;padding:0cm 0cm =
+0cm 0cm">
+<div align=3D"center">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 7.5pt 7.5pt 7.5pt">
+<p align=3D"center" style=3D"margin:0cm;text-align:center"><a href=3D"https=
+://indemnipro.ca/?e=3D1" rel=3D"noreferrer noreferrer" target=3D"_blank"><s=
+pan style=3D"font-size:1.0pt;border:solid windowtext 1.0pt;padding:0cm;text=
+-decoration:none"></span></a></p>
+<div>&lt;~WRD2841.jpg&gt;</div>
+<span style=3D"font-size:1.0pt"><u></u><u></u></span>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td valign=3D"top" style=3D"padding:7.5pt 0cm 7.5pt 7.5pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#807f83">Joey=C2=A0Dubois</span></b><b><sp=
+an style=3D"font-size:1.0pt;font-family:remialcxesans;color:white">=E2=80=
+=8B</span></b><b><span style=3D"font-size:1.0pt;font-family:template-hMgY3l=
+QsEeqpTAAD_7TDWA;color:white">=E2=80=8B</span></b><b><span style=3D"font-si=
+ze:1.0pt;font-family:zone-1;color:white">=E2=80=8B</span></b><b><span style=
+=3D"font-size:1.0pt;font-family:zones-AQ;color:white">=E2=80=8B</span></b><=
+b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-seri=
+f;color:#807f83"><u></u><u></u></span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">B.=C2=A0Sc.,=C2=A0PAA/CIP<u></u><u><=
+/u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">Expert=C2=A0en=C2=A0sinistre,=C2=A0V=
+ice=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=A0Risques=C2=A0Sp=C3=
+=A9ciaux<u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"mailto:joey.dubois@indemn=
+ipro.ca" rel=3D"noreferrer noreferrer" target=3D"_blank"><span style=3D"col=
+or:#7d7d7d;text-decoration:none">joey.dubois@indemnipro.ca</span></a><u></u=
+><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#7d7d7d">Ligne=C2=A0directe<u></u><u></u><=
+/span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm;line-height:14.0pt"><span style=3D"font-size:7.5pt;f=
+ont-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">=C2=A0(T=C3=A9l./T=
+exto/T=C3=A9l=C3=A9c.)<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#7d7d7d">Sans=C2=A0frais=C2=A0<u></u><u></=
+u></span></b></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0<u></u><u></u></span></=
+p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0<u></u><u></u></span></=
+p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"tel:514-789-8888" rel=3D"=
+noreferrer noreferrer" target=3D"_blank"><span style=3D"color:#7d7d7d;text-=
+decoration:none">514-789-8888</span></a><u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">888=E2=80=91485=E2=80=915252<u></u><=
+u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">x2572<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"border-top:solid #cacaca 1.0pt;bo=
+rder-left:none;border-bottom:solid #cacaca 1.0pt;border-right:none;padding:=
+3.75pt 3.75pt 3.75pt 3.75pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#7d7d7d">IndemniPro=C2=A0Division=C2=A0des=
+=C2=A0risques=C2=A0sp=C3=A9ciaux<u></u><u></u></span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0=E2=80=93=C2=A0<u></u><u></u><=
+/span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://indemnipro.ca/?e=
+=3D1" rel=3D"noreferrer noreferrer" target=3D"_blank"><span style=3D"color:=
+#807f83;text-decoration:none">indemnipro.ca</span></a><u></u><u></u></span>=
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">Cabinet=C2=A0d&#39;expertise=C2=A0en=
+=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres<u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://urldefense.com/v3=
+/__https:/www.google.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=
+=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0uvps8ZF2FXZBUYJ9_ugsi6lfr=
+jD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5bZaJeEc$" rel=3D"noreferr=
+er noreferrer" target=3D"_blank">3400,
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0uvps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-1=
+4o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5bZaJeEc$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">boul.
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0uvps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-1=
+4o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5bZaJeEc$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">De
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0uvps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-1=
+4o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5bZaJeEc$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">Maisonneuve
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!d_gU0uvps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-1=
+4o8ZyYk6yX4OlQMnF9j6gO7xWsYZGQH1y5bZaJeEc$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">ouest
+ [google.com]</a>,=C2=A0#910<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">Montr=C3=A9al<u></u><u></u></span></=
+p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">QC<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">H3Z=C2=A03B8<u></u><u></u></span></p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"padding:3.75pt 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:7.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Ce courriel est destin=C3=A9 uniqueme=
+nt =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il est en=
+voy=C3=A9 et peut contenir de l&#39;information confidentielle ou privil=C3=
+=A9gi=C3=A9e. Toute
+ utilisation de l&#39;information par une personne ou une entit=C3=A9 autre=
+ que celle =C3=A0 laquelle elle est destin=C3=A9e est interdite. Si vous re=
+cevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9diteur=
+ et supprimer ce courriel et toute copie (=C3=A9lectronique ou
+ non) imm=C3=A9diatement.</span><span style=3D"font-size:7.0pt;font-family:=
+&quot;Arial&quot;,sans-serif;color:#7d7d7d">=E2=80=8B</span><span style=3D"=
+font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><=
+br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">This email communication i=
+s intended only for the person or entity to which it is addressed
+ and may contain confidential and/or privileged information. Any use of thi=
+s information by persons or entities other than the intended recipient is p=
+rohibited. If you received this in error, please contact the sender and del=
+ete the email and all copies (electronic
+ or otherwise) immediately.<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">On Jan 21, 2025, at 1=
+7:15, Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" rel=3D"n=
+oreferrer noreferrer" target=3D"_blank">ooeuf.ca@gmail.com</a>&gt; wrote:<u=
+></u><u></u></p>
+</blockquote>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal">=EF=BB=BF <u></u><u></u></p>
+<div>
+<table border=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width:100.0%;=
+background:black">
+<tbody>
+<tr>
+<td style=3D"background:green;padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"background:red;padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Arial Bold&quot;,serif;color:=
+black">CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE</span></b><u=
+></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>L=E2=80=99assureur m=E2=80=99a inform=C3=A9 que vous avez encaiss=C3=A9 =
+les deux ch=C3=A8ques, y compris celui qui avait =C3=A9t=C3=A9 annul=C3=A9.=
+ Avez-vous r=C3=A9gl=C3=A9 cette situation avec votre banque?<u></u><u></u>=
+</p>
+<p>D=E2=80=99apr=C3=A8s lui, le ch=C3=A8que a =C3=A9t=C3=A9 d=C3=A9pos=C3=
+=A9 la semaine derni=C3=A8re mais il n&#39;a pas encaiss=C3=A9 les fonds. I=
+l semble avoir =C3=A9t=C3=A9 envoy=C3=A9e =C3=A0 l=E2=80=99adresse suivante=
+ :<br>
+<a href=3D"https://urldefense.com/v3/__https:/www.google.com/maps/search/19=
+8,*rue*Gordon,*Montr**Aal*H4G2R3?entry=3Dgmail&amp;source=3Dg__;Kysrw6kr!!A=
+yxJxhHs7Q!d_gU0uvps8ZF2FXZBUYJ9_ugsi6lfrjD6ExSWmRzp6hf-14o8ZyYk6yX4OlQMnF9j=
+6gO7xWsYZGQH1y58iiu9Kc$" rel=3D"noreferrer noreferrer" target=3D"_blank">19=
+8,
+ rue Gordon, Montr=C3=A9al H4G2R3 [google.com]</a> <br>
+Il va v=C3=A9rifier demain avec la banque<br>
+D=C3=A9sol=C3=A9 cest un erreur de =C3=A7a part.<u></u><u></u></p>
+<p>Je vous reviens sous peu apr=C3=A8s avoir r=C3=A9vis=C3=A9 vos commentai=
+res. Toutefois, je ne vois pas de documents techniques ou de rapports des t=
+echniciens qui corroborent ces informations.<u></u><u></u></p>
+<p>Voici les coordonn=C3=A9es n=C3=A9cessaires :<u></u><u></u></p>
+<p>Frigo SPEC INC<br>
+Agent de service <br>
+Mario Santagata<br>
+(514) 999-6793<br>
+<a href=3D"mailto:msantaga@hotmail.com" rel=3D"noreferrer noreferrer" targe=
+t=3D"_blank">msantaga@hotmail.com</a>
+<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jan 21, 2025, 4:58=E2=80=AFp.m. Oeuf D=C3=A9=
+jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" rel=3D"noreferrer noreferr=
+er" target=3D"_blank">ooeuf.ca@gmail.com</a>&gt; wrote:<u></u><u></u></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0c=
+m 0cm 0cm 6.0pt;margin-left:4.8pt;margin-right:0cm">
+<p>L=E2=80=99assureur m=E2=80=99a avis=C3=A9 que vous avez encaiss=C3=A9 le=
+s deux ch=C3=A8ques (m=C3=AAme celui qui =C3=A9tait annul=C3=A9). Avez-vous=
+ r=C3=A9gl=C3=A9 cette affaire avec votre banque?<u></u><u></u></p>
+<p>Je viens d&#39;arriver aujourd&#39;hui =C3=A0 Montr=C3=A9al je vais v=C3=
+=A9rifie cette situation avec le responsable des finances, je l&#39;appelle=
+ =C3=A0 l&#39;instant et vous reviens avec la nouvelle
+<u></u><u></u></p>
+<p>Je vous reviens pour donner suite =C3=A0 ma r=C3=A9vision des vos commen=
+taires, mais je ne vois pas des documents des techniciens expliquant corrob=
+orant tout =C3=A7a.<u></u><u></u></p>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal">On Tue, Jan 21, 2025, 4:37=E2=80=AFp.m. Joey Dubois =
+&lt;<a href=3D"mailto:joey.dubois@indemnipro.ca" rel=3D"noreferrer noreferr=
+er" target=3D"_blank">joey.dubois@indemnipro.ca</a>&gt; wrote:<u></u><u></u=
+></p>
+</div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0c=
+m 0cm 0cm 6.0pt;margin-left:4.8pt;margin-right:0cm">
+<div>
+<div>
+<p class=3D"MsoNormal">L=E2=80=99assureur m=E2=80=99a avis=C3=A9 que vous a=
+vez encaiss=C3=A9 les deux ch=C3=A8ques (m=C3=AAme celui qui =C3=A9tait ann=
+ul=C3=A9). Avez-vous r=C3=A9gl=C3=A9 cette affaire avec votre banque?<u></u=
+><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Je vous reviens pour donner suite =C3=A0 ma r=C3=A9v=
+ision des vos commentaires, mais je ne vois pas des documents des technicie=
+ns expliquant corroborant tout =C3=A7a.
+<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Mes salutations,<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<p class=3D"MsoNormal">Joey<u></u><u></u></p>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"width:100.0%;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" style=
+=3D"width:450.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"border:none;border-right:dotted #cacaca 1.0pt;padding:0cm 0cm =
+0cm 0cm">
+<div align=3D"center">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 7.5pt 7.5pt 7.5pt">
+<p align=3D"center" style=3D"margin:0cm;text-align:center"><a href=3D"https=
+://indemnipro.ca/?e=3D1" rel=3D"noreferrer noreferrer" target=3D"_blank"><s=
+pan style=3D"font-size:1.0pt;border:solid windowtext 1.0pt;padding:0cm;text=
+-decoration:none"></span></a></p>
+<div>&lt;~WRD2841.jpg&gt;</div>
+<span style=3D"font-size:1.0pt"><u></u><u></u></span>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td valign=3D"top" style=3D"padding:7.5pt 0cm 7.5pt 7.5pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#807f83">Joey=C2=A0Dubois</span></b><b><sp=
+an style=3D"font-size:1.0pt;font-family:remialcxesans;color:white">=E2=80=
+=8B</span></b><b><span style=3D"font-size:1.0pt;font-family:template-hMgY3l=
+QsEeqpTAAD_7TDWA;color:white">=E2=80=8B</span></b><b><span style=3D"font-si=
+ze:1.0pt;font-family:zone-1;color:white">=E2=80=8B</span></b><b><span style=
+=3D"font-size:1.0pt;font-family:zones-AQ;color:white">=E2=80=8B</span></b><=
+b><span style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-seri=
+f;color:#807f83"><u></u><u></u></span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">B.=C2=A0Sc.,=C2=A0PAA/CIP<u></u><u><=
+/u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">Expert=C2=A0en=C2=A0sinistre,=C2=A0V=
+ice=E2=80=91Pr=C3=A9sident,=C2=A0Division=C2=A0des=C2=A0Risques=C2=A0Sp=C3=
+=A9ciaux<u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"mailto:joey.dubois@indemn=
+ipro.ca" rel=3D"noreferrer noreferrer" target=3D"_blank"><span style=3D"col=
+or:#7d7d7d;text-decoration:none">joey.dubois@indemnipro.ca</span></a><u></u=
+><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#7d7d7d">Ligne=C2=A0directe<u></u><u></u><=
+/span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm;line-height:14.0pt"><span style=3D"font-size:7.5pt;f=
+ont-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">=C2=A0(T=C3=A9l./T=
+exto/T=C3=A9l=C3=A9c.)<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#7d7d7d">Sans=C2=A0frais=C2=A0<u></u><u></=
+u></span></b></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0<u></u><u></u></span></=
+p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0:=C2=A0<u></u><u></u></span></=
+p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"tel:514-789-8888" rel=3D"=
+noreferrer noreferrer" target=3D"_blank"><span style=3D"color:#7d7d7d;text-=
+decoration:none">514-789-8888</span></a><u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"bottom" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">888=E2=80=91485=E2=80=915252<u></u><=
+u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">x2572<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"border-top:solid #cacaca 1.0pt;bo=
+rder-left:none;border-bottom:solid #cacaca 1.0pt;border-right:none;padding:=
+3.75pt 3.75pt 3.75pt 3.75pt">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><b><span style=3D"font-size:10.0pt;font-family:&quo=
+t;Verdana&quot;,sans-serif;color:#7d7d7d">IndemniPro=C2=A0Division=C2=A0des=
+=C2=A0risques=C2=A0sp=C3=A9ciaux<u></u><u></u></span></b></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0=E2=80=93=C2=A0<u></u><u></u><=
+/span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://indemnipro.ca/?e=
+=3D1" rel=3D"noreferrer noreferrer" target=3D"_blank"><span style=3D"color:=
+#807f83;text-decoration:none">indemnipro.ca</span></a><u></u><u></u></span>=
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">Cabinet=C2=A0d&#39;expertise=C2=A0en=
+=C2=A0r=C3=A8glement=C2=A0de=C2=A0sinistres<u></u><u></u></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-col=
+lapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d"><a href=3D"https://urldefense.com/v3=
+/__https:/www.google.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=
+=3Dgmail&amp;source=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuUdncqGJrm5zzSV9cbfRY9ffoB=
+jp1InyCSHr8rp3glNOr9xKptFSFCusjeUQYa07_L7rkPcAtwGete0xKq0$" rel=3D"noreferr=
+er noreferrer" target=3D"_blank">3400,
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuUdncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3gl=
+NOr9xKptFSFCusjeUQYa07_L7rkPcAtwGete0xKq0$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">boul.
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuUdncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3gl=
+NOr9xKptFSFCusjeUQYa07_L7rkPcAtwGete0xKq0$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">De
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuUdncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3gl=
+NOr9xKptFSFCusjeUQYa07_L7rkPcAtwGete0xKq0$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">Maisonneuve
+ [google.com]</a>=C2=A0<a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuUdncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3gl=
+NOr9xKptFSFCusjeUQYa07_L7rkPcAtwGete0xKq0$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">ouest
+ [google.com]</a>,=C2=A0#910<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">Montr=C3=A9al<u></u><u></u></span></=
+p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">,=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">QC<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">=C2=A0<u></u><u></u></span></p>
+</td>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:10.0pt;font-family:&quot;V=
+erdana&quot;,sans-serif;color:#7d7d7d">H3Z=C2=A03B8<u></u><u></u></span></p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" valign=3D"top" style=3D"padding:3.75pt 0cm 0cm 0cm">
+<p style=3D"margin:0cm"><span style=3D"font-size:7.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#7d7d7d">Ce courriel est destin=C3=A9 uniqueme=
+nt =C3=A0 la personne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il est en=
+voy=C3=A9 et peut contenir de l&#39;information confidentielle ou privil=C3=
+=A9gi=C3=A9e. Toute
+ utilisation de l&#39;information par une personne ou une entit=C3=A9 autre=
+ que celle =C3=A0 laquelle elle est destin=C3=A9e est interdite. Si vous re=
+cevez ce courriel par erreur, veuillez communiquer avec son exp=C3=A9diteur=
+ et supprimer ce courriel et toute copie (=C3=A9lectronique ou
+ non) imm=C3=A9diatement.</span><span style=3D"font-size:7.0pt;font-family:=
+&quot;Arial&quot;,sans-serif;color:#7d7d7d">=E2=80=8B</span><span style=3D"=
+font-size:7.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><=
+br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d"><br>
+</span><span style=3D"font-size:7.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7d7d7d">=E2=80=8B</span><span style=3D"font-size:7.0pt;font-fami=
+ly:&quot;Verdana&quot;,sans-serif;color:#7d7d7d">This email communication i=
+s intended only for the person or entity to which it is addressed
+ and may contain confidential and/or privileged information. Any use of thi=
+s information by persons or entities other than the intended recipient is p=
+rohibited. If you received this in error, please contact the sender and del=
+ete the email and all copies (electronic
+ or otherwise) immediately.<u></u><u></u></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"FR">De=C2=A0:</span></b><span lang=
+=3D"FR"> Oeuf D=C3=A9jeuner &lt;<a href=3D"mailto:ooeuf.ca@gmail.com" rel=
+=3D"noreferrer noreferrer" target=3D"_blank">ooeuf.ca@gmail.com</a>&gt;
+<br>
+<b>Envoy=C3=A9=C2=A0:</b> January 21, 2025 4:29 PM<br>
+<b>=C3=80=C2=A0:</b> Joey Dubois &lt;<a href=3D"mailto:joey.dubois@indemnip=
+ro.ca" rel=3D"noreferrer noreferrer" target=3D"_blank">joey.dubois@indemnip=
+ro.ca</a>&gt;<br>
+<b>Objet=C2=A0:</b> R=C3=A9ponse =C3=A0 vos questions</span><u></u><u></u><=
+/p>
+</div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+<div>
+<table border=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width:100.0%;=
+background:black">
+<tbody>
+<tr>
+<td style=3D"background:green;padding:.75pt .75pt .75pt .75pt"></td>
+<td style=3D"background:red;padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Arial Bold&quot;,serif;color:=
+black">CAUTION - EXTERNAL EMAIL / ATTENTION - COURRIEL EXTERNE</span></b><u=
+></u><u></u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<p class=3D"MsoNormal">Voici nos commentaires :<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 1 : Frigo p=C3=A2tisserie=C2=A0<u></u><u></u></=
+p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons obtenu de la part de votre entreprise une=
+ =C3=A9valuation pour la r=C3=A9paration de l=E2=80=99unit=C3=A9 pour 2 615=
+,00 $. Nous constatons que vous avez produit une =C3=A9valuation pour le re=
+mplacement du frigo pour un montant de 11 500,00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Le compresseur a =C3=A9t=C3=A9 remplac=C3=
+=A9. Le gaz R-22 n=E2=80=99est plus disponible, et le compresseur ainsi que=
+ l=E2=80=99=C3=A9vaporateur ne sont plus compatibles. Un remplacement est n=
+=C3=A9cessaire. Le frigidaire a caus=C3=A9 des dommages dans le local en co=
+ulant, et nous
+ avons d=C3=BB engager une compagnie pour le jeter. Nous attendons de r=C3=
+=A9gler avec vous pour pouvoir le remplacer, et le montant doit =C3=AAtre r=
+=C3=A9gl=C3=A9 avant le remplacement.</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons besoin d=E2=80=99explications de la part =
+de votre technicien =C3=A0 savoir pourquoi l=E2=80=99unit=C3=A9 n=E2=80=99=
+=C3=A9tait plus r=C3=A9parable.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 2 : Machine =C3=A0 caf=C3=A9 Curtis<u></u><u></=
+u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous comprenons que la machine =C3=A0 caf=C3=A9 pour=
+ laquelle vous aviez soumis une estimation =C3=A0 l=E2=80=99origine de 1 48=
+5,00 $ pour=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Le module et la valve de la machine ont d=
+=C3=BB =C3=AAtre remplac=C3=A9s, ainsi que la main-d&#39;=C5=93uvre.</b><u>=
+</u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><u>ITEM 2.1</u></b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><u>La machine Keurig une perte totale, avec un co=
+=C3=BBt d&#39;=C3=A9valuation de 1200 $ car l=E2=80=99=C3=A9cran tactile do=
+it =C3=AAtre remplac=C3=A9.</u></b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">la r=C3=A9paration de celle-ci est maintenant d=C3=
+=A9clar=C3=A9e perte totale. La valeur de remplacement est de 1 200,00 $.<u=
+></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 3 : Chambre de cong=C3=A9lation<u></u><u></u></=
+p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous comprenons qu=E2=80=99il y a deux (2) factures =
+reli=C3=A9es =C3=A0 la chambre de cong=C3=A9lation, soit une de 2 960,00 $ =
+et une autre de 8 320,00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>La chambre froide de 10x10 a eu son compres=
+seur, filtre et thermostat remplac=C3=A9s, ainsi que la soudure et le vide =
+effectu=C3=A9s.</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>3.1 La chambre froide de 12x16 a eu une nouvelle =
+unit=C3=A9 =C3=A0 air install=C3=A9e avec soudure, vide et main-d&#39;=C5=
+=93uvre.</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 4 : Four Tim Hortons<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avions re=C3=A7u un devis de votre part pour la=
+ r=C3=A9paration de ce four au montant de 4 635,00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>Il y a deux fours tim hortons. Les sondes et pi=
+=C3=A8ces ont =C3=A9t=C3=A9 remplac=C3=A9es sur le four, mais un probl=C3=
+=A8me persiste. Le technicien a indiqu=C3=A9 qu=E2=80=99il est impossible d=
+e continuer les r=C3=A9parations car les pi=C3=A8ces doivent =C3=AAtre comm=
+and=C3=A9es chez tim
+ hortons pour le four 4 et le four 4.1</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>Nous n=E2=80=99avons re=C3=A7u aucune autre factu=
+re, donc aucun montant ne sera allou=C3=A9 pour le moment.</b><u></u><u></u=
+></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 5 : Frigo une porte<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons obtenu la facture de 1 705,00 $.<u></u><u=
+></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Le frigidaire a subi une r=C3=A9paration au=
+ compresseur</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 6 : Machine =C3=A0 cocktail Taylor<u></u><u></u=
+></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons obtenu la facture de 3 850,00 $.<u></u><u=
+></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Le moteur et l=E2=80=99agitateur du compres=
+seur ont =C3=A9t=C3=A9 chang=C3=A9s</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 7 : Electro Freeze<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une soumission de 5 990,00 $ et=
+ n=E2=80=99avons pas re=C3=A7u de facture =C3=A0 date.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><u>Erreur, cet item n=E2=80=99est pas =C3=A0 pren=
+dre en compte. ITEM #10</u></b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><u>Item 8 : Machine =C3=A0 Slush</u></b><u></u><u=
+></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une facture de 2 340,00 $.<u></=
+u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><u>=C2=A0Il y a deux machines =C3=A0 sloche =C3=
+=A0 deux t=C3=AAtes, une t=C3=AAte par machine. Deux t=C3=AAtes ont d=C3=BB=
+ =C3=AAtre remplac=C3=A9es, ainsi que les moteurs droit et gauche.</u></b><=
+u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 9 : Four =C3=A0 pizza no.1<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons obtenu un devis de 6 700,68 $ pour la r=
+=C3=A9paration du four =C3=A0 pizza de la part de SKS.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Le four =C3=A0 pizza num=C3=A9ro 1 a =C3=A9=
+t=C3=A9 r=C3=A9par=C3=A9 par Frigospec. Les r=C3=A9parations comprenaient l=
+e blower, la soudure, le pilote, ainsi que la mise en route et les
+<a href=3D"https://urldefense.com/v3/__http:/ajustements.il__;!!AyxJxhHs7Q!=
+fcatTQ6SnmYro4KrST85zSRS3lJ-8cwlQvK50wWTBOULk7CtKKP2UxLgCjo57V_x7EkHdCVYDJq=
+Py4EmjMU8TCw$" rel=3D"noreferrer noreferrer" target=3D"_blank">
+ajustements.il [ajustements.il]</a> n&#39;=C3=A9tais pas en mesure de faire=
+ le travail sur le 2 appareil.</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>Pour le four num=C3=A9ro 2, CKS est intervenu pou=
+r le blower, le pilote et le sensor de s=C3=A9curit=C3=A9. Les frais de 6 7=
+00 $ ont =C3=A9t=C3=A9 engag=C3=A9s pour ce service. Apr=C3=A8s analyse du =
+technicien, il est impossible de continuer les travaux sur ce four, car
+ il y a un probl=C3=A8me avec le gaz et le module =C3=A9lectrique de contr=
+=C3=B4le sur l&#39;appareil les pi=C3=A8ces sont discontinu=C3=A9es.=C2=A0<=
+/b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Notez =C3=A9galement qu=E2=80=99une facture au nom d=
+e Auger au montant de 308,75 $, qui =C3=A9tait charg=C3=A9e avant la perte,=
+ sera exclue de la r=C3=A9clamation.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 10 : Machine =C3=A0 cr=C3=A8me glac=C3=A9e<u></=
+u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u la facture au montant de 5 990,=
+00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Machine =C3=A0 cr=C3=A8me glac=C3=A9e (Elec=
+trofreeze) : La machine a =C3=A9t=C3=A9 r=C3=A9par=C3=A9e par Frigospec</b>=
+<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 11 : Four =C3=A0 pizza no.2<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0 <b><u>Item non pertinent : Cet item est =C3=
+=A0 ignorer car il a d=C3=A9j=C3=A0 =C3=A9t=C3=A9 expliqu=C3=A9 sous l=E2=
+=80=99item 9.1.</u></b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Vous d=C3=A9clarez que l=E2=80=99item est perte tota=
+le pour une valeur de 29 500,00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous n=E2=80=99avons aucune expertise ni de note d=
+=E2=80=99un technicien =C3=A0 cet effet. Veuillez nous produire de plus amp=
+les informations.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avions re=C3=A7u une facture de 7 900,00 $ conc=
+ernant la r=C3=A9paration du four =C3=A0 pizza.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">S=E2=80=99agit-il d=E2=80=99une r=C3=A9paration de l=
+=E2=80=99item 11 ? Nous appr=C3=A9cierions recevoir vos commentaires =C3=A0=
+ cet effet.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 12 : Frigidaire p=C3=A2tisserie<u></u><u></u></=
+p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une estimation de votre part po=
+ur le remplacement du frigidaire de 15 933,00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Le gaz R-22 n=E2=80=99est plus disponible, =
+ce qui emp=C3=AAche le remplacement des pi=C3=A8ces du compresseur et de l=
+=E2=80=99=C3=A9vaporateur. L=E2=80=99unit=C3=A9 a coul=C3=A9 et a caus=C3=
+=A9 des dommages dans le local. Nous avons d=C3=BB la jeter et engager une =
+soci=C3=A9t=C3=A9 pour s&#39;en d=C3=A9barrasser.
+ Nous attendons la r=C3=A9gulation pour pouvoir la remplacer, et le montant=
+ doit =C3=AAtre r=C3=A9gl=C3=A9 avec vous<u>.</u></b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons besoin d=E2=80=99un rapport de technicien=
+ qui nous indique pourquoi le frigidaire en question n=E2=80=99est pas r=C3=
+=A9parable et est consid=C3=A9r=C3=A9 perte totale, avant d=E2=80=99autoris=
+er le remplacement de ce frigidaire.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 13 : Chambre froide<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avions un devis au dossier au montant de 1 700,=
+00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous n=E2=80=99avons pas encore re=C3=A7u la facture=
+.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b><u>Le gaz a =C3=A9t=C3=A9 ajout=C3=A9 et le=
+s contr=C3=B4les d=E2=80=99unit=C3=A9 ont =C3=A9t=C3=A9 effectu=C3=A9s.</u>=
+</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 14 : Installation d=E2=80=99une unit=C3=A9 AC<u=
+></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<b>Lors de la visite du sp=C3=A9cialiste en si=
+nistre, le technicien a mentionn=C3=A9 que l=E2=80=99air climatis=C3=A9 ne =
+fonctionnait plus. Compresseur surcharge Aucun air ne sortait, et le local =
+=C3=A9tait dans une chaleur suffocante sans ventilation. Le technicien,
+ apr=C3=A8s =C3=A9valuation, a conseill=C3=A9 de remplacer l=E2=80=99unit=
+=C3=A9 compl=C3=A8te, car c=E2=80=99est un mod=C3=A8le chinois et les pi=C3=
+=A8ces sont introuvable.jai trouve le mod=C3=A8le le moins co=C3=BBtant=C2=
+=A0</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u une facture =C3=A0 cet effet au=
+ montant de 1 145,00 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>Remplacement la plus rapide et =C3=A9conomique=C2=
+=A0 p=C3=A9riode de juin chaleur=C2=A0</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Pouvez-vous nous expliquer pourquoi l=E2=80=99unit=
+=C3=A9 d=E2=80=99air climatis=C3=A9 a d=C3=BB =C3=AAtre remplac=C3=A9e=C2=
+=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item15: Syst=C3=A8me =C2=AB Heat pump =C2=BB<u></u><=
+u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b>Mod=C3=A8le de remplacement de la thermopompe/Hea=
+t pump=C2=A0</b><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Un montant de 5 099,99 $ est r=C3=A9clam=C3=A9. La d=
+ate de cette facture est le 17 juin 2024.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Cette r=C3=A9paration est-elle reli=C3=A9e au sinist=
+re ? Si oui, veuillez nous fournir de plus amples d=C3=A9tails concernant l=
+a d=C3=A9faillance de l=E2=80=99=C3=A9quipement<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Item 16 : Frais<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0Le technicien est venu sur place pour effectue=
+r la visite et les r=C3=A9parations.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous avons re=C3=A7u la facture de Frimabec au monta=
+nt de 408,16 $.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Pour l=E2=80=99instant, avec les informations que no=
+us avons re=C3=A7ues =C3=A0 date, semblerait-il qu=E2=80=99un montant de 37=
+ 288.16 $ pourrait =C3=AAtre accord=C3=A9 par l=E2=80=99assureur, sujet =C3=
+=A0 leur approbation. Nous avons produit notre apport =C3=A0 cet effet.<u><=
+/u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Nous vous demandons de r=C3=A9pondre =C3=A0 nos ques=
+tions ci-haut le plus rapidement possible (svp pas avec des commentaires ra=
+pides =C3=A0 partir de votre portable). Entretemps s=E2=80=99il y a des cor=
+rections =C3=A0 apporter au niveau de notre fichier Excel veuillez
+ indiquer les changements sur ce fichier.<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">En esp=C3=A9rant le tout conforme,<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Joey Dubois<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">IndemniPro Logo<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Joey Dubois=E2=80=8B=E2=80=8B=E2=80=8B=E2=80=8B<u></=
+u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">,=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">B. Sc., PAA/CIP<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Expert en sinistre, Vice=E2=80=91Pr=C3=A9sident, Div=
+ision des Risques Sp=C3=A9ciaux<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"mailto:joey.dubois@indemnipro.ca" rel=3D"=
+noreferrer noreferrer" target=3D"_blank">joey.dubois@indemnipro.ca</a><u></=
+u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Ligne directe<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0(T=C3=A9l./Texto/T=C3=A9l=C3=A9c.)<u></u><u></=
+u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Sans frais=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0:=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0:=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">514-789-8888<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">888=E2=80=91485=E2=80=915252<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">x2572<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">IndemniPro Division des risques sp=C3=A9ciaux<u></u>=
+<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0=E2=80=93=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"http://indemnipro.ca" rel=3D"noreferrer n=
+oreferrer" target=3D"_blank">indemnipro.ca</a><u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Cabinet d&#39;expertise en r=C3=A8glement de sinistr=
+es<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"https://urldefense.com/v3/__https:/www.go=
+ogle.com/maps/search/3400,*boul.*De*Maisonneuve*ouest?entry=3Dgmail&amp;sou=
+rce=3Dg__;KysrKw!!AyxJxhHs7Q!fa4YuUdncqGJrm5zzSV9cbfRY9ffoBjp1InyCSHr8rp3gl=
+NOr9xKptFSFCusjeUQYa07_L7rkPcAtwGete0xKq0$" rel=3D"noreferrer noreferrer" t=
+arget=3D"_blank">3400,
+ boul. De Maisonneuve ouest [google.com]</a>, #910<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">,=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Montr=C3=A9al<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">,=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">QC<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">H3Z 3B8<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Ce courriel est destin=C3=A9 uniquement =C3=A0 la pe=
+rsonne ou =C3=A0 l&#39;entit=C3=A9 =C3=A0 laquelle il est envoy=C3=A9 et pe=
+ut contenir de l&#39;information confidentielle ou privil=C3=A9gi=C3=A9e. T=
+oute utilisation de l&#39;information particuli=C3=A8re=C2=A0<u></u><u></u>=
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0<u></u><u></u></p>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<div>&lt;~WRD2841.jpg&gt;</div>
+</div>
+</blockquote>
+</div>
+</div>
+
+</div>
+
+--000000000000e5d4b70653358825--

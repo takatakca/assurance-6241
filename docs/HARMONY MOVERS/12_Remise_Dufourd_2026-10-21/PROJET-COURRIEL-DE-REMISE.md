@@ -8,7 +8,7 @@ Projet à relire par le client avant envoi. Aucun courriel n’a été envoyé.
 
 Maître,
 
-Le dossier préparé en réponse à vos demandes des 5 et 20 octobre 2026 comprend une réponse numérotée pour chacun des 25 engagements, un bordereau de 216 annexes distinctes et la liste précise des documents restant à obtenir.
+Le dossier préparé en réponse à vos demandes des 5 et 20 octobre 2026 comprend une réponse numérotée pour chacun des 25 engagements, un bordereau de 312 annexes distinctes et la liste précise des documents restant à obtenir.
 
 Les pièces disponibles sont reliées aux demandes correspondantes. Les réponses distinguent les documents retrouvés, les déclarations rapportées et les analyses. Les factures successives et les copies identiques ne sont pas additionnées.
 

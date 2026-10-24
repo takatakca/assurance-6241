@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "gel": true,
+  "lectures_ooeuf": 23,
+  "lectures_takatak": 23,
+  "eml_locaux": 2,
+  "pdf_acquis": 2,
+  "ids_patch": [
+    3,
+    5,
+    22
+  ],
+  "paths_patch_existent": true,
+  "empreintes_lectures_valides": true,
+  "masquage_sysco": "Le corps du fil 22 est remplacé par les seuls repères datés; capture intégrale locale.",
+  "suggestions_gmail": "Blocs finaux 12 et 20 retirés et signalés.",
+  "sources_raw": "Conservées localement sous 99_Travail_et_collecte; ne pas publier les accès ni les liens techniques bruts."
+}

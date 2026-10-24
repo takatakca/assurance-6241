@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "apport_nouveau": "Après la recherche Takatak négative, le client a fourni directement CV-Final.docx depuis son autre compte Gmail mwb130890@gmail.com. Le nom MATTHIEU WALLACE BARNARD et les deux pages de l’aperçu concordent avec le texte OOXML. La copie du CV est disponible.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/CV-Final.docx",
+        "repere": "Deux pages dans l’aperçu Gmail; nom MATTHIEU WALLACE BARNARD; fourni le24octobre2026",
+        "apport": "CV déclaratif fourni par le client, conservé sans modification. Aucun emploi ni diplôme vérifié indépendamment.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/PROVENANCE-CV.json",
+        "repere": "Acquisition24octobre2026 depuis le compte Gmail indiqué par le client",
+        "apport": "Trace d’acquisition de la copie; ne valide pas le contenu du CV.",
+        "nature": "analyse"
+      }
+    ],
+    "manquants_maintenus": [],
+    "statut_recommande": "document_disponible",
+    "raison": "Copie du curriculum vitae demandé fournie par le client et lisible dans le DOCX et l’aperçu Gmail.",
+    "demarche_ciblee": "Joindre la copie fournie; faire confirmer au besoin par le client la version et l’exactitude des renseignements.",
+    "risques_controles": [
+      "Aucun emploi, année, diplôme, qualification ou niveau de langue vérifié indépendamment.",
+      "Le document ne comporte pas de date de rédaction/validation imprimée. Les métadonnées juillet2026 ne prouvent pas cette validation.",
+      "Aucune réécriture, correction ou signature ajoutée.",
+      "Piste Uber de mai2025 conservée comme historique de recherche, sans assimilation au CV maintenant fourni."
+    ],
+    "recherche_couverture": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/recherche-couverture.json"
+  },
+  {
+    "id": 18,
+    "apport_nouveau": "Quatre EML natifs du 5 octobre 2026 sont maintenant acquis; leur contenu administratif était déjà analysé dans le lot13. Ils précisent que les originaux WhatsApp/photos/vidéos du huissier restaient à obtenir et ne comprennent aucune pièce jointe.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d1182b2319b2.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d1182b2319b2",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d119b71c4554.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d119b71c4554",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d08a7feddb4a.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d08a7feddb4a",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/Originaux/1a10d2e36bf7f452.eml",
+        "repere": "Courriel du 5 octobre 2026; Gmail 1a10d2e36bf7f452",
+        "apport": "Original natif d’un texte administratif déjà analysé; contexte des médias restant à obtenir, aucune photo ou vidéo jointe.",
+        "nature": "original"
+      }
+    ],
+    "manquants_maintenus": [
+      "Photos/vidéos natives effectivement prises par l’huissier et détenues par Quadro, avec auteur, date et lien au PV.",
+      "Preuve de réception des médias et distinction avec la production télévisée ou d’autres photographes."
+    ],
+    "statut_recommande": "non_repere",
+    "raison": "Aucun lot média correspondant identifié. Les EML administratifs ne constituent pas les médias demandés.",
+    "demarche_ciblee": "Récupérer l’export WhatsApp et ses médias; rapprocher du mandat de Michel Gaucher et de l’intervention du 17 décembre 2025.",
+    "risques_controles": [
+      "Pas de doublon de la facture8695 ajouté.",
+      "Rapport de production au greffe distinct de médias vidéo.",
+      "Les recherches négatives n’établissent pas l’absence dans les téléphones."
+    ],
+    "recherche_couverture": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/recherche-couverture.json"
+  },
+  {
+    "id": 20,
+    "apport_nouveau": "Les recherches exactes et variantes n'ont pas retrouvé d'autorisation signée. Les notifications SPVM T25015911 concernent un signalement relatif à un aéroport et sont écartées du dossier Harmony.",
+    "pieces": [],
+    "manquants_maintenus": [
+      "Formulaire d’autorisation rempli et signé pour le rapport visé.",
+      "Signataire habilité et portée de l’autorisation validés par le cabinet."
+    ],
+    "statut_recommande": "non_repere",
+    "raison": "Aucune autorisation signée correspondant au rapport MTLEV2500487177 retrouvée.",
+    "demarche_ciblee": "Obtenir du cabinet le formulaire approprié et le faire signer par la personne habilitée.",
+    "risques_controles": [
+      "Carte du policier distincte du rapport et de l’autorisation.",
+      "Autorisation d’accès forcé à un lieu distincte de l’accès au rapport de police.",
+      "Aucune signature créée ou apposée."
+    ],
+    "recherche_couverture": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_huissier_police_cv/recherche-couverture.json"
+  }
+]

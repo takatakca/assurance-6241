@@ -1,0 +1,113 @@
+[
+  {
+    "id": 9,
+    "statut_recommande": "partiel",
+    "apport_nouveau": "Le client désigne expressément l’inventaire d’huissier pour la demande 9. Relecture des inventaires de saisie et de leurs versions; la pièce désignée est disponible, sans établir la correspondance avec U-Haul.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "p.5–6; saisie du 17 décembre 2025",
+        "apport": "18 lignes d’inventaire et destination gardien, pas une liste de véhicule U-Haul.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p.1–3; annexe II",
+        "apport": "Inventaire manuscrit et notes de découvertes après coup; numérotation distincte.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/DECLARATIONS-CLIENT.md",
+        "repere": "24 octobre 2026, complément relatif à la demande 9",
+        "apport": "Déclaration du client désignant la pièce; pas un constat de l’huissier.",
+        "nature": "declaration_client_relayee"
+      }
+    ],
+    "manquants_maintenus": [
+      "Correspondance documentée avec les équipements chargés dans le véhicule U-Haul de juin.",
+      "Confirmation de l’exhaustivité, des catégories et des éventuels recoupements avec les découvertes après coup."
+    ],
+    "raison": "Partiel proposé en raison de la pièce expressément désignée par le client; conserver la différence de date, d’opération et de portée."
+  },
+  {
+    "id": 10,
+    "statut_recommande": "partiel",
+    "apport_nouveau": "Destination historique précisée et contrôlée visuellement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "p.5–6",
+        "apport": "Saisie 1600, 55e Avenue et transport vers 5505 Irwin LaSalle a/s Kostas Kronis.",
+        "nature": "original"
+      }
+    ],
+    "manquants_maintenus": [
+      "Confirmation du lieu et du périmètre actuel des biens, ainsi que de tout déplacement ultérieur."
+    ],
+    "raison": "Le rapport relate l’opération de décembre 2025, pas une vérification de la situation actuelle."
+  },
+  {
+    "id": 16,
+    "statut_recommande": "partiel",
+    "apport_nouveau": "Comparaison des versions du PV; mention de conditions convenues, sans détail; ajout de signature dans PV_SIGNE non authentifié par cette analyse.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PV_SIGNE.pdf",
+        "repere": "p.1",
+        "apport": "Désignation de Kostas Kronis, lieu de garde, texte préimprimé sur les conditions convenues; signature supplémentaire visible.",
+        "nature": "original"
+      },
+      {
+        "path": "HARMONY MOVERS/06_Procedures_et_avocats/Archive_2026-10-05/PV-SEPARATE-ORIGINAL.pdf",
+        "repere": "p.1",
+        "apport": "Version dont la ligne de signature du gardien est vide; même événement.",
+        "nature": "original"
+      }
+    ],
+    "manquants_maintenus": [
+      "Modalités détaillées de garde, auteur/date de la signature ajoutée, confirmation de la garde actuelle."
+    ],
+    "raison": "La pièce renseigne une garde déclarée; elle ne documente pas l’ensemble des modalités actuelles."
+  },
+  {
+    "id": 18,
+    "statut_recommande": "non_repere",
+    "apport_nouveau": "Contrôle visuel intégral de RAPPORT_F/PV_SIGNE et annexes. Aucun fichier photo/vidéo natif ni constat explicite de dommages acquis dans cette sous-analyse. Déclaration client sur les dommages conservée.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Huissier_analyse_24/ANALYSE-HUISSIER.md",
+        "repere": "Contrôle p.1–12 / p.1 / annexes; section observations",
+        "apport": "Analyse de portée, ne remplace pas les médias demandés.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Documents_fournis_par_client/1000155488.jpg",
+        "repere": "Photo écran Gmail Saj 1 mai 2026",
+        "apport": "Identifie le courriel du cabinet; n’affiche ni équipement ni dommage.",
+        "nature": "document_fourni_client"
+      }
+    ],
+    "manquants_maintenus": [
+      "Photos et vidéos natives prises par l’huissier, métadonnées et repères des observations.",
+      "Rapport complémentaire distinguant dommages personnellement vus et propos rapportés, si disponible."
+    ],
+    "raison": "Un rapport de saisie et une photographie de courriel ne satisfont pas une demande de médias de l’huissier."
+  },
+  {
+    "id": 20,
+    "statut_recommande": "non_repere",
+    "apport_nouveau": "Autorisation judiciaire d’employer la force contrôlée; document distinct de l’autorisation d’accès au rapport de police.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/RAPPORT_F.pdf",
+        "repere": "p.3–4",
+        "apport": "Demande de force/serrurier/police et autorisation; pas le formulaire d’accès au dossier policier.",
+        "nature": "original"
+      }
+    ],
+    "manquants_maintenus": [
+      "Formulaire d’autorisation d’accès au rapport de police dûment signé par la personne habilitée."
+    ],
+    "raison": "L’autorisation de force publique ne donne pas aux avocats l’autorisation de récupérer le rapport de police demandée au point 20."
+  }
+]

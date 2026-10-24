@@ -1,0 +1,87 @@
+{
+  "date_acquisition": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "message_id": "1a16c3433dd4857c",
+  "source": "Téléchargement Gmail interface, ZIP obtenu par agent parent",
+  "zip_sha256": "490b0de82a0fa3bb2df7d50c90ecd691a8bc0d1e5d056ac9bd2d897079e29cc1",
+  "pieces": [
+    {
+      "filename": "1000155474.jpg",
+      "bytes": 308220,
+      "sha256": "036a9cc84e5aed0538d7dcaf693f2e8152eb38aacf3331ee435ca7c94cbf64cf",
+      "path": "Originaux/1000155474.jpg"
+    },
+    {
+      "filename": "1000155466.jpg",
+      "bytes": 409166,
+      "sha256": "e6236ab20bc6307674ed23d698948be0b1db775546e0eb5b1a5685c9532271c8",
+      "path": "Originaux/1000155466.jpg"
+    },
+    {
+      "filename": "1000155462.jpg",
+      "bytes": 524781,
+      "sha256": "6d59cf446b75aa7676b969819a3d3cafdc9b08442f18ff9440087cc8ae473955",
+      "path": "Originaux/1000155462.jpg"
+    },
+    {
+      "filename": "1000155468.jpg",
+      "bytes": 413841,
+      "sha256": "0610a3456069dbca63486ef8b4e96b81ffc89b740c49b8d87d2afaba1355c3f8",
+      "path": "Originaux/1000155468.jpg"
+    },
+    {
+      "filename": "1000155486.jpg",
+      "bytes": 658371,
+      "sha256": "ed1548ab8850c9aad4e9f6bbb92447c6aaee0c045675d4654a5b0b559ad67a13",
+      "path": "Originaux/1000155486.jpg"
+    },
+    {
+      "filename": "1000155485.jpg",
+      "bytes": 793973,
+      "sha256": "8905152ed03a81ccc80324233a537e7929140853567b5af14b3438666ce33aa0",
+      "path": "Originaux/1000155485.jpg"
+    },
+    {
+      "filename": "1000155476.jpg",
+      "bytes": 348997,
+      "sha256": "a7658feb20ecce70ace01f7b0d60aec1ea5f182705f6fa687edc038fd2675445",
+      "path": "Originaux/1000155476.jpg"
+    },
+    {
+      "filename": "1000155482.jpg",
+      "bytes": 896562,
+      "sha256": "607f6e9ef5207381b68c4d9583861036b95aafa9eb33051cb559e0f037ef3504",
+      "path": "Originaux/1000155482.jpg"
+    },
+    {
+      "filename": "1000155478.jpg",
+      "bytes": 364276,
+      "sha256": "af2afa85b66eea4ba3141cf72d8ea7b767a298a6ab69e887f6e17da19a5efdc1",
+      "path": "Originaux/1000155478.jpg"
+    },
+    {
+      "filename": "1000155470.jpg",
+      "bytes": 489214,
+      "sha256": "ce09be8c76e91e19371b9fd5df7e6a6305645febb65cc49dd5512ffbc47e2e96",
+      "path": "Originaux/1000155470.jpg"
+    },
+    {
+      "filename": "1000155464.jpg",
+      "bytes": 407742,
+      "sha256": "4e6e336a1b8d05ec3a6c9751fce5f6e7788f47f14195293c43abf696e14e2ebf",
+      "path": "Originaux/1000155464.jpg"
+    },
+    {
+      "filename": "1000155472.jpg",
+      "bytes": 340490,
+      "sha256": "762432de7a0925f9c24b15c5a2ab692f578410bb0471ef6a827adc24cc3189e8",
+      "path": "Originaux/1000155472.jpg"
+    },
+    {
+      "filename": "1000155480.jpg",
+      "bytes": 593568,
+      "sha256": "80e99432c764ad933a049a77efbca8b9fcd0e23d25b0e4b2f84535898c776682",
+      "path": "Originaux/1000155480.jpg"
+    }
+  ]
+}

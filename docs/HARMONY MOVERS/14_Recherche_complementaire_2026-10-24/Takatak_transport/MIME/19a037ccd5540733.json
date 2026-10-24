@@ -1,0 +1,910 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "19a037ccd5540733",
+    "thread_id": "19a037ccd5540733",
+    "label_ids": [
+      "IMPORTANT",
+      "CATEGORY_PERSONAL",
+      "INBOX"
+    ],
+    "snippet": "---------- Forwarded message --------- From: Accounting @ Harmony Movers &lt;accounting@harmonymovers.com&gt; Date: Fri, Aug 15, 2025, 15:17 Subject: Re[5]: Situation de transport 12 Juin 2025 To:",
+    "history_id": "3420387",
+    "internal_date": "1760995086000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/mixed",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a02:cf9d:0:b0:5a7:6819:a229 with SMTP id w29csp2691794jar;        Mon, 20 Oct 2025 14:18:23 -0700 (PDT)"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a53:c090:0:b0:63e:1031:9a40 with SMTP id 956f58d0204a3-63e162649f5mr8877006d50.57.1760995102031;        Mon, 20 Oct 2025 14:18:22 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1760995101; cv=none;        d=google.com; s=arc-20240605;        b=McO4J4DN0QYplYOILgvrkkBgpkqBv3zAKE2Z/XvL6iRrgDb/IpDmt6tvcRWYRC1BHF         lP1VqzRAMztmtNrQtKsi0qAml90qqGfLDIf2E8i06jRLp1fZHc0Iw2J1KhyQ3/9JQvgp         Eqr8SO4W2kXJrtdX3sL73h/YBjR+pWt/JAyzw3ZLkilOCD8q5a2DRcFZsBoG/qLbt4Oe         MqmaEZZZAbVM8lSDiXTxWuk5Lk+R1qhB03ebDXawuR9lDityj6vlk9v3KUn3lSuvL34o         nvAnfyrNnjGtkg4HSaLlWgVzXlL6ORs0cwjrkEzvUmffrkHJ7IuIAjHJOuEI1QOgH/el         GSgg=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=REmupm6L+aIA/Wladz1xAXmWA2y6jk3UfPgwgVPX5VY=;        fh=xU/5uRDcKzq25whTgSg6IA+cCzKigzZ75uDJO7GO9gY=;        b=DAvNcjI6h+urI1+jdE/0QdNNy64sqp0v09ejvXkFu1UvwC0em3uQ2Vw6pqdUbfEQxG         AXvz1XFjV8l+6AfR1KE0G0xgnEPPII5cp9BJmO/F9sFrxXPALF+kNIQf/93OmMtrkN90         aAcU2JXCI79NfAmJDoO5sOj5DWIdFxgqWOvyEV0uRY+AO1bDwLiVOTk/PUOsooSBF526         E0BxG+VnEQKBZOdo7q98MlwKP4rm588qeSJnCjQqrDXn7p2mC/siDzM/8Vuh1PpSeTKq         DFX2CYkgsJiPlq1d9ZLsYaQJLjjeNxnZPDRf4t7ZyHggHybw5BpBt5W6fPuT7qWAMTJm         MB9Q==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=VA1ZL42o;       spf=pass (google.com: domain of plevesquemtl@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=plevesquemtl@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<plevesquemtl@gmail.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id 956f58d0204a3-63e2651baa5sor3182618d50.0.2025.10.20.14.18.21        for <takatak.ca@gmail.com>        (Google Transport Security);        Mon, 20 Oct 2025 14:18:21 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of plevesquemtl@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=VA1ZL42o;       spf=pass (google.com: domain of plevesquemtl@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=plevesquemtl@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20230601; t=1760995101; x=1761599901; dara=google.com;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :from:to:cc:subject:date:message-id:reply-to;        bh=REmupm6L+aIA/Wladz1xAXmWA2y6jk3UfPgwgVPX5VY=;        b=VA1ZL42ozudRppgC4hwfg4ZsX4DBDNAU++u+q6h5tuDBqXn6RDNIEgSugzVut/jJBC         yAhXu7tK4Lny5i/LvPVM4OAu1YszhWQ6OdP70Akq/G0k17+fuJ8PbqSVmcRBOCBiyZ/o         fMzoMvCCGFrvA+2JsPGf1WdaQLR9VNzYpfe/9X6kuN+ZJ3tvKlSTeoJNHhFbrV07Lz3U         vaUIAH9Ow+AVI6IgxRaDErZoqdzdqFaOefJmCtCpbi8NrtZ6py0JhfHXhQkxKwmn9/oL         0J4hgoEVmTvOEklEu3XX+uWCFd1g+ewUux7WFECq1xPfkxt8ruapQKuj7MazDOZG054i         It1w=="
+        },
+        {
+          "name": "X-Google-DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1760995101; x=1761599901;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=REmupm6L+aIA/Wladz1xAXmWA2y6jk3UfPgwgVPX5VY=;        b=fSv58eTJvGYw4Osfg/ITMgjRhEqzoFz52QsErf4w1M/hm+fSNLqroYw7a73xoifEj2         xXPTetkBhMipiD1Giay/7cIwJWaSRZx5pPb+kYyJxY4Uxzm8W7qjnioG7VZ6+FNOyzCI         vNr6TEgFEpa+Fyex+SlCrprtegQFgb74SefNhPKLo5rmQ9WqygN9q3Gx7+0hnn6+25zn         z/SyHuNmRaClSh+RAlrUOX//VMdw0rKGGoDb0O/BkyZcLN3SesKVKHKUJLEHgd0NaG1H         CnlIH2ZGj8YjFvf1q4EvOr9lkCoJQuYEqhuXATBCiqTNT/ZTtx8iDTZrtRQd4wtFNvhw         qExw=="
+        },
+        {
+          "name": "X-Gm-Message-State",
+          "value": "AOJu0Yw5g47kXXaU3Y8yn4E4dBM5Vt26e9DqaVH2yC+UgGIN/Y6KsWqj Jkzki/v7maApLcJdsJ0vhnVw0k/0WmfMmhpZHIk+doYcXVRmnpCbHihTWQGLEoNZBd9+EFEZbXI VTjeGJ+eL49D8cKYjGqFYbNa7gFxQwHU2aQ=="
+        },
+        {
+          "name": "X-Gm-Gg",
+          "value": "ASbGncupeezQNfvxVajUqRA5gr37q3EdMtzT7Z+AjGQkpW5TbGIAVtX/OOJqJuBMeS6 GXBTvm/H/9CcE59Dat49y/K4q3i8brE3SWgCUoNomzsxxpZ/Uxi4NEZTv3znwRAJroB8VOe9nNE /BuKGs5zGhmbpE/7G6hcEWKUJqIA8tIaQJlGsWdf+76atdTNtvNpgReB2kO4YWXM9U5Ez3PIZxk aUZ103oT0CK9Om2646QUXU/oPde5U80rSqrfN6A6FczMH1I1XGfwuIfBkf35QMvmtO0ZmegqFUz uwgQkiXP8JzQIW/047aoozcSJkZdNA=="
+        },
+        {
+          "name": "X-Google-Smtp-Source",
+          "value": "AGHT+IE0/ZAL0vVh4Nz+GhrLIWQNbzRXyDzgGg6P5XT3CH7vELVZAR+gTXc3z2c6B4Ql9cpOfA2YEOEeG7shOoLQ2AY="
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a05:690e:134b:b0:63e:33a7:cdd8 with SMTP id 956f58d0204a3-63e33a7d888mr4766448d50.10.1760995098790; Mon, 20 Oct 2025 14:18:18 -0700 (PDT)"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "References",
+          "value": "<em7402f155-6b86-4af4-a6fc-1275d7d6a259@e2601ae4.com> <YTBPR01MB284746FA16AA019797A2D566CA34A@YTBPR01MB2847.CANPRD01.PROD.OUTLOOK.COM> <em7a8b366b-13b5-4721-af59-05ee7e032880@e2601ae4.com>"
+        },
+        {
+          "name": "In-Reply-To",
+          "value": "<em7a8b366b-13b5-4721-af59-05ee7e032880@e2601ae4.com>"
+        },
+        {
+          "name": "From",
+          "value": "Pierre Levesque <plevesquemtl@gmail.com>"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 20 Oct 2025 17:18:06 -0400"
+        },
+        {
+          "name": "X-Gm-Features",
+          "value": "AS18NWD3DPn6up1xTdMydnQV5GsMS-zuCaV3Ry0bnH3TMSn8IZ0PU_ri12vsV3Y"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<CABk9b5zjZVh2=JZejsxibRepBEAgWUmkOsL09XqVV4ZJk_ZfQA@mail.gmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Fwd: Re[5]: Situation de transport 12 Juin 2025"
+        },
+        {
+          "name": "To",
+          "value": "\"TAKATAK.CA\" <takatak.ca@gmail.com>"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/mixed; boundary=\"00000000000052309b06419d9fed\""
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "multipart/related",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/related; boundary=\"00000000000052309b06419d9fec\""
+            }
+          ],
+          "body": {
+            "size": 0,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": [
+            {
+              "part_id": "0.0",
+              "mime_type": "multipart/alternative",
+              "filename": "",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "multipart/alternative; boundary=\"00000000000052309906419d9feb\""
+                }
+              ],
+              "body": {
+                "size": 0,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": null
+              },
+              "read_attachment_supported": null,
+              "parts": [
+                {
+                  "part_id": "0.0.0",
+                  "mime_type": "text/plain",
+                  "filename": "",
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "text/plain; charset=\"UTF-8\""
+                    },
+                    {
+                      "name": "Content-Transfer-Encoding",
+                      "value": "quoted-printable"
+                    }
+                  ],
+                  "body": {
+                    "size": 28499,
+                    "base64_url_content": null,
+                    "content": "---------- Forwarded message ---------\r\nFrom: Accounting @ Harmony Movers <accounting@harmonymovers.com>\r\nDate: Fri, Aug 15, 2025, 15:17\r\nSubject: Re[5]: Situation de transport 12 Juin 2025\r\nTo: plevesquemtl@gmail.com <plevesquemtl@gmail.com>\r\nCc: Oeuf Déjeuner <ooeuf.ca@gmail.com>, Service @ Harmony Movers <\r\nservice@harmonymovers.com>\r\n\r\n\r\nBonjour\r\n\r\nComme l’entente initiale prévoyait l’entreposage jusqu’au 25 juillet et que\r\nnous n’avons pas reçu de nouvelles de votre part, malgré un suivi effectué\r\npar courriel, nous devons malheureusement vous facturer les frais liés à\r\nl’occupation de notre entrepôt.\r\n\r\nEn juin, nous vous avions informé d’un tarif de 850$/mois pour\r\nl’entreposage. Or, au 15 août 2025, aucun mois d’entreposage n’a encore été\r\nfacturé sauf pour la nuitée dans le camion, qui ne constitue pas un\r\nentreposage normal. Mercredi prochain, soit le 20 août, correspond\r\nnormalement à la facturation d’un troisième mois.\r\n\r\nDans un esprit de conciliation, nous vous proposons un montant forfaitaire\r\nde 1 000$ + taxes, alors que le montant régulier pour les deux mois durant\r\nlesquels vos biens sont demeurés dans notre entrepôt s’élèverait à environ\r\n1 700$.\r\n\r\nCette offre constitue notre proposition finale et demeure valide jusqu’au\r\n20 août. Passé cette date, nous serons dans l’obligation de facturer\r\nl’entièreté des opérations réalisées dans le cadre de cette intervention.\r\nBien que nous ayons déjà prolongé gracieusement l’échéance jusqu’au 25\r\njuillet, l’occupation de notre espace d’entreposage entraîne des coûts\r\nréels que nous ne pouvons assumer indéfiniment, et l’absence de réponse de\r\nvotre part ne nous permet pas de retarder davantage cette facturation.\r\n\r\n\r\n\r\nVous retrouverez la facture ajustée à ce lien et en pièce jointe:\r\nhttps://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db\r\n\r\n\r\n\r\nDe plus, sachez que ce montant additionnel n’inclut pas l’intervention de\r\nnos déménageurs dans le chargement de votre conteneur. Dans l’éventualité\r\nque vous voudriez contracter nos équipes afin de charger le conteneur à\r\nnotre entrepôt, nous pourrions vous offrir ce service au montant fixe de *975$\r\n+ taxes*.\r\n\r\n\r\n\r\nFinalement, avant toute intervention, incluant celle d’AKA Moving, nous\r\ndemandons le règlement intégral de la facture ci-jointe.\r\n\r\n\r\n\r\nNous restons à votre disposition pour toute question éventuelle\r\n\r\n\r\n\r\nBien à vous\r\n\r\n*Lev Jampolsky*\r\n\r\nDirecteur Administratif - Administrative Director\r\n\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n*Phone: *(514)\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n866-5550 ext. 107\r\n\r\n1600 55e Avenue\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\nLachine, QC H8T 3J5\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Email: **accounting@harmonymovers.com* <accounting@harmonymovers.com>\r\n\r\n*Web:* www.harmonymovers.com\r\n\r\nDéménagement Résidentiel – Residential Moving | Entreposage – Storage|\r\nObjets Lourds - Heavy Items | Crane – Grue\r\n\r\nDéménagement Martineau et EZ Move font maintenant partie de la famille\r\nHarmony Movers!\r\n\r\nDéménagement Martineau & EZ Move are now part of the Harmony Movers family!\r\n\r\nSuivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram\r\n\r\n[image: Icon Description automatically generated]\r\n<https://www.facebook.com/harmonymoversinc>      [image: Icon Description\r\nautomatically generated]\r\n<https://www.instagram.com/harmonymovers_transportez/>\r\n\r\n[image: Title: Hexagon bar - Description: Hexagon bar]\r\n\r\n\r\n\r\n*Confidentiality Warning :*\r\nThis message and any attachments herein are the sole property of Transport\r\nEZ / Harmony Movers and are intended solely for the named recipients or\r\nentity to which this message is addressed.  If you have received this\r\nmessage in error, please inform the sender via e-mail and destroy the\r\nmessage.  If you are not the intended recipient, you are hereby notified\r\nthat the use, copying or disclosure of the contents or attachments in whole\r\nor in part of this message is strictly prohibited.\r\n\r\n\r\n*Information confidentielle: *Ce message et toutes les pièces jointes qu'il\r\ncontient sont la propriété exclusive de Transport EZ / Harmony Movers et\r\nsont destinés uniquement aux destinataires nommés ou à l'entité à laquelle\r\nce message est adressé. Si vous avez reçu ce message par erreur, veuillez\r\nen informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes\r\npas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou\r\nla divulgation du contenu ou des pièces jointes en tout ou en partie de ce\r\nmessage est strictement interdite.\r\n\r\n\r\n------ Original Message ------\r\nFrom \"Accounting @ Harmony Movers\" <accounting@harmonymovers.com>\r\nTo \"plevesquesmtl@gmail.com\" <plevesquesmtl@gmail.com>\r\nCc \"Oeuf Déjeuner\" <ooeuf.ca@gmail.com>; \"Service @ Harmony Movers\" <\r\nservice@harmonymovers.com>\r\nDate 2025-08-15 2:15:28 PM\r\nSubject RE: RE: Re[2]: Situation de transport 12 Juin 2025\r\n\r\nBonjour\r\n\r\nComme l’entente initiale prévoyait l’entreposage jusqu’au 25 juillet et que\r\nnous n’avons pas reçu de nouvelles de votre part, malgré un suivi effectué\r\npar courriel, nous devons malheureusement vous facturer les frais liés à\r\nl’occupation de notre entrepôt.\r\n\r\nEn juin, nous vous avions informé d’un tarif de 850$/mois pour\r\nl’entreposage. Or, au 15 août 2025, aucun mois d’entreposage n’a encore été\r\nfacturé sauf pour la nuitée dans le camion, qui ne constitue pas un\r\nentreposage normal. Mercredi prochain, soit le 20 août, correspond\r\nnormalement à la facturation d’un troisième mois.\r\n\r\nDans un esprit de conciliation, nous vous proposons un montant forfaitaire\r\nde 1 000$ + taxes, alors que le montant régulier pour les deux mois durant\r\nlesquels vos biens sont demeurés dans notre entrepôt s’élèverait à environ\r\n1 700$.\r\n\r\nCette offre constitue notre proposition finale et demeure valide jusqu’au\r\n20 août. Passé cette date, nous serons dans l’obligation de facturer\r\nl’entièreté des opérations réalisées dans le cadre de cette intervention.\r\nBien que nous ayons déjà prolongé gracieusement l’échéance jusqu’au 25\r\njuillet, l’occupation de notre espace d’entreposage entraîne des coûts\r\nréels que nous ne pouvons assumer indéfiniment, et l’absence de réponse de\r\nvotre part ne nous permet pas de retarder davantage cette facturation.\r\n\r\n\r\n\r\nVous retrouverez la facture ajustée à ce lien et en pièce jointe:\r\nhttps://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db\r\n\r\n\r\n\r\nDe plus, sachez que ce montant additionnel n’inclut pas l’intervention de\r\nnos déménageurs dans le chargement de votre conteneur. Dans l’éventualité\r\nque vous voudriez contracter nos équipes afin de charger le conteneur à\r\nnotre entrepôt, nous pourrions vous offrir ce service au montant fixe de *975$\r\n+ taxes*.\r\n\r\n\r\n\r\nFinalement, avant toute intervention, incluant celle d’AKA Moving, nous\r\ndemandons le règlement intégral de la facture ci-jointe.\r\n\r\n\r\n\r\nNous restons à votre disposition pour toute question éventuelle\r\n\r\n\r\n\r\nBien à vous\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Lev Jampolsky*\r\n\r\nDirecteur Administratif - Administrative Director\r\n\r\n*Phone: *(514) 866-5550 ext. 107\r\n\r\n1600 55e Avenue\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\nLachine, QC H8T 3J5\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Email: **accounting@harmonymovers.com* <accounting@harmonymovers.com>\r\n\r\n*Web:* www.harmonymovers.com\r\n\r\nDéménagement Résidentiel – Residential Moving | Entreposage – Storage|\r\nObjets Lourds - Heavy Items | Crane – Grue\r\n\r\nDéménagement Martineau et EZ Move font maintenant partie de la famille\r\nHarmony Movers!\r\n\r\nDéménagement Martineau & EZ Move are now part of the Harmony Movers family!\r\n\r\nSuivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram\r\n\r\n[image: Icon Description automatically generated]\r\n<https://www.facebook.com/harmonymoversinc>      [image: Icon Description\r\nautomatically generated]\r\n<https://www.instagram.com/harmonymovers_transportez/>\r\n\r\n[image: Title: Hexagon bar - Description: Hexagon bar]\r\n\r\n\r\n\r\n*Confidentiality Warning :*\r\nThis message and any attachments herein are the sole property of Transport\r\nEZ / Harmony Movers and are intended solely for the named recipients or\r\nentity to which this message is addressed.  If you have received this\r\nmessage in error, please inform the sender via e-mail and destroy the\r\nmessage.  If you are not the intended recipient, you are hereby notified\r\nthat the use, copying or disclosure of the contents or attachments in whole\r\nor in part of this message is strictly prohibited.\r\n\r\n\r\n*Information confidentielle: *Ce message et toutes les pièces jointes qu'il\r\ncontient sont la propriété exclusive de Transport EZ / Harmony Movers et\r\nsont destinés uniquement aux destinataires nommés ou à l'entité à laquelle\r\nce message est adressé. Si vous avez reçu ce message par erreur, veuillez\r\nen informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes\r\npas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou\r\nla divulgation du contenu ou des pièces jointes en tout ou en partie de ce\r\nmessage est strictement interdite.\r\n\r\n\r\n\r\n\r\n\r\n*From:* Accounting @ Harmony Movers <accounting@harmonymovers.com>\r\n*Sent:* August 15, 2025 11:02 AM\r\n*To:* plevesquesmtl@gmail.com\r\n*Cc:* Service @ Harmony Movers <service@harmonymovers.com>; Oeuf Déjeuner <\r\nooeuf.ca@gmail.com>\r\n*Subject:* Fw: RE: Re[2]: Situation de transport 12 Juin 2025\r\n\r\n\r\n\r\nBonjour, voilà la copie du courriel envoyé le 22 Juillet. SVP confirmer sa\r\nréception.\r\n\r\n\r\n\r\n*Bonjour*\r\n\r\n\r\n\r\n\r\n\r\n*Comme convenu aujourd’hui dans le cadre de notre entente à l’amiable,\r\nveuillez trouver ci-joint la facture.  Le paiement peut être effectué\r\ndirectement en suivant ce lien:*\r\n\r\n\r\n\r\n*https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db\r\n<https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db>*\r\n\r\n\r\n\r\n*Pour rappel, voici les modalités convenues -*\r\n\r\n\r\n\r\n*• Un transporteur mandaté par vos soins pourra venir récupérer l’ensemble\r\nde vos biens à notre entrepôt. Aucune autre intervention (par exemple,\r\nlivraison à un autre endroit, ou collecte d'autres biens vous appartenant\r\nqui ne sont pas déjà entreposés chez nous) n’est incluse dans cette\r\nentente.*\r\n\r\n*• Le chargement de vos biens dans ces camions sera entièrement sous la\r\nresponsabilité de ce transporteur. De notre côté, un surintendant sera\r\nprésent sur place pour superviser l’opération. Cette supervision\r\nn’incombera pas de frais supplémentaires et aucun membre de notre équipe\r\nn’assistera votre transporteur dans le chargement des biens.*\r\n\r\n*• Une fois les biens récupérés et chargés dans les camions du transporteur\r\nmandaté, notre relation d’affaires prendra fin.*\r\n\r\n*De plus, avant d'autoriser l'accès à notre entrepôt, les conditions\r\nsuivantes devront être remplies:*\r\n\r\n*• La facture devra être entièrement réglée*\r\n\r\n*• Le nom de la société de transport devra nous être transmis*\r\n\r\n*• Les noms des intervenants qui se présenteront sur place devront être\r\ncommuniqués, avec un préavis d’au moins 24 heures*\r\n\r\n\r\n\r\n*Finalement, cette intervention demeure possible jusqu’au Vendredi le 25\r\nJuillet 2025 12:00, heure de l’est. Faute de quoi, cette entente sera\r\ninvalidée. Merci de bien vouloir confirmer la réception de ce courriel et\r\nde procéder au paiement à votre convenance*\r\n\r\n\r\n\r\n\r\n\r\nLa facture vient également d'être envoyée à cette adresse courriel. Si vous\r\npréférez régler la facture par téléphone, nous pouvons le faire également.\r\n\r\n\r\n\r\nMerci\r\n\r\n\r\n\r\n\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Lev Jampolsky*\r\n\r\nDirecteur Administratif - Administrative Director\r\n\r\n*Phone: *(514) 866-5550 ext. 107\r\n\r\n1600 55e Avenue\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\nLachine, QC H8T 3J5\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Email: **accounting@harmonymovers.com* <accounting@harmonymovers.com>\r\n\r\n*Web:* www.harmonymovers.com\r\n\r\nDéménagement Résidentiel – Residential Moving | Entreposage – Storage|\r\nObjets Lourds - Heavy Items | Crane – Grue\r\n\r\nDéménagement Martineau et EZ Move font maintenant partie de la famille\r\nHarmony Movers!\r\n\r\nDéménagement Martineau & EZ Move are now part of the Harmony Movers family!\r\n\r\nSuivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram\r\n\r\n[image: Icon Description automatically generated]\r\n<https://www.facebook.com/harmonymoversinc>      [image: Icon Description\r\nautomatically generated]\r\n<https://www.instagram.com/harmonymovers_transportez/>\r\n\r\n[image: Title: Hexagon bar - Description: Hexagon bar]\r\n\r\n\r\n\r\n*Confidentiality Warning :*\r\nThis message and any attachments herein are the sole property of Transport\r\nEZ / Harmony Movers and are intended solely for the named recipients or\r\nentity to which this message is addressed.  If you have received this\r\nmessage in error, please inform the sender via e-mail and destroy the\r\nmessage.  If you are not the intended recipient, you are hereby notified\r\nthat the use, copying or disclosure of the contents or attachments in whole\r\nor in part of this message is strictly prohibited.\r\n\r\n\r\n*Information confidentielle: *Ce message et toutes les pièces jointes qu'il\r\ncontient sont la propriété exclusive de Transport EZ / Harmony Movers et\r\nsont destinés uniquement aux destinataires nommés ou à l'entité à laquelle\r\nce message est adressé. Si vous avez reçu ce message par erreur, veuillez\r\nen informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes\r\npas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou\r\nla divulgation du contenu ou des pièces jointes en tout ou en partie de ce\r\nmessage est strictement interdite.\r\n\r\n\r\n\r\n\r\n\r\n------ Forwarded Message ------\r\n\r\nFrom \"Accounting @ Harmony Movers\" <accounting@harmonymovers.com>\r\n\r\nTo \"Oeuf Déjeuner\" <ooeuf.ca@gmail.com>\r\n\r\nCc \"Service @ Harmony Movers\" <service@harmonymovers.com>\r\n\r\nDate 2025-07-22 4:20:00 PM\r\n\r\nSubject RE: Re[2]: Situation de transport 12 Juin 2025\r\n\r\n\r\n\r\nBonjour\r\n\r\n\r\n\r\nComme convenu aujourd’hui dans le cadre de notre entente à l’amiable,\r\nveuillez trouver ci-joint la facture.\r\n\r\nLe paiement peut être effectué directement en suivant ce lien:\r\n\r\n\r\n\r\nhttps://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db\r\n\r\n\r\n\r\nPour rappel, voici les modalités convenues -\r\n\r\n\r\n\r\n• Un transporteur mandaté par vos soins pourra venir récupérer l’ensemble\r\nde vos biens à notre entrepôt. Aucune autre intervention (par exemple,\r\nlivraison à un autre endroit, ou collecte d'autres biens vous appartenant\r\nqui ne sont pas déjà entreposés chez nous) n’est incluse dans cette entente.\r\n\r\n• Le chargement de vos biens dans ces camions sera entièrement sous la\r\nresponsabilité de ce transporteur. De notre côté, un surintendant sera\r\nprésent sur place pour superviser l’opération. Cette supervision\r\nn’incombera pas de frais supplémentaires et aucun membre de notre équipe\r\nn’assistera votre transporteur dans le chargement des biens.\r\n\r\n• Une fois les biens récupérés et chargés dans les camions du transporteur\r\nmandaté, notre relation d’affaires prendra fin.\r\n\r\nDe plus, avant d'autoriser l'accès à notre entrepôt, les conditions\r\nsuivantes devront être remplies:\r\n\r\n• La facture devra être entièrement réglée\r\n\r\n• Le nom de la société de transport devra nous être transmis\r\n\r\n• Les noms des intervenants qui se présenteront sur place devront être\r\ncommuniqués, avec un préavis d’au moins 24 heures\r\n\r\nFinalement, cette intervention demeure possible jusqu’au Vendredi le 25\r\nJuillet 2025 12:00, heure de l’est. Faute de quoi, cette entente sera\r\ninvalidée.\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\nMerci de bien vouloir confirmer la réception de ce courriel et de procéder\r\nau paiement à votre convenance\r\n\r\n\r\n\r\n*Lev Jampolsky*\r\n\r\nDirecteur Administratif – Administrative Director\r\n\r\n*Phone: *(514) 866-5550 ext. 107\r\n\r\n1600 55e Avenue\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\nLachine, QC H8T 3J5\r\n<https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Email: accounting@harmonymovers.com <accounting@harmonymovers.com>*\r\n\r\n*Web:* www.harmonymovers.com\r\n\r\nDéménagement Résidentiel – Residential Moving | Entreposage – Storage|\r\nObjets Lourds - Heavy Items | Crane – Grue\r\n\r\nDéménagement Martineau et EZ Move font maintenant partie de la famille\r\nHarmony Movers!\r\n\r\nDéménagement Martineau & EZ Move are now part of the Harmony Movers family!\r\n\r\nSuivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram\r\n\r\n[image: Icon Description automatically generated]\r\n<https://www.facebook.com/harmonymoversinc>      [image: Icon Description\r\nautomatically generated]\r\n<https://www.instagram.com/harmonymovers_transportez/>\r\n\r\n[image: Title: Hexagon bar - Description: Hexagon bar]\r\n\r\n\r\n\r\n*Confidentiality Warning :*\r\nThis message and any attachments herein are the sole property of Transport\r\nEZ / Harmony Movers and are intended solely for the named recipients or\r\nentity to which this message is addressed.  If you have received this\r\nmessage in error, please inform the sender via e-mail and destroy the\r\nmessage.  If you are not the intended recipient, you are hereby notified\r\nthat the use, copying or disclosure of the contents or attachments in whole\r\nor in part of this message is strictly prohibited.\r\n\r\n\r\n*Information confidentielle: *Ce message et toutes les pièces jointes qu'il\r\ncontient sont la propriété exclusive de Transport EZ / Harmony Movers et\r\nsont destinés uniquement aux destinataires nommés ou à l'entité à laquelle\r\nce message est adressé. Si vous avez reçu ce message par erreur, veuillez\r\nen informer l'expéditeur par e-mail et détruire le message. Si vous n'êtes\r\npas le destinataire prévu, vous êtes informé que l'utilisation, la copie ou\r\nla divulgation du contenu ou des pièces jointes en tout ou en partie de ce\r\nmessage est strictement interdite.\r\n\r\n\r\n\r\n\r\n\r\n*From:* Oeuf Déjeuner <ooeuf.ca@gmail.com>\r\n*Sent:* June 14, 2025 8:59 AM\r\n*To:* Service @ Harmony Movers <service@harmonymovers.com>\r\n*Cc:* Accounting @ Harmony Movers <accounting@harmonymovers.com>\r\n*Subject:* Re: Re[2]: Situation de transport 12 Juin 2025\r\n\r\n\r\n\r\nQuadro Holding ltée c. Harmony Movers\r\nDate de service : 12 juin 2025\r\n---\r\n\r\nObjet : Mise en demeure avec délai final – Livraison complète attendue\r\navant le 13 juin 2025\r\n\r\nMadame, Monsieur,\r\n\r\nNous faisons suite à vos courriels concernant le dossier #QT1076, et\r\nsouhaitons vous fournir une position finale claire et sans équivoque.\r\n\r\n---\r\n\r\n1. Contrat initial toujours en vigueur\r\n\r\nLe contrat signé (QT1076) entre Quadro Holding ltée et Harmony Movers\r\ndemeure pleinement en vigueur jusqu’à la signature d’un nouvel accord écrit\r\net approuvé par le signataire officiel.\r\nAucune modification verbale ou entente parallèle ne remplace le contrat\r\nsigné.\r\n\r\n---\r\n\r\n2. Exigence de livraison complète avant vendredi 13 juin 2025 à midi\r\n\r\nNous exigeons :\r\n\r\nLa livraison complète de tous les équipements conformément à l’adresse\r\nindiquée dans le contrat : 5007 rue Irwin\r\n<https://www.google.com/maps/search/5007+rue+Irwin?entry=gmail&source=g>\r\n\r\nLe vidage intégral de l’emplacement commercial, y compris les équipements\r\nlourds\r\n\r\nL’usage d’un véhicule adéquat pour finaliser le service sans report\r\n\r\n---\r\n\r\n3. Paiement autorisé avec ajustement encadré\r\n\r\nNous confirmons notre volonté de régler un total de 1 842,50 $ CAD, basé\r\nsur 6,7 heures de travail réel.\r\nNous vous autorisons jusqu’à 3 heures additionnelles, au tarif horaire\r\ncontractuel de 275 $/heure, si :\r\n\r\nLe travail est intégralement complété dans le délai imparti\r\n\r\nLe camion requis est déployé sans délai\r\n\r\n👉 Ainsi, le total final autorisé pourra aller jusqu’à 2 667,50 $ CAD si la\r\nlivraison complète est exécutée dans les règles.\r\n\r\n---\r\n\r\n4. Acceptation des frais d’équipement à condition de livraison complète\r\n\r\nLes frais de surcharge d’équipement (ex. manutention lourde) pourront être\r\najoutés à la facture uniquement si tous les équipements sont livrés, comme\r\nconvenu.\r\n\r\nEn revanche, nous rejetons catégoriquement :\r\n\r\nTout frais d’immobilisation\r\n\r\nTout frais d’entreposage anticipé\r\n\r\nTout coût de déchargement interne non prévu au contrat\r\n\r\n---\r\n\r\n5. Retenue des biens = rapport de police déposé\r\n\r\nLa non-livraison du matériel, combinée à une déviation non autorisée du\r\ntrajet prévu, a entraîné aujourd’hui le dépôt d’un rapport de police, pour :\r\n\r\nRétention non autorisée\r\n\r\nAppropriation temporaire sans droit\r\n\r\nNon-respect d’un contrat commercial signé\r\n\r\nToutes les preuves, captures d’échanges et documents officiels ont été\r\nconservés pour usage juridique.\r\n\r\n---\r\n\r\n6. Délai final\r\n\r\nVous avez jusqu’au vendredi 13 juin 2025 à 12 h 00 (midi) pour :\r\n\r\nLivrer intégralement les équipements\r\n\r\nRespecter l’adresse et les termes contractuels\r\n\r\nFinaliser le service conformément au mandat signé\r\n\r\nAucune négociation ne sera acceptée au-delà de ce cadre.\r\n\r\n---\r\n\r\nConclusion\r\n\r\nMerci de considérer cette lettre comme mise en demeure ferme avec option de\r\nrèglement équitable.\r\nPassé ce délai, nous n’assurerons plus notre disponibilité hors voie\r\njudiciaire.\r\n\r\n---\r\n\r\nQuadro Holding ltée\r\nSignataire autorisé : M. Pierre Lévesque\r\nCourriel : ooeuf.ca@gmail.com\r\n\r\n\r\n\r\nOn Fri, Jun 13, 2025, 7:24 p.m. Service @ Harmony Movers <\r\nservice@harmonymovers.com> wrote:\r\n\r\nBonjour Monsieur Lévesque\r\n\r\n\r\n\r\nNous sommes navrés d'entendre que la situation semble se détériorer.\r\n\r\n\r\n\r\nDans votre courriel, vous mentionnez que Mathieu est une tierce partie qui\r\nn’a pas été autorisée à agir au nom de la société (voir pièce jointe). Cela\r\ncomplique considérablement les choses, car depuis le début de l’opération,\r\nc’est bel et bien Mathieu qui a été notre point de contact: c’est lui qui a\r\ninitialement demandé une soumission (le 6 juin 2025), qui a communiqué à\r\nplusieurs reprises avec notre équipe d’opérations, et qui, encore ce matin,\r\na téléphoné à nos bureaux pour obtenir une mise à jour sur le dossier.\r\n\r\nSi cette personne n’était pas autorisée à agir au nom de Quadro Holding, il\r\ns’agit d’une information dont nous n’avions absolument pas connaissance. Si\r\ncela avait été clairement indiqué dès le départ, nous n’aurions jamais\r\nprocédé au service. C’est en effet cette même personne qui a guidé notre\r\npersonnel sur le terrain, ce qui explique notamment les écarts entre la\r\nsoumission initiale et la facture finale. C’est également avec lui qu’un\r\naccord verbal a été conclu au téléphone pour ajouter un quatrième homme au\r\ntarif horaire, avec une majoration de 85 $, suite à la recommandation\r\nd'Allen après avoir constaté l’ampleur du travail. Cette hausse a été\r\nacceptée.\r\n\r\n\r\n\r\nLa situation est d’autant plus confuse qu’en date du 9 juin 2025, Mathieu\r\n(au 514-458-4587 - le numéro de téléphone qui figure sur la soumission\r\nsignée) a contacté notre collègue Josée pour demander comment procéder au\r\npaiement des frais administratifs sur la soumission. Josée l’a alors guidé,\r\net il semblait avoir accès au courriel où la soumission avait été envoyée,\r\nsoit à la même adresse courriel que celle avec laquelle nous échangeons\r\naujourd’hui.\r\n\r\n\r\n\r\nCela étant dit, bien que seule la soumission ait été signée (le contrat\r\ncomplet ayant toutefois été envoyé et initialé, voir PJ), celle-ci stipule\r\nclairement que lorsqu’un taux fixe et un taux horaire sont présents, les\r\ndeux s’appliquent. Cette même section ramène à notre page des termes &\r\nconditions complètes.\r\n\r\n\r\n\r\n\r\n\r\nLes-voici en Français:\r\nhttps://harmonymovers.com/fr/modalites-conditions\r\n\r\nConcrètement, la soumission prévoyait:\r\n\r\n   - Un taux horaire de 275 $/h pour 3 hommes\r\n   - Des frais fixes de transport de 375 $\r\n   - Des frais de manutention pour équipement lourd de 1 475 $\r\n\r\nCependant, en raison de la réalité du chantier, un quatrième homme a été\r\nsuggéré, ce qui a porté le taux horaire à 360$/h pour 4 hommes, et ajusté\r\nles frais fixes de transport à 460$.\r\n\r\n\r\n\r\nTout cela étant considéré, nous nous retrouvons visiblement dans une\r\nimpasse, puisque vous indiquez que Mathieu n’avait pas les autorisations\r\nécrites nécessaires pour agir au nom de votre entreprise - un détail que\r\nnous ne pouvions deviner.\r\n\r\n\r\n\r\nEn ce sens, si vous estimez avoir été lésé en raison d’un manque\r\nd’information quant au déroulement des opérations, nous vous proposons de\r\nrégler la facture en cours et vous offrons la possibilité de récupérer vos\r\nbiens moyennant uniquement un supplément correspondant à trois heures de\r\ntravail, le temps nécessaire pour que notre équipe procède au déchargement\r\ndu camion dans notre entrepôt. Par souci de collaboration, nous ne\r\nfacturerons pas les 110 $/h habituellement appliqués pour la supervision\r\nd’un rechargement par une tierce compagnie que vous souhaiteriez mandater\r\npour compléter le transport. Cette mesure est nécessaire puisque nous\r\ndevons libérer le véhicule afin de poursuivre nos autres opérations. Cette\r\noption restera disponible jusqu’*au lundi 18h*.\r\n\r\n\r\n\r\nÀ défaut de mouvement de votre part d’ici là, nous serons dans l’obligation\r\nde facturer l’équivalent d’un mois complet d’entreposage à notre entrepôt,\r\nafin de vous permettre de trouver un transporteur disposé à compléter le\r\nreste du transport.\r\n\r\n\r\n\r\nCela dit, nous devons vous informer qu’au vu des circonstances, nous avons\r\nperdu confiance dans la capacité de Quadro Holdings Limitée à désigner un\r\nreprésentant dûment autorisé pour agir au nom de l’entreprise. En\r\nconséquence, nous ne pourrons dorénavant prendre de décisions ni poursuivre\r\naucun engagement, à moins qu’il ne soit conclu directement avec un\r\nreprésentant officiel de votre société, soit vous, Monsieur Lévesque.\r\n\r\nDans l'attente de vous lire,\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Lev Jampolsky*\r\n\r\nDirecteur Administratif - Administrative Director\r\n*Phone: *(514)\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n866-5550\r\n\r\n1600 55e Avenue\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\nLachine, QC H8T 3J5\r\n<https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&source=g>\r\n\r\n*Email: **service@harmonymovers.com* <service@harmonymovers.com>\r\n\r\n*Web:* www.harmonymovers.com\r\n\r\nDéménagement Résidentiel – Residential Moving | Entreposage – Storage|\r\nObjets Lourds - Heavy Items | Crane – Grue\r\n",
+                    "attachment_id": null
+                  },
+                  "read_attachment_supported": null,
+                  "parts": null
+                },
+                {
+                  "part_id": "0.0.1",
+                  "mime_type": "text/html",
+                  "filename": "",
+                  "headers": [
+                    {
+                      "name": "Content-Type",
+                      "value": "text/html; charset=\"UTF-8\""
+                    },
+                    {
+                      "name": "Content-Transfer-Encoding",
+                      "value": "quoted-printable"
+                    }
+                  ],
+                  "body": {
+                    "size": 94617,
+                    "base64_url_content": null,
+                    "content": "<div dir=\"auto\"></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">Accounting @ Harmony Movers</strong> <span dir=\"auto\">&lt;<a href=\"mailto:accounting@harmonymovers.com\">accounting@harmonymovers.com</a>&gt;</span><br>Date: Fri, Aug 15, 2025, 15:17<br>Subject: Re[5]: Situation de transport 12 Juin 2025<br>To: <a href=\"mailto:plevesquemtl@gmail.com\">plevesquemtl@gmail.com</a> &lt;<a href=\"mailto:plevesquemtl@gmail.com\">plevesquemtl@gmail.com</a>&gt;<br>Cc: Oeuf Déjeuner &lt;<a href=\"mailto:ooeuf.ca@gmail.com\">ooeuf.ca@gmail.com</a>&gt;, Service @ Harmony Movers &lt;<a href=\"mailto:service@harmonymovers.com\">service@harmonymovers.com</a>&gt;<br></div><br><br>\r\n\r\n\r\n\r\n\r\n\r\n<div>\r\n<div>\r\n<div id=\"m_-3412853958870518133x7f35081a5d3e43338441ed3929174cac\">\r\n<p style=\"background:rgba(0,0,0,0);margin:0px\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Bonjour<br>\r\n<br>\r\n</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"background:rgba(0,0,0,0);margin:0px\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Comme l’entente initiale prévoyait l’entreposage jusqu’au 25 juillet et que nous n’avons pas reçu de nouvelles de votre part, malgré un suivi effectué\r\n par courriel, nous devons malheureusement vous facturer les frais liés à l’occupation de notre entrepôt.<br>\r\n<br>\r\n</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"background:rgba(0,0,0,0);margin:0px\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">En juin, nous vous avions informé d’un tarif de 850$/mois pour l’entreposage. Or, au 15 août 2025, aucun mois d’entreposage n’a encore été facturé\r\n sauf pour la nuitée dans le camion, qui ne constitue pas un entreposage normal. Mercredi prochain, soit le 20 août, correspond normalement à la facturation d’un troisième mois.<br>\r\n<br>\r\n</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"background:rgba(0,0,0,0);margin:0px\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Dans un esprit de conciliation, nous vous proposons un montant forfaitaire de 1 000$ + taxes, alors que le montant régulier pour les deux mois durant\r\n lesquels vos biens sont demeurés dans notre entrepôt s’élèverait à environ 1 700$.<br>\r\n<br>\r\n</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Cette offre constitue notre proposition finale et demeure valide jusqu’au 20 août. Passé cette date, nous serons dans l’obligation de facturer l’entièreté\r\n des opérations réalisées dans le cadre de cette intervention. Bien que nous ayons déjà prolongé gracieusement l’échéance jusqu’au 25 juillet, l’occupation de notre espace d’entreposage entraîne des coûts réels que nous ne pouvons assumer indéfiniment, et l’absence\r\n de réponse de votre part ne nous permet pas de retarder davantage cette facturation.</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Vous retrouverez la facture ajustée à ce lien et en pièce jointe:<br>\r\n<a href=\"https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db\" target=\"_blank\" rel=\"noreferrer\">https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db</a></span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><b><span lang=\"FR-CA\" style=\"font-size:16pt;font-family:&#39;Calibri&#39;,sans-serif;color:#1f4e79;border:none windowtext 1pt;padding:0cm\"><u></u> <u></u></span></b></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">De plus, sachez que ce montant additionnel n’inclut pas l’intervention de nos déménageurs dans le chargement de votre conteneur. Dans l’éventualité\r\n que vous voudriez contracter nos équipes afin de charger le conteneur à notre entrepôt, nous pourrions vous offrir ce service au montant fixe de <b>975$ + taxes</b>.</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Finalement, avant toute intervention, incluant celle d’AKA Moving, nous demandons le règlement intégral de la facture ci-jointe.</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Nous restons à votre disposition pour toute question éventuelle</span><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&#39;Segoe UI&#39;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0px;background:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Bien à vous</span></p>\r\n</div>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div id=\"m_-3412853958870518133signature_old\" style=\"clear:both\">\r\n<div id=\"m_-3412853958870518133xd6944c1bac56494d89125a7bfa6de803\">\r\n<div id=\"m_-3412853958870518133x9abe100a8b264dc3947c84afc15a35a0\">\r\n<div id=\"m_-3412853958870518133m_-151120662623378134xf65533a7146b46399be80a076ff0f98a\" style=\"background-color:rgba(0,0,0,0);margin:0px\">\r\n<div id=\"m_-3412853958870518133x12e56e85e89343f78cc76357af06be4a\">\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:16pt;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(31,78,121)\">Lev\r\n Jampolsky</span></b><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:#0070c0\">Directeur\r\n Administratif - Administrative Director</span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\">\r\n</a><b style=\"font-size:12pt\"><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline\">Phone: </span></b><span style=\"font-family:Calibri,sans-serif\">(514)<a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\">\r\n</a> 866-5550 ext. 107</span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\">1600\r\n 55e Avenue</a></span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\">Lachine,\r\n QC H8T 3J5</a></span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(31,78,121)\">Email: </span></b><span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;line-height:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"><a href=\"mailto:accounting@harmonymovers.com\" title=\"mailto:service@harmonymovers.com\" style=\"border:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline\" target=\"_blank\" rel=\"noreferrer\"><b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(5,99,193)\">accounting@harmonymovers.com</span></b></a></span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(31,78,121)\">Web:</span></b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(31,78,121)\"> </span><span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;line-height:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"><a href=\"http://www.harmonymovers.com/\" title=\"http://www.harmonymovers.com/\" style=\"border:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(2,49,96)\">www.harmonymovers.com</span></a></span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13pt;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(131,60,11)\">Déménagement\r\n Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue </span><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13pt;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(131,60,11)\">                </span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:red\"><img src=\"cid:em35eddb0b-2d04-46e3-8ffe-643349819097@e2601ae4.com\" id=\"m_-3412853958870518133x_Image_x0020_1\" border=\"0\" style=\"border:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit;width:461.24pt;height:57.74pt;min-height:auto;min-width:auto\"></span></b><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(5,99,193)\">Déménagement\r\n Martineau et EZ Move font maintenant partie de la famille Harmony Movers!</span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-stretch:inherit;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(5,99,193)\">Déménagement\r\n Martineau &amp; EZ Move are now part of the Harmony Movers family!</span><span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:14pt;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(131,60,11)\">Suivez-nous\r\n sur Facebook – Instagram |Follow us on Facebook – Instagram</span><span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;line-height:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"><a href=\"https://www.facebook.com/harmonymoversinc\" title=\"https://www.facebook.com/harmonymoversinc\" style=\"border:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:#5b9bd5;text-decoration-line:none\"><img src=\"cid:emd9db175f-36df-43d4-b6aa-cd9055332db1@e2601ae4.com\" id=\"m_-3412853958870518133x_Image_x0020_2\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\" border=\"0\" style=\"font:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit;width:33.74pt;height:34.49pt;min-height:auto;min-width:auto\"></span></a></span><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:#5b9bd5\">    \r\n  </span><span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;line-height:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"><a href=\"https://www.instagram.com/harmonymovers_transportez/\" title=\"https://www.instagram.com/harmonymovers_transportez/\" style=\"border:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit;text-decoration-line:none\"><img src=\"cid:em4f0de62e-7aa7-45c9-a63f-3e73f9624919@e2601ae4.com\" id=\"m_-3412853958870518133x_Image_x0020_3\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\" border=\"0\" style=\"font:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit;width:36.74pt;height:34.49pt;min-height:auto;min-width:auto\"></span></a></span><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline\">    </span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline\"><img src=\"cid:em979dfa72-56bb-42f8-9092-e0fd93d6a9bc@e2601ae4.com\" id=\"m_-3412853958870518133x_Image_x0020_4\" alt=\"Title: Hexagon bar - Description: Hexagon bar\" border=\"0\" style=\"border:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit;width:364.5pt;height:60.74pt;min-height:auto;min-width:auto\"></span><span lang=\"fr-CA\" style=\"border:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Calibri,sans-serif;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:inherit\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<span style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:8pt;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(31,56,100)\"> </span><span style=\"border:0px;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:13.5pt;line-height:inherit;font-family:&quot;Segoe UI&quot;,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)\"></span></p>\r\n<p style=\"color:rgb(36,36,36);font-size:12pt;font-family:Aptos,sans-serif;background-color:rgb(255,255,255);margin:0px\">\r\n<b><span style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:8pt;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:gray\">Confidentiality\r\n Warning :</span></b><u><span style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:8pt;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:gray\"><br>\r\n</span></u><span style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-stretch:inherit;font-size:8pt;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:gray\">This\r\n message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed.  If you have received this message in error, please inform the sender via\r\n e-mail and destroy the message.  If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part of this message is strictly prohibited.<br>\r\n<br>\r\n</span><b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:8pt;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:gray\">Information\r\n confidentielle:<br>\r\n</span></b><span lang=\"fr-CA\" style=\"border:1pt none windowtext;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:8pt;line-height:inherit;font-family:Arial,sans-serif;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:gray\">Ce\r\n message et toutes les pièces jointes qu&#39;il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l&#39;entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur,\r\n veuillez en informer l&#39;expéditeur par e-mail et détruire le message. Si vous n&#39;êtes pas le destinataire prévu, vous êtes informé que l&#39;utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement\r\n interdite.</span></p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div>\r\n<div>------ Original Message ------</div>\r\n<div>From &quot;Accounting @ Harmony Movers&quot; &lt;<a href=\"mailto:accounting@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">accounting@harmonymovers.com</a>&gt;</div>\r\n<div>To &quot;<a href=\"mailto:plevesquesmtl@gmail.com\" target=\"_blank\" rel=\"noreferrer\">plevesquesmtl@gmail.com</a>&quot; &lt;<a href=\"mailto:plevesquesmtl@gmail.com\" target=\"_blank\" rel=\"noreferrer\">plevesquesmtl@gmail.com</a>&gt;</div>\r\n<div>Cc &quot;Oeuf Déjeuner&quot; &lt;<a href=\"mailto:ooeuf.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">ooeuf.ca@gmail.com</a>&gt;; &quot;Service @ Harmony Movers&quot; &lt;<a href=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">service@harmonymovers.com</a>&gt;</div>\r\n<div>Date 2025-08-15 2:15:28 PM</div>\r\n<div>Subject RE: RE: Re[2]: Situation de transport 12 Juin 2025</div>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div id=\"m_-3412853958870518133x9509cb08585e4fe\" style=\"word-wrap:break-word\">\r\n<blockquote cite=\"http://YTBPR01MB284746FA16AA019797A2D566CA34A@YTBPR01MB2847.CANPRD01.PROD.OUTLOOK.COM\" type=\"cite\" class=\"m_-3412853958870518133cite2\">\r\n<div class=\"m_-3412853958870518133WordSection1\">\r\n<p style=\"background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Bonjour</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Comme l’entente initiale prévoyait l’entreposage jusqu’au 25 juillet et que nous n’avons pas reçu de nouvelles de votre part, malgré un suivi effectué par courriel,\r\n nous devons malheureusement vous facturer les frais liés à l’occupation de notre entrepôt.</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">En juin, nous vous avions informé d’un tarif de 850$/mois pour l’entreposage. Or, au 15 août 2025, aucun mois d’entreposage n’a encore été facturé sauf pour\r\n la nuitée dans le camion, qui ne constitue pas un entreposage normal. Mercredi prochain, soit le 20 août, correspond normalement à la facturation d’un troisième mois.</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Dans un esprit de conciliation, nous vous proposons un montant forfaitaire de 1 000$ + taxes, alors que le montant régulier pour les deux mois durant lesquels\r\n vos biens sont demeurés dans notre entrepôt s’élèverait à environ 1 700$.</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Cette offre constitue notre proposition finale et demeure valide jusqu’au 20 août. Passé cette date, nous serons dans l’obligation de facturer l’entièreté\r\n des opérations réalisées dans le cadre de cette intervention. Bien que nous ayons déjà prolongé gracieusement l’échéance jusqu’au 25 juillet, l’occupation de notre espace d’entreposage entraîne des coûts réels que nous ne pouvons assumer indéfiniment, et l’absence\r\n de réponse de votre part ne nous permet pas de retarder davantage cette facturation.</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Vous retrouverez la facture ajustée à ce lien et en pièce jointe:<br>\r\n<a href=\"https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db\" target=\"_blank\" rel=\"noreferrer\">https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9Tc0NNYmc4NERrQWg2b25pOWpnUWJmOFM4c3Y3U2xHLDE0NTgyMTkyNw0200d5xIRFrR?s=db</a></span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-size:16.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\"><u></u> <u></u></span></b></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">De plus, sachez que ce montant additionnel n’inclut pas l’intervention de nos déménageurs dans le chargement de votre conteneur. Dans l’éventualité\r\n que vous voudriez contracter nos équipes afin de charger le conteneur à notre entrepôt, nous pourrions vous offrir ce service au montant fixe de\r\n<b>975$ + taxes</b>.</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Finalement, avant toute intervention, incluant celle d’AKA Moving, nous demandons le règlement intégral de la facture ci-jointe.</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Nous restons à votre disposition pour toute question éventuelle</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\">Bien à vous<br><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">\r\n</a><br>\r\n</span><b><span lang=\"FR-CA\" style=\"font-size:16.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\"><u></u><u></u></span></b></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-size:16.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Lev Jampolsky</span></b><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0070c0;border:none windowtext 1.0pt;padding:0cm\">Directeur Administratif - Administrative Director</span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\">Phone: </span></b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424\">(514) 866-5550\r\n ext. 107</span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">1600 55e Avenue</a></span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">Lachine, QC H8T 3J5</a></span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Email: </span></b><span style=\"color:black;border:none windowtext 1.0pt;padding:0cm\"><a href=\"mailto:accounting@harmonymovers.com\" title=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#0563c1\">accounting@harmonymovers.com</span></b></a></span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Web:</span></b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\"> </span><span style=\"color:black;border:none windowtext 1.0pt;padding:0cm\"><a href=\"http://www.harmonymovers.com/\" title=\"http://www.harmonymovers.com/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#023160\">www.harmonymovers.com</span></a></span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-size:13.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#833c0b;border:none windowtext 1.0pt;padding:0cm\">Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds -\r\n Heavy Items | Crane – Grue                 </span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:red;border:none windowtext 1.0pt;padding:0cm\"><img src=\"cid:image002.png@01DC0DEB.C7EDAC30\" border=\"0\" width=\"615\" height=\"77\" style=\"width:6.4062in;height:.802in\" id=\"m_-3412853958870518133_x0000_i1056\"></span></b><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0563c1;border:none windowtext 1.0pt;padding:0cm\">Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!</span><span lang=\"FR-CA\" style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0563c1;border:none windowtext 1.0pt;padding:0cm\">Déménagement Martineau &amp; EZ Move are now part of the Harmony Movers family!</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-size:14.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#833c0b;border:none windowtext 1.0pt;padding:0cm\">Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"color:black\"><a href=\"https://www.facebook.com/harmonymoversinc\" title=\"https://www.facebook.com/harmonymoversinc\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#5b9bd5;border:none windowtext 1.0pt;padding:0cm;text-decoration:none\"><img src=\"cid:image003.png@01DC0DEB.C7EDAC30\" border=\"0\" width=\"45\" height=\"46\" style=\"width:.4687in;height:.4791in\" id=\"m_-3412853958870518133_x0000_i1055\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\"></span></a></span><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#5b9bd5;border:none windowtext 1.0pt;padding:0cm\">    \r\n  </span><span style=\"color:black\"><a href=\"https://www.instagram.com/harmonymovers_transportez/\" title=\"https://www.instagram.com/harmonymovers_transportez/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;border:none windowtext 1.0pt;padding:0cm;text-decoration:none\"><img src=\"cid:image004.png@01DC0DEB.C7EDAC30\" border=\"0\" width=\"49\" height=\"46\" style=\"width:.5104in;height:.4791in\" id=\"m_-3412853958870518133_x0000_i1054\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\"></span></a></span><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\">    </span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\"><img src=\"cid:image005.png@01DC0DEB.C7EDAC30\" border=\"0\" width=\"486\" height=\"81\" style=\"width:5.0625in;height:.8437in\" id=\"m_-3412853958870518133_x0000_i1053\" alt=\"Title: Hexagon bar - Description: Hexagon bar\"></span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1f3864;border:none windowtext 1.0pt;padding:0cm\"> </span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p class=\"MsoNormal\"><b><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">Confidentiality Warning :</span></b><u><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\"><br>\r\n</span></u><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named\r\n recipients or entity to which this message is addressed.  If you have received this message in error, please inform the sender via e-mail and destroy the message.  If you are not the intended recipient, you are hereby notified that the use, copying or disclosure\r\n of the contents or attachments in whole or in part of this message is strictly prohibited.<br>\r\n<br>\r\n</span><b><span lang=\"FR-CA\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">Information confidentielle:<br>\r\n</span></b><span lang=\"FR-CA\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">Ce message et toutes les pièces jointes qu&#39;il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont\r\n destinés uniquement aux destinataires nommés ou à l&#39;entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l&#39;expéditeur par e-mail et détruire le message. Si vous n&#39;êtes pas le destinataire prévu, vous êtes\r\n informé que l&#39;utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.</span><span lang=\"FR-CA\"><u></u><u></u></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"><u></u> <u></u></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"><u></u> <u></u></span></p>\r\n<div>\r\n<div style=\"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm 0cm 0cm\">\r\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\" style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif\">From:</span></b><span lang=\"EN-US\" style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif\"> Accounting @ Harmony Movers &lt;<a href=\"mailto:accounting@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">accounting@harmonymovers.com</a>&gt;\r\n<br>\r\n<b>Sent:</b> August 15, 2025 11:02 AM<br>\r\n<b>To:</b> <a href=\"mailto:plevesquesmtl@gmail.com\" target=\"_blank\" rel=\"noreferrer\">plevesquesmtl@gmail.com</a><br>\r\n<b>Cc:</b> Service @ Harmony Movers &lt;<a href=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">service@harmonymovers.com</a>&gt;; Oeuf Déjeuner &lt;<a href=\"mailto:ooeuf.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">ooeuf.ca@gmail.com</a>&gt;<br>\r\n<b>Subject:</b> Fw: RE: Re[2]: Situation de transport 12 Juin 2025<u></u><u></u></span></p>\r\n</div>\r\n</div>\r\n<p class=\"MsoNormal\"><u></u> <u></u></p>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Bonjour, voilà la copie du courriel envoyé le 22 Juillet. SVP confirmer sa réception.<u></u><u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n</div>\r\n<div>\r\n<div id=\"m_-3412853958870518133xf05589067e954d3fab99fef5446525ce\">\r\n<p class=\"MsoNormal\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Bonjour</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Comme convenu aujourd’hui dans le cadre de notre entente à l’amiable, veuillez trouver ci-joint la facture. <br>\r\n<br>\r\nLe paiement peut être effectué directement en suivant ce lien:</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\"><a href=\"https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db\" target=\"_blank\" rel=\"noreferrer\">https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db</a></span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Pour rappel, voici les modalités convenues -</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt;background-color:rgba(0,0,0,0)\">\r\n<i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Un transporteur mandaté par vos soins pourra venir récupérer l’ensemble de vos biens à notre entrepôt. Aucune autre intervention (par exemple, livraison à un autre endroit, ou collecte d&#39;autres biens vous appartenant\r\n qui ne sont pas déjà entreposés chez nous) n’est incluse dans cette entente.</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt;background-color:rgba(0,0,0,0)\">\r\n<i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Le chargement de vos biens dans ces camions sera entièrement sous la responsabilité de ce transporteur. De notre côté, un surintendant sera présent sur place pour superviser l’opération. Cette supervision n’incombera\r\n pas de frais supplémentaires et aucun membre de notre équipe n’assistera votre transporteur dans le chargement des biens.</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt;background-color:rgba(0,0,0,0)\">\r\n<i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Une fois les biens récupérés et chargés dans les camions du transporteur mandaté, notre relation d’affaires prendra fin.</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt;background-color:rgba(0,0,0,0)\">\r\n<i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">De plus, avant d&#39;autoriser l&#39;accès à notre entrepôt, les conditions suivantes devront être remplies:</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• La facture devra être entièrement réglée</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Le nom de la société de transport devra nous être transmis</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt;background-color:rgba(0,0,0,0)\">\r\n<i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Les noms des intervenants qui se présenteront sur place devront être communiqués, avec un préavis d’au moins 24 heures</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><i><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Finalement, cette intervention demeure possible jusqu’au Vendredi le 25 Juillet 2025 12:00, heure de l’est. Faute de quoi, cette entente sera invalidée.<br>\r\n<br>\r\nMerci de bien vouloir confirmer la réception de ce courriel et de procéder au paiement à votre convenance</span></i><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><u></u> <u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><u></u> <u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">La facture vient également d&#39;être envoyée à cette adresse courriel. Si vous préférez régler la facture par téléphone, nous pouvons le faire également.</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><u></u> <u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Merci</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"background-color:rgba(0,0,0,0)\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n</div>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n</div>\r\n<div id=\"m_-3412853958870518133signature_old\">\r\n<div id=\"m_-3412853958870518133xd6944c1bac56494d89125a7bfa6de803\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">\r\n</a><div id=\"m_-3412853958870518133x9abe100a8b264dc3947c84afc15a35a0\">\r\n<div id=\"m_-3412853958870518133m_-151120662623378134xf65533a7146b46399be80a076ff0f98a\">\r\n<div id=\"m_-3412853958870518133x12e56e85e89343f78cc76357af06be4a\">\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-size:16.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Lev Jampolsky</span></b><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0070c0;border:none windowtext 1.0pt;padding:0cm\">Directeur Administratif - Administrative Director</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\">Phone: </span></b><span style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424\">(514) 866-5550 ext. 107</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">1600 55e Avenue</a></span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">Lachine, QC H8T 3J5</a></span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Email: </span></b><span style=\"color:black;border:none windowtext 1.0pt;padding:0cm\"><a href=\"mailto:accounting@harmonymovers.com\" title=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#0563c1\">accounting@harmonymovers.com</span></b></a></span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Web:</span></b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\"> </span><span style=\"color:black;border:none windowtext 1.0pt;padding:0cm\"><a href=\"http://www.harmonymovers.com/\" title=\"http://www.harmonymovers.com/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#023160\">www.harmonymovers.com</span></a></span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-size:13.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#833c0b;border:none windowtext 1.0pt;padding:0cm\">Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds -\r\n Heavy Items | Crane – Grue                 </span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:red;border:none windowtext 1.0pt;padding:0cm\"><img border=\"0\" width=\"615\" height=\"77\" style=\"width:6.4062in;height:.802in\" id=\"m_-3412853958870518133x_Image_x0020_1\" src=\"cid:image002.png@01DC0DEB.C7EDAC30\"></span></b><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0563c1;border:none windowtext 1.0pt;padding:0cm\">Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0563c1;border:none windowtext 1.0pt;padding:0cm\">Déménagement Martineau &amp; EZ Move are now part of the Harmony Movers family!</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-size:14.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#833c0b;border:none windowtext 1.0pt;padding:0cm\">Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"color:black\"><a href=\"https://www.facebook.com/harmonymoversinc\" title=\"https://www.facebook.com/harmonymoversinc\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#5b9bd5;border:none windowtext 1.0pt;padding:0cm;text-decoration:none\"><img border=\"0\" width=\"45\" height=\"46\" style=\"width:.4687in;height:.4791in\" id=\"m_-3412853958870518133x_Image_x0020_2\" src=\"cid:image003.png@01DC0DEB.C7EDAC30\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\"></span></a></span><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#5b9bd5;border:none windowtext 1.0pt;padding:0cm\">    \r\n  </span><span style=\"color:black\"><a href=\"https://www.instagram.com/harmonymovers_transportez/\" title=\"https://www.instagram.com/harmonymovers_transportez/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;border:none windowtext 1.0pt;padding:0cm;text-decoration:none\"><img border=\"0\" width=\"49\" height=\"46\" style=\"width:.5104in;height:.4791in\" id=\"m_-3412853958870518133x_Image_x0020_3\" src=\"cid:image004.png@01DC0DEB.C7EDAC30\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\"></span></a></span><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\">    </span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\"><img border=\"0\" width=\"486\" height=\"81\" style=\"width:5.0625in;height:.8437in\" id=\"m_-3412853958870518133x_Image_x0020_4\" src=\"cid:image005.png@01DC0DEB.C7EDAC30\" alt=\"Title: Hexagon bar - Description: Hexagon bar\"></span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1f3864;border:none windowtext 1.0pt;padding:0cm\"> </span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">Confidentiality Warning :</span></b><u><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\"><br>\r\n</span></u><span style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named\r\n recipients or entity to which this message is addressed.  If you have received this message in error, please inform the sender via e-mail and destroy the message.  If you are not the intended recipient, you are hereby notified that the use, copying or disclosure\r\n of the contents or attachments in whole or in part of this message is strictly prohibited.<br>\r\n<br>\r\n</span><b><span lang=\"FR-CA\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">Information confidentielle:<br>\r\n</span></b><span lang=\"FR-CA\" style=\"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:gray;border:none windowtext 1.0pt;padding:0cm\">Ce message et toutes les pièces jointes qu&#39;il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont\r\n destinés uniquement aux destinataires nommés ou à l&#39;entité à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l&#39;expéditeur par e-mail et détruire le message. Si vous n&#39;êtes pas le destinataire prévu, vous êtes\r\n informé que l&#39;utilisation, la copie ou la divulgation du contenu ou des pièces jointes en tout ou en partie de ce message est strictement interdite.</span><span style=\"color:#242424\"><u></u><u></u></span></p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n</div>\r\n<div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">------ Forwarded Message ------<u></u><u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">From &quot;Accounting @ Harmony Movers&quot; &lt;<a href=\"mailto:accounting@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">accounting@harmonymovers.com</a>&gt;<u></u><u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">To &quot;Oeuf Déjeuner&quot; &lt;<a href=\"mailto:ooeuf.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">ooeuf.ca@gmail.com</a>&gt;<u></u><u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Cc &quot;Service @ Harmony Movers&quot; &lt;<a href=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">service@harmonymovers.com</a>&gt;<u></u><u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Date 2025-07-22 4:20:00 PM<u></u><u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Subject RE: Re[2]: Situation de transport 12 Juin 2025<u></u><u></u></span></p>\r\n</div>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u> <u></u></span></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Bonjour</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Comme convenu aujourd’hui dans le cadre de notre entente à l’amiable, veuillez trouver ci-joint la facture.\r\n<br>\r\n<br>\r\nLe paiement peut être effectué directement en suivant ce lien:</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"><a href=\"https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db\" target=\"_blank\" rel=\"noreferrer\">https://invoice.stripe.com/i/acct_1QXRHoLXg3uKDkyS/live_YWNjdF8xUVhSSG9MWGczdUtEa3lTLF9TakVZQTJWQ0RmT1VaVUtMcUhHdzVzOEtPWXFxeTRNLDE0Mzc1NDM0NA0200enPoKwfN?s=db</a></span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Pour rappel, voici les modalités convenues -</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Un transporteur mandaté par vos soins pourra venir récupérer l’ensemble de vos biens à notre entrepôt. Aucune autre intervention (par\r\n exemple, livraison à un autre endroit, ou collecte d&#39;autres biens vous appartenant qui ne sont pas déjà entreposés chez nous) n’est incluse dans cette entente.</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Le chargement de vos biens dans ces camions sera entièrement sous la responsabilité de ce transporteur. De notre côté, un surintendant\r\n sera présent sur place pour superviser l’opération. Cette supervision n’incombera pas de frais supplémentaires et aucun membre de notre équipe n’assistera votre transporteur dans le chargement des biens.</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Une fois les biens récupérés et chargés dans les camions du transporteur mandaté, notre relation d’affaires prendra fin.</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">De plus, avant d&#39;autoriser l&#39;accès à notre entrepôt, les conditions suivantes devront être remplies:</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• La facture devra être entièrement réglée</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Le nom de la société de transport devra nous être transmis</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">• Les noms des intervenants qui se présenteront sur place devront être communiqués, avec un préavis d’au moins 24 heures</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Finalement, cette intervention demeure possible jusqu’au Vendredi le 25 Juillet 2025 12:00, heure de l’est. Faute de quoi, cette entente sera invalidée.<br><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">\r\n</a><br>\r\nMerci de bien vouloir confirmer la réception de ce courriel et de procéder au paiement à votre convenance</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Lev Jampolsky</span></b><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Directeur Administratif – Administrative Director</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Phone: </span></b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">(514) 866-5550 ext. 107</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">1600 55e Avenue</a></span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"><a href=\"https://www.google.com/maps/search/1600+55e+Avenue+%0D%0A+Lachine,+QC+H8T+3J5?entry=gmail&amp;source=g\">Lachine, QC H8T 3J5</a></span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Email: <a href=\"mailto:accounting@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">accounting@harmonymovers.com</a></span></b><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Web:</span></b><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><span style=\"font-size:11.0pt\"><a href=\"http://www.harmonymovers.com/\" title=\"http://www.harmonymovers.com/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\">www.harmonymovers.com</span></a></span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds - Heavy Items | Crane – Grue                 </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><b><span lang=\"FR-CA\" style=\"font-size:11.0pt\"><img border=\"0\" width=\"615\" height=\"77\" style=\"width:6.4062in;height:.802in\" id=\"m_-3412853958870518133Picture_x0020_8\" src=\"cid:image002.png@01DC0DEB.C7EDAC30\"></span></b><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Déménagement Martineau et EZ Move font maintenant partie de la famille Harmony Movers!</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">Déménagement Martineau &amp; EZ Move are now part of the Harmony Movers family!</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">Suivez-nous sur Facebook – Instagram |Follow us on Facebook – Instagram</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><a href=\"https://www.facebook.com/harmonymoversinc\" title=\"https://www.facebook.com/harmonymoversinc\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-size:11.0pt;color:windowtext;text-decoration:none\"><img border=\"0\" width=\"45\" height=\"46\" style=\"width:.4687in;height:.4791in\" id=\"m_-3412853958870518133Picture_x0020_7\" src=\"cid:image003.png@01DC0DEB.C7EDAC30\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\"></span></a><span lang=\"FR-CA\" style=\"font-size:11.0pt\">    \r\n  </span><a href=\"https://www.instagram.com/harmonymovers_transportez/\" title=\"https://www.instagram.com/harmonymovers_transportez/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-size:11.0pt;color:windowtext;text-decoration:none\"><img border=\"0\" width=\"49\" height=\"46\" style=\"width:.5104in;height:.4791in\" id=\"m_-3412853958870518133Picture_x0020_6\" src=\"cid:image004.png@01DC0DEB.C7EDAC30\" alt=\"Icon\r\n\r\nDescription automatically generated\r\n\"></span></a><span lang=\"FR-CA\" style=\"font-size:11.0pt\">    </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"><img border=\"0\" width=\"486\" height=\"81\" style=\"width:5.0625in;height:.8437in\" id=\"m_-3412853958870518133Picture_x0020_5\" src=\"cid:image005.png@01DC0DEB.C7EDAC30\" alt=\"Title: Hexagon bar - Description: Hexagon bar\"></span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><b><span style=\"font-size:11.0pt\">Confidentiality Warning :</span></b><u><span style=\"font-size:11.0pt\"><br>\r\n</span></u><span style=\"font-size:11.0pt\">This message and any attachments herein are the sole property of Transport EZ / Harmony Movers and are intended solely for the named recipients or entity to which this message is addressed. \r\n If you have received this message in error, please inform the sender via e-mail and destroy the message.  If you are not the intended recipient, you are hereby notified that the use, copying or disclosure of the contents or attachments in whole or in part\r\n of this message is strictly prohibited.<br>\r\n<br>\r\n</span><b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Information confidentielle:<br>\r\n</span></b><span lang=\"FR-CA\" style=\"font-size:11.0pt\">Ce message et toutes les pièces jointes qu&#39;il contient sont la propriété exclusive de Transport EZ / Harmony Movers et sont destinés uniquement aux destinataires nommés ou à l&#39;entité\r\n à laquelle ce message est adressé. Si vous avez reçu ce message par erreur, veuillez en informer l&#39;expéditeur par e-mail et détruire le message. Si vous n&#39;êtes pas le destinataire prévu, vous êtes informé que l&#39;utilisation, la copie ou la divulgation du contenu\r\n ou des pièces jointes en tout ou en partie de ce message est strictement interdite.</span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\" style=\"font-size:11.0pt\"> </span><u></u><u></u></p>\r\n<div style=\"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0cm 0cm 0cm\">\r\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\" style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif\">From:</span></b><span lang=\"EN-US\" style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif\"> Oeuf Déjeuner &lt;<a href=\"mailto:ooeuf.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\">ooeuf.ca@gmail.com</a>&gt;\r\n<br>\r\n<b>Sent:</b> June 14, 2025 8:59 AM<br>\r\n<b>To:</b> Service @ Harmony Movers &lt;<a href=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">service@harmonymovers.com</a>&gt;<br>\r\n<b>Cc:</b> Accounting @ Harmony Movers &lt;<a href=\"mailto:accounting@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">accounting@harmonymovers.com</a>&gt;<br>\r\n<b>Subject:</b> Re: Re[2]: Situation de transport 12 Juin 2025</span><u></u><u></u></p>\r\n</div>\r\n<p class=\"MsoNormal\"> <u></u><u></u></p>\r\n<div>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Quadro Holding ltée c. Harmony Movers<br>\r\nDate de service : 12 juin 2025<br>\r\n---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Objet : Mise en demeure avec délai final – Livraison complète attendue avant le 13 juin 2025</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Madame, Monsieur,</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Nous faisons suite à vos courriels concernant le dossier #QT1076, et souhaitons vous fournir une position finale claire et sans équivoque.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">1. Contrat initial toujours en vigueur</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Le contrat signé (QT1076) entre Quadro Holding ltée et Harmony Movers demeure pleinement en vigueur jusqu’à la signature d’un nouvel accord écrit et approuvé par le signataire officiel.<br>\r\nAucune modification verbale ou entente parallèle ne remplace le contrat signé.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">2. Exigence de livraison complète avant vendredi 13 juin 2025 à midi</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Nous exigeons :</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">La livraison complète de tous les équipements conformément à l’adresse indiquée dans le contrat : <a href=\"https://www.google.com/maps/search/5007+rue+Irwin?entry=gmail&amp;source=g\">5007 rue Irwin</a></span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Le vidage intégral de l’emplacement commercial, y compris les équipements lourds</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">L’usage d’un véhicule adéquat pour finaliser le service sans report</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">3. Paiement autorisé avec ajustement encadré</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Nous confirmons notre volonté de régler un total de 1 842,50 $ CAD, basé sur 6,7 heures de travail réel.<br>\r\nNous vous autorisons jusqu’à 3 heures additionnelles, au tarif horaire contractuel de 275 $/heure, si :</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Le travail est intégralement complété dans le délai imparti</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Le camion requis est déployé sans délai</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">👉</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">\r\n</span><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Ainsi, le total final autorisé pourra aller jusqu’à 2 667,50 $ CAD si la livraison complète est exécutée dans les règles.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">4. Acceptation des frais d’équipement à condition de livraison complète</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Les frais de surcharge d’équipement (ex. manutention lourde) pourront être ajoutés à la facture uniquement si tous les équipements sont livrés, comme convenu.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">En revanche, nous rejetons catégoriquement :</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Tout frais d’immobilisation</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Tout frais d’entreposage anticipé</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Tout coût de déchargement interne non prévu au contrat</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">5. Retenue des biens = rapport de police déposé</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">La non-livraison du matériel, combinée à une déviation non autorisée du trajet prévu, a entraîné aujourd’hui le dépôt d’un rapport de police, pour :</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Rétention non autorisée</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Appropriation temporaire sans droit</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Non-respect d’un contrat commercial signé</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Toutes les preuves, captures d’échanges et documents officiels ont été conservés pour usage juridique.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">6. Délai final</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Vous avez jusqu’au vendredi 13 juin 2025 à 12 h 00 (midi) pour :</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Livrer intégralement les équipements</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Respecter l’adresse et les termes contractuels</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Finaliser le service conformément au mandat signé</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Aucune négociation ne sera acceptée au-delà de ce cadre.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Conclusion</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Merci de considérer cette lettre comme mise en demeure ferme avec option de règlement équitable.<br>\r\nPassé ce délai, nous n’assurerons plus notre disponibilité hors voie judiciaire.</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">---</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p><span lang=\"FR-CA\" style=\"font-family:&quot;Segoe UI&quot;,sans-serif\">Quadro Holding ltée<br>\r\nSignataire autorisé : M. Pierre Lévesque<br>\r\nCourriel : </span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><a href=\"mailto:ooeuf.ca@gmail.com\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\">ooeuf.ca@gmail.com</span></a><u></u><u></u></span></p>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n<div>\r\n<div>\r\n<p class=\"MsoNormal\">On Fri, Jun 13, 2025, 7:24<span style=\"font-family:&quot;Arial&quot;,sans-serif\"> </span>p.m. Service @ Harmony Movers &lt;<a href=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\">service@harmonymovers.com</a>&gt; wrote:<u></u><u></u></p>\r\n</div>\r\n<blockquote style=\"border:none;border-left:solid #cccccc 1.0pt;padding:0cm 0cm 0cm 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0cm;margin-bottom:5.0pt\">\r\n<div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">Bonjour Monsieur Lévesque</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">Nous sommes navrés d&#39;entendre que la situation semble se détériorer.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\">Dans votre courriel, vous mentionnez que Mathieu est une tierce partie qui n’a pas été autorisée à agir au nom de la société (voir pièce jointe). Cela complique considérablement les choses,\r\n car depuis le début de l’opération, c’est bel et bien Mathieu qui a été notre point de contact: c’est lui qui a initialement demandé une soumission (le 6 juin 2025), qui a communiqué à plusieurs reprises avec notre équipe d’opérations, et qui, encore ce matin,\r\n a téléphoné à nos bureaux pour obtenir une mise à jour sur le dossier.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">Si cette personne n’était pas autorisée à agir au nom de Quadro Holding, il s’agit d’une information dont nous n’avions absolument pas connaissance. Si cela avait été clairement indiqué dès le départ, nous n’aurions jamais\r\n procédé au service. C’est en effet cette même personne qui a guidé notre personnel sur le terrain, ce qui explique notamment les écarts entre la soumission initiale et la facture finale. C’est également avec lui qu’un accord verbal a été conclu au téléphone\r\n pour ajouter un quatrième homme au tarif horaire, avec une majoration de 85 $, suite à la recommandation d&#39;Allen après avoir constaté l’ampleur du travail. Cette hausse a été acceptée.</span><u></u><u></u></p>\r\n</div>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">La situation est d’autant plus confuse qu’en date du 9 juin 2025, Mathieu (au 514-458-4587 - le numéro de téléphone qui figure sur la soumission signée) a contacté notre collègue Josée pour demander comment procéder au\r\n paiement des frais administratifs sur la soumission. Josée l’a alors guidé, et il semblait avoir accès au courriel où la soumission avait été envoyée, soit à la même adresse courriel que celle avec laquelle nous échangeons aujourd’hui.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">Cela étant dit, bien que seule la soumission ait été signée (le contrat complet ayant toutefois été envoyé et initialé, voir PJ), celle-ci stipule clairement que lorsqu’un taux fixe et un taux horaire sont présents, les\r\n deux s’appliquent. Cette même section ramène à notre page des termes &amp; conditions complètes. </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><img border=\"0\" width=\"640\" height=\"295\" style=\"width:6.6666in;height:3.0729in\" id=\"m_-3412853958870518133_x0000_i1044\" src=\"https://mail.google.com/mail/?ui=2&amp;ik=a255966123&amp;attid=0.15&amp;th=1976e84a69910660&amp;view=fimg&amp;fur=ip&amp;rm=1976e84a69910660&amp;sz=w1600-h1000&amp;attbid=ANGjdJ878suDrFHKlUF-oz6gnaFoYh-4TdE1l3sii3Qf8UEAlw6RwW-VgmdKxGilM_C5FAM86bojjXkRNauwCy86E45Ur65yO7dxkFf1aMhjWMcsKtxl-YtmK4JVDpY&amp;disp=emb&amp;realattid&amp;zw\"><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"> <u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\">Les-voici en Français:<br>\r\n</span><a href=\"https://harmonymovers.com/fr/modalites-conditions\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\">https://harmonymovers.com/fr/modalites-conditions</span></a><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\">Concrètement, la soumission prévoyait:<u></u><u></u></p>\r\n</div>\r\n<div>\r\n<ul type=\"disc\">\r\n<li class=\"MsoNormal\">\r\n<span lang=\"FR-CA\">Un taux horaire de 275 $/h pour 3 hommes</span><u></u><u></u></li><li class=\"MsoNormal\">\r\n<span lang=\"FR-CA\">Des frais fixes de transport de 375 $</span><u></u><u></u></li><li class=\"MsoNormal\">\r\n<span lang=\"FR-CA\">Des frais de manutention pour équipement lourd de 1 475 $</span><u></u><u></u></li></ul>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">Cependant, en raison de la réalité du chantier, un quatrième homme a été suggéré, ce qui a porté le taux horaire à 360$/h pour 4 hommes, et ajusté les frais fixes de transport à 460$.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">Tout cela étant considéré, nous nous retrouvons visiblement dans une impasse, puisque vous indiquez que Mathieu n’avait pas les autorisations écrites nécessaires pour agir au nom de votre entreprise - un détail que nous\r\n ne pouvions deviner.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">En ce sens, si vous estimez avoir été lésé en raison d’un manque d’information quant au déroulement des opérations, nous vous proposons de régler la facture en cours et vous offrons la possibilité de récupérer vos biens\r\n moyennant uniquement un supplément correspondant à trois heures de travail, le temps nécessaire pour que notre équipe procède au déchargement du camion dans notre entrepôt. Par souci de collaboration, nous ne facturerons pas les 110 $/h habituellement appliqués\r\n pour la supervision d’un rechargement par une tierce compagnie que vous souhaiteriez mandater pour compléter le transport. Cette mesure est nécessaire puisque nous devons libérer le véhicule afin de poursuivre nos autres opérations. Cette option restera disponible\r\n jusqu’<b>au lundi 18h</b>.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\">À défaut de mouvement de votre part d’ici là, nous serons dans l’obligation de facturer l’équivalent d’un mois complet d’entreposage à notre entrepôt, afin de vous permettre de trouver un transporteur disposé à compléter\r\n le reste du transport.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\"><span lang=\"FR-CA\"> </span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\">Cela dit, nous devons vous informer qu’au vu des circonstances, nous avons perdu confiance dans la capacité de Quadro Holdings Limitée à désigner un représentant dûment autorisé pour agir\r\n au nom de l’entreprise. En conséquence, nous ne pourrons dorénavant prendre de décisions ni poursuivre aucun engagement, à moins qu’il ne soit conclu directement avec un représentant officiel de votre société, soit vous, Monsieur Lévesque.</span><u></u><u></u></p>\r\n</div>\r\n<div>\r\n<p class=\"MsoNormal\" style=\"margin-bottom:12.0pt\"><span lang=\"FR-CA\">Dans l&#39;attente de vous lire,</span><u></u><u></u></p>\r\n</div>\r\n<div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817signature_old\">\r\n<div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817xc7310f60c9a741a\">\r\n<div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817x324fd9fcda194acba8128a40f8a53749\">\r\n<div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817x5f49d5d389e74b5b87e14b55a213d57e\">\r\n<div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817x84aeac3dd9b54b99939b9a2bb216a16c\">\r\n<div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817xf65533a7146b46399be80a076ff0f98a\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\">\r\n</a><div id=\"m_-3412853958870518133m_1755441410205030567m_8270517894273532817xdfb6534eab724dec9147840014d39e62\">\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-size:16.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Lev Jampolsky</span></b><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:#0070c0;border:none windowtext 1.0pt;padding:0cm\">Directeur Administratif - Administrative Director<br>\r\n</span><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424;border:none windowtext 1.0pt;padding:0cm\">Phone: </span></b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424\">(514)</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\" target=\"_blank\" rel=\"noreferrer\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">\r\n</span></a></span><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#242424\">866-5550</span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;border:none windowtext 1.0pt;padding:0cm\">1600\r\n 55e Avenue</span></a></span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\"><a href=\"https://www.google.com/maps/search/1600%0D%0A+55e+Avenue+%0D%0A+%0D%0A+Lachine,%0D%0A+QC+H8T+3J5?entry=gmail&amp;source=g\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;border:none windowtext 1.0pt;padding:0cm\">Lachine,\r\n QC H8T 3J5</span></a></span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Email: </span></b><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\"><a href=\"mailto:service@harmonymovers.com\" title=\"mailto:service@harmonymovers.com\" target=\"_blank\" rel=\"noreferrer\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#0563c1;border:none windowtext 1.0pt;padding:0cm\">service@harmonymovers.com</span></b></a></span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\">Web:</span></b><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#1f4e79;border:none windowtext 1.0pt;padding:0cm\"> </span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif;color:black\"><a href=\"http://www.harmonymovers.com/\" title=\"http://www.harmonymovers.com/\" target=\"_blank\" rel=\"noreferrer\"><span lang=\"FR-CA\" style=\"font-family:&quot;Calibri&quot;,sans-serif;color:#023160;border:none windowtext 1.0pt;padding:0cm\">www.harmonymovers.com</span></a></span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><span lang=\"FR-CA\" style=\"font-size:13.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#833c0b;border:none windowtext 1.0pt;padding:0cm\">Déménagement Résidentiel – Residential Moving | Entreposage – Storage| Objets Lourds -\r\n Heavy Items | Crane – Grue                 </span><span style=\"font-family:&quot;Segoe UI&quot;,sans-serif\"><u></u><u></u></span></p>\r\n<p style=\"margin:0cm;background:white\"><b><span lang=\"FR-CA\" style=\"font-family:&quot;Arial&quot;,sans-serif;color:red;border:none windowtext 1.0pt;padding:0cm\"><img border=\"0\" id=\"m_-3412853958870518133_x0000_i1043\" src=\"https://mail.google.com/mail/?ui=2&amp;ik=a255966123&amp;attid=0.26&amp;th=1976e84a69910660&amp;view=fimg&amp;fur=ip&amp;rm=1976e84a69910660&amp;sz=w1600-h1000&amp;attbid=ANGjdJ9zeBhZM_J1603PLIh_ZCFnE00cveQn0yxH06xZaCIm5rS0GniJJg2GEVA7gRhhJ1AooWYKyhXr8i_gpNPEji1_bea9VCSNrgdKSg4eA9SyP7BL_ckGJmwxvoY&amp;disp=emb&amp;realattid&amp;zw\"></span></b></p></div></div></div></div></div></div></div></div></blockquote></div></div></div></div></blockquote></div></div></div>\r\n",
+                    "attachment_id": null
+                  },
+                  "read_attachment_supported": null,
+                  "parts": null
+                }
+              ]
+            },
+            {
+              "part_id": "0.1",
+              "mime_type": "image/png",
+              "filename": "3ykqakn1.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"3ykqakn1.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"3ykqakn1.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75b9ac6eaa741>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75b9ac6eaa741"
+                }
+              ],
+              "body": {
+                "size": 64914,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ8xMO8z8sBwm4YTojumKpzzebZgaqEtOdK8qMrue7-DthCxXBM5Vu9830zH_lc6m2ZXxhhSN4PkgDANuzab-qJ1Pyv92y4M18NdHSq3rajbdFF_IeVx0SUubbgZksvVGo6mXb6UbX-zNaMD-EzopIvDpTA-MlWjAUtpX4QR7pSc66RhUOj86XQ5Aak12JOa-T4WUbZEBqUrLzchsCS605IqZtneTd4FW8buESKuFJczfNwkad46486o6kNOVcqzd6gwCOIqwvia-XFJ-BXvphKj5RwZGrJxMnlbWVzoCJeo585x9tcFBDE4UOIsF1adSGo0oabFgWiNe4RM8GCFbbvItbALY8uI6YZBr9MxO0e-J0KD-kdRFmwWMc5P3_unwgwMOhaJFIg3qIhA_wvPEpHntfjqNumyj--X5w"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.2",
+              "mime_type": "image/png",
+              "filename": "p4xmdkxq.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"p4xmdkxq.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"p4xmdkxq.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75bac301c3b42>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75bac301c3b42"
+                }
+              ],
+              "body": {
+                "size": 5365,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ8Zaw8nvkiX7r3OM4_HhIFCJ9DOFmZKeJJvsIQw9sdCZVkS4RqKk7_6hCgKu9JXRF-TDyJVl4tMgtuDTS0mieuCicXBwBIK2-nrf2M7MI7WJE_pHBbjaRLHcZAwHeehFuaBe1EqUzxFGp7T6TOhHvDWBXM7a13oTs3XNYWgMSb8zm1Ix-wXmkkl0KxonOvgquXGb6GjfZAtv-6QTdR8CaUiayjvIuGyijHH0vp61GiLAO1Y94sVH2Q4W2mdDmAP5YRbaRA7BtOoJ9pexvIXO8k9M33JKnpMubPAjJpMXomz2FlD4EP9o-LPxoN4cgkXibUSdpDjyVYiMepXQZ1cYzhEcDpqdYktPE-5-kYqqV5_3w2JQX_BQCuuyHIQuGTGTMLa_lQsR3DB0V9I"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.3",
+              "mime_type": "image/png",
+              "filename": "gqrdgcee.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"gqrdgcee.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"gqrdgcee.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75ba777d7c533>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75ba777d7c533"
+                }
+              ],
+              "body": {
+                "size": 6096,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ_FmiPd1cGZ4ndAfvyS6XyRN632Zn8K6nAzQIWYExW1EzEqQ15lHf8WP27ysKxaW8fO8o_dl7DoGPovYCFsSA99YYkDpQguqwViYJHWAyjt4xnLQNijkm7wmxuV2OvZkkT6-AZgV_JEiCBTWlGLcCoyXehQ7XhVFKAigTXLr4HXTkocUna0ohmSTKcAoWSSR9BvLgtw2K_NtdlhPFmpmRKmdsILRZaIKvzeJCZ2HxxjDISb3gOh5tfUTfMlILcJ6ULvOxOQ--EyF0Nk8yt4veLD4KT2x4WcrQu9VQf09aBdC-4LIBShtyT3kKr3MNdki-QOMTLaFOAjYUOYLRBFaCKDVWLTuajcHNgFTupM-Clj9fMZsv6Vyo2A4CGNfnpqelC5q9COV_WNYDtg"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.4",
+              "mime_type": "image/png",
+              "filename": "fyjpy3hy.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"fyjpy3hy.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"fyjpy3hy.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75bad0bd837f4>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75bad0bd837f4"
+                }
+              ],
+              "body": {
+                "size": 53027,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ9QwJ41mNeDr0-bZR3WFUOBewKZ6iok4d6uYHGPNt7RviX7aXClZh3ooKSKS9m7kIvgr3P10NbbfnlybF0L0Qb9W2OF_Cvtfou91jWUVI6Lj9W-181O3k5nxyIbQMTUI45PvoRobQJ9Cw_ZCamd-GUuRbvk4klbspnAqMZ3zUtY8KvzZ5wH_BMiTJbrHqC0Yqzf5R2AflNIlTKrW36n31Z2i0IEEDRcAschkzSztKKxs6eXhacFC7bsGE_ZMkzA-G8l1_IN6Jt5kJeVaIsxcdx6iyrgLar69nxGhxzg3M6HwhcbFrcELV0hor4eYXtUhIKSlcBQNBywNrjJhIo01UK0yb2WDxUV_DwKspqMxgs3mV9dtZ2Bo6mghAL8Js2-n8vwt_t_csDzAP6ZeG2YmfpAdtQuBX5zOHd5Zw"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.5",
+              "mime_type": "image/png",
+              "filename": "image002.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image002.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image002.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75ba5b16b25>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75ba5b16b25"
+                }
+              ],
+              "body": {
+                "size": 64914,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ84B3a3WoS8Eq9wfJXC6i6f08uAqnzAvRlGJoOapZ43Q64g5ft-C1duwF2uZlLpr0xKRR5CG_3P7bNl2a_FMnEGOc2zYiFvHurCNw3ytspOFr1sfv1TINDRtTKtBJ3H4hreCTPcc7ZOCgxEt70Lqn46iMo5TrDGcJRPidIviBppDlxz31BnfM7Q76RI5yim9a5is5PUz3KGSxxtxk8O8mb1RJtUEGLG3a7qUMWaHcQmiaAy3xUqp-oeRGbw9P86jrN2r5r6sCql6ASBY6uqJmlMSG7ddpWTqtUUa0B1fhbQmI7oJfBA69VHdRvtM2jYszhkkQtPj_qLyf_TCYbBEIvvrN4O-HGEpjKE5WOX3HGqnMjE4NrsJJaZ_AqiPfPK61UJfvXjBgs3nGkIQZE7krJBX8BweT7zVca7VA"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.6",
+              "mime_type": "image/png",
+              "filename": "image003.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image003.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image003.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75ba692e336>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75ba692e336"
+                }
+              ],
+              "body": {
+                "size": 5365,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ_3owZFa2knECpsAJ3iW0B5RhP2aBexizwpEnP7OroLA8d2Ya1zVUK46I_KhCdGbI3vE1_CEox8k-QgmQW0GB_xoKiQhbRQ7A6jqzZRz3Yi4QBXaIptbw4mVMXH0zihAN_Mz3tdaak7vTTGd_7lIOhxiMgr87w-sStZV0lhXY1W3PWUFJVNjHd1ngNIGTL3AfvWf-2AKHTx9l75noZpHTF6E7BJxqhDvM_oYnoWyzegLKmcCqQpR-eYrwl_p7R32LImtaODN1Ou6t9g9qChtdazH-_RMCF1DXCWM3np6BILJZ2uMgbHG1XrjB8ykgf_TA1OUWuLzMw3N6S_aj8kjE3Eu5x82YOfn_xZ1bvVPaT3BCPX5u8qq1-VI-AWAz6b0BalZFfzFhtF-LM2"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.7",
+              "mime_type": "image/png",
+              "filename": "image004.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image004.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image004.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75ba7745b47>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75ba7745b47"
+                }
+              ],
+              "body": {
+                "size": 6096,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ-11qmSiZCAXGctkXonULTL-fA95dml1OQ-zf1I3Ed8iv77MnpnL7T6XPQQ8fcIwP6nuzliG_D_HfeXLvABdgWD9k1dOPbja2r5DuX4m-NtNvlmQ4Y_UB-29v6zp-yqBKv4h-sL8dV-fLkNXqtm7TW3oBjctayZGhAcgnqIM27o6EbJf8qc2X-8XRRhdkVO9IIMO_mPeK-_mlVJAT1djUfiY0rCuam6bFQzDWI2jd-_vu2yAkiWOB5HHyj1dL1cd-_zAy56A_19zGiCJDpvfyL7oKXJWpipnV3K9FnTX-7Sf_xiP_hsMX3-8Us52EIg9zBT1lN-5pC1otcS91Fc6j9OMfRKEnLqaAGkeutaS9p6hWGBxKiMTceqTnP2_cD6TcIWurVQsDFexI9W"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.8",
+              "mime_type": "image/png",
+              "filename": "image005.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image005.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image005.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<ii_19a037c75ba855d358>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": "ii_19a037c75ba855d358"
+                }
+              ],
+              "body": {
+                "size": 53027,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ-xJG52rodd4QAGL0SKKdI9jtXYkq1pOq9Tf3zW-QokA2sj3ta6rWEczyKV3LIMZfYlF-qWkfyAcfrLLXHRKsiIxKDqTE6WvDshBC62NrknbS4imDJaPU1S20MIyZ4kBKwjBRUCEuaECjNWF0aeQcNKsC9KdmvjZAqg0lQ7uKKB0zYonjYISu5vfkY84RCkJXw2mJXhb3QUIT6f1fgzRA8_BJJCNimvV67Iww16nzY-Z3aHo25zUq72LYRQcxSIt_E-JLx9rs9vDKcayrdNvsk2RrJ_sqqNDyTgd7e3v0TSZ3I_1Q6ORXu2ZB_t2eW8jwiX_G0mRlWD5ZhO0Tr1BSEpCjioekNIP-P3LMsC6QSE_gliErsMeyINqGVz-rNogTwqpk6swEJXRwsx522sUKaqH0YkKr0m_YrAXA"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.9",
+              "mime_type": "image/png",
+              "filename": "image005.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image005.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image005.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<image005.png@01DC0DEB.C7EDAC30>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 53027,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ-N69bD2HiLVuoDf0i0y11V58oJ_wIB7pk5OqrjaeivMpz93a97P7ZUd0cggeBssuyBCDWyuTS1-NthxfSofOdruHwvhj4kErMCIsAtadbpTug_mZpRW8kLmWNm1uUCeExVZ5G-b3kxcrDX73z73QM4iP9gLn8sSnUQzgaoaJ3jQsBFljvjwgtNg2tWSPqjlF-cll4QXc5m-xfG7h37x585ncb7MqwX-1l7W9dEDY0TkygAeVOA4muNJT62mpo13_eY5_HW_lANkKTn-_I4Qb-mRjseOjdrcvWXKzGRddMJNefCfg6Zwc8fCdfBDl8yBKCoLPlOV26xGXn1i3KDx1ZKregALmnIcKnhK5hIO7WMVvTqCbDiGJnNE4n6gvnnvwhLDv7WkClsWhjdzYuBS0bJ-m8Hhgu2O7z-mg"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.10",
+              "mime_type": "image/png",
+              "filename": "p4xmdkxq.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"p4xmdkxq.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"p4xmdkxq.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<emd9db175f-36df-43d4-b6aa-cd9055332db1@e2601ae4.com>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 5365,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ9mkpoiwgVgwHwRVV3F6QJtvgS_iXPmUaJURfhiCsGcxkfaAw12rVQu18XOluoeROsQbyM3Xpx2GcD3MosU3zY8oMU5O4th2tNoEoBPFjxHBUYZZIFHNURuIkMVpWsL0rCQAT6oim192daAEmeoDyVvv4P9dG66BT8Asy--IgoEz6l_YFQ8P2OmKqqFHHkvQXmn_XbKfDd_jP8YjN3WTASZ-pZ7cC9QwHfutJQC8_RqW0-09JuI6NLW5bGDP85IRzET1mWlArjF0JZ7kKeaAp0BwIfA371-KyRerp_0VkpdPdoy-aiB6ir81WEYOTcoUlOIH8pYtDp9tGEKV4fgfUMlU3MuYzyq2-gczFLcTHns92DCZii3lQYN3Tzuuo4b-2Up4dJhYRJ7AjEq"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.11",
+              "mime_type": "image/png",
+              "filename": "image002.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image002.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image002.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<image002.png@01DC0DEB.C7EDAC30>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 64914,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ_0WliEMjMyb8ZOFDKFu7ChLerRcN4NxVFloxgc-WAYB7wUuzaCb7O-d9jUQIq-YomBzsAMX6J0cMhlauG4g7xVEderMyuye0PPx6ScawDgO9lJ7YZu-zMF1--xbsSy5VMkim8u7leG1dDWy5mt_ebJziPLxbc2EwNbJ1-ADq_Xr-D1r1ZuTrAvQ3-0TzA_LTMVKhO_8PXZZBGsgBiVOmgHw3eCwwMiqEML-ke2c62JkLWh1Onv-33XUCN6iQCj9rtsImRMWtGu_Xopq58fAaqQkRPFMzAKNxD9k6Cnr-KnYIW41hwc7Y87saX4Ospc65X-wgsSO0R6McYU-uiobF99ZwKU41KHUtdJrUVHD28rsBjeg9zheAw7tMdrHvoy39AJyWr78cr_gfYf7ByQ5hz4FoxuSFQw287JbA"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.12",
+              "mime_type": "image/png",
+              "filename": "image003.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image003.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image003.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<image003.png@01DC0DEB.C7EDAC30>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 5365,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ8YLfgapEWKyj4-CWIr0fqbGxnEdFvXljfXuXmzb0KUUTOywN9Xbi9O7_tNG69wWK1IV6jOdqxGMdNQlLfEo1-J6rxYzLc4EQmPxWWfH0cFsJ2XXwxz8Yi7zlZ8wbeTb8f_279tX6TxQO0AoG7AhZQDCMP-FzLP70rZ1sJ9h1Fk3lufa6D7IrNYU0E4kYT4lGzedDu1nTghWoENqy5Xub8PAafJSXMrbgKk_igfNiyju2He0blYWBDVBfEk5wbwfYW3ltx_7wQSEXSq2YRp0AM5d331s2dzN-JO8Mj-8FYZ5mMfsPG6CT5UX4tmkLM8L35y8ut70Y7twkj9wrr1GrouosFyDxX8VgloAuLrxG45AEIa1PuxthgEx6MzeaG5blhbIPsfz7UYW6VZ"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.13",
+              "mime_type": "image/png",
+              "filename": "image004.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"image004.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"image004.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<image004.png@01DC0DEB.C7EDAC30>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 6096,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ-4x3ts8r3BcAmJeW3kprDyOZ2FGHPUaGWu2s35iOZLXBvjcvqhZnI0i50e006cKha2R2HYPh41VSzryxtdRN288O2IA9bMF9EZlQl2oD9DTYN8mGP7NyAbZVgmK745ptAuxcCXuOuPvq1tZqlfZ85kM80JF9inFxsDwxTmYsV2LAiOXJP5MlZlJNzC4uDZ6-Y8cw2CpzMoaJQvEW03N4_dqrZZ6gfCE8s-p92rce8uGtnxdtZ9-BVhXp3m-O8BKu-IM0y33T6IMpPJjzIrgFlh0sVCp2WWgAEq5lCbswgJsEM8Cs9QkfRgpNtDfxP-iUQbIFE6iU1YAicuRpTWsLD5v8-PUFVgP3GYRZeR5FZU_BuzmZBwtBDBYTpOu820didURoGXBLHk0G2z"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.14",
+              "mime_type": "image/png",
+              "filename": "3ykqakn1.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"3ykqakn1.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"3ykqakn1.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<em35eddb0b-2d04-46e3-8ffe-643349819097@e2601ae4.com>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 64914,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ9VRKgW_Vrz806ccqDe2MBegrTDHsBq5qRkB6unIoMFoQ8hXKk9LR3r8QNsbcnpjo7JYfehquAmp2REBT8JRdY7mZMOHiz9_PFXCkDSpCOoqlAvzz-j5DWT1ReUAB5WYiZ2TgW89AKflm3cV6rbUSVRnAn5uCKV0O2euUgK-sxb7X5UlmZkldXUFVCNFE_bygiUWL1WjhLgpFsMtewwA7C0bjrZ51Z07RSixy5eJKhS6cSAcR7xuiRKXDpFqaqg7WRxIPRYRBC0aZS7WJ5MBtu-VyLgbJTnSwXzUe4ClBwvOpZq9hXaexTERiCldZzurSFQ-2IUAOoRFmUt5ZLY9JdNG7cJWcTaiFE5ONRCTzR4ovKww_NlBK3yRcAfA2tk6O1rxygC9qhdcB3yizrxODhptMzt68Jxv6dh6A"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.15",
+              "mime_type": "image/png",
+              "filename": "gqrdgcee.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"gqrdgcee.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"gqrdgcee.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<em4f0de62e-7aa7-45c9-a63f-3e73f9624919@e2601ae4.com>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 6096,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ8EBzg2D0uz1N2AXtvMNQv5JNv6pnWkoILyJPaIJDloXEwy3_vczPk6PW3QXmwXJu0-OlF9CtWRlfuAE2RJ7puZwBcyodf9_MceMQ8hc-rDDqURr4FAsP70mJvR-TNuGwHzzyMm35xfQngbDBiG7VaB53GHiQbzcPrDOEu27xQZQ7zzjwZUwMhiBd5e4sQuiy-nh1TCjDqRpRyv01ps8_FiuYRc3Gh_JDBoeJwU93GmLzHsCE_oa5GDZoxaIICWdYrXufK_2qrE0HbwEX1_nDRgk47dTXg8ctOf-fBsGM916T7Gd28QysIlS1ID5LkzUGTC_ZSAAXycIKsewoNgOi6BnGzFn39LFB68zH8W-d1hovHDRzsk0-ZxFuXwzCL-vLgf_XEbPTeaMlYS"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            },
+            {
+              "part_id": "0.16",
+              "mime_type": "image/png",
+              "filename": "fyjpy3hy.png",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "image/png; name=\"fyjpy3hy.png\""
+                },
+                {
+                  "name": "Content-Disposition",
+                  "value": "inline; filename=\"fyjpy3hy.png\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "base64"
+                },
+                {
+                  "name": "Content-ID",
+                  "value": "<em979dfa72-56bb-42f8-9092-e0fd93d6a9bc@e2601ae4.com>"
+                },
+                {
+                  "name": "X-Attachment-Id",
+                  "value": ""
+                }
+              ],
+              "body": {
+                "size": 53027,
+                "base64_url_content": null,
+                "content": null,
+                "attachment_id": "ANGjdJ-AxxzX3HPjms-vFJldcUpseH4wtb5iGE6mmrA7j8WXhXocnQ0FPN4Xw0x0OHBelFg7_kOlNBCVePeLb4A1mTeKF341ek85GswtsexN8PmF3pLyyYgB-N4CSIO2X8yOP5ILo4G7iY_-Qo71j3gL2JlP-qL3VCcopENkZhYQO-1aYXLNmuA_LE-xHMCNmzrOWoLIHzRhwlf9H5fW58Y26KqvfKuwTJjxxFPNshR5sNQOts9m_iwHfeoP1wj-RgXpKegMkf3xU2-PeBKSnr4MsH44_gYip5Ov57B_RZUe8nwQt_3gC37riUEtZlgppFiwmsuRbHd5Es3gEebwyKISNZpOkGDrHC0vgbpYBJ-dUBBi4w0y_-TrHPrVLx5DN-OxxE8qG-innsY87vwaf76DVqi0X00pgRJBaacTgw"
+              },
+              "read_attachment_supported": true,
+              "parts": null
+            }
+          ]
+        },
+        {
+          "part_id": "1",
+          "mime_type": "image/jpeg",
+          "filename": "image006.jpg",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "image/jpeg; name=\"image006.jpg\""
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"image006.jpg\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "base64"
+            },
+            {
+              "name": "Content-ID",
+              "value": "<image006.jpg@01DC0DEB.C7EDAC30>"
+            },
+            {
+              "name": "X-Attachment-Id",
+              "value": "19a037c75ba935e6e9"
+            }
+          ],
+          "body": {
+            "size": 3564964,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ8E13XSAINN-FffMTs-TKb202cyfKR2NC5djgz-SJTZsUX_2M6Cs_6b4NLZnZtTS3hwErhxiXr5EKFHWwUidShNFAGg_1JoaSJWjf2EV_soV8rTY9_wJKLw6GI4x5FXnE9mn3jraDvUr7Bb6nHNERXQvMQNXCMANnx9LMvSBTKdVbRivhkXo9NhUFjWzuX2-FrUTtTnSqK5NCgE6dgim-L-86v1BSJvACavcQeZ3bQZUt2XlK1fvTkrQ3BdSKCYoAYIb_TnWi6ICZ9WHPQ5gE4P7wj2_bKacUshQ0Z3Jurwk0viQpGBceEaNwO7TkOXP6h4woH_WumldUOxOO4GJS_EUnqTQ4QNEAFNAMXonFHwwQfncgs1U4Tfq_kcSbzycnEU43HZ6ayj6HQpBLV-Msi4pZAht9OOxGl-Cg"
+          },
+          "read_attachment_supported": true,
+          "parts": null
+        },
+        {
+          "part_id": "2",
+          "mime_type": "application/pdf",
+          "filename": "Invoice-CWIQUWOL-0004.pdf",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/pdf; name=\"Invoice-CWIQUWOL-0004.pdf\""
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"Invoice-CWIQUWOL-0004.pdf\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "base64"
+            },
+            {
+              "name": "Content-ID",
+              "value": "<B81AADD13A0FD54A905940CED194568C@CANPRD01.PROD.OUTLOOK.COM>"
+            },
+            {
+              "name": "X-Attachment-Id",
+              "value": "19a037c75badec78c3aa"
+            }
+          ],
+          "body": {
+            "size": 76844,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ-2Gnhu31Cs8eA5-V9EzJQKQMzE0GV1wdSMEkQrVs8tR4a4etnYUjVKnFmy8yeisT4SBNlalUGr0aRBxCsbwwzN9Hd9NuejZLnuxNNSWYhCfrE0PGFBdGUCU7qIo2JriozZUiqt9Zn0vqjseyHYsaekNE_3F2FgcrQ3CPE2gX3DuXr0j6sIOY59MOG5UhLlijYCgRVDobb6d5Vrl2uT-Oyu5LZ9cxL8xulGzDENkoPzFfVg9r9E6Ga4hTVof1NbIilu-4xRzZu0aY5CQ4RaD0lcOTTbGE_HZ-8-aK15foP5tgftHFX3jqe4Yctj9_O5VAfskeWVhyfv2f9jH68rQaOvEvhwIxP3dXpFPINijgDoM1XRSCHqfPW7MqfnrD4TUvk8ktqSkGN-z9QQgIqpmNcaZ3wOKwouFc7PyA"
+          },
+          "read_attachment_supported": true,
+          "parts": null
+        },
+        {
+          "part_id": "3",
+          "mime_type": "message/rfc822",
+          "filename": "noname",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "message/rfc822; name=noname"
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=noname"
+            },
+            {
+              "name": "Content-ID",
+              "value": "<7520C12E72299B4784A7A203A031682E@CANPRD01.PROD.OUTLOOK.COM>"
+            },
+            {
+              "name": "X-Attachment-Id",
+              "value": "19a037c75bac204bfccb"
+            }
+          ],
+          "body": {
+            "size": 47,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ-p04v84_5Zimjg5JtGcA0HOHLznfJNPUGOX_jdrysJmunz2LhV_aLQ-zjYLcnl43CQOF-LBOSGXQsT8uu519zT6dP-6WZaooQ82Dj7RnxXuULc5HtTMW-XMMEr0ksTBE8HRL6L2UTlwAnsnadQd1vyRILYbj5H9DM6rlFJbD_t7BalEgdC-ij6ei5x1XajP8AbPtsNwNkkzVCiyNTMpRuKbRGeA5lmJZk5YkZPyqopoGjvrptgoC8BozVK0JIRqDzlcUMnoo6KErHy9RPqwuFBoZREVsV8EZwtiIIs_ssugqKu-gRna8lotsLgla_sU27xvSIAkP3_vOD7N_p5kQi7sP5SLk4R32ACaZ1FvEXAG6fqn3kgddn4t9E"
+          },
+          "read_attachment_supported": true,
+          "parts": [
+            {
+              "part_id": "3.0",
+              "mime_type": "text/plain",
+              "filename": "",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "text/plain"
+                },
+                {
+                  "name": "MIME-Version",
+                  "value": "1.0"
+                }
+              ],
+              "body": {
+                "size": 0,
+                "base64_url_content": null,
+                "content": "",
+                "attachment_id": null
+              },
+              "read_attachment_supported": null,
+              "parts": null
+            }
+          ]
+        }
+      ]
+    },
+    "size_estimate": 5840032,
+    "classification_label_values": null
+  }
+}

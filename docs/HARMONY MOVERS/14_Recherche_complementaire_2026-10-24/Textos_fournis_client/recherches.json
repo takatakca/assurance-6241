@@ -1,0 +1,32 @@
+[
+  {
+    "date_recherche": "2026-10-24",
+    "query": "in:anywhere after:2026/10/23 {Harmony texto textos SMS conversation \"Movers\"}",
+    "message_ids": [
+      "1a16c3433dd4857c",
+      "1a16a866d8f5bc61",
+      "1a16a02a185f66d8",
+      "1a1670a55f5c448f"
+    ],
+    "next_page_token": null
+  },
+  {
+    "date_recherche": "2026-10-24",
+    "query": "in:anywhere after:2026/10/24 has:attachment",
+    "message_ids": [
+      "1a16c3433dd4857c"
+    ],
+    "next_page_token": null
+  },
+  {
+    "date_recherche": "2026-10-24",
+    "query": "in:anywhere after:2026/10/23 {from:ooeuf.ca@gmail.com from:mwb130890@gmail.com from:takatak.ca@gmail.com from:plevesquemtl@gmail.com}",
+    "message_ids": [
+      "1a16c3433dd4857c",
+      "1a16c2b6913d6e9a",
+      "1a16a30bc863c7b2",
+      "1a1678b42322c800"
+    ],
+    "next_page_token": null
+  }
+]

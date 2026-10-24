@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-24",
+  "methodologie": "Photographies sources ouvertes individuellement et lues visuellement; aucune modification. Les dix nouveaux PDF Frigo-Spec ont été rendus et lus dans le contrôle ChatGPT antérieur de ce même lot.",
+  "sources": [
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069201.jpg",
+      "sha256": "e62510927043f977fbc44985ccd4f13d0619cda33ca2b852576739c17a482faf"
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069203.jpg",
+      "sha256": "9bfdd8873eed95b6918e647d01935b49cd70a3c1c578f072ea17d89e59f48a90"
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069204.jpg",
+      "sha256": "1155da25f14e1ca56403f74ab82b56d554d293fa566cd3a873f16b97fe885be3"
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069205.jpg",
+      "sha256": "dadf17e525f74506b035c8ea9f1f2cd34b4c8f5704bf0b21b22428b9cafb221b"
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069206.jpg",
+      "sha256": "291d8a049eee8330111f44aa60468b3b4469cc2a381044473195ae996648a0ee"
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069207.jpg",
+      "sha256": "942357f7007ef21044d1a16c8123f4877b46284d6b6e6ae3ac8e7b679a1498d3"
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/lectures-factures2024/1000069214.jpg",
+      "sha256": "7e7fbab87b25111dfa7ff72025f2da5efc128a27c4f0151ce553e95ec9cede9a"
+    }
+  ]
+}

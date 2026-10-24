@@ -20,7 +20,7 @@ Les cotes sont internes au dossier de remise. Les empreintes complètes et les e
 | A014 | [19a037ccd5540733.txt](ANNEXES/A014__19a037ccd5540733.txt) | extraction | 2, 8, 11, 24, 25 |
 | A015 | [1000069210.jpg](ANNEXES/A015__1000069210.jpg) | original | 3 |
 | A016 | [1000069214.jpg](ANNEXES/A016__1000069214.jpg) | original | 3, 5 |
-| A017 | [PV-SEPARATE-ORIGINAL.pdf](ANNEXES/A017__PV-SEPARATE-ORIGINAL.pdf) | original | 3, 10, 16, 18 |
+| A017 | [PV-SEPARATE-ORIGINAL.pdf](ANNEXES/A017__PV-SEPARATE-ORIGINAL.pdf) | original | 3, 9, 10, 16, 18 |
 | A018 | [final.xls](ANNEXES/A018__final.xls) | original | 4, 14, 23 |
 | A019 | [19cb13a2879f146c__quadro excel sort.xls](ANNEXES/A019__19cb13a2879f146c__quadro%20excel%20sort.xls) | original | 4 |
 | A020 | [19cb1ecd4a7964a1__quadro excel sort.xls](ANNEXES/A020__19cb1ecd4a7964a1__quadro%20excel%20sort.xls) | original | 4 |
@@ -77,7 +77,7 @@ Les cotes sont internes au dossier de remise. Les empreintes complètes et les e
 | A071 | [2026-08-04-Lettre-reserve-droits-SNB.pdf](ANNEXES/A071__2026-08-04-Lettre-reserve-droits-SNB.pdf) | original | 21, 22, 23 |
 | A072 | [001_soutien_documentaire.txt](ANNEXES/A072__001_soutien_documentaire.txt) | extraction | 22 |
 | A073 | [19789799f5f09a5c__Exhibit 11 - Claim Summary.pdf](ANNEXES/A073__19789799f5f09a5c__Exhibit%2011%20-%20Claim%20Summary.pdf) | original | 22 |
-| A074 | [Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx](ANNEXES/A074__Copi%20Hadmo_3621dc63-820c-4470-95be-cdb7f345317c%20oeuf%2022%20avril%202025.xlsx) | original | 22 |
+| A074 | [Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx](ANNEXES/A074__Copi%20Hadmo_3621dc63-820c-4470-95be-cdb7f345317c%20oeuf%2022%20avril%202025.xlsx) | original | 5, 22 |
 | A075 | [DII-JANVIER-12P-ORIGINAL.pdf](ANNEXES/A075__DII-JANVIER-12P-ORIGINAL.pdf) | original | 23 |
 | A076 | [BILAN-DE-LA-RECHERCHE.md](ANNEXES/A076__BILAN-DE-LA-RECHERCHE.txt) | analyse | Contexte |
 | A077 | [PROVENANCE-OOEUF.json](ANNEXES/A077__PROVENANCE-OOEUF.json) | analyse | Contexte |
@@ -87,7 +87,7 @@ Les cotes sont internes au dossier de remise. Les empreintes complètes et les e
 | A081 | [Sales Quotation - 141455.pdf](ANNEXES/A081__Sales%20Quotation%20-%20141455.pdf) | original | 3, 5, 17 |
 | A082 | [etats-financiers-controle.json](ANNEXES/A082__etats-financiers-controle.json) | analyse | 4 |
 | A083 | [1000026855.jpg](ANNEXES/A083__1000026855.jpg) | original | 5, 17 |
-| A084 | [RAPPORT_F.pdf](ANNEXES/A084__RAPPORT_F.pdf) | original | 10, 16, 18 |
+| A084 | [RAPPORT_F.pdf](ANNEXES/A084__RAPPORT_F.pdf) | original | 9, 10, 16, 18, 20 |
 | A085 | [PV_SIGNE.pdf](ANNEXES/A085__PV_SIGNE.pdf) | original | 10, 16, 18 |
 | A086 | [1994ef80e86fca11__1000041195.jpg](ANNEXES/A086__1994ef80e86fca11__1000041195.jpg) | original | 11 |
 | A087 | [1994ef80e86fca11__1000041194.jpg](ANNEXES/A087__1994ef80e86fca11__1000041194.jpg) | original | 11 |
@@ -220,3 +220,99 @@ Les cotes sont internes au dossier de remise. Les empreintes complètes et les e
 | A214 | [1000026854.jpg](ANNEXES/A214__1000026854.jpg) | original | 17 |
 | A215 | [2025-07-30-1831-Tzanet-courriel-dom.txt](ANNEXES/A215__2025-07-30-1831-Tzanet-courriel-dom.txt) | extraction | 17 |
 | A216 | [1a0b7cf80510d416__Facture_8695_QUADRO HOLDINGS LTÉE.pdf](ANNEXES/A216__1a0b7cf80510d416__Facture_8695_QUADRO%20HOLDINGS%20LT%C3%89E.pdf) | original | 20 |
+| A217 | [BILAN-DE-LA-RECHERCHE.md](ANNEXES/A217__BILAN-DE-LA-RECHERCHE.txt) | analyse | Contexte |
+| A218 | [PRECISIONS-DU-CLIENT-24-OCTOBRE.md](ANNEXES/A218__PRECISIONS-DU-CLIENT-24-OCTOBRE.txt) | declaration | 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 |
+| A219 | [SUIVIS-ET-CONTACTS.md](ANNEXES/A219__SUIVIS-ET-CONTACTS.txt) | analyse | 10, 11, 12, 16, 18, 24 |
+| A220 | [BILAN-REPRISE-CHATGPT.md](ANNEXES/A220__BILAN-REPRISE-CHATGPT.txt) | analyse | Contexte |
+| A221 | [COUVERTURE-REPRISE-CHATGPT-2026-10-24.json](ANNEXES/A221__COUVERTURE-REPRISE-CHATGPT-2026-10-24.json) | analyse | Contexte |
+| A222 | [Finaliser-dossier-Harmony-Movers.txt](ANNEXES/A222__Finaliser-dossier-Harmony-Movers.txt) | extraction | Contexte |
+| A223 | [Extraire-la-conversation.txt](ANNEXES/A223__Extraire-la-conversation.txt) | extraction | Contexte |
+| A224 | [Extraire-la-conversation-roles.json](ANNEXES/A224__Extraire-la-conversation-roles.json) | analyse | Contexte |
+| A225 | [Prepare-Hearing-Evidence.txt](ANNEXES/A225__Prepare-Hearing-Evidence.txt) | extraction | Contexte |
+| A226 | [Prepare-Hearing-Evidence-roles.json](ANNEXES/A226__Prepare-Hearing-Evidence-roles.json) | analyse | Contexte |
+| A227 | [Harmony-Movers-Incident.txt](ANNEXES/A227__Harmony-Movers-Incident.txt) | extraction | Contexte |
+| A228 | [Harmony-Movers-Incident-roles.json](ANNEXES/A228__Harmony-Movers-Incident-roles.json) | analyse | Contexte |
+| A229 | [CONTROLE-FACTURES-ARCHIVES.json](ANNEXES/A229__CONTROLE-FACTURES-ARCHIVES.json) | analyse | Contexte |
+| A230 | [CONTROLE-DIFFUSION-ARCHIVES.json](ANNEXES/A230__CONTROLE-DIFFUSION-ARCHIVES.json) | analyse | Contexte |
+| A231 | [PROVENANCE-OOEUF-24.json](ANNEXES/A231__PROVENANCE-OOEUF-24.json) | analyse | 13 |
+| A232 | [ANALYSE-ET-PROVENANCE-OOEUF.md](ANNEXES/A232__ANALYSE-ET-PROVENANCE-OOEUF.txt) | analyse | 6, 7, 13 |
+| A233 | [CONTROLE-VISUEL.json](ANNEXES/A233__CONTROLE-VISUEL.json) | analyse | Contexte |
+| A234 | [CONTROLE-VISUEL.json](ANNEXES/A234__CONTROLE-VISUEL.json) | analyse | Contexte |
+| A235 | [PROVENANCE-TABLEAUX.json](ANNEXES/A235__PROVENANCE-TABLEAUX.json) | analyse | Contexte |
+| A236 | [PROVENANCE-COURRIELS-TABLEAUX.json](ANNEXES/A236__PROVENANCE-COURRIELS-TABLEAUX.json) | analyse | Contexte |
+| A237 | [CONTROLE-VISUEL.json](ANNEXES/A237__CONTROLE-VISUEL.json) | analyse | Contexte |
+| A238 | [LIRE-EN-PREMIER.md](ANNEXES/A238__LIRE-EN-PREMIER.txt) | analyse | Contexte |
+| A239 | [PROVENANCE-AUTORISATION.json](ANNEXES/A239__PROVENANCE-AUTORISATION.json) | analyse | Contexte |
+| A240 | [CONTROLE-VISUEL-AUTORISATION.json](ANNEXES/A240__CONTROLE-VISUEL-AUTORISATION.json) | analyse | Contexte |
+| A241 | [CV-Final.docx](ANNEXES/A241__CV-Final.docx) | original | 1 |
+| A242 | [PROVENANCE-CV.json](ANNEXES/A242__PROVENANCE-CV.json) | analyse | 1 |
+| A243 | [1000155462.jpg](ANNEXES/A243__1000155462.jpg) | capture ecran fournie par client, piece jointe originale | 2, 8, 15 |
+| A244 | [1000155480.jpg](ANNEXES/A244__1000155480.jpg) | capture ecran fournie par client, piece jointe originale | 2, 8 |
+| A245 | [1000155482.jpg](ANNEXES/A245__1000155482.jpg) | capture ecran fournie par client, piece jointe originale | 2, 8 |
+| A246 | [1000155485.jpg](ANNEXES/A246__1000155485.jpg) | capture ecran fournie par client, piece jointe originale | 2, 8, 25 |
+| A247 | [1000155486.jpg](ANNEXES/A247__1000155486.jpg) | capture ecran fournie par client, piece jointe originale | 2, 8, 25 |
+| A248 | [rapport.md](ANNEXES/A248__rapport.txt) | analyse et transcription de travail | 2, 8, 15, 25 |
+| A249 | [INVENTAIRE RESTO.xlsx](ANNEXES/A249__INVENTAIRE%20RESTO.xlsx) | original numerique joint au courriel | 3, 15 |
+| A250 | [198472d44b632476.eml](ANNEXES/A250__198472d44b632476.eml) | original courriel | 3, 15 |
+| A251 | [rapport.md](ANNEXES/A251__rapport.txt) | declaration client consignee | 3, 15 |
+| A252 | [BILAN-DANIEL-SIMARD.md](ANNEXES/A252__BILAN-DANIEL-SIMARD.txt) | analyse | 3, 5, 22 |
+| A253 | [CHRONOLOGIE.md](ANNEXES/A253__CHRONOLOGIE.txt) | analyse | 3, 5, 22 |
+| A254 | [197896004b3e9484.txt](ANNEXES/A254__197896004b3e9484.txt) | extraction | 3 |
+| A255 | [08-fil-texte.txt](ANNEXES/A255__08-fil-texte.txt) | extraction | 3 |
+| A256 | [G22_192b69775df0e947-Facture.pdf](ANNEXES/A256__G22_192b69775df0e947-Facture.pdf) | original | 5 |
+| A257 | [G23_192b6e5ddbebbe4b-Facture.pdf](ANNEXES/A257__G23_192b6e5ddbebbe4b-Facture.pdf) | original | 5 |
+| A258 | [G24_192b6e62f5eb5fb3-Facture.pdf](ANNEXES/A258__G24_192b6e62f5eb5fb3-Facture.pdf) | original | 5 |
+| A259 | [G25_192b696201394ef4-Facture.pdf](ANNEXES/A259__G25_192b696201394ef4-Facture.pdf) | original | 5 |
+| A260 | [G26_192b695cec4fb023-Facture.pdf](ANNEXES/A260__G26_192b695cec4fb023-Facture.pdf) | original | 5 |
+| A261 | [G27_192b69707dcc14ba-Facture.pdf](ANNEXES/A261__G27_192b69707dcc14ba-Facture.pdf) | original | 5 |
+| A262 | [G28_192b696b2a3af44a-Facture.pdf](ANNEXES/A262__G28_192b696b2a3af44a-Facture.pdf) | original | 5 |
+| A263 | [G29_192b6e6d937fa268-Facture.pdf](ANNEXES/A263__G29_192b6e6d937fa268-Facture.pdf) | original | 5 |
+| A264 | [G30_192b6e67a28f1bfc-Facture.pdf](ANNEXES/A264__G30_192b6e67a28f1bfc-Facture.pdf) | original | 5 |
+| A265 | [G31_192b6e7272d2e3d0-Facture.pdf](ANNEXES/A265__G31_192b6e7272d2e3d0-Facture.pdf) | original | 5 |
+| A266 | [Hadmo-version-15-janvier-2025.xlsx](ANNEXES/A266__Hadmo-version-15-janvier-2025.xlsx) | original | 5, 22 |
+| A267 | [Hadmo-version-ancienne.xlsx](ANNEXES/A267__Hadmo-version-ancienne.xlsx) | original | 5, 22 |
+| A268 | [RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.md](ANNEXES/A268__RAPPROCHEMENT-ENTRETIEN-ET-TABLEAUX.txt) | analyse | 5, 22 |
+| A269 | [07-fil-texte.txt](ANNEXES/A269__07-fil-texte.txt) | extraction | 5, 22 |
+| A270 | [19e6a1f6ebc6d9dd.txt](ANNEXES/A270__19e6a1f6ebc6d9dd.txt) | extraction | 5 |
+| A271 | [19cd9982ac53b52e.txt](ANNEXES/A271__19cd9982ac53b52e.txt) | extraction | 5 |
+| A272 | [EC2024-04-22.pdf](ANNEXES/A272__EC2024-04-22.pdf) | original | 5 |
+| A273 | [rapport.md](ANNEXES/A273__rapport.txt) | analyse | 6, 7, 9, 12, 24 |
+| A274 | [Invoice_1020_from_AKA_Moving.pdf](ANNEXES/A274__Invoice_1020_from_AKA_Moving.pdf) | original | 6, 7 |
+| A275 | [1000155464.jpg](ANNEXES/A275__1000155464.jpg) | capture ecran fournie par client, piece jointe originale | 8, 15 |
+| A276 | [1000155466.jpg](ANNEXES/A276__1000155466.jpg) | capture ecran fournie par client, piece jointe originale | 8, 15 |
+| A277 | [1000155468.jpg](ANNEXES/A277__1000155468.jpg) | capture ecran fournie par client, piece jointe originale | 8, 15 |
+| A278 | [1000155470.jpg](ANNEXES/A278__1000155470.jpg) | capture ecran fournie par client, piece jointe originale | 8 |
+| A279 | [1000155472.jpg](ANNEXES/A279__1000155472.jpg) | capture ecran fournie par client, piece jointe originale | 8, 15 |
+| A280 | [1000155474.jpg](ANNEXES/A280__1000155474.jpg) | capture ecran fournie par client, piece jointe originale | 8, 15 |
+| A281 | [1000155476.jpg](ANNEXES/A281__1000155476.jpg) | capture ecran fournie par client, piece jointe originale | 8, 15 |
+| A282 | [1000155478.jpg](ANNEXES/A282__1000155478.jpg) | capture ecran fournie par client, piece jointe originale | 8 |
+| A283 | [DECLARATIONS-CLIENT.md](ANNEXES/A283__DECLARATIONS-CLIENT.txt) | declaration_client_relayee | 9 |
+| A284 | [1a10d08a7feddb4a.eml](ANNEXES/A284__1a10d08a7feddb4a.eml) | original | 9, 18 |
+| A285 | [1a16c2b6913d6e9a.eml](ANNEXES/A285__1a16c2b6913d6e9a.eml) | courriel original contenant declaration client | 12 |
+| A286 | [relocalisation-rapport.md](ANNEXES/A286__relocalisation-rapport.txt) | analyse | 12 |
+| A287 | [2025-07-01-Relocalisation-Jean-Talon.eml](ANNEXES/A287__2025-07-01-Relocalisation-Jean-Talon.eml) | original | 12 |
+| A288 | [NOTE-DOSSIER-FISCAL-TOMMASO-NICK.md](ANNEXES/A288__NOTE-DOSSIER-FISCAL-TOMMASO-NICK.txt) | analyse | 13, 14, 23 |
+| A289 | [Quadro_Holding_Lettre_UberEats_FR_Clean.pdf](ANNEXES/A289__Quadro_Holding_Lettre_UberEats_FR_Clean.pdf) | original | 13 |
+| A290 | [ANALYSE-HUISSIER.md](ANNEXES/A290__ANALYSE-HUISSIER.txt) | analyse | 18 |
+| A291 | [1000155488.jpg](ANNEXES/A291__1000155488.jpg) | document_fourni_client | 18 |
+| A292 | [1a10d1182b2319b2.eml](ANNEXES/A292__1a10d1182b2319b2.eml) | original | 18 |
+| A293 | [1a10d119b71c4554.eml](ANNEXES/A293__1a10d119b71c4554.eml) | original | 18 |
+| A294 | [1a10d2e36bf7f452.eml](ANNEXES/A294__1a10d2e36bf7f452.eml) | original | 18 |
+| A295 | [AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf](ANNEXES/A295__AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.pdf) | analyse | 20 |
+| A296 | [AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.md](ANNEXES/A296__AUTORISATION-SPVM-MTLEV2500487177-A-SIGNER.txt) | analyse | 20 |
+| A297 | [rapport.md](ANNEXES/A297__rapport.txt) | analyse | 21, 22 |
+| A298 | [INDEX-CORRESPONDANCES.md](ANNEXES/A298__INDEX-CORRESPONDANCES.txt) | analyse | 21, 22 |
+| A299 | [CHRONOLOGIE-ASSURANCE-EXPERTS.md](ANNEXES/A299__CHRONOLOGIE-ASSURANCE-EXPERTS.txt) | analyse | 21, 22 |
+| A300 | [provenance-copies-lecture.json](ANNEXES/A300__provenance-copies-lecture.json) | analyse | 21, 22 |
+| A301 | [CORRESPONDANCES-RACINE.md](ANNEXES/A301__CORRESPONDANCES-RACINE.txt) | extraction interface Gmail | 21 |
+| A302 | [10043375-Renouvellement-2024-2025.pdf](ANNEXES/A302__10043375-Renouvellement-2024-2025.pdf) | original | 21 |
+| A303 | [10043375-Nouveau-contrat-2023-2024.pdf](ANNEXES/A303__10043375-Nouveau-contrat-2023-2024.pdf) | original | 21 |
+| A304 | [ANALYSE-POLICES-10043375.md](ANNEXES/A304__ANALYSE-POLICES-10043375.txt) | analyse | 21 |
+| A305 | [PROVENANCE-POLICES-10043375.json](ANNEXES/A305__PROVENANCE-POLICES-10043375.json) | analyse | 21 |
+| A306 | [19e847ca0d6579ce.txt](ANNEXES/A306__19e847ca0d6579ce.txt) | extraction | 22 |
+| A307 | [15-fil-texte.txt](ANNEXES/A307__15-fil-texte.txt) | extraction | 22 |
+| A308 | [07-fil-lecture.txt](ANNEXES/A308__07-fil-lecture.txt) | extraction interface Gmail | 22 |
+| A309 | [CORRESPONDANCES-EXPERT-DUFOURD.md](ANNEXES/A309__CORRESPONDANCES-EXPERT-DUFOURD.txt) | extraction interface Gmail | 22 |
+| A310 | [13-fil-lecture.txt](ANNEXES/A310__13-fil-lecture.txt) | extraction interface Gmail | 22 |
+| A311 | [20-fil-lecture.txt](ANNEXES/A311__20-fil-lecture.txt) | extraction interface Gmail | 22 |
+| A312 | [Notifications-Instagram-extrait.txt](ANNEXES/A312__Notifications-Instagram-extrait.txt) | extraction | 24 |

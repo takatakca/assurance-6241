@@ -1,0 +1,1198 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - toolbar "affiner la recherche":
+    - button "À tout moment":
+      - generic: À tout moment
+    - button "Contient une pièce jointe":
+      - generic: Contient une pièce jointe
+    - button "À":
+      - generic: À
+    - button "Exclure les promotions":
+      - generic: Exclure les promotions
+    - button "Est non lu":
+      - generic: Est non lu
+    - button "Recherche avancée":
+      - generic: Recherche avancée
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - button "Afficher plus de messages":
+    - generic: 1 – 50
+    - text: sur un grand nombre
+  - button "Suivant" [disabled]
+  - button "Précédent"
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup:
+      - row "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 15 h 27, Ink and 2 x 50-Sheet Photo Paper $100 OFF Valid 10/16/26 to 10/29/26While quantities last Shop Now › (https://www.costco.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 15 h 27, Ink and 2 x 50-Sheet Photo Paper $100 OFF Valid 10/16/26 to 10/29/26While quantities last Shop Now › (https://www.costco.":
+          - checkbox "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 15 h 27, Ink and 2 x 50-Sheet Photo Paper $100 OFF Valid 10/16/26 to 10/29/26While quantities last Shop Now › (https://www.costco."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception Check out This Week's Savings on Costco.ca! - Ink and 2 x 50-Sheet Photo Paper $100 OFF Valid 10/16/26 to 10/29/26While quantities last Shop Now › (https://www.costco":
+          - link "Boîte de réception Check out This Week's Savings on Costco.ca! - Ink and 2 x 50-Sheet Photo Paper $100 OFF Valid 10/16/26 to 10/29/26While quantities last Shop Now › (https://www.costco":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Check out This Week's Savings on Costco.ca!
+            - generic: "-"
+            - text: Ink and
+            - generic: "2"
+            - text: x 50-Sheet Photo Paper $100 OFF Valid 10/16/26 to 10/29/26While quantities last Shop Now › (https://www.costco
+        - gridcell
+        - gridcell "ven. 23 oct. 2026 15 h 27":
+          - generic "ven. 23 oct. 2026 15 h 27": 15 h 27
+        - gridcell
+      - row "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 16 oct., an eligible 2-yr Ultra plan. Applied as a minimum of $10/mo. credit over 24 months. Bell 0 While quantities last. . (https.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 16 oct., an eligible 2-yr Ultra plan. Applied as a minimum of $10/mo. credit over 24 months. Bell 0 While quantities last. . (https.":
+          - checkbox "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 16 oct., an eligible 2-yr Ultra plan. Applied as a minimum of $10/mo. credit over 24 months. Bell 0 While quantities last. . (https."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception Check out This Week's Savings on Costco.ca! - an eligible 2-yr Ultra plan. Applied as a minimum of $10/mo. credit over 24 months. Bell 0 While quantities last. . (https":
+          - link "Boîte de réception Check out This Week's Savings on Costco.ca! - an eligible 2-yr Ultra plan. Applied as a minimum of $10/mo. credit over 24 months. Bell 0 While quantities last. . (https":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Check out This Week's Savings on Costco.ca!
+            - generic: "-"
+            - text: an eligible 2-yr Ultra plan. Applied as a minimum of $10/mo. credit over 24 months. Bell 0 While quantities last. . (https
+        - gridcell
+        - gridcell "ven. 16 oct. 2026 16 h 03":
+          - generic "ven. 16 oct. 2026 16 h 03": 16 oct.
+        - gridcell
+      - row "non lue, Costco Wholesale, Thanksgiving on Costco.ca!, 12 oct., in. 2-in-1 Touchscreen Chromebook Bundle, MediaTek Kompanio 520 8GB RAM, 128GB storage Valid until 10/25/26While quantities.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Thanksgiving on Costco.ca!, 12 oct., in. 2-in-1 Touchscreen Chromebook Bundle, MediaTek Kompanio 520 8GB RAM, 128GB storage Valid until 10/25/26While quantities.":
+          - checkbox "non lue, Costco Wholesale, Thanksgiving on Costco.ca!, 12 oct., in. 2-in-1 Touchscreen Chromebook Bundle, MediaTek Kompanio 520 8GB RAM, 128GB storage Valid until 10/25/26While quantities."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception Thanksgiving on Costco.ca! - in. 2-in-1 Touchscreen Chromebook Bundle, MediaTek Kompanio 520 8GB RAM, 128GB storage Valid until 10/25/26While quantities":
+          - link "Boîte de réception Thanksgiving on Costco.ca! - in. 2-in-1 Touchscreen Chromebook Bundle, MediaTek Kompanio 520 8GB RAM, 128GB storage Valid until 10/25/26While quantities":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Thanksgiving on Costco.ca!
+            - generic: "-"
+            - text: in. 2-in-1 Touchscreen Chromebook Bundle, MediaTek Kompanio 520 8GB RAM, 128GB storage Valid until 10/25/26While quantities
+        - gridcell
+        - gridcell "lun. 12 oct. 2026 07 h 48":
+          - generic "lun. 12 oct. 2026 07 h 48": 12 oct.
+        - gridcell
+      - row "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 9 oct., The Freestyle 2 FHD LED Projector $300 OFF Valid 10/02/26 to 10/15/26While quantities last Shop Now › (https://www.costco.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 9 oct., The Freestyle 2 FHD LED Projector $300 OFF Valid 10/02/26 to 10/15/26While quantities last Shop Now › (https://www.costco.":
+          - checkbox "non lue, Costco Wholesale, Check out This Week's Savings on Costco.ca!, 9 oct., The Freestyle 2 FHD LED Projector $300 OFF Valid 10/02/26 to 10/15/26While quantities last Shop Now › (https://www.costco."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception Check out This Week's Savings on Costco.ca! - The Freestyle 2 FHD LED Projector $300 OFF Valid 10/02/26 to 10/15/26While quantities last Shop Now › (https://www.costco":
+          - link "Boîte de réception Check out This Week's Savings on Costco.ca! - The Freestyle 2 FHD LED Projector $300 OFF Valid 10/02/26 to 10/15/26While quantities last Shop Now › (https://www.costco":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: Check out This Week's Savings on Costco.ca!
+            - generic: "-"
+            - text: The Freestyle 2 FHD LED Projector $300 OFF Valid 10/02/26 to 10/15/26While quantities last Shop Now › (https://www.costco
+        - gridcell
+        - gridcell "ven. 9 oct. 2026 16 h 33":
+          - generic "ven. 9 oct. 2026 16 h 33": 9 oct.
+        - gridcell
+      - row "non lue, Costco Wholesale, Member Appreciation Continues on Costco.ca!, 7 oct., Outdoor Lights Elite 150 ft. $80 OFF Valid 10/06/26 to 10/12/26While quantities last Shop Now › (https://www.costco.ca.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Member Appreciation Continues on Costco.ca!, 7 oct., Outdoor Lights Elite 150 ft. $80 OFF Valid 10/06/26 to 10/12/26While quantities last Shop Now › (https://www.costco.ca.":
+          - checkbox "non lue, Costco Wholesale, Member Appreciation Continues on Costco.ca!, 7 oct., Outdoor Lights Elite 150 ft. $80 OFF Valid 10/06/26 to 10/12/26While quantities last Shop Now › (https://www.costco.ca."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 📌 Reste dans la boîte Member Appreciation Continues on Costco.ca! - Outdoor Lights Elite 150 ft. $80 OFF Valid 10/06/26 to 10/12/26While quantities last Shop Now › (https://www.costco.ca":
+          - link "Boîte de réception 📌 Reste dans la boîte Member Appreciation Continues on Costco.ca! - Outdoor Lights Elite 150 ft. $80 OFF Valid 10/06/26 to 10/12/26While quantities last Shop Now › (https://www.costco.ca":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic: Member Appreciation Continues on Costco.ca!
+            - generic: "-"
+            - text: Outdoor Lights Elite 150 ft. $80 OFF Valid 10/06/26 to 10/12/26While quantities last Shop Now › (https://www.costco.ca
+        - gridcell
+        - gridcell "mer. 7 oct. 2026 13 h 48":
+          - generic "mer. 7 oct. 2026 13 h 48": 7 oct.
+        - gridcell
+      - row "non lue, Costco Wholesale, Member Appreciation Days on Costco.ca!, 5 oct., Buds Pro 2 with Active Noise Cancellation $80 OFF Valid 10/02/26 to 10/11/26While quantities last Shop Now › (https://www.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Member Appreciation Days on Costco.ca!, 5 oct., Buds Pro 2 with Active Noise Cancellation $80 OFF Valid 10/02/26 to 10/11/26While quantities last Shop Now › (https://www.":
+          - checkbox "non lue, Costco Wholesale, Member Appreciation Days on Costco.ca!, 5 oct., Buds Pro 2 with Active Noise Cancellation $80 OFF Valid 10/02/26 to 10/11/26While quantities last Shop Now › (https://www."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 📌 Reste dans la boîte 🔎 Ancien tri 9 (à véri… Member Appreciation Days on Costco.ca! - Buds Pro 2 with Active Noise Cancellation $80 OFF Valid 10/02/26 to 10/11/26While quantities last Shop Now › (https://www":
+          - link "Boîte de réception 📌 Reste dans la boîte 🔎 Ancien tri 9 (à véri… Member Appreciation Days on Costco.ca! - Buds Pro 2 with Active Noise Cancellation $80 OFF Valid 10/02/26 to 10/11/26While quantities last Shop Now › (https://www":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Member Appreciation Days on Costco.ca!
+            - generic: "-"
+            - text: Buds Pro 2 with Active Noise Cancellation $80 OFF Valid 10/02/26 to 10/11/26While quantities last Shop Now › (https://www
+        - gridcell
+        - gridcell "lun. 5 oct. 2026 17 h 47":
+          - generic "lun. 5 oct. 2026 17 h 47": 5 oct.
+        - gridcell
+      - row "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant.":
+        - gridcell
+        - gridcell "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant.":
+          - checkbox "cdufourd, moi 2, Votre dossier - Dufourd, Dion Avocats, contient une pièce jointe, 5 oct., vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "cdufourd, moi 2":
+          - generic: cdufourd, moi
+          - generic: "2"
+        - gridcell "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant":
+          - link "Boîte de réception ✉️ J'ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Votre dossier - Dufourd, Dion Avocats - vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Votre dossier - Dufourd, Dion Avocats
+            - generic: "-"
+            - text: vitae. 2. Produire toutes les communications entre vous-même, M. Lévesque et M. Constantino envers la défenderesse concernant
+        - gridcell "Contient une pièce jointe":
+          - img "Contient une pièce jointe"
+        - gridcell "lun. 5 oct. 2026 14 h 29":
+          - generic "lun. 5 oct. 2026 14 h 29": 5 oct.
+        - gridcell
+      - 'row "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+        - gridcell
+        - 'gridcell "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."':
+          - 'checkbox "moi 2, (aucun objet), contient une pièce jointe, 29 sept., ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - 'gridcell "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To Pièce jointe : Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf Pièce jointe : final (1).xls Pièce jointe : Scan2026-04-03_120155.pdf"':
+          - 'link "✉️ J''ai répondu 📎 Pièces jointes (aucun objet) - ---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"':
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: (aucun objet)
+            - generic: "-"
+            - text: "---------- Forwarded message --------- From: Oeuf Déjeuner Date: Tue, Sep 29, 2026, 17:07 Subject: To"
+          - generic "Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf":
+            - generic: "Pièce jointe :"
+            - generic: Production_-_Déclaration_TPS-TVH-TVQ_-_AR_SX_NoRefTT_010700112412425_USA_1228709740_SDU_TQ0001_2024-9-30 (2).pdf
+          - generic "final (1).xls":
+            - generic: "Pièce jointe :"
+            - generic: final (1).xls
+          - generic "Scan2026-04-03_120155.pdf":
+            - generic: "Pièce jointe :"
+            - generic: Scan2026-04-03_120155.pdf
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 17 h 54":
+          - generic "mar. 29 sept. 2026 17 h 54": 29 sept.
+        - gridcell
+      - row "non lue, Vevor, Automotive deals | Save on auto accessories., 29 sept., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Automotive deals | Save on auto accessories., 29 sept., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Automotive deals | Save on auto accessories., 29 sept., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 📌 Reste dans la boîte 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 📌 Reste dans la boîte 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Automotive deals | Save on auto accessories.
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 29 sept. 2026 12 h 10":
+          - generic "mar. 29 sept. 2026 12 h 10": 29 sept.
+        - gridcell
+      - row "non lue, Promo by Cody McCon., Promo Items for every industry. We got it all. But only the best., 28 sept., Find your Industry, 5 Easy Steps to Order. Simple..":
+        - gridcell
+        - gridcell "non lue, Promo by Cody McCon., Promo Items for every industry. We got it all. But only the best., 28 sept., Find your Industry, 5 Easy Steps to Order. Simple..":
+          - checkbox "non lue, Promo by Cody McCon., Promo Items for every industry. We got it all. But only the best., 28 sept., Find your Industry, 5 Easy Steps to Order. Simple.."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Promo by Cody McCon.":
+          - generic: Promo by Cody McCon.
+        - gridcell "Boîte de réception 📌 Reste dans la boîte 🔎 Ancien tri 9 (à véri… Promo Items for every industry. We got it all. But only the best. - Find your Industry, 5 Easy Steps to Order. Simple.":
+          - link "Boîte de réception 📌 Reste dans la boîte 🔎 Ancien tri 9 (à véri… Promo Items for every industry. We got it all. But only the best. - Find your Industry, 5 Easy Steps to Order. Simple.":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Promo Items for every industry. We got it all. But only the best.
+            - generic: "-"
+            - text: Find your Industry, 5 Easy Steps to Order. Simple.
+        - gridcell
+        - gridcell "lun. 28 sept. 2026 12 h 53":
+          - generic "lun. 28 sept. 2026 12 h 53": 28 sept.
+        - gridcell
+      - row "non lue, Costco Wholesale, Get Ready for Winter on Costco.ca!, 22 sept., Gas Can 2-pack $49.99 delivered While quantities last Shop Now › (https://www.costco.ca/p/-/100341642?langId=-24&EMID.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Get Ready for Winter on Costco.ca!, 22 sept., Gas Can 2-pack $49.99 delivered While quantities last Shop Now › (https://www.costco.ca/p/-/100341642?langId=-24&EMID.":
+          - checkbox "non lue, Costco Wholesale, Get Ready for Winter on Costco.ca!, 22 sept., Gas Can 2-pack $49.99 delivered While quantities last Shop Now › (https://www.costco.ca/p/-/100341642?langId=-24&EMID."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Get Ready for Winter on Costco.ca! - Gas Can 2-pack $49.99 delivered While quantities last Shop Now › (https://www.costco.ca/p/-/100341642?langId=-24&EMID":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Get Ready for Winter on Costco.ca! - Gas Can 2-pack $49.99 delivered While quantities last Shop Now › (https://www.costco.ca/p/-/100341642?langId=-24&EMID":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Get Ready for Winter on Costco.ca!
+            - generic: "-"
+            - text: Gas Can 2-pack $49.99 delivered While quantities last Shop Now › (https://www.costco.ca/p/-/100341642?langId=-24&EMID
+        - gridcell
+        - gridcell "mar. 22 sept. 2026 17 h 01":
+          - generic "mar. 22 sept. 2026 17 h 01": 22 sept.
+        - gridcell
+      - row "non lue, Coffee Bike World, Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing, 8 sept., Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback.":
+        - gridcell
+        - gridcell "non lue, Coffee Bike World, Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing, 8 sept., Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback.":
+          - checkbox "non lue, Coffee Bike World, Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing, 8 sept., Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Coffee Bike World":
+          - generic: Coffee Bike World
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing - Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing - Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing
+            - generic: "-"
+            - text: Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback
+        - gridcell
+        - gridcell "mar. 8 sept. 2026 14 h 10":
+          - generic "mar. 8 sept. 2026 14 h 10": 8 sept.
+        - gridcell
+      - row "non lue, Coffee Bike World, Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing, 7 sept., Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback.":
+        - gridcell
+        - gridcell "non lue, Coffee Bike World, Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing, 7 sept., Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback.":
+          - checkbox "non lue, Coffee Bike World, Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing, 7 sept., Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Coffee Bike World":
+          - generic: Coffee Bike World
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing - Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing - Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Coffee Bike Vol. 3 Is Coming — First 7 Units Available at Vol. 2 Pricing
+            - generic: "-"
+            - text: Vol. 2 and building/selling an impressive 50 units, we've learned a lot from real-world operations, owner feedback
+        - gridcell
+        - gridcell "lun. 7 sept. 2026 14 h 05":
+          - generic "lun. 7 sept. 2026 14 h 05": 7 sept.
+        - gridcell
+      - row "non lue, Costco Wholesale, Labour Day Savings on Costco.ca!, 7 sept., Pumpkin Seeds 2 kg $6 OFF Valid until 09/07/26While quantities last Shop Now › (https://www.costco.ca/p/-/100566095.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Labour Day Savings on Costco.ca!, 7 sept., Pumpkin Seeds 2 kg $6 OFF Valid until 09/07/26While quantities last Shop Now › (https://www.costco.ca/p/-/100566095.":
+          - checkbox "non lue, Costco Wholesale, Labour Day Savings on Costco.ca!, 7 sept., Pumpkin Seeds 2 kg $6 OFF Valid until 09/07/26While quantities last Shop Now › (https://www.costco.ca/p/-/100566095."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Labour Day Savings on Costco.ca! - Pumpkin Seeds 2 kg $6 OFF Valid until 09/07/26While quantities last Shop Now › (https://www.costco.ca/p/-/100566095":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Labour Day Savings on Costco.ca! - Pumpkin Seeds 2 kg $6 OFF Valid until 09/07/26While quantities last Shop Now › (https://www.costco.ca/p/-/100566095":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Labour Day Savings on Costco.ca!
+            - generic: "-"
+            - text: Pumpkin Seeds 2 kg $6 OFF Valid until 09/07/26While quantities last Shop Now › (https://www.costco.ca/p/-/100566095
+        - gridcell
+        - gridcell "lun. 7 sept. 2026 09 h 12":
+          - generic "lun. 7 sept. 2026 09 h 12": 7 sept.
+        - gridcell
+      - row "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 1 sept., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 1 sept., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 1 sept., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover Exciting Automotive Highlights and New Arrivals! 🚗✨ - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover Exciting Automotive Highlights and New Arrivals! 🚗✨ - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - text: Discover Exciting Automotive Highlights and New Arrivals!
+            - img "🚗"
+            - img "✨"
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 1 sept. 2026 11 h 36":
+          - generic "mar. 1 sept. 2026 11 h 36": 1 sept.
+        - gridcell
+      - row "non lue, Costco Wholesale, Save on Computers & Tech on Costco.ca!, 25 août, Snapdragon X Elite X1E-80-100 16GB RAM, 1TB SSD, Qualcomm Adreno While quantities last Shop Now › (https://www.costco.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Save on Computers & Tech on Costco.ca!, 25 août, Snapdragon X Elite X1E-80-100 16GB RAM, 1TB SSD, Qualcomm Adreno While quantities last Shop Now › (https://www.costco.":
+          - checkbox "non lue, Costco Wholesale, Save on Computers & Tech on Costco.ca!, 25 août, Snapdragon X Elite X1E-80-100 16GB RAM, 1TB SSD, Qualcomm Adreno While quantities last Shop Now › (https://www.costco."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Save on Computers & Tech on Costco.ca! - Snapdragon X Elite X1E-80-100 16GB RAM, 1TB SSD, Qualcomm Adreno While quantities last Shop Now › (https://www.costco":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Save on Computers & Tech on Costco.ca! - Snapdragon X Elite X1E-80-100 16GB RAM, 1TB SSD, Qualcomm Adreno While quantities last Shop Now › (https://www.costco":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Save on Computers & Tech on Costco.ca!
+            - generic: "-"
+            - text: Snapdragon X Elite X1E-80-100 16GB RAM, 1TB SSD, Qualcomm Adreno While quantities last Shop Now › (https://www.costco
+        - gridcell
+        - gridcell "mar. 25 août 2026 16 h 55":
+          - generic "mar. 25 août 2026 16 h 55": 25 août
+        - gridcell
+      - row "non lue, Vevor, Automotive deals | Save on auto accessories., 18 août, Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Automotive deals | Save on auto accessories., 18 août, Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Automotive deals | Save on auto accessories., 18 août, Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Automotive deals | Save on auto accessories.
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 18 août 2026 16 h 45":
+          - generic "mar. 18 août 2026 16 h 45": 18 août
+        - gridcell
+      - row "non lue, Costco Wholesale, National Relaxation Day at Costco.ca!, 11 août, Body Wash 2 × 709 mL $35.99 delivered after $9 OFF Valid 08/03/26 to 08/23/26While quantities last Shop Now › (https://www.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, National Relaxation Day at Costco.ca!, 11 août, Body Wash 2 × 709 mL $35.99 delivered after $9 OFF Valid 08/03/26 to 08/23/26While quantities last Shop Now › (https://www.":
+          - checkbox "non lue, Costco Wholesale, National Relaxation Day at Costco.ca!, 11 août, Body Wash 2 × 709 mL $35.99 delivered after $9 OFF Valid 08/03/26 to 08/23/26While quantities last Shop Now › (https://www."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… National Relaxation Day at Costco.ca! - Body Wash 2 × 709 mL $35.99 delivered after $9 OFF Valid 08/03/26 to 08/23/26While quantities last Shop Now › (https://www":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… National Relaxation Day at Costco.ca! - Body Wash 2 × 709 mL $35.99 delivered after $9 OFF Valid 08/03/26 to 08/23/26While quantities last Shop Now › (https://www":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: National Relaxation Day at Costco.ca!
+            - generic: "-"
+            - text: Body Wash 2 × 709 mL $35.99 delivered after $9 OFF Valid 08/03/26 to 08/23/26While quantities last Shop Now › (https://www
+        - gridcell
+        - gridcell "mar. 11 août 2026 13 h 24":
+          - generic "mar. 11 août 2026 13 h 24": 11 août
+        - gridcell
+      - row "non lue, VEVOR, Save Up To 25% Off Selected Auto And Garage Tools, 11 août, Keep essential gear within easy reach to repair faster and save time. Unsubscribe To enjoy our deals,.":
+        - gridcell
+        - gridcell "non lue, VEVOR, Save Up To 25% Off Selected Auto And Garage Tools, 11 août, Keep essential gear within easy reach to repair faster and save time. Unsubscribe To enjoy our deals,.":
+          - checkbox "non lue, VEVOR, Save Up To 25% Off Selected Auto And Garage Tools, 11 août, Keep essential gear within easy reach to repair faster and save time. Unsubscribe To enjoy our deals,."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "VEVOR":
+          - generic: VEVOR
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Save Up To 25% Off Selected Auto And Garage Tools - Keep essential gear within easy reach to repair faster and save time. Unsubscribe To enjoy our deals,":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Save Up To 25% Off Selected Auto And Garage Tools - Keep essential gear within easy reach to repair faster and save time. Unsubscribe To enjoy our deals,":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Save Up To 25% Off Selected Auto And Garage Tools
+            - generic: "-"
+            - text: Keep essential gear within easy reach to repair faster and save time. Unsubscribe To enjoy our deals,
+        - gridcell
+        - gridcell "mar. 11 août 2026 10 h 42":
+          - generic "mar. 11 août 2026 10 h 42": 11 août
+        - gridcell
+      - row "non lue, Costco Wholesale, Check Out This Week's Treasure Hunt! New and Unique Finds at Costco.ca, 8 août, Sports Endeavor Elite Inflatable Stand-up Paddleboard Set 3.40 m (11 ft.)$100 OFF. Valid 08/03/26 - 08/09/26. While quantities.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check Out This Week's Treasure Hunt! New and Unique Finds at Costco.ca, 8 août, Sports Endeavor Elite Inflatable Stand-up Paddleboard Set 3.40 m (11 ft.)$100 OFF. Valid 08/03/26 - 08/09/26. While quantities.":
+          - checkbox "non lue, Costco Wholesale, Check Out This Week's Treasure Hunt! New and Unique Finds at Costco.ca, 8 août, Sports Endeavor Elite Inflatable Stand-up Paddleboard Set 3.40 m (11 ft.)$100 OFF. Valid 08/03/26 - 08/09/26. While quantities."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Check Out This Week's Treasure Hunt! New and Unique Finds at Costco.ca - Sports Endeavor Elite Inflatable Stand-up Paddleboard Set 3.40 m (11 ft.)$100 OFF. Valid 08/03/26 - 08/09/26. While quantities":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Check Out This Week's Treasure Hunt! New and Unique Finds at Costco.ca - Sports Endeavor Elite Inflatable Stand-up Paddleboard Set 3.40 m (11 ft.)$100 OFF. Valid 08/03/26 - 08/09/26. While quantities":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Check Out This Week's Treasure Hunt! New and Unique Finds at Costco.ca
+            - generic: "-"
+            - text: Sports Endeavor Elite Inflatable Stand-up Paddleboard Set 3.40 m (11 ft.)$100 OFF. Valid 08/03/26 - 08/09/26. While quantities
+        - gridcell
+        - gridcell "sam. 8 août 2026 05 h 24":
+          - generic "sam. 8 août 2026 05 h 24": 8 août
+        - gridcell
+      - row "non lue, Pedal Commander, Airbags Increase Towing Capacity. Right? 🤔, 29 juill., t Increase Towing Capacity ](https://pedalcommander.com/blogs/garage/do-suspension-airbags-increase- towing.":
+        - gridcell
+        - gridcell "non lue, Pedal Commander, Airbags Increase Towing Capacity. Right? 🤔, 29 juill., t Increase Towing Capacity ](https://pedalcommander.com/blogs/garage/do-suspension-airbags-increase- towing.":
+          - checkbox "non lue, Pedal Commander, Airbags Increase Towing Capacity. Right? 🤔, 29 juill., t Increase Towing Capacity ](https://pedalcommander.com/blogs/garage/do-suspension-airbags-increase- towing."
+        - gridcell "Corbeille":
+          - img "Corbeille"
+        - gridcell "Pedal Commander":
+          - generic: Pedal Commander
+        - gridcell "Corbeille 🔎 Ancien tri 9 (à véri… Airbags Increase Towing Capacity. Right? 🤔 - t Increase Towing Capacity ](https://pedalcommander.com/blogs/garage/do-suspension-airbags-increase- towing":
+          - link "Corbeille 🔎 Ancien tri 9 (à véri… Airbags Increase Towing Capacity. Right? 🤔 - t Increase Towing Capacity ](https://pedalcommander.com/blogs/garage/do-suspension-airbags-increase- towing":
+            - generic "Corbeille":
+              - generic: Corbeille
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - text: Airbags Increase Towing Capacity. Right?
+            - img "🤔"
+            - generic: "-"
+            - text: t Increase Towing Capacity ](https://pedalcommander.com/blogs/garage/do-suspension-airbags-increase- towing
+        - gridcell
+        - gridcell "mer. 29 juill. 2026 14 h 00":
+          - generic "mer. 29 juill. 2026 14 h 00": 29 juill.
+        - gridcell
+      - row "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 21 juill., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 21 juill., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 21 juill., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover Exciting Automotive Highlights and New Arrivals! 🚗✨ - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover Exciting Automotive Highlights and New Arrivals! 🚗✨ - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - text: Discover Exciting Automotive Highlights and New Arrivals!
+            - img "🚗"
+            - img "✨"
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 21 juill. 2026 11 h 38":
+          - generic "mar. 21 juill. 2026 11 h 38": 21 juill.
+        - gridcell
+      - row "non lue, Vevor, Automotive deals | Save on auto accessories., 7 juill., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Automotive deals | Save on auto accessories., 7 juill., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Automotive deals | Save on auto accessories., 7 juill., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Automotive deals | Save on auto accessories.
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 7 juill. 2026 16 h 37":
+          - generic "mar. 7 juill. 2026 16 h 37": 7 juill.
+        - gridcell
+      - 'row "non lue, VEVOR, Weekend Flash Sale: Take Up to 30% Off Selected Items, 3 juill., Treat yourself this weekend. Upgrade your setup with your favorite gear. Unsubscribe To enjoy our."':
+        - gridcell
+        - 'gridcell "non lue, VEVOR, Weekend Flash Sale: Take Up to 30% Off Selected Items, 3 juill., Treat yourself this weekend. Upgrade your setup with your favorite gear. Unsubscribe To enjoy our."':
+          - 'checkbox "non lue, VEVOR, Weekend Flash Sale: Take Up to 30% Off Selected Items, 3 juill., Treat yourself this weekend. Upgrade your setup with your favorite gear. Unsubscribe To enjoy our."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "VEVOR":
+          - generic: VEVOR
+        - 'gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Weekend Flash Sale: Take Up to 30% Off Selected Items - Treat yourself this weekend. Upgrade your setup with your favorite gear. Unsubscribe To enjoy our"':
+          - 'link "Boîte de réception 🔎 Ancien tri 9 (à véri… Weekend Flash Sale: Take Up to 30% Off Selected Items - Treat yourself this weekend. Upgrade your setup with your favorite gear. Unsubscribe To enjoy our"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: "Weekend Flash Sale: Take Up to 30% Off Selected Items"
+            - generic: "-"
+            - text: Treat yourself this weekend. Upgrade your setup with your favorite gear. Unsubscribe To enjoy our
+        - gridcell
+        - gridcell "ven. 3 juill. 2026 11 h 35":
+          - generic "ven. 3 juill. 2026 11 h 35": 3 juill.
+        - gridcell
+      - row "non lue, Pedal Commander, The towing secret you gotta hear..., 29 juin, Hi there, When you are hauling weight, response matters. Especially when you are trying to merge onto.":
+        - gridcell
+        - gridcell "non lue, Pedal Commander, The towing secret you gotta hear..., 29 juin, Hi there, When you are hauling weight, response matters. Especially when you are trying to merge onto.":
+          - checkbox "non lue, Pedal Commander, The towing secret you gotta hear..., 29 juin, Hi there, When you are hauling weight, response matters. Especially when you are trying to merge onto."
+        - gridcell "Corbeille":
+          - img "Corbeille"
+        - gridcell "Pedal Commander":
+          - generic: Pedal Commander
+        - gridcell "Corbeille 🔎 Ancien tri 9 (à véri… The towing secret you gotta hear... - Hi there, When you are hauling weight, response matters. Especially when you are trying to merge onto":
+          - link "Corbeille 🔎 Ancien tri 9 (à véri… The towing secret you gotta hear... - Hi there, When you are hauling weight, response matters. Especially when you are trying to merge onto":
+            - generic "Corbeille":
+              - generic: Corbeille
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: The towing secret you gotta hear...
+            - generic: "-"
+            - text: Hi there, When you are hauling weight, response matters. Especially when you are trying to merge onto
+        - gridcell
+        - gridcell "lun. 29 juin 2026 14 h 02":
+          - generic "lun. 29 juin 2026 14 h 02": 29 juin
+        - gridcell
+      - row "non lue, Costco Wholesale, Member Appreciation Days Continues on Costco.ca!, 24 juin, While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Member Appreciation Days Continues on Costco.ca!, 24 juin, While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img.":
+          - checkbox "non lue, Costco Wholesale, Member Appreciation Days Continues on Costco.ca!, 24 juin, While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Member Appreciation Days Continues on Costco.ca! - While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Member Appreciation Days Continues on Costco.ca! - While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Member Appreciation Days Continues on Costco.ca!
+            - generic: "-"
+            - text: While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img
+        - gridcell
+        - gridcell "mer. 24 juin 2026 12 h 55":
+          - generic "mer. 24 juin 2026 12 h 55": 24 juin
+        - gridcell
+      - row "non lue, Costco Wholesale, Member Appreciation Days on Costco.ca!, 22 juin, Infrared Sauna 2-person $2399.99 delivered after $600 OFF Valid 06/22/26 to 07/05/26While quantities last Shop Now › (.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Member Appreciation Days on Costco.ca!, 22 juin, Infrared Sauna 2-person $2399.99 delivered after $600 OFF Valid 06/22/26 to 07/05/26While quantities last Shop Now › (.":
+          - checkbox "non lue, Costco Wholesale, Member Appreciation Days on Costco.ca!, 22 juin, Infrared Sauna 2-person $2399.99 delivered after $600 OFF Valid 06/22/26 to 07/05/26While quantities last Shop Now › (."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Member Appreciation Days on Costco.ca! - Infrared Sauna 2-person $2399.99 delivered after $600 OFF Valid 06/22/26 to 07/05/26While quantities last Shop Now › (":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Member Appreciation Days on Costco.ca! - Infrared Sauna 2-person $2399.99 delivered after $600 OFF Valid 06/22/26 to 07/05/26While quantities last Shop Now › (":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Member Appreciation Days on Costco.ca!
+            - generic: "-"
+            - text: Infrared Sauna 2-person $2399.99 delivered after $600 OFF Valid 06/22/26 to 07/05/26While quantities last Shop Now › (
+        - gridcell
+        - gridcell "lun. 22 juin 2026 14 h 28":
+          - generic "lun. 22 juin 2026 14 h 28": 22 juin
+        - gridcell
+      - row "non lue, RONA, Des économies solides pour les projets de papa, 19 juin, Le méga événement DeWALT se poursuit🔥 EN | Web RONA Magasins | L'atelier | Rabais de la semaine Extérieur Outils Installation ∆NOUS PAYONS LES TAXES :pour tout achat de 250$ ou plus (avant taxes).":
+        - gridcell
+        - gridcell "non lue, RONA, Des économies solides pour les projets de papa, 19 juin, Le méga événement DeWALT se poursuit🔥 EN | Web RONA Magasins | L'atelier | Rabais de la semaine Extérieur Outils Installation ∆NOUS PAYONS LES TAXES :pour tout achat de 250$ ou plus (avant taxes).":
+          - checkbox "non lue, RONA, Des économies solides pour les projets de papa, 19 juin, Le méga événement DeWALT se poursuit🔥 EN | Web RONA Magasins | L'atelier | Rabais de la semaine Extérieur Outils Installation ∆NOUS PAYONS LES TAXES :pour tout achat de 250$ ou plus (avant taxes)."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "RONA":
+          - generic: RONA
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Des économies solides pour les projets de papa - Le méga événement DeWALT se poursuit🔥 EN | Web RONA Magasins | L'atelier | Rabais de la semaine Extérieur Outils Installation ∆NOUS PAYONS LES TAXES :pour tout achat de 250$ ou plus (avant taxes)":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Des économies solides pour les projets de papa - Le méga événement DeWALT se poursuit🔥 EN | Web RONA Magasins | L'atelier | Rabais de la semaine Extérieur Outils Installation ∆NOUS PAYONS LES TAXES :pour tout achat de 250$ ou plus (avant taxes)":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Des économies solides pour les projets de papa
+            - generic: "-"
+            - text: Le méga événement DeWALT se poursuit
+            - img "🔥"
+            - text: EN | Web RONA Magasins | L'atelier | Rabais de la semaine Extérieur Outils Installation ∆NOUS PAYONS LES TAXES :pour tout achat de 250$ ou plus (avant taxes)
+        - gridcell
+        - gridcell "ven. 19 juin 2026 07 h 04":
+          - generic "ven. 19 juin 2026 07 h 04": 19 juin
+        - gridcell
+      - 'row "non lue, VEVOR, Beat the Heat with Summer Savings: Up To 30% Off, 16 juin, Huge savings on your summer essentials. Unsubscribe To enjoy our deals, add makerting@em.vevor.com to."':
+        - gridcell
+        - 'gridcell "non lue, VEVOR, Beat the Heat with Summer Savings: Up To 30% Off, 16 juin, Huge savings on your summer essentials. Unsubscribe To enjoy our deals, add makerting@em.vevor.com to."':
+          - 'checkbox "non lue, VEVOR, Beat the Heat with Summer Savings: Up To 30% Off, 16 juin, Huge savings on your summer essentials. Unsubscribe To enjoy our deals, add makerting@em.vevor.com to."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "VEVOR":
+          - generic: VEVOR
+        - 'gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Beat the Heat with Summer Savings: Up To 30% Off - Huge savings on your summer essentials. Unsubscribe To enjoy our deals, add makerting@em.vevor.com to"':
+          - 'link "Boîte de réception 🔎 Ancien tri 9 (à véri… Beat the Heat with Summer Savings: Up To 30% Off - Huge savings on your summer essentials. Unsubscribe To enjoy our deals, add makerting@em.vevor.com to"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: "Beat the Heat with Summer Savings: Up To 30% Off"
+            - generic: "-"
+            - text: Huge savings on your summer essentials. Unsubscribe To enjoy our deals, add makerting@em.vevor.com to
+        - gridcell
+        - gridcell "mar. 16 juin 2026 11 h 29":
+          - generic "mar. 16 juin 2026 11 h 29": 16 juin
+        - gridcell
+      - 'row "Thomas Hicks, Exclusive Vendor Invitation: OSHEAGA Music and Arts Festival 2026 (Montreal), 3 juin, outreach for elite food, beverage, dessert, and BBQ vendors to join the culinary lineup at OSHEAGA 2026! As one of North America''s."':
+        - gridcell
+        - 'gridcell "Thomas Hicks, Exclusive Vendor Invitation: OSHEAGA Music and Arts Festival 2026 (Montreal), 3 juin, outreach for elite food, beverage, dessert, and BBQ vendors to join the culinary lineup at OSHEAGA 2026! As one of North America''s."':
+          - 'checkbox "Thomas Hicks, Exclusive Vendor Invitation: OSHEAGA Music and Arts Festival 2026 (Montreal), 3 juin, outreach for elite food, beverage, dessert, and BBQ vendors to join the culinary lineup at OSHEAGA 2026! As one of North America''s."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Thomas Hicks":
+          - generic: Thomas Hicks
+        - 'gridcell "Boîte de réception Exclusive Vendor Invitation: OSHEAGA Music and Arts Festival 2026 (Montreal) - outreach for elite food, beverage, dessert, and BBQ vendors to join the culinary lineup at OSHEAGA 2026! As one of North America''s"':
+          - 'link "Boîte de réception Exclusive Vendor Invitation: OSHEAGA Music and Arts Festival 2026 (Montreal) - outreach for elite food, beverage, dessert, and BBQ vendors to join the culinary lineup at OSHEAGA 2026! As one of North America''s"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic: "Exclusive Vendor Invitation: OSHEAGA Music and Arts Festival 2026 (Montreal)"
+            - generic: "-"
+            - text: outreach for elite food, beverage, dessert, and BBQ vendors to join the culinary lineup at OSHEAGA 2026! As one of North America's
+        - gridcell
+        - gridcell "mer. 3 juin 2026 16 h 06":
+          - generic "mer. 3 juin 2026 16 h 06": 3 juin
+        - gridcell
+      - row "non lue, Pedal Commander, GMC Sierra 1500 Owners ONLY, 30 mai, YOUR SIERRA ELITE ](https://pedalcommander.co.uk/products/gmc-sierra-1500?_pos=1&_sid=d7764b981&_ss.":
+        - gridcell
+        - gridcell "non lue, Pedal Commander, GMC Sierra 1500 Owners ONLY, 30 mai, YOUR SIERRA ELITE ](https://pedalcommander.co.uk/products/gmc-sierra-1500?_pos=1&_sid=d7764b981&_ss.":
+          - checkbox "non lue, Pedal Commander, GMC Sierra 1500 Owners ONLY, 30 mai, YOUR SIERRA ELITE ](https://pedalcommander.co.uk/products/gmc-sierra-1500?_pos=1&_sid=d7764b981&_ss."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Pedal Commander":
+          - generic: Pedal Commander
+        - gridcell "GMC Sierra 1500 Owners ONLY - YOUR SIERRA ELITE ](https://pedalcommander.co.uk/products/gmc-sierra-1500?_pos=1&_sid=d7764b981&_ss":
+          - link "GMC Sierra 1500 Owners ONLY - YOUR SIERRA ELITE ](https://pedalcommander.co.uk/products/gmc-sierra-1500?_pos=1&_sid=d7764b981&_ss":
+            - generic: GMC Sierra 1500 Owners ONLY
+            - generic: "-"
+            - text: YOUR SIERRA ELITE ](https://pedalcommander.co.uk/products/gmc-sierra-1500?_pos=1&_sid=d7764b981&_ss
+        - gridcell
+        - gridcell "sam. 30 mai 2026 14 h 00":
+          - generic "sam. 30 mai 2026 14 h 00": 30 mai
+        - gridcell
+      - row "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à.":
+        - gridcell
+        - gridcell "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à.":
+          - checkbox "moi 2, Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers, 28 mai, -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "moi 2":
+          - generic: moi
+          - generic: "2"
+        - gridcell "✉️ J'ai répondu Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers - -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à":
+          - link "✉️ J'ai répondu Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers - -251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à":
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic: Narratif très détaillé – Dossier Quadro Holding Ltée / Harmony Movers
+            - generic: "-"
+            - text: "-251 2. Nature des biens concernés Les biens concernés sont des équipements commerciaux de restauration appartenant à"
+        - gridcell
+        - gridcell "jeu. 28 mai 2026 17 h 08":
+          - generic "jeu. 28 mai 2026 17 h 08": 28 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date."':
+          - 'checkbox "marquée d''une étoile, Nick, takatak, moi 6, excel, contient une pièce jointe, 27 mai, , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Nick, takatak, moi 6":
+          - generic: Nick, takatak, moi
+          - generic: "6"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes excel - , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date Pièce jointe : final.xls Pièce jointe : quadro excel sort.xls Pièce jointe : quadro excel sort.xls"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes excel - , Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: excel
+            - generic: "-"
+            - text: ", Mar 2, 2026, 23:26 Subject: Fwd: excel To: nick@tdpcpa.ca ---------- Forwarded message --------- From: takatak ca Date"
+          - generic "final.xls":
+            - generic: "Pièce jointe :"
+            - generic: final.xls
+          - generic "quadro excel sort.xls":
+            - generic: "Pièce jointe :"
+            - generic: quadro excel sort.xls
+          - generic "quadro excel sort.xls":
+            - generic: "Pièce jointe :"
+            - generic: quadro excel sort.xls
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 45":
+          - generic "mer. 27 mai 2026 11 h 45": 27 mai
+        - gridcell
+      - 'row "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."':
+        - gridcell
+        - 'gridcell "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."':
+          - 'checkbox "marquée d''une étoile, Nick, moi 8, Financials, contient une pièce jointe, 27 mai, Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax."'
+        - gridcell "Favoris":
+          - button "Favoris":
+            - img "Favoris"
+        - gridcell "Nick, moi 8":
+          - generic: Nick, moi
+          - generic: "8"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Financials - Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax Pièce jointe : 1000100361.jpg Pièce jointe : 1000100365.jpg Pièce jointe : 1000100367.jpg 4 autres pièces jointes"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 🏛️ Gouvernement & Impô… 📌 Reste dans la boîte 📎 Pièces jointes Financials - Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "🏛️ Gouvernement & Impôts":
+              - img "🏛️"
+              - text: Gouvernement & Impô…
+            - generic "📌 Reste dans la boîte":
+              - img "📌"
+              - text: Reste dans la boîte
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: Financials
+            - generic: "-"
+            - text: "Merci / Thank You Nicholas Cristiano, CPA, CMA nick@tdpcpa.ca 514-312-9569 Ext: 1 514-325-7350 Fax"
+          - generic "1000100361.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100361.jpg
+          - generic "1000100365.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100365.jpg
+          - generic "1000100367.jpg":
+            - generic: "Pièce jointe :"
+            - generic: 1000100367.jpg
+          - generic "4 autres pièces jointes":
+            - button "4 autres pièces jointes": "+4"
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - 'row "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour."':
+        - gridcell
+        - 'gridcell "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour."':
+          - 'checkbox "Accounting, moi 4, Fw: RE: Re[2]: Situation de transport 12 Juin 2025, contient une pièce jointe, 27 mai, d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Accounting, moi 4":
+          - generic: Accounting, moi
+          - generic: "4"
+        - 'gridcell "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes Fw: RE: Re[2]: Situation de transport 12 Juin 2025 - d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour"':
+          - 'link "Boîte de réception ✉️ J''ai répondu 📎 Pièces jointes Fw: RE: Re[2]: Situation de transport 12 Juin 2025 - d''AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "✉️ J'ai répondu":
+              - img "✉️"
+              - text: J'ai répondu
+            - generic "📎 Pièces jointes":
+              - img "📎"
+              - text: Pièces jointes
+            - generic: "Fw: RE: Re[2]: Situation de transport 12 Juin 2025"
+            - generic: "-"
+            - text: d'AKA Moving, nous demandons le règlement intégral de la facture ci-jointe. Nous restons à votre disposition pour
+        - gridcell
+        - gridcell "mer. 27 mai 2026 11 h 44":
+          - generic "mer. 27 mai 2026 11 h 44": 27 mai
+        - gridcell
+      - row "non lue, Vevor, Automotive deals | Save on auto accessories., 26 mai, Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Automotive deals | Save on auto accessories., 26 mai, Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Automotive deals | Save on auto accessories., 26 mai, Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Automotive deals | Save on auto accessories.
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 26 mai 2026 16 h 41":
+          - generic "mar. 26 mai 2026 16 h 41": 26 mai
+        - gridcell
+      - row "non lue, Costco Wholesale, ENDS TODAY - 7 Days of Spring Deals, 24 mai, Sports Endeavor Elite InflatableStand-up Paddleboard Set 3.40 m (11 ft.)$299.99 delivered after $100 OFF. Valid 05/24.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, ENDS TODAY - 7 Days of Spring Deals, 24 mai, Sports Endeavor Elite InflatableStand-up Paddleboard Set 3.40 m (11 ft.)$299.99 delivered after $100 OFF. Valid 05/24.":
+          - checkbox "non lue, Costco Wholesale, ENDS TODAY - 7 Days of Spring Deals, 24 mai, Sports Endeavor Elite InflatableStand-up Paddleboard Set 3.40 m (11 ft.)$299.99 delivered after $100 OFF. Valid 05/24."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… ENDS TODAY - 7 Days of Spring Deals - Sports Endeavor Elite InflatableStand-up Paddleboard Set 3.40 m (11 ft.)$299.99 delivered after $100 OFF. Valid 05/24":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… ENDS TODAY - 7 Days of Spring Deals - Sports Endeavor Elite InflatableStand-up Paddleboard Set 3.40 m (11 ft.)$299.99 delivered after $100 OFF. Valid 05/24":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: ENDS TODAY - 7 Days of Spring Deals
+            - generic: "-"
+            - text: Sports Endeavor Elite InflatableStand-up Paddleboard Set 3.40 m (11 ft.)$299.99 delivered after $100 OFF. Valid 05/24
+        - gridcell
+        - gridcell "dim. 24 mai 2026 06 h 44":
+          - generic "dim. 24 mai 2026 06 h 44": 24 mai
+        - gridcell
+      - row "non lue, Costco Wholesale, The 7 Days of Spring Deals Continue - DAY 6, 23 mai, , (2) 0.105'' + (13) 0.095'' Lines Included, Tool Only $179.99 delivered after $50 OFF Valid 05/15/26.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, The 7 Days of Spring Deals Continue - DAY 6, 23 mai, , (2) 0.105'' + (13) 0.095'' Lines Included, Tool Only $179.99 delivered after $50 OFF Valid 05/15/26.":
+          - checkbox "non lue, Costco Wholesale, The 7 Days of Spring Deals Continue - DAY 6, 23 mai, , (2) 0.105'' + (13) 0.095'' Lines Included, Tool Only $179.99 delivered after $50 OFF Valid 05/15/26."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… The 7 Days of Spring Deals Continue - DAY 6 - , (2) 0.105'' + (13) 0.095'' Lines Included, Tool Only $179.99 delivered after $50 OFF Valid 05/15/26":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… The 7 Days of Spring Deals Continue - DAY 6 - , (2) 0.105'' + (13) 0.095'' Lines Included, Tool Only $179.99 delivered after $50 OFF Valid 05/15/26":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: The 7 Days of Spring Deals Continue - DAY 6
+            - generic: "-"
+            - text: ", (2) 0.105'' + (13) 0.095'' Lines Included, Tool Only $179.99 delivered after $50 OFF Valid 05/15/26"
+        - gridcell
+        - gridcell "sam. 23 mai 2026 07 h 25":
+          - generic "sam. 23 mai 2026 07 h 25": 23 mai
+        - gridcell
+      - row "non lue, Pedal Commander, Built for Your Tundra, 1 mai, Guarantee | 2-Year Warranty](https://pedalcommander.com/) [PEDAL COMMANDER](https://pedalcommander.com/) [Pedal.":
+        - gridcell
+        - gridcell "non lue, Pedal Commander, Built for Your Tundra, 1 mai, Guarantee | 2-Year Warranty](https://pedalcommander.com/) [PEDAL COMMANDER](https://pedalcommander.com/) [Pedal.":
+          - checkbox "non lue, Pedal Commander, Built for Your Tundra, 1 mai, Guarantee | 2-Year Warranty](https://pedalcommander.com/) [PEDAL COMMANDER](https://pedalcommander.com/) [Pedal."
+        - gridcell "Corbeille":
+          - img "Corbeille"
+        - gridcell "Pedal Commander":
+          - generic: Pedal Commander
+        - gridcell "Corbeille 🔎 Ancien tri 9 (à véri… Built for Your Tundra - Guarantee | 2-Year Warranty](https://pedalcommander.com/) [PEDAL COMMANDER](https://pedalcommander.com/) [Pedal":
+          - link "Corbeille 🔎 Ancien tri 9 (à véri… Built for Your Tundra - Guarantee | 2-Year Warranty](https://pedalcommander.com/) [PEDAL COMMANDER](https://pedalcommander.com/) [Pedal":
+            - generic "Corbeille":
+              - generic: Corbeille
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Built for Your Tundra
+            - generic: "-"
+            - text: Guarantee | 2-Year Warranty](https://pedalcommander.com/) [PEDAL COMMANDER](https://pedalcommander.com/) [Pedal
+        - gridcell
+        - gridcell "ven. 1 mai 2026 14 h 02":
+          - generic "ven. 1 mai 2026 14 h 02": 1 mai
+        - gridcell
+      - row "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 28 avr., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 28 avr., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Discover Exciting Automotive Highlights and New Arrivals! 🚗✨, 28 avr., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover Exciting Automotive Highlights and New Arrivals! 🚗✨ - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover Exciting Automotive Highlights and New Arrivals! 🚗✨ - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - text: Discover Exciting Automotive Highlights and New Arrivals!
+            - img "🚗"
+            - img "✨"
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 28 avr. 2026 16 h 43":
+          - generic "mar. 28 avr. 2026 16 h 43": 28 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Spring into comfort, 24 avr., While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Spring into comfort, 24 avr., While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img.":
+          - checkbox "non lue, Costco Wholesale, Spring into comfort, 24 avr., While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Spring into comfort - While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Spring into comfort - While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Spring into comfort
+            - generic: "-"
+            - text: While quantities last View as web page | Français (https://mobilecontent.costco.com/live/resource/img
+        - gridcell
+        - gridcell "ven. 24 avr. 2026 15 h 50":
+          - generic "ven. 24 avr. 2026 15 h 50": 24 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Check Out This Week's Savings on Costco.ca!, 24 avr., Gentle Cleanser 2 × 473 mL $34.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000444368.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check Out This Week's Savings on Costco.ca!, 24 avr., Gentle Cleanser 2 × 473 mL $34.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000444368.":
+          - checkbox "non lue, Costco Wholesale, Check Out This Week's Savings on Costco.ca!, 24 avr., Gentle Cleanser 2 × 473 mL $34.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000444368."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Check Out This Week's Savings on Costco.ca! - Gentle Cleanser 2 × 473 mL $34.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000444368":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Check Out This Week's Savings on Costco.ca! - Gentle Cleanser 2 × 473 mL $34.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000444368":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Check Out This Week's Savings on Costco.ca!
+            - generic: "-"
+            - text: Gentle Cleanser 2 × 473 mL $34.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000444368
+        - gridcell
+        - gridcell "ven. 24 avr. 2026 11 h 07":
+          - generic "ven. 24 avr. 2026 11 h 07": 24 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Top 10 Mother's Day Gifts on Costco.ca!, 23 avr., Infrared Sauna 2-person $2499.99 delivered after $400 OFF Valid 04/20/26 to 05/03/26While quantities last Shop Now › (.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Top 10 Mother's Day Gifts on Costco.ca!, 23 avr., Infrared Sauna 2-person $2499.99 delivered after $400 OFF Valid 04/20/26 to 05/03/26While quantities last Shop Now › (.":
+          - checkbox "non lue, Costco Wholesale, Top 10 Mother's Day Gifts on Costco.ca!, 23 avr., Infrared Sauna 2-person $2499.99 delivered after $400 OFF Valid 04/20/26 to 05/03/26While quantities last Shop Now › (."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Top 10 Mother's Day Gifts on Costco.ca! - Infrared Sauna 2-person $2499.99 delivered after $400 OFF Valid 04/20/26 to 05/03/26While quantities last Shop Now › (":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Top 10 Mother's Day Gifts on Costco.ca! - Infrared Sauna 2-person $2499.99 delivered after $400 OFF Valid 04/20/26 to 05/03/26While quantities last Shop Now › (":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Top 10 Mother's Day Gifts on Costco.ca!
+            - generic: "-"
+            - text: Infrared Sauna 2-person $2499.99 delivered after $400 OFF Valid 04/20/26 to 05/03/26While quantities last Shop Now › (
+        - gridcell
+        - gridcell "jeu. 23 avr. 2026 17 h 30":
+          - generic "jeu. 23 avr. 2026 17 h 30": 23 avr.
+        - gridcell
+      - 'row "non lue, Costco Wholesale, Featured Savings in the Warehouse!, 23 avr., : -2,00 $ par paquet OFF. Valid 04/23/26 - 04/26/26. While quantities last. Shop Now. (https://sameday.costco.ca/store."':
+        - gridcell
+        - 'gridcell "non lue, Costco Wholesale, Featured Savings in the Warehouse!, 23 avr., : -2,00 $ par paquet OFF. Valid 04/23/26 - 04/26/26. While quantities last. Shop Now. (https://sameday.costco.ca/store."':
+          - 'checkbox "non lue, Costco Wholesale, Featured Savings in the Warehouse!, 23 avr., : -2,00 $ par paquet OFF. Valid 04/23/26 - 04/26/26. While quantities last. Shop Now. (https://sameday.costco.ca/store."'
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - 'gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Featured Savings in the Warehouse! - : -2,00 $ par paquet OFF. Valid 04/23/26 - 04/26/26. While quantities last. Shop Now. (https://sameday.costco.ca/store"':
+          - 'link "Boîte de réception 🔎 Ancien tri 9 (à véri… Featured Savings in the Warehouse! - : -2,00 $ par paquet OFF. Valid 04/23/26 - 04/26/26. While quantities last. Shop Now. (https://sameday.costco.ca/store"':
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Featured Savings in the Warehouse!
+            - generic: "-"
+            - text: ": -2,00 $ par paquet OFF. Valid 04/23/26 - 04/26/26. While quantities last. Shop Now. (https://sameday.costco.ca/store"
+        - gridcell
+        - gridcell "jeu. 23 avr. 2026 03 h 13":
+          - generic "jeu. 23 avr. 2026 03 h 13": 23 avr.
+        - gridcell
+      - row "non lue, VEVOR, Fuel, Hauling & Workshop Gear, 21 avr., Portable fuel can, heavy-duty hand truck, and pro workshop tools Unsubscribe To enjoy our deals, add.":
+        - gridcell
+        - gridcell "non lue, VEVOR, Fuel, Hauling & Workshop Gear, 21 avr., Portable fuel can, heavy-duty hand truck, and pro workshop tools Unsubscribe To enjoy our deals, add.":
+          - checkbox "non lue, VEVOR, Fuel, Hauling & Workshop Gear, 21 avr., Portable fuel can, heavy-duty hand truck, and pro workshop tools Unsubscribe To enjoy our deals, add."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "VEVOR":
+          - generic: VEVOR
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Fuel, Hauling & Workshop Gear - Portable fuel can, heavy-duty hand truck, and pro workshop tools Unsubscribe To enjoy our deals, add":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Fuel, Hauling & Workshop Gear - Portable fuel can, heavy-duty hand truck, and pro workshop tools Unsubscribe To enjoy our deals, add":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Fuel, Hauling & Workshop Gear
+            - generic: "-"
+            - text: Portable fuel can, heavy-duty hand truck, and pro workshop tools Unsubscribe To enjoy our deals, add
+        - gridcell
+        - gridcell "mar. 21 avr. 2026 11 h 25":
+          - generic "mar. 21 avr. 2026 11 h 25": 21 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 17 avr., in. 2-in-1 Touchscreen Chromebook, AMD Ryzen 5 7520C 8GB RAM, 256GB SSD Valid until 04/19/26While quantities last Discover.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 17 avr., in. 2-in-1 Touchscreen Chromebook, AMD Ryzen 5 7520C 8GB RAM, 256GB SSD Valid until 04/19/26While quantities last Discover.":
+          - checkbox "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 17 avr., in. 2-in-1 Touchscreen Chromebook, AMD Ryzen 5 7520C 8GB RAM, 256GB SSD Valid until 04/19/26While quantities last Discover."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Check out this week's savings on Costco.ca! - in. 2-in-1 Touchscreen Chromebook, AMD Ryzen 5 7520C 8GB RAM, 256GB SSD Valid until 04/19/26While quantities last Discover":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Check out this week's savings on Costco.ca! - in. 2-in-1 Touchscreen Chromebook, AMD Ryzen 5 7520C 8GB RAM, 256GB SSD Valid until 04/19/26While quantities last Discover":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Check out this week's savings on Costco.ca!
+            - generic: "-"
+            - text: in. 2-in-1 Touchscreen Chromebook, AMD Ryzen 5 7520C 8GB RAM, 256GB SSD Valid until 04/19/26While quantities last Discover
+        - gridcell
+        - gridcell "ven. 17 avr. 2026 15 h 38":
+          - generic "ven. 17 avr. 2026 15 h 38": 17 avr.
+        - gridcell
+      - row "non lue, Vevor, Automotive deals | Save on auto accessories., 14 avr., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+        - gridcell
+        - gridcell "non lue, Vevor, Automotive deals | Save on auto accessories., 14 avr., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks.":
+          - checkbox "non lue, Vevor, Automotive deals | Save on auto accessories., 14 avr., Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Vevor":
+          - generic: Vevor
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Automotive deals | Save on auto accessories. - Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Automotive deals | Save on auto accessories.
+            - generic: "-"
+            - text: Best Sellers Lightning Deals Appliances Outdoors Automotive Building Materials Hot Picks
+        - gridcell
+        - gridcell "mar. 14 avr. 2026 16 h 41":
+          - generic "mar. 14 avr. 2026 16 h 41": 14 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 13 avr., Chair Set 2-piece $1299.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000439809.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 13 avr., Chair Set 2-piece $1299.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000439809.":
+          - checkbox "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 13 avr., Chair Set 2-piece $1299.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000439809."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Check out this week's savings on Costco.ca! - Chair Set 2-piece $1299.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000439809":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Check out this week's savings on Costco.ca! - Chair Set 2-piece $1299.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000439809":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Check out this week's savings on Costco.ca!
+            - generic: "-"
+            - text: Chair Set 2-piece $1299.99 delivered While quantities last Shop Now › (https://www.costco.ca/.product.4000439809
+        - gridcell
+        - gridcell "lun. 13 avr. 2026 15 h 53":
+          - generic "lun. 13 avr. 2026 15 h 53": 13 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 10 avr., undefined.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 10 avr., undefined.":
+          - checkbox "non lue, Costco Wholesale, Check out this week's savings on Costco.ca!, 10 avr., undefined."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Check out this week's savings on Costco.ca! - undefined":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Check out this week's savings on Costco.ca! - undefined":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Check out this week's savings on Costco.ca!
+            - generic: "-"
+            - text: undefined
+        - gridcell
+        - gridcell "ven. 10 avr. 2026 16 h 08":
+          - generic "ven. 10 avr. 2026 16 h 08": 10 avr.
+        - gridcell
+      - row "non lue, Costco Wholesale, Discover National Pet Day savings on Costco.ca!, 9 avr., Night Vision 2-pack $15 OFF Valid 04/06/26 to 04/12/26While quantities last Shop Now › (https://www.costco.ca/.product.":
+        - gridcell
+        - gridcell "non lue, Costco Wholesale, Discover National Pet Day savings on Costco.ca!, 9 avr., Night Vision 2-pack $15 OFF Valid 04/06/26 to 04/12/26While quantities last Shop Now › (https://www.costco.ca/.product.":
+          - checkbox "non lue, Costco Wholesale, Discover National Pet Day savings on Costco.ca!, 9 avr., Night Vision 2-pack $15 OFF Valid 04/06/26 to 04/12/26While quantities last Shop Now › (https://www.costco.ca/.product."
+        - gridcell "Non favoris":
+          - button "Non favoris"
+        - gridcell "Costco Wholesale":
+          - generic: Costco Wholesale
+        - gridcell "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover National Pet Day savings on Costco.ca! - Night Vision 2-pack $15 OFF Valid 04/06/26 to 04/12/26While quantities last Shop Now › (https://www.costco.ca/.product":
+          - link "Boîte de réception 🔎 Ancien tri 9 (à véri… Discover National Pet Day savings on Costco.ca! - Night Vision 2-pack $15 OFF Valid 04/06/26 to 04/12/26While quantities last Shop Now › (https://www.costco.ca/.product":
+            - generic "Boîte de réception":
+              - generic: Boîte de réception
+            - generic "🔎 Ancien tri 9 (à vérifier)":
+              - img "🔎"
+              - text: Ancien tri 9 (à véri…
+            - generic: Discover National Pet Day savings on Costco.ca!
+            - generic: "-"
+            - text: Night Vision 2-pack $15 OFF Valid 04/06/26 to 04/12/26While quantities last Shop Now › (https://www.costco.ca/.product
+        - gridcell
+        - gridcell "jeu. 9 avr. 2026 08 h 11":
+          - generic "jeu. 9 avr. 2026 08 h 11": 9 avr.
+        - gridcell

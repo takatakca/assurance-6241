@@ -1,0 +1,186 @@
+EXTRACTION DE LECTURE — Gmail Ooeuf — collecte UI du 24 octobre 2026
+Source locale : HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Daniel_Simard/99_Travail_et_collecte/05-fil-dom.txt
+Limite : contenu visible de l’interface, pas EML natif; messages principaux développés quand possible. Citations abrégées ou messages encore repliés peuvent rester absents. Les suggestions automatiques de réponse Gmail et les boutons ne sont pas des messages envoyés. Les liens techniques et mentions d’accès ont été masqués dans cette copie.
+
+- main:
+  - 'heading "TR : ÉTAT DE COMPTE - HADAMO INC" [active] [level=2]'
+    - text: J'ai répondu
+    - text: Pièces jointes
+  - list:
+    - table:
+      - rowgroup:
+        - row "riad mdeway riad.mdeway@hotmail.com Pièces jointes mer. 1 mai 2024 12 h 24 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "riad mdeway riad.mdeway@hotmail.com":
+            - table:
+              - rowgroup:
+                - row "riad mdeway riad.mdeway@hotmail.com":
+                  - cell "riad mdeway riad.mdeway@hotmail.com":
+                    - heading "riad mdeway riad.mdeway@hotmail.com" [level=3]:
+                      - gridcell "riad mdeway riad.mdeway@hotmail.com":
+                        - generic: riad mdeway
+                        - generic: <riad.mdeway@hotmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 1 mai 2024 12 h 24 Non marqué d'une étoile":
+            - gridcell "mer. 1 mai 2024 12 h 24"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à daniel, moi Afficher les détails":
+          - cell "à daniel, moi Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à daniel, moi Afficher les détails":
+                  - cell "à daniel, moi Afficher les détails":
+                    - generic: à daniel, moi
+    - generic: Bonjour Mathieu et Daniel,
+    - generic: Voici l'état de compte impayé de Gicleurs FF (1981) ltée.
+    - generic: Merci d'acquitter cette facture au plus tôt. Comme mentionné précédemment et à la demande de mon assurance, il faudra me transmettre le rapport de conformité suivant les travaux effectués.
+    - generic: De plus, le bail fait mention de cette obligation c'est pourquoi aucun nouveau bail ne pourra être signer si je n'obtiens pas ce rapport de conformité et le paiement intégral des loyers dus.
+    - generic: Merci
+    - generic: Riad Mdeway
+    - text: "De : Collection - Gicleurs FF <"
+    - link "collection@gicleursff.com":
+    - text: ">"
+    - text: "Envoyé : 25 avril 2024 13:59"
+    - text: "À :"
+    - link "youssefatou@gmail.com":
+    - text: <
+    - link "youssefatou@gmail.com":
+    - text: ">;"
+    - link "riad.mdeway@hotmail.com":
+    - text: <
+    - link "riad.mdeway@hotmail.com":
+    - text: ">"
+    - text: "Objet : ÉTAT DE COMPTE - HADAMO INC"
+    - paragraph
+    - paragraph
+    - paragraph: The English translation is after the French message.
+    - paragraph
+    - paragraph: Bonjour,
+    - paragraph
+    - paragraph: Je fais un suivi concernant les factures impayées. Votre état de compte et vos factures sont en pièce jointe.
+    - paragraph:
+      - text: Votre compte est en souffrance de
+      - generic: plus de 90 jours
+      - text: ", pourriez-vous s’il vous plaît m’envoyer par courriel à :"
+      - link "collection@gicleursff.com":
+      - text: ", la date que vous prévoyez faire le paiement"
+      - text: . Vous pouvez aussi me contacter par téléphone au
+      - link "450-372-4896":
+      - text: (poste 303). Il me fera plaisir de vous donner plus d’informations.
+    - paragraph: La politique de l’entreprise est maintenant que toutes les factures doivent être acquittées pour que les rapports et certificats vous soient envoyés. Il y a un délai de 7 à 10 jours ouvrables après la réception du paiement pour le traitement de votre rapport et certificat.
+    - paragraph
+    - paragraph: "Vous avez 3 façons pour faire le paiement de vos factures :"
+    - paragraph
+    - paragraph:
+      - text: Il est très important de toujours envoyer un courriel à
+      - link "INFO@GICLEURSFF.COM":
+      - text: et inscrire dans le courriel
+      - text: ":"
+[MENTION D’ACCÈS MASQUÉE — original conservé localement]
+    - paragraph
+    - paragraph: 1* Dépôt bancaire à l’aide du spécimen joint à votre courriel.
+    - paragraph
+    - link:
+    - paragraph:
+      - text: 2* Virement Interac à l’adresse
+      - link "info@gicleursff.com":
+[MENTION D’ACCÈS MASQUÉE — original conservé localement]
+    - paragraph
+    - paragraph: 3* Faire un chèque Gicleurs F.F. (1981) Ltée
+    - paragraph:
+      - link "1079, rue Daigneault":
+    - paragraph:
+      - link "Granby, Québec, J2J 2S4":
+    - paragraph: Merci beaucoup et bonne journée
+    - paragraph:
+      - text: "******************************"
+      - text: "******************************"
+      - text: "*********"
+    - paragraph
+    - paragraph: I follow up on unpaid invoices. you will find attached your invoice(s) as well your statement account.
+    - paragraph
+    - paragraph:
+      - text: Your account is more
+      - generic: than 90 days
+      - text: "overdue, could you please email me at:"
+      - link "collection@gicleursff.com":
+      - text: the date you expect to make the payment
+      - text: . You can also contact me by phone at
+      - link "450-372-4896":
+      - text: (ext. 303). I will be happy to give you more information.
+    - paragraph: It is now company policy that all invoices must be paid before the report and certificate can be sent to you. There is a delay of 7 to 10 working days after receipt of payment for the processing of your report and certificate.
+    - paragraph: "You have 3 ways to pay your bills:"
+    - paragraph
+    - paragraph:
+      - text: It is very important to always send an email to
+      - link "INFO@GICLEURSFF.COM":
+      - text: "and include in the email:"
+[MENTION D’ACCÈS MASQUÉE — original conservé localement]
+    - paragraph
+    - paragraph: 1* Bank deposit using the specimen attached to your email.
+    - paragraph
+    - paragraph:
+      - text: 2* Interac transfer to
+      - link "info@gicleursff.com":
+[MENTION D’ACCÈS MASQUÉE — original conservé localement]
+    - paragraph
+    - paragraph: 3* Make a check Gicleurs F.F. (1981) Ltée
+    - paragraph:
+      - link "1079 Daigneault":
+      - text: Street
+    - paragraph:
+      - generic: Granby, Quebec, J2J 2S4
+    - paragraph
+    - paragraph
+    - paragraph:
+    - paragraph
+    - text: …
+    - text: "[Message tronqué]"
+    - link "Afficher l'intégralité du message":
+    - generic: Une pièce jointe
+    - generic: • Analysées par Gmail
+      - generic: Ajouter à Disque
+    - link "Prévisualiser la pièce jointe EC2024-04-22.pdf Prévisualiser la pièce jointe EC2024-04-22.pdf":
+      - generic: Prévisualiser la pièce jointe EC2024-04-22.pdf
+      - generic: Prévisualiser la pièce jointe EC2024-04-22.pdf
+      - generic: EC2024-04-22.pdf
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mar. 10 mars 17 h 12 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mar. 10 mars 17 h 12 Non marqué d'une étoile":
+            - gridcell "mar. 10 mars 17 h 12"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - generic "Plus d'options pour le message":
+        - row "à dada Afficher les détails":
+          - cell "à dada Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à dada Afficher les détails":
+                  - cell "à dada Afficher les détails":
+                    - text: à
+                    - generic: dada
+    - generic: 2 pièces jointes
+    - generic: • Analysées par Gmail
+      - generic: Tout ajouter à Disque
+    - link "Prévisualiser la pièce jointe image001.png Prévisualiser la pièce jointe image001.png":
+      - generic: Prévisualiser la pièce jointe image001.png
+      - generic: Prévisualiser la pièce jointe image001.png
+      - generic: image001.png
+    - link "Prévisualiser la pièce jointe EC2024-04-22.pdf Prévisualiser la pièce jointe EC2024-04-22.pdf":
+      - generic: Prévisualiser la pièce jointe EC2024-04-22.pdf
+      - generic: Prévisualiser la pièce jointe EC2024-04-22.pdf
+      - generic: EC2024-04-22.pdf
+  - link "Répondre"
+  - link "Transférer"

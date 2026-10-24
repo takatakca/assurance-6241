@@ -1,0 +1,162 @@
+[
+  {
+    "id": 6,
+    "apport_nouveau": "La reprise ciblée ne retrouve pas le contrat U-Haul du 12 juin 2025. Le créneau Gmail du 1er au 20 juin 2025 ne retourne aucun résultat U-Haul dans Takatak. Les documents U-Haul retrouvés relèvent surtout de l’activité de concessionnaire antérieure, de clients tiers, du dossier Les Délices d’Aden de 2026 ou de récits déjà conservés. Cela ne prouve pas l’inexistence du contrat.",
+    "manquants_maintenus": [
+      "Identité légale du locataire et de la société ayant engagé le camion du 12 juin 2025.",
+      "Contrat/réservation correspondant au transport, agence, véhicule, date et signataire; facture finale; ou confirmation documentée de non-détention."
+    ],
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "statut_recommande": "non_repere",
+    "raison_statut": "Aucun document répondant expressément à cette demande n’a été retrouvé pendant ce passage; les éléments contextuels et les contrôles négatifs ne satisfont pas l’engagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 6",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      }
+    ],
+    "recherche_effectuee": [
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
+    ],
+    "limites": [
+      "Recherche limitée à Takatak pour ce sous-lot. Ooeuf et ChatGPT sont examinés séparément par l’agent parent.",
+      "L’absence de résultat ne prouve pas l’inexistence des pièces, notamment sur téléphone, WhatsApp/Messenger, compte fournisseur ou compte d’un autre intervenant.",
+      "Les originaux, déclarations et analyses restent distincts; aucun montant additionné et aucun message envoyé."
+    ]
+  },
+  {
+    "id": 7,
+    "apport_nouveau": "Aucune nouvelle facture ni preuve de paiement du prestataire ayant loué le véhicule pour l’opération de juin n’est repérée. Les montants 469 $ et environ 2 000 $ proviennent des récits de récupération déjà au dossier. Les variantes 4 527,75 $ conduisent au grand livre déjà conservé, sans nouvelle facture détaillée ni identification du cocontractant. Six requêtes finales sur AKA Moving, Matthew Dacar, info@akamoving.com et factures 1020/1026 ne retrouvent aucun original du fournisseur dans Takatak. La piste de l’autre compte Ooeuf est traitée séparément par le parent. Le projet de procédure du 28 octobre 2025 mentionnant 1 077,90 $ ne prouve pas le paiement ni le rattachement à U-Haul/Élite.",
+    "manquants_maintenus": [
+      "Facture du prestataire à Quadro avec identité, date, numéro, mandat, détail et taxes.",
+      "Preuve de paiement rattachée à cette facture, payeur et remboursement éventuel.",
+      "Affectation exacte des montants déclarés et rapprochement du grand livre, sans addition des doublons ni des périodes différentes."
+    ],
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "statut_recommande": "non_repere",
+    "raison_statut": "Aucun document répondant expressément à cette demande n’a été retrouvé pendant ce passage; les éléments contextuels et les contrôles négatifs ne satisfont pas l’engagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 7",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      }
+    ],
+    "recherche_effectuee": [
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
+    ],
+    "limites": [
+      "Recherche limitée à Takatak pour ce sous-lot. Ooeuf et ChatGPT sont examinés séparément par l’agent parent.",
+      "L’absence de résultat ne prouve pas l’inexistence des pièces, notamment sur téléphone, WhatsApp/Messenger, compte fournisseur ou compte d’un autre intervenant.",
+      "Les originaux, déclarations et analyses restent distincts; aucun montant additionné et aucun message envoyé."
+    ]
+  },
+  {
+    "id": 9,
+    "apport_nouveau": "La lecture des récits et des communications préparatoires ne fournit toujours pas la liste article par article des équipements réellement chargés dans le véhicule U-Haul le 12 juin 2025. Le courriel administratif 1/7 du 5 octobre réaffirme précisément que le transporteur, les biens chargés et les témoins restent à identifier. Les mentions « matériel de pâtisserie » et les inventaires généraux ne sont pas convertis en liste de chargement.",
+    "manquants_maintenus": [
+      "Liste validée des articles effectivement chargés dans U-Haul le 12 juin 2025, avec quantité, identifiant/photo et témoin.",
+      "Distinction entre les biens Pâtisserie/Pizzeria, ceux transportés par Harmony et ceux récupérés après saisie."
+    ],
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "statut_recommande": "non_repere",
+    "raison_statut": "Aucun document répondant expressément à cette demande n’a été retrouvé pendant ce passage; les éléments contextuels et les contrôles négatifs ne satisfont pas l’engagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 9",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/EML/1a10d08a7feddb4a.eml",
+        "repere": "Message Gmail 1a10d08a7feddb4a, 5 octobre 2026, courriel 1/7",
+        "apport": "Communication administrative existante signalant les identifications et vérifications encore à faire; ne fournit pas de liste de chargement.",
+        "nature": "original"
+      }
+    ],
+    "recherche_effectuee": [
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
+    ],
+    "limites": [
+      "Recherche limitée à Takatak pour ce sous-lot. Ooeuf et ChatGPT sont examinés séparément par l’agent parent.",
+      "L’absence de résultat ne prouve pas l’inexistence des pièces, notamment sur téléphone, WhatsApp/Messenger, compte fournisseur ou compte d’un autre intervenant.",
+      "Les originaux, déclarations et analyses restent distincts; aucun montant additionné et aucun message envoyé."
+    ]
+  },
+  {
+    "id": 12,
+    "apport_nouveau": "Les variantes 5837/5839, bail, lease, loyer, locateur, autorisation et les noms de fichiers retrouvent des pièces administratives ou commerciales déjà connues. Les seuls candidats dont le nom annonce un bail visent le local Somerled; les documents Les Délices d’Aden concernent un autre dossier. Aucun nouveau titre d’occupation Quadro du 5837 Jean-Talon Est n’a été repéré.",
+    "manquants_maintenus": [
+      "Bail, sous-bail, cession, licence ou autorisation écrite visant Quadro et le 5837 Jean-Talon Est.",
+      "Identité du propriétaire, période, annexes, signatures et portée du droit d’occupation.",
+      "Confirmation de l’adresse exacte 5837/5839 et Est/Ouest; verso de l’avis TPS et historique du compte déjà signalés."
+    ],
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "statut_recommande": "non_repere",
+    "raison_statut": "Aucun document répondant expressément à cette demande n’a été retrouvé pendant ce passage; les éléments contextuels et les contrôles négatifs ne satisfont pas l’engagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 12",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      }
+    ],
+    "recherche_effectuee": [
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
+    ],
+    "limites": [
+      "Recherche limitée à Takatak pour ce sous-lot. Ooeuf et ChatGPT sont examinés séparément par l’agent parent.",
+      "L’absence de résultat ne prouve pas l’inexistence des pièces, notamment sur téléphone, WhatsApp/Messenger, compte fournisseur ou compte d’un autre intervenant.",
+      "Les originaux, déclarations et analyses restent distincts; aucun montant additionné et aucun message envoyé."
+    ]
+  },
+  {
+    "id": 24,
+    "apport_nouveau": "Les variantes Élite, Elite, remorquageelite, towing et AKA Moving ne révèlent aucun contrat, facture, preuve de paiement ni échange de mandat Élite. Sept notifications Instagram contiennent remorquageelite, dont celle du 23 octobre 2026. Ce nom de compte est seulement une piste à faire identifier; la notification n’établit ni l’identité légale, ni une relation contractuelle, ni une participation au transport. Six requêtes finales sur AKA Moving, Matthew Dacar, info@akamoving.com et factures 1020/1026 ne retrouvent aucun original du fournisseur dans Takatak. La piste de l’autre compte Ooeuf est traitée séparément par le parent. Le projet de procédure du 28 octobre 2025 mentionnant 1 077,90 $ ne prouve pas le paiement ni le rattachement à U-Haul/Élite.",
+    "manquants_maintenus": [
+      "Identité légale et coordonnées du transporteur réellement engagé; date, mandat et donneur d’ordre.",
+      "Contrat/devis, échanges SMS ou courriels, facture, paiement, liste des biens et bon de livraison.",
+      "Distinction entre Remorquage Élite, AKA Moving, Rapide 2 Net et les transports de juin et de récupération."
+    ],
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "statut_recommande": "non_repere",
+    "raison_statut": "Aucun document répondant expressément à cette demande n’a été retrouvé pendant ce passage; les éléments contextuels et les contrôles négatifs ne satisfont pas l’engagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/rapport.md",
+        "repere": "Recherche du 24 octobre 2026, section Demande 24",
+        "apport": "Couverture et résultat de la reprise de recherche dans Takatak; pas une preuve des faits litigieux.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Takatak_transport/Notifications-Instagram-extrait.txt",
+        "repere": "Message Gmail 1a16b90c774c3edb, 23 octobre 2026, notification automatique",
+        "apport": "Piste de nom de compte seulement; aucun mandat ni identité légale établis.",
+        "nature": "extraction"
+      }
+    ],
+    "recherche_effectuee": [
+      "29 requêtes Gmail ciblées; 29 pages, sans next_page_token restant; 457 occurrences, 235 messages distincts récupérés en MIME complet. Triage des en-têtes, corps et pièces annoncées; lecture approfondie des candidats pertinents. Les 235 messages ne sont pas tous déclarés relus mot à mot.",
+      "Aucune pièce jointe nouvelle répondant aux demandes de ce lot téléchargée. Deux EML de communications administratives existantes du 5 octobre conservés comme provenance, pas comme satisfaction des demandes."
+    ],
+    "limites": [
+      "Recherche limitée à Takatak pour ce sous-lot. Ooeuf et ChatGPT sont examinés séparément par l’agent parent.",
+      "L’absence de résultat ne prouve pas l’inexistence des pièces, notamment sur téléphone, WhatsApp/Messenger, compte fournisseur ou compte d’un autre intervenant.",
+      "Les originaux, déclarations et analyses restent distincts; aucun montant additionné et aucun message envoyé."
+    ]
+  }
+]

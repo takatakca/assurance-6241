@@ -1,0 +1,349 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - button "Tout réduire":
+  - tooltip: Tout réduire
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - heading "🏠 AKA Moving Estimation 🚚 Qualdro Holdings Ltee" [active] [level=2]:
+    - img "🏠"
+    - generic: AKA
+    - generic: Moving
+    - text: Estimation
+    - img "🚚"
+    - text: Qualdro Holdings Ltee
+  - button "Recherchez tous les messages avec l'étiquette Boîte de réception": Boîte de réception
+  - tooltip: Recherchez tous les messages avec l'étiquette Boîte de réception
+  - button "Retirez l'étiquette Boîte de réception de cette conversation": ×
+  - tooltip: Retirez l'étiquette Boîte de réception de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu":
+    - img "✉️"
+    - text: J'ai répondu
+  - tooltip: Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu
+  - button "Retirez l'étiquette ✉️ J'ai répondu de cette conversation": ×
+  - tooltip: Retirez l'étiquette ✉️ J'ai répondu de cette conversation
+  - button "Recherchez tous les messages avec l'étiquette 📎 Pièces jointes":
+    - img "📎"
+    - text: Pièces jointes
+  - tooltip: Recherchez tous les messages avec l'étiquette 📎 Pièces jointes
+  - button "Retirez l'étiquette 📎 Pièces jointes de cette conversation": ×
+  - tooltip: Retirez l'étiquette 📎 Pièces jointes de cette conversation
+  - list:
+    - table:
+      - rowgroup:
+        - row "Matthew Dacar info@akamoving.com mar. 10 juin 2025 18 h 40 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Matthew Dacar info@akamoving.com":
+            - table:
+              - rowgroup:
+                - row "Matthew Dacar info@akamoving.com":
+                  - cell "Matthew Dacar info@akamoving.com":
+                    - heading "Matthew Dacar info@akamoving.com" [level=3]:
+                      - gridcell "Matthew Dacar info@akamoving.com":
+                        - generic: Matthew Dacar
+                        - generic: <info@akamoving.com>
+                    - heading [level=3]
+          - cell "mar. 10 juin 2025 18 h 40 Non marqué d'une étoile":
+            - gridcell "mar. 10 juin 2025 18 h 40"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à moi Afficher les détails":
+          - cell "à moi Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à moi Afficher les détails":
+                  - cell "à moi Afficher les détails":
+                    - generic: à moi
+                    - button "Afficher les détails"
+    - generic: Il semble que ce message soit en anglais
+    - button "Traduire en français":
+      - generic: Traduire en français
+    - button "Fermer":
+    - paragraph: Attention Quadro holding ltee
+    - generic: We appreciate your interest in our moving services for you're restaurant. Based on our recent discussion and time that will be needed. here's a detailed estimate tailored for your move scheduled on
+    - generic: June 11 or June 12.
+    - paragraph:
+      - generic: "Estimated Cost Breakdown:"
+    - paragraph:
+      - generic: "Cost of Move:"
+      - generic: "600.00"
+    - paragraph
+    - generic: If there is more than what was quoted than we need to charge you extra. Also we would like to see some additional pictures.
+    - paragraph:
+      - generic: "What Your Estimate Includes:"
+    - paragraph:
+      - generic: "Spacious 20ft Moving Truck:"
+      - generic: We offer a very large 20 ft moving truck for your move, ensuring a lot of space for all your belongings.
+    - paragraph:
+      - generic: "Experienced and Friendly Professional Moving Team:"
+      - generic: Our team comprises
+      - generic: "2"
+      - generic: skilled movers, with a minimum of 3+ years of experience, dedicated to making your move smooth and enjoyable.
+    - paragraph:
+      - generic: "Protection for Your Belongings:"
+      - generic: We provide mattress covers and furniture covers to ensure everything stays in pristine condition during the move.
+    - paragraph:
+      - generic: Double the Standard Insurance Coverage
+      - generic: ": At AKA Moving, we double the standard R.V.P insurance rate to $1.20 per pound per article, offering you enhanced protection compared to other moving companies."
+    - paragraph:
+      - generic: "Additional Notes:"
+    - paragraph:
+      - generic: Special items like pianos, safes, marble tables, or Jacuzzis might involve extra costs.
+    - paragraph:
+      - generic: Additional charges may apply for unique requirements or hoisting services.
+    - paragraph:
+      - generic: We aim to make your moving experience as clear and stress-free as possible with our upfront and comprehensive estimate.
+    - paragraph:
+      - generic: Ready to Confirm?
+    - paragraph:
+      - generic: Simply reply to this email or give us a call to finalize your booking.
+    - paragraph:
+      - generic: For any adjustments or questions about this estimate, please feel free to contact us.
+    - paragraph:
+      - generic: "Contact Us:"
+    - generic: "--"
+    - generic: Sincerely,
+    - generic: Matthew Dacar
+    - text: "Website:"
+    - link "https://www.akamoving.com/":
+
+      - text: https://www.
+      - text: akamoving.com/
+    - text: "Mobile:"
+    - link "514-915-3967":
+      - /url: tel:(514)%20915-3967
+    - img "New AKA Moving Logo.png"
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mer. 11 juin 2025 00 h 03 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mer. 11 juin 2025 00 h 03 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mer. 11 juin 2025 00 h 03"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à Matthew Afficher les détails":
+          - cell "à Matthew Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à Matthew Afficher les détails":
+                  - cell "à Matthew Afficher les détails":
+                    - generic: à Matthew
+                    - button "Afficher les détails"
+    - generic: 4 hours service, restauration équipements
+    - button "Afficher le contenu abrégé":
+    - generic: Une pièce jointe
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Ajouter à Disque":
+      - generic: Ajouter à Disque
+    - link "Prévisualiser la pièce jointe 1.png Prévisualiser la pièce jointe 1.png":
+
+      - generic: Prévisualiser la pièce jointe 1.png
+      - generic: Prévisualiser la pièce jointe 1.png
+      - generic: 1.png
+    - button "Télécharger la pièce jointe 1.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque 1.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+    - table:
+      - rowgroup:
+        - row "Matthew Dacar info@akamoving.com mer. 11 juin 2025 00 h 05 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Matthew Dacar info@akamoving.com":
+            - table:
+              - rowgroup:
+                - row "Matthew Dacar info@akamoving.com":
+                  - cell "Matthew Dacar info@akamoving.com":
+                    - heading "Matthew Dacar info@akamoving.com" [level=3]:
+                      - gridcell "Matthew Dacar info@akamoving.com":
+                        - generic: Matthew Dacar
+                        - generic: <info@akamoving.com>
+                    - heading [level=3]
+          - cell "mer. 11 juin 2025 00 h 05 Non marqué d'une étoile":
+            - gridcell "mer. 11 juin 2025 00 h 05"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à moi Afficher les détails":
+          - cell "à moi Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à moi Afficher les détails":
+                  - cell "à moi Afficher les détails":
+                    - generic: à moi
+                    - button "Afficher les détails"
+    - generic: Il semble que ce message soit en anglais
+    - button "Traduire en français":
+      - generic: Traduire en français
+    - button "Fermer":
+    - generic: Yes correct
+    - generic: "--"
+    - generic: Sincerely,
+    - generic: Matthew Dacar
+    - text: "Website:"
+    - link:
+
+    - link "https://www.akamoving.com":
+
+      - text: https://www.
+      - text: akamoving.com
+    - text: "Mobile:"
+    - link "514-915-3967":
+      - /url: tel:(514)%20915-3967
+    - img "New AKA Moving Logo.png"
+    - text: "---- On Tue, 10 Jun 2025 23:03:02 -0500"
+    - link "ooeuf.ca@gmail.com":
+      - /url: mailto:ooeuf.ca@gmail.com
+    - text: wrote ----
+    - button "Afficher le contenu abrégé":
+    - table:
+      - rowgroup:
+        - row "Matthew Dacar info@akamoving.com mer. 11 juin 2025 00 h 05 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Matthew Dacar info@akamoving.com":
+            - table:
+              - rowgroup:
+                - row "Matthew Dacar info@akamoving.com":
+                  - cell "Matthew Dacar info@akamoving.com":
+                    - heading "Matthew Dacar info@akamoving.com" [level=3]:
+                      - gridcell "Matthew Dacar info@akamoving.com":
+                        - generic: Matthew Dacar
+                        - generic: <info@akamoving.com>
+                    - heading [level=3]
+          - cell "mer. 11 juin 2025 00 h 05 Non marqué d'une étoile":
+            - gridcell "mer. 11 juin 2025 00 h 05"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à moi Afficher les détails":
+          - cell "à moi Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à moi Afficher les détails":
+                  - cell "à moi Afficher les détails":
+                    - generic: à moi
+                    - button "Afficher les détails"
+    - generic: Il semble que ce message soit en anglais
+    - button "Traduire en français":
+      - generic: Traduire en français
+    - button "Fermer":
+    - generic: 3 hours plus 1hr transport for coming to and from.
+    - generic: "--"
+    - generic: Sincerely,
+    - generic: Matthew Dacar
+    - text: "Website:"
+    - link:
+
+    - link "https://www.akamoving.com":
+
+      - text: https://www.
+      - text: akamoving.com
+    - text: "Mobile:"
+    - link "514-915-3967":
+      - /url: tel:(514)%20915-3967
+    - img "New AKA Moving Logo.png"
+    - text: "---- On Tue, 10 Jun 2025 23:03:02 -0500"
+    - link "ooeuf.ca@gmail.com":
+      - /url: mailto:ooeuf.ca@gmail.com
+    - text: wrote ----
+    - button "Afficher le contenu abrégé":
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com Pièces jointes mar. 21 oct. 2025 09 h 15 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "Pièces jointes mar. 21 oct. 2025 09 h 15 Non marqué d'une étoile":
+            - img "Pièces jointes"
+            - gridcell "mar. 21 oct. 2025 09 h 15"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à tdpcpa167 Afficher les détails":
+          - cell "à tdpcpa167 Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à tdpcpa167 Afficher les détails":
+                  - cell "à tdpcpa167 Afficher les détails":
+                    - text: à
+                    - generic: tdpcpa167
+                    - button "Afficher les détails"
+    - button "Afficher le contenu abrégé":
+    - generic: Une pièce jointe
+    - generic: • Analysées par Gmail
+    - img "Analyse des pièces jointes dans Gmail Pour vous aider à protéger votre boîte de réception, Gmail bloque les pièces jointes lorsque des logiciels malveillants sont détectés. Nous vous recommandons quand même de télécharger seulement les pièces jointes provenant de personnes en qui vous avez confiance. En savoir plus Logo Sécurité accrue avec Google"
+    - button "Ajouter à Disque":
+      - generic: Ajouter à Disque
+    - link "Prévisualiser la pièce jointe 1.png Prévisualiser la pièce jointe 1.png":
+
+      - generic: Prévisualiser la pièce jointe 1.png
+      - generic: Prévisualiser la pièce jointe 1.png
+      - generic: 1.png
+    - button "Télécharger la pièce jointe 1.png":
+    - tooltip: Télécharger
+    - button "Ajouter une pièce jointe à Disque 1.png":
+    - tooltip: Ajouter à Google Disque
+    - tooltip: Modifier avec
+    - button "Enregistrer dans Photos":
+    - tooltip: Enregistrer dans Photos
+  - link "Répondre"
+  - link "Transférer"
+  - button "Ajouter une réaction":
+  - tooltip: Ajouter une réaction

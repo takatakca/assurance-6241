@@ -1,0 +1,242 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "198472d44b632476",
+    "thread_id": "198472d44b632476",
+    "label_ids": [
+      "YELLOW_STAR",
+      "IMPORTANT",
+      "STARRED",
+      "CATEGORY_PERSONAL",
+      "INBOX"
+    ],
+    "snippet": "---------- Forwarded message --------- From: Bardosh Canada &lt;bardosh.ca@gmail.com&gt; Date: Mon, May 29, 2023, 9:16 am Subject: I am sharing &#39;INVENTAIRE RESTO&#39; with you To: boloncafe.ca@",
+    "history_id": "3417913",
+    "internal_date": "1753540793000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "multipart/mixed",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Delivered-To",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Received",
+          "value": "by 2002:a05:6638:3d8f:b0:500:ec3f:77fb with SMTP id ci15csp1688784jab;        Sat, 26 Jul 2025 07:40:06 -0700 (PDT)"
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a17:902:ccc4:b0:23d:dd04:28d4 with SMTP id d9443c01a7336-23fb3165099mr88855995ad.43.1753540805906;        Sat, 26 Jul 2025 07:40:05 -0700 (PDT)"
+        },
+        {
+          "name": "ARC-Seal",
+          "value": "i=1; a=rsa-sha256; t=1753540805; cv=none;        d=google.com; s=arc-20240605;        b=W0dA89DLW0AhToxhmTsTe7C7sOQoPs9d5NF6qK+i/35+97pzNqb37FSkjxyXh4lJgw         ximbullnxWB7yoZ1G6QQnJ0owwF8UF4Yv+4XSXEq4WC3ATS1YFBPWK2Cssj+5ILZD2pU         Kj1YHpdhSPgorNgkHV7pYrlE/Gjhzq5qxCoqtHk7Lf76V7QYFjMu2McORjY3liVrTtkg         XkvzWC4DUqba4e0wFpxQ7pye57wg/DknwuRkHq0cJQwsJT/pBxmjfdILtgj7t/rqdvZz         i1VlEzfRiVPOdQloEzyAwooVIo4c+vpxRibKcgC2rhEALZfKEygbIuzlAlO0ArP+DYeA         iKEQ=="
+        },
+        {
+          "name": "ARC-Message-Signature",
+          "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=7aOjcea0VxLNMMnOA7mcM7JxnAmAT77/bHH13vxz4ic=;        fh=xU/5uRDcKzq25whTgSg6IA+cCzKigzZ75uDJO7GO9gY=;        b=UGEDKAdfV+HP8/oJ7Kb0KP3h/B/eNoRMlef+auAp9s1wTC6iihNUdrfNHXkEkTrXTa         xiE+SICvcpVyKgGSuCFk1B1BrjRLTT3UpNlByR5q6vdWUe6TX99ET+tTPU1wBKJqiLmB         3KzvfQzBfqv9WauS9I1SgnCmcBzB9xym7vLA2L3PLcOQJDWv7XxiwU83njLix6hQcoty         rTE53fd9orE0L1vJnpc/BoymbTuVv+LprP5oyB/bBjKxMEWHTlxnQ/5r53wGXZD9qM50         e1RpfcthHDzhDMmYnBcZUTnrYjlp+imAZ76/tDfgDNC0dY44lYOXK45gnfCVlpy4ylwc         Ro2Q==;        dara=google.com"
+        },
+        {
+          "name": "ARC-Authentication-Results",
+          "value": "i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=M5qONslh;       spf=pass (google.com: domain of boloncafe.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=boloncafe.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "Return-Path",
+          "value": "<boloncafe.ca@gmail.com>"
+        },
+        {
+          "name": "Received",
+          "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id d9443c01a7336-23fbe31af6csor10823975ad.3.2025.07.26.07.40.05        for <takatak.ca@gmail.com>        (Google Transport Security);        Sat, 26 Jul 2025 07:40:05 -0700 (PDT)"
+        },
+        {
+          "name": "Received-SPF",
+          "value": "pass (google.com: domain of boloncafe.ca@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+        },
+        {
+          "name": "Authentication-Results",
+          "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=M5qONslh;       spf=pass (google.com: domain of boloncafe.ca@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=boloncafe.ca@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com"
+        },
+        {
+          "name": "DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20230601; t=1753540805; x=1754145605; dara=google.com;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :from:to:cc:subject:date:message-id:reply-to;        bh=7aOjcea0VxLNMMnOA7mcM7JxnAmAT77/bHH13vxz4ic=;        b=M5qONslh+MriiyIK56h9zRsw2c1hIiAQx9lqfQReHOfJa/o0TDZNi/IoQxAvHluUqV         i6hYwgJe5OMsqtRE14wDD6rLgXx0eF7joN0Zo2ZyURH8uGxMipsKtXHZzTU27uaNgNv9         +lC6KHRkMTlgGpEpNZmi9hcBVoOgoy2TUrJtS5e+5XNrlQ1iq7yfbOEdCOXZnNjhocyw         MDAmaaQtTfv+XhwFJTVYPx8y7Cw6DZ/Kx2ZOkXrkAAPtFcw97ticQlI3HlCtuS6dEthK         csiMHODIjdVenNo5+jghP5E8DKgQrRxiIx1ZX3ruXGXee9FP9LN6n6KmRBKYAMrFgWl7         uHUw=="
+        },
+        {
+          "name": "X-Google-DKIM-Signature",
+          "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1753540805; x=1754145605;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=7aOjcea0VxLNMMnOA7mcM7JxnAmAT77/bHH13vxz4ic=;        b=wvvqitPKUnvWn9ZY0YnLxYyuVsAqnOigGc0hkOf9zctJBGGUuwS4EXa1jA50/W+fp5         xehJxc0RIz6foJURUKD8WkCyVqAgt3HHtxuoOvDGbXGo0SCEKzG95XBDvh6sq9WTovsA         iI8C8HNSPy3Tl1nYmuKdJgUsMmdmTROUSsTrsPRdCotCPOus28Z5UXbMiX+eeOwE7455         iZwh3H6shRr+7m1afGuu4trMbx/e0mo3m5qCdrCzb1xUxwgJktuOiKk0SdvWJmfS9uPw         psYkKEZ9pEm+vBHFXSIfC6c4L/c694aYhJnLwzdF8PfGQNtaxkvxy7PLOtRt8PdCLPy6         BHtw=="
+        },
+        {
+          "name": "X-Gm-Message-State",
+          "value": "AOJu0YxC6fUR52/pvDuFOFGhP1wTwY7uOWVwN3XLurAcTVZjsheULYIh 7B88GZ6TWtONfSY1ioCKN1jVqKvnJPYdtAvoFsExsVjmdgWEX06CAF13NjSzgkVl0VXI67g56qv gn8zfmPJk7Fe3E1FWxTy/ArL1yfK4QuKvTLsE"
+        },
+        {
+          "name": "X-Gm-Gg",
+          "value": "ASbGncuimRfwlCrTHKrsN+ENSuybeu0in4puL/IrG9TUjd4ONDQS/cjwsumy2V//yin R18t59bX1LkuSAfi4uKyJAlqQTb3jg0PuZIv6VnDZK3vtuzWuwCr3oX6o0GqxL3wy4pFLBic2z7 e4zwSoPLmimS3LXqoThdHAGxDtI/Wts6ta1GSyvkj3V8lJN7xka8jh7ahC/skSePzCDBtLT1UlL 3FfFm4kmCYpm5+lwm4="
+        },
+        {
+          "name": "X-Google-Smtp-Source",
+          "value": "AGHT+IFjpJfcJ1L5ny4NK0BDfVQhvZfCBfizK22teqZST9iJPDBLdUNWHkf2rezC728RvO+HsKHX/0c359YUXMoEahA="
+        },
+        {
+          "name": "X-Received",
+          "value": "by 2002:a17:902:da48:b0:237:ec18:ead7 with SMTP id d9443c01a7336-23fb31252c5mr100209345ad.24.1753540804921; Sat, 26 Jul 2025 07:40:04 -0700 (PDT)"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "References",
+          "value": "<CAPvYWPqeeg-iGYorX1uFxQD66UHGaZ3zFjy+S+1kBmNLZ+=CKA@mail.gmail.com>"
+        },
+        {
+          "name": "In-Reply-To",
+          "value": "<CAPvYWPqeeg-iGYorX1uFxQD66UHGaZ3zFjy+S+1kBmNLZ+=CKA@mail.gmail.com>"
+        },
+        {
+          "name": "From",
+          "value": "Bolon Cafe Montreal <boloncafe.ca@gmail.com>"
+        },
+        {
+          "name": "Date",
+          "value": "Sat, 26 Jul 2025 10:39:53 -0400"
+        },
+        {
+          "name": "X-Gm-Features",
+          "value": "Ac12FXxSWKcQSr_RZb8p4bweYnxt9uix-TTujw9y8pVBMMPLAI-pbQalDc-MmhI"
+        },
+        {
+          "name": "Message-ID",
+          "value": "<CAHBhusttSQSsW5mCUMCAQUoZG+dAFa36_uh8Y9bnkLgJtYxsTw@mail.gmail.com>"
+        },
+        {
+          "name": "Subject",
+          "value": "Fwd: I am sharing 'INVENTAIRE RESTO' with you"
+        },
+        {
+          "name": "To",
+          "value": "\"TAKATAK.CA\" <takatak.ca@gmail.com>"
+        },
+        {
+          "name": "Content-Type",
+          "value": "multipart/mixed; boundary=\"000000000000c700b6063ad60882\""
+        }
+      ],
+      "body": {
+        "size": 0,
+        "base64_url_content": null,
+        "content": null,
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": [
+        {
+          "part_id": "0",
+          "mime_type": "multipart/alternative",
+          "filename": "",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/alternative; boundary=\"000000000000c700b5063ad60880\""
+            }
+          ],
+          "body": {
+            "size": 0,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": null
+          },
+          "read_attachment_supported": null,
+          "parts": [
+            {
+              "part_id": "0.0",
+              "mime_type": "text/plain",
+              "filename": "",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "text/plain; charset=\"UTF-8\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "quoted-printable"
+                }
+              ],
+              "body": {
+                "size": 354,
+                "base64_url_content": null,
+                "content": "---------- Forwarded message ---------\r\nFrom: Bardosh Canada <bardosh.ca@gmail.com>\r\nDate: Mon, May 29, 2023, 9:16 a.m.\r\nSubject: I am sharing 'INVENTAIRE RESTO' with you\r\nTo: boloncafe.ca@gmail.com <boloncafe.ca@gmail.com>\r\n\r\n\r\nOne app for all your Word, Excel, PowerPoint and PDF needs. Get the Office\r\napp: https://aka.ms/officeandroidshareinstall\r\n",
+                "attachment_id": null
+              },
+              "read_attachment_supported": null,
+              "parts": null
+            },
+            {
+              "part_id": "0.1",
+              "mime_type": "text/html",
+              "filename": "",
+              "headers": [
+                {
+                  "name": "Content-Type",
+                  "value": "text/html; charset=\"UTF-8\""
+                },
+                {
+                  "name": "Content-Transfer-Encoding",
+                  "value": "quoted-printable"
+                }
+              ],
+              "body": {
+                "size": 827,
+                "base64_url_content": null,
+                "content": "<div dir=\"auto\"></div><br><div class=\"gmail_quote gmail_quote_container\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">Bardosh Canada</strong> <span dir=\"auto\">&lt;<a href=\"mailto:bardosh.ca@gmail.com\">bardosh.ca@gmail.com</a>&gt;</span><br>Date: Mon, May 29, 2023, 9:16 a.m.<br>Subject: I am sharing &#39;INVENTAIRE RESTO&#39; with you<br>To: <a href=\"mailto:boloncafe.ca@gmail.com\">boloncafe.ca@gmail.com</a> &lt;<a href=\"mailto:boloncafe.ca@gmail.com\">boloncafe.ca@gmail.com</a>&gt;<br></div><br><br><div dir=\"auto\">One app for all your Word, Excel, PowerPoint and PDF needs. Get the Office app: <a href=\"https://aka.ms/officeandroidshareinstall\" target=\"_blank\" rel=\"noreferrer\">https://aka.ms/officeandroidshareinstall</a> </div>\r\n</div>\r\n",
+                "attachment_id": null
+              },
+              "read_attachment_supported": null,
+              "parts": null
+            }
+          ]
+        },
+        {
+          "part_id": "1",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filename": "INVENTAIRE RESTO.xlsx",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; name=\"INVENTAIRE RESTO.xlsx\""
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"INVENTAIRE RESTO.xlsx\""
+            },
+            {
+              "name": "Content-Transfer-Encoding",
+              "value": "base64"
+            },
+            {
+              "name": "Content-ID",
+              "value": "<18867a678e7ec936db71>"
+            },
+            {
+              "name": "X-Attachment-Id",
+              "value": "18867a678e7ec936db71"
+            }
+          ],
+          "body": {
+            "size": 12064,
+            "base64_url_content": null,
+            "content": null,
+            "attachment_id": "ANGjdJ8AvposDAUmulwCpXNFXpyL0RQU4VIpMak_tjZTwsDO9_qN7qEGPg5CFJousvltPjDT_wulolusTP4W932VUTyqwB4rZD0z6Us1RxuDrnzXKn9peDR6uURzjdHeB4TegsdolNxjv_sKCoc4wWudaZq0f4imwVULZYzcuHlhTFpcwJVwIpje8rswAI6B2s4uFv2xM2h_Pnsk5z9ZaK1szH8m6UvyjQGb8B3NsYvZOLkxhMsPOiPctpUCmkhNjcoGi8RHo_MWwmOIZ-qU-3nREpZPNgu5rUdaOne_v00Y9vDUshuqNs8Q5rOyWSmvm4qJ_OUNo88aQzeCG0niO5AcCzxbOSjcVAmg8Be_I5Ux87S00z1U9VZP46sf_XlZZE1ffKK1YlJSy9BYU4sv"
+          },
+          "read_attachment_supported": true,
+          "parts": null
+        }
+      ]
+    },
+    "size_estimate": 24172,
+    "classification_label_values": null
+  }
+}

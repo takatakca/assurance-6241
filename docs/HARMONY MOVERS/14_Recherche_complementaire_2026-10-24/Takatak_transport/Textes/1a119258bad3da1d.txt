@@ -1,0 +1,20 @@
+EXTRACTION DE COURRIEL — 24 octobre 2026
+Compte : takatak.ca@gmail.com
+ID Gmail : 1a119258bad3da1d
+date : Thu, 8 Oct 2026 01:34:13 +0000
+from : takatak ca <takatak.ca@gmail.com>
+to : sani-adel@live.com
+subject : Facture U-Haul — dossier 6804A5559
+message-id : <CAGN0Cqhq6ou4OnH-wsph+tgYnHHqjnfJMx_ZBL1dG=qUC=xp=A@mail.gmail.com>
+Mode : text/plain natif
+Pièces annoncées : FACTURE_UHAUL_83092529_710.66.pdf
+Source MIME : MIME/1a119258bad3da1d.json
+
+Bonjour Abdel,
+
+Voici la copie PDF de la facture U-Haul pour le dossier Les Délices d’Aden.
+
+Contrat : 83092529
+Montant total : 710,66 $
+
+Mathieu / GROUPE TAKATAK

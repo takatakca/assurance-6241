@@ -1,0 +1,40 @@
+[
+  {
+    "extraction": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/19e847da779dcd5a-courriel-extrait.txt",
+    "sha256": "1c619ae27d049536d3d9e9d259ec1d4bb1949097eaf455813c80579f488f11f3",
+    "source_json": "6241 Léger/03_Courriels/takatak.ca@gmail.com/fils_bruts_lot1.json",
+    "source_sha256": "86f2dffa9ae637eddc6ec29d4b6bb04f4e28f2b59db575f9b6291d9c9d14fe71",
+    "id": "19e847da779dcd5a",
+    "entetes_transfert": {
+      "From": "\"Oeuf Déjeuner\" <ooeuf.ca@gmail.com>",
+      "Date": "Mon, 1 Jun 2026 14:41:10 -0400",
+      "Subject": "Fwd: 24110-4833;TR: Your file: 2024002464 / Insured: 8697230 Canada Inc. & Quadro Holdings Ltée / Our File: 24110-4833 / Report no. 7",
+      "To": "dada daad <takatak.ca@gmail.com>"
+    },
+    "pieces_jointes_nommees": [
+      "~WRD0117.jpg",
+      "image001.jpg",
+      "~WRD0117.jpg",
+      "image001.jpg",
+      "Copi Hadmo_3621dc63-820c-4470-95be-cdb7f345317c oeuf 22 avril 2025.xlsx"
+    ],
+    "nature": "extraction_textuelle_courriel"
+  },
+  {
+    "extraction": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Entretien_inventaire_24/19e847d203e73434-courriel-extrait.txt",
+    "sha256": "b90a815d78de9f85bd68855b78bd239de6289c0880c14c688910be756ec39e50",
+    "source_json": "6241 Léger/03_Courriels/takatak.ca@gmail.com/fils_bruts_lot3.json",
+    "source_sha256": "d6762be3574368af421f0685413e171ff58448555f62e834bbb4d2dccf7ef930",
+    "id": "19e847d203e73434",
+    "entetes_transfert": {
+      "From": "\"Oeuf Déjeuner\" <ooeuf.ca@gmail.com>",
+      "Date": "Mon, 1 Jun 2026 14:40:38 -0400",
+      "Subject": "Fwd: 24110-4833;Dossier: 24110-4833 / Dommages aux équipements dû à l'interruption des services électriques et d'eau potable",
+      "To": "dada daad <takatak.ca@gmail.com>"
+    },
+    "pieces_jointes_nommees": [
+      "Hadmo_3621dc63-820c-4470-95be-cdb7f345317c 15 Janv 2025...xlsx"
+    ],
+    "nature": "extraction_textuelle_courriel"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "requete_exacte": "in:anywhere \"simard.danielbio@gmail.com\"",
+  "queries": [
+    {
+      "index": 1,
+      "next_page_token": null,
+      "ids": [
+        "19e84837989f40a5",
+        "19e847ca0d6579ce",
+        "19e6a1c6483f8f5a",
+        "19cd99d7006fac31",
+        "19cd99b43bbdf8e7",
+        "19cd99b27136b473",
+        "19cd99af93d29791",
+        "19cd99acc0b82917",
+        "19cd99ac7901168e",
+        "19cd99a25223ac6f",
+        "19cd9982ac53b52e",
+        "19cd997bf493b37f",
+        "19cd997a118c4807",
+        "19cd9972408a1f3c",
+        "19cd996a3e5a576c",
+        "19a5a445ceb9f226",
+        "199f0125325ee98b",
+        "199d138b198fa29b",
+        "1978961b3ba85bb2",
+        "197896004b3e9484",
+        "18a661c6a461725f",
+        "187dddbb442015b8",
+        "187dddb7d5f33931"
+      ],
+      "requete": "in:anywhere \"simard.danielbio@gmail.com\"",
+      "pages_conservees": 1
+    },
+    {
+      "index": 2,
+      "next_page_token": null,
+      "ids": [],
+      "requete": "in:anywhere {from:simard.danielbio@gmail.com to:simard.danielbio@gmail.com cc:simard.danielbio@gmail.com}",
+      "pages_conservees": 1
+    },
+    {
+      "index": 3,
+      "next_page_token": null,
+      "ids": [
+        "19e84837989f40a5",
+        "19e847ca0d6579ce",
+        "19e6a1f6ebc6d9dd",
+        "19e6a1c6483f8f5a",
+        "19cd99d7006fac31",
+        "19cd99b43bbdf8e7",
+        "19cd99b27136b473",
+        "19cd99af93d29791",
+        "19cd99acc0b82917",
+        "19cd99ac7901168e",
+        "19cd99a25223ac6f",
+        "19cd9982ac53b52e",
+        "19cd997bf493b37f",
+        "19cd997a118c4807",
+        "19cd9972408a1f3c",
+        "19cd996a3e5a576c",
+        "19c3887029c39b3e",
+        "19a5a445ceb9f226",
+        "199f0125325ee98b",
+        "199d138b198fa29b",
+        "1978961b3ba85bb2",
+        "197896004b3e9484",
+        "192884487ebaf4f9",
+        "18a661c6a461725f",
+        "187dddbb442015b8",
+        "187dddb7d5f33931"
+      ],
+      "requete": "in:anywhere \"Daniel Simard\"",
+      "pages_conservees": 1
+    },
+    {
+      "index": 4,
+      "next_page_token": null,
+      "ids": [
+        "19e84837989f40a5",
+        "19e847ca0d6579ce",
+        "19e6a1f6ebc6d9dd",
+        "19e6a1c6483f8f5a",
+        "19cd99a25223ac6f",
+        "19cd9982ac53b52e",
+        "19cd9972408a1f3c",
+        "19c3887029c39b3e",
+        "19a5a445ceb9f226",
+        "199f0125325ee98b",
+        "199d138b198fa29b",
+        "1978961b3ba85bb2",
+        "197896004b3e9484"
+      ],
+      "requete": "in:anywhere {simard.danielbio \"Daniel Simard\"} {suivi frigospec tzanet gaz frigoriste réparation réparations}",
+      "pages_conservees": 1
+    }
+  ],
+  "messages_lus": 26,
+  "lectures_retenues": 23,
+  "exclus_hors_dossier_ids": [
+    "187dddb7d5f33931",
+    "187dddbb442015b8",
+    "192884487ebaf4f9"
+  ],
+  "eml_natifs_acquis": 2,
+  "limite": "Les recherches from/to/cc ne trouvent aucun en-tête direct Daniel dans Takatak; les résultats pertinents sont des transferts ou citations. Aucun nouvel appel Gmail après reprise locale.",
+  "ooeuf": {
+    "requete": "in:anywhere \"simard.danielbio@gmail.com\"",
+    "resultats_UI_captures": 23,
+    "copies_lecture": 23,
+    "format": "DOM 01–06; texte visible de la page 07–23",
+    "limites": "Tout développer tenté; citations abrégées, corps tronqués ou encore repliés possibles. Aucun EML natif Ooeuf acquis dans ce sous-lot."
+  },
+  "pieces_jointes_pdf_acquises": 2,
+  "comptage": "23 captures de fils Ooeuf + 23 messages porteurs Takatak retenus ne représentent pas 46 échanges uniques : nombreux transferts, citations et recoupements."
+}

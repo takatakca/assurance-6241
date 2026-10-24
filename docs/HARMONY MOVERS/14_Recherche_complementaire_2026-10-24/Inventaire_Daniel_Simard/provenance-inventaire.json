@@ -1,0 +1,32 @@
+[
+  {
+    "message_id": "198472d44b632476",
+    "filename": "INVENTAIRE RESTO.xlsx",
+    "path": "Originaux/INVENTAIRE RESTO.xlsx",
+    "bytes": 12064,
+    "sha256": "582989d09e0d123eb3b516dc2af413de3b2061fc0c6d1ee1c6365f8db9b92d6c",
+    "eml": "EML/198472d44b632476.eml",
+    "eml_sha256": "124cea23b2675a7b9baaa87108d55bbac79c069cf5c1218325fc609067b22fd0",
+    "date_acquisition": "2026-10-24"
+  },
+  {
+    "message_id": "1985d301ac386f6d",
+    "filename": "INVENTAIRE RESTO.xlsx",
+    "path": "Originaux/INVENTAIRE RESTO.xlsx",
+    "bytes": 12064,
+    "sha256": "582989d09e0d123eb3b516dc2af413de3b2061fc0c6d1ee1c6365f8db9b92d6c",
+    "eml": "EML/1985d301ac386f6d.eml",
+    "eml_sha256": "a1ca34656db2be7784456dda486df37bfd70f0912e00a06d7d5ca5b67acc20c6",
+    "date_acquisition": "2026-10-24"
+  },
+  {
+    "message_id": "199d13747d9b62df",
+    "filename": "INVENTAIRE RESTO.xlsx",
+    "path": "Originaux/INVENTAIRE RESTO.xlsx",
+    "bytes": 12064,
+    "sha256": "582989d09e0d123eb3b516dc2af413de3b2061fc0c6d1ee1c6365f8db9b92d6c",
+    "eml": "EML/199d13747d9b62df.eml",
+    "eml_sha256": "880afac4d90f450b6ebe7347294c8806bae029c188c0cefe4056e50b7f4b8206",
+    "date_acquisition": "2026-10-24"
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "id": 3,
+    "statut_recommande": "partiel",
+    "apport_nouveau": "Les échanges Daniel/Joey du 25 juillet 2024 montrent une demande de justificatifs sur l’acquisition des équipements; la proposition Econolease du 2 juillet constitue une piste, sans acte accepté retrouvé dans ce lot.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+        "repere": "Bilan, couverture et vérifications ouvertes du 24 octobre 2026",
+        "apport": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+        "repere": "Messages de 2022 à 2026; dates des citations distinguées des transferts",
+        "apport": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/197896004b3e9484.txt",
+        "repere": "Joey, 25 juillet 2024, 11 h 48; transfert Daniel du 23 septembre",
+        "apport": "Question sur les équipements inclus dans l’acquisition du commerce; pas preuve de propriété.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/08-fil-texte.txt",
+        "repere": "2 juillet 2024, 13 h 55–56",
+        "apport": "Offre de financement et transmission à Daniel; pas contrat signé.",
+        "nature": "extraction"
+      }
+    ],
+    "manquants_maintenus": [
+      "Actes d’acquisition, factures d’achat ou contrats de crédit-bail acceptés, par équipement.",
+      "Correspondance vendeur/acquéreur/date/marque/modèle/numéro de série avec les biens de la saisie et chaîne de transferts entre entités."
+    ],
+    "raison": "Les nouvelles correspondances apportent une piste et des demandes antérieures; aucune chaîne complète de propriété n’est établie.",
+    "controles": [
+      "Provenance, déclarations et analyses distinguées; aucun montant cumulé entre versions.",
+      "23 captures Ooeuf ne sont pas 23 EML exhaustifs; citations masquées et pièces non acquises explicitement signalées.",
+      "Aucune réponse suggérée Gmail attribuée au client; accès Sysco masqués dans la lecture."
+    ],
+    "recherche_effectuee": [
+      "Collecte Takatak : 26 messages MIME lus, 23 retenus, deux EML natifs et deux PDF extraits.",
+      "Collecte Ooeuf : 23 résultats de recherche exactemail capturés par interface; limites consignées dans couverture.json.",
+      "Finalisation locale du 24 octobre 2026; aucun nouvel appel Gmail."
+    ]
+  },
+  {
+    "id": 5,
+    "statut_recommande": "partiel",
+    "apport_nouveau": "Suivis de réparation reconstitués : visite frigoriste annoncée le 3 octobre 2024, réception du 7 octobre, demandes de factures du 11 et 29 octobre, déclaration client du 4 novembre sur le four double et le comptoir R22. Le fil du 10 juin 2025 conserve les présentations opposées du client et de Joey sur les travaux CEC. État Gicleurs récupéré et contrôlé; il ne détaille pas les travaux.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+        "repere": "Bilan, couverture et vérifications ouvertes du 24 octobre 2026",
+        "apport": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+        "repere": "Messages de 2022 à 2026; dates des citations distinguées des transferts",
+        "apport": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/07-fil-texte.txt",
+        "repere": "Messages principaux datés des 3, 7, 11, 29 octobre et 4 novembre 2024",
+        "apport": "Transmissions et suivis; distinction explicite entre soumissions, factures demandées et déclarations du client.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19e6a1f6ebc6d9dd.txt",
+        "repere": "Citations des messages du 10 juin 2025",
+        "apport": "Divergence entre les déclarations du client et de Joey sur l’autorisation/exécution des travaux; pas constat autonome.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19cd9982ac53b52e.txt",
+        "repere": "Riad, 1er mai 2024; Gicleurs FF, 25 avril 2024",
+        "apport": "Demande de rapport de conformité et suivi du compte impayé.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Pieces_jointes/19cd9982ac53b52e/EC2024-04-22.pdf",
+        "repere": "p.1; lecture visuelle contrôlée",
+        "apport": "État de compte HADAMO au 6241 Léger, facture 7478, solde 2 020,11 $; absence de détail des travaux, pas preuve de paiement.",
+        "nature": "original"
+      }
+    ],
+    "manquants_maintenus": [
+      "Original EC0000006371.pdf annoncé dans le message du 3 octobre 2024, rapport complet Frigo-Spec et diagnostic de cause.",
+      "Bons de travail et factures définitives détaillant les opérations effectivement réalisées, preuves de paiement et de réception, pièces remplacées et dates par appareil.",
+      "Rapprochement de l’état des appareils avant/après travaux puis avant le déménagement; clarification du comptoir déclaré retiré en novembre 2024.",
+      "Rapport de conformité Gicleurs et facture détaillée 7478 si invoqués; correspondance avec les équipements litigieux à établir."
+    ],
+    "raison": "Les courriels prouvent des échanges et des déclarations; ni leur réception ni l’état de compte ne certifient l’exécution complète des travaux.",
+    "controles": [
+      "Provenance, déclarations et analyses distinguées; aucun montant cumulé entre versions.",
+      "23 captures Ooeuf ne sont pas 23 EML exhaustifs; citations masquées et pièces non acquises explicitement signalées.",
+      "Aucune réponse suggérée Gmail attribuée au client; accès Sysco masqués dans la lecture."
+    ],
+    "recherche_effectuee": [
+      "Collecte Takatak : 26 messages MIME lus, 23 retenus, deux EML natifs et deux PDF extraits.",
+      "Collecte Ooeuf : 23 résultats de recherche exactemail capturés par interface; limites consignées dans couverture.json.",
+      "Finalisation locale du 24 octobre 2026; aucun nouvel appel Gmail."
+    ]
+  },
+  {
+    "id": 22,
+    "statut_recommande": "partiel",
+    "apport_nouveau": "Le lot Daniel reconstitue des transmissions et réponses du dossier antérieur Léger/Hadmo 24110-4833, dont les demandes de cause, les confirmations de réception et les suivis de denrées. Aucun bordereau exhaustif SNB transport ou règlement final nouveau n’est établi par cette collecte.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/BILAN-DANIEL-SIMARD.md",
+        "repere": "Bilan, couverture et vérifications ouvertes du 24 octobre 2026",
+        "apport": "23 fils Ooeuf, 23 lectures Takatak et deux PDF récupérés; limites et attribution explicites.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/CHRONOLOGIE.md",
+        "repere": "Messages de 2022 à 2026; dates des citations distinguées des transferts",
+        "apport": "Suivis documentaires et déclarations classés par date, sans cumul des duplicatas.",
+        "nature": "analyse"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Takatak/Lectures/19e847ca0d6579ce.txt",
+        "repere": "Citations Daniel/Joey des 6–7 août, 27 août et 18 septembre 2024; transfert du 1er juin 2026",
+        "apport": "Réclamation marchandises et relances du rapport de cause.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/07-fil-texte.txt",
+        "repere": "Fil 24110-4833; messages d’octobre–novembre 2024",
+        "apport": "Réception, demandes de factures, formulaire et échanges sur le dossier antérieur; distinct du dossier transport.",
+        "nature": "extraction"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Daniel_Simard/Ooeuf/Lectures/15-fil-texte.txt",
+        "repere": "Ayisha, 2 juillet 2024; HSB2024002464",
+        "apport": "Demande du rapport frigoriste, soumission et pièces de marchandises; corps ultérieurs partiellement visibles.",
+        "nature": "extraction"
+      }
+    ],
+    "manquants_maintenus": [
+      "Bordereau complet des envois SNB, courriels natifs et pièces effectivement reçues, accusés et réponse actuelle de l’assureur transport.",
+      "Originaux des pièces annoncées et compléments encore masqués/tronqués dans les captures UI.",
+      "Rapprochement par bien, poste et période des sinistres antérieur et transport, et preuves bancaires des indemnités réellement encaissées."
+    ],
+    "raison": "L’apport concerne surtout l’historique du sinistre antérieur, qui ne suffit pas à compléter le dossier transmis à l’assureur transport.",
+    "controles": [
+      "Provenance, déclarations et analyses distinguées; aucun montant cumulé entre versions.",
+      "23 captures Ooeuf ne sont pas 23 EML exhaustifs; citations masquées et pièces non acquises explicitement signalées.",
+      "Aucune réponse suggérée Gmail attribuée au client; accès Sysco masqués dans la lecture."
+    ],
+    "recherche_effectuee": [
+      "Collecte Takatak : 26 messages MIME lus, 23 retenus, deux EML natifs et deux PDF extraits.",
+      "Collecte Ooeuf : 23 résultats de recherche exactemail capturés par interface; limites consignées dans couverture.json.",
+      "Finalisation locale du 24 octobre 2026; aucun nouvel appel Gmail."
+    ]
+  }
+]

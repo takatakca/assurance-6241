@@ -1,0 +1,72 @@
+{
+  "date_collecte": "2026-10-24",
+  "compte": "takatak.ca@gmail.com",
+  "representation": "full",
+  "message": {
+    "id": "1a10d11afbf7805b",
+    "thread_id": "1a10d11afbf7805b",
+    "label_ids": [
+      "SENT"
+    ],
+    "snippet": "Bonjour Me Dufourd, Dans l&#39;archive, ouvrir « Comptabilité » et « Contrôles et repères ». Le grand livre final.xls et ses extractions sont conservés pour permettre votre vérification avec le",
+    "history_id": "4373885",
+    "internal_date": "1791220625000",
+    "payload": {
+      "part_id": "",
+      "mime_type": "text/html",
+      "filename": "",
+      "headers": [
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 17:17:05 +0000"
+        },
+        {
+          "name": "Received",
+          "value": "from 77377267392 named unknown by gmailapi.google.com with HTTPREST; Mon, 5 Oct 2026 17:17:05 +0000"
+        },
+        {
+          "name": "MIME-Version",
+          "value": "1.0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=\"UTF-8\""
+        },
+        {
+          "name": "Content-Transfer-Encoding",
+          "value": "base64"
+        },
+        {
+          "name": "Subject",
+          "value": "QUADRO / Harmony — 7/7 — Comptabilité, revenus et vérifications à finaliser"
+        },
+        {
+          "name": "To",
+          "value": "cdufourd@dufourdion.com"
+        },
+        {
+          "name": "From",
+          "value": "takatak.ca@gmail.com"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 5 Oct 2026 17:17:05 +0000"
+        },
+        {
+          "name": "Message-Id",
+          "value": "<CAGN0CqjU_hidbkc4fEgpAguiaom=tpirvmuv+DU_OR3mNx0ZZg@mail.gmail.com>"
+        }
+      ],
+      "body": {
+        "size": 1946,
+        "base64_url_content": null,
+        "content": "<p>Bonjour Me Dufourd,</p><p>Dans l’archive, ouvrir « Comptabilité » et « Contrôles et repères ». Le grand livre final.xls et ses extractions sont conservés pour permettre votre vérification avec le comptable.</p><p>Les ventes au compte 4200 retrouvées pour juillet 2024 à avril 2025 totalisent <b>77 995,44 $</b>. L’absence de lignes pour mai/juin ne permet pas de conclure à des revenus nuls. Les écritures de réparations au compte 5765 totalisent <b>57 842,60 $</b> sur 64 écritures; elles ne prouvent pas toutes des paiements ou des travaux exécutés.</p><p>Les exports Uber et DoorDash portent sur des périodes différentes et peuvent recouper les ventes du grand livre. Leur addition au revenu comptable créerait un risque de double compte. Les primes d’assurance ne sont pas des indemnités et le chiffre d’affaires ne constitue pas le bénéfice perdu.</p><p>Pour finaliser le dossier après l’interrogatoire : vérifier avec la transcription officielle les engagements, notamment la liste U-Haul (« E10 » dans la transcription automatique), les photos antérieures et le contrat de garde; obtenir les originaux du huissier; demander les rapports des techniciens et les justificatifs bancaires; faire concorder les versions du quantum et les séries des appareils.</p><p>Je reste disponible pour fournir les pièces complémentaires et faire corriger les tableaux selon vos instructions. Merci de me préciser les priorités et les documents qui manquent à votre cabinet.</p><p><b>Pièces :</b> <a href=\"https://drive.google.com/file/d/1dvT8Og80pm380tumdW18eIK2WV_zIzEP/view\">Télécharger l’archive ALBUMS-AVOCAT.zip</a>. Accès accordé à votre adresse en lecture seule. Extraire l’archive et ouvrir INDEX-ALBUMS.html pour accéder aux pièces par volet.</p><p>Ces explications sont une préparation administrative pour votre examen; les originaux et votre analyse juridique priment.</p><p>Merci.</p>",
+        "attachment_id": null
+      },
+      "read_attachment_supported": null,
+      "parts": null
+    },
+    "size_estimate": 3281,
+    "classification_label_values": null
+  }
+}

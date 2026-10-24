@@ -1,0 +1,269 @@
+[
+  {
+    "id": 2,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "Captures d’échanges entrants et sortants avec le contact « Transport Resto 6141 », se présentant comme Allen et répondant à Mathieu. Dates explicites du 6 au 13 juin 2025; demande de photos, devis, livraison, équipement restant et mandat.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+        "repere": "6 juin 2025, 17:54",
+        "apport": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155480.jpg",
+        "repere": "7 juin 2025, 15:51 et 16:57; 8 juin 2025, 16:18",
+        "apport": "Même adresse et courriel qu’en 5478. Entrant à 16:57 : « i resend it let me know if you have any question ». Entrant le 8 juin : « Hey! I just wanted to follow up to make sure you received the quote I sent yesterday. Let me know if you have any questions or if there’s anything I can help with! »",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155482.jpg",
+        "repere": "12 juin 2025, 11:07; 13 juin 2025, 13:46",
+        "apport": "Entrant le 12 juin : « Hey call me when you have a moment ». Sortant le 13 juin : « Confirming that we have tried to reach you this morning and still waiting on a call back. » Puis : « Pierre has sent you and email and waiting your reply, he had people scheduled at location 5507 rue Irwin waiting on his delivery! Also there people waiting at 6241 blvd Léger Montréal nord H1g6k8 to empty the reste of the Pizzeria equipment provided in the initial quote. » Puis : « Also pierre was willing to make payment to what was agreed upon signing the agreement 🤝 ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+        "repere": "Horodatage du message non visible dans cette capture",
+        "apport": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+        "repere": "Horodatage propre du message sortant non visible; séparateur ultérieur « Sunday, Jun 21 • 02:25 », sans année",
+        "apport": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      }
+    ],
+    "manquants_maintenus": [
+      "Numéro du contact et identité de l’utilisateur du téléphone à documenter.",
+      "Export complet et éventuels échanges détenus par les autres intervenants."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Les captures améliorent substantiellement les éléments remis; elles ne constituent pas une attestation technique de l’intégralité du fil et des échanges de tous les intervenants."
+  },
+  {
+    "id": 8,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "Treize captures supplémentaires des SMS/MMS fournis par le client, comprenant des messages entrants et sortants. Le client déclare que tout est déjà dans les dossiers; déclaration consignée séparément du contrôle des pièces effectivement reçues.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+        "repere": "6 juin 2025, 17:54",
+        "apport": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155464.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Vue galerie contenant plusieurs vignettes de photos d’équipements : comptoirs, appareils de cuisine, évier et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155466.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Deuxième vue galerie : comptoir, mélangeur, chambre/appareil froid, réfrigérateur et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155468.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Troisième vue galerie : friteuse, deux appareils verticaux de cuisson et grande enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155470.jpg",
+        "repere": "13 juin 2025, 14:36 (affichage « You »)",
+        "apport": "Capture d’un courriel adressé à M. Lévesque. Liste visible : 2 fours à pizza; 1 four rotatif; 1 machine à pâte; 4 réfrigérateurs; friteuses; 2 machines à shawarma (partiellement couvert par trait bleu); équipement complet de pizzeria (étagères, accessoires, etc.).",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155472.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Dans le fil « Transport Resto 6141 », agrandissement d’une photo de cuisine et début d’une autre photo d’enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155474.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Agrandissement d’une enceinte blanche et vue partielle d’un réfrigérateur métallique.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155476.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Vue partielle du réfrigérateur métallique, puis photo de deux appareils verticaux de cuisson sur table.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155478.jpg",
+        "repere": "7 juin 2025, 15:51 et début du message de 16:57",
+        "apport": "Sortant : « ooeuf.ca@gmail.com »; « Quadro holding ltee 6241 blvd Léger Montréal nord H1g6k8 ». Début de la réponse entrante : « i resend it let me know if you have any… »",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155480.jpg",
+        "repere": "7 juin 2025, 15:51 et 16:57; 8 juin 2025, 16:18",
+        "apport": "Même adresse et courriel qu’en 5478. Entrant à 16:57 : « i resend it let me know if you have any question ». Entrant le 8 juin : « Hey! I just wanted to follow up to make sure you received the quote I sent yesterday. Let me know if you have any questions or if there’s anything I can help with! »",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155482.jpg",
+        "repere": "12 juin 2025, 11:07; 13 juin 2025, 13:46",
+        "apport": "Entrant le 12 juin : « Hey call me when you have a moment ». Sortant le 13 juin : « Confirming that we have tried to reach you this morning and still waiting on a call back. » Puis : « Pierre has sent you and email and waiting your reply, he had people scheduled at location 5507 rue Irwin waiting on his delivery! Also there people waiting at 6241 blvd Léger Montréal nord H1g6k8 to empty the reste of the Pizzeria equipment provided in the initial quote. » Puis : « Also pierre was willing to make payment to what was agreed upon signing the agreement 🤝 ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+        "repere": "Horodatage du message non visible dans cette capture",
+        "apport": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+        "repere": "Horodatage propre du message sortant non visible; séparateur ultérieur « Sunday, Jun 21 • 02:25 », sans année",
+        "apport": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      }
+    ],
+    "manquants_maintenus": [
+      "Exhaustivité indépendante non établie : dates complètes, messages entre captures et autres téléphones/comptes.",
+      "Confirmation écrite des détenteurs sur les échanges en leur possession et ceux non détenus."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Les captures améliorent substantiellement les éléments remis; elles ne constituent pas une attestation technique de l’intégralité du fil et des échanges de tous les intervenants."
+  },
+  {
+    "id": 15,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "Captures de photos communiquées au contact : demande d’Allen le 6 juin 2025 à 17:54 et vues galerie affichant « You », 6 juin 2025 à 17:59. Apport nouveau aux photos avant déménagement.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155462.jpg",
+        "repere": "6 juin 2025, 17:54",
+        "apport": "Message entrant : « Hey, this is Allen — we spoke earlier about the kitchen equipment move. Just wanted to make sure you have the correct phone number and that I’m still waiting on the pictures when you get a chance. » Une photo de cuisine figure sous ce message.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155464.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Vue galerie contenant plusieurs vignettes de photos d’équipements : comptoirs, appareils de cuisine, évier et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155466.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Deuxième vue galerie : comptoir, mélangeur, chambre/appareil froid, réfrigérateur et zone de cuisson.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155468.jpg",
+        "repere": "6 juin 2025, 17:59 (affichage « You »)",
+        "apport": "Troisième vue galerie : friteuse, deux appareils verticaux de cuisson et grande enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155472.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Dans le fil « Transport Resto 6141 », agrandissement d’une photo de cuisine et début d’une autre photo d’enceinte blanche.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155474.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Agrandissement d’une enceinte blanche et vue partielle d’un réfrigérateur métallique.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155476.jpg",
+        "repere": "Date du message non visible dans cette capture",
+        "apport": "Vue partielle du réfrigérateur métallique, puis photo de deux appareils verticaux de cuisson sur table.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      }
+    ],
+    "manquants_maintenus": [
+      "Photos natives en pleine résolution et métadonnées d’envoi, si disponibles.",
+      "Rapprochement avec modèles/séries et liste de tous les équipements prévus."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Les captures améliorent substantiellement les éléments remis; elles ne constituent pas une attestation technique de l’intégralité du fil et des échanges de tous les intervenants."
+  },
+  {
+    "id": 25,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "La capture 5485 ajoute la réponse reçue concernant l’autorisation de Mathieu; la capture 5486 montre la réplique contestant l’ajout d’équipements et signalant des équipements laissés derrière. Ces positions sont conservées ensemble.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155485.jpg",
+        "repere": "Horodatage du message non visible dans cette capture",
+        "apport": "Entrant : « Hello Mathieu it appears that there’s been some misunderstandings. Unfortunately Pierre has informed us via e-mail that he had not granted written authorization for you to act on the behalf of Quadro’s Holding. We will get back to Pierre in writing shortly. It’s a little bit confusing that you have been the party we have been in contact with for this whole operation but we are now told by Pierre that no permission had been granted for you to act on their behalf. » Suit le début de la capture du courriel en 5470.",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/Originaux/1000155486.jpg",
+        "repere": "Horodatage propre du message sortant non visible; séparateur ultérieur « Sunday, Jun 21 • 02:25 », sans année",
+        "apport": "Capture du même courriel/listing qu’en 5470 puis sortant : « Alright he will wait for your reply and we didn’t add any equipment brother. Please fix this up for everyone to be happy but you left equipment behind also ».",
+        "nature": "capture ecran fournie par client, piece jointe originale"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/rapport.md",
+        "repere": "Contexte, attribution, lecture image par image et limites",
+        "apport": "Transcription visuelle vérifiée sur les captures; déclaration du client séparée; ne remplace pas les pièces.",
+        "nature": "analyse et transcription de travail"
+      }
+    ],
+    "manquants_maintenus": [
+      "Export complet du fil avec dates propres des dernières réponses et pièces natives.",
+      "Rapprochement avec le courriel de Pierre mentionné par la réponse et les échanges suivants."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Les captures améliorent substantiellement les éléments remis; elles ne constituent pas une attestation technique de l’intégralité du fil et des échanges de tous les intervenants."
+  },
+  {
+    "id": 12,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "Nouveau transfert du 24 octobre reproduisant une déclaration de relocalisation effective le 1er juillet 2025 au 5837 Rue Jean-Talon Est, après concertation déclarée avec le propriétaire. Aucun titre d’occupation joint.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/EML/1a16c2b6913d6e9a.eml",
+        "repere": "Transfert du 24 octobre 2026; message cité du 1er juillet 2025, 15:17",
+        "apport": "Déclaration de relocalisation et adresse, sans bail ou autorisation signée.",
+        "nature": "courriel original contenant declaration client"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Textos_fournis_client/relocalisation-rapport.md",
+        "repere": "Analyse du courriel",
+        "apport": "Distinction entre déclaration d’adresse et titre d’occupation demandé.",
+        "nature": "analyse"
+      }
+    ],
+    "manquants_maintenus": [
+      "Bail, sous-location, cession ou autorisation du propriétaire établissant le droit d’occupation du 5837 Jean-Talon Est, parties, date d’effet et signatures."
+    ],
+    "statut_recommande": "non_repere",
+    "raison_statut": "Le document décrit une relocalisation, mais ne constitue pas le titre demandé et n’en contient aucune copie."
+  }
+]

@@ -1,0 +1,95 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - button "Tout imprimer":
+  - tooltip: Tout imprimer
+  - button "Dans une nouvelle fenêtre":
+  - tooltip: Dans une nouvelle fenêtre
+  - 'heading "Objet : Relocalisation des opérations – Incident du 26 juin" [level=2]'
+  - button "Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu":
+    - img "✉️"
+    - text: J'ai répondu
+  - tooltip: Recherchez tous les messages avec l'étiquette ✉️ J'ai répondu
+  - button "Retirez l'étiquette ✉️ J'ai répondu de cette conversation": ×
+  - tooltip: Retirez l'étiquette ✉️ J'ai répondu de cette conversation
+  - list:
+    - table:
+      - rowgroup:
+        - row "Oeuf Déjeuner ooeuf.ca@gmail.com mar. 1 juill. 2025 15 h 17 Non marqué d'une étoile Ajouter une réaction Répondre Plus d'options pour le message":
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - table:
+              - rowgroup:
+                - row "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                  - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                    - heading "Oeuf Déjeuner ooeuf.ca@gmail.com" [level=3]:
+                      - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+                        - generic: Oeuf Déjeuner
+                        - generic: <ooeuf.ca@gmail.com>
+                    - heading [level=3]
+          - cell "mar. 1 juill. 2025 15 h 17 Non marqué d'une étoile":
+            - gridcell "mar. 1 juill. 2025 15 h 17"
+            - checkbox "Non marqué d'une étoile"
+          - cell
+          - cell "Ajouter une réaction Répondre Plus d'options pour le message":
+            - button "Ajouter une réaction":
+            - tooltip: Ajouter une réaction
+            - button "Répondre":
+            - tooltip: Répondre
+            - generic "Plus d'options pour le message":
+              - button "Plus d'options pour le message":
+              - tooltip: Plus
+        - row "à Maude Afficher les détails":
+          - cell "à Maude Afficher les détails":
+            - table:
+              - rowgroup:
+                - row "à Maude Afficher les détails":
+                  - cell "à Maude Afficher les détails":
+                    - generic: à Maude
+                    - button "Afficher les détails"
+    - table:
+      - rowgroup:
+        - 'row "à partir de: Oeuf Déjeuner ooeuf.ca@gmail.com"':
+          - rowheader "à partir de:"
+          - cell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+            - gridcell "Oeuf Déjeuner ooeuf.ca@gmail.com":
+              - generic: Oeuf Déjeuner
+              - generic: <ooeuf.ca@gmail.com>
+        - row "à:":
+          - rowheader "à:"
+          - cell:
+            - toolbar:
+              - list:
+                - button "Maude Robidoux <mrobidoux@racinechamberland.com>"
+        - 'row "date: 1 juill. 2025 15 h 17"':
+          - rowheader "date:"
+          - cell "1 juill. 2025 15 h 17"
+        - 'row "objet: Objet : Relocalisation des opérations – Incident du 26 juin"':
+          - rowheader "objet:"
+          - 'cell "Objet : Relocalisation des opérations – Incident du 26 juin"'
+        - 'row "envoyé par: gmail.com"':
+          - rowheader "envoyé par:"
+          - cell "gmail.com"
+        - row:
+          - cell
+    - generic: Bonjour,
+    - generic: Suite à l’incident survenu le 26 juin dernier ainsi qu’aux congés prolongés de plusieurs de nos fournisseurs, nous n’avons malheureusement pas été en mesure de relancer nos opérations dans les délais souhaités. En effet, la majorité de nos partenaires étaient fermés ou dans l’incapacité de traiter des commandes avant le 2 juillet.
+    - text: Face à cette situation, nous avons dû prendre une décision difficile, en concertation avec notre
+    - generic: propriétaire
+    - text: ". Nous avons convenu de relocaliser nos opérations à l’adresse suivante :"
+    - generic: "5837"
+    - text: Rue Jean-Talon Est, Montréal, QC H1S 1Y6
+    - generic: Nous procéderons au transfert de nos biens et marchandises à cette nouvelle adresse afin d’assurer la continuité de nos activités dans les plus brefs délais.
+    - generic: Cette relocalisation est effective à compter du 1er juillet 2025.
+    - generic: Nous vous remercions de mettre à jour nos informations au dossier et restons disponibles pour toute question ou documentation complémentaire.
+    - generic: Cordialement,
+    - generic: Pierre Lévesque
+    - generic: Quadro Holding Ltée
+    - link "ooeuf.ca@gmail.com":
+      - /url: mailto:ooeuf.ca@gmail.com
+    - link "514 4584587":
+      - /url: tel:(514)%20458-4587
+  - link "Répondre"
+  - link "Transférer"
+  - button "Ajouter une réaction":
+  - tooltip: Ajouter une réaction

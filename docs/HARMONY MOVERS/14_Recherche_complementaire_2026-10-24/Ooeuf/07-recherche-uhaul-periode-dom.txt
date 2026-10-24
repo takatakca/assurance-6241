@@ -1,0 +1,21 @@
+EXTRACTION DE L’INTERFACE GMAIL — compte ooeuf.ca@gmail.com — collecte du 24 octobre 2026.
+Copie de lecture : liens techniques/navigation retirés; capture de travail conservée localement. Ce fichier n’est pas un EML natif.
+
+- main:
+  - toolbar "affiner la recherche"
+  - button "Sélectionner":
+    - checkbox
+  - button "Actualiser"
+  - button "Plus d'options de courriel"
+  - button "Affichage des résultats les plus récents":
+    - generic: Affichage des résultats les plus récents
+  - heading "Conversations" [level=2]
+  - grid:
+    - rowgroup
+  - table:
+    - rowgroup:
+      - row "Aucun message ne correspond à vos critères. Essayez d'utiliser les options de recherche telles que l'expéditeur, la date, la taille, etc.":
+        - cell "Aucun message ne correspond à vos critères. Essayez d'utiliser les options de recherche telles que l'expéditeur, la date, la taille, etc.":
+          - text: Aucun message ne correspond à vos critères. Essayez d'utiliser les
+          - link "options de recherche"
+          - text: telles que l'expéditeur, la date, la taille, etc.

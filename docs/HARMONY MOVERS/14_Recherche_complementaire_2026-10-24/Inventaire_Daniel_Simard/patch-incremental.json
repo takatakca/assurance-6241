@@ -1,0 +1,66 @@
+[
+  {
+    "id": 3,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "Inventaire de mai 2023 retrouvé, avec modèles et séries, confirmé par le client comme le fichier d’équipements lors de l’achat. Aucun prix, vendeur/acquéreur ou signature dans le classeur.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/Originaux/INVENTAIRE RESTO.xlsx",
+        "repere": "Feuil1!A1:D47; Feuil2 et Feuil3 vides",
+        "apport": "39 lignes, 35 modèles et 32 séries renseignés. Colonne VALEUR vide.",
+        "nature": "original numerique joint au courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/EML/198472d44b632476.eml",
+        "repere": "Transfert du 26 juillet 2025 et chaîne citant le 29 mai 2023",
+        "apport": "Provenance de transmission du classeur; la chaîne antérieure citée ne remplace pas son EML autonome.",
+        "nature": "original courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/rapport.md",
+        "repere": "Déclaration du client, distincte de la pièce",
+        "apport": "Confirmation du client le 24 octobre 2026 que ce fichier est l’inventaire recherché des équipements lors de l’achat.",
+        "nature": "declaration client consignee"
+      }
+    ],
+    "manquants_maintenus": [
+      "Acte ou facture d’achat/cession et preuve de paiement.",
+      "Lien entre vendeur, acquéreur, biens du classeur et équipements réclamés; auteur et contexte du classeur à confirmer."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Nouvelle pièce source conservée et attribution du client consignée; l’ensemble des exigences de la demande ne peut pas être tenu pour vérifié à partir de cet inventaire seul."
+  },
+  {
+    "id": 15,
+    "date_recherche": "2026-10-24",
+    "compte": "takatak.ca@gmail.com",
+    "apport_nouveau": "Liste antérieure de 39 lignes d’équipements avec modèles et séries. Elle complète les photos et listes de transport, sans établir à elle seule quels biens ont été présentés au transporteur ou chargés.",
+    "pieces": [
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/Originaux/INVENTAIRE RESTO.xlsx",
+        "repere": "Feuil1!A1:D47; Feuil2 et Feuil3 vides",
+        "apport": "39 lignes, 35 modèles et 32 séries renseignés. Colonne VALEUR vide.",
+        "nature": "original numerique joint au courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/EML/198472d44b632476.eml",
+        "repere": "Transfert du 26 juillet 2025 et chaîne citant le 29 mai 2023",
+        "apport": "Provenance de transmission du classeur; la chaîne antérieure citée ne remplace pas son EML autonome.",
+        "nature": "original courriel"
+      },
+      {
+        "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Inventaire_Daniel_Simard/rapport.md",
+        "repere": "Déclaration du client, distincte de la pièce",
+        "apport": "Confirmation du client le 24 octobre 2026 que ce fichier est l’inventaire recherché des équipements lors de l’achat.",
+        "nature": "declaration client consignee"
+      }
+    ],
+    "manquants_maintenus": [
+      "Rapprochement avec les photographies et listes réellement transmises avant le déménagement.",
+      "Confirmation des ajouts, retraits et mouvements intervenus entre mai 2023 et juin 2025."
+    ],
+    "statut_recommande": "partiel",
+    "raison_statut": "Nouvelle pièce source conservée et attribution du client consignée; l’ensemble des exigences de la demande ne peut pas être tenu pour vérifié à partir de cet inventaire seul."
+  }
+]

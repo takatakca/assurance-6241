@@ -1,0 +1,36 @@
+{
+  "source": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Quadro_Holding_Lettre_UberEats_FR_Clean.pdf",
+  "sha256": "c89a34728bcb7a8f22eec19afb76f353687962a9396a3420c734f9669b6643b8",
+  "date_controle": "2026-10-24",
+  "pages": 3,
+  "pages_vues": [
+    1,
+    2,
+    3
+  ],
+  "methode": "Texte natif pypdf + rendu Poppler 120dpi, trois PNG ouverts et lus",
+  "ocr": false,
+  "nature": "Lettre déclarative au nom de Quadro Holding Ltée, nom dactylographié Pierre Levesque, Propriétaire; aucune contresignature Uber Eats ni bail",
+  "date_imprimee": "24 avril 2024",
+  "date_courriel_porteur": "16 juillet 2025, 11:59, selon capture Gmail Ooeuf",
+  "adresse_imprimee": "5839 Rue Jean-Talon E, Saint-Léonard, QC H1S 1M4",
+  "destinataire_imprime": "Benson Noisy, Représentant du Québec - Uber Eats, bnoisy@uber.com",
+  "nombre_enseignes_listees": 16,
+  "apports": {
+    "demande12": "Déclaration utilisant le5839, pas le5837. Aucun bail, propriétaire bailleur, loyer, terme, consentement ou titre d’occupation.",
+    "demande13": "Liste de16enseignes déclarées par Quadro comme inscrites UberEats; pas de contrat Uber signé ni de relevé de transactions."
+  },
+  "controles": [
+    "Conserver24avril2024 comme date imprimée et16juillet2025 comme date du courriel; aucune correction silencieuse de millésime.",
+    "Différence5839/5837 à vérifier; ne pas assimiler les adresses.",
+    "Nom dactylographié ne certifie pas une signature manuscrite ou l’authenticité des renseignements.",
+    "Aucune confirmation d’activation par Uber dans ce PDF.",
+    "Continuation du domaine www.popoulet.ca en haut de page2, attribuable à Poulet24/7 page1, sans enseigne nouvelle.",
+    "Les16enseignes ne prouvent pas16contrats distincts, leur période d’activité ou leurs revenus."
+  ],
+  "defauts_empechant_lecture": [],
+  "limitations_visuelles": [
+    "Mise en page source conservée; les trois pages sont lisibles. Aucun PDF modifié."
+  ],
+  "texte_natif": "uber-texte-natif.json"
+}

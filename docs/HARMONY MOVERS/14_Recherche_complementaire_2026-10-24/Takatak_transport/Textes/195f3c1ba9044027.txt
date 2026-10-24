@@ -1,0 +1,12 @@
+EXTRACTION DE COURRIEL — 24 octobre 2026
+Compte : takatak.ca@gmail.com
+ID Gmail : 195f3c1ba9044027
+date : 01 Apr 2025 16:48:34 -0700
+from : dealer_statement@uhaul.com
+to : Takatak.ca@gmail.com
+subject : Closed Dealer Financial Statement
+message-id : <83ba76$101qqg@esa12.hc5529-86.iphmx.com>
+Mode : texte dérivé du HTML, balises retirées
+Pièces annoncées : ddrp117_057789.doc
+Source MIME : MIME/195f3c1ba9044027.json
+

@@ -1,18 +1,10 @@
 # Documents manquants et démarches ciblées
 
-État du 21 octobre 2026. Les personnes ou organismes mentionnés sont des détenteurs à confirmer; aucune demande ne leur a été envoyée.
-
-## Demande 1 Curriculum vitae
-
-- CV de la personne interrogée, version actuelle ou version pertinente demandée; dates de formation/emplois et identité à confirmer par son auteur.
-
-**Action ciblée**
-
-- Faire compléter ou récupérer le CV auprès de la personne interrogée, puis le faire relire avant remise. Aucun contact effectué.
+État du 24 octobre 2026. Les personnes ou organismes mentionnés sont des détenteurs à confirmer; aucune demande ne leur a été envoyée.
 
 ## Demande 2 Communications sur le déménagement
 
-- Exports intégraux SMS/Messenger avec dates, interlocuteurs et médias des trois intervenants.
+- Comparaison des treize captures reçues aux conversations sur les téléphones : numéro du contact, identité de l’utilisateur, coupures, médias natifs et éventuels échanges supplémentaires SMS/Messenger détenus par les trois intervenants.
 - Originaux des chaînes 22 juillet/15 août dans les comptes Ooeuf/Pierre, avec toutes leurs PJ; vérifier les messages intermédiaires.
 - Échanges directs Constantino–Harmony et journaux/enregistrements des appels pertinents, notamment 6–13 juin 2025.
 
@@ -24,8 +16,8 @@
 
 ## Demande 3 Propriété des équipements
 
-- Facture d'achat, acte de cession ou crédit-bail de chaque équipement concerné, avec vendeur, acquéreur, date et désignation.
-- Rapprochement des titres avec chaque item de l'annexe du PV, ses numéros de série et, s'il y a lieu, les transferts entre entités.
+- Facture d’achat, acte de cession ou crédit-bail de chaque équipement concerné, avec vendeur, acquéreur, date, désignation et justificatif de paiement.
+- Rapprochement des titres avec chaque item de l’annexe du PV et du classeur de 2023, ses modèles/séries et les transferts entre entités; auteur et contexte du classeur à confirmer.
 - Confirmation de la pertinence de la thermopompe Senville pour ce litige; preuve de livraison/installation si elle est invoquée.
 
 **Action ciblée**
@@ -48,49 +40,48 @@
 - L'exhaustivité du dossier de service reste à confirmer auprès des fournisseurs : rapports d'intervention finaux, essais et pièces effectivement remplacées correspondant aux devis.
 - Identification et numéros de série absents ou incomplets sur plusieurs documents; rattachement de chaque intervention à l'appareil litigieux à finaliser.
 - Les justificatifs bancaires de paiement et les éventuels rapports complémentaires ne sont pas démontrés par les seules mentions manuscrites ou tampons.
+- Original EC0000006371.pdf annoncé dans le message du 3 octobre 2024, rapport complet Frigo-Spec et diagnostic de cause.
+- Bons de travail et factures définitives détaillant les opérations effectivement réalisées, preuves de paiement et de réception, pièces remplacées et dates par appareil.
+- Rapprochement de l’état des appareils avant/après travaux puis avant le déménagement; clarification du comptoir déclaré retiré en novembre 2024.
+- Rapport de conformité Gicleurs et facture détaillée 7478 si invoqués; correspondance avec les équipements litigieux à établir.
 
 **Action ciblée**
 
 - Présenter le lot disponible au cabinet, puis compléter un tableau appareil/document/prestation/essai avec Frigo-Spec, SCC Auger et Choquette CKS.
-- Faire confirmer les numéros ambigus A 290/A 267, les versions de 259 et les relations entre devis et factures; demander les feuillets finaux manquants.
+- Faire confirmer les variantes de dates et de contenu A267/A290, A281/BUNN/Taylor, les versions de devis 259 et les relations devis/factures; la photo 1000069203 montre A267 devant un autre feuillet A290.
 - Contrôler visuellement les dates et références signalées comme issues de l'OCR avant toute nouvelle saisie comptable; ne pas en tirer un diagnostic fonctionnel.
 
 ## Demande 6 Contrat de location U Haul
 
-- Nom légal du locataire du camion du 12 juin 2025 et de la compagnie l’ayant engagé.
-- Contrat/réservation U-Haul, date, véhicule, agence, facture finale et personne signataire; ou confirmation documentée de non-détention après recherche.
+- Confirmation par le client ou AKA que la facture 1020 est bien la facture visée et explication du libellé « Moving Globo Shoe Company ».
+- Contrat/réservation U-Haul détenu par AKA, ou confirmation de non-détention et modalités effectivement convenues.
 
 **Action ciblée**
 
-- Faire préciser à Constantino/au donneur d’ordre l’identité de la compagnie et le numéro de réservation; demander la copie au détenteur via le cabinet.
-- Séparer la location du 12 juin et la récupération ultérieure de décembre avant toute imputation des 469 $.
+- Présenter la facture AKA et la déclaration au cabinet; faire confirmer par le donneur d’ordre le numéro, le véhicule et la date.
 
 ## Demande 7 Prestataire du véhicule U Haul
 
-- Facture de la société externe à Quadro : fournisseur, numéro, date, mandat, détail et taxes.
-- Reçu acquitté et ligne bancaire/carte/virement correspondante; identité du payeur et remboursement éventuel.
-- Identification de l’opération à laquelle se rapportent 469 $, 2 000 $ et 400 $ et absence de double comptage avec autres pièces.
+- Rapprochement confirmé de la facture 1020 avec le véhicule U-Haul de juin.
+- Preuve de paiement de cette facture : reçu, virement ou ligne bancaire, avec payeur et date.
 
 **Action ciblée**
 
-- Vérifier comptes fournisseurs et relevés du donneur d’ordre pour juin 2025, puis ceux de la récupération de décembre séparément.
-- Demander au cabinet de confirmer le prestataire avant de solliciter ses justificatifs. Aucun contact effectué.
+- Rechercher la ligne de règlement correspondant à la facture 1020 auprès du payeur ou du comptable; conserver les opérations d’août et de décembre séparées.
 
 ## Demande 8 Communications et messages textes
 
-- SMS/Messenger et médias dans leur contexte complet, pour les trois intervenants et la défenderesse.
-- Pour la portée orale E9 : identité de la compagnie ayant engagé U-Haul et communications avec celle-ci.
-- Confirmation écrite du cabinet sur le rapprochement demande 8/engagement oral E9.
+- Vérification des éventuelles coupures, du numéro de contact et des médias natifs par comparaison au téléphone; confirmation de la complétude déclarée par le client.
+- Rapprochement de la portée écrite 8 et de la portée orale E9 avec le cabinet.
 
 **Action ciblée**
 
-- Utiliser le même jeu de fichiers que la demande 2 sans créer de faux nouveaux documents.
-- Faire valider la discordance de portée avant de limiter la recherche à Harmony.
+- Remettre le lot disponible et la déclaration de complétude du client; vérifier uniquement les coupures ou pièces annoncées sans fichier correspondant.
 
 ## Demande 9 Équipements chargés dans le U Haul
 
-- Liste par article chargé dans U-Haul le 12 juin 2025 : désignation, quantité, identifiant/photo, origine, destination et témoin de chargement.
-- Distinction biens Pâtisserie/Pizzeria, biens confiés Harmony et biens récupérés après saisie.
+- Correspondance entre les lignes des inventaires de saisie et les biens chargés dans U-Haul en juin, à confirmer par une personne présente.
+- Identification de la date visée par « ce jour-là » dans la déclaration du client et prise en compte des biens retrouvés après coup.
 
 **Action ciblée**
 
@@ -104,6 +95,7 @@
 
 **Action ciblée**
 
+- Identifier les factures et règlements immédiats évoqués par le client : émetteur, adresse, période et objet (entreposage ou chariot).
 - Faire confirmer par le gardien désigné ou par l'huissier le lieu physique actuel et la date du dernier déplacement, avec inventaire et référence au PV.
 - Rapprocher Herwin/Irwin et les trois adresses dans une chronologie sans les harmoniser artificiellement.
 
@@ -117,6 +109,7 @@
 
 **Action ciblée**
 
+- Identifier les factures et règlements immédiats évoqués par le client : émetteur, adresse, période et objet (entreposage ou chariot).
 - Soumettre au cabinet les cinq pièces CINTEC avec leurs courriels de provenance et faire confirmer la convention applicable et le bénéficiaire du droit.
 - Obtenir du client les originaux lisibles des conventions photographiées et tout accord ou message sur le chariot et ses horaires.
 - Faire préciser les adresses exactes de destination et le rapport entre les sites 5007 et 5505 Irwin avant d’affirmer qu’il s’agit du même emplacement.
@@ -131,6 +124,7 @@
 
 **Action ciblée**
 
+- Joindre Abdel au 514 996-4247 pour obtenir une confirmation écrite de la sous-location : parties, adresse exacte, dates, espace, loyers et autorisations; projet de demande dans la fiche de suivi.
 - Faire préciser la qualité d’occupant de Quadro et le titulaire du bail; récupérer la convention et l’autorisation du propriétaire s’il s’agit d’une sous-location.
 - Rapprocher quittances/relevés de loyer d’un contrat identifié; une adresse de facturation seule reste insuffisante.
 - Obtenir le bail ou l’autorisation du titulaire des lieux; ne pas substituer les mentions au registre, sur l’avis fiscal ou sur le relevé bancaire au document établissant le droit d’occupation.
@@ -162,14 +156,13 @@
 
 ## Demande 15 Photos et listes avant le déménagement
 
-- Courriel ou export de conversation original ayant transmis les photos à Harmony avant le 12 juin 2025, avec en-têtes, date, destinataire et annexes.
-- Fichiers photographiques natifs et confirmation de leur auteur/date; correspondance avec les appareils de la liste.
-- Autre liste d'équipements antérieure, uniquement si elle existe; le contrat ne démontre pas qu'il n'y en avait aucune.
+- Fichiers natifs des photos visibles dans les galeries, si une lecture de détail ou des métadonnées est nécessaire.
+- Rapprochement entre la liste de mai 2023, le devis QT1076 et les photos envoyées en juin 2025; confirmation des ajouts ou retraits.
 
 **Action ciblée**
 
-- Rechercher l'envoi d'origine dans les courriels et messages des personnes ayant préparé le transport, en utilisant les noms des photos et la période précédant le 12 juin 2025.
-- Obtenir les originaux des captures J02–J04 et les faire identifier par leur auteur, sans déduire leur date du répertoire photos-octobre 2025.
+- Comparer les galeries envoyées le 6 juin à 17 h 59 avec les photos natives et les captures J02–J04, sans supposer qu’elles représentent exactement les mêmes fichiers.
+- Faire identifier par la personne présente les équipements de la liste de 2023 et ceux du devis de 2025; consigner les modèles, séries, ajouts et retraits confirmés.
 
 ## Demande 16 Contrat avec le gardien
 
@@ -179,65 +172,47 @@
 
 **Action ciblée**
 
+- Joindre le contact fourni au 514 910-6319 pour confirmer son identité, les conditions de garde, les documents détenus et ses observations personnelles datées; fiche de demande préparée.
 - Retrouver le courriel de notification du PV envoyé par saj@huissierdejustice.ca à Ooeuf le 22 avril 2026 à 14 h 25, et la réponse indiquée à 14 h 35, puis rapprocher leur pièce jointe de PV_SIGNE.
 - Faire confirmer par l'huissier et le détenteur désigné l'identité et la qualité du signataire, les modalités de garde et l'existence éventuelle d'une convention distincte.
 - Soumettre le PV signé au cabinet pour apprécier sa portée exacte; ne pas le rebaptiser contrat ni le substituer sans examen à la pièce demandée.
-
-## Demande 17 Évaluation Tezanet
-
-- Rapport d’évaluation ou d’expertise distinct, s’il existe, avec auteur, méthode, état/âge, modèles/numéros de série et correspondance aux équipements litigieux.
-- Confirmation du fournisseur sur l’adéquation des appareils proposés et la distinction entre remplacement, réparation et évaluation; justificatif d’achat si un devis a été accepté.
-
-**Action ciblée**
-
-- Compléter au besoin la provenance par l’export EML du message Ooeuf du 30 juillet 2025; les deux images et les devis sont désormais disponibles, ainsi qu’une extraction UI du message.
-- Faire confirmer s’il existe un rapport d’évaluation distinct des deux devis de vente et de la capture concernant la disponibilité du modèle Tim Hortons.
-- Traiter séparément les projets TORI Repair et le comptoir réfrigéré : devis de remplacement et rapports techniques n’établissent pas les mêmes faits.
 
 ## Demande 18 Photos et vidéos de l’huissier
 
 - Photos/vidéos natives effectivement prises par l'huissier et actuellement détenues, avec auteur, date et lien au PV.
 - Preuve de réception/transfert des supports; distinction avec les fichiers de la production télévisée et les images prises par d'autres personnes.
 - Confirmation de ce qui est réellement en possession de Quadro et de ce qui reste détenu par un tiers.
+- Rapport complémentaire distinguant dommages personnellement vus et propos rapportés, si disponible.
 
 **Action ciblée**
 
+- Joindre Michel Gaucher au 514 863-0116 : demander qui détient les photos/vidéos, copie ou modalités de remise, dates, auteur, inventaire des fichiers et éventuelles observations écrites de dommages.
 - Inventorier les supports détenus par les participants et les éventuels liens Drive, avec noms de fichiers et origine, avant de déclarer la possession.
 - À partir du PV, demander le bordereau ou les copies du lot de l'huissier; identifier séparément la production si ses images sont recherchées.
 - Conserver les originaux et leurs métadonnées; n'attribuer ni date de saisie, ni auteur, ni causalité sur la seule apparence d'une image.
-- Élargir la recherche aux adresses du domaine gaucherhuissier.com, notamment la chaîne de Karina Charlebois relative à la facture 8695, ainsi qu'aux échanges saj@huissierdejustice.ca; rechercher séparément les exports WhatsApp annoncés.
 
 ## Demande 20 Autorisation pour le rapport de police
 
-- Formulaire d'autorisation rempli et dûment signé pour l'accès au rapport visé.
-- Identification du signataire habilité et validation par le cabinet de la portée de l'autorisation.
+- Identité complète de chaque personne concernée et confirmation par le cabinet de la portée, de la date et du lieu de l’événement.
+- Autorisation datée et signée personnellement à la main par chaque personne concernée, avec copie lisible d’identité requise.
+- Finalisation et transmission par le cabinet de sa demande sur papier à en-tête, puis suivi de sa réception.
 
 **Action ciblée**
 
-- Faire préparer ou fournir le formulaire par le cabinet en utilisant la carte disponible; le remettre à la personne habilitée pour signature.
-- Classer l'original signé lorsqu'il sera reçu et distinguer sa réception de l'obtention ultérieure du rapport.
-
-## Demande 21 Police d’assurance
-
-- Police complète 10043375 et tous avenants en vigueur à la date du sinistre allégué, avec noms d’assurés, biens, lieux, dates et limites applicables.
-- Texte complet du programme/police 10266520 et du certificat RACIBM 1126, dont les conditions et exclusions, ainsi que la confirmation des périodes effectives par le courtier.
-- Documents établissant les biens effectivement déclarés et les lieux de transport/entreposage concernés; rattachement entre société propriétaire, assurée et bénéficiaire.
-
-**Action ciblée**
-
-- Demander au courtier et à l’expert SNB la copie contractuelle intégrale des polices identifiées, avec avenants et état des lieux/biens déclarés.
-- Rapprocher les dates imprimées des certificats et les circonstances alléguées, sans assimiler le programme de bris d’équipement à une garantie automatiquement applicable au transport.
+- Imprimer la page 1 pour chaque personne concernée, compléter les renseignements et signer personnellement après vérification du cabinet.
+- Le cabinet complète sa lettre sur papier à en-tête et joint les autorisations et justificatifs requis; vérifier les frais au moment de l’envoi.
 
 ## Demande 22 Dossier et réponse de l’assureur
 
-- Bordereau exhaustif des documents effectivement transmis au dossier SNB avec originaux des courriels, pièces jointes et accusés de réception.
+- Dossier assureur/expert SNB 53640-196353 / 23910-009447 : bordereau exhaustif des documents transmis et reçus, courriels natifs, pièces jointes et accusés de réception; compléments des passages tronqués ou repliés et pièces seulement annoncées.
 - Preuve de perte détaillée par bien, devis/rapports, photographies, factures, chaîne de garde, dates et lieux, ainsi que tout complément transmis depuis la lettre du 4 août 2026.
-- Réponse finale ou position plus récente de l’assureur, si elle existe; justificatifs bancaires des indemnités réellement encaissées et ventilation par sinistre/bien/période.
-- Rapprochement documenté entre le dossier antérieur Léger/Hadmo, le dossier SNB et les biens réclamés contre Harmony.
+- Rapport final ou position plus récente de l’assureur, si émis; justificatifs bancaires des indemnités réellement encaissées et ventilation par sinistre, bien et période. Un paiement de prime ou un montant de garantie ne démontre pas une indemnité.
+- Rapprochement documenté par bien, poste et période entre le dossier antérieur Léger/Hadmo, le dossier SNB et les biens réclamés contre Harmony.
+- PDF natif « Lettre à l’Assuré.pdf » du 21 octobre 2025 (DLL 32-10296) et contrôle de son périmètre distinct.
 
 **Action ciblée**
 
-- Compléter la collecte ciblée du fil du 4 août 2026 « Concernant la réclamation 53640-196353 - 8697230 Canada Inc. et Quadro Holding Ltée (23910-9447) » et conserver l’EML d’origine lorsque disponible.
+- Le fil du 4 août 2026 est désormais documenté par les copies de lecture du corpus expert. Obtenir au besoin son EML d’origine et ses annexes annoncées pour vérifier la complétude native, puis rapprocher le dossier de l’assureur avec les 22 fils conservés.
 - Demander à l’expert SNB l’inventaire des pièces reçues, des manquants et de la position actuelle; aucun message envoyé par cet audit.
 - Construire une matrice par équipement et par sinistre pour distinguer réclamé, évalué, alloué, paiement annoncé et paiement encaissé.
 
@@ -257,20 +232,20 @@
 
 ## Demande 24 Mandat Remorquage Élite
 
-- Identité légale complète d’Élite, coordonnées, bon de commande/mandat, dates, départ/destination et équipements transportés.
-- Messages SMS/courriels, photos de chargement, bon de livraison, facture et preuve de paiement.
-- Lien éventuel avec 2 000 $ déclarés; distinction d’AKA Moving cité le 15 août et de Rapide 2 Net cité lors de la récupération.
+- Duplicata de facture ou reçu Élite; confirmation écrite du mandat téléphonique, de la date, du trajet, des biens et du payeur.
+- Identité légale de l’entreprise et qualité de Polo; rapprochement de tout règlement avec l’opération concernée.
 
 **Action ciblée**
 
-- Faire confirmer par le donneur d’ordre le transporteur/date et rechercher dans son téléphone, compte bancaire et compte fournisseur.
-- Demander ensuite au transporteur identifié copie du mandat/facture par le cabinet; aucun contact effectué.
+- Joindre Polo au 514 928-4444 pour demander le duplicata et la confirmation du mandat; conserver sa réponse avec la date et les pièces reçues.
 
 ## Demande 25 Échange complet avec l’autre partie
 
 - Version exacte de P-2 déposée au dossier et comparaison message par message au lot EML.
 - Messages originaux manquants entre les réponses/renvois, annexes annoncées et réponses de chacun des deux côtés.
 - Journaux/listes des échanges avant le 12 juin puis après le 13 juin, pour confirmer le début et la fin des chaînes demandées.
+- Export complet du fil avec dates propres des dernières réponses et pièces natives.
+- Rapprochement avec le courriel de Pierre mentionné par la réponse et les échanges suivants.
 
 **Action ciblée**
 

@@ -1,0 +1,89 @@
+{
+  "id": 21,
+  "demande": "Produire une copie de la police d’assurance de QH couvrant les biens concernés.",
+  "statut": "document_disponible",
+  "reponse_proposee": "La police 10043375 est désormais produite dans son PDF de renouvellement 2024–2025 de 113 pages, avec conditions particulières et formulaires joints. La page 2 nomme 8697230 Canada Inc. et Quadro Holding Ltée., fixe la période du 24 août 2024 au 24 août 2025 et désigne le risque au 6241 boulevard Léger. La page 4 inscrit le contenu pour 215 000 $ et les revenus pour 150 000 $; la page 5 mentionne des extensions de transport et d’emplacement temporaire, dont l’application reste à examiner avec leurs conditions. Le contrat initial 2023–2024 de 117 pages est aussi joint : ses conditions particulières nomment seulement 8697230 Canada Inc. Les deux certificats RACIBM1126/10266520 et la lettre SNB déjà réunis restent conservés. Le statut « document disponible » porte sur la copie de police demandée, sans conclusion sur la garantie du sinistre, l’étendue de l’indemnité ou le paiement des primes.",
+  "pieces": [
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/ASSURANCE-AVENANT-QUADRO.pdf",
+      "repere": "Page 1 : assuré, lieu, période, certificat RACIBM 1126; référence à la police 10266520.",
+      "apport": "Certificat au nom de Quadro Holding Ltée, 6241 boulevard Léger, période imprimée du 7 mai 2024 au 24 août 2025. Tableau de garanties de bris d’équipement; ce document d’une page ne contient pas toutes les conditions de police.",
+      "nature": "original",
+      "sha256": "66ac2a15030db7804853c0c54ee3a38502b126e461f3616c2e26119fa06a28e8",
+      "octets": 49054
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Archive_2026-10-05/ASSURANCE-AJOUT-JUIN2024.pdf",
+      "repere": "Page 1 : assuré, période et numéro de certificat.",
+      "apport": "Certificat au nom de 8697230 Canada Inc. et Quadro Holding Ltée, période imprimée du 20 juin au 24 août 2024, même certificat RACIBM 1126 et référence à la police 10266520.",
+      "nature": "original",
+      "sha256": "a8069731aefb7da60533a5990665cd6c4e5f7f8a1788eac1c7bedcc38c719f42",
+      "octets": 58706
+    },
+    {
+      "path": "HARMONY MOVERS/07_Assurance_et_etat_anterieur/Collecte_2026-10-21/2026-08-04-Lettre-reserve-droits-SNB.pdf",
+      "repere": "Pages 1–2, notamment la référence à la police 10043375 en page 1.",
+      "apport": "Identifie la police à examiner pour la réclamation de déménagement/entreposage SNB et les assureurs mandatants; réserve expresse sans admission de couverture.",
+      "nature": "original",
+      "sha256": "540db2b92c77e02219eac6b2f1ce33b7435388cbae49d774b56ddb88db23625d",
+      "octets": 124896
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/PRECISIONS-DU-CLIENT-24-OCTOBRE.md",
+      "apport": "Précisions du client sur les réponses et les détenteurs à contacter.",
+      "repere": "Échanges du 24 octobre 2026",
+      "nature": "declaration"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Renouvellement-2024-2025.pdf",
+      "repere": "Conditions particulières p. 1–12",
+      "apport": "Copie de la police 10043375 : renouvellement 2024–2025, 113 pages, Quadro nommé assuré.",
+      "nature": "original"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/10043375-Nouveau-contrat-2023-2024.pdf",
+      "repere": "Conditions particulières p. 1–11",
+      "apport": "Copie de la police 10043375 : contrat initial 2023–2024, 117 pages, 8697230 Canada Inc. seul nommé dans les conditions particulières.",
+      "nature": "original"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/ANALYSE-POLICES-10043375.md",
+      "repere": "Contrôle du 24 octobre 2026",
+      "apport": "Identification des deux polices, repères des formulaires et limites du contrôle.",
+      "nature": "analyse"
+    },
+    {
+      "path": "HARMONY MOVERS/14_Recherche_complementaire_2026-10-24/Ooeuf/Polices/PROVENANCE-POLICES-10043375.json",
+      "repere": "Contrôle du 24 octobre 2026",
+      "apport": "Provenance Gmail et empreintes des PDF intacts.",
+      "nature": "analyse"
+    }
+  ],
+  "manquants": [],
+  "demarches": [
+    "Rapprocher avec le cabinet et le courtier les biens, les dates et les lieux allégués avec les clauses, les exclusions et tout avenant ultérieur effectivement émis; conserver les versions sans les fusionner.",
+    "Faire préciser au courtier, si nécessaire, les différences de dates de version R4 et LMA5190 dans le renouvellement, et le lien distinct du certificat RACIBM1126 avec la police 10266520."
+  ],
+  "controles": [
+    "Disponibilité de la copie de police distincte de l’application de la garantie au sinistre et de tout paiement.",
+    "La version initiale ne nomme pas Quadro; le renouvellement le nomme. La date effective d’un ajout antérieur ne se déduit pas de la seule comparaison.",
+    "Le formulaire de demande de résiliation est vierge; aucune résiliation déduite de sa présence.",
+    "Conditions particulières vues intégralement : 12 pages du renouvellement, 11 pages du contrat initial. Le reste des PDF a été extrait nativement; seules les pages complémentaires énumérées dans les contrôles ont été vues.",
+    "Montants de garantie, franchise, règle proportionnelle et sommes effectivement réclamées ou payées restent distincts.",
+    "F120PE18 modifie la rubrique 2 B de PA1; examiner le texte avec les avenants. Différences de versions R4 et LMA5190 relevées sans correction des originaux."
+  ],
+  "recherche_effectuee": [
+    "Premier audit, avant cette collecte complémentaire : Lecture native des deux certificats d’une page et de la lettre de réserve originale de deux pages.",
+    "Premier audit, avant cette collecte complémentaire : Contrôle de la pièce NDG de 62 pages et de son bloc identité/période pages 3–5 pour éviter de présenter une police de 2026 comme preuve de couverture en 2025.",
+    "Premier audit, avant cette collecte complémentaire : Recherche locale des numéros de police, certificats et avenants dans les trois dossiers; contrat intégral 10043375 non repéré.",
+    "Recherche Takatak supplémentaire in:anywhere par 10043375,10266520,RACIBM 1126; les certificats et transferts déjà connus ont été retrouvés, sans police complète ni nouvelle réponse finale de l’assureur. Aucun changement de statut.",
+    "Complément du 21 octobre 2026 : recherches ciblées Takatak consignée dans recherches-gmail.json,12 messages acquis au format RAW sans mutation; analyse des nouvelles pièces Ooeuf communiquées par le coordinateur.",
+    "Reprise du 24 octobre 2026 : quatre conversations ChatGPT accessibles; recherches ciblées dans Takatak et Ooeuf, pièces et précisions nouvelles du client. Périmètre et limites consignés dans le bilan du lot 14.",
+    "24 octobre 2026 : acquisition native des deux PDF dans Ooeuf; identification et contrôle visuel des conditions particulières; extraction textuelle de 113 + 117 pages et repérage des formulaires."
+  ],
+  "mise_a_jour": "Intégration du 24 octobre 2026 à partir de la livraison figée; originaux et anciennes annexes conservés.",
+  "date_recherche_complementaire": "2026-10-24",
+  "date_controle": "2026-10-24",
+  "statut_transmission": "non_envoye",
+  "portee_statut": "Copie de police demandée disponible; application de l’assurance au sinistre réservée à l’examen du cabinet."
+}

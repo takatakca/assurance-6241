@@ -1,0 +1,39 @@
+{
+  "date_recherche": "2026-10-24",
+  "ooeuf": {
+    "racine_resultats": 43,
+    "racine_fils_captures": 41,
+    "racine_brouillons_non_transmis": 2,
+    "expert_dufourd_fils_captures": 22,
+    "mode": "texte visible Gmail, pas export natif intégral de chaque message",
+    "requetes": {
+      "racine": "in:anywhere {from:racinechamberland.com to:racinechamberland.com cc:racinechamberland.com \"Racine Chamberland\"}",
+      "expert": "in:anywhere {dufourd dufour cdufourd dufourdion.com} {sinistre expert assureur assurance Joey indemnipro.ca SCM}"
+    },
+    "pages_resultats": {
+      "racine": 1,
+      "expert": 1
+    }
+  },
+  "takatak": {
+    "requetes": 9,
+    "pages": 9,
+    "occurrences_resultats": 38,
+    "identifiants_distincts_resultats": 30,
+    "captures_MIME_presentes": 20,
+    "eml_natifs_presents": 10,
+    "pieces_natives_extraites_occurrences": 16,
+    "pieces_natives_sha_uniques": 10,
+    "limites": "Trois résultats par Racine/Chamberland hors dossier exclus après tri. Captures locales seulement : tous les résultats consultés ne sont pas enregistrés en MIME/EML. Les deux grands transferts de 24 PJ ont échoué au téléchargement RAW; ne pas revendiquer leur acquisition native intégrale."
+  },
+  "troncatures_ooeuf": 63,
+  "plus_recent_expert_sinistre_identifie": {
+    "date": "2026-08-04",
+    "heure_affichee": "14 h 41",
+    "expediteur": "Lorraine Lamarche pour Sylvain Bernier",
+    "source": "Ooeuf/Expert_Dufourd/99_Travail_et_collecte/07-fil-texte.txt",
+    "nature": "réserve de droits",
+    "transfert_cabinet": "2026-08-04 16 h 00",
+    "limite": "Dernier retour identifié dans le corpus/requêtes documentés, pas attestation universelle d’absence d’autre courrier."
+  }
+}

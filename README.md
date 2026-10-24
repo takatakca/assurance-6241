@@ -4,6 +4,8 @@
 
 Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **HARMONY MOVERS**. Il permet la consultation, la recherche et le téléchargement des documents classés. Le tableau de bord Léger contient aussi une recherche dans les textes PDF/OCR et une chronologie attribuée aux sources. Le classeur comptable et le PowerPoint se téléchargent depuis les rubriques du dossier Léger.
 
+Le dossier maître propose une table des matières commune, des vues de lecture et une recherche dans les textes disponibles des trois dossiers. Les mots, expressions entre guillemets, dossiers et formats peuvent être recherchés. Chaque résultat renvoie à sa source; les pages sans extraction textuelle peuvent seulement être trouvées par leur nom. Le même maître s’ouvre depuis OneDrive ou le site. La recherche utilise un index daté et ne constitue pas une preuve d’exhaustivité.
+
 La [remise documentaire Dufourd](https://takatakca.github.io/assurance-6241/HARMONY%20MOVERS/12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md.html) rassemble les réponses préparées, les pièces annexées et les téléchargements disponibles. Elle distingue les pièces disponibles et les vérifications ouvertes; la publication ne signifie pas que les documents ont été envoyés au cabinet. Le PDF compte 100 pages et le bordereau 312 annexes distinctes. La matrice indique 5 documents demandés disponibles, 17 réponses partielles et 3 documents demandés non repérés. Ces catégories décrivent la disponibilité documentaire.
 
 Le [bilan de la recherche complémentaire](https://takatakca.github.io/assurance-6241/HARMONY%20MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html) présente les pièces nouvelles, leur provenance et les documents encore manquants. Les états financiers, données de plateformes, déclarations fiscales et devis ne sont pas assimilés à un dommage net démontré. Le [bilan du 24 octobre 2026](https://takatakca.github.io/assurance-6241/HARMONY%20MOVERS/14_Recherche_complementaire_2026-10-24/BILAN-DE-LA-RECHERCHE.md.html) documente la reprise des recherches dans les deux boîtes courriel et les quatre conversations ChatGPT désormais accessibles. Les déclarations et analyses récupérées restent distinctes des pièces originales; les demandes sans document suffisant restent indiquées. Les archives de collecte contenant d’anciens scripts sont conservées localement dans OneDrive; les extraits pertinents et leur provenance sont publiés.
@@ -24,13 +26,18 @@ Une modification d’un fichier Markdown sur GitHub ne régénère pas automatiq
 
 Les scripts, modèles et assets sont conservés dans **scripts/**. Le générateur statique Python utilise la bibliothèque standard. Les générateurs comptables et de présentation ont leurs dépendances précisées dans leurs sources.
 
+Le maître est reconstruit par `scripts/build_master_corpus.py`, puis `scripts/build_master_workspace.py`, avec les assets conservés dans `scripts/master/`. L’extraction documentaire utilise les dépendances précisées dans le premier script. Le moteur de recherche charge les textes depuis des scripts locaux, sans requête à un service tiers. Le corpus de travail `00_DOSSIER_MAITRE/06_Index_recherche/corpus.json` et le contrôle `07_Controle_des_sources/CONTROLE-DU-MAITRE.json` restent locaux; les données de recherche publiées sont distinctes. Le maître maintient `OUVRIR-LES-DOSSIERS.html`. Ne pas relancer l’ancien `build_dossier_hub.py` dans ce cycle : son remplacement du lanceur serait détecté comme une modification extérieure lors de la génération suivante.
+
 La remise Dufourd est reproductible avec `scripts/build_remise_dufourd.py` et les entrées de `scripts/remise-dufourd/`. Son PDF utilise ReportLab et les polices Arial installées sous Windows; adapter ces chemins de polices sur un autre système. Après toute nouvelle génération, contrôler visuellement le PDF et actualiser `controle-visuel.json` avec son empreinte réelle avant d’exécuter `scripts/finalize_remise_dufourd.py` (dépendance : pypdf). Ce dernier vérifie les annexes et crée le ZIP. Le contrôle visuel fourni correspond au PDF publié, pas à une future version modifiée.
 
 Les commandes suivantes s’exécutent depuis un **espace source** contenant à sa racine `6241 Léger/`, `6280 Somerled NDG/`, `HARMONY MOVERS/`, `documentation/` et `scripts/`, comme le dossier de travail OneDrive. Cette disposition diffère du répertoire **docs/** du clone publié; conserver les originaux et les manifestes lors de la préparation d’un nouvel espace source. Les lecteurs `.md.html` et les index de répertoires sont des sorties générées.
 
 ```sh
 python scripts/build_case_portal.py
-python scripts/build_dossier_hub.py
+python scripts/build_master_corpus.py
+python scripts/build_master_workspace.py
+python scripts/site/verify_reader_navigation.py
+python scripts/site/verify_remote_site.py
 python scripts/build_remote_site.py --audit-only
 python scripts/build_remote_site.py --build
 python scripts/site/verify_static_transport.py
@@ -40,6 +47,6 @@ Le paquet `dist-site/` est contrôlé avant publication. [Les outils de publicat
 
 ## Publication vérifiée
 
-Le paquet publié contient 3,174 fichiers, dont 2,820 sources sélectionnées et 156 lecteurs Markdown, pour environ 767.20 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
+Le paquet publié contient 4,916 fichiers, dont 4,556 sources sélectionnées et 158 lecteurs Markdown, pour environ 839.64 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
 
-[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/73e028a1d00f36162244b9e60f406df9af77ab7e). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-24 à 02:08 EDT. La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.
+[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/a3787e6e19c7d2a950bbc69677b65fe9c7ebfa09). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-24 à 05:07 EDT. La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.

@@ -10,16 +10,28 @@ assert not report['broken_generated_links']
 assert report['bytes']<1_000_000_000, 'Volume supérieur ou égal au plafond de publication de 1 Go'
 checks=['Generated internal links all resolve in the selected publication tree']
 checks.append('Selected publication remains below one billion bytes before its manifest')
+assert not (site.MASTER_LOCAL & set(site.files))
+master_pages=0
 for rel,data in site.generated.items():
     if not rel.endswith('.html'):continue
     text=data.decode('utf-8')
     assert site.RULE in text,rel
     assert 'Content-Security-Policy' in text,rel
     assert 'connect-src &#x27;none&#x27;' in text,rel
+    assert text.count('http-equiv="Content-Security-Policy"')==1,rel
+    if rel.startswith(site.MASTER+'/') and rel in site.files:
+        assert data==site.files[rel].read_bytes(),rel
+        assert rel+'.source.txt' not in site.generated,rel
+        master_pages+=1
     for script in re.findall(r'<script>([\s\S]*?)</script>',text):
         token=base64.b64encode(hashlib.sha256(script.encode()).digest()).decode()
         assert 'sha256-'+token in text,rel
 checks+=['All rendered pages include the exact common rule','CSP permits exact generated script hashes and blocks network fetches']
+launcher=site.generated['OUVRIR-LES-DOSSIERS.html']
+if site.is_master_launcher(launcher.decode('utf-8-sig')):
+    assert launcher==site.files['OUVRIR-LES-DOSSIERS.html'].read_bytes()
+    assert site.generated['index.html']==launcher
+    checks.append(f'Master launcher and {master_pages} HTML pages retain exact source bytes and one CSP; local-only indexes excluded')
 source=next(iter(site.routes))+'.html'
 result=site.inline('<script>alert(1)</script> [bad](javascript:alert(1)) [bad](data:text/html,test)',source)
 assert '<script>' not in result
@@ -41,17 +53,20 @@ checks.append('External citations remain hyperlinks; local machine and active sc
 work=ROOT/'scripts/.build-livrables/remote-site-tests';work.mkdir(parents=True,exist_ok=True)
 node=Path.home()/'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe'
 if not node.is_file():node='node'
-count=0
-for rel,data in site.generated.items():
+count=0;master_scripts=0
+outputs={**{rel:p.read_bytes() for rel,p in site.files.items() if p.suffix.lower()=='.js'},**site.generated}
+for rel,data in outputs.items():
     scripts=re.findall(r'<script>([\s\S]*?)</script>',data.decode('utf-8')) if rel.endswith('.html') else []
-    if rel=='assets/site-viewer.js':scripts=[data.decode('utf-8')]
+    if rel.endswith('.js'):scripts=[data.decode('utf-8-sig')]
     for script in scripts:
         dest=work/f'script-{count}.js';dest.write_text(script,encoding='utf-8');count+=1
         result=subprocess.run([str(node),'--check',str(dest)],capture_output=True,text=True)
         assert result.returncode==0,result.stderr[-1500:]
+        if rel.startswith(site.MASTER+'/'):master_scripts+=1
 checks.append(f'JavaScript syntax validated by Node for {count} generated scripts')
 receipt={'checks':checks,'passed':len(checks),'mode':'in-memory generation + filesystem + Node syntax; no publication',
     'published_files':report['published_files'],'megabytes_decimal':report['megabytes_decimal'],
-    'static_links_checked':report['static_links_checked'],'markdown_readers':report['markdown_readers']}
+    'static_links_checked':report['static_links_checked'],'markdown_readers':report['markdown_readers'],
+    'master_html_preserved':master_pages,'master_javascript_checked':master_scripts}
 (ROOT/'scripts/.build-livrables/remote-site-validation.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(receipt,ensure_ascii=False,indent=2))

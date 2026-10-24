@@ -38,6 +38,13 @@ if remise+'LIRE-EN-PREMIER.md.html' in manifest['output_files']:paths.append(rem
 for extension in ['.pdf','.zip']:
     candidates=[p for p in manifest['output_files'] if p.startswith(remise) and p.lower().endswith(extension)]
     if candidates:paths.append(min(candidates,key=lambda p:('/' in p[len(remise):],(OUT/p).stat().st_size)))
+master='00_DOSSIER_MAITRE/'
+paths += [p for p in [master+'00-OUVRIR-LE-DOSSIER.html',master+'01_6241_Leger/index.html',master+'02_6280_Somerled_NDG/index.html',master+'03_Harmony_Movers/index.html',master+'04_Remise_et_suivis/index.html',master+'05_Table_des_matieres/index.html',master+'07_Controle_des_sources/index.html',master+'assets/master.css',master+'assets/app.js',master+'assets/search-core.js',master+'06_Index_recherche/metadata.js'] if p in manifest['output_files']]
+paths += sorted(p for p in manifest['output_files'] if p.startswith(master+'06_Index_recherche/recherche-') and p.endswith('.js'))
+draft=OUT/master/'04_Remise_et_suivis/COURRIEL-DE-REMISE.md'
+if draft.is_file():
+    reader=master+'08_Lectures/'+hashlib.sha256(draft.read_bytes()).hexdigest()+'.html'
+    if reader in manifest['output_files']:paths.append(reader)
 checks=[]
 for path in paths:
     url=BASE+quote(path,safe='/')
@@ -47,7 +54,10 @@ for path in paths:
             matches=hashlib.sha256(data).hexdigest()==manifest['output_hashes'][path]
             mime=response.headers.get_content_type()
             expected='application/pdf' if path.endswith('.pdf') else ('message/rfc822' if path.endswith('.eml') else ('application/json' if path.endswith('.json') else ('application/zip' if path.endswith('.zip') else 'text/html')))
+            if path.endswith('.js'):expected='application/javascript'
+            if path.endswith('.css'):expected='text/css'
             mime_ok=(mime==expected or path.endswith('.eml') or (path.endswith('.zip') and mime=='application/x-zip-compressed'))
+            if path.endswith('.js') and mime=='text/javascript':mime_ok=True
             checks.append({'path':path,'url':url,'status':response.status,'mime':mime,
                            'sha256_matches':matches,'ok':response.status==200 and matches and mime_ok})
     except HTTPError as exc:checks.append({'path':path,'url':url,'status':exc.code,'ok':False})

@@ -1,19 +1,21 @@
 # État de publication GitHub
 
-Vérification : 2026-10-24 à 02:08 EDT (America/New_York).
+Vérification : 2026-10-24 à 05:07 EDT (America/New_York).
 
 - [Site public](https://takatakca.github.io/assurance-6241/)
 - [Dépôt public](https://github.com/takatakca/assurance-6241)
-- [Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/73e028a1d00f36162244b9e60f406df9af77ab7e)
+- [Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/a3787e6e19c7d2a950bbc69677b65fe9c7ebfa09)
 - Source GitHub Pages : branche `main`, répertoire `/docs`.
-- Fichiers publiés : 3174; sources sélectionnées : 2820; volume réel incluant le manifeste : 767,203,248 octets.
+- Fichiers publiés : 4916; sources sélectionnées : 4556; volume réel incluant le manifeste : 839,643,660 octets.
 - Plus gros fichier : 62,765,266 octets.
-- Liens générés contrôlés : 6876; liens cassés : 0.
-- Contrôles HTTP publics : 22 réussis, avec comparaison SHA-256 du hub, des trois entrées de dossier, d’un PDF et d’un EML. La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP.
+- Liens générés contrôlés : 26125; liens cassés : 0.
+- Contrôles HTTP publics : 39 réussis, avec comparaison SHA-256 du hub, des trois entrées de dossier, d’un PDF et d’un EML. La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP.
 
 Les pièces, courriels, textes OCR, classeur, présentation, index et synthèses sélectionnés sont désormais dans `docs/`. Les originaux de travail restent dans le dossier local; la copie publiée est distincte. `.gitattributes` impose `docs/** -text` pour préserver les octets et les empreintes des documents.
 
 Le site permet consultation, recherche et téléchargement. Les modifications passent par GitHub authentifié ou l’espace source, puis une nouvelle génération/publication. Modifier un Markdown ne met pas automatiquement à jour son lecteur HTML ni les index. Il n’y a pas de synchronisation automatique avec OneDrive.
+
+Le dossier maître propose une table des matières commune, des vues de lecture et une recherche dans les textes disponibles des trois dossiers. Les mots, expressions entre guillemets, dossiers et formats peuvent être recherchés. Chaque résultat renvoie à sa source; les pages sans extraction textuelle peuvent seulement être trouvées par leur nom. Le même maître s’ouvre depuis OneDrive ou le site. La recherche utilise un index daté et ne constitue pas une preuve d’exhaustivité.
 
 Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.
 

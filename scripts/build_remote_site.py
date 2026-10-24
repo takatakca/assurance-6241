@@ -16,8 +16,14 @@ OUT=ROOT/'dist-site'
 WORK=ROOT/'scripts/.build-livrables'
 RULE='Les originaux, les déclarations et les analyses sont identifiés par leur provenance. Les doublons et les versions d’une facture ne s’additionnent pas. Une extraction OCR reste à contrôler sur la pièce originale. Les documents à obtenir et les vérifications ouvertes figurent dans les synthèses de chaque dossier.'
 RULE_PATH='documentation/REGLES-COMMUNES.md'
+PUBLIC_HOST='takatakca.github.io'
+PUBLIC_PREFIX='/assurance-6241/'
+MASTER='00_DOSSIER_MAITRE'
+MASTER_HOME=MASTER+'/00-OUVRIR-LE-DOSSIER.html'
+MASTER_LOCAL={MASTER+'/06_Index_recherche/corpus.json',MASTER+'/07_Controle_des_sources/CONTROLE-DU-MAITRE.json'}
 ALLOWED={'.pdf','.png','.jpg','.jpeg','.webp','.gif','.xlsx','.xls','.docx','.doc','.pptx','.csv','.json','.txt','.md','.eml','.html','.zip'}
-TEXT={'.csv','.json','.txt','.md','.eml','.html'}
+MASTER_ALLOWED=ALLOWED|{'.js','.css'}
+TEXT={'.csv','.json','.txt','.md','.eml','.html','.js','.css'}
 MIMES={'.pdf':'application/pdf','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.gif':'image/gif','.html':'text/html; charset=utf-8','.md':'text/markdown; charset=utf-8','.txt':'text/plain; charset=utf-8','.json':'application/json','.csv':'text/csv; charset=utf-8','.eml':'message/rfc822','.xlsx':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.xls':'application/vnd.ms-excel','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document','.doc':'application/msword','.pptx':'application/vnd.openxmlformats-officedocument.presentationml.presentation'}
 SECRET_PATTERNS={
     'private_key':rb'-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----',
@@ -34,6 +40,7 @@ LOCAL_COLLECTION_PREFIXES=tuple(
     for part in ('RAW','MIME','Textes')
 )
 MIMES['.zip']='application/zip'
+MIMES.update({'.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8'})
 warnings=[];exclusions=[];secret_findings=[];repairs=[];missing=[]
 files={};hashes={};generated={};routes={};directories=set();links_checked=0
 
@@ -66,15 +73,16 @@ def audit_archive(path,rel):
                 for kind,pattern in SECRET_PATTERNS.items():
                     if re.search(pattern,raw):secret_findings.append({'path':label,'kind':kind})
 def collect():
-    for name in CASES:
+    for name in CASES+([MASTER] if (ROOT/MASTER).is_dir() else []):
         base=ROOT/name
         if not base.is_dir():raise RuntimeError('Dossier absent : '+name)
         for p in sorted(base.rglob('*')):
             if not p.is_file():continue
             rel=p.relative_to(ROOT).as_posix();reason=None
-            if any(part in EXCLUDE_PARTS for part in p.relative_to(ROOT).parts) or rel.startswith(LOCAL_COLLECTION_PREFIXES):reason='cache ou collecte technique; copie de lecture contrôlée publiée séparément'
+            if rel in MASTER_LOCAL:reason='index de travail ou contrôle local du dossier maître; non publié'
+            elif any(part in EXCLUDE_PARTS for part in p.relative_to(ROOT).parts) or rel.startswith(LOCAL_COLLECTION_PREFIXES):reason='cache ou collecte technique; copie de lecture contrôlée publiée séparément'
             elif p.name.lower() in SECRET_NAMES or p.suffix.lower() in {'.pem','.key','.pfx','.p12'}:reason='fichier de secrets ou identifiants de service'
-            elif p.suffix.lower() not in ALLOWED:reason='format non documentaire ou non pris en charge'
+            elif p.suffix.lower() not in (MASTER_ALLOWED if name==MASTER else ALLOWED):reason='format non documentaire ou non pris en charge'
             elif not p.resolve().is_relative_to(ROOT.resolve()) or p.is_symlink():reason='lien de fichier hors périmètre'
             if reason:exclusions.append({'path':rel,'reason':reason,'bytes':p.stat().st_size});continue
             files[rel]=p
@@ -91,7 +99,7 @@ def collect():
         parent=posixpath.dirname(rel)
         while parent:
             directories.add(parent);parent=posixpath.dirname(parent)
-        if p.suffix.lower()=='.md':routes[rel]=rel+'.html'
+        if p.suffix.lower()=='.md' and (not rel.startswith(MASTER+'/') or rel.startswith(MASTER+'/04_Remise_et_suivis/')):routes[rel]=rel+'.html'
     if secret_findings:raise RuntimeError('Des identifiants de service possibles ont été détectés; aucun site copié. Consulter le rapport local sans valeurs de secrets.')
 
 def resolve_link(value,source,image=False,raw=False):
@@ -99,21 +107,45 @@ def resolve_link(value,source,image=False,raw=False):
     global links_checked
     links_checked+=1
     value=html.unescape(value.strip())
-    try:parts=urlsplit(value)
+    try:parts=urlsplit(value.replace('\\','/'))
     except ValueError:parts=None
-    if parts and parts.scheme in ('https','http','mailto'):
+    target=None
+    # An archival OneDrive path is portable only when it points inside this
+    # workspace. Never guess a file elsewhere on the machine by its basename.
+    local_path=None
+    if parts and re.match(r'^[A-Za-z]:[/\\]',value):local_path=parts.scheme+':'+unquote(parts.path)
+    elif parts and parts.scheme=='file' and parts.netloc in ('','localhost'):
+        local_path=unquote(parts.path)
+        if re.match(r'^/[A-Za-z]:/',local_path):local_path=local_path[1:]
+    if local_path is not None:
+        try:target=Path(local_path).resolve().relative_to(ROOT.resolve()).as_posix()
+        except (ValueError,OSError):
+            missing.append({'source':source,'target':value,'reason':'chemin local hors du dossier publié'});return None
+    same_site=bool(parts and parts.scheme in ('https','http') and parts.netloc.lower() in {PUBLIC_HOST,PUBLIC_HOST+':80',PUBLIC_HOST+':443'}
+                   and (parts.path.startswith(PUBLIC_PREFIX) or parts.path==PUBLIC_PREFIX.rstrip('/')))
+    if same_site:
+        target=unquote(parts.path[len(PUBLIC_PREFIX):]) if parts.path.startswith(PUBLIC_PREFIX) else 'index.html'
+        target=target or 'index.html'
+    if parts and parts.scheme in ('https','http','mailto') and not same_site:
         if not image:return html.escape(value,quote=True)
         missing.append({'source':source,'target':value,'reason':'image distante non chargée automatiquement'});return None
-    if not parts or parts.scheme or parts.netloc or '\x00' in value:
+    if not parts or (target is None and (parts.scheme or parts.netloc)) or '\x00' in value:
         missing.append({'source':source,'target':value,'reason':'protocole non autorisé'});return None
-    if not parts.path:return '#'+quote(unquote(parts.fragment),safe='-_.~') if parts.fragment else '#'
+    if not parts.path and target is None:return '#'+quote(unquote(parts.fragment),safe='-_.~') if parts.fragment else '#'
     path=unquote(parts.path).replace('\\','/')
-    if path.startswith('/'):
-        missing.append({'source':source,'target':value,'reason':'chemin absolu non portable'});return None
-    target=posixpath.normpath(posixpath.join(posixpath.dirname(source),path))
+    if target is None:
+        if path.startswith(PUBLIC_PREFIX):target=path[len(PUBLIC_PREFIX):] or 'index.html'
+        elif path.startswith('/'):
+            # Root-relative documentary links become relative under GitHub's
+            # repository prefix; only exact selected resources are eligible.
+            target=path.lstrip('/')
+        else:target=posixpath.normpath(posixpath.join(posixpath.dirname(source),path))
+    target=posixpath.normpath(target)
     if target in directories:target=target+'/index.html'
-    known=set(files)|set(routes.values())|{p+'/index.html' for p in directories}|{'index.html','assets/site-reader.css','assets/site-viewer.js'}
+    known=set(files)|set(generated)|set(routes.values())|{p+'/index.html' for p in directories}|{'index.html','assets/site-reader.css','assets/site-viewer.js'}
     if target not in known:
+        if local_path is not None or same_site or path.startswith('/'):
+            missing.append({'source':source,'target':value,'reason':'chemin explicite absent de la publication'});return None
         suffix=path
         while suffix.startswith('../') or suffix.startswith('./'):suffix=suffix.split('/',1)[1]
         candidates=[r for r in files if r.endswith('/'+suffix) or r==suffix]
@@ -192,23 +224,28 @@ def markdown(text,source):
     return '\n'.join(out)
 
 class ArchiveReader(HTMLParser):
-    allowed={'h1','h2','h3','h4','h5','h6','p','div','section','ul','ol','li','table','thead','tbody','tr','th','td','strong','b','em','i','blockquote','pre','code','br','hr','a','img'}
+    allowed={'h1','h2','h3','h4','h5','h6','p','div','section','article','span','ul','ol','li','table','thead','tbody','tr','th','td','strong','b','em','i','blockquote','pre','code','br','hr','a','img'}
     blocked={'script','style','iframe','object','embed','svg','head'}
     def __init__(self,source):super().__init__(convert_charrefs=True);self.source=source;self.out=[];self.depth=0;self.skipped_links=[]
     def handle_starttag(self,tag,attrs):
         if tag in self.blocked:self.depth+=1;return
         if self.depth or tag not in self.allowed:return
         a=dict(attrs)
+        anchor=a.get('id') or (a.get('name') if tag=='a' else None)
+        identity=' id="'+html.escape(anchor,quote=True)+'"' if anchor else ''
         if tag=='a':
+            if 'href' not in a:
+                self.skipped_links.append(True);self.out.append('<span'+identity+'>');return
             href=resolve_link(a.get('href',''),self.source,raw='download' in a)
             self.skipped_links.append(not bool(href))
-            if not href:self.out.append('<span class="missing">');return
-            self.out.append('<a href="'+href+'" rel="noopener noreferrer"'+(' download' if 'download' in a else '')+'>');return
+            if not href:self.out.append('<span class="missing"'+identity+'>');return
+            self.out.append('<a href="'+href+'"'+identity+' rel="noopener noreferrer"'+(' download' if 'download' in a else '')+'>');return
         if tag=='img':
             href=resolve_link(a.get('src',''),self.source,image=True)
-            if href:self.out.append('<img loading="lazy" src="'+href+'" alt="'+html.escape(a.get('alt',''),quote=True)+'">')
+            if href:self.out.append('<img loading="lazy" src="'+href+'"'+identity+' alt="'+html.escape(a.get('alt',''),quote=True)+'">')
             return
-        self.out.append('<'+tag+'>')
+        spans=''.join(' '+key+'="'+a[key]+'"' for key in ('colspan','rowspan') if tag in {'td','th'} and re.fullmatch(r'[1-9]\d{0,2}',a.get(key,'')))
+        self.out.append('<'+tag+identity+spans+'>')
     def handle_endtag(self,tag):
         if tag in self.blocked:
             self.depth=max(0,self.depth-1);return
@@ -217,6 +254,25 @@ class ArchiveReader(HTMLParser):
         else:self.out.append('</'+tag+'>')
     def handle_data(self,data):
         if not self.depth:self.out.append(html.escape(data))
+
+def rewrite_reading_links(text,source):
+    """Upgrade static links in trusted portals without parsing their JS as HTML."""
+    offsets=[0]+[match.end() for match in re.finditer('\n',text)]
+    replacements=[]
+    class Rewriter(HTMLParser):
+        def handle_starttag(self,tag,attrs):
+            a=dict(attrs)
+            if tag!='a' or 'href' not in a:return
+            href=resolve_link(a['href'],source,raw='download' in a or a.get('data-raw')=='true')
+            if href is None:return
+            original=self.get_starttag_text()
+            match=re.search(r'''\bhref\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)''',original,re.I)
+            if not match:return
+            line,column=self.getpos();start=offsets[line-1]+column
+            replacements.append((start+match.start(),start+match.end(),'href="'+href+'"'))
+    rewriter=Rewriter(convert_charrefs=True);rewriter.feed(text)
+    for start,end,value in reversed(replacements):text=text[:start]+value+text[end:]
+    return text
 
 def rule_html(source):
     target=rel_url(RULE_PATH+'.html',source)
@@ -253,13 +309,35 @@ def trusted_hub(text,source):
         case['guides']=[f for f in case['guides'] if f['path'] in files]
         case['distinct']=len({f['sha256'] for f in case['files']})
     text=text[:match.start(1)]+escaped_json(cases)+text[match.end(1):]
+    # Emit the reader URL immediately: opening a link or a context menu must
+    # not depend on a later MutationObserver pass rewriting the raw .md URL.
+    old="const href=p=>p.split('/').map(encodeURIComponent).join('/');"
+    if old not in text:raise RuntimeError('Navigation du hub inconnue')
+    text=text.replace(old,"const readingRoutes="+escaped_json(routes)+";const href=p=>(readingRoutes[p]||p).split('/').map(encodeURIComponent).join('/');",1)
     text=text.replace('dans votre espace OneDrive.','dans cette copie du dossier accessible en ligne.')
     text=text.replace('Cet index ouvre les fichiers locaux. La synchronisation OneDrive et la publication GitHub sont des états distincts de ce classement.','Cette copie publiée ouvre les pièces du dossier. Les modifications des fichiers de travail nécessitent une nouvelle publication.')
     text=text.replace('/^[=+@-]/','/^[\\s\\u0000-\\u001f]*[=+@-]/')
-    return secure_html(text.replace('</main>',rule_html(source)+'</main>',1),source)
+    return secure_html(rewrite_reading_links(text.replace('</main>',rule_html(source)+'</main>',1),source),source)
+
+def is_master_launcher(text):
+    """Recognize the generated launcher by its exact destination, not its title."""
+    class LauncherLinks(HTMLParser):
+        found=False
+        def handle_starttag(self,tag,attrs):
+            if tag!='a':return
+            value=dict(attrs).get('href','')
+            parts=urlsplit(value)
+            if not parts.scheme and not parts.netloc and posixpath.normpath(unquote(parts.path))==MASTER_HOME:self.found=True
+    parser=LauncherLinks();parser.feed(text)
+    return parser.found
 
 def build_generated():
     for rel,p in files.items():
+        if rel.startswith(MASTER+'/') and rel not in routes:
+            # These are controlled outputs of build_master_workspace.py. Preserve
+            # their HTML/CSP and all asset bytes; do not archive their interface.
+            if p.suffix.lower()=='.html':add(rel,p.read_bytes())
+            continue
         if p.suffix.lower()=='.md':
             text=p.read_text(encoding='utf-8-sig',errors='replace')
             heading=re.search(r'^#\s+(.+)',text,re.M)
@@ -267,7 +345,11 @@ def build_generated():
         elif p.suffix.lower()=='.html':
             text=p.read_text(encoding='utf-8-sig')
             if rel=='OUVRIR-LES-DOSSIERS.html':
-                add(rel,trusted_hub(text,rel));add('index.html',trusted_hub(text,'index.html'))
+                if is_master_launcher(text):
+                    if MASTER_HOME not in files:raise RuntimeError('Le lanceur vise un dossier maître absent; régénérer le maître avant publication')
+                    add(rel,p.read_bytes());add('index.html',p.read_bytes())
+                else:
+                    add(rel,trusted_hub(text,rel));add('index.html',trusted_hub(text,'index.html'))
             elif rel=='6241 Léger/00_Lire_en_premier/index.html':
                 # All CASE_DATA insertion is already escaped by the local generator.
                 match=re.search(r'const DATA=([\s\S]*?);\s*const \$=',text)
@@ -277,7 +359,12 @@ def build_generated():
                 data['resource_paths']=[r for r in data['resource_paths'] if base+r in files]
                 data['counts']['files']=len(data['files']);data['counts']['distinct_contents']=len({f['sha256'] for f in data['files']})
                 text=text[:match.start(1)]+escaped_json(data)+text[match.end(1):]
-                add(rel,secure_html(text.replace('</main>',rule_html(rel)+'</main>',1),rel))
+                old="?'../'+path.split('/').map(encodeURIComponent).join('/'):null;"
+                if old not in text:raise RuntimeError('Navigation du portail Léger inconnue')
+                case_routes={r[len(base):]:v[len(base):] for r,v in routes.items() if r.startswith(base)}
+                text=text.replace('const availablePaths=', 'const readingRoutes='+escaped_json(case_routes)+';\nconst availablePaths=',1)
+                text=text.replace(old,"?'../'+(readingRoutes[path]||path).split('/').map(encodeURIComponent).join('/'):null;",1)
+                add(rel,secure_html(rewrite_reading_links(text.replace('</main>',rule_html(rel)+'</main>',1),rel),rel))
             else:
                 reader=ArchiveReader(rel);reader.feed(text)
                 add(rel+'.source.txt',p.read_bytes())

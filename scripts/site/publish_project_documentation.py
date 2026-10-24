@@ -50,11 +50,16 @@ def main():
     remise_checks=[c['path'] for c in live['checks'] if c['path'].startswith(remise) and c.get('ok')]
     remise_checked=(remise+'LIRE-EN-PREMIER.md.html' in remise_checks and any(p.endswith('.pdf') for p in remise_checks) and any(p.endswith('.zip') for p in remise_checks))
     checked_note=' La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP.' if remise_checked else ''
+    master_note=''
+    if '00_DOSSIER_MAITRE/00-OUVRIR-LE-DOSSIER.html' in manifest['output_hashes']:
+        master_note='Le dossier maître propose une table des matières commune, des vues de lecture et une recherche dans les textes disponibles des trois dossiers. Les mots, expressions entre guillemets, dossiers et formats peuvent être recherchés. Chaque résultat renvoie à sa source; les pages sans extraction textuelle peuvent seulement être trouvées par leur nom. Le même maître s’ouvre depuis OneDrive ou le site. La recherche utilise un index daté et ne constitue pas une preuve d’exhaustivité.'
     readme=f'''# Dossiers de travail pour l’avocat
 
 [Ouvrir le site public]({live_url}) · [État de publication](documentation/ETAT-PUBLICATION-GITHUB.md)
 
 Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **HARMONY MOVERS**. Il permet la consultation, la recherche et le téléchargement des documents classés. Le tableau de bord Léger contient aussi une recherche dans les textes PDF/OCR et une chronologie attribuée aux sources. Le classeur comptable et le PowerPoint se téléchargent depuis les rubriques du dossier Léger.
+
+{master_note}
 
 {remise_note}
 
@@ -76,13 +81,18 @@ Une modification d’un fichier Markdown sur GitHub ne régénère pas automatiq
 
 Les scripts, modèles et assets sont conservés dans **scripts/**. Le générateur statique Python utilise la bibliothèque standard. Les générateurs comptables et de présentation ont leurs dépendances précisées dans leurs sources.
 
+Le maître est reconstruit par `scripts/build_master_corpus.py`, puis `scripts/build_master_workspace.py`, avec les assets conservés dans `scripts/master/`. L’extraction documentaire utilise les dépendances précisées dans le premier script. Le moteur de recherche charge les textes depuis des scripts locaux, sans requête à un service tiers. Le corpus de travail `00_DOSSIER_MAITRE/06_Index_recherche/corpus.json` et le contrôle `07_Controle_des_sources/CONTROLE-DU-MAITRE.json` restent locaux; les données de recherche publiées sont distinctes. Le maître maintient `OUVRIR-LES-DOSSIERS.html`. Ne pas relancer l’ancien `build_dossier_hub.py` dans ce cycle : son remplacement du lanceur serait détecté comme une modification extérieure lors de la génération suivante.
+
 La remise Dufourd est reproductible avec `scripts/build_remise_dufourd.py` et les entrées de `scripts/remise-dufourd/`. Son PDF utilise ReportLab et les polices Arial installées sous Windows; adapter ces chemins de polices sur un autre système. Après toute nouvelle génération, contrôler visuellement le PDF et actualiser `controle-visuel.json` avec son empreinte réelle avant d’exécuter `scripts/finalize_remise_dufourd.py` (dépendance : pypdf). Ce dernier vérifie les annexes et crée le ZIP. Le contrôle visuel fourni correspond au PDF publié, pas à une future version modifiée.
 
 Les commandes suivantes s’exécutent depuis un **espace source** contenant à sa racine `6241 Léger/`, `6280 Somerled NDG/`, `HARMONY MOVERS/`, `documentation/` et `scripts/`, comme le dossier de travail OneDrive. Cette disposition diffère du répertoire **docs/** du clone publié; conserver les originaux et les manifestes lors de la préparation d’un nouvel espace source. Les lecteurs `.md.html` et les index de répertoires sont des sorties générées.
 
 ```sh
 python scripts/build_case_portal.py
-python scripts/build_dossier_hub.py
+python scripts/build_master_corpus.py
+python scripts/build_master_workspace.py
+python scripts/site/verify_reader_navigation.py
+python scripts/site/verify_remote_site.py
 python scripts/build_remote_site.py --audit-only
 python scripts/build_remote_site.py --build
 python scripts/site/verify_static_transport.py
@@ -113,6 +123,8 @@ Les pièces, courriels, textes OCR, classeur, présentation, index et synthèses
 
 Le site permet consultation, recherche et téléchargement. Les modifications passent par GitHub authentifié ou l’espace source, puis une nouvelle génération/publication. Modifier un Markdown ne met pas automatiquement à jour son lecteur HTML ni les index. Il n’y a pas de synchronisation automatique avec OneDrive.
 
+{master_note}
+
 {rule}
 
 {fieldy_note} Les limites de couverture sont conservées dans les synthèses; la publication n’implique pas que tous les échanges et toutes les pièces possibles ont été obtenus.
@@ -125,7 +137,8 @@ Le site permet consultation, recherche et téléchargement. Les modifications pa
     (ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md').write_text(status,encoding='utf-8')
     selected=[ROOT/'README.md',ROOT/'documentation/ETAT-PUBLICATION-GITHUB.md',ROOT/'documentation/REGLES-COMMUNES.md']
     selected += [p for p in (ROOT/'scripts').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.ps1','.html'}]
-    selected += [p for p in (ROOT/'scripts/site').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.js','.css','.md'}]
+    selected += [p for p in (ROOT/'scripts/site').iterdir() if p.is_file() and p.suffix in {'.py','.mjs','.cjs','.js','.css','.md'}]
+    selected += sorted(p for p in (ROOT/'scripts/master').glob('*') if p.is_file() and p.suffix in {'.js','.css'})
     selected += sorted((ROOT/'scripts/remise-dufourd').glob('*.json'))
     for source in selected:
         dest=REPO/source.relative_to(ROOT);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,dest)

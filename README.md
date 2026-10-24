@@ -4,7 +4,9 @@
 
 Le site rassemble trois dossiers : **6241 Léger**, **6280 Somerled NDG** et **HARMONY MOVERS**. Il permet la consultation, la recherche et le téléchargement des documents classés. Le tableau de bord Léger contient aussi une recherche dans les textes PDF/OCR et une chronologie attribuée aux sources. Le classeur comptable et le PowerPoint se téléchargent depuis les rubriques du dossier Léger.
 
-La [remise documentaire Dufourd](https://takatakca.github.io/assurance-6241/HARMONY%20MOVERS/12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md.html) rassemble les réponses préparées, les pièces annexées et les téléchargements disponibles. Elle distingue les pièces disponibles et les vérifications ouvertes; la publication ne signifie pas que les documents ont été envoyés au cabinet.
+La [remise documentaire Dufourd](https://takatakca.github.io/assurance-6241/HARMONY%20MOVERS/12_Remise_Dufourd_2026-10-21/LIRE-EN-PREMIER.md.html) rassemble les réponses préparées, les pièces annexées et les téléchargements disponibles. Elle distingue les pièces disponibles et les vérifications ouvertes; la publication ne signifie pas que les documents ont été envoyés au cabinet. Le PDF compte 85 pages et le bordereau 216 annexes distinctes. La matrice indique 2 documents demandés disponibles, 15 réponses partielles et 8 documents demandés non repérés. Ces catégories décrivent la disponibilité documentaire.
+
+Le [bilan de la recherche complémentaire](https://takatakca.github.io/assurance-6241/HARMONY%20MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html) présente les pièces nouvelles, leur provenance et les documents encore manquants. Les états financiers, données de plateformes, déclarations fiscales et devis ne sont pas assimilés à un dommage net démontré.
 
 ## Provenance et couverture
 
@@ -38,6 +40,6 @@ Le paquet `dist-site/` est contrôlé avant publication. [Les outils de publicat
 
 ## Publication vérifiée
 
-Le paquet publié contient 1,872 fichiers, dont 1,639 sources sélectionnées et 123 lecteurs Markdown, pour environ 578.03 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
+Le paquet publié contient 2,581 fichiers, dont 2,304 sources sélectionnées et 130 lecteurs Markdown, pour environ 673.85 Mo. Le manifeste distingue sources, copies et pages générées; ces nombres ne sont pas des nombres de preuves distinctes.
 
-[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/cc9691cbdad52ee5793afa3e2c92e643b075db34). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-21T22:19:24.676641+00:00. La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.
+[Commit du paquet documentaire](https://github.com/takatakca/assurance-6241/commit/f169b9e0d299aa82760b19cbc7c3f722ebd2b6a4). Le hub, les trois entrées de dossier, un PDF et un courriel EML ont répondu HTTP 200 avec des empreintes identiques au paquet local le 2026-10-23 à 23:52 EDT. La vérification couvre également l’entrée de la remise Dufourd, son PDF et une archive ZIP. Les vérifications ne constituent pas une attestation d’exhaustivité de tous les comptes courriel ou ChatGPT.

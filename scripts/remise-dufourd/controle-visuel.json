@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "pdf_sha256": "1f9068bf78387f362c68e631bccf911f29c56b058d48b3508f5374a8d7c29b30",
+  "date": "2026-10-23",
+  "pdf_sha256": "fe20d9d4c07b4151940e1147cce18c91ddf6e4920bb32d87369199e7c23b53a0",
   "pages_revisees": [
     1,
     2,
@@ -58,30 +58,64 @@
     54,
     55,
     56,
-    57
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
   ],
   "defauts_restants": [],
-  "methode": "Rendu Poppler 1500 px; lecture visuelle de chaque page. Second contrôle après correction des titres et lignes orphelins, ponctuation et espaces. Dernière correction limitée aux pages 15 et 43 : images relues; les 55 autres rendus PNG sont identiques à la version déjà contrôlée.",
+  "methode": "Inspection visuelle des 85 pages rendues par Poppler. Correction de la répétition « facture facture » page 17 puis nouvelle inspection visuelle par root de la page 17. Comparaison pixel par pixel des 85 rendus ancien/nouveau : les 84 autres pages sont identiques aux pages contrôlées.",
   "relectures": {
-    "root": [
+    "qa_dufourd_1": [
       1,
-      14
-    ],
-    "extraction_portrait_chatgpt": [
-      15,
-      29
-    ],
-    "audit_corpus_emails": [
-      30,
       43
     ],
-    "master_comptable": [
+    "qa_dufourd_2": [
       44,
-      57
+      85
+    ],
+    "root_apres_correction": [
+      17
     ]
   },
-  "dernieres_pages_reverifiees_par_root": [
-    15,
-    43
-  ]
+  "rapports_sources": [
+    "qa-complements-pages1-43.json",
+    "qa-complements-pages44-85.json"
+  ],
+  "sha256_avant_correction": "bc0b4d01daa0c83d4f2c349b2f6439ede8c9fd20c067cba9bc736a7faa0e3494",
+  "comparaison_pixels": {
+    "ancien_sha256": "bc0b4d01daa0c83d4f2c349b2f6439ede8c9fd20c067cba9bc736a7faa0e3494",
+    "pdf_sha256": "fe20d9d4c07b4151940e1147cce18c91ddf6e4920bb32d87369199e7c23b53a0",
+    "pages": 85,
+    "pages_changees": [
+      17
+    ],
+    "methode": "Comparaison de chaque pixel RGB des rendus Poppler ancien/nouveau avec les mêmes paramètres : pages 1–43 à 120 dpi; pages 44–85 à 1600 px maximum."
+  },
+  "observation_corrigee": "Répétition du mot facture, page 17."
 }

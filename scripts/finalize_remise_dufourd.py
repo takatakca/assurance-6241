@@ -4,6 +4,9 @@ import csv, hashlib, io, json, zipfile
 from pypdf import PdfReader
 from build_remise_dufourd import ROOT, OUT, LABELS, sha, jwrite
 
+# Date de la reprise et de la finalisation; le corpus documentaire demeure daté du 21 octobre.
+FINALISATION_DATE = '2026-10-23'
+
 rows=json.loads((OUT/'SUIVI-DES-DEMANDES.json').read_text(encoding='utf-8'))
 ann=json.loads((OUT/'BORDEREAU-DES-ANNEXES.json').read_text(encoding='utf-8'))
 pdf=OUT/'REPONSES-AUX-25-DEMANDES.pdf'
@@ -13,6 +16,8 @@ assert qa['pdf_sha256']==sha(pdf), 'Contrôle visuel correspondant au PDF final 
 assert sorted(qa['pages_revisees'])==list(range(1,pages+1)) and not qa['defauts_restants']
 assert len(rows)==25 and len({r['id'] for r in rows})==25
 assert len(ann)==len({a['sha256'] for a in ann})
+assert len(ann)==len({a['id'] for a in ann})==len({a['fichier'] for a in ann})
+annex_count=len(ann)
 for a in ann:
     assert sha(OUT/a['fichier'])==sha(ROOT/a['source'])==a['sha256'],a['id']
 
@@ -53,14 +58,15 @@ with oldcsv.open('w',encoding='utf-8-sig',newline='') as f:
     w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(oldrows)
 
 control=json.loads((OUT/'CONTROLES-DU-DOSSIER.json').read_text(encoding='utf-8'))
-control.update(pdf_controle_visuel='Toutes les pages du PDF final ont été contrôlées visuellement; aucun défaut restant.',pdf_pages=pages,pdf_sha256=sha(pdf),pages_controlees=qa['pages_revisees'],references_pieces=sum(len(r['pieces']) for r in rows))
+control.update(date_finalisation=FINALISATION_DATE,pdf_controle_visuel='Toutes les pages du PDF final ont été contrôlées visuellement; aucun défaut restant.',pdf_pages=pages,pdf_sha256=sha(pdf),pages_controlees=qa['pages_revisees'],references_pieces=sum(len(r['pieces']) for r in rows))
 jwrite(OUT/'CONTROLES-DU-DOSSIER.json',control)
 
 zipname='DOSSIER-DUFOURD-2026-10-21.zip'
 readme=OUT/'LIRE-EN-PREMIER.md'
 text=readme.read_text(encoding='utf-8')
-block=f'\n## Télécharger et remettre\n\n[Télécharger le dossier complet en ZIP]({zipname}). Décompresser ce fichier dans un dossier, puis ouvrir REPONSES-AUX-25-DEMANDES.pdf. Le dossier contient les 75 annexes avec leur bordereau, les réponses modifiables, les documents à obtenir et le projet de courriel. Les analyses initialement en Markdown sont conservées sous extension .txt, sans modification de leurs octets.\n\nLe contrôle visuel porte sur les {pages} pages du PDF final. Les 75 annexes correspondent aux empreintes des sources; les vérifications comptables ou documentaires restant ouvertes demeurent indiquées dans les réponses.\n'
+block=f'\n## Télécharger et remettre\n\n[Télécharger le dossier complet en ZIP]({zipname}). Décompresser ce fichier dans un dossier, puis ouvrir REPONSES-AUX-25-DEMANDES.pdf. Le dossier contient les {annex_count} annexes avec leur bordereau, les réponses modifiables, les documents à obtenir et le projet de courriel. Les analyses initialement en Markdown sont conservées sous extension .txt, sans modification de leurs octets.\n\nLe contrôle visuel porte sur les {pages} pages du PDF final. Les {annex_count} annexes correspondent aux empreintes des sources; les vérifications comptables ou documentaires restant ouvertes demeurent indiquées dans les réponses.\n'
 if '## Télécharger et remettre' in text:text=text.split('\n## Télécharger et remettre')[0]
+block += '\nVersion contrôlée et archive finalisée le 23 octobre 2026 à partir du corpus daté du 21 octobre 2026. Cette finalisation ne constitue pas une nouvelle recherche des messages reçus les 22 et 23 octobre.\n'
 readme.write_text(text+block,encoding='utf-8')
 # Dans l'archive, le lien vers l'archive elle-même n'est pas nécessaire.
 package_files=[p for p in OUT.rglob('*') if p.is_file() and p.suffix.lower()!='.zip' and p.name!='ARCHIVE-CONTROLE.json']
@@ -72,6 +78,6 @@ with zipfile.ZipFile(OUT/zipname) as z:
     for a in ann:assert hashlib.sha256(z.read(a['fichier'])).hexdigest()==a['sha256']
     for p in package_files:assert hashlib.sha256(z.read(p.relative_to(OUT).as_posix())).hexdigest()==sha(p)
 assert (OUT/zipname).stat().st_size<95*1024*1024
-result={'archive':zipname,'octets':(OUT/zipname).stat().st_size,'sha256':sha(OUT/zipname),'fichiers':len(package_files),'annexes':len(ann),'controle_crc':'réussi','empreintes_annexes':'75 sur 75 conformes aux sources','transmission':'non effectuée'}
+result={'date_finalisation':FINALISATION_DATE,'archive':zipname,'octets':(OUT/zipname).stat().st_size,'sha256':sha(OUT/zipname),'fichiers':len(package_files),'annexes':annex_count,'controle_crc':'réussi','empreintes_annexes':f'{annex_count} sur {annex_count} conformes aux sources','transmission':'non effectuée'}
 jwrite(OUT/'ARCHIVE-CONTROLE.json',result)
 print(json.dumps(result,ensure_ascii=False))

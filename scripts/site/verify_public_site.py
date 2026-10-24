@@ -21,7 +21,11 @@ eml=min((p for p in manifest['output_files'] if p.lower().endswith('.eml')),
 paths.append(eml)
 for path in ['HARMONY MOVERS/11_Fieldy/README.md.html',
              'HARMONY MOVERS/11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md.html',
-             'HARMONY MOVERS/11_Fieldy/texte-natif-pages.json']:
+             'HARMONY MOVERS/11_Fieldy/texte-natif-pages.json',
+             'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md.html',
+             'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PROVENANCE-OOEUF.json',
+             'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Scan2026-04-03_120155.pdf',
+             'HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/Declaration-TPS-TVQ-2024-09-30.pdf']:
     if path in manifest['output_files']:paths.append(path)
 remise='HARMONY MOVERS/12_Remise_Dufourd_2026-10-21/'
 if remise+'LIRE-EN-PREMIER.md.html' in manifest['output_files']:paths.append(remise+'LIRE-EN-PREMIER.md.html')

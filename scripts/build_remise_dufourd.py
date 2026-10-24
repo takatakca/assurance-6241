@@ -47,6 +47,10 @@ BASE = [
 ('HARMONY MOVERS/11_Fieldy/ANALYSE-FIELDY-POUR-CABINET.md','Analyse documentaire de la transcription Fieldy','analyse'),
 ('HARMONY MOVERS/11_Fieldy/acquisition-pdf.json','Provenance et empreinte de l’export Fieldy','analyse'),
 ('HARMONY MOVERS/07_Assurance_et_etat_anterieur/Collecte_2026-10-21/PROVENANCE-SNB.json','Provenance et contrôle visuel de la lettre SNB du 4 août 2026','analyse')]
+BASE += [
+('HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/BILAN-DE-LA-RECHERCHE.md','Bilan de la recherche complémentaire du 21 octobre 2026 et évolution des demandes','analyse'),
+('HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_Ooeuf/PROVENANCE-OOEUF.json','Provenance et empreintes des pièces natives récupérées dans Ooeuf','analyse'),
+('HARMONY MOVERS/13_Complements_Dufourd_2026-10-21/Recherche_ChatGPT/ANALYSE-NOUVEAUX-RAPPORTS-HUISSIER.md','Contrôle des rapports de saisie et du procès-verbal signé nouvellement acquis','analyse')]
 
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def jwrite(p, data): p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n',encoding='utf-8')
@@ -71,14 +75,51 @@ def load_rows():
         for p in r['pieces']: source_path(p['path'])
     return rows
 
+def load_annexe_registry():
+    """Réutilise les cotes publiées et refuse toute divergence avant allocation."""
+    manifest=OUT/'BORDEREAU-DES-ANNEXES.json'
+    annex_dir=(OUT/'ANNEXES').resolve()
+    if not manifest.exists():
+        if annex_dir.exists() and any(annex_dir.iterdir()):
+            raise ValueError('ANNEXES existe sans bordereau : allocation interrompue pour préserver les cotes')
+        return {},0
+    previous=json.loads(manifest.read_text(encoding='utf-8-sig'))
+    if not isinstance(previous,list): raise ValueError('Bordereau antérieur invalide')
+    byhash={}; used_ids=set(); used_paths=set(); highest=0
+    for prior in previous:
+        entry=dict(prior)
+        ident=s(entry.get('id')); digest=s(entry.get('sha256')).lower()
+        match=re.fullmatch(r'A(\d{3,})',ident)
+        if not match or int(match.group(1))<1 or ident in used_ids:
+            raise ValueError('Cote antérieure invalide ou répétée : '+ident)
+        if not re.fullmatch(r'[a-f0-9]{64}',digest) or digest in byhash:
+            raise ValueError('Empreinte antérieure invalide ou répétée : '+ident)
+        relative=Path(s(entry.get('fichier')).replace('\\','/'))
+        dst=(OUT/relative).resolve()
+        if not dst.is_relative_to(annex_dir) or not dst.name.startswith(ident+'__') or dst in used_paths:
+            raise ValueError('Chemin d’annexe antérieure invalide : '+ident)
+        if not dst.is_file() or sha(dst)!=digest:
+            raise ValueError('Annexe antérieure absente ou modifiée : '+ident)
+        if sha(source_path(entry.get('source')))!=digest:
+            raise ValueError('Source antérieure modifiée : '+ident)
+        entry['sha256']=digest
+        entry['copies_identiques']=list(entry.get('copies_identiques',[]))
+        entry['demandes']=[]  # Les références de la nouvelle version sont recalculées.
+        entry['utilisee_dans_version_courante']=False
+        byhash[digest]=entry; used_ids.add(ident); used_paths.add(dst)
+        highest=max(highest,int(match.group(1)))
+    # Les anciennes annexes restent inscrites même si une réponse ne les cite plus.
+    return byhash,highest
+
 def annexes(rows):
-    byhash={}; bypath={}
+    byhash,highest=load_annexe_registry(); bypath={}
     entries=[{'path':p,'apport':a,'nature':n,'demande':None} for p,a,n in BASE]
     entries += [dict(p,demande=r['id']) for r in rows for p in r['pieces']]
     for item in entries:
         src=source_path(item['path']); relative=src.relative_to(ROOT).as_posix(); digest=sha(src)
         if digest not in byhash:
-            ident=f'A{len(byhash)+1:03d}'
+            highest+=1
+            ident=f'A{highest:03d}'
             basename=re.sub(r'[^\w. -]+','_',src.stem,flags=re.UNICODE).strip(' .')[:66]
             # Les analyses sont conservées octet pour octet comme texte autonome;
             # leurs liens relatifs ne doivent pas être réinterprétés dans ANNEXES.
@@ -86,6 +127,7 @@ def annexes(rows):
             dst=f'ANNEXES/{ident}__{basename}{suffix}'
             byhash[digest]={'id':ident,'fichier':dst,'source':relative,'copies_identiques':[], 'sha256':digest,'octets':src.stat().st_size,'nature':s(item.get('nature')),'demandes':[], 'description':s(item.get('apport'))}
         entry=byhash[digest]
+        entry['utilisee_dans_version_courante']=True
         if relative!=entry['source'] and relative not in entry['copies_identiques']: entry['copies_identiques'].append(relative)
         if item['demande'] and item['demande'] not in entry['demandes']: entry['demandes'].append(item['demande'])
         bypath[relative]=entry
@@ -93,7 +135,7 @@ def annexes(rows):
         for p in r['pieces']:
             entry=bypath[source_path(p['path']).relative_to(ROOT).as_posix()]
             p.update(annexe=entry['id'],fichier_remise=entry['fichier'])
-    return list(byhash.values())
+    return sorted(byhash.values(),key=lambda a:int(a['id'][1:]))
 
 def write_csv(path,fields,rows):
     with path.open('w',encoding='utf-8-sig',newline='') as f:
